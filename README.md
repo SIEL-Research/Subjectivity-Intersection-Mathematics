@@ -30,6 +30,15 @@ The program distinguishes three mathematically different possibilities:
 The Markdown and PDF files in this repository are the author-maintained source
 copies corresponding to the ResearchGate publication.
 
+## Research Foundations
+
+- [Definitions, evidence gates, and experimental design](docs/FOUNDATIONS.md)
+
+This document records the current operational distinction between an
+instantaneous relation and a history-bearing relational carrier, defines the
+seven evidence gates for a `C_intersection` candidate, and specifies the
+architecture of the first dyadic experiment.
+
 ## Research Direction
 
 The current program studies:
