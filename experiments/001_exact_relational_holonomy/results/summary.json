@@ -1,0 +1,95 @@
+{
+  "actions": {
+    "A": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "B": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "B_substitute": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  "claim_boundary": {
+    "computed": "A path-ordered non-Abelian carrier distinguishes histories that are identical to the registered non-relational nulls.",
+    "not_established": [
+      "human or biological relational carriers",
+      "subjectivity",
+      "ontological irreducibility",
+      "uniqueness of the latent carrier explanation",
+      "separation from unrestricted full-history models"
+    ],
+    "system": "The finite benchmark exhibits exact relational holonomy, feedback, pair sensitivity, and gauge-covariant transfer."
+  },
+  "distinct_null_signatures": 1,
+  "distinct_relational_carriers": 3,
+  "evidence_gates": {
+    "G_gauge_invariance": true,
+    "H_history_irreducibility": true,
+    "I_intervention_sensitivity": true,
+    "J_joint_generation": true,
+    "N_registered_null_separation": true,
+    "P_pair_specificity": true,
+    "T_frozen_transfer": true
+  },
+  "experiment": "exact_relational_holonomy",
+  "gauge_history_cases": 144,
+  "gauge_transformations": 24,
+  "histories_audited": [
+    "AABB",
+    "ABAB",
+    "ABBA",
+    "BAAB",
+    "BABA",
+    "BBAA"
+  ],
+  "holonomy_carrier": [
+    1,
+    2,
+    0,
+    3
+  ],
+  "holonomy_cycle_type": [
+    3,
+    1
+  ],
+  "holonomy_feedback": [
+    1,
+    1
+  ],
+  "holonomy_history": "ABAB",
+  "holonomy_order": 3,
+  "reference_carrier": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "reference_feedback": [
+    0,
+    2
+  ],
+  "reference_history": "AABB",
+  "schema": "siel-experiment-001-exact-relational-holonomy-v1",
+  "state_space": "S4 acting on four labels",
+  "status": "ok",
+  "substitute_partner_carrier": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "substitute_partner_feedback": [
+    0,
+    2
+  ]
+}

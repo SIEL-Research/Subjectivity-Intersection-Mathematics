@@ -313,11 +313,10 @@ Pasquale.
 The formulation presented here, including its remaining limitations and
 errors, is the responsibility of the author.
 
-## 11. Next implementation target
+## 11. Implementation program
 
-The next public experiment will be a **Relational Carrier Discrimination
-Benchmark**. It will compare a stateful relational-carrier model against
-prespecified alternatives representing:
+The **Relational Carrier Discrimination Benchmark** compares a stateful
+relational-carrier model against prespecified alternatives representing:
 
 - independent individual dynamics;
 - a shared external driver;
@@ -327,5 +326,11 @@ prespecified alternatives representing:
 - individual memory without a relational state;
 - analytical artifacts introduced by the observation or fitting procedure.
 
-The benchmark will publish its hypotheses, executable code, inputs, outputs,
+The benchmark publishes its hypotheses, executable code, inputs, outputs,
 acceptance checks, and interpretation boundaries together.
+
+The first package is
+[Experiment 001 — Exact Relational Holonomy](../experiments/001_exact_relational_holonomy/README.md).
+It is a finite calibration test that audits all seven evidence gates under
+exact arithmetic before the program moves to noisy synthetic data or human
+dyadic experiments.

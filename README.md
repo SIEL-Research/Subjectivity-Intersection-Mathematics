@@ -39,6 +39,16 @@ instantaneous relation and a history-bearing relational carrier, defines the
 seven evidence gates for a `C_intersection` candidate, and specifies the
 architecture of the first dyadic experiment.
 
+## Experiments
+
+- [Experiment index](experiments/README.md)
+- [Experiment 001 — Exact Relational Holonomy](experiments/001_exact_relational_holonomy/README.md)
+
+Experiment 001 is an exact finite calibration benchmark. It tests whether the
+seven evidence gates can distinguish a path-ordered relational state from
+endpoint, individual-memory, shared-driver, static-object, and coordinate-gauge
+alternatives. It is not presented as evidence for human subjectivity.
+
 ## Research Direction
 
 The current program studies:
@@ -53,8 +63,8 @@ The current program studies:
 - gauge-invariant and experimentally testable criteria for a
   `C_intersection` candidate.
 
-The next public stage will add audited, reproducible experiment packages whose
-code, inputs, outputs, and claim boundaries can be inspected together.
+The public experiment series publishes audited packages whose code, inputs,
+outputs, and claim boundaries can be inspected together.
 
 ## Citation
 
@@ -66,6 +76,9 @@ Closure*. Research white paper.
 
 Copyright (c) 2026 Satoru Watanabe.
 
-No open-source or Creative Commons license has yet been granted for the
-contents of this repository. A code license will be selected after source and
-dependency provenance has been audited.
+Python source files under `experiments/` are licensed under the
+[Apache License 2.0](LICENSE-CODE).
+
+The white paper, research documents, and generated research outputs are not
+included in that code license. No Creative Commons license has been granted
+for them unless a file explicitly states otherwise.
