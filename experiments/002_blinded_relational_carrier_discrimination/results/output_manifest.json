@@ -1,0 +1,13 @@
+{
+  "files_before_manifest": {
+    "gauge_predictions.csv": "b783137681c24e57a8b0e5a0c451511fa696ad28ef83136037103ae9b0403267",
+    "ground_truth.sealed.json": "95d687e78ffc714cc76594f081bdc8d33f4843d58ff39822ad245f8d8e4131e0",
+    "metrics.csv": "5081fcab5b6547e4152a60f317bafc074c8fc015db1009037ca99cc3f7fbd537",
+    "observed.csv.gz": "f2c414258c3ae56209527bdee3118c16b1f7d82f78fbffa5af5d104a31e76fd8",
+    "predictions.csv": "2ec96b6c091bf21a15bdc12205b67a7e780d7878ca1708b9599646c074ad6e45",
+    "predictions.csv.sha256": "0d30ca416d9bff8af5505394e06cde6ccbfb842daf004b114c3d6798f519c475",
+    "summary.json": "d13be95429b7db38141838f7ea7927b4111b4e9517cead014e940e2f562d4003"
+  },
+  "mode": "confirmatory",
+  "schema": "siel-experiment-002-blinded-relational-carrier-v1"
+}

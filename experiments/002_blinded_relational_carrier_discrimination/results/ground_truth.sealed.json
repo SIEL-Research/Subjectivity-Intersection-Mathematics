@@ -1,0 +1,1446 @@
+{
+  "ground_truth": [
+    {
+      "dataset_id": "de0eae0b9134aba1dd3f",
+      "family": "G0-I",
+      "pair_tag": "S00:S01",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S01"
+    },
+    {
+      "dataset_id": "087f1fc2d77da9ecf8ed",
+      "family": "G0-I",
+      "pair_tag": "S02:S03",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S02",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "09e759be4f46518d8426",
+      "family": "G0-I",
+      "pair_tag": "S04:S05",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S05"
+    },
+    {
+      "dataset_id": "fd3ca13e85c7579721e1",
+      "family": "G0-I",
+      "pair_tag": "S06:S07",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S06",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "c695486678de191ff24b",
+      "family": "G0-I",
+      "pair_tag": "S08:S09",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S09"
+    },
+    {
+      "dataset_id": "32575fd496b2904cfba5",
+      "family": "G0-I",
+      "pair_tag": "S10:S11",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S10",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "b8c61ed634cb1fa0e301",
+      "family": "G0-I",
+      "pair_tag": "S12:S13",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S13"
+    },
+    {
+      "dataset_id": "35798109570069965b97",
+      "family": "G0-I",
+      "pair_tag": "S14:S15",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S14",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "614218825c2d0fb29d9d",
+      "family": "G0-C",
+      "pair_tag": "S00:S01",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S01"
+    },
+    {
+      "dataset_id": "aebe50d939e8cd708ca9",
+      "family": "G0-C",
+      "pair_tag": "S02:S03",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S02",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "c9abf3fd78d983359fd5",
+      "family": "G0-C",
+      "pair_tag": "S04:S05",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S05"
+    },
+    {
+      "dataset_id": "9ce29704edc5fadd9a8d",
+      "family": "G0-C",
+      "pair_tag": "S06:S07",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S06",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "9cf7c2f5916aab01dfd7",
+      "family": "G0-C",
+      "pair_tag": "S08:S09",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S09"
+    },
+    {
+      "dataset_id": "a432a301a964797b9f17",
+      "family": "G0-C",
+      "pair_tag": "S10:S11",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S10",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "eced9724de8cd598cb4b",
+      "family": "G0-C",
+      "pair_tag": "S12:S13",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S13"
+    },
+    {
+      "dataset_id": "c6f7d50ddb0a61c0a883",
+      "family": "G0-C",
+      "pair_tag": "S14:S15",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S14",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "2edf109d7e3d1d63e26b",
+      "family": "G0-D",
+      "pair_tag": "S00:S01",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S01"
+    },
+    {
+      "dataset_id": "a8050a8b607f33acca1b",
+      "family": "G0-D",
+      "pair_tag": "S02:S03",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S02",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "d477e4947d38da70feda",
+      "family": "G0-D",
+      "pair_tag": "S04:S05",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S05"
+    },
+    {
+      "dataset_id": "584e51f3411f95507269",
+      "family": "G0-D",
+      "pair_tag": "S06:S07",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S06",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "801ce6c13326ac25bd68",
+      "family": "G0-D",
+      "pair_tag": "S08:S09",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S09"
+    },
+    {
+      "dataset_id": "f5bcf5a76aa3fd023785",
+      "family": "G0-D",
+      "pair_tag": "S10:S11",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S10",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "83e925d1d2c7427eed48",
+      "family": "G0-D",
+      "pair_tag": "S12:S13",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S13"
+    },
+    {
+      "dataset_id": "cd04a813ec94fbc0b2d1",
+      "family": "G0-D",
+      "pair_tag": "S14:S15",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S14",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "e71f06a7069dd7bbe7e9",
+      "family": "G0-X",
+      "pair_tag": "S00:S01",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S01"
+    },
+    {
+      "dataset_id": "b41f9cf95f0b2d0e0271",
+      "family": "G0-X",
+      "pair_tag": "S02:S03",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S02",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "0a4e5ab4145f60fcc005",
+      "family": "G0-X",
+      "pair_tag": "S04:S05",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S05"
+    },
+    {
+      "dataset_id": "0b17805dd966dd027a78",
+      "family": "G0-X",
+      "pair_tag": "S06:S07",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S06",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "ae0958052066faee4e8e",
+      "family": "G0-X",
+      "pair_tag": "S08:S09",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S09"
+    },
+    {
+      "dataset_id": "00003effcb6ec0d21185",
+      "family": "G0-X",
+      "pair_tag": "S10:S11",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S10",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "668f424d684995a44646",
+      "family": "G0-X",
+      "pair_tag": "S12:S13",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S13"
+    },
+    {
+      "dataset_id": "511953bc95a60210f8e7",
+      "family": "G0-X",
+      "pair_tag": "S14:S15",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S14",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "0de6c8bfa2e5977c2a1e",
+      "family": "G0-H",
+      "pair_tag": "S00:S01",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S01"
+    },
+    {
+      "dataset_id": "8cd794d40a0e321b1a1d",
+      "family": "G0-H",
+      "pair_tag": "S02:S03",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S02",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "54411a195f2cc168f729",
+      "family": "G0-H",
+      "pair_tag": "S04:S05",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S05"
+    },
+    {
+      "dataset_id": "ac9db515f3bc85d84b65",
+      "family": "G0-H",
+      "pair_tag": "S06:S07",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S06",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "ea0614c112f716c9666a",
+      "family": "G0-H",
+      "pair_tag": "S08:S09",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S09"
+    },
+    {
+      "dataset_id": "b8e0a973ae1dcd8ecc5d",
+      "family": "G0-H",
+      "pair_tag": "S10:S11",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S10",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "f50a2ce9d4fab1ab2ea9",
+      "family": "G0-H",
+      "pair_tag": "S12:S13",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S13"
+    },
+    {
+      "dataset_id": "32fd16aa743e45abfef0",
+      "family": "G0-H",
+      "pair_tag": "S14:S15",
+      "transfer": "T1",
+      "true_class": 0,
+      "unit_A": "S14",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "f17c9bc9c450f1f75112",
+      "family": "G1-F",
+      "pair_tag": "S00:S01",
+      "transfer": "T1",
+      "true_class": 1,
+      "unit_A": "S00",
+      "unit_B": "S01"
+    },
+    {
+      "dataset_id": "2669f56b828f13d9eae9",
+      "family": "G1-F",
+      "pair_tag": "S02:S03",
+      "transfer": "T1",
+      "true_class": 1,
+      "unit_A": "S02",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "8f7267541b4f13b5e0b9",
+      "family": "G1-F",
+      "pair_tag": "S04:S05",
+      "transfer": "T1",
+      "true_class": 1,
+      "unit_A": "S04",
+      "unit_B": "S05"
+    },
+    {
+      "dataset_id": "8c6f70aaad23ee80aac4",
+      "family": "G1-F",
+      "pair_tag": "S06:S07",
+      "transfer": "T1",
+      "true_class": 1,
+      "unit_A": "S06",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "54e2c9ab871e73a8fb95",
+      "family": "G1-F",
+      "pair_tag": "S08:S09",
+      "transfer": "T1",
+      "true_class": 1,
+      "unit_A": "S08",
+      "unit_B": "S09"
+    },
+    {
+      "dataset_id": "9bd8ac6e3886d0404f60",
+      "family": "G1-F",
+      "pair_tag": "S10:S11",
+      "transfer": "T1",
+      "true_class": 1,
+      "unit_A": "S10",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "3a958478c4e4a048a78e",
+      "family": "G1-F",
+      "pair_tag": "S12:S13",
+      "transfer": "T1",
+      "true_class": 1,
+      "unit_A": "S12",
+      "unit_B": "S13"
+    },
+    {
+      "dataset_id": "aa037a33ca92b639872f",
+      "family": "G1-F",
+      "pair_tag": "S14:S15",
+      "transfer": "T1",
+      "true_class": 1,
+      "unit_A": "S14",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "dd331063e4209b5fb5c1",
+      "family": "G2-P",
+      "pair_tag": "S00:S01",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S00",
+      "unit_B": "S01"
+    },
+    {
+      "dataset_id": "b0b1a163e61a7e9bf736",
+      "family": "G2-P",
+      "pair_tag": "S02:S03",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S02",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "8f99f2abeec4538ab9fe",
+      "family": "G2-P",
+      "pair_tag": "S04:S05",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S04",
+      "unit_B": "S05"
+    },
+    {
+      "dataset_id": "37930a9d751e220d8ef6",
+      "family": "G2-P",
+      "pair_tag": "S06:S07",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S06",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "4e945d246555439fb025",
+      "family": "G2-P",
+      "pair_tag": "S08:S09",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S08",
+      "unit_B": "S09"
+    },
+    {
+      "dataset_id": "bc7fe55163fb1b5df531",
+      "family": "G2-P",
+      "pair_tag": "S10:S11",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S10",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "2d8d19222ee73a23d05e",
+      "family": "G2-P",
+      "pair_tag": "S12:S13",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S12",
+      "unit_B": "S13"
+    },
+    {
+      "dataset_id": "e9fa9d0a396c2e0f7701",
+      "family": "G2-P",
+      "pair_tag": "S14:S15",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S14",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "b1f30cbd40ecffa38394",
+      "family": "G2-M",
+      "pair_tag": "S00:S01",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S00",
+      "unit_B": "S01"
+    },
+    {
+      "dataset_id": "fc1c3c65009ef93b40df",
+      "family": "G2-M",
+      "pair_tag": "S02:S03",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S02",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "6bc08c593ea3b529e693",
+      "family": "G2-M",
+      "pair_tag": "S04:S05",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S04",
+      "unit_B": "S05"
+    },
+    {
+      "dataset_id": "efdba38f25ff01a45080",
+      "family": "G2-M",
+      "pair_tag": "S06:S07",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S06",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "62fb7245aea090b8db38",
+      "family": "G2-M",
+      "pair_tag": "S08:S09",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S08",
+      "unit_B": "S09"
+    },
+    {
+      "dataset_id": "9d9fddc0ae75bad102e4",
+      "family": "G2-M",
+      "pair_tag": "S10:S11",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S10",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "1a2c5616fad5709568df",
+      "family": "G2-M",
+      "pair_tag": "S12:S13",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S12",
+      "unit_B": "S13"
+    },
+    {
+      "dataset_id": "6a5eda723563aeafca33",
+      "family": "G2-M",
+      "pair_tag": "S14:S15",
+      "transfer": "T1",
+      "true_class": 2,
+      "unit_A": "S14",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "bd874b4add419c9a0fc7",
+      "family": "G0-I",
+      "pair_tag": "S00:S02",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S02"
+    },
+    {
+      "dataset_id": "02b0d8c28365b0bc093b",
+      "family": "G0-I",
+      "pair_tag": "S01:S03",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S01",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "e507df31941fcda8941d",
+      "family": "G0-I",
+      "pair_tag": "S04:S06",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S06"
+    },
+    {
+      "dataset_id": "0e6e7161448d80550d88",
+      "family": "G0-I",
+      "pair_tag": "S05:S07",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S05",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "a888095ed1ddb45adc93",
+      "family": "G0-I",
+      "pair_tag": "S08:S10",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S10"
+    },
+    {
+      "dataset_id": "a2227884ae58fbb7a41b",
+      "family": "G0-I",
+      "pair_tag": "S09:S11",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S09",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "bac71725a3c897792f89",
+      "family": "G0-I",
+      "pair_tag": "S12:S14",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S14"
+    },
+    {
+      "dataset_id": "8a8342566c4c51154a4e",
+      "family": "G0-I",
+      "pair_tag": "S13:S15",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S13",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "500d75c49430f1c10da0",
+      "family": "G0-C",
+      "pair_tag": "S00:S02",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S02"
+    },
+    {
+      "dataset_id": "0c93cdf452d54f4c2134",
+      "family": "G0-C",
+      "pair_tag": "S01:S03",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S01",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "f72c392bf69ccf1d233d",
+      "family": "G0-C",
+      "pair_tag": "S04:S06",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S06"
+    },
+    {
+      "dataset_id": "6ea5a1027e785d45eeaa",
+      "family": "G0-C",
+      "pair_tag": "S05:S07",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S05",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "42f4982b5e09e85b3ee1",
+      "family": "G0-C",
+      "pair_tag": "S08:S10",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S10"
+    },
+    {
+      "dataset_id": "43e69ef080bbd6330979",
+      "family": "G0-C",
+      "pair_tag": "S09:S11",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S09",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "60bafa01c4d1b4551d67",
+      "family": "G0-C",
+      "pair_tag": "S12:S14",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S14"
+    },
+    {
+      "dataset_id": "806fe38ec0c42ea3d661",
+      "family": "G0-C",
+      "pair_tag": "S13:S15",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S13",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "fadd49b5b8d43c3a4328",
+      "family": "G0-D",
+      "pair_tag": "S00:S02",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S02"
+    },
+    {
+      "dataset_id": "0ccbd2abf54a69ea0db6",
+      "family": "G0-D",
+      "pair_tag": "S01:S03",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S01",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "b6d12f0a5e9b1e4ff6ef",
+      "family": "G0-D",
+      "pair_tag": "S04:S06",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S06"
+    },
+    {
+      "dataset_id": "b8be4fbf5fd14d78a236",
+      "family": "G0-D",
+      "pair_tag": "S05:S07",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S05",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "8e12db39b742154dac61",
+      "family": "G0-D",
+      "pair_tag": "S08:S10",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S10"
+    },
+    {
+      "dataset_id": "318c7ab9db62462e3970",
+      "family": "G0-D",
+      "pair_tag": "S09:S11",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S09",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "fff75dc1c991508454ef",
+      "family": "G0-D",
+      "pair_tag": "S12:S14",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S14"
+    },
+    {
+      "dataset_id": "18bbe153011d624d0282",
+      "family": "G0-D",
+      "pair_tag": "S13:S15",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S13",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "b3744a4f31d856f10609",
+      "family": "G0-X",
+      "pair_tag": "S00:S02",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S02"
+    },
+    {
+      "dataset_id": "6ef840f835ebf5053b6f",
+      "family": "G0-X",
+      "pair_tag": "S01:S03",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S01",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "8bcb3b6f9405a441f99c",
+      "family": "G0-X",
+      "pair_tag": "S04:S06",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S06"
+    },
+    {
+      "dataset_id": "bb973d6a04615ea32dd1",
+      "family": "G0-X",
+      "pair_tag": "S05:S07",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S05",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "fd87bf20395a45dec130",
+      "family": "G0-X",
+      "pair_tag": "S08:S10",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S10"
+    },
+    {
+      "dataset_id": "9827c972b977087f0c5c",
+      "family": "G0-X",
+      "pair_tag": "S09:S11",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S09",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "6116162bf23a57b02660",
+      "family": "G0-X",
+      "pair_tag": "S12:S14",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S14"
+    },
+    {
+      "dataset_id": "58dec965cdfed81caae4",
+      "family": "G0-X",
+      "pair_tag": "S13:S15",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S13",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "13856aacb00f7a80e4d9",
+      "family": "G0-H",
+      "pair_tag": "S00:S02",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S00",
+      "unit_B": "S02"
+    },
+    {
+      "dataset_id": "f7f9419456e5f9fc0bd9",
+      "family": "G0-H",
+      "pair_tag": "S01:S03",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S01",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "bfec61a79604a3066224",
+      "family": "G0-H",
+      "pair_tag": "S04:S06",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S04",
+      "unit_B": "S06"
+    },
+    {
+      "dataset_id": "f2dc6cad791d45f9b970",
+      "family": "G0-H",
+      "pair_tag": "S05:S07",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S05",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "e9bc8b34194318d5483a",
+      "family": "G0-H",
+      "pair_tag": "S08:S10",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S08",
+      "unit_B": "S10"
+    },
+    {
+      "dataset_id": "6288d06d95289dab7496",
+      "family": "G0-H",
+      "pair_tag": "S09:S11",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S09",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "cb677ed0ad084b045770",
+      "family": "G0-H",
+      "pair_tag": "S12:S14",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S12",
+      "unit_B": "S14"
+    },
+    {
+      "dataset_id": "ea19881d298635432af1",
+      "family": "G0-H",
+      "pair_tag": "S13:S15",
+      "transfer": "T2",
+      "true_class": 0,
+      "unit_A": "S13",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "7d65b20af050477b1136",
+      "family": "G1-F",
+      "pair_tag": "S00:S02",
+      "transfer": "T2",
+      "true_class": 1,
+      "unit_A": "S00",
+      "unit_B": "S02"
+    },
+    {
+      "dataset_id": "9195e978419d54898282",
+      "family": "G1-F",
+      "pair_tag": "S01:S03",
+      "transfer": "T2",
+      "true_class": 1,
+      "unit_A": "S01",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "bc6e480ad6122ac0caa8",
+      "family": "G1-F",
+      "pair_tag": "S04:S06",
+      "transfer": "T2",
+      "true_class": 1,
+      "unit_A": "S04",
+      "unit_B": "S06"
+    },
+    {
+      "dataset_id": "81dc56b322e62900b629",
+      "family": "G1-F",
+      "pair_tag": "S05:S07",
+      "transfer": "T2",
+      "true_class": 1,
+      "unit_A": "S05",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "1f44e9b27acb62e6b339",
+      "family": "G1-F",
+      "pair_tag": "S08:S10",
+      "transfer": "T2",
+      "true_class": 1,
+      "unit_A": "S08",
+      "unit_B": "S10"
+    },
+    {
+      "dataset_id": "75089ee5fea1513c397e",
+      "family": "G1-F",
+      "pair_tag": "S09:S11",
+      "transfer": "T2",
+      "true_class": 1,
+      "unit_A": "S09",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "c2ee01c022c11da4b913",
+      "family": "G1-F",
+      "pair_tag": "S12:S14",
+      "transfer": "T2",
+      "true_class": 1,
+      "unit_A": "S12",
+      "unit_B": "S14"
+    },
+    {
+      "dataset_id": "b7e325de3f01d76d9346",
+      "family": "G1-F",
+      "pair_tag": "S13:S15",
+      "transfer": "T2",
+      "true_class": 1,
+      "unit_A": "S13",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "a480094ec2d5dbc6450d",
+      "family": "G2-P",
+      "pair_tag": "S00:S02",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S00",
+      "unit_B": "S02"
+    },
+    {
+      "dataset_id": "ac106898fc505a86c8c0",
+      "family": "G2-P",
+      "pair_tag": "S01:S03",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S01",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "017449de9bb3168d6c07",
+      "family": "G2-P",
+      "pair_tag": "S04:S06",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S04",
+      "unit_B": "S06"
+    },
+    {
+      "dataset_id": "fa548c71c4af85c21026",
+      "family": "G2-P",
+      "pair_tag": "S05:S07",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S05",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "248098b6a227b6a263ab",
+      "family": "G2-P",
+      "pair_tag": "S08:S10",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S08",
+      "unit_B": "S10"
+    },
+    {
+      "dataset_id": "3bef7bc51ca2fdf2a2af",
+      "family": "G2-P",
+      "pair_tag": "S09:S11",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S09",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "90a1e492ef06a0825386",
+      "family": "G2-P",
+      "pair_tag": "S12:S14",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S12",
+      "unit_B": "S14"
+    },
+    {
+      "dataset_id": "3f17c5e7a8c8ddbe2618",
+      "family": "G2-P",
+      "pair_tag": "S13:S15",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S13",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "e87d0d55adef7e5a1a61",
+      "family": "G2-M",
+      "pair_tag": "S00:S02",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S00",
+      "unit_B": "S02"
+    },
+    {
+      "dataset_id": "ccf992c52461b52b8ab1",
+      "family": "G2-M",
+      "pair_tag": "S01:S03",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S01",
+      "unit_B": "S03"
+    },
+    {
+      "dataset_id": "ecb2c45979876ae9883b",
+      "family": "G2-M",
+      "pair_tag": "S04:S06",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S04",
+      "unit_B": "S06"
+    },
+    {
+      "dataset_id": "96555a6b68df01d68fd3",
+      "family": "G2-M",
+      "pair_tag": "S05:S07",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S05",
+      "unit_B": "S07"
+    },
+    {
+      "dataset_id": "3c0f7da643fb3c0b92ff",
+      "family": "G2-M",
+      "pair_tag": "S08:S10",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S08",
+      "unit_B": "S10"
+    },
+    {
+      "dataset_id": "c3610012428fed83c925",
+      "family": "G2-M",
+      "pair_tag": "S09:S11",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S09",
+      "unit_B": "S11"
+    },
+    {
+      "dataset_id": "4d5d881688849e2dbbb0",
+      "family": "G2-M",
+      "pair_tag": "S12:S14",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S12",
+      "unit_B": "S14"
+    },
+    {
+      "dataset_id": "c1e9017e681f164fea76",
+      "family": "G2-M",
+      "pair_tag": "S13:S15",
+      "transfer": "T2",
+      "true_class": 2,
+      "unit_A": "S13",
+      "unit_B": "S15"
+    },
+    {
+      "dataset_id": "dfb79d8a79ad4f5757bb",
+      "family": "G0-I",
+      "pair_tag": "H00:H01",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H00",
+      "unit_B": "H01"
+    },
+    {
+      "dataset_id": "819bb61a070e8b72b5a9",
+      "family": "G0-I",
+      "pair_tag": "H02:H03",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H02",
+      "unit_B": "H03"
+    },
+    {
+      "dataset_id": "944372d5495b746c8f02",
+      "family": "G0-I",
+      "pair_tag": "H04:H05",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H04",
+      "unit_B": "H05"
+    },
+    {
+      "dataset_id": "c3b6bd3b7ff8b439e10d",
+      "family": "G0-I",
+      "pair_tag": "H06:H07",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H06",
+      "unit_B": "H07"
+    },
+    {
+      "dataset_id": "36c47998c5cfd2f0182d",
+      "family": "G0-C",
+      "pair_tag": "H00:H01",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H00",
+      "unit_B": "H01"
+    },
+    {
+      "dataset_id": "2f19f3b14ae99e352161",
+      "family": "G0-C",
+      "pair_tag": "H02:H03",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H02",
+      "unit_B": "H03"
+    },
+    {
+      "dataset_id": "36753391d539260cd498",
+      "family": "G0-C",
+      "pair_tag": "H04:H05",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H04",
+      "unit_B": "H05"
+    },
+    {
+      "dataset_id": "33c75127d52fc3081602",
+      "family": "G0-C",
+      "pair_tag": "H06:H07",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H06",
+      "unit_B": "H07"
+    },
+    {
+      "dataset_id": "5899bc07db600167de52",
+      "family": "G0-D",
+      "pair_tag": "H00:H01",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H00",
+      "unit_B": "H01"
+    },
+    {
+      "dataset_id": "275f884fd6032e6a78a3",
+      "family": "G0-D",
+      "pair_tag": "H02:H03",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H02",
+      "unit_B": "H03"
+    },
+    {
+      "dataset_id": "c89597ca89a9433ac7b9",
+      "family": "G0-D",
+      "pair_tag": "H04:H05",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H04",
+      "unit_B": "H05"
+    },
+    {
+      "dataset_id": "ab78f48d3febb3245137",
+      "family": "G0-D",
+      "pair_tag": "H06:H07",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H06",
+      "unit_B": "H07"
+    },
+    {
+      "dataset_id": "49caaa18928c9f8c718f",
+      "family": "G0-X",
+      "pair_tag": "H00:H01",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H00",
+      "unit_B": "H01"
+    },
+    {
+      "dataset_id": "0617718ef2c252a6e7ea",
+      "family": "G0-X",
+      "pair_tag": "H02:H03",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H02",
+      "unit_B": "H03"
+    },
+    {
+      "dataset_id": "c469c9014efbbfed88c9",
+      "family": "G0-X",
+      "pair_tag": "H04:H05",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H04",
+      "unit_B": "H05"
+    },
+    {
+      "dataset_id": "cb262027cb291d530fe5",
+      "family": "G0-X",
+      "pair_tag": "H06:H07",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H06",
+      "unit_B": "H07"
+    },
+    {
+      "dataset_id": "05565f51748e92542564",
+      "family": "G0-H",
+      "pair_tag": "H00:H01",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H00",
+      "unit_B": "H01"
+    },
+    {
+      "dataset_id": "cc8f1f5edb5dac4dfee3",
+      "family": "G0-H",
+      "pair_tag": "H02:H03",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H02",
+      "unit_B": "H03"
+    },
+    {
+      "dataset_id": "83149c7495459f0ed2e8",
+      "family": "G0-H",
+      "pair_tag": "H04:H05",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H04",
+      "unit_B": "H05"
+    },
+    {
+      "dataset_id": "85b5b92a795a7ce58709",
+      "family": "G0-H",
+      "pair_tag": "H06:H07",
+      "transfer": "T3",
+      "true_class": 0,
+      "unit_A": "H06",
+      "unit_B": "H07"
+    },
+    {
+      "dataset_id": "1f7b701ae856f5c377f7",
+      "family": "G1-F",
+      "pair_tag": "H00:H01",
+      "transfer": "T3",
+      "true_class": 1,
+      "unit_A": "H00",
+      "unit_B": "H01"
+    },
+    {
+      "dataset_id": "ae0d3886a6bbd2a39e36",
+      "family": "G1-F",
+      "pair_tag": "H02:H03",
+      "transfer": "T3",
+      "true_class": 1,
+      "unit_A": "H02",
+      "unit_B": "H03"
+    },
+    {
+      "dataset_id": "792098935c4a1e38de51",
+      "family": "G1-F",
+      "pair_tag": "H04:H05",
+      "transfer": "T3",
+      "true_class": 1,
+      "unit_A": "H04",
+      "unit_B": "H05"
+    },
+    {
+      "dataset_id": "2c672c31121c7bd91a74",
+      "family": "G1-F",
+      "pair_tag": "H06:H07",
+      "transfer": "T3",
+      "true_class": 1,
+      "unit_A": "H06",
+      "unit_B": "H07"
+    },
+    {
+      "dataset_id": "567931b4ca97bf7811b4",
+      "family": "G2-P",
+      "pair_tag": "H00:H01",
+      "transfer": "T3",
+      "true_class": 2,
+      "unit_A": "H00",
+      "unit_B": "H01"
+    },
+    {
+      "dataset_id": "bc04ecb77498eb4f9717",
+      "family": "G2-P",
+      "pair_tag": "H02:H03",
+      "transfer": "T3",
+      "true_class": 2,
+      "unit_A": "H02",
+      "unit_B": "H03"
+    },
+    {
+      "dataset_id": "89dc1f437fc34f0ed50d",
+      "family": "G2-P",
+      "pair_tag": "H04:H05",
+      "transfer": "T3",
+      "true_class": 2,
+      "unit_A": "H04",
+      "unit_B": "H05"
+    },
+    {
+      "dataset_id": "6274fb3b285ab364d012",
+      "family": "G2-P",
+      "pair_tag": "H06:H07",
+      "transfer": "T3",
+      "true_class": 2,
+      "unit_A": "H06",
+      "unit_B": "H07"
+    },
+    {
+      "dataset_id": "0299df0e0a83e2510cac",
+      "family": "G2-M",
+      "pair_tag": "H00:H01",
+      "transfer": "T3",
+      "true_class": 2,
+      "unit_A": "H00",
+      "unit_B": "H01"
+    },
+    {
+      "dataset_id": "ba2051ca3e0e5f0b6dd8",
+      "family": "G2-M",
+      "pair_tag": "H02:H03",
+      "transfer": "T3",
+      "true_class": 2,
+      "unit_A": "H02",
+      "unit_B": "H03"
+    },
+    {
+      "dataset_id": "d01feb3e112f0ff7f1df",
+      "family": "G2-M",
+      "pair_tag": "H04:H05",
+      "transfer": "T3",
+      "true_class": 2,
+      "unit_A": "H04",
+      "unit_B": "H05"
+    },
+    {
+      "dataset_id": "91d0d48d6ec408df598d",
+      "family": "G2-M",
+      "pair_tag": "H06:H07",
+      "transfer": "T3",
+      "true_class": 2,
+      "unit_A": "H06",
+      "unit_B": "H07"
+    }
+  ],
+  "schema": "siel-experiment-002-blinded-relational-carrier-v1",
+  "seed": 2026072502
+}

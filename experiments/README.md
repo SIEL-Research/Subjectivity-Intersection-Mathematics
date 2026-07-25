@@ -16,5 +16,5 @@ outputs, acceptance checks, and claim boundary.
 2. [Blinded Relational-Carrier Discrimination](002_blinded_relational_carrier_discrimination/README.md) —
    registered synthetic benchmark for distinguishing carrier-absent systems,
    incomplete shared-history states, and pair-indexed relational carriers from
-   noisy observable paired-unit time series. Confirmatory execution follows
-   the public registration commit.
+   noisy observable paired-unit time series.
+   [Executed result](002_blinded_relational_carrier_discrimination/RESULT.md).

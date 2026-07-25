@@ -54,8 +54,8 @@ subjectivity in any external domain.
 Experiment 002 is the registered synthetic methodological benchmark. It tests
 whether a frozen analysis can distinguish carrier-absent systems, incomplete
 shared-history states, and pair-indexed relational carriers from noisy
-observable paired-unit time series. Confirmatory execution follows the public
-registration commit.
+observable paired-unit time series. The confirmatory run passed every
+registered acceptance target. [Executed result](experiments/002_blinded_relational_carrier_discrimination/RESULT.md).
 
 ## Research Direction
 
