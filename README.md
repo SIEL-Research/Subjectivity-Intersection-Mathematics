@@ -37,17 +37,25 @@ copies corresponding to the ResearchGate publication.
 This document records the current operational distinction between an
 instantaneous relation and a history-bearing relational carrier, defines the
 seven evidence gates for a `C_intersection` candidate, and specifies the
-architecture of the first dyadic experiment.
+architecture of the first paired-viewpoint experiment.
 
 ## Experiments
 
 - [Experiment index](experiments/README.md)
 - [Experiment 001 — Exact Relational Holonomy](experiments/001_exact_relational_holonomy/README.md)
+- [Experiment 002 — Blinded Relational-Carrier Discrimination](experiments/002_blinded_relational_carrier_discrimination/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
-endpoint, individual-memory, shared-driver, static-object, and coordinate-gauge
-alternatives. It is not presented as evidence for human subjectivity.
+endpoint, unit-specific-memory, shared-driver, static-object, and
+coordinate-gauge alternatives. It is not presented as evidence for
+subjectivity in any external domain.
+
+Experiment 002 is the registered synthetic methodological benchmark. It tests
+whether a frozen analysis can distinguish carrier-absent systems, incomplete
+shared-history states, and pair-indexed relational carriers from noisy
+observable paired-unit time series. Confirmatory execution follows the public
+registration commit.
 
 ## Research Direction
 

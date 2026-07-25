@@ -1,0 +1,35 @@
+{
+  "acceptance": {
+    "balanced_accuracy_each_transfer": 0.8,
+    "false_class2_rate": 0.1,
+    "g2m_recall": 0.7,
+    "g2p_recall": 0.8,
+    "gauge_consistency": 0.95,
+    "recall_each_class_each_transfer": 0.7
+  },
+  "confirmatory_seed": 2026072502,
+  "development_seed": 2026072501,
+  "development_validation": {
+    "confirmatory_data_generated": false,
+    "registered_targets_passed": true,
+    "status": "development-only"
+  },
+  "experiment": "Experiment 002",
+  "python_runtime_at_registration": "3.14.2",
+  "registration_date": "2026-07-25",
+  "schema": "siel-experiment-002-registration-manifest-v1",
+  "source_sha256": {
+    "PREREGISTRATION.md": "5154ab0380ce6210452b464e2eb7e121359af451663f5c710b4d418bad569ac1",
+    "PREREGISTRATION_EMAIL.md": "3d5464665c094144512e24c44c18b845caec20890170d3c5c388800088ba4ff0",
+    "README.md": "2c5c136bbc578e7404eaccce58b1ef5cf4035bd18df442e558da8233e06d10e9",
+    "run.py": "6a11d00a313328a5034e6c22ea96485d4cecc0eb77fa1d77e2cb1a6ee6508138",
+    "test_run.py": "9804761767763254f846df2d2ed85236a273f96000663794ef6ee7d59b63d214"
+  },
+  "stdlib_only": true,
+  "thresholds": {
+    "categorical_difference": 0.58,
+    "counterfactual_margin": 0.25,
+    "gauge_consistency": 0.95
+  },
+  "title": "A Blinded Test for Detecting Relational Carriers"
+}
