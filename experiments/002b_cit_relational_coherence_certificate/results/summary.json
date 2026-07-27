@@ -1,0 +1,123 @@
+{
+  "acceptance_checks": {
+    "admissible_construction_is_locally_valid": true,
+    "classification_uses_registered_classes": true,
+    "registered_case_counts": true,
+    "registered_total_case_count": true,
+    "relation_only_construction_is_locally_valid": true,
+    "sequence_lengths_are_registered": true
+  },
+  "metrics": {
+    "case_counts": {
+      "admissible": 512,
+      "local_integrity": 1984,
+      "relation_only": 620
+    },
+    "cit_equals_local_conjunction_cases": 3116,
+    "cit_equals_local_conjunction_rate": 1.0,
+    "classification": {
+      "class_id": "RC-1",
+      "class_label": "reducible distributed integrity certificate"
+    },
+    "exclusive_relational_detections": 0,
+    "gate_performance": {
+      "cit": {
+        "invalid_blocked": 1984,
+        "invalid_total": 2604,
+        "local_fault_total": 1984,
+        "local_faults_blocked": 1984,
+        "relation_fault_total": 620,
+        "relation_faults_blocked": 0,
+        "valid_permitted": 512,
+        "valid_total": 512
+      },
+      "constant_one": {
+        "invalid_blocked": 0,
+        "invalid_total": 2604,
+        "local_fault_total": 1984,
+        "local_faults_blocked": 0,
+        "relation_fault_total": 620,
+        "relation_faults_blocked": 0,
+        "valid_permitted": 512,
+        "valid_total": 512
+      },
+      "l_combined": {
+        "invalid_blocked": 1984,
+        "invalid_total": 2604,
+        "local_fault_total": 1984,
+        "local_faults_blocked": 1984,
+        "relation_fault_total": 620,
+        "relation_faults_blocked": 0,
+        "valid_permitted": 512,
+        "valid_total": 512
+      },
+      "l_minus": {
+        "invalid_blocked": 992,
+        "invalid_total": 2604,
+        "local_fault_total": 1984,
+        "local_faults_blocked": 992,
+        "relation_fault_total": 620,
+        "relation_faults_blocked": 0,
+        "valid_permitted": 512,
+        "valid_total": 512
+      },
+      "l_plus": {
+        "invalid_blocked": 992,
+        "invalid_total": 2604,
+        "local_fault_total": 1984,
+        "local_faults_blocked": 992,
+        "relation_fault_total": 620,
+        "relation_faults_blocked": 0,
+        "valid_permitted": 512,
+        "valid_total": 512
+      },
+      "timing_oracle": {
+        "invalid_blocked": 2604,
+        "invalid_total": 2604,
+        "local_fault_total": 1984,
+        "local_faults_blocked": 1984,
+        "relation_fault_total": 620,
+        "relation_faults_blocked": 620,
+        "valid_permitted": 512,
+        "valid_total": 512
+      }
+    },
+    "sequence_summary": {
+      "temporary_local_fault": {
+        "cit_trace": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "detection_latency": 0,
+        "recovery_latency": 0,
+        "valid_step_total": 4,
+        "valid_steps_permitted": 4
+      },
+      "temporary_relation_fault": {
+        "cit_trace": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "detection_latency": null,
+        "recovery_latency": 0,
+        "valid_step_total": 4,
+        "valid_steps_permitted": 4
+      }
+    },
+    "total_cases": 3116
+  },
+  "repository": {
+    "registration_commit": "6558d7c3430cbe8e3818bed46afa2f3325bd60d6",
+    "remote": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics.git"
+  },
+  "schema": "siel-experiment-002b-cit-certificate-v1",
+  "status": "pass"
+}

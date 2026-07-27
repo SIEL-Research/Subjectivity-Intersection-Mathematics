@@ -27,3 +27,4 @@ outputs, acceptance checks, and claim boundary.
 2B. [CIT Relational-Coherence Certificate Audit](002b_cit_relational_coherence_certificate/README.md) —
     registered test of whether the complete dual-ring readout detects a
     relation-only failure beyond the two local ring certificates.
+    [Executed result](002b_cit_relational_coherence_certificate/results/RESULT.md).

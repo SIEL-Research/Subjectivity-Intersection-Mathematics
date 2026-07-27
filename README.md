@@ -69,7 +69,10 @@ null. [Executed result](experiments/002a_cdc6600_dual_ring_invariant_audit/resul
 Experiment 002B separates a history-bearing relational carrier from a
 relational-coherence certificate. Its primary test asks whether the complete
 dual-ring readout can detect a relation-only failure while both local ring
-certificates remain valid.
+certificates remain valid. The registered run classified `CIT` as an RC-1
+reducible distributed integrity certificate: it detected every registered
+local fault but no relation-only fault beyond the two local certificates.
+[Executed result](experiments/002b_cit_relational_coherence_certificate/results/RESULT.md).
 
 ## Research Direction
 
