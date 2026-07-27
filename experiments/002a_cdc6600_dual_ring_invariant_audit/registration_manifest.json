@@ -1,0 +1,40 @@
+{
+  "classification_rule": {
+    "class_0": "local or common-control null reproduces the readout and pair/history interventions do not alter it",
+    "class_1": "shared history is detected but the complete relational-carrier gates do not pass",
+    "class_2": "all seven evidence gates and bilateral feedback pass"
+  },
+  "experiment": "Experiment 002A",
+  "frozen_inputs": {
+    "history_steps": 6,
+    "operational_controls": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "paired_state_count": 64,
+    "random_seed": null,
+    "reset_control": [
+      1,
+      1
+    ]
+  },
+  "registration_date": "2026-07-27",
+  "schema": "siel-experiment-002a-registration-manifest-v1",
+  "source_sha256": {
+    "experiments/002a_cdc6600_dual_ring_invariant_audit/PREREGISTRATION.md": "aee62a76c14a50abb7722d34483e75abb11fa6ed4970fa92239df7193c11c2cb",
+    "experiments/002a_cdc6600_dual_ring_invariant_audit/README.md": "11795b3a723404ea158c8cf8d478f9671473f8351fe51d05b49b26960222d1d6",
+    "experiments/002a_cdc6600_dual_ring_invariant_audit/run.py": "c4c0d008b5c49310066aadbe0ca60e65a63fe9275b9d13a5bd0cc51cf3f874c5",
+    "experiments/002a_cdc6600_dual_ring_invariant_audit/test_run.py": "7db8bc86a8248ebb3f3d606ea7e9b795f5b8d77c8c40ac61fa42d6b146652614",
+    "third_party/luke_casson_leighton/LICENSE-AGPL-3.0.txt": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "third_party/luke_casson_leighton/README.md": "d11e4196ca838e899e58756dd4b4d2e3d141160a02d3b16f79fbbb2ffa15c9d2",
+    "third_party/luke_casson_leighton/cdc6600_dual_ring_cit_demo.py": "5471c379d9009a7425aca394fa835d827280448a7edd59bbceebfc92de8c9db5"
+  },
+  "stdlib_only": true,
+  "title": "CDC 6600 Dual-Ring Invariant Classification Audit"
+}

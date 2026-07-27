@@ -18,3 +18,7 @@ outputs, acceptance checks, and claim boundary.
    incomplete shared-history states, and pair-indexed relational carriers from
    noisy observable paired-unit time series.
    [Executed result](002_blinded_relational_carrier_discrimination/RESULT.md).
+
+2A. [CDC 6600 Dual-Ring Invariant Classification Audit](002a_cdc6600_dual_ring_invariant_audit/README.md) —
+    registered audit of whether a proposed dual-orientation `111` invariant
+    requires a relational carrier or is reproduced by a local Boolean null.
