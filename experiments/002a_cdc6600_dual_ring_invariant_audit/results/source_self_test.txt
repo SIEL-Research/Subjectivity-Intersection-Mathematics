@@ -1,0 +1,6 @@
+operational raw D+=D-=111                        PASS
+matched one-clock buffers preserve 111           PASS
+double-high forces both rings to 000             PASS
+CW and CCW one-hot cycles are opposite           PASS
+
+all self-tests passed

@@ -1,0 +1,64 @@
+{
+  "acceptance_checks": {
+    "all_common_resets": true,
+    "all_operational_cases": true,
+    "constant_feedback_equivalence": true,
+    "history_independence": true,
+    "local_adder_reduction": true,
+    "orientation_invariance": true,
+    "partner_independence": true,
+    "registered_class_zero": true,
+    "single_ring_reduction": true,
+    "source_self_test": true,
+    "state_independence": true
+  },
+  "classification": {
+    "class_id": 0,
+    "class_label": "local-complementarity/common-control null",
+    "evidence_gates": {
+      "G_gauge_invariance": true,
+      "H_history": false,
+      "I_intervention": false,
+      "J_joint_generation": false,
+      "N_null_separation": false,
+      "P_pair_specificity": false,
+      "T_frozen_transfer": true,
+      "bilateral_feedback": false
+    }
+  },
+  "metrics": {
+    "distinct_history_cit_traces": 1,
+    "distinct_orientation_cit_traces": 1,
+    "double_high_reset_cases": 64,
+    "double_high_reset_passes": 64,
+    "feedback_equals_constant_control": true,
+    "local_adder_cases": 4,
+    "local_adder_invariant_passes": 4,
+    "mismatched_epoch_cases": 128,
+    "mismatched_epoch_non_111": 112,
+    "operational_invariant_passes": 128,
+    "operational_pair_cases": 128,
+    "partner_substitution_changes": 0,
+    "partner_substitution_comparisons": 128,
+    "single_ring_cases": 16,
+    "single_ring_invariant_passes": 16,
+    "state_intervention_changes": 0,
+    "state_interventions": 768
+  },
+  "repository": {
+    "registration_commit": "b8563cf173e2415983f83f997b3075231a5b4bbf",
+    "remote": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics.git"
+  },
+  "schema": "siel-experiment-002a-cdc6600-dual-ring-audit-v1",
+  "source": {
+    "path": "third_party/luke_casson_leighton/cdc6600_dual_ring_cit_demo.py",
+    "sha256": "5471c379d9009a7425aca394fa835d827280448a7edd59bbceebfc92de8c9db5"
+  },
+  "source_self_test": {
+    "passed": true,
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "operational raw D+=D-=111                        PASS\nmatched one-clock buffers preserve 111           PASS\ndouble-high forces both rings to 000             PASS\nCW and CCW one-hot cycles are opposite           PASS\n\nall self-tests passed\n"
+  },
+  "status": "pass"
+}

@@ -61,7 +61,9 @@ registered acceptance target. [Executed result](experiments/002_blinded_relation
 Experiment 002A applies the same classification discipline to a proposed
 CDC-6600-inspired dual-ring Boolean invariant. It separately tests whether the
 implementation is reproduced and whether its readout requires a
-history-bearing relational carrier.
+history-bearing relational carrier. The implementation was reproduced, while
+the registered readout was classified as a local-complementarity/common-control
+null. [Executed result](experiments/002a_cdc6600_dual_ring_invariant_audit/results/RESULT.md).
 
 ## Research Direction
 

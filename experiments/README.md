@@ -22,3 +22,4 @@ outputs, acceptance checks, and claim boundary.
 2A. [CDC 6600 Dual-Ring Invariant Classification Audit](002a_cdc6600_dual_ring_invariant_audit/README.md) —
     registered audit of whether a proposed dual-orientation `111` invariant
     requires a relational carrier or is reproduced by a local Boolean null.
+    [Executed result](002a_cdc6600_dual_ring_invariant_audit/results/RESULT.md).
