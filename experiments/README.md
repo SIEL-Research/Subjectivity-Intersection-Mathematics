@@ -23,3 +23,7 @@ outputs, acceptance checks, and claim boundary.
     registered audit of whether a proposed dual-orientation `111` invariant
     requires a relational carrier or is reproduced by a local Boolean null.
     [Executed result](002a_cdc6600_dual_ring_invariant_audit/results/RESULT.md).
+
+2B. [CIT Relational-Coherence Certificate Audit](002b_cit_relational_coherence_certificate/README.md) —
+    registered test of whether the complete dual-ring readout detects a
+    relation-only failure beyond the two local ring certificates.

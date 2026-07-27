@@ -1,0 +1,47 @@
+{
+  "classification_rule": {
+    "RC-0": "no registered fault-detection role beyond a constant-one control",
+    "RC-1": "all admissible cases pass and at least one local integrity failure is detected, without an exclusive relation-only detection",
+    "RC-2": "at least one relation-only failure is detected while both local certificates pass, and CIT is not identical to their conjunction"
+  },
+  "experiment": "Experiment 002B",
+  "frozen_case_counts": {
+    "admissible": 512,
+    "local_integrity": 1984,
+    "relation_only": 620,
+    "total": 3116
+  },
+  "frozen_inputs": {
+    "operational_controls": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "paired_state_count": 64,
+    "random_seed": null,
+    "site_count_per_orientation": 3,
+    "temporary_sequence_steps": 6
+  },
+  "primary_endpoint": "count of relation-only cases with L_plus=1, L_minus=1, and CIT=0",
+  "registration_date": "2026-07-28",
+  "schema": "siel-experiment-002b-registration-manifest-v1",
+  "source_sha256": {
+    "experiments/002a_cdc6600_dual_ring_invariant_audit/registration_manifest.json": "412f71612edb75421b5cc52dd1554567484c459e5aa56b791bdab05f78420aed",
+    "experiments/002a_cdc6600_dual_ring_invariant_audit/results/summary.json": "93c1a83b9a0ed2ab9e9760f2ff3abc602a6ffab627c2ca347d30c7803b5478d7",
+    "experiments/002a_cdc6600_dual_ring_invariant_audit/run.py": "c4c0d008b5c49310066aadbe0ca60e65a63fe9275b9d13a5bd0cc51cf3f874c5",
+    "experiments/002b_cit_relational_coherence_certificate/PREREGISTRATION.md": "07ba233217864df1ca443d44f4416e25870669d9dc25f4deff7c2bac1eee4254",
+    "experiments/002b_cit_relational_coherence_certificate/README.md": "c52930b41f4e8e801d65751f64567c23625620ab64131cf85b6baee3d4b2beaf",
+    "experiments/002b_cit_relational_coherence_certificate/run.py": "f1de22016abb073c60c5cc0282eb25850ec9f6cd4d8a214ce18c5fcdfb446198",
+    "experiments/002b_cit_relational_coherence_certificate/test_run.py": "82c425927a09836019803571431a3374ead8d75c3bb39bb494f7f2b3d3bd0468",
+    "third_party/luke_casson_leighton/LICENSE-AGPL-3.0.txt": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "third_party/luke_casson_leighton/README.md": "d11e4196ca838e899e58756dd4b4d2e3d141160a02d3b16f79fbbb2ffa15c9d2",
+    "third_party/luke_casson_leighton/cdc6600_dual_ring_cit_demo.py": "5471c379d9009a7425aca394fa835d827280448a7edd59bbceebfc92de8c9db5"
+  },
+  "stdlib_only": true,
+  "title": "CIT as a Relational-Coherence Certificate"
+}

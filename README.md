@@ -45,6 +45,7 @@ architecture of the first paired-viewpoint experiment.
 - [Experiment 001 — Exact Relational Holonomy](experiments/001_exact_relational_holonomy/README.md)
 - [Experiment 002 — Blinded Relational-Carrier Discrimination](experiments/002_blinded_relational_carrier_discrimination/README.md)
 - [Experiment 002A — CDC 6600 Dual-Ring Invariant Classification Audit](experiments/002a_cdc6600_dual_ring_invariant_audit/README.md)
+- [Experiment 002B — CIT Relational-Coherence Certificate Audit](experiments/002b_cit_relational_coherence_certificate/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
@@ -64,6 +65,11 @@ implementation is reproduced and whether its readout requires a
 history-bearing relational carrier. The implementation was reproduced, while
 the registered readout was classified as a local-complementarity/common-control
 null. [Executed result](experiments/002a_cdc6600_dual_ring_invariant_audit/results/RESULT.md).
+
+Experiment 002B separates a history-bearing relational carrier from a
+relational-coherence certificate. Its primary test asks whether the complete
+dual-ring readout can detect a relation-only failure while both local ring
+certificates remain valid.
 
 ## Research Direction
 
