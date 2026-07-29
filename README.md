@@ -33,6 +33,7 @@ copies corresponding to the ResearchGate publication.
 ## Research Foundations
 
 - [Definitions, evidence gates, and experimental design](docs/FOUNDATIONS.md)
+- [Research memo: Subjectivity-Intersection Mathematics as a cross-domain connector](docs/RESEARCH_MEMO_CROSS_DOMAIN_CONNECTOR.md)
 
 This document records the current operational distinction between an
 instantaneous relation and a history-bearing relational carrier, defines the
