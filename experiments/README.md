@@ -13,6 +13,11 @@ outputs, acceptance checks, and claim boundary.
    pair specificity, gauge invariance, null separation, and frozen transfer.
    [Executed result](001_exact_relational_holonomy/RESULT.md).
 
+1A. [Reversible Closure versus Dissipative Relational Transfer](001a_reversible_closure_vs_dissipative_transfer/README.md) —
+    registered comparison of the reversible Experiment 001 positive control
+    with the full-adder kill/generate/propagate carry process and ordinary SUM
+    buffering. Confirmatory execution pending.
+
 2. [Blinded Relational-Carrier Discrimination](002_blinded_relational_carrier_discrimination/README.md) —
    registered synthetic benchmark for distinguishing carrier-absent systems,
    incomplete shared-history states, and pair-indexed relational carriers from

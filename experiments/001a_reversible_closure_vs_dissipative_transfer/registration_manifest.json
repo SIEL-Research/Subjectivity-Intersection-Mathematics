@@ -1,0 +1,48 @@
+{
+  "classification_rule": {
+    "DT-0": "the carry-only process is reducible to current carry or the latest overwrite and has no matched-present future-divergence witness",
+    "DT-1": "additional distinctions are completely reproduced by a registered output buffer, local history, generic memory, or other non-relational control",
+    "DT-2": "at least one witness passes every registered H2 condition, including matched-null separation and nontrivial relational recovery"
+  },
+  "experiment": "Experiment 001A",
+  "frozen_inputs": {
+    "alphabet": [
+      "00",
+      "01",
+      "10",
+      "11"
+    ],
+    "F0_state_count": 2,
+    "F1_state_count": 4,
+    "GM_state_count": 4,
+    "history_cases": {
+      "F0": 174762,
+      "F1": 349524,
+      "total": 524286
+    },
+    "maximum_history_length": 8,
+    "random_seed": null,
+    "words_per_initial_state": 87381
+  },
+  "primary_endpoints": [
+    "exact behavioral equivalence classes in F0 and F1",
+    "full-present-matched histories separated by a common future suffix",
+    "violations of latest-overwrite sufficiency",
+    "unexpected role-exchange asymmetries",
+    "relational recovery beyond scalar or buffered state return",
+    "DT-0, DT-1, or DT-2 classification"
+  ],
+  "registration_date": "2026-07-30",
+  "schema": "siel-experiment-001a-registration-manifest-v1",
+  "source_sha256": {
+    "experiments/001_exact_relational_holonomy/RESULT.md": "4756048e30d0baf81794d91d01294590abf081f9f67628cd98dbc732c519f54b",
+    "experiments/001_exact_relational_holonomy/results/summary.json": "a4b1df1347b82fbd219f41bd5def38870d2b6d4e86230d96e9c3128a40ff107a",
+    "experiments/001_exact_relational_holonomy/run.py": "7a27c3ced7dbdbc2873794c922c9637cfc3a4121c172df567a32f53780dce44b",
+    "experiments/001a_reversible_closure_vs_dissipative_transfer/PREREGISTRATION.md": "1ed6c379d8e7307e1f7ab6eca3feca7f2a31275d7f5177597b14ce7bec85a223",
+    "experiments/001a_reversible_closure_vs_dissipative_transfer/README.md": "49e6346cff40096574bdd6c07098e29b6cc3d95a25c9c2eb02a62c44d44ad4a6",
+    "experiments/001a_reversible_closure_vs_dissipative_transfer/run.py": "945b117b9089a7e1269b4d88eb1a2ac9c0c5e1ed3683625a8f67b0fcf8da270a",
+    "experiments/001a_reversible_closure_vs_dissipative_transfer/test_run.py": "30ea1422fed0c7ad24c9cf09e70dd116814e5758402f327bd8d22e7c444711de"
+  },
+  "stdlib_only": true,
+  "title": "Reversible Closure versus Dissipative Relational Transfer"
+}
