@@ -16,7 +16,8 @@ outputs, acceptance checks, and claim boundary.
 1A. [Reversible Closure versus Dissipative Relational Transfer](001a_reversible_closure_vs_dissipative_transfer/README.md) —
     registered comparison of the reversible Experiment 001 positive control
     with the full-adder kill/generate/propagate carry process and ordinary SUM
-    buffering. Confirmatory execution pending.
+    buffering.
+    [Executed result](001a_reversible_closure_vs_dissipative_transfer/results/RESULT.md).
 
 2. [Blinded Relational-Carrier Discrimination](002_blinded_relational_carrier_discrimination/README.md) —
    registered synthetic benchmark for distinguishing carrier-absent systems,

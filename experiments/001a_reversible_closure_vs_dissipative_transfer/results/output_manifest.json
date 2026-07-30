@@ -1,0 +1,11 @@
+{
+  "RESULT.md": "64b571493173179c803981177faa1392a77c7e1b2792e22d4d9cd58c1b5151f8",
+  "gauge_audit.csv": "82881ea0c0f1fbb942302dbcce88776e6d9e9f3a010dc5f98faea54e094b9cc4",
+  "history_census.csv.gz": "5218c62c58c8bdfb088c3ea46590397953ab2c24331dde59700601660db17fa1",
+  "intervention_audit.csv": "55c29398f5e406afb146c3b0fc5ec5bbe8709a32810386dafe4ab24ed11efc49",
+  "monoid_composition.csv": "4b17389caee8cfe6f0220a896f6b24454018788ec09850b39db8cd0f7ee36223",
+  "null_model_audit.csv": "d9f56b7a53d1a93cafa1f744335321e3db8b54dc789ea710dbc08fac8c496f57",
+  "recovery_audit.csv": "b644845821bf05f1d7aae1704121a895b8fd367d74755268d96d2d41e70649d0",
+  "summary.json": "edae1c582fe0dcd413e00431dd12b1337710fcb67e1321dba507c04c138d1974",
+  "transition_monoid.csv": "f33e7501a3466dce58909b7a14558b488c91fe6f2f1cc34a46d17b0889adb2ec"
+}

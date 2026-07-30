@@ -1,0 +1,17 @@
+model,null_model,signature_count,ambiguous_signature_count,maximum_behavior_classes_per_signature,behaviorally_sufficient
+F0,carry_plus_last_input,8,0,1,1
+F0,carry_plus_last_sum,6,0,1,1
+F0,current_carry,2,0,1,1
+F0,declared_state,2,0,1,1
+F0,generic_same_capacity_projection,6,0,1,1
+F0,initial_plus_latest_overwrite,6,0,1,1
+F0,separate_counts,162,113,2,0
+F0,separate_parities,8,8,2,0
+F1,carry_plus_last_input,8,4,2,0
+F1,carry_plus_last_sum,6,2,2,0
+F1,current_carry,2,2,2,0
+F1,declared_state,4,0,1,1
+F1,generic_same_capacity_projection,6,4,2,0
+F1,initial_plus_latest_overwrite,6,6,2,0
+F1,separate_counts,162,154,4,0
+F1,separate_parities,8,8,4,0

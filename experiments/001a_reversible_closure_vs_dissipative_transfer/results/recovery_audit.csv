@@ -1,0 +1,13 @@
+model,initial_state,excursion,final_state,scalar_return,complete_state_return,nontrivial_bilateral_precondition,pair_specific_precondition,relational_recovery
+F0,0,kill_then_generate,1,0,0,0,0,0
+F0,0,generate_then_kill,0,1,1,0,0,0
+F0,1,kill_then_generate,1,1,1,0,0,0
+F0,1,generate_then_kill,0,0,0,0,0,0
+F1,00,kill_then_generate,10,0,0,0,0,0
+F1,00,generate_then_kill,01,1,0,0,0,0
+F1,01,kill_then_generate,10,0,0,0,0,0
+F1,01,generate_then_kill,01,1,1,0,0,0
+F1,10,kill_then_generate,10,1,1,0,0,0
+F1,10,generate_then_kill,01,0,0,0,0,0
+F1,11,kill_then_generate,10,1,0,0,0,0
+F1,11,generate_then_kill,01,0,0,0,0,0
