@@ -1,0 +1,83 @@
+{
+  "schema": "siel-experiment-006r-registration-manifest-v1",
+  "experiment": "Experiment 006R",
+  "title": "Revised Confirmation of Spontaneous Operational O3 Re-entry",
+  "registration_date": "2026-08-03",
+  "result_informed_revision": true,
+  "python_runtime_at_registration": "3.14.2",
+  "numpy_runtime_at_registration": "2.4.4",
+  "development_training_seeds_excluded": [
+    300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311,
+    400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411,
+    412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423,
+    424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435,
+    436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447
+  ],
+  "prior_confirmatory_training_seed_ranges_excluded_inclusive": {
+    "experiment_005": [1000, 1023],
+    "experiment_006": [2000, 2023]
+  },
+  "confirmatory_training_seeds": [
+    3000, 3001, 3002, 3003, 3004, 3005, 3006, 3007,
+    3008, 3009, 3010, 3011, 3012, 3013, 3014, 3015,
+    3016, 3017, 3018, 3019, 3020, 3021, 3022, 3023,
+    3024, 3025, 3026, 3027, 3028, 3029, 3030, 3031,
+    3032, 3033, 3034, 3035, 3036, 3037, 3038, 3039,
+    3040, 3041, 3042, 3043, 3044, 3045, 3046, 3047
+  ],
+  "confirmatory_evaluation_seeds": [61650001, 61650002],
+  "registration_check_seed": 2900,
+  "registration_check_evaluation_seeds": [61649001, 61649002],
+  "architectures": [
+    "independent",
+    "distributed",
+    "central_shared",
+    "directional_relay",
+    "four_channel_crossbar"
+  ],
+  "training": {
+    "steps": 4000,
+    "batch_size": 256,
+    "learning_rate": 0.004,
+    "active_parameters_per_architecture": 486
+  },
+  "evaluation": {
+    "test_episode_count": 4096,
+    "random_draws_per_transition": 64,
+    "transitions": [4, 5, 6],
+    "task_competence_threshold": 0.95
+  },
+  "primary_decision_rules": {
+    "minimum_competent_seeds_per_interacting_architecture": 44,
+    "minimum_transport_seeds_per_interacting_architecture": 40,
+    "minimum_action_seeds_per_interacting_architecture": 36,
+    "minimum_pooled_transport_seeds": 168,
+    "minimum_transport_fraction_median": 0.75,
+    "minimum_transport_alignment_median": 0.60,
+    "minimum_exchange_loss_median": 0.25,
+    "minimum_bilateral_median": 0.95,
+    "maximum_independent_accuracy": 0.20,
+    "maximum_independent_component_norm": 1e-10,
+    "maximum_reconstruction_error": 1e-12
+  },
+  "secondary_boundary_rules": {
+    "minimum_partitioned_architecture_count": 40,
+    "maximum_distributed_count": 39,
+    "minimum_distributed_gap": 6,
+    "affects_primary_readout": false
+  },
+  "source_sha256": {
+    "experiments/006r_spontaneous_o3_reentry_revised/README.md": "4ebada901b3b3e4a9fd05aca3e5924004c89d16ba026fb8f091b449f1d51d299",
+    "experiments/006r_spontaneous_o3_reentry_revised/PREREGISTRATION.md": "c40e4270e2d67c313641584b3fe2c4fcc47e10a51ced2049d2697cc2be5fc173",
+    "experiments/006r_spontaneous_o3_reentry_revised/TECHNICAL_SPECIFICATION.md": "a23907114833f72bb9474924b9e1ac3b198f18372c322678b3511dd3b1465c47",
+    "experiments/006r_spontaneous_o3_reentry_revised/run.py": "77e785b2f66070bfbe0d489890b399b313a0ff97bc0e8b0a24af0ac25b0d9de7",
+    "experiments/006r_spontaneous_o3_reentry_revised/test_run.py": "300af3c0ab308efb867210a6b3fd98ec478512e58e06dfff8bbc131da6904b9b",
+    "experiments/006_spontaneous_o3_reentry/run.py": "87e673c09bc1dce5471cf90fa70c9425c5cc2bb669006e473e799415074f9375",
+    "experiments/005_emergent_relational_carrier_solution_class/support/__init__.py": "165d61315515af824fb90cea404b502e0dd6c0fe05155e2a43044d8dc041e9fb",
+    "experiments/005_emergent_relational_carrier_solution_class/support/analysis_utils.py": "baab342b22ee27d18474189ee4c8b0f61d244b1fcd525989649a5e2cd781d6be",
+    "experiments/005_emergent_relational_carrier_solution_class/support/e009_world.py": "09d09e7c99dfa820477665b2196a0263d4f3ad30442dd30895fb221c14abc150",
+    "experiments/005_emergent_relational_carrier_solution_class/support/e010_directed.py": "c354e88029cb11294118c27c95d811311e9bebc933afa8776e70d941119b9216",
+    "experiments/005_emergent_relational_carrier_solution_class/support/p014_architectures.py": "d364b4bb8b2db4341c82df2ee32ff6280479f1b348869a8eb4b3ac43723500ce",
+    "experiments/005_emergent_relational_carrier_solution_class/support/p015_reciprocal.py": "29c4796d8c4089659504980c7716a043757e8d92fac7131ac42fb9a332c100cf"
+  }
+}

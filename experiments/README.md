@@ -76,3 +76,9 @@ outputs, acceptance checks, and claim boundary.
    supported because the distributed architecture passed the matched
    individual-history separation criterion in 17 of 24 seeds, one below the
    registered floor. [Public result report](006_spontaneous_o3_reentry/PUBLIC_RESULT_REPORT.md).
+
+6R. [Revised Confirmation of Spontaneous Operational O3 Re-entry](006r_spontaneous_o3_reentry_revised/README.md) —
+    result-informed revision that retests the operational O3 re-entry claim on
+    48 new seeds while preserving the matched individual-history comparison as
+    a separate implementation-boundary readout. Experiment 006 remains
+    `NOT_SUPPORTED`; 006R does not revise its registered decision.

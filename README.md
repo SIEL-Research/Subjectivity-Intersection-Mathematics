@@ -52,6 +52,7 @@ architecture of the first paired-viewpoint experiment.
 - [Experiment 004 — Difference-Preserving Relational Carrier and Retained-History O3 Audit](experiments/004_difference_preserving_o3_discrimination/README.md)
 - [Experiment 005 — Emergent Relational-Carrier Solution Class](experiments/005_emergent_relational_carrier_solution_class/README.md)
 - [Experiment 006 — Spontaneous Operational O3 Re-entry](experiments/006_spontaneous_o3_reentry/README.md)
+- [Experiment 006R — Revised Confirmation of Spontaneous Operational O3 Re-entry](experiments/006r_spontaneous_o3_reentry_revised/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
@@ -130,6 +131,12 @@ conjunction was not supported: the distributed architecture missed the
 matched individual-history separation floor by one seed. This identifies a
 boundary between spontaneous O3-like re-entry and its universal separation
 from individual history. [Public result report](experiments/006_spontaneous_o3_reentry/PUBLIC_RESULT_REPORT.md).
+
+Experiment 006R is a result-informed revision that separates the two claims
+identified by Experiment 006. Its primary conjunction retests spontaneous O3
+re-entry on a new 48-seed allocation. The unchanged matched individual-history
+comparison is retained as a separately registered implementation-boundary
+readout and cannot alter the primary decision.
 
 ## Research Direction
 
