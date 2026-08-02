@@ -47,6 +47,7 @@ architecture of the first paired-viewpoint experiment.
 - [Experiment 002 — Blinded Relational-Carrier Discrimination](experiments/002_blinded_relational_carrier_discrimination/README.md)
 - [Experiment 002A — CDC 6600 Dual-Ring Invariant Classification Audit](experiments/002a_cdc6600_dual_ring_invariant_audit/README.md)
 - [Experiment 002B — CIT Relational-Coherence Certificate Audit](experiments/002b_cit_relational_coherence_certificate/README.md)
+- [Experiment 003 — Class 2 Relational Carrier and Self-Reentrant O3 in Subjectivity Agents](experiments/003_subjectivity_agent_class2_o3/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
@@ -74,6 +75,14 @@ certificates remain valid. The registered run classified `CIT` as an RC-1
 reducible distributed integrity certificate: it detected every registered
 local fault but no relation-only fault beyond the two local certificates.
 [Executed result](experiments/002b_cit_relational_coherence_certificate/results/RESULT.md).
+
+Experiment 003 is preregistered as the first external application of the
+Experiment 002 Class 0/1/2 criteria to generated states from the existing
+private subjectivity-agent runtime. It separately tests an unmodified native
+third-runtime carrier and an explicitly installed self-reentrant O3 extension.
+The private core remains undisclosed and is frozen by commit and source hashes;
+the complete connection, control, and scoring layer is public. Confirmatory
+execution is pending.
 
 ## Research Direction
 

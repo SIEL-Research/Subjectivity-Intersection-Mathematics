@@ -1,0 +1,83 @@
+{
+  "acceptance": {
+    "family_raw_passes_for_uniform_transfer": 52,
+    "maximum_false_class2_per_control": 6,
+    "minimum_primary_passes": 112,
+    "primary_total_pairs": 128,
+    "wilson_confidence": 0.95,
+    "wilson_z": 1.959963984540054
+  },
+  "class2_thresholds": {
+    "bilateral_feedback": 0.0654685289,
+    "gauge_relative_error_maximum": 1e-10,
+    "history_irreducibility": 0.0551607125,
+    "intervention_sensitivity": 0.0868509258,
+    "joint_generation": 0.0672948624,
+    "pair_specificity": 0.07071548
+  },
+  "confirmatory_pair_identifiers": {
+    "count": 128,
+    "first": "P1000",
+    "last": "P1127"
+  },
+  "confirmatory_seed": 20260802,
+  "distance": "RMS Euclidean",
+  "experiment": "Experiment 003",
+  "generic_control_seed": 20260902,
+  "history_families": {
+    "0": [
+      "AABB",
+      "ABAB"
+    ],
+    "1": [
+      "BBAA",
+      "BABA"
+    ]
+  },
+  "numpy_runtime_at_registration": "2.4.4",
+  "o3_thresholds": {
+    "effect_strictly_greater_than": 0.05,
+    "erasure_and_feedback_removal_maximum": 1e-10
+  },
+  "optimization_budget": {
+    "candidate_training_steps": 0,
+    "control_training_steps": 0,
+    "hyperparameter_searches": 0,
+    "result_dependent_reinitializations": 0,
+    "seed_selection": 0
+  },
+  "private_source_manifest_sha256": "911261145263fed07a18661a342f6e95335b81a1081f14222a4ebafd38cc999a",
+  "python_runtime_at_registration": "3.14.2",
+  "registration_date": "2026-08-02",
+  "schema": "siel-experiment-003-registration-manifest-v1",
+  "sensitivity_seeds": [
+    20260803,
+    20260804,
+    20260805,
+    20260806,
+    20260807,
+    20260808,
+    20260809,
+    20260810,
+    20260811,
+    20260812
+  ],
+  "source_sha256": {
+    "PREREGISTRATION.md": "09edb0dc8b82a6b59825fdbd35cbf2847b798dbf1ade9f30c0b0f7c45958f6af",
+    "PREREGISTRATION_EMAIL.md": "5941e6d1b9a6abba350a9ca3ae932fdf70894283d02c8defeda6f3c947a642e9",
+    "README.md": "7274ddec8520de29e5bd1012badf966f392d07136f33cb09b65b0e84d0a7ccb8",
+    "TECHNICAL_SPECIFICATION.md": "dd4668f981b3d2b03c8566d996c2a0925364d4c07eafd89cde8a9dea72f5e4cd",
+    "private_source_manifest.json": "911261145263fed07a18661a342f6e95335b81a1081f14222a4ebafd38cc999a",
+    "run.py": "844f1a78dd3f35475017670b77c5d7b42ae2a85ec50ed7cabd1c718a3f3c5bf5",
+    "test_run.py": "6840aebf6478b90aa2d41f8408e8b5118ce32dbb5feca162d9fa5d21b81b1852"
+  },
+  "state_matching": "exact canonical complete runtime and memory SHA-256 equality",
+  "title": "Class 2 Relational Carrier and Self-Reentrant O3 in Subjectivity Agents",
+  "vector_dtype": "numpy.float64",
+  "vector_dimensions": {
+    "action": 24,
+    "carrier": 24,
+    "matched_recurrent_total_state": 48,
+    "self_reentry_z_C": 24
+  }
+}

@@ -34,3 +34,9 @@ outputs, acceptance checks, and claim boundary.
     registered test of whether the complete dual-ring readout detects a
     relation-only failure beyond the two local ring certificates.
     [Executed result](002b_cit_relational_coherence_certificate/results/RESULT.md).
+
+3. [Class 2 Relational Carrier and Self-Reentrant O3 in Subjectivity Agents](003_subjectivity_agent_class2_o3/README.md) —
+   preregistered external application of the Experiment 002 criteria to
+   generated states from a hash-frozen private subjectivity-agent runtime,
+   followed by an independently evaluated explicit self-reentry extension.
+   Confirmatory execution pending.
