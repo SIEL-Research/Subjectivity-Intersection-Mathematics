@@ -32,3 +32,16 @@ python3 run.py \
 
 Results will be published regardless of whether the complete revised primary
 conjunction passes.
+
+## Confirmatory result
+
+The revised primary conjunction was supported: all 13 primary checks passed,
+and 190 of 192 interaction architecture-seed units passed the all-three-
+transition transport criterion. The separately registered implementation-
+boundary prediction was also supported. The distributed architecture had 29
+of 48 relation-over-individual-history passes, compared with 41, 46, and 47 in
+the three more structurally partitioned architectures.
+
+- [Public result report](PUBLIC_RESULT_REPORT.md)
+- [Complete machine-readable outputs](results/)
+- [Preregistration DOI](https://doi.org/10.5281/zenodo.21764531)

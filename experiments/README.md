@@ -81,4 +81,8 @@ outputs, acceptance checks, and claim boundary.
     result-informed revision that retests the operational O3 re-entry claim on
     48 new seeds while preserving the matched individual-history comparison as
     a separate implementation-boundary readout. Experiment 006 remains
-    `NOT_SUPPORTED`; 006R does not revise its registered decision.
+    `NOT_SUPPORTED`; 006R does not revise its registered decision. The revised
+    primary conjunction and the separately registered implementation-boundary
+    prediction were both supported. The O3 transport criterion passed in 190
+    of 192 interaction architecture-seed units.
+    [Public result report](006r_spontaneous_o3_reentry_revised/PUBLIC_RESULT_REPORT.md).

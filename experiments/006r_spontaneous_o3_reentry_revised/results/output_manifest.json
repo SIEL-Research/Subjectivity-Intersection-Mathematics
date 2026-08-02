@@ -1,0 +1,9 @@
+{
+  "files_sha256": {
+    "RESULT.md": "c39f714ec5b25ea4ef42762d8ba9292c122c002063e8d49d331475149d7225c0",
+    "summary.json": "1d94cd86afe6552e7fc65a6c96de185340ffcb85999c265f30bbcad209e3d51e",
+    "transition_metrics.csv": "ac17c3f3d5dc3830d113cc393dcdb1c070cb5da714e0ac3a54392dedffe5542a"
+  },
+  "mode": "confirmatory",
+  "schema": "siel-experiment-006r-output-manifest-v1"
+}

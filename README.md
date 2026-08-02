@@ -136,7 +136,10 @@ Experiment 006R is a result-informed revision that separates the two claims
 identified by Experiment 006. Its primary conjunction retests spontaneous O3
 re-entry on a new 48-seed allocation. The unchanged matched individual-history
 comparison is retained as a separately registered implementation-boundary
-readout and cannot alter the primary decision.
+readout and cannot alter the primary decision. Both decisions were supported:
+the O3 transport criterion passed in 190 of 192 interaction architecture-seed
+units, while the individual-history comparison confirmed a distinct
+distributed-representation boundary. [Public result report](experiments/006r_spontaneous_o3_reentry_revised/PUBLIC_RESULT_REPORT.md).
 
 ## Research Direction
 

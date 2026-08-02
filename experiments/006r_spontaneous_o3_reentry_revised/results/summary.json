@@ -1,0 +1,950 @@
+{
+  "architectures": {
+    "central_shared": {
+      "action_loss_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "action_loss_selectivity_over_own_history": {
+        "maximum": 4.815477880427354,
+        "median": 0.8648525857925338,
+        "minimum": -2.7524089692852653
+      },
+      "action_loss_selectivity_over_random": {
+        "maximum": 5.354294785872858,
+        "median": 1.769944857338915,
+        "minimum": -0.114212476713605
+      },
+      "action_magnitude_two_of_three_seed_count": 48,
+      "action_two_of_three_seed_count": 48,
+      "competent_seed_count": 48,
+      "component_norm": {
+        "maximum": 0.7310327740284591,
+        "median": 0.4625773544516778,
+        "minimum": 0.16686441937374247
+      },
+      "erase_bilateral_fraction": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.8662109375
+      },
+      "erase_cross_entropy_increase": {
+        "maximum": 5.7277585038888725,
+        "median": 2.1168248386876796,
+        "minimum": 4.219384615621434e-05
+      },
+      "erase_probability_response": {
+        "maximum": 0.4421293450849317,
+        "median": 0.26053987192830186,
+        "minimum": 2.889027886193158e-05
+      },
+      "exchange_bilateral_fraction": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.9072265625
+      },
+      "exchange_cross_entropy_increase": {
+        "maximum": 9.793441986943796,
+        "median": 5.512271085165942,
+        "minimum": 0.011267268067454502
+      },
+      "heldout_both_correct": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.9990234375
+      },
+      "matched_own_history_action_loss": {
+        "maximum": 3.6731765240875975,
+        "median": 0.9725513781306512,
+        "minimum": 0.04863002980438647
+      },
+      "matched_own_history_transport": {
+        "maximum": 0.5623353182094637,
+        "median": 0.41072221849599655,
+        "minimum": 0.20183987582672225
+      },
+      "next_component_norm": {
+        "maximum": 0.7818247934029551,
+        "median": 0.6006340616046651,
+        "minimum": 0.30517511163977484
+      },
+      "own_history_two_of_three_seed_count": 46,
+      "positive_action_over_own_count": 102,
+      "positive_over_own_count": 134,
+      "probability_response_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "probability_response_selectivity_over_random": {
+        "maximum": 0.3936534503050426,
+        "median": 0.20528462839620898,
+        "minimum": -0.007140890596221139
+      },
+      "random_action_loss_median": {
+        "maximum": 1.0031602488098876,
+        "median": 0.28937577511426094,
+        "minimum": 0.005044893098944298
+      },
+      "random_bilateral_median": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.8275146484375
+      },
+      "random_probability_response_median": {
+        "maximum": 0.11063089898405035,
+        "median": 0.041655327527469796,
+        "minimum": 0.0011896684080460968
+      },
+      "random_transport_median": {
+        "maximum": 0.4684197615383507,
+        "median": 0.34142905386901723,
+        "minimum": 0.13168356539252668
+      },
+      "reentry_state_reconstruction_error": {
+        "maximum": 2.636779683484747e-16,
+        "median": 2.220446049250313e-16,
+        "minimum": 2.220446049250313e-16
+      },
+      "top_0_95_action_loss_count": 135,
+      "top_0_95_action_magnitude_count": 137,
+      "top_0_95_transition_count": 144,
+      "transport_alignment_with_next": {
+        "maximum": 0.9782024813225849,
+        "median": 0.9039394911342227,
+        "minimum": 0.5372673365207536
+      },
+      "transport_all_three_seed_count": 48,
+      "transport_fraction_of_next": {
+        "maximum": 1.090132595093801,
+        "median": 0.9335619455128291,
+        "minimum": 0.4491147425499619
+      },
+      "transport_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 1.0
+      },
+      "transport_selectivity_over_own_history": {
+        "maximum": 0.3305786249046941,
+        "median": 0.14257463441681137,
+        "minimum": -0.0697622211679414
+      },
+      "transport_selectivity_over_random": {
+        "maximum": 0.34262166243212544,
+        "median": 0.2074827283119249,
+        "minimum": 0.013613738799991837
+      },
+      "transported_component_norm": {
+        "maximum": 0.7800838321668222,
+        "median": 0.5503281282845741,
+        "minimum": 0.14529730419251852
+      }
+    },
+    "directional_relay": {
+      "action_loss_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "action_loss_selectivity_over_own_history": {
+        "maximum": 6.005075589972783,
+        "median": 0.8452103843682849,
+        "minimum": -2.671572446618609
+      },
+      "action_loss_selectivity_over_random": {
+        "maximum": 5.714039458820948,
+        "median": 1.8458025081966127,
+        "minimum": -0.1264180982270706
+      },
+      "action_magnitude_two_of_three_seed_count": 47,
+      "action_two_of_three_seed_count": 46,
+      "competent_seed_count": 48,
+      "component_norm": {
+        "maximum": 0.776302835122241,
+        "median": 0.4799132038957217,
+        "minimum": 0.18626840081694052
+      },
+      "erase_bilateral_fraction": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.97021484375
+      },
+      "erase_cross_entropy_increase": {
+        "maximum": 6.116138828428281,
+        "median": 2.10742327473447,
+        "minimum": 0.0001648503910619369
+      },
+      "erase_probability_response": {
+        "maximum": 0.47806822493087214,
+        "median": 0.26687046519392543,
+        "minimum": 0.00010749922254767463
+      },
+      "exchange_bilateral_fraction": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.955078125
+      },
+      "exchange_cross_entropy_increase": {
+        "maximum": 11.158792421953603,
+        "median": 5.8468426727186875,
+        "minimum": 0.0007496752941948839
+      },
+      "heldout_both_correct": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.999755859375
+      },
+      "matched_own_history_action_loss": {
+        "maximum": 3.1960393416037545,
+        "median": 1.172462378589822,
+        "minimum": 0.021091414517053816
+      },
+      "matched_own_history_transport": {
+        "maximum": 0.6246305432608611,
+        "median": 0.41414446959339046,
+        "minimum": 0.23168321760216037
+      },
+      "next_component_norm": {
+        "maximum": 0.8244891303806579,
+        "median": 0.622226579938269,
+        "minimum": 0.28505713698657165
+      },
+      "own_history_two_of_three_seed_count": 47,
+      "positive_action_over_own_count": 96,
+      "positive_over_own_count": 131,
+      "probability_response_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "probability_response_selectivity_over_random": {
+        "maximum": 0.4015680062522216,
+        "median": 0.21921677460877992,
+        "minimum": -0.0151025928299197
+      },
+      "random_action_loss_median": {
+        "maximum": 0.9436230237379957,
+        "median": 0.2883767144167434,
+        "minimum": 0.04673511054267472
+      },
+      "random_bilateral_median": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.9371337890625
+      },
+      "random_probability_response_median": {
+        "maximum": 0.09427704288507174,
+        "median": 0.03953759055390223,
+        "minimum": 0.00788892225787576
+      },
+      "random_transport_median": {
+        "maximum": 0.4747894004110422,
+        "median": 0.33886620497298164,
+        "minimum": 0.16114207314926493
+      },
+      "reentry_state_reconstruction_error": {
+        "maximum": 2.636779683484747e-16,
+        "median": 2.220446049250313e-16,
+        "minimum": 2.220446049250313e-16
+      },
+      "top_0_95_action_loss_count": 135,
+      "top_0_95_action_magnitude_count": 139,
+      "top_0_95_transition_count": 144,
+      "transport_alignment_with_next": {
+        "maximum": 0.9903425222534238,
+        "median": 0.9209240428598612,
+        "minimum": 0.6750084780116307
+      },
+      "transport_all_three_seed_count": 48,
+      "transport_fraction_of_next": {
+        "maximum": 1.0727284259537737,
+        "median": 0.9207183181010564,
+        "minimum": 0.47411518394368785
+      },
+      "transport_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 1.0
+      },
+      "transport_selectivity_over_own_history": {
+        "maximum": 0.4209310505048923,
+        "median": 0.15101833574601253,
+        "minimum": -0.060843159600147634
+      },
+      "transport_selectivity_over_random": {
+        "maximum": 0.3872648972118918,
+        "median": 0.24653087825581055,
+        "minimum": 0.034571555761942485
+      },
+      "transported_component_norm": {
+        "maximum": 0.8446684843002732,
+        "median": 0.58393362179882,
+        "minimum": 0.19571362891120742
+      }
+    },
+    "distributed": {
+      "action_loss_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "action_loss_selectivity_over_own_history": {
+        "maximum": 2.634988128216329,
+        "median": -0.44500721817253724,
+        "minimum": -3.0017465577494677
+      },
+      "action_loss_selectivity_over_random": {
+        "maximum": 2.944448782587461,
+        "median": 0.5306038200548624,
+        "minimum": -0.13816787788412518
+      },
+      "action_magnitude_two_of_three_seed_count": 47,
+      "action_two_of_three_seed_count": 45,
+      "competent_seed_count": 48,
+      "component_norm": {
+        "maximum": 0.6654200901393362,
+        "median": 0.4055263091012468,
+        "minimum": 0.1876801792093576
+      },
+      "erase_bilateral_fraction": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.97509765625
+      },
+      "erase_cross_entropy_increase": {
+        "maximum": 3.1662763062841055,
+        "median": 0.7445494027474897,
+        "minimum": 0.0002823474818845518
+      },
+      "erase_probability_response": {
+        "maximum": 0.318079596813819,
+        "median": 0.11561464272002916,
+        "minimum": 0.0001656984638627393
+      },
+      "exchange_bilateral_fraction": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.98876953125
+      },
+      "exchange_cross_entropy_increase": {
+        "maximum": 6.124658671365367,
+        "median": 2.2789073976418592,
+        "minimum": 0.03769295952737583
+      },
+      "heldout_both_correct": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.99951171875
+      },
+      "matched_own_history_action_loss": {
+        "maximum": 4.154521329395343,
+        "median": 1.1378029323858774,
+        "minimum": 0.0308836720800071
+      },
+      "matched_own_history_transport": {
+        "maximum": 0.6414872360740269,
+        "median": 0.4062488524556776,
+        "minimum": 0.221920144950033
+      },
+      "next_component_norm": {
+        "maximum": 0.7389338753456283,
+        "median": 0.5483617534210565,
+        "minimum": 0.27415215515979685
+      },
+      "own_history_two_of_three_seed_count": 29,
+      "positive_action_over_own_count": 44,
+      "positive_over_own_count": 84,
+      "probability_response_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "probability_response_selectivity_over_random": {
+        "maximum": 0.27656270041361675,
+        "median": 0.08632500562061268,
+        "minimum": -0.007558266151749707
+      },
+      "random_action_loss_median": {
+        "maximum": 0.6274169751679883,
+        "median": 0.16048877044041684,
+        "minimum": 0.013285887425694476
+      },
+      "random_bilateral_median": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.985595703125
+      },
+      "random_probability_response_median": {
+        "maximum": 0.06961869849587432,
+        "median": 0.027043419595151594,
+        "minimum": 0.0032367095710056247
+      },
+      "random_transport_median": {
+        "maximum": 0.43928973610952005,
+        "median": 0.30814749695183713,
+        "minimum": 0.16277004620261193
+      },
+      "reentry_state_reconstruction_error": {
+        "maximum": 2.706168622523819e-16,
+        "median": 2.3592239273284576e-16,
+        "minimum": 1.6653345369377348e-16
+      },
+      "top_0_95_action_loss_count": 133,
+      "top_0_95_action_magnitude_count": 138,
+      "top_0_95_transition_count": 143,
+      "transport_alignment_with_next": {
+        "maximum": 0.8730855768738148,
+        "median": 0.6486632705145456,
+        "minimum": 0.26258762579403344
+      },
+      "transport_all_three_seed_count": 47,
+      "transport_fraction_of_next": {
+        "maximum": 0.9852026818493431,
+        "median": 0.7941329518491425,
+        "minimum": 0.5760314796140538
+      },
+      "transport_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "transport_selectivity_over_own_history": {
+        "maximum": 0.17994124951619567,
+        "median": 0.00617103871378015,
+        "minimum": -0.0934060712044158
+      },
+      "transport_selectivity_over_random": {
+        "maximum": 0.24919214908270748,
+        "median": 0.10327110684873197,
+        "minimum": -0.0021272304684027132
+      },
+      "transported_component_norm": {
+        "maximum": 0.6466764802152398,
+        "median": 0.41219375362694044,
+        "minimum": 0.16064281573420922
+      }
+    },
+    "four_channel_crossbar": {
+      "action_loss_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "action_loss_selectivity_over_own_history": {
+        "maximum": 5.636732178082204,
+        "median": 0.7208496493244425,
+        "minimum": -2.9039570495677682
+      },
+      "action_loss_selectivity_over_random": {
+        "maximum": 5.9554720164409884,
+        "median": 1.911496132996521,
+        "minimum": -0.33370308015039385
+      },
+      "action_magnitude_two_of_three_seed_count": 44,
+      "action_two_of_three_seed_count": 44,
+      "competent_seed_count": 47,
+      "component_norm": {
+        "maximum": 0.7360321970079339,
+        "median": 0.4622282221842815,
+        "minimum": 0.23460254320544868
+      },
+      "erase_bilateral_fraction": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.965576171875
+      },
+      "erase_cross_entropy_increase": {
+        "maximum": 6.406366785182794,
+        "median": 2.191752437080838,
+        "minimum": 0.0003395968393158022
+      },
+      "erase_probability_response": {
+        "maximum": 0.45624180288776284,
+        "median": 0.23207110682442483,
+        "minimum": 0.0002202943737357418
+      },
+      "exchange_bilateral_fraction": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.945556640625
+      },
+      "exchange_cross_entropy_increase": {
+        "maximum": 10.464769982881759,
+        "median": 5.212109249803263,
+        "minimum": 0.009624732223829315
+      },
+      "heldout_both_correct": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.92041015625
+      },
+      "matched_own_history_action_loss": {
+        "maximum": 4.3961890024238635,
+        "median": 1.2186017533131115,
+        "minimum": 0.0561021182536652
+      },
+      "matched_own_history_transport": {
+        "maximum": 0.597236098871593,
+        "median": 0.41684475657191156,
+        "minimum": 0.26644833212756336
+      },
+      "next_component_norm": {
+        "maximum": 0.8444074259007509,
+        "median": 0.6105371971762262,
+        "minimum": 0.2492561810800027
+      },
+      "own_history_two_of_three_seed_count": 41,
+      "positive_action_over_own_count": 93,
+      "positive_over_own_count": 116,
+      "probability_response_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "probability_response_selectivity_over_random": {
+        "maximum": 0.4116230045364414,
+        "median": 0.19241571397248786,
+        "minimum": -0.03235567257971915
+      },
+      "random_action_loss_median": {
+        "maximum": 0.9387293478478352,
+        "median": 0.2840027165806498,
+        "minimum": 0.04671988887962591
+      },
+      "random_bilateral_median": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.9228515625
+      },
+      "random_probability_response_median": {
+        "maximum": 0.08396431959143666,
+        "median": 0.040413257857602664,
+        "minimum": 0.010395406447782885
+      },
+      "random_transport_median": {
+        "maximum": 0.47292194228768564,
+        "median": 0.3362381304597035,
+        "minimum": 0.19136583673468063
+      },
+      "reentry_state_reconstruction_error": {
+        "maximum": 2.636779683484747e-16,
+        "median": 2.220446049250313e-16,
+        "minimum": 2.220446049250313e-16
+      },
+      "top_0_95_action_loss_count": 129,
+      "top_0_95_action_magnitude_count": 132,
+      "top_0_95_transition_count": 141,
+      "transport_alignment_with_next": {
+        "maximum": 0.9901760122430329,
+        "median": 0.9252949556772806,
+        "minimum": 0.40035688074658854
+      },
+      "transport_all_three_seed_count": 47,
+      "transport_fraction_of_next": {
+        "maximum": 1.4417175586647684,
+        "median": 0.941940465996142,
+        "minimum": 0.5956018376267935
+      },
+      "transport_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 1.0
+      },
+      "transport_selectivity_over_own_history": {
+        "maximum": 0.39580513075682316,
+        "median": 0.12714922931548225,
+        "minimum": -0.09455001427555387
+      },
+      "transport_selectivity_over_random": {
+        "maximum": 0.4157279188530313,
+        "median": 0.2268003219681587,
+        "minimum": 0.011314833761841309
+      },
+      "transported_component_norm": {
+        "maximum": 0.8480148130819134,
+        "median": 0.5503683001558843,
+        "minimum": 0.21077658575666008
+      }
+    },
+    "independent": {
+      "action_loss_percentile": {
+        "maximum": 0.5,
+        "median": 0.5,
+        "minimum": 0.5
+      },
+      "action_loss_selectivity_over_own_history": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "action_loss_selectivity_over_random": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "action_magnitude_two_of_three_seed_count": 0,
+      "action_two_of_three_seed_count": 0,
+      "competent_seed_count": 0,
+      "component_norm": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "erase_bilateral_fraction": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "erase_cross_entropy_increase": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "erase_probability_response": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "exchange_bilateral_fraction": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "exchange_cross_entropy_increase": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "heldout_both_correct": {
+        "maximum": 0.120849609375,
+        "median": 0.10986328125,
+        "minimum": 0.099365234375
+      },
+      "matched_own_history_action_loss": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "matched_own_history_transport": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "next_component_norm": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "own_history_two_of_three_seed_count": 0,
+      "positive_action_over_own_count": 0,
+      "positive_over_own_count": 0,
+      "probability_response_percentile": {
+        "maximum": 0.5,
+        "median": 0.5,
+        "minimum": 0.5
+      },
+      "probability_response_selectivity_over_random": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "random_action_loss_median": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "random_bilateral_median": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "random_probability_response_median": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "random_transport_median": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "reentry_state_reconstruction_error": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "top_0_95_action_loss_count": 0,
+      "top_0_95_action_magnitude_count": 0,
+      "top_0_95_transition_count": 0,
+      "transport_alignment_with_next": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "transport_all_three_seed_count": 0,
+      "transport_fraction_of_next": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "transport_percentile": {
+        "maximum": 0.5,
+        "median": 0.5,
+        "minimum": 0.5
+      },
+      "transport_selectivity_over_own_history": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "transport_selectivity_over_random": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "transported_component_norm": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      }
+    }
+  },
+  "claim_boundary": "A supported primary result confirms transfer of spontaneous operational O3 re-entry across a new 48-seed allocation. The secondary readout tests whether relation-versus-individual-history identifiability depends on implementation topology. Neither decision identifies the learned component with ontological subjectivity or proves a unique physical mechanism.",
+  "development_training_seeds_excluded": [
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    444,
+    445,
+    446,
+    447,
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "evaluation": {
+    "episodes": 4096,
+    "evaluation_seeds": [
+      61650001,
+      61650002
+    ],
+    "random_draws": 64,
+    "transitions": [
+      4,
+      5,
+      6
+    ]
+  },
+  "experiment_006_confirmatory_seeds_reused": false,
+  "mode": "confirmatory",
+  "pooled_transport_seed_passes": 190,
+  "primary_acceptance_checks": {
+    "action_loss_two_of_three_at_least_36_of_48_each": true,
+    "action_magnitude_two_of_three_at_least_36_of_48_each": true,
+    "capacity_exact_486": true,
+    "competence_at_least_44_of_48_each_interacting_architecture": true,
+    "independent_accuracy_at_most_0_20": true,
+    "independent_component_at_most_1e_10": true,
+    "median_bilateral_erasure_at_least_0_95_each": true,
+    "median_exchange_loss_at_least_0_25_each": true,
+    "median_transport_alignment_at_least_0_60_each": true,
+    "median_transport_fraction_at_least_0_75_each": true,
+    "pooled_transport_at_least_168_of_192": true,
+    "reentry_reconstruction_error_at_most_1e_12": true,
+    "transport_all_three_at_least_40_of_48_each_architecture": true
+  },
+  "primary_readout": "SUPPORTED",
+  "public_e005_confirmatory_seeds_reused": false,
+  "registration_verification": {
+    "all_source_hashes_match": true,
+    "manifest": "experiments/006r_spontaneous_o3_reentry_revised/registration_manifest.json",
+    "observed_source_sha256": {
+      "experiments/005_emergent_relational_carrier_solution_class/support/__init__.py": "165d61315515af824fb90cea404b502e0dd6c0fe05155e2a43044d8dc041e9fb",
+      "experiments/005_emergent_relational_carrier_solution_class/support/analysis_utils.py": "baab342b22ee27d18474189ee4c8b0f61d244b1fcd525989649a5e2cd781d6be",
+      "experiments/005_emergent_relational_carrier_solution_class/support/e009_world.py": "09d09e7c99dfa820477665b2196a0263d4f3ad30442dd30895fb221c14abc150",
+      "experiments/005_emergent_relational_carrier_solution_class/support/e010_directed.py": "c354e88029cb11294118c27c95d811311e9bebc933afa8776e70d941119b9216",
+      "experiments/005_emergent_relational_carrier_solution_class/support/p014_architectures.py": "d364b4bb8b2db4341c82df2ee32ff6280479f1b348869a8eb4b3ac43723500ce",
+      "experiments/005_emergent_relational_carrier_solution_class/support/p015_reciprocal.py": "29c4796d8c4089659504980c7716a043757e8d92fac7131ac42fb9a332c100cf",
+      "experiments/006_spontaneous_o3_reentry/run.py": "87e673c09bc1dce5471cf90fa70c9425c5cc2bb669006e473e799415074f9375",
+      "experiments/006r_spontaneous_o3_reentry_revised/PREREGISTRATION.md": "c40e4270e2d67c313641584b3fe2c4fcc47e10a51ced2049d2697cc2be5fc173",
+      "experiments/006r_spontaneous_o3_reentry_revised/README.md": "4ebada901b3b3e4a9fd05aca3e5924004c89d16ba026fb8f091b449f1d51d299",
+      "experiments/006r_spontaneous_o3_reentry_revised/TECHNICAL_SPECIFICATION.md": "a23907114833f72bb9474924b9e1ac3b198f18372c322678b3511dd3b1465c47",
+      "experiments/006r_spontaneous_o3_reentry_revised/run.py": "77e785b2f66070bfbe0d489890b399b313a0ff97bc0e8b0a24af0ac25b0d9de7",
+      "experiments/006r_spontaneous_o3_reentry_revised/test_run.py": "300af3c0ab308efb867210a6b3fd98ec478512e58e06dfff8bbc131da6904b9b"
+    },
+    "source_count": 12
+  },
+  "result_informed_revision": true,
+  "schema": "siel-experiment-006r-spontaneous-o3-reentry-v1",
+  "secondary_boundary": {
+    "checks": {
+      "distributed_fewer_than_40_of_48": true,
+      "distributed_gap_at_least_6": true,
+      "partitioned_architectures_at_least_40_of_48": true
+    },
+    "counts": {
+      "central_shared": 46,
+      "directional_relay": 47,
+      "distributed": 29,
+      "four_channel_crossbar": 41
+    },
+    "readout": "SUPPORTED"
+  },
+  "status": "CONFIRMATORY_COMPLETE",
+  "task": "delayed reciprocal recall",
+  "training": {
+    "batch_size": 256,
+    "learning_rate": 0.004,
+    "steps": 4000
+  },
+  "training_seeds": [
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3030,
+    3031,
+    3032,
+    3033,
+    3034,
+    3035,
+    3036,
+    3037,
+    3038,
+    3039,
+    3040,
+    3041,
+    3042,
+    3043,
+    3044,
+    3045,
+    3046,
+    3047
+  ]
+}
