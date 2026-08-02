@@ -91,8 +91,12 @@ O3 inference is made from that run. [Technical failure report](experiments/003_s
 Experiment 003R is the separately preregistered correction. It uses new pairs
 and seeds, performs completed donor-C exchange into unchanged recipient return
 paths, executes the full Phase B control inventory, and machine-checks that the
-registered and executed controls are identical. Confirmatory execution remains
-pending.
+registered and executed controls are identical. The confirmatory run supported
+the registered operational Class 2 and O3 decisions in 126 of 128 pairs, with
+zero false Class 2 declarations across all eight registered null controls. A
+matched generic recurrent control also passed in 126 of 128 pairs, limiting the
+result to operational sufficiency and transfer rather than implementation
+uniqueness. [Public result report](experiments/003r_subjectivity_agent_class2_o3_corrected/PUBLIC_RESULT_REPORT.md).
 
 ## Research Direction
 

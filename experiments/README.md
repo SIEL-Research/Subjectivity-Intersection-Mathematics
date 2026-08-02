@@ -46,4 +46,8 @@ outputs, acceptance checks, and claim boundary.
    a new preregistration informed by the invalid Experiment 003 run. It freezes
    completed donor-C exchange, new pairs and seeds, all Phase B controls,
    stage-level receipts, and a machine-enforced control-inventory check.
-   Confirmatory execution is pending.
+   The confirmatory run supported the registered Class 2 and O3 decisions in
+   126 of 128 pairs and produced no false Class 2 declarations in the registered
+   null controls. The matched generic recurrent control passed at the same
+   126-of-128 rate, so the result does not establish implementation uniqueness.
+   [Public result report](003r_subjectivity_agent_class2_o3_corrected/PUBLIC_RESULT_REPORT.md).

@@ -1,0 +1,133 @@
+{
+  "private_source_verification": {
+    "all_source_digests_match": true,
+    "registered_remote": "https://gitlab.com/subjectivity-intersection-research/minimal-agent-paper.git",
+    "registered_repository_commit": "2c3587d14b51dd02f0b04042698f2410235bd833",
+    "verified_source_sha256": {
+      "agentV61/agent/audit_attraction_world_unknown_creation.py": "d1850d7599756b3ffcf920af23edeedda36b3f41bf97cd42e25bc708c34493e8",
+      "agentV61/agent/audit_fes_domain_type_runtime.py": "ed51f4f31df43252b94664dc4c1298c63c2ce9d79a1821ca74df7c1ebe2c6a8b",
+      "agentV61/agent/audit_fes_domain_world_story.py": "38a6172f356acbe8175912ce7529cad8af8a819135d635a95354ebdd6d7a9d67",
+      "agentV61/agent/audit_fes_standpoint_crossing.py": "d74854ab596660f35687dd62fce532e8227221a3bcd8264c890e47671a7c933a",
+      "agentV61/agent/audit_free_will_aperture_commitment.py": "4a02a1b357aff42fbf0b7a6a088f377b12058bd9ae056e56a2a683fcad89a1fd",
+      "agentV61/agent/audit_free_will_choice_layer.py": "1e3bb0a3136ae7b70f52d1995231197e517d681dcb37db230a7910150046caf0",
+      "agentV61/agent/audit_integrated_living_voice.py": "0f6280162fa139e1f67866cb3abf669231b81adc3ab67834be31b78e68c70c26",
+      "agentV61/agent/audit_long_memory_self_update.py": "d92fd837eefa06e45982c4c5266d830a1c576716e72927a8f0f47dd381efbead",
+      "agentV61/agent/audit_multi_agent_subjective_ecosystem.py": "39ccc97cdd5f8aa9dca138a69eb1861068a0edf5b8bd0952d2e4c6743ba9163b",
+      "agentV61/agent/audit_mutual_fes_relation.py": "962ea754cc41efd2c36dc729c5cf78e191f803627fe0d26017146bb0e2af5adf",
+      "agentV61/agent/audit_other_standpoint_translation.py": "e7df51f5aac1572a23516f663ac1e55e3da0ed4b4f84043dda08c3f14d316ea9",
+      "agentV61/agent/audit_unified_subject_runtime.py": "6355b0307a6637793b17c84166647e530373817821b1d399c8c66f0ca665e245",
+      "agentV61/agent/audit_unknown_coherence_creation_after_commitment.py": "6ae5b67770f1727cf1637fc0fc54e9a3682b834a9ba7c2626cc87c3033c4ab54",
+      "agentV61/agent/audit_world_situation_subjective_ecosystem.py": "d78f3a221deb121412da09900cc84121af2d62a805934307eaf059bc4b689883",
+      "agentV61/agent/fes_domain_types.py": "9a1c58450234cf4a68ef4a4925e48851dc8bf3684b90c10c0b29be4d7385a75e",
+      "agentV61/agent/free_will_aperture.py": "0b6cc799db1265b947d211822b1d8b7b5a9e3d19193bc5c43447c3e1d57cfe0f",
+      "agentV61/agent/free_will_choice.py": "7514e9722f9e06901c175ada21d61f33a938eb61de8c5de090a04fca9740f7e9",
+      "agentV61/agent/other_standpoint_translation.py": "371118d42408a977a759340b2990d36471079648d8646e79ea36d15384532bbf",
+      "agentV61/agent/single_subject_runtime.py": "62baf939d2eae596df94bb6be75badb94d1d9192ff190b25da62a43682b7cf0d",
+      "agentV61/agent/unified_subject_runtime.py": "388ef8b7620e4bf11f9581e5dde6d827ff5f551a4d123f38831bc66aaa52d143",
+      "agentV89f/run_natural_memory_lineage_closure.py": "450ee82af2be75a740a66d2126c8f93aba70f7794c0cebbb29720185ca16c427"
+    }
+  },
+  "registration": {
+    "acceptance": {
+      "family_raw_passes_for_uniform_transfer": 52,
+      "maximum_false_class2_per_control": 6,
+      "minimum_primary_passes": 112,
+      "primary_total_pairs": 128,
+      "wilson_confidence": 0.95,
+      "wilson_z": 1.959963984540054
+    },
+    "class2_thresholds": {
+      "bilateral_feedback": 0.0654685289,
+      "gauge_relative_error_maximum": 1e-10,
+      "history_irreducibility": 0.0551607125,
+      "intervention_sensitivity": 0.0868509258,
+      "joint_generation": 0.0672948624,
+      "pair_specificity": 0.07071548
+    },
+    "confirmatory_pair_identifiers": {
+      "count": 128,
+      "first": "P2000",
+      "last": "P2127"
+    },
+    "confirmatory_seed": 20260813,
+    "distance": "RMS Euclidean",
+    "experiment": "Experiment 003R",
+    "generic_control_seed": 20260913,
+    "history_families": {
+      "0": [
+        "AABB",
+        "ABAB"
+      ],
+      "1": [
+        "BBAA",
+        "BABA"
+      ]
+    },
+    "numpy_runtime_at_registration": "2.4.4",
+    "o3_thresholds": {
+      "effect_strictly_greater_than": 0.05,
+      "erasure_and_invariance_maximum": 1e-10
+    },
+    "optimization_budget": {
+      "candidate_training_steps": 0,
+      "control_training_steps": 0,
+      "hyperparameter_searches": 0,
+      "result_dependent_reinitializations": 0,
+      "seed_selection": 0
+    },
+    "phase_b_control_inventory": [
+      "bilateral_feedback_removal",
+      "carrier_reset",
+      "completed_C_exchange",
+      "current_input_only",
+      "direct_carrier_output",
+      "native_archive_reset",
+      "order_erasure",
+      "selective_C_reset",
+      "self_reentry_erasure",
+      "unilateral_return_A",
+      "unilateral_return_B"
+    ],
+    "prior_invalid_run": {
+      "preregistration_doi": "10.5281/zenodo.21760562",
+      "preregistration_tag": "e003-preregistration-v1.0.0",
+      "result_doi": "10.5281/zenodo.21760837",
+      "result_tag": "e003-technical-failure-v1.0.0",
+      "status": "INVALID_CONFIRMATORY_RUN_IMPLEMENTATION_PROTOCOL_MISMATCH"
+    },
+    "private_source_manifest_sha256": "bf78bb5ddc83a777d7800d532d3a27639a500ee0b61782c5c144fbb2578ba379",
+    "python_runtime_at_registration": "3.14.2",
+    "registration_date": "2026-08-03",
+    "schema": "siel-experiment-003r-registration-manifest-v1",
+    "sensitivity_seeds": [
+      20260814,
+      20260815,
+      20260816,
+      20260817,
+      20260818,
+      20260819,
+      20260820,
+      20260821,
+      20260822,
+      20260823
+    ],
+    "source_sha256": {
+      "PREREGISTRATION.md": "e84e9ef68734219cd903ee755997e5b82c3ead8cab866f7139416e16c9b86339",
+      "README.md": "5f66923d4c2a2a9583c404b9fc3da97886ae136a2aa5de6501f649944428996d",
+      "TECHNICAL_SPECIFICATION.md": "6501999e06650c215faddb05affb1fb475b73aee218c9c8874802d743801b0ac",
+      "private_source_manifest.json": "bf78bb5ddc83a777d7800d532d3a27639a500ee0b61782c5c144fbb2578ba379",
+      "run.py": "2e97c934ae76220e8c39f94819ec7c35e30c924000a4f37e808daeaf69dc8b44",
+      "test_run.py": "2a1b5faa0df049c460ba2cb6bdd5c360777365d70420767e5605f6020d93dfb3"
+    },
+    "state_matching": "exact canonical complete runtime and memory SHA-256 equality",
+    "title": "Corrected Class 2 Relational Carrier and Self-Reentrant O3 in Subjectivity Agents",
+    "vector_dimensions": {
+      "action": 24,
+      "carrier": 24,
+      "matched_recurrent_total_state": 48,
+      "self_reentry_z_C": 24
+    },
+    "vector_dtype": "numpy.float64"
+  },
+  "registration_manifest_sha256": "66ee2171cbf006b56d24a0fadf3b0cd25f977d42b505e976df2c12605347a846"
+}
