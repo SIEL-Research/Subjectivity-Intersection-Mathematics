@@ -1,0 +1,100 @@
+{
+  "architecture_classes": [
+    "candidate_o3",
+    "symmetric_recurrent",
+    "role_aware_memoryless",
+    "role_aware_recurrent"
+  ],
+  "confirmatory_descriptor_indices": {
+    "count": 128,
+    "first": 128,
+    "last": 255
+  },
+  "confirmatory_seeds": [
+    20261101,
+    20261102,
+    20261103,
+    20261104,
+    20261105,
+    20261106,
+    20261107,
+    20261108,
+    20261109,
+    20261110,
+    20261111,
+    20261112
+  ],
+  "decision_rules": {
+    "minimum_family_passes": 52,
+    "minimum_pair_passes": 112,
+    "minimum_seed_passes_per_pair": 10,
+    "primary_pair_count": 128,
+    "seed_count_per_pair": 12
+  },
+  "development_descriptor_indices": {
+    "count": 128,
+    "first": 0,
+    "last": 127
+  },
+  "development_seeds": [
+    20261001,
+    20261002,
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007,
+    20261008,
+    20261009,
+    20261010,
+    20261011,
+    20261012
+  ],
+  "distance": "RMS Euclidean",
+  "donor_rule": {
+    "history_family_size": 64,
+    "offset_within_family": 1,
+    "rule": "donor = recipient + 1 mod 64"
+  },
+  "experiment": "Experiment 004",
+  "history_families": {
+    "0": "ABAB",
+    "1": "BABA"
+  },
+  "intervention_patterns": {
+    "all_flip": [-1.0, -1.0, -1.0, -1.0],
+    "baseline": [1.0, 1.0, 1.0, 1.0],
+    "early_only": [-1.0, 1.0, 1.0, 1.0],
+    "last_only": [1.0, 1.0, 1.0, -1.0],
+    "prior_only": [-1.0, -1.0, -1.0, 1.0]
+  },
+  "numpy_runtime_at_registration": "2.4.4",
+  "private_source_commit": "2c3587d14b51dd02f0b04042698f2410235bd833",
+  "private_source_manifest_sha256": "bf78bb5ddc83a777d7800d532d3a27639a500ee0b61782c5c144fbb2578ba379",
+  "python_runtime_at_registration": "3.14.2",
+  "registration_date": "2026-08-03",
+  "schema": "siel-experiment-004-registration-manifest-v1",
+  "source_sha256": {
+    "experiments/003r_subjectivity_agent_class2_o3_corrected/private_source_manifest.json": "bf78bb5ddc83a777d7800d532d3a27639a500ee0b61782c5c144fbb2578ba379",
+    "experiments/003r_subjectivity_agent_class2_o3_corrected/run.py": "2e97c934ae76220e8c39f94819ec7c35e30c924000a4f37e808daeaf69dc8b44",
+    "experiments/004_difference_preserving_o3_discrimination/PREREGISTRATION.md": "879624cc8237c97a71cdb68c1fb70ea0355e5371a556b3cb57521b64b388f5b2",
+    "experiments/004_difference_preserving_o3_discrimination/README.md": "27bb32a60a1e75602d373f47d18272e43c8406188ea9b45e65f3f1d65469dcff",
+    "experiments/004_difference_preserving_o3_discrimination/TECHNICAL_SPECIFICATION.md": "59d3e331273fa377db582a81eec543d858ace79d47b9e503c3f9e2fcb4014729",
+    "experiments/004_difference_preserving_o3_discrimination/run.py": "4ffde955aa1749fd0d04089d410eab017461f7d18b2a02edcebe06563f24972c",
+    "experiments/004_difference_preserving_o3_discrimination/test_run.py": "1e79b5f416a6da8db589eb1610d3a76707c56497206c9ea15ff9fe42017604b3"
+  },
+  "thresholds": {
+    "candidate_action_all_flip_strictly_greater_than": 0.05,
+    "candidate_action_early_only_strictly_greater_than": 0.01,
+    "candidate_action_prior_only_strictly_greater_than": 0.025,
+    "candidate_carrier_all_flip_strictly_greater_than": 0.05,
+    "candidate_self_state_all_flip_strictly_greater_than": 0.05,
+    "common_mode_response_strictly_greater_than": 0.005,
+    "same_family_return_A_strictly_greater_than": 0.07071548,
+    "same_family_return_B_strictly_greater_than": 0.07071548,
+    "zero_or_invariance_maximum": 1e-12
+  },
+  "title": "Difference-Preserving Relational Carrier and Retained-History O3 Audit",
+  "vector_dtype": "numpy.float64",
+  "vector_dimension": 24
+}
