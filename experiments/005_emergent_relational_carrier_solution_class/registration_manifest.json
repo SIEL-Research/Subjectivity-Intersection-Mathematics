@@ -1,0 +1,72 @@
+{
+  "architecture_classes": [
+    "independent",
+    "distributed",
+    "central_shared",
+    "directional_relay",
+    "four_channel_crossbar"
+  ],
+  "calibration_seed_indices_excluded": [
+    [0, 7],
+    [100, 111],
+    [200, 223]
+  ],
+  "confirmatory_evaluation_seeds": [51630001, 51630002],
+  "confirmatory_training_seeds": [
+    1000, 1001, 1002, 1003, 1004, 1005,
+    1006, 1007, 1008, 1009, 1010, 1011,
+    1012, 1013, 1014, 1015, 1016, 1017,
+    1018, 1019, 1020, 1021, 1022, 1023
+  ],
+  "decision_rules": {
+    "independent_accuracy_maximum": 0.20,
+    "independent_component_norm_maximum": 1e-10,
+    "minimum_bilateral_proportion_per_run": 0.90,
+    "minimum_bilateral_runs_per_architecture": 22,
+    "minimum_competent_seeds_per_interacting_architecture": 22,
+    "minimum_context_cka_median": 0.35,
+    "minimum_context_specificity_median": 0.15,
+    "minimum_median_bilateral_proportion": 0.95,
+    "minimum_passing_architecture_count": 3,
+    "minimum_pooled_top_0_95_count": 60,
+    "minimum_positive_selectivity_count_per_passing_architecture": 14,
+    "minimum_top_0_95_count_per_passing_architecture": 14,
+    "per_architecture_alpha": 0.0125,
+    "rank_null_probability": 0.06153846153846154,
+    "task_competence_threshold": 0.95
+  },
+  "evaluation": {
+    "context_random_draws": 8,
+    "deletion_random_draws": 64,
+    "heldout_pair_indices": "odd indices in 0..127",
+    "test_episode_count": 4096
+  },
+  "experiment": "Experiment 005",
+  "numpy_runtime_at_registration": "2.4.4",
+  "python_runtime_at_registration": "3.14.2",
+  "registration_check_seed": 900,
+  "registration_date": "2026-08-03",
+  "schema": "siel-experiment-005-registration-manifest-v1",
+  "source_sha256": {
+    "experiments/005_emergent_relational_carrier_solution_class/PREREGISTRATION.md": "65a4f3e5b4fca6599a312b0277d3d91c7b6cbc95a0987f7be64bd453f094ce20",
+    "experiments/005_emergent_relational_carrier_solution_class/README.md": "8d6dc06a6e05c49f809e6a459a3539295448d02c92fe788b0cc0402ca366e28a",
+    "experiments/005_emergent_relational_carrier_solution_class/TECHNICAL_SPECIFICATION.md": "25a68db9e0ad4ca2f374437da96892c09e3d7ba056f123bb368206d27e67c37a",
+    "experiments/005_emergent_relational_carrier_solution_class/run.py": "0a0ca1dd1447d45e4d7d498c4de6fc3cfc3c9af3974a0ca4e5ff1c351fe5dfbf",
+    "experiments/005_emergent_relational_carrier_solution_class/support/__init__.py": "165d61315515af824fb90cea404b502e0dd6c0fe05155e2a43044d8dc041e9fb",
+    "experiments/005_emergent_relational_carrier_solution_class/support/analysis_utils.py": "baab342b22ee27d18474189ee4c8b0f61d244b1fcd525989649a5e2cd781d6be",
+    "experiments/005_emergent_relational_carrier_solution_class/support/e009_world.py": "09d09e7c99dfa820477665b2196a0263d4f3ad30442dd30895fb221c14abc150",
+    "experiments/005_emergent_relational_carrier_solution_class/support/e010_directed.py": "c354e88029cb11294118c27c95d811311e9bebc933afa8776e70d941119b9216",
+    "experiments/005_emergent_relational_carrier_solution_class/support/p014_architectures.py": "d364b4bb8b2db4341c82df2ee32ff6280479f1b348869a8eb4b3ac43723500ce",
+    "experiments/005_emergent_relational_carrier_solution_class/support/p015_reciprocal.py": "29c4796d8c4089659504980c7716a043757e8d92fac7131ac42fb9a332c100cf",
+    "experiments/005_emergent_relational_carrier_solution_class/test_run.py": "acc2c22d143c16a7f56a8cec44ef44cc025015a3cd9b75bd54c7b7325dde5111"
+  },
+  "task": "delayed reciprocal recall",
+  "training": {
+    "active_parameters_per_architecture": 486,
+    "batch_size": 256,
+    "learning_rate": 0.004,
+    "optimizer": "RMSProp",
+    "steps": 4000
+  },
+  "title": "Emergent Relational-Carrier Solution Class in Equal-Capacity Recurrent Systems"
+}

@@ -49,6 +49,8 @@ architecture of the first paired-viewpoint experiment.
 - [Experiment 002B — CIT Relational-Coherence Certificate Audit](experiments/002b_cit_relational_coherence_certificate/README.md)
 - [Experiment 003 — Class 2 Relational Carrier and Self-Reentrant O3 in Subjectivity Agents](experiments/003_subjectivity_agent_class2_o3/README.md)
 - [Experiment 003R — Corrected Class 2 Relational Carrier and Self-Reentrant O3](experiments/003r_subjectivity_agent_class2_o3_corrected/README.md)
+- [Experiment 004 — Difference-Preserving Relational Carrier and Retained-History O3 Audit](experiments/004_difference_preserving_o3_discrimination/README.md)
+- [Experiment 005 — Emergent Relational-Carrier Solution Class](experiments/005_emergent_relational_carrier_solution_class/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
@@ -97,6 +99,22 @@ zero false Class 2 declarations across all eight registered null controls. A
 matched generic recurrent control also passed in 126 of 128 pairs, limiting the
 result to operational sufficiency and transfer rather than implementation
 uniqueness. [Public result report](experiments/003r_subjectivity_agent_class2_o3_corrected/PUBLIC_RESULT_REPORT.md).
+
+Experiment 004 tests whether differentiated A/B input remains observable when
+common content is fixed, whether an earlier difference survives after the
+current input is matched, and whether the effect is transported through
+carrier, recurrent self-state, and bilateral return paths. The confirmatory
+run supported the complete registered conjunction and also showed that the
+effect admits multiple realizations within a broader role-aware recurrent
+architecture class. [Public result report](experiments/004_difference_preserving_o3_discrimination/PUBLIC_RESULT_REPORT.md).
+
+Experiment 005 asks whether a relational-carrier-like solution class can
+emerge during ordinary reciprocal task learning without a carrier-specific
+state, label, or loss. It compares four equal-capacity interaction topologies
+with an independent control, evaluates a frozen directed relation component
+against receiver-norm-matched random directions, and tests bilateral and
+cross-architecture intervention geometry on an entirely held-out confirmatory
+seed allocation.
 
 ## Research Direction
 

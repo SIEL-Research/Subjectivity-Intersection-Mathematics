@@ -42,7 +42,7 @@ outputs, acceptance checks, and claim boundary.
    did not implement the completed-C exchange and omitted required Phase B
    controls. [Technical failure report](003_subjectivity_agent_class2_o3/TECHNICAL_FAILURE_REPORT.md).
 
-4. [Corrected Class 2 Relational Carrier and Self-Reentrant O3](003r_subjectivity_agent_class2_o3_corrected/README.md) —
+3R. [Corrected Class 2 Relational Carrier and Self-Reentrant O3](003r_subjectivity_agent_class2_o3_corrected/README.md) —
    a new preregistration informed by the invalid Experiment 003 run. It freezes
    completed donor-C exchange, new pairs and seeds, all Phase B controls,
    stage-level receipts, and a machine-enforced control-inventory check.
@@ -51,3 +51,15 @@ outputs, acceptance checks, and claim boundary.
    null controls. The matched generic recurrent control passed at the same
    126-of-128 rate, so the result does not establish implementation uniqueness.
    [Public result report](003r_subjectivity_agent_class2_o3_corrected/PUBLIC_RESULT_REPORT.md).
+
+4. [Difference-Preserving Relational Carrier and Retained-History O3 Audit](004_difference_preserving_o3_discrimination/README.md) —
+   registered architecture discrimination using common/difference-mode
+   interventions, retained-history tests, selective self-state erasure, and
+   same-family completed-carrier exchange.
+   [Public result report](004_difference_preserving_o3_discrimination/PUBLIC_RESULT_REPORT.md).
+
+5. [Emergent Relational-Carrier Solution Class](005_emergent_relational_carrier_solution_class/README.md) —
+   confirmatory test of whether ordinary delayed reciprocal-recall learning,
+   without an explicit carrier state or carrier objective, repeatedly produces
+   a receiver-specific, bilaterally active relation component with high causal
+   rank across multiple equal-capacity recurrent interaction topologies.
