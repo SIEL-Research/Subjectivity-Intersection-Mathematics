@@ -1,0 +1,62 @@
+{
+  "schema": "siel-experiment-006-registration-manifest-v1",
+  "experiment": "Experiment 006",
+  "title": "Spontaneous Operational O3 Re-entry after Ordinary Relational Learning",
+  "registration_date": "2026-08-03",
+  "python_runtime_at_registration": "3.14.2",
+  "numpy_runtime_at_registration": "2.4.4",
+  "development_seed_indices_excluded": [300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311],
+  "experiment_005_confirmatory_seed_indices_excluded": [1000, 1023],
+  "confirmatory_training_seeds": [
+    2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011,
+    2012, 2013, 2014, 2015, 2016, 2017,
+    2018, 2019, 2020, 2021, 2022, 2023
+  ],
+  "confirmatory_evaluation_seeds": [61630001, 61630002],
+  "registration_check_seed": 1900,
+  "architectures": [
+    "independent",
+    "distributed",
+    "central_shared",
+    "directional_relay",
+    "four_channel_crossbar"
+  ],
+  "training": {
+    "steps": 4000,
+    "batch_size": 256,
+    "learning_rate": 0.004,
+    "active_parameters_per_architecture": 486
+  },
+  "evaluation": {
+    "test_episode_count": 4096,
+    "random_draws_per_transition": 64,
+    "transitions": [4, 5, 6],
+    "task_competence_threshold": 0.95
+  },
+  "decision_rules": {
+    "minimum_competent_seeds_per_interacting_architecture": 22,
+    "minimum_seed_passes_per_architecture": 18,
+    "minimum_pooled_transport_seed_passes": 75,
+    "minimum_transport_fraction_median": 0.75,
+    "minimum_transport_alignment_median": 0.60,
+    "minimum_exchange_loss_median": 0.25,
+    "minimum_bilateral_median": 0.95,
+    "maximum_independent_accuracy": 0.20,
+    "maximum_independent_component_norm": 1e-10,
+    "maximum_reconstruction_error": 1e-12
+  },
+  "source_sha256": {
+    "experiments/006_spontaneous_o3_reentry/PREREGISTRATION.md": "9af2aa91c57917507bb79b2a9887fa94ffa509936f96cf8e59f748c19085e212",
+    "experiments/006_spontaneous_o3_reentry/README.md": "291a997d92cc78c8e32d7285c79ad5435852a41b55f3a8db3b0780dad3f12ac9",
+    "experiments/006_spontaneous_o3_reentry/TECHNICAL_SPECIFICATION.md": "ffc5762656ca7e56ba49f2e45922b40fa70ae0efd24e986709d2fd90f3c3a9f9",
+    "experiments/006_spontaneous_o3_reentry/run.py": "87e673c09bc1dce5471cf90fa70c9425c5cc2bb669006e473e799415074f9375",
+    "experiments/006_spontaneous_o3_reentry/test_run.py": "041f332fa204e296f735f64f152a97f58d3f083e1e452489c8ec81cf69a40be9",
+    "experiments/005_emergent_relational_carrier_solution_class/support/__init__.py": "165d61315515af824fb90cea404b502e0dd6c0fe05155e2a43044d8dc041e9fb",
+    "experiments/005_emergent_relational_carrier_solution_class/support/analysis_utils.py": "baab342b22ee27d18474189ee4c8b0f61d244b1fcd525989649a5e2cd781d6be",
+    "experiments/005_emergent_relational_carrier_solution_class/support/e009_world.py": "09d09e7c99dfa820477665b2196a0263d4f3ad30442dd30895fb221c14abc150",
+    "experiments/005_emergent_relational_carrier_solution_class/support/e010_directed.py": "c354e88029cb11294118c27c95d811311e9bebc933afa8776e70d941119b9216",
+    "experiments/005_emergent_relational_carrier_solution_class/support/p014_architectures.py": "d364b4bb8b2db4341c82df2ee32ff6280479f1b348869a8eb4b3ac43723500ce",
+    "experiments/005_emergent_relational_carrier_solution_class/support/p015_reciprocal.py": "29c4796d8c4089659504980c7716a043757e8d92fac7131ac42fb9a332c100cf"
+  }
+}

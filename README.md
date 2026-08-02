@@ -51,6 +51,7 @@ architecture of the first paired-viewpoint experiment.
 - [Experiment 003R — Corrected Class 2 Relational Carrier and Self-Reentrant O3](experiments/003r_subjectivity_agent_class2_o3_corrected/README.md)
 - [Experiment 004 — Difference-Preserving Relational Carrier and Retained-History O3 Audit](experiments/004_difference_preserving_o3_discrimination/README.md)
 - [Experiment 005 — Emergent Relational-Carrier Solution Class](experiments/005_emergent_relational_carrier_solution_class/README.md)
+- [Experiment 006 — Spontaneous Operational O3 Re-entry](experiments/006_spontaneous_o3_reentry/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
@@ -117,6 +118,13 @@ cross-architecture intervention geometry on an entirely held-out confirmatory
 seed allocation. The complete preregistered conjunction passed: all four
 interaction architectures reproduced the effect, with 84 of 96 runs reaching
 the registered top-rank threshold. [Public result report](experiments/005_emergent_relational_carrier_solution_class/PUBLIC_RESULT_REPORT.md).
+
+Experiment 006 asks whether the relation component identified in Experiment
+005 spontaneously re-enters the unchanged recurrent dynamics and causally
+generates later relation states and bilateral action without an explicit O3
+state, target, or loss. It freezes three successive signal-free transitions,
+receiver-matched random directions, a matched individual-history control, and
+new confirmatory seeds.
 
 ## Research Direction
 

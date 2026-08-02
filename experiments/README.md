@@ -66,3 +66,9 @@ outputs, acceptance checks, and claim boundary.
    registered gates passed, including 84 top-0.95 results among 96 interacting
    architecture-seed runs.
    [Public result report](005_emergent_relational_carrier_solution_class/PUBLIC_RESULT_REPORT.md).
+
+6. [Spontaneous Operational O3 Re-entry](006_spontaneous_o3_reentry/README.md) —
+   confirmatory test of whether a directed relation component learned without
+   an explicit O3 state or objective causally produces subsequent relation
+   states and bilateral action across three successive signal-free recurrent
+   transitions.
