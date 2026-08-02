@@ -62,4 +62,7 @@ outputs, acceptance checks, and claim boundary.
    confirmatory test of whether ordinary delayed reciprocal-recall learning,
    without an explicit carrier state or carrier objective, repeatedly produces
    a receiver-specific, bilaterally active relation component with high causal
-   rank across multiple equal-capacity recurrent interaction topologies.
+   rank across multiple equal-capacity recurrent interaction topologies. All
+   registered gates passed, including 84 top-0.95 results among 96 interacting
+   architecture-seed runs.
+   [Public result report](005_emergent_relational_carrier_solution_class/PUBLIC_RESULT_REPORT.md).

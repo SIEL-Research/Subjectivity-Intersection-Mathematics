@@ -42,5 +42,16 @@ python3 run.py \
   --check
 ```
 
-The output directory must not exist before execution. Results will be
-published regardless of whether the complete registered conjunction passes.
+The output directory must not exist before execution. Results are published
+regardless of whether the complete registered conjunction passes.
+
+## Confirmatory result
+
+The registered conjunction was supported. All 11 acceptance checks passed,
+and 84 of 96 interacting architecture-seed runs placed the extracted relation
+component above at least 95% of receiver-norm-matched random deletion
+directions.
+
+- [Public result report](PUBLIC_RESULT_REPORT.md)
+- [Complete machine-readable outputs](results/)
+- [Preregistration DOI](https://doi.org/10.5281/zenodo.21763898)

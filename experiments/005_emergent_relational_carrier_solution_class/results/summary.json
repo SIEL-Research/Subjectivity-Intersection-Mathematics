@@ -1,0 +1,397 @@
+{
+  "acceptance_checks": {
+    "at_least_three_architectures_positive_14_of_24": true,
+    "at_least_three_architectures_top_0_95_14_of_24_with_exact_p": true,
+    "bilateral_minimum_0_90_in_at_least_22_of_24_each_architecture": true,
+    "capacity_exact_486": true,
+    "competence_at_least_22_of_24_each_architecture": true,
+    "independent_accuracy_maximum_0_20": true,
+    "independent_component_zero": true,
+    "median_bilateral_minimum_at_least_0_95_each_architecture": true,
+    "new_architecture_context_cka_median_at_least_0_35": true,
+    "new_architecture_context_specificity_median_at_least_0_15": true,
+    "pooled_top_0_95_at_least_60_of_96": true
+  },
+  "architecture_rank_tests": {
+    "central_shared": {
+      "competent_seed_count": 24,
+      "exact_one_sided_binomial_p": 5.616219489086824e-25,
+      "positive_selectivity_count": 22,
+      "rank_null_probability": 0.06153846153846154,
+      "top_0_95_seed_count": 22
+    },
+    "directional_relay": {
+      "competent_seed_count": 24,
+      "exact_one_sided_binomial_p": 1.5038966439515203e-17,
+      "positive_selectivity_count": 18,
+      "rank_null_probability": 0.06153846153846154,
+      "top_0_95_seed_count": 18
+    },
+    "distributed": {
+      "competent_seed_count": 24,
+      "exact_one_sided_binomial_p": 3.192899851667186e-27,
+      "positive_selectivity_count": 23,
+      "rank_null_probability": 0.06153846153846154,
+      "top_0_95_seed_count": 23
+    },
+    "four_channel_crossbar": {
+      "competent_seed_count": 24,
+      "exact_one_sided_binomial_p": 6.301260393511822e-23,
+      "positive_selectivity_count": 21,
+      "rank_null_probability": 0.06153846153846154,
+      "top_0_95_seed_count": 21
+    }
+  },
+  "bilateral_0_90_counts": {
+    "central_shared": 24,
+    "directional_relay": 24,
+    "distributed": 24,
+    "four_channel_crossbar": 24
+  },
+  "calibration_firewall": "Local calibration seeds 0..7, 100..111, and 200..223 and all local calibration outputs are excluded from this confirmatory result.",
+  "capacity": {
+    "central_shared": 486,
+    "directional_relay": 486,
+    "distributed": 486,
+    "four_channel_crossbar": 486,
+    "independent": 486
+  },
+  "claim_boundary": "A supported result establishes a recurrent solution class in which an ordinary coordination objective produces a receiver-specific relational component with unusual causal rank and cross-architecture intervention geometry. It does not identify the component with ontological subjectivity.",
+  "competence_denominator": "All fixed seeds are reported. Carrier classification is conditioned on the predeclared ability to perform the task.",
+  "evaluation": {
+    "context_random_draws": 8,
+    "deletion_random_draws": 64,
+    "evaluation_seeds": [
+      51630001,
+      51630002
+    ],
+    "random_control": "episode-wise receiver-norm-matched direction",
+    "task_competence_threshold": 0.95,
+    "test_episodes": 4096
+  },
+  "local_carrier": {
+    "central_shared": {
+      "bilateral_response_minimum": {
+        "maximum": 1.0,
+        "median": 0.99755859375,
+        "minimum": 0.9560546875
+      },
+      "competence_rate": 1.0,
+      "competent_seed_count": 24,
+      "component_norm": {
+        "maximum": 0.4836244554208462,
+        "median": 0.3465013983846498,
+        "minimum": 0.17731672422373418
+      },
+      "delete_cross_entropy_increase": {
+        "maximum": 3.988301896780552,
+        "median": 0.9738600571885889,
+        "minimum": 0.0051762355990465515
+      },
+      "delete_empirical_p": {
+        "maximum": 1.0,
+        "median": 0.015384615384615385,
+        "minimum": 0.015384615384615385
+      },
+      "delete_empirical_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "delete_selectivity": {
+        "maximum": 3.6139248703041744,
+        "median": 0.7947787918300137,
+        "minimum": -0.006910101622598183
+      },
+      "heldout_both_correct": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.9990234375
+      },
+      "percentile_0_95_count": 22,
+      "positive_selectivity_count": 22,
+      "random_delete_cross_entropy_increase_median": {
+        "maximum": 0.7672567162645421,
+        "median": 0.2300615275001619,
+        "minimum": 0.010677748380468217
+      },
+      "total_seed_count": 24
+    },
+    "directional_relay": {
+      "bilateral_response_minimum": {
+        "maximum": 1.0,
+        "median": 0.9989013671875,
+        "minimum": 0.91259765625
+      },
+      "competence_rate": 1.0,
+      "competent_seed_count": 24,
+      "component_norm": {
+        "maximum": 0.5128766912586376,
+        "median": 0.3222127158727871,
+        "minimum": 0.21637975167070583
+      },
+      "delete_cross_entropy_increase": {
+        "maximum": 3.1002784813856437,
+        "median": 0.9301901331447422,
+        "minimum": 0.00027240327141099893
+      },
+      "delete_empirical_p": {
+        "maximum": 1.0,
+        "median": 0.015384615384615385,
+        "minimum": 0.015384615384615385
+      },
+      "delete_empirical_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "delete_selectivity": {
+        "maximum": 3.012821398492635,
+        "median": 0.6889941901251713,
+        "minimum": -0.11256017918445735
+      },
+      "heldout_both_correct": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 1.0
+      },
+      "percentile_0_95_count": 18,
+      "positive_selectivity_count": 18,
+      "random_delete_cross_entropy_increase_median": {
+        "maximum": 0.47158928469775246,
+        "median": 0.21004327922677568,
+        "minimum": 0.02772798165911905
+      },
+      "total_seed_count": 24
+    },
+    "distributed": {
+      "bilateral_response_minimum": {
+        "maximum": 1.0,
+        "median": 0.999755859375,
+        "minimum": 0.98974609375
+      },
+      "competence_rate": 1.0,
+      "competent_seed_count": 24,
+      "component_norm": {
+        "maximum": 0.4328679997679522,
+        "median": 0.33695296425335686,
+        "minimum": 0.2383187378175764
+      },
+      "delete_cross_entropy_increase": {
+        "maximum": 2.053432665824648,
+        "median": 0.8403432481437533,
+        "minimum": 0.15746740622956465
+      },
+      "delete_empirical_p": {
+        "maximum": 1.0,
+        "median": 0.015384615384615385,
+        "minimum": 0.015384615384615385
+      },
+      "delete_empirical_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "delete_selectivity": {
+        "maximum": 1.5728718785211149,
+        "median": 0.6669415528119216,
+        "minimum": -0.18569909394949044
+      },
+      "heldout_both_correct": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.999755859375
+      },
+      "percentile_0_95_count": 23,
+      "positive_selectivity_count": 23,
+      "random_delete_cross_entropy_increase_median": {
+        "maximum": 0.5012233555294285,
+        "median": 0.2094545316793168,
+        "minimum": 0.021391910238660907
+      },
+      "total_seed_count": 24
+    },
+    "four_channel_crossbar": {
+      "bilateral_response_minimum": {
+        "maximum": 1.0,
+        "median": 0.99951171875,
+        "minimum": 0.927001953125
+      },
+      "competence_rate": 1.0,
+      "competent_seed_count": 24,
+      "component_norm": {
+        "maximum": 0.44459101440240956,
+        "median": 0.34647191068969124,
+        "minimum": 0.2102224496396738
+      },
+      "delete_cross_entropy_increase": {
+        "maximum": 4.34169937635187,
+        "median": 1.7564604140236901,
+        "minimum": 0.0022506327120080283
+      },
+      "delete_empirical_p": {
+        "maximum": 1.0,
+        "median": 0.015384615384615385,
+        "minimum": 0.015384615384615385
+      },
+      "delete_empirical_percentile": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 0.0
+      },
+      "delete_selectivity": {
+        "maximum": 3.8427018558788553,
+        "median": 1.3394418193870383,
+        "minimum": -0.3731979480351959
+      },
+      "heldout_both_correct": {
+        "maximum": 1.0,
+        "median": 1.0,
+        "minimum": 1.0
+      },
+      "percentile_0_95_count": 21,
+      "positive_selectivity_count": 21,
+      "random_delete_cross_entropy_increase_median": {
+        "maximum": 0.5432604064129282,
+        "median": 0.23280394312704017,
+        "minimum": 0.08064860700219798
+      },
+      "total_seed_count": 24
+    },
+    "independent": {
+      "competence_rate": 0.0,
+      "competent_seed_count": 0,
+      "heldout_both_correct": {
+        "maximum": 0.128173828125,
+        "median": 0.1121826171875,
+        "minimum": 0.104736328125
+      },
+      "total_seed_count": 24
+    }
+  },
+  "mode": "confirmatory",
+  "new_architecture_correspondence": {
+    "central_shared__four_channel_crossbar": {
+      "context_cka_specificity": {
+        "maximum": 0.8419750487605762,
+        "median": 0.5773907358076438,
+        "minimum": 0.11807365184471312
+      },
+      "jointly_competent_seed_count": 24,
+      "random_context_cka_median": {
+        "maximum": 0.09553511810979964,
+        "median": 0.046168655199413204,
+        "minimum": 0.012966791061230649
+      },
+      "relation_context_cka": {
+        "maximum": 0.916140134645684,
+        "median": 0.6196906302436584,
+        "minimum": 0.16540342586953194
+      }
+    },
+    "directional_relay__four_channel_crossbar": {
+      "context_cka_specificity": {
+        "maximum": 0.8390849054942052,
+        "median": 0.6087461408493695,
+        "minimum": 0.07016494607148363
+      },
+      "jointly_competent_seed_count": 24,
+      "random_context_cka_median": {
+        "maximum": 0.07692326266187946,
+        "median": 0.0525165121523634,
+        "minimum": 0.018788992830680452
+      },
+      "relation_context_cka": {
+        "maximum": 0.8673929691566952,
+        "median": 0.6613002153547395,
+        "minimum": 0.0986335750412798
+      }
+    },
+    "distributed__four_channel_crossbar": {
+      "context_cka_specificity": {
+        "maximum": 0.7962410373250499,
+        "median": 0.49885193760465174,
+        "minimum": 0.17252361076962594
+      },
+      "jointly_competent_seed_count": 24,
+      "random_context_cka_median": {
+        "maximum": 0.08622722985134804,
+        "median": 0.05191551089569883,
+        "minimum": 0.025860864875787242
+      },
+      "relation_context_cka": {
+        "maximum": 0.8603363925170563,
+        "median": 0.5682907566132187,
+        "minimum": 0.20356995598063662
+      }
+    }
+  },
+  "passing_positive_architectures": [
+    "distributed",
+    "central_shared",
+    "directional_relay",
+    "four_channel_crossbar"
+  ],
+  "passing_rank_architectures": [
+    "distributed",
+    "central_shared",
+    "directional_relay",
+    "four_channel_crossbar"
+  ],
+  "pooled_top_0_95_count": 84,
+  "primary_readout": "SUPPORTED",
+  "registration_verification": {
+    "all_source_hashes_match": true,
+    "manifest": "experiments/005_emergent_relational_carrier_solution_class/registration_manifest.json",
+    "observed_source_sha256": {
+      "experiments/005_emergent_relational_carrier_solution_class/PREREGISTRATION.md": "65a4f3e5b4fca6599a312b0277d3d91c7b6cbc95a0987f7be64bd453f094ce20",
+      "experiments/005_emergent_relational_carrier_solution_class/README.md": "8d6dc06a6e05c49f809e6a459a3539295448d02c92fe788b0cc0402ca366e28a",
+      "experiments/005_emergent_relational_carrier_solution_class/TECHNICAL_SPECIFICATION.md": "25a68db9e0ad4ca2f374437da96892c09e3d7ba056f123bb368206d27e67c37a",
+      "experiments/005_emergent_relational_carrier_solution_class/run.py": "0a0ca1dd1447d45e4d7d498c4de6fc3cfc3c9af3974a0ca4e5ff1c351fe5dfbf",
+      "experiments/005_emergent_relational_carrier_solution_class/support/__init__.py": "165d61315515af824fb90cea404b502e0dd6c0fe05155e2a43044d8dc041e9fb",
+      "experiments/005_emergent_relational_carrier_solution_class/support/analysis_utils.py": "baab342b22ee27d18474189ee4c8b0f61d244b1fcd525989649a5e2cd781d6be",
+      "experiments/005_emergent_relational_carrier_solution_class/support/e009_world.py": "09d09e7c99dfa820477665b2196a0263d4f3ad30442dd30895fb221c14abc150",
+      "experiments/005_emergent_relational_carrier_solution_class/support/e010_directed.py": "c354e88029cb11294118c27c95d811311e9bebc933afa8776e70d941119b9216",
+      "experiments/005_emergent_relational_carrier_solution_class/support/p014_architectures.py": "d364b4bb8b2db4341c82df2ee32ff6280479f1b348869a8eb4b3ac43723500ce",
+      "experiments/005_emergent_relational_carrier_solution_class/support/p015_reciprocal.py": "29c4796d8c4089659504980c7716a043757e8d92fac7131ac42fb9a332c100cf",
+      "experiments/005_emergent_relational_carrier_solution_class/test_run.py": "acc2c22d143c16a7f56a8cec44ef44cc025015a3cd9b75bd54c7b7325dde5111"
+    },
+    "source_count": 11
+  },
+  "schema": "siel-experiment-005-emergent-relational-carrier-v1",
+  "status": "CONFIRMATORY_COMPLETE",
+  "task": "delayed reciprocal recall",
+  "training": {
+    "batch_size": 256,
+    "learning_rate": 0.004,
+    "no_seed_replacement": true,
+    "steps": 4000,
+    "training_seed_count": 24,
+    "training_seed_indices": [
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023
+    ]
+  }
+}

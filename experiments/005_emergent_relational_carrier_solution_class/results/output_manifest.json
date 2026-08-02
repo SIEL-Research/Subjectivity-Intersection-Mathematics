@@ -1,0 +1,10 @@
+{
+  "files_sha256": {
+    "RESULT.md": "92876ce2e65dbf466df61b9b8ba056116dab95556a226eb3b968897848eb8103",
+    "competent_context_correspondence.csv": "7847cf235e42d615fdc77ffb12b8de60a58d98995f39d73827ce51db75ad9470",
+    "rank_metrics.csv": "a6e009de51f4c87afd93ffc1cedbac997bdccb8787999cf7271115de4afaf10a",
+    "summary.json": "62f9e5b0155ca353e47893d92a9eba8795fedf1ca8a186c84171a2c9462f9022"
+  },
+  "mode": "confirmatory",
+  "schema": "siel-experiment-005-output-manifest-v1"
+}

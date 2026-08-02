@@ -114,7 +114,9 @@ state, label, or loss. It compares four equal-capacity interaction topologies
 with an independent control, evaluates a frozen directed relation component
 against receiver-norm-matched random directions, and tests bilateral and
 cross-architecture intervention geometry on an entirely held-out confirmatory
-seed allocation.
+seed allocation. The complete preregistered conjunction passed: all four
+interaction architectures reproduced the effect, with 84 of 96 runs reaching
+the registered top-rank threshold. [Public result report](experiments/005_emergent_relational_carrier_solution_class/PUBLIC_RESULT_REPORT.md).
 
 ## Research Direction
 
