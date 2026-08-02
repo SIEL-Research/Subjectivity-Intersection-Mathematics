@@ -1,0 +1,102 @@
+{
+  "acceptance": {
+    "family_raw_passes_for_uniform_transfer": 52,
+    "maximum_false_class2_per_control": 6,
+    "minimum_primary_passes": 112,
+    "primary_total_pairs": 128,
+    "wilson_confidence": 0.95,
+    "wilson_z": 1.959963984540054
+  },
+  "class2_thresholds": {
+    "bilateral_feedback": 0.0654685289,
+    "gauge_relative_error_maximum": 1e-10,
+    "history_irreducibility": 0.0551607125,
+    "intervention_sensitivity": 0.0868509258,
+    "joint_generation": 0.0672948624,
+    "pair_specificity": 0.07071548
+  },
+  "confirmatory_pair_identifiers": {
+    "count": 128,
+    "first": "P2000",
+    "last": "P2127"
+  },
+  "confirmatory_seed": 20260813,
+  "distance": "RMS Euclidean",
+  "experiment": "Experiment 003R",
+  "generic_control_seed": 20260913,
+  "history_families": {
+    "0": [
+      "AABB",
+      "ABAB"
+    ],
+    "1": [
+      "BBAA",
+      "BABA"
+    ]
+  },
+  "numpy_runtime_at_registration": "2.4.4",
+  "o3_thresholds": {
+    "effect_strictly_greater_than": 0.05,
+    "erasure_and_invariance_maximum": 1e-10
+  },
+  "optimization_budget": {
+    "candidate_training_steps": 0,
+    "control_training_steps": 0,
+    "hyperparameter_searches": 0,
+    "result_dependent_reinitializations": 0,
+    "seed_selection": 0
+  },
+  "phase_b_control_inventory": [
+    "bilateral_feedback_removal",
+    "carrier_reset",
+    "completed_C_exchange",
+    "current_input_only",
+    "direct_carrier_output",
+    "native_archive_reset",
+    "order_erasure",
+    "selective_C_reset",
+    "self_reentry_erasure",
+    "unilateral_return_A",
+    "unilateral_return_B"
+  ],
+  "prior_invalid_run": {
+    "preregistration_doi": "10.5281/zenodo.21760562",
+    "preregistration_tag": "e003-preregistration-v1.0.0",
+    "result_doi": "10.5281/zenodo.21760837",
+    "result_tag": "e003-technical-failure-v1.0.0",
+    "status": "INVALID_CONFIRMATORY_RUN_IMPLEMENTATION_PROTOCOL_MISMATCH"
+  },
+  "private_source_manifest_sha256": "bf78bb5ddc83a777d7800d532d3a27639a500ee0b61782c5c144fbb2578ba379",
+  "python_runtime_at_registration": "3.14.2",
+  "registration_date": "2026-08-03",
+  "schema": "siel-experiment-003r-registration-manifest-v1",
+  "sensitivity_seeds": [
+    20260814,
+    20260815,
+    20260816,
+    20260817,
+    20260818,
+    20260819,
+    20260820,
+    20260821,
+    20260822,
+    20260823
+  ],
+  "source_sha256": {
+    "PREREGISTRATION.md": "e84e9ef68734219cd903ee755997e5b82c3ead8cab866f7139416e16c9b86339",
+    "README.md": "5f66923d4c2a2a9583c404b9fc3da97886ae136a2aa5de6501f649944428996d",
+    "TECHNICAL_SPECIFICATION.md": "6501999e06650c215faddb05affb1fb475b73aee218c9c8874802d743801b0ac",
+    "private_source_manifest.json": "bf78bb5ddc83a777d7800d532d3a27639a500ee0b61782c5c144fbb2578ba379",
+    "run.py": "2e97c934ae76220e8c39f94819ec7c35e30c924000a4f37e808daeaf69dc8b44",
+    "test_run.py": "2a1b5faa0df049c460ba2cb6bdd5c360777365d70420767e5605f6020d93dfb3"
+  },
+  "state_matching": "exact canonical complete runtime and memory SHA-256 equality",
+  "title": "Corrected Class 2 Relational Carrier and Self-Reentrant O3 in Subjectivity Agents",
+  "vector_dtype": "numpy.float64",
+  "vector_dimensions": {
+    "action": 24,
+    "carrier": 24,
+    "matched_recurrent_total_state": 48,
+    "self_reentry_z_C": 24
+  }
+}

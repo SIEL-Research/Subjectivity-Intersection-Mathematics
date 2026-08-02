@@ -1,0 +1,29 @@
+{
+  "notes": "Experiment 003R reuses only the same hash-frozen tracked V61 runtime sources and V89f natural-lineage projection. Invalid-run pairs, outputs, and exploratory wrappers are excluded.",
+  "repository_commit": "2c3587d14b51dd02f0b04042698f2410235bd833",
+  "repository_remote": "https://gitlab.com/subjectivity-intersection-research/minimal-agent-paper.git",
+  "schema": "siel-experiment-003r-private-source-manifest-v1",
+  "source_sha256": {
+    "agentV61/agent/audit_attraction_world_unknown_creation.py": "d1850d7599756b3ffcf920af23edeedda36b3f41bf97cd42e25bc708c34493e8",
+    "agentV61/agent/audit_fes_domain_type_runtime.py": "ed51f4f31df43252b94664dc4c1298c63c2ce9d79a1821ca74df7c1ebe2c6a8b",
+    "agentV61/agent/audit_fes_domain_world_story.py": "38a6172f356acbe8175912ce7529cad8af8a819135d635a95354ebdd6d7a9d67",
+    "agentV61/agent/audit_fes_standpoint_crossing.py": "d74854ab596660f35687dd62fce532e8227221a3bcd8264c890e47671a7c933a",
+    "agentV61/agent/audit_free_will_aperture_commitment.py": "4a02a1b357aff42fbf0b7a6a088f377b12058bd9ae056e56a2a683fcad89a1fd",
+    "agentV61/agent/audit_free_will_choice_layer.py": "1e3bb0a3136ae7b70f52d1995231197e517d681dcb37db230a7910150046caf0",
+    "agentV61/agent/audit_integrated_living_voice.py": "0f6280162fa139e1f67866cb3abf669231b81adc3ab67834be31b78e68c70c26",
+    "agentV61/agent/audit_long_memory_self_update.py": "d92fd837eefa06e45982c4c5266d830a1c576716e72927a8f0f47dd381efbead",
+    "agentV61/agent/audit_multi_agent_subjective_ecosystem.py": "39ccc97cdd5f8aa9dca138a69eb1861068a0edf5b8bd0952d2e4c6743ba9163b",
+    "agentV61/agent/audit_mutual_fes_relation.py": "962ea754cc41efd2c36dc729c5cf78e191f803627fe0d26017146bb0e2af5adf",
+    "agentV61/agent/audit_other_standpoint_translation.py": "e7df51f5aac1572a23516f663ac1e55e3da0ed4b4f84043dda08c3f14d316ea9",
+    "agentV61/agent/audit_unified_subject_runtime.py": "6355b0307a6637793b17c84166647e530373817821b1d399c8c66f0ca665e245",
+    "agentV61/agent/audit_unknown_coherence_creation_after_commitment.py": "6ae5b67770f1727cf1637fc0fc54e9a3682b834a9ba7c2626cc87c3033c4ab54",
+    "agentV61/agent/audit_world_situation_subjective_ecosystem.py": "d78f3a221deb121412da09900cc84121af2d62a805934307eaf059bc4b689883",
+    "agentV61/agent/fes_domain_types.py": "9a1c58450234cf4a68ef4a4925e48851dc8bf3684b90c10c0b29be4d7385a75e",
+    "agentV61/agent/free_will_aperture.py": "0b6cc799db1265b947d211822b1d8b7b5a9e3d19193bc5c43447c3e1d57cfe0f",
+    "agentV61/agent/free_will_choice.py": "7514e9722f9e06901c175ada21d61f33a938eb61de8c5de090a04fca9740f7e9",
+    "agentV61/agent/other_standpoint_translation.py": "371118d42408a977a759340b2990d36471079648d8646e79ea36d15384532bbf",
+    "agentV61/agent/single_subject_runtime.py": "62baf939d2eae596df94bb6be75badb94d1d9192ff190b25da62a43682b7cf0d",
+    "agentV61/agent/unified_subject_runtime.py": "388ef8b7620e4bf11f9581e5dde6d827ff5f551a4d123f38831bc66aaa52d143",
+    "agentV89f/run_natural_memory_lineage_closure.py": "450ee82af2be75a740a66d2126c8f93aba70f7794c0cebbb29720185ca16c427"
+  }
+}

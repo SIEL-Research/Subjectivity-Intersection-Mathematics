@@ -41,3 +41,9 @@ outputs, acceptance checks, and claim boundary.
    The first confirmatory execution is invalid because the registered runner
    did not implement the completed-C exchange and omitted required Phase B
    controls. [Technical failure report](003_subjectivity_agent_class2_o3/TECHNICAL_FAILURE_REPORT.md).
+
+4. [Corrected Class 2 Relational Carrier and Self-Reentrant O3](003r_subjectivity_agent_class2_o3_corrected/README.md) —
+   a new preregistration informed by the invalid Experiment 003 run. It freezes
+   completed donor-C exchange, new pairs and seeds, all Phase B controls,
+   stage-level receipts, and a machine-enforced control-inventory check.
+   Confirmatory execution is pending.

@@ -48,6 +48,7 @@ architecture of the first paired-viewpoint experiment.
 - [Experiment 002A — CDC 6600 Dual-Ring Invariant Classification Audit](experiments/002a_cdc6600_dual_ring_invariant_audit/README.md)
 - [Experiment 002B — CIT Relational-Coherence Certificate Audit](experiments/002b_cit_relational_coherence_certificate/README.md)
 - [Experiment 003 — Class 2 Relational Carrier and Self-Reentrant O3 in Subjectivity Agents](experiments/003_subjectivity_agent_class2_o3/README.md)
+- [Experiment 003R — Corrected Class 2 Relational Carrier and Self-Reentrant O3](experiments/003r_subjectivity_agent_class2_o3_corrected/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
@@ -86,6 +87,12 @@ execution has been classified as an invalid run after audit found that the
 registered runner substituted a donor B input rather than a completed donor C
 and did not execute the complete registered Phase B control set. No Class 2 or
 O3 inference is made from that run. [Technical failure report](experiments/003_subjectivity_agent_class2_o3/TECHNICAL_FAILURE_REPORT.md).
+
+Experiment 003R is the separately preregistered correction. It uses new pairs
+and seeds, performs completed donor-C exchange into unchanged recipient return
+paths, executes the full Phase B control inventory, and machine-checks that the
+registered and executed controls are identical. Confirmatory execution remains
+pending.
 
 ## Research Direction
 
