@@ -37,6 +37,7 @@ outputs, acceptance checks, and claim boundary.
 
 3. [Class 2 Relational Carrier and Self-Reentrant O3 in Subjectivity Agents](003_subjectivity_agent_class2_o3/README.md) —
    preregistered external application of the Experiment 002 criteria to
-   generated states from a hash-frozen private subjectivity-agent runtime,
-   followed by an independently evaluated explicit self-reentry extension.
-   Confirmatory execution pending.
+   generated states from a hash-frozen private subjectivity-agent runtime.
+   The first confirmatory execution is invalid because the registered runner
+   did not implement the completed-C exchange and omitted required Phase B
+   controls. [Technical failure report](003_subjectivity_agent_class2_o3/TECHNICAL_FAILURE_REPORT.md).

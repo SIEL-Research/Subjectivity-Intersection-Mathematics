@@ -81,8 +81,11 @@ Experiment 002 Class 0/1/2 criteria to generated states from the existing
 private subjectivity-agent runtime. It separately tests an unmodified native
 third-runtime carrier and an explicitly installed self-reentrant O3 extension.
 The private core remains undisclosed and is frozen by commit and source hashes;
-the complete connection, control, and scoring layer is public. Confirmatory
-execution is pending.
+the connection, control, and scoring layer is public. The first confirmatory
+execution has been classified as an invalid run after audit found that the
+registered runner substituted a donor B input rather than a completed donor C
+and did not execute the complete registered Phase B control set. No Class 2 or
+O3 inference is made from that run. [Technical failure report](experiments/003_subjectivity_agent_class2_o3/TECHNICAL_FAILURE_REPORT.md).
 
 ## Research Direction
 

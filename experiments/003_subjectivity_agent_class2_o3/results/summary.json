@@ -1,0 +1,250 @@
+{
+  "controls": {
+    "common_memory": {
+      "bound_pass": true,
+      "false_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 128,
+        "wilson_95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "registered_class": 0
+    },
+    "compressed_summary": {
+      "bound_pass": true,
+      "false_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 128,
+        "wilson_95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "registered_class": 1
+    },
+    "history_only": {
+      "bound_pass": true,
+      "false_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 128,
+        "wilson_95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "registered_class": 1
+    },
+    "historyless": {
+      "bound_pass": true,
+      "false_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 128,
+        "wilson_95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "registered_class": 0
+    },
+    "individual_memory": {
+      "bound_pass": true,
+      "false_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 128,
+        "wilson_95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "registered_class": 1
+    },
+    "no_c": {
+      "bound_pass": true,
+      "false_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 128,
+        "wilson_95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "registered_class": 0
+    },
+    "unilateral_return": {
+      "bound_pass": true,
+      "false_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 128,
+        "wilson_95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "registered_class": 1
+    },
+    "unrelated_c": {
+      "bound_pass": true,
+      "false_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 128,
+        "wilson_95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "registered_class": 1
+    }
+  },
+  "history_families": {
+    "0": {
+      "histories": [
+        "AABB",
+        "ABAB"
+      ],
+      "phase_a_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 64,
+        "wilson_95": [
+          0.0,
+          0.05662405979280534
+        ]
+      },
+      "phase_b_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 64,
+        "wilson_95": [
+          0.0,
+          0.05662405979280534
+        ]
+      },
+      "phase_b_o3": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 64,
+        "wilson_95": [
+          0.0,
+          0.05662405979280534
+        ]
+      },
+      "uniform_transfer_raw_threshold": 52
+    },
+    "1": {
+      "histories": [
+        "BBAA",
+        "BABA"
+      ],
+      "phase_a_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 64,
+        "wilson_95": [
+          0.0,
+          0.05662405979280534
+        ]
+      },
+      "phase_b_class2": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 64,
+        "wilson_95": [
+          0.0,
+          0.05662405979280534
+        ]
+      },
+      "phase_b_o3": {
+        "count": 0,
+        "fraction": 0.0,
+        "total": 64,
+        "wilson_95": [
+          0.0,
+          0.05662405979280534
+        ]
+      },
+      "uniform_transfer_raw_threshold": 52
+    }
+  },
+  "matched_generic_control": {
+    "class2": {
+      "count": 0,
+      "fraction": 0.0,
+      "total": 128,
+      "wilson_95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    "interpretation": "A pass indicates implementation non-uniqueness.",
+    "o3": {
+      "count": 0,
+      "fraction": 0.0,
+      "total": 128,
+      "wilson_95": [
+        0.0,
+        0.029136956273508416
+      ]
+    }
+  },
+  "mode": "confirmatory",
+  "optimization_budget": {
+    "candidate_training_steps": 0,
+    "control_training_steps": 0,
+    "hyperparameter_searches": 0,
+    "result_dependent_reinitializations": 0,
+    "seed_selection": 0
+  },
+  "pair_count": 128,
+  "phase_a_class2": {
+    "count": 0,
+    "fraction": 0.0,
+    "total": 128,
+    "wilson_95": [
+      0.0,
+      0.029136956273508416
+    ]
+  },
+  "phase_b_class2": {
+    "count": 0,
+    "fraction": 0.0,
+    "total": 128,
+    "wilson_95": [
+      0.0,
+      0.029136956273508416
+    ]
+  },
+  "phase_b_o3": {
+    "count": 0,
+    "fraction": 0.0,
+    "total": 128,
+    "wilson_95": [
+      0.0,
+      0.029136956273508416
+    ]
+  },
+  "primary_decisions": {
+    "all_registered_null_bounds_pass": true,
+    "phase_a_class2_pass": false,
+    "phase_b_class2_pass": false,
+    "phase_b_o3_pass": false,
+    "uniform_history_family_transfer": false
+  },
+  "registered_claims": {
+    "phase_a_class2_supported": false,
+    "phase_b_class2_supported": false,
+    "phase_b_o3_supported": false
+  },
+  "schema": "siel-experiment-003-subjectivity-agent-class2-o3-v1",
+  "seed": 20260802,
+  "status": "complete"
+}
