@@ -31,3 +31,15 @@ python3 run.py \
 
 Results will be published regardless of whether the complete registered
 conjunction passes.
+
+## Confirmatory result
+
+The complete registered conjunction was not supported. Thirteen of 14 checks
+passed. All 96 interacting architecture-seed runs passed the registered
+all-three-transition transport-rank test, but the distributed architecture
+passed the matched individual-history separation test in 17 of 24 seeds,
+missing the registered 18-of-24 floor by one seed.
+
+- [Public result report](PUBLIC_RESULT_REPORT.md)
+- [Complete machine-readable outputs](results/)
+- [Preregistration DOI](https://doi.org/10.5281/zenodo.21764327)

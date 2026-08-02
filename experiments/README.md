@@ -71,4 +71,8 @@ outputs, acceptance checks, and claim boundary.
    confirmatory test of whether a directed relation component learned without
    an explicit O3 state or objective causally produces subsequent relation
    states and bilateral action across three successive signal-free recurrent
-   transitions.
+   transitions. All 96 interacting architecture-seed runs passed the registered
+   all-three-transition transport-rank test. The complete conjunction was not
+   supported because the distributed architecture passed the matched
+   individual-history separation criterion in 17 of 24 seeds, one below the
+   registered floor. [Public result report](006_spontaneous_o3_reentry/PUBLIC_RESULT_REPORT.md).

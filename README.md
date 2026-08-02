@@ -124,7 +124,12 @@ Experiment 006 asks whether the relation component identified in Experiment
 generates later relation states and bilateral action without an explicit O3
 state, target, or loss. It freezes three successive signal-free transitions,
 receiver-matched random directions, a matched individual-history control, and
-new confirmatory seeds.
+new confirmatory seeds. The confirmatory run reproduced the transport effect
+in all 96 interacting architecture-seed runs, but the complete registered
+conjunction was not supported: the distributed architecture missed the
+matched individual-history separation floor by one seed. This identifies a
+boundary between spontaneous O3-like re-entry and its universal separation
+from individual history. [Public result report](experiments/006_spontaneous_o3_reentry/PUBLIC_RESULT_REPORT.md).
 
 ## Research Direction
 
