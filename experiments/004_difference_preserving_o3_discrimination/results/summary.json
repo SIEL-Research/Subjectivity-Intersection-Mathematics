@@ -1,0 +1,439 @@
+{
+  "claim_boundary": "Executable operational discrimination and construction; not a direct identity claim about ontological subjectivity.",
+  "data": {
+    "case_count": 1536,
+    "pair_count": 128,
+    "pair_index_range": [
+      128,
+      255
+    ],
+    "seeds": [
+      20261101,
+      20261102,
+      20261103,
+      20261104,
+      20261105,
+      20261106,
+      20261107,
+      20261108,
+      20261109,
+      20261110,
+      20261111,
+      20261112
+    ],
+    "uniqueness": {
+      "administrative_identifier_in_carrier_input": false,
+      "unique_A": 128,
+      "unique_AB": 128,
+      "unique_B": 128,
+      "unique_packet_sequences": 128
+    }
+  },
+  "frozen_rules": {
+    "donor_offset_within_family": 1,
+    "minimum_family_passes": 52,
+    "minimum_pair_passes": 112,
+    "minimum_seed_passes": 10,
+    "patterns": {
+      "all_flip": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "baseline": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "early_only": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "last_only": [
+        1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "prior_only": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    "thresholds": {
+      "candidate_all_flip_action": 0.05,
+      "candidate_carrier": 0.05,
+      "candidate_early_only_action": 0.01,
+      "candidate_prior_only_action": 0.025,
+      "candidate_self_state": 0.05,
+      "common_mode_response": 0.005,
+      "same_family_return_A": 0.07071548,
+      "same_family_return_B": 0.07071548
+    },
+    "zero_tolerance": 1e-12
+  },
+  "history_family_pair_counts": {
+    "0": {
+      "H1": 64,
+      "H2": 64,
+      "H3": 64,
+      "H4": 64
+    },
+    "1": {
+      "H1": 64,
+      "H2": 64,
+      "H3": 64,
+      "H4": 64
+    }
+  },
+  "hypothesis_pair_counts": {
+    "H1": 128,
+    "H2": 128,
+    "H3": 128,
+    "H4": 128
+  },
+  "metric_summaries": {
+    "candidate_action_all_flip": {
+      "maximum": 0.22952717298210598,
+      "mean": 0.13694084587403374,
+      "median": 0.1361311023225536,
+      "minimum": 0.07744387493546229,
+      "q05": 0.10306322757861786,
+      "q95": 0.17519871330246894
+    },
+    "candidate_action_early_only": {
+      "maximum": 0.08012831525683901,
+      "mean": 0.04542348812405577,
+      "median": 0.044729308885154535,
+      "minimum": 0.020903969023266068,
+      "q05": 0.031282328199541215,
+      "q95": 0.06162963070709822
+    },
+    "candidate_action_last_only": {
+      "maximum": 0.1308084916236376,
+      "mean": 0.08407304257190747,
+      "median": 0.08342161321704236,
+      "minimum": 0.039820805163987706,
+      "q05": 0.06353906230047711,
+      "q95": 0.1066327406071545
+    },
+    "candidate_action_prior_only": {
+      "maximum": 0.19167260588041696,
+      "mean": 0.10794497564295269,
+      "median": 0.10682959587531018,
+      "minimum": 0.054134914560303914,
+      "q05": 0.07833847958883919,
+      "q95": 0.14162581417638165
+    },
+    "candidate_carrier_all_flip": {
+      "maximum": 0.2263574174795837,
+      "mean": 0.15104578467633814,
+      "median": 0.1497233778683238,
+      "minimum": 0.06679385654346078,
+      "q05": 0.11692424312134438,
+      "q95": 0.18826587726318342
+    },
+    "candidate_common_mode": {
+      "maximum": 0.0157474607940339,
+      "mean": 0.011087767014691559,
+      "median": 0.011056211722121706,
+      "minimum": 0.006454558936422535,
+      "q05": 0.007872725843114613,
+      "q95": 0.014294172856453676
+    },
+    "candidate_self_all_flip": {
+      "maximum": 0.23369792445188672,
+      "mean": 0.13846368680102164,
+      "median": 0.1376715769757043,
+      "minimum": 0.07801422165308215,
+      "q05": 0.10403775696614176,
+      "q95": 0.17752753263186777
+    },
+    "memoryless_action_all_flip": {
+      "maximum": 0.13272126275689963,
+      "mean": 0.08562105092792144,
+      "median": 0.08517873702084339,
+      "minimum": 0.040560958533443346,
+      "q05": 0.06479363634279978,
+      "q95": 0.10873438305951491
+    },
+    "memoryless_action_early_only": {
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "memoryless_action_prior_only": {
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "role_recurrent_action_all_flip": {
+      "maximum": 0.22971422570530012,
+      "mean": 0.13704385660493504,
+      "median": 0.136366301895817,
+      "minimum": 0.07738676130751719,
+      "q05": 0.10291337617890588,
+      "q95": 0.17546899270957608
+    },
+    "role_recurrent_action_early_only": {
+      "maximum": 0.08017140676239749,
+      "mean": 0.04546779509783198,
+      "median": 0.04475571997602675,
+      "minimum": 0.021041283518869105,
+      "q05": 0.03134757624625033,
+      "q95": 0.061652494284674085
+    },
+    "role_recurrent_action_prior_only": {
+      "maximum": 0.19184850136933798,
+      "mean": 0.10804303067284439,
+      "median": 0.10705601732340578,
+      "minimum": 0.05380858301608135,
+      "q05": 0.07837374695946317,
+      "q95": 0.14158619762846178
+    },
+    "same_family_return_A": {
+      "maximum": 0.3778862179884656,
+      "mean": 0.24497559710004793,
+      "median": 0.24211219981079035,
+      "minimum": 0.13025063100091036,
+      "q05": 0.17957828921411442,
+      "q95": 0.3131001473063029
+    },
+    "same_family_return_B": {
+      "maximum": 0.3596918917903805,
+      "mean": 0.22338903478932204,
+      "median": 0.22164521502954843,
+      "minimum": 0.12187910182666872,
+      "q05": 0.16298184897269546,
+      "q95": 0.29040569711956654
+    },
+    "self_erased_action_all_flip": {
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "self_erasure_carrier_preservation": {
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "symmetric_action_all_flip": {
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "symmetric_action_early_only": {
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "symmetric_action_prior_only": {
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "symmetric_common_mode": {
+      "maximum": 0.021467044368362588,
+      "mean": 0.015088681688714965,
+      "median": 0.014994508239557829,
+      "minimum": 0.008575594875493735,
+      "q05": 0.011149967145545867,
+      "q95": 0.01940668882488336
+    }
+  },
+  "mode": "confirmatory",
+  "primary_decisions": {
+    "H1_both_families": true,
+    "H1_difference_preservation": true,
+    "H2_both_families": true,
+    "H2_retained_difference_history": true,
+    "H3_both_families": true,
+    "H3_o3_transport": true,
+    "H4_both_families": true,
+    "H4_same_family_pair_specificity": true,
+    "complete_conjunction": true
+  },
+  "private_source_verification": {
+    "all_source_digests_match": true,
+    "registered_remote": "https://gitlab.com/subjectivity-intersection-research/minimal-agent-paper.git",
+    "registered_repository_commit": "2c3587d14b51dd02f0b04042698f2410235bd833",
+    "verified_source_sha256": {
+      "agentV61/agent/audit_attraction_world_unknown_creation.py": "d1850d7599756b3ffcf920af23edeedda36b3f41bf97cd42e25bc708c34493e8",
+      "agentV61/agent/audit_fes_domain_type_runtime.py": "ed51f4f31df43252b94664dc4c1298c63c2ce9d79a1821ca74df7c1ebe2c6a8b",
+      "agentV61/agent/audit_fes_domain_world_story.py": "38a6172f356acbe8175912ce7529cad8af8a819135d635a95354ebdd6d7a9d67",
+      "agentV61/agent/audit_fes_standpoint_crossing.py": "d74854ab596660f35687dd62fce532e8227221a3bcd8264c890e47671a7c933a",
+      "agentV61/agent/audit_free_will_aperture_commitment.py": "4a02a1b357aff42fbf0b7a6a088f377b12058bd9ae056e56a2a683fcad89a1fd",
+      "agentV61/agent/audit_free_will_choice_layer.py": "1e3bb0a3136ae7b70f52d1995231197e517d681dcb37db230a7910150046caf0",
+      "agentV61/agent/audit_integrated_living_voice.py": "0f6280162fa139e1f67866cb3abf669231b81adc3ab67834be31b78e68c70c26",
+      "agentV61/agent/audit_long_memory_self_update.py": "d92fd837eefa06e45982c4c5266d830a1c576716e72927a8f0f47dd381efbead",
+      "agentV61/agent/audit_multi_agent_subjective_ecosystem.py": "39ccc97cdd5f8aa9dca138a69eb1861068a0edf5b8bd0952d2e4c6743ba9163b",
+      "agentV61/agent/audit_mutual_fes_relation.py": "962ea754cc41efd2c36dc729c5cf78e191f803627fe0d26017146bb0e2af5adf",
+      "agentV61/agent/audit_other_standpoint_translation.py": "e7df51f5aac1572a23516f663ac1e55e3da0ed4b4f84043dda08c3f14d316ea9",
+      "agentV61/agent/audit_unified_subject_runtime.py": "6355b0307a6637793b17c84166647e530373817821b1d399c8c66f0ca665e245",
+      "agentV61/agent/audit_unknown_coherence_creation_after_commitment.py": "6ae5b67770f1727cf1637fc0fc54e9a3682b834a9ba7c2626cc87c3033c4ab54",
+      "agentV61/agent/audit_world_situation_subjective_ecosystem.py": "d78f3a221deb121412da09900cc84121af2d62a805934307eaf059bc4b689883",
+      "agentV61/agent/fes_domain_types.py": "9a1c58450234cf4a68ef4a4925e48851dc8bf3684b90c10c0b29be4d7385a75e",
+      "agentV61/agent/free_will_aperture.py": "0b6cc799db1265b947d211822b1d8b7b5a9e3d19193bc5c43447c3e1d57cfe0f",
+      "agentV61/agent/free_will_choice.py": "7514e9722f9e06901c175ada21d61f33a938eb61de8c5de090a04fca9740f7e9",
+      "agentV61/agent/other_standpoint_translation.py": "371118d42408a977a759340b2990d36471079648d8646e79ea36d15384532bbf",
+      "agentV61/agent/single_subject_runtime.py": "62baf939d2eae596df94bb6be75badb94d1d9192ff190b25da62a43682b7cf0d",
+      "agentV61/agent/unified_subject_runtime.py": "388ef8b7620e4bf11f9581e5dde6d827ff5f551a4d123f38831bc66aaa52d143",
+      "agentV89f/run_natural_memory_lineage_closure.py": "450ee82af2be75a740a66d2126c8f93aba70f7794c0cebbb29720185ca16c427"
+    }
+  },
+  "registration": {
+    "architecture_classes": [
+      "candidate_o3",
+      "symmetric_recurrent",
+      "role_aware_memoryless",
+      "role_aware_recurrent"
+    ],
+    "confirmatory_descriptor_indices": {
+      "count": 128,
+      "first": 128,
+      "last": 255
+    },
+    "confirmatory_seeds": [
+      20261101,
+      20261102,
+      20261103,
+      20261104,
+      20261105,
+      20261106,
+      20261107,
+      20261108,
+      20261109,
+      20261110,
+      20261111,
+      20261112
+    ],
+    "decision_rules": {
+      "minimum_family_passes": 52,
+      "minimum_pair_passes": 112,
+      "minimum_seed_passes_per_pair": 10,
+      "primary_pair_count": 128,
+      "seed_count_per_pair": 12
+    },
+    "development_descriptor_indices": {
+      "count": 128,
+      "first": 0,
+      "last": 127
+    },
+    "development_seeds": [
+      20261001,
+      20261002,
+      20261003,
+      20261004,
+      20261005,
+      20261006,
+      20261007,
+      20261008,
+      20261009,
+      20261010,
+      20261011,
+      20261012
+    ],
+    "distance": "RMS Euclidean",
+    "donor_rule": {
+      "history_family_size": 64,
+      "offset_within_family": 1,
+      "rule": "donor = recipient + 1 mod 64"
+    },
+    "experiment": "Experiment 004",
+    "history_families": {
+      "0": "ABAB",
+      "1": "BABA"
+    },
+    "intervention_patterns": {
+      "all_flip": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "baseline": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "early_only": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "last_only": [
+        1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "prior_only": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    "numpy_runtime_at_registration": "2.4.4",
+    "private_source_commit": "2c3587d14b51dd02f0b04042698f2410235bd833",
+    "private_source_manifest_sha256": "bf78bb5ddc83a777d7800d532d3a27639a500ee0b61782c5c144fbb2578ba379",
+    "python_runtime_at_registration": "3.14.2",
+    "registration_date": "2026-08-03",
+    "schema": "siel-experiment-004-registration-manifest-v1",
+    "source_sha256": {
+      "experiments/003r_subjectivity_agent_class2_o3_corrected/private_source_manifest.json": "bf78bb5ddc83a777d7800d532d3a27639a500ee0b61782c5c144fbb2578ba379",
+      "experiments/003r_subjectivity_agent_class2_o3_corrected/run.py": "2e97c934ae76220e8c39f94819ec7c35e30c924000a4f37e808daeaf69dc8b44",
+      "experiments/004_difference_preserving_o3_discrimination/PREREGISTRATION.md": "879624cc8237c97a71cdb68c1fb70ea0355e5371a556b3cb57521b64b388f5b2",
+      "experiments/004_difference_preserving_o3_discrimination/README.md": "27bb32a60a1e75602d373f47d18272e43c8406188ea9b45e65f3f1d65469dcff",
+      "experiments/004_difference_preserving_o3_discrimination/TECHNICAL_SPECIFICATION.md": "59d3e331273fa377db582a81eec543d858ace79d47b9e503c3f9e2fcb4014729",
+      "experiments/004_difference_preserving_o3_discrimination/run.py": "4ffde955aa1749fd0d04089d410eab017461f7d18b2a02edcebe06563f24972c",
+      "experiments/004_difference_preserving_o3_discrimination/test_run.py": "1e79b5f416a6da8db589eb1610d3a76707c56497206c9ea15ff9fe42017604b3"
+    },
+    "thresholds": {
+      "candidate_action_all_flip_strictly_greater_than": 0.05,
+      "candidate_action_early_only_strictly_greater_than": 0.01,
+      "candidate_action_prior_only_strictly_greater_than": 0.025,
+      "candidate_carrier_all_flip_strictly_greater_than": 0.05,
+      "candidate_self_state_all_flip_strictly_greater_than": 0.05,
+      "common_mode_response_strictly_greater_than": 0.005,
+      "same_family_return_A_strictly_greater_than": 0.07071548,
+      "same_family_return_B_strictly_greater_than": 0.07071548,
+      "zero_or_invariance_maximum": 1e-12
+    },
+    "title": "Difference-Preserving Relational Carrier and Retained-History O3 Audit",
+    "vector_dimension": 24,
+    "vector_dtype": "numpy.float64"
+  },
+  "role_aware_recurrent_pair_count": 128,
+  "schema": "siel-experiment-004-difference-preserving-o3-v1",
+  "status": "CONFIRMATORY_COMPLETE"
+}
