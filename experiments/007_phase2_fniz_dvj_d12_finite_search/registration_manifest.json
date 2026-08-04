@@ -1,0 +1,64 @@
+{
+  "schema": "siel-experiment-007-phase2-registration-manifest-v1",
+  "experiment": "Experiment 007 Phase 2",
+  "title": "Complete Finite Search for a Constructed FNIZ-DVJ-D12 Bridge Rule",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "registration_date": "2026-08-05",
+  "primary_object": "constructed connector for K^E_FNIZ-DVJ-D12",
+  "source_derived_claim_permitted": false,
+  "phase1_authority": {
+    "commit": "61bfbb763dfd41b15264b8a7dd3f081783ce3c2d",
+    "results_doi": "10.5281/zenodo.21794739",
+    "candidate_table_sha256": "a1f250c58889cc4cc200c1fe0cfa32f36111db72d9fc8d57157a6b5cbedfaf65",
+    "summary_sha256": "d6b2b194a129cf0e7ab0688d0219aefe59221a8d12bbd54b821e1be6a3a9aa81"
+  },
+  "riemann_authority": {
+    "repository": "https://gitlab.com/d12rg/d12rg-riemann.git",
+    "commit": "12759beb5c6acb41b83597dfb77b74cd576d5066"
+  },
+  "candidate_family": {
+    "count": 144,
+    "error_control_family_count": 144,
+    "post_hoc_restriction_permitted": false,
+    "tie_removal_permitted": false
+  },
+  "ranking_order": [
+    "full_group",
+    "four_distinct_steps",
+    "translated_mode_union_size",
+    "minimum_pairwise_mode_symmetric_difference",
+    "minimum_development_path_coverage",
+    "minimum_primitive_order"
+  ],
+  "equivalence": {
+    "c12_units": [1, 5, 7, 11],
+    "primitive_label_exchange": true,
+    "canonical_key": "lexicographic minimum primitive pair"
+  },
+  "dvj_calibration": {
+    "parameters": ["0.5", "1.0", "2.0", "5.0"],
+    "mpmath_version": "1.3.0",
+    "mpmath_precision": 80,
+    "root_precision": 90,
+    "tolerance": "1e-40",
+    "contributes_to_candidate_ranking": false
+  },
+  "primary_classifications": [
+    "UNIQUE_CONSTRUCTED_RULE_SELECTED",
+    "ONE_CONSTRUCTED_EQUIVALENCE_CLASS_SELECTED",
+    "MULTIPLE_TOP_EQUIVALENCE_CLASSES",
+    "NO_ADMISSIBLE_CANDIDATE"
+  ],
+  "registration_sha256": {
+    "experiments/007_phase2_fniz_dvj_d12_finite_search/README.md": "493126b168886aa855b4c311470cf3aaef710c5ccff4df989d9910c1aafbcfac",
+    "experiments/007_phase2_fniz_dvj_d12_finite_search/PREREGISTRATION.md": "60a73ec99bf3bccd4c0586d57a931d05601faf1dced0de71216fb61b711f4051",
+    "experiments/007_phase2_fniz_dvj_d12_finite_search/TECHNICAL_SPECIFICATION.md": "6e6a1c6c958b55fb645b6437bc3af6197cf454dac0272a804ad39eecf7777826",
+    "experiments/007_phase2_fniz_dvj_d12_finite_search/requirements.txt": "a699f46ed76bd216f1081b6b2330e4fb45d7c8c5a5354b208694d6590a5a8645",
+    "experiments/007_phase2_fniz_dvj_d12_finite_search/run.py": "2cc48a95ee361f4ee03f1ce0b1b8bd7f0f81e78537efabed738e47cb74d15bef",
+    "experiments/007_phase2_fniz_dvj_d12_finite_search/test_run.py": "06b4e672329676be4b31d5f5733f9f2e23afbc35eed5b1ed2f52b2400741d67c"
+  },
+  "release": {
+    "tag": "e007-phase2-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}
