@@ -1,0 +1,56 @@
+{
+  "schema": "siel-experiment-007-phase1-registration-manifest-v1",
+  "experiment": "Experiment 007 Phase 1",
+  "title": "FNIZ-DVJ-D12 Source-Derivation Audit",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "registration_date": "2026-08-05",
+  "primary_object": "K^E_FNIZ-DVJ-D12",
+  "o3_identification": false,
+  "phase_separation": {
+    "phase_1": "source derivation audit",
+    "phase_2": "separate finite candidate search if required",
+    "phase_3": "separate held-out confirmation if required"
+  },
+  "source_authorities": {
+    "riemann": {
+      "repository": "https://gitlab.com/d12rg/d12rg-riemann.git",
+      "commit": "12759beb5c6acb41b83597dfb77b74cd576d5066"
+    },
+    "advaita": {
+      "repository": "https://gitlab.com/d12rg/d12rg_cft.git",
+      "branch": "papers",
+      "commit": "375d25e834208cf9a92154be9e51d72f09175a8f",
+      "path": "z12cft-cft/knowledge/paper7.5/Advaita Canonical Database Expanded Operator Form LaTeX Source.txt",
+      "sha256": "ebb0edfc0f4533a25eaf05adeba98aa0a5f9ded32f5a246acd636c6e51481630"
+    }
+  },
+  "registered_parameters": {
+    "dvj_probe_parameters": ["0.5", "1.0", "2.0", "5.0"],
+    "mpmath_version": "1.3.0",
+    "mpmath_precision": 80,
+    "dvj_root_precision": 90,
+    "numerical_tolerance": "1e-40",
+    "unconstrained_rule_count": 20736,
+    "conditional_primitive_derived_rule_count": 144,
+    "selection_permitted": false
+  },
+  "primary_classifications": [
+    "UNIQUE_SOURCE_DERIVED_RULE",
+    "MULTIPLE_SOURCE_ADMISSIBLE_RULES",
+    "SOURCE_CONSTRAINTS_DO_NOT_NARROW",
+    "NO_ADMISSIBLE_RULE",
+    "INCOMPLETE_SOURCE_DEFINITION"
+  ],
+  "registration_sha256": {
+    "experiments/007_phase1_fniz_dvj_d12_source_audit/README.md": "609f8ac18d24f98a2e6c9b3f0fcb616abd7aa1481511f1e7bd33d87a8f130fb3",
+    "experiments/007_phase1_fniz_dvj_d12_source_audit/PREREGISTRATION.md": "c36331a7dd78080bfa20b5e07702037fcfae25e604ab6a2285116341604d85bd",
+    "experiments/007_phase1_fniz_dvj_d12_source_audit/TECHNICAL_SPECIFICATION.md": "6b7d31a4e30b2371d26d4eb2639341eb740bdd2773afc1850ac39a2fe3e5f9c8",
+    "experiments/007_phase1_fniz_dvj_d12_source_audit/requirements.txt": "a699f46ed76bd216f1081b6b2330e4fb45d7c8c5a5354b208694d6590a5a8645",
+    "experiments/007_phase1_fniz_dvj_d12_source_audit/run.py": "3f0df2d2fd1f5f998d2dc824b5ee203106bdfaa1fda076daf3f8a3e60c7f6b8c",
+    "experiments/007_phase1_fniz_dvj_d12_source_audit/test_run.py": "cf45e578572ac36e97c6897c471761ed50a4969b66caa1284161f911da38fb1e"
+  },
+  "release": {
+    "tag": "e007-phase1-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}
