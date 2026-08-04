@@ -1,0 +1,9 @@
+{
+  "files": {
+    "RESULT.md": "1474b0ca220a3b02264f97a386b9e4e812050872eadbf37d98ba41081e9a4b2c",
+    "equivalence_classes.csv": "c05edb94a305fbc09372660412455f4b074cb3c08b08f7040bf86ea4f8ec1155",
+    "scored_candidates.csv": "86b49d00b2a3e26b0792a7450daf3f7bc9d9b00c67785f9a4847eaf24e074974",
+    "summary.json": "08b55ffe6eaba4c60a6e02fae4975aa6e0498dea1215a41e1dcb4332c880c393"
+  },
+  "schema": "siel-experiment-007-phase2-output-manifest-v1"
+}
