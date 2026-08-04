@@ -1,0 +1,8 @@
+{
+  "schema": "siel-experiment-006a-nonseparable-relational-c-v1",
+  "files": {
+    "transition_metrics.csv": "1a0c100746b6e7bc51b6714fb56ca616edc3fcac6a888d68150f82f8e68fbf01",
+    "summary.json": "ad462bbd4afbea212ae62a9229ec6f1ce167f194a831bfc4480054dcd1f24b16",
+    "RESULT.md": "36584159da12219cde01b5a57da60d39e25c8d755c71c9c4ff38c8c03931b490"
+  }
+}

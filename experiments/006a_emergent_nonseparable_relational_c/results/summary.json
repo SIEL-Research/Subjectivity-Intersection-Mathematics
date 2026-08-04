@@ -1,0 +1,352 @@
+{
+  "schema": "siel-experiment-006a-nonseparable-relational-c-v1",
+  "status": "CONFIRMATORY_COMPLETE",
+  "mode": "confirmatory",
+  "primary_readout": "SUPPORTED",
+  "task": "delayed reciprocal recall",
+  "component": "H(ab)-H(a0)-H(0b)+H(00)",
+  "training_seeds": [
+    8000,
+    8001,
+    8002,
+    8003,
+    8004,
+    8005,
+    8006,
+    8007,
+    8008,
+    8009,
+    8010,
+    8011,
+    8012,
+    8013,
+    8014,
+    8015,
+    8016,
+    8017,
+    8018,
+    8019,
+    8020,
+    8021,
+    8022,
+    8023,
+    8024,
+    8025,
+    8026,
+    8027,
+    8028,
+    8029,
+    8030,
+    8031,
+    8032,
+    8033,
+    8034,
+    8035,
+    8036,
+    8037,
+    8038,
+    8039,
+    8040,
+    8041,
+    8042,
+    8043,
+    8044,
+    8045,
+    8046,
+    8047
+  ],
+  "development_seeds_excluded": [
+    7000,
+    7001,
+    7002,
+    7003,
+    7004,
+    7005,
+    7006,
+    7007,
+    7100,
+    7101,
+    7102,
+    7103,
+    7104,
+    7105,
+    7106,
+    7107,
+    7200,
+    7201,
+    7202,
+    7203,
+    7204,
+    7205,
+    7206,
+    7207,
+    7208,
+    7209,
+    7210,
+    7211,
+    7212,
+    7213,
+    7214,
+    7215,
+    7216,
+    7217,
+    7218,
+    7219,
+    7220,
+    7221,
+    7222,
+    7223
+  ],
+  "evaluation_seeds": [
+    61790001,
+    61790002
+  ],
+  "configuration": {
+    "steps": 4000,
+    "batch_size": 256,
+    "episodes": 4096,
+    "random_draws": 32,
+    "transitions": [
+      4,
+      5,
+      6
+    ],
+    "active_parameters_each": 486
+  },
+  "registration_verified": true,
+  "architectures": {
+    "distributed": {
+      "competent_seed_count": 48,
+      "amplified_seed_count": 48,
+      "component_norm": {
+        "minimum": 0.10549575151698173,
+        "median": 0.155500942299208,
+        "maximum": 0.27386302782440075
+      },
+      "bilateral_support": {
+        "minimum": 1.0,
+        "median": 1.0,
+        "maximum": 1.0
+      },
+      "amplification_ratio": {
+        "minimum": 396.9487232563849,
+        "median": 1118.8726230725836,
+        "maximum": 2854.330508160922
+      },
+      "transport_fraction": {
+        "minimum": 0.4084804146537161,
+        "median": 0.5243047557326886,
+        "maximum": 0.6140980856019719
+      },
+      "bilateral_fraction": {
+        "minimum": 0.969970703125,
+        "median": 1.0,
+        "maximum": 1.0
+      },
+      "exchange_cross_entropy_increase": {
+        "minimum": -6.598174865394068e-07,
+        "median": 0.00034364573358266364,
+        "maximum": 0.03172238435353955
+      },
+      "transport_percentile": {
+        "minimum": 0.0,
+        "median": 0.0,
+        "maximum": 1.0
+      },
+      "probability_response_percentile": {
+        "minimum": 0.0,
+        "median": 0.0,
+        "maximum": 1.0
+      }
+    },
+    "central_shared": {
+      "competent_seed_count": 48,
+      "amplified_seed_count": 48,
+      "component_norm": {
+        "minimum": 0.07779705582633675,
+        "median": 0.13029437393515553,
+        "maximum": 0.2040040412463954
+      },
+      "bilateral_support": {
+        "minimum": 1.0,
+        "median": 1.0,
+        "maximum": 1.0
+      },
+      "amplification_ratio": {
+        "minimum": 164.78133538528664,
+        "median": 649.4426554491879,
+        "maximum": 1959.6418470188892
+      },
+      "transport_fraction": {
+        "minimum": 0.43930030321535046,
+        "median": 0.5487357398850996,
+        "maximum": 0.6277741844060986
+      },
+      "bilateral_fraction": {
+        "minimum": 0.9384765625,
+        "median": 0.9984130859375,
+        "maximum": 1.0
+      },
+      "exchange_cross_entropy_increase": {
+        "minimum": -1.7454240673120762e-07,
+        "median": 0.000125407898034826,
+        "maximum": 0.006564559107228316
+      },
+      "transport_percentile": {
+        "minimum": 0.0,
+        "median": 0.03125,
+        "maximum": 1.0
+      },
+      "probability_response_percentile": {
+        "minimum": 0.0,
+        "median": 0.0,
+        "maximum": 1.0
+      }
+    },
+    "directional_relay": {
+      "competent_seed_count": 48,
+      "amplified_seed_count": 48,
+      "component_norm": {
+        "minimum": 0.05312196582046534,
+        "median": 0.09362507441106573,
+        "maximum": 0.16649270619126205
+      },
+      "bilateral_support": {
+        "minimum": 1.0,
+        "median": 1.0,
+        "maximum": 1.0
+      },
+      "amplification_ratio": {
+        "minimum": 307.0496683755321,
+        "median": 812.2590665932285,
+        "maximum": 2818.8737094760913
+      },
+      "transport_fraction": {
+        "minimum": 0.3232858116167189,
+        "median": 0.49164349696902376,
+        "maximum": 0.6314064995997926
+      },
+      "bilateral_fraction": {
+        "minimum": 0.274658203125,
+        "median": 0.9959716796875,
+        "maximum": 1.0
+      },
+      "exchange_cross_entropy_increase": {
+        "minimum": -1.3086315023117587e-08,
+        "median": 5.228262303237653e-06,
+        "maximum": 0.01715205006567084
+      },
+      "transport_percentile": {
+        "minimum": 0.0,
+        "median": 0.03125,
+        "maximum": 1.0
+      },
+      "probability_response_percentile": {
+        "minimum": 0.0,
+        "median": 0.0,
+        "maximum": 1.0
+      }
+    },
+    "four_channel_crossbar": {
+      "competent_seed_count": 48,
+      "amplified_seed_count": 48,
+      "component_norm": {
+        "minimum": 0.05243219871006423,
+        "median": 0.10185974555475952,
+        "maximum": 0.18444867828535336
+      },
+      "bilateral_support": {
+        "minimum": 1.0,
+        "median": 1.0,
+        "maximum": 1.0
+      },
+      "amplification_ratio": {
+        "minimum": 349.2603464156395,
+        "median": 854.1891745474313,
+        "maximum": 2289.923279741249
+      },
+      "transport_fraction": {
+        "minimum": 0.3664519163986405,
+        "median": 0.48632050271996424,
+        "maximum": 0.6483575876572274
+      },
+      "bilateral_fraction": {
+        "minimum": 0.84814453125,
+        "median": 0.9979248046875,
+        "maximum": 1.0
+      },
+      "exchange_cross_entropy_increase": {
+        "minimum": 1.9108633879164197e-08,
+        "median": 4.6905355239008876e-05,
+        "maximum": 0.005237885246772309
+      },
+      "transport_percentile": {
+        "minimum": 0.0,
+        "median": 1.0,
+        "maximum": 1.0
+      },
+      "probability_response_percentile": {
+        "minimum": 0.0,
+        "median": 0.0,
+        "maximum": 1.0
+      }
+    },
+    "dual_independent_relay": {
+      "competent_seed_count": 48,
+      "amplified_seed_count": 0,
+      "component_norm": {
+        "minimum": 1.6341029056377623e-17,
+        "median": 2.2440922320618646e-17,
+        "maximum": 2.932334989833138e-17
+      },
+      "bilateral_support": {
+        "minimum": 0.0,
+        "median": 0.0,
+        "maximum": 0.0
+      },
+      "amplification_ratio": {
+        "minimum": 1.6341029056377623e-05,
+        "median": 2.2440922320618644e-05,
+        "maximum": 2.9323349898331382e-05
+      },
+      "transport_fraction": {
+        "minimum": 1.7654443222740367e-05,
+        "median": 2.3678692567545833e-05,
+        "maximum": 4.012005041279634e-05
+      },
+      "bilateral_fraction": {
+        "minimum": 0.0,
+        "median": 0.0,
+        "maximum": 0.0
+      },
+      "exchange_cross_entropy_increase": {
+        "minimum": -2.168404344971009e-19,
+        "median": 0.0,
+        "maximum": 1.0842021724855044e-19
+      },
+      "transport_percentile": {
+        "minimum": 0.0,
+        "median": 0.21875,
+        "maximum": 1.0
+      },
+      "probability_response_percentile": {
+        "minimum": 0.0,
+        "median": 0.40625,
+        "maximum": 1.0
+      }
+    }
+  },
+  "primary_checks": {
+    "capacity_exact_486": true,
+    "competence_at_least_44_of_48_each": true,
+    "dual_component_at_most_1e_10": true,
+    "interacting_median_component_at_least_0_02": true,
+    "interacting_median_bilateral_support_at_least_0_99": true,
+    "training_amplification": true,
+    "interacting_median_transport_fraction_at_least_0_40": true,
+    "interacting_median_bilateral_output_at_least_0_95": true,
+    "interacting_positive_median_exchange": true,
+    "reconstruction_error_at_most_1e_12": true
+  },
+  "claim_boundary": "A supported result establishes an operational learned distributed second-order interaction absent from a competent additive two-relay solution. It does not establish ontological unity, consciousness, or a third subject."
+}
