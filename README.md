@@ -40,6 +40,19 @@ instantaneous relation and a history-bearing relational carrier, defines the
 seven evidence gates for a `C_intersection` candidate, and specifies the
 architecture of the first paired-viewpoint experiment.
 
+## Live Demo
+
+- [Run The Third Viewpoint: Live Emergence Demo](https://siel-research.github.io/Subjectivity-Intersection-Mathematics/demos/third-viewpoint-emergence/)
+- [Read the demo documentation](demos/third-viewpoint-emergence/README.md)
+
+The demo trains two recurrent viewpoints from zero in the visitor's browser.
+No C state, O3 variable, third agent, pair identifier, carrier target, or
+O3-specific loss is installed. The visitor can enter the operationally
+emergent third viewpoint, erase its distributed trace, replace it with another
+pair's trace, and observe its self-re-entry into later joint states. Every
+displayed value is calculated in the live run; unsupported outcomes are
+preserved.
+
 ## Experiments
 
 - [Experiment index](experiments/README.md)
@@ -168,7 +181,7 @@ Closure*. Research white paper.
 
 Copyright (c) 2026 Satoru Watanabe.
 
-Python source files under `experiments/` are licensed under the
+Source files under `experiments/` and `demos/` are licensed under the
 [Apache License 2.0](LICENSE-CODE).
 
 The white paper, research documents, and generated research outputs are not

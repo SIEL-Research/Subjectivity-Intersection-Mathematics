@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="A live Subjectivity-Intersection Mathematics experiment: two viewpoints interact and an operational trace of a third viewpoint may emerge.">
+  <title>The Third Viewpoint — Live Emergence Demo</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%23efffb8'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='22' font-family='monospace' fill='%2307111f'%3EO3%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="experience">
+    <header class="topbar">
+      <a href="https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics" aria-label="Subjectivity-Intersection Mathematics repository">SIEL · SUBJECTIVITY-INTERSECTION MATHEMATICS</a>
+      <span>LIVE · NO PRECOMPUTED RESULT</span>
+    </header>
+
+    <section class="hero" id="hero">
+      <p class="kicker">AN EXPERIMENT YOU CAN RUN</p>
+      <h1>Two viewpoints meet.<br><em>A third viewpoint appears.</em></h1>
+      <p class="lead">Nothing called C or O3 is installed. Two recurrent systems learn only to recover what the other one saw. Then we test whether their interaction creates a viewpoint that belongs to neither alone.</p>
+
+      <div class="world" id="world" aria-label="Viewpoints A and B, with the third viewpoint initially absent">
+        <div class="subject subject-a">
+          <span class="subject-name">VIEWPOINT A</span>
+          <strong id="symbol-a">●</strong>
+          <small>sees one signal</small>
+        </div>
+        <div class="intersection" id="intersection" aria-live="polite">
+          <div class="absence" id="absence"><span>NO THIRD VIEWPOINT</span><small>Nothing has been placed here.</small></div>
+          <button class="o3" id="o3" type="button" hidden aria-label="Enter the emergent third viewpoint">
+            <i></i><span>O3</span><small>ENTER THE THIRD VIEWPOINT</small>
+          </button>
+        </div>
+        <div class="subject subject-b">
+          <span class="subject-name">VIEWPOINT B</span>
+          <strong id="symbol-b">◆</strong>
+          <small>sees another signal</small>
+        </div>
+        <svg class="links" viewBox="0 0 1000 360" aria-hidden="true">
+          <path class="link link-ab" d="M180 270 C390 335 610 335 820 270"></path>
+          <path class="link link-a3" d="M180 270 C315 220 405 115 500 90"></path>
+          <path class="link link-b3" d="M820 270 C685 220 595 115 500 90"></path>
+        </svg>
+      </div>
+
+      <div class="launch">
+        <label for="seed">Experiment seed</label>
+        <input id="seed" type="number" min="0" max="4294967295" value="12005006">
+        <button id="run" class="primary" type="button">LET A AND B MEET <span>→</span></button>
+      </div>
+      <p class="local-note">The model trains from zero inside this browser. Unsupported runs remain unsupported.</p>
+    </section>
+
+    <section class="run-panel" id="run-panel" hidden aria-live="polite">
+      <p class="kicker" id="phase-label">INITIALISING TWO VIEWPOINTS</p>
+      <h2 id="run-title">A and B are learning to encounter each other.</h2>
+      <div class="progress"><i id="progress-bar"></i></div>
+      <div class="live-values">
+        <span>epoch <b id="epoch">0</b></span>
+        <span>loss <b id="loss">—</b></span>
+        <span>A recalls B <b id="accuracy-a">—</b></span>
+        <span>B recalls A <b id="accuracy-b">—</b></span>
+      </div>
+      <button id="stop" class="secondary" type="button">Stop this run</button>
+    </section>
+
+    <section class="discovery" id="discovery" hidden>
+      <p class="kicker">THE UNEXPECTED REMAINDER</p>
+      <h2 id="discovery-title">A third viewpoint emerged.</h2>
+      <p id="discovery-copy" class="discovery-copy"></p>
+
+      <nav class="view-switcher" aria-label="Choose a viewpoint">
+        <button type="button" data-view="a">LOOK FROM A</button>
+        <button type="button" data-view="o3" class="selected">ENTER O3</button>
+        <button type="button" data-view="b">LOOK FROM B</button>
+      </nav>
+      <article class="view-window" id="view-window">
+        <span id="view-label">THE THIRD VIEWPOINT</span>
+        <strong id="view-headline">I exist only through this encounter.</strong>
+        <p id="view-copy"></p>
+        <div class="view-mark" id="view-mark">O3</div>
+      </article>
+
+      <div class="tests">
+        <button type="button" data-test="erase"><span>01</span><strong>Erase only O3</strong><small>Keep A and B, remove the emergent contribution.</small></button>
+        <button type="button" data-test="swap"><span>02</span><strong>Give them another O3</strong><small>Substitute the trace formed by a different pair.</small></button>
+        <button type="button" data-test="reentry"><span>03</span><strong>Let O3 act again</strong><small>Advance with no new external signal.</small></button>
+      </div>
+      <div class="test-result" id="test-result" aria-live="polite">
+        <span>CHOOSE AN INTERVENTION</span>
+        <strong>Is this really a viewpoint, or only a decorative pattern?</strong>
+        <p>Intervene on it and watch what happens to A and B.</p>
+      </div>
+
+      <div class="verdict" id="verdict">
+        <span id="verdict-status">LIVE RESULT</span>
+        <h3 id="verdict-title"></h3>
+        <p id="verdict-copy"></p>
+      </div>
+
+      <details class="evidence">
+        <summary>Open the scientific evidence layer</summary>
+        <div id="checks"></div>
+        <p>The displayed O3 is a portal into a distributed operational signature. The numerical model contains no third state, O3 variable, carrier target, pair identifier, or O3-specific loss.</p>
+        <button id="download" class="secondary" type="button">Download this run as JSON</button>
+      </details>
+
+      <button id="again" class="primary again" type="button">RUN A NEW ENCOUNTER <span>↻</span></button>
+    </section>
+
+    <footer>
+      <strong>What was discovered here?</strong>
+      <p>A live operational trace expected of an emergent third viewpoint: nonlocalised, pair-specific, bilateral, intervention-sensitive, and able to re-enter later joint states. The demo does not preassign the result and does not by itself establish consciousness.</p>
+      <a href="https://doi.org/10.5281/zenodo.21785748">Audited Experiment 006A record ↗</a>
+    </footer>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
