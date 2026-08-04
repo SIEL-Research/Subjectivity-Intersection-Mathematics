@@ -1,0 +1,25 @@
+{
+  "schema": "siel-experiment-006a-registration-v1",
+  "experiment": "006A_emergent_nonseparable_relational_c",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "confirmatory_training_seeds": [8000, 8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010, 8011, 8012, 8013, 8014, 8015, 8016, 8017, 8018, 8019, 8020, 8021, 8022, 8023, 8024, 8025, 8026, 8027, 8028, 8029, 8030, 8031, 8032, 8033, 8034, 8035, 8036, 8037, 8038, 8039, 8040, 8041, 8042, 8043, 8044, 8045, 8046, 8047],
+  "confirmatory_evaluation_seeds": [61790001, 61790002],
+  "source_sha256": {
+    "experiments/006a_emergent_nonseparable_relational_c/PREREGISTRATION.md": "f84c5322d339e6e63b8c7ad0b6b0a8f97fde927928035f6de28181ff34efeaca",
+    "experiments/006a_emergent_nonseparable_relational_c/README.md": "3476cfc67d6c5a670cab6c1dbb0550ab57f48588f6c5e9e4db988dcb84d9f2c4",
+    "experiments/006a_emergent_nonseparable_relational_c/TECHNICAL_SPECIFICATION.md": "a36547df0c410aaee8ad75b9f5fc674dee487815811a2db9f74463569931d187",
+    "experiments/006a_emergent_nonseparable_relational_c/run.py": "8050b5465e5233f8d90f7bae0b7f106dd4232fc0666cef2a165d73516172cd5b",
+    "experiments/006a_emergent_nonseparable_relational_c/test_run.py": "8b9ecd4e9224e57ab97bf3daa3a788902f73a7f2b451dca2869992339ee896e2",
+    "experiments/006a_emergent_nonseparable_relational_c/support/experiment_007_unity_pilot.py": "f3adcfd47ac69d3d4a7468ebf7fcbe92bc206b9d76022adbc8da2f2a0c36c75c",
+    "experiments/006a_emergent_nonseparable_relational_c/support/experiment_007b_synergy_carrier.py": "feb80cc66466d997140a5f5150af2e32e3da6f4ea1d45641de522b659346b2a6",
+    "experiments/005_emergent_relational_carrier_solution_class/support/e009_world.py": "09d09e7c99dfa820477665b2196a0263d4f3ad30442dd30895fb221c14abc150",
+    "experiments/005_emergent_relational_carrier_solution_class/support/e010_directed.py": "c354e88029cb11294118c27c95d811311e9bebc933afa8776e70d941119b9216",
+    "experiments/005_emergent_relational_carrier_solution_class/support/p014_architectures.py": "d364b4bb8b2db4341c82df2ee32ff6280479f1b348869a8eb4b3ac43723500ce",
+    "experiments/005_emergent_relational_carrier_solution_class/support/p015_reciprocal.py": "29c4796d8c4089659504980c7716a043757e8d92fac7131ac42fb9a332c100cf",
+    "experiments/006_spontaneous_o3_reentry/run.py": "87e673c09bc1dce5471cf90fa70c9425c5cc2bb669006e473e799415074f9375"
+  },
+  "release": {
+    "tag": "e006a-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}
