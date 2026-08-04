@@ -1,0 +1,52 @@
+layer,item,status,detail
+registration,experiments/007_phase1_fniz_dvj_d12_source_audit/README.md,PASS,609f8ac18d24f98a2e6c9b3f0fcb616abd7aa1481511f1e7bd33d87a8f130fb3
+registration,experiments/007_phase1_fniz_dvj_d12_source_audit/PREREGISTRATION.md,PASS,c36331a7dd78080bfa20b5e07702037fcfae25e604ab6a2285116341604d85bd
+registration,experiments/007_phase1_fniz_dvj_d12_source_audit/TECHNICAL_SPECIFICATION.md,PASS,6b7d31a4e30b2371d26d4eb2639341eb740bdd2773afc1850ac39a2fe3e5f9c8
+registration,experiments/007_phase1_fniz_dvj_d12_source_audit/requirements.txt,PASS,a699f46ed76bd216f1081b6b2330e4fb45d7c8c5a5354b208694d6590a5a8645
+registration,experiments/007_phase1_fniz_dvj_d12_source_audit/run.py,PASS,3f0df2d2fd1f5f998d2dc824b5ee203106bdfaa1fda076daf3f8a3e60c7f6b8c
+registration,experiments/007_phase1_fniz_dvj_d12_source_audit/test_run.py,PASS,cf45e578572ac36e97c6897c471761ed50a4969b66caa1284161f911da38fb1e
+provenance,riemann_commit,PASS,12759beb5c6acb41b83597dfb77b74cd576d5066
+provenance,riemann_remote,PASS,https://gitlab.com/d12rg/d12rg-riemann.git
+provenance,riemann_clean,PASS,true
+provenance,src/d12rg_riemann/signed_fniz_xi.py,PASS,be7868799c781c62eb8adec424e6752b78e07a84c4e25fa86e45060e067045c5
+provenance,src/d12rg_riemann/spectral_fniz_symmetry_audit.py,PASS,be010b68ea8f620b7b6dd57aea1495a4d1a1583c5c7420317ff4b391be064e6b
+provenance,src/d12rg_riemann/spectral_maya_fniz.py,PASS,32a6be8e33c063649b0d5493c4fe46a6ffdfa680f39b67b7b906d808493faa0a
+provenance,src/d12rg_riemann/spectral_cit_holonomy.py,PASS,4c0114ba440c7b572f66cf27b3d69fe397a3ea8c54f60b7ef0c60305dc83b349
+provenance,src/d12rg_riemann/spectral_cit_moving.py,PASS,ff6dc3fa0fdef313ff65564f06933d10ae307fa7fa75fec5b8cf984e0551b97f
+provenance,src/d12rg_riemann/spectral_dvj.py,PASS,9dc5c1ede19b2f45a63c8a2cc04611a1187dfc01ff93826fd6622d3ba684f4c2
+provenance,src/d12rg_riemann/spectral_dvj_transfer.py,PASS,91562caf97a6800ad5e8a622d786772d28a3c5dc7e9e7bf96ae4d6a9922be2d4
+provenance,docs/gate4/k-pr84-signed-fniz-xi-endpoint-closure.md,PASS,9b7f1ee676603077c5f75cd9ab4a82890e5b64ceb33f5228c7532d3668cf1662
+provenance,docs/spectral/s-pr41-full-d12-twisted-cit-holonomy.md,PASS,dfcef8937257146eb7456526c7ab6d0e32075ed600628627f574b4cccad1e6f1
+provenance,docs/spectral/s-pr42-moving-projector-positive-kernel.md,PASS,8b5a3191d13f5fa2a7fd53b8ff73ad2061dde31b7b2dfd8031dbdcf1b53aa4c7
+provenance,z12cft-cft/knowledge/paper7.5/Advaita Canonical Database Expanded Operator Form LaTeX Source.txt,PASS,ebb0edfc0f4533a25eaf05adeba98aa0a5f9ded32f5a246acd636c6e51481630
+advaita,four_operations_named,PASS,true
+advaita,operator_history_is_data,PASS,true
+advaita,restoration_work_explicit,PASS,true
+advaita,carrier_pair_equation_present,PASS,true
+advaita,integration_specific_derivation_present,ABSENT,false
+advaita,fniz_named,ABSENT,false
+advaita,dvj_named,ABSENT,false
+advaita,d12_named,PASS,true
+advaita,deck_named,ABSENT,false
+fniz,signed_state_count,PASS,8
+fniz,base_operations,PASS,"[""+"", ""-"", ""*"", ""/""]"
+fniz,operation_cell_count,PASS,256
+fniz,signed_zero_distinct,PASS,true
+fniz,subtraction_as_additive_reversal_all_pairs,PASS,true
+fniz,division_as_multiplicative_reciprocal_all_pairs,PASS,true
+fniz,ordered_pair_count_per_identity,PASS,64
+connector_scan,src/d12rg_riemann/dvj_moment.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": true, ""file"": ""src/d12rg_riemann/dvj_moment.py"", ""fniz"": false}"
+connector_scan,src/d12rg_riemann/rh_fniz_audit.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": false, ""file"": ""src/d12rg_riemann/rh_fniz_audit.py"", ""fniz"": true}"
+connector_scan,src/d12rg_riemann/rh_fniz_zero_orbit.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": false, ""file"": ""src/d12rg_riemann/rh_fniz_zero_orbit.py"", ""fniz"": true}"
+connector_scan,src/d12rg_riemann/signed_fniz_xi.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": false, ""file"": ""src/d12rg_riemann/signed_fniz_xi.py"", ""fniz"": true}"
+connector_scan,src/d12rg_riemann/spectral_cit_moving.py,PARTIAL,"{""all_three"": false, ""d12_deck"": true, ""dvj"": false, ""file"": ""src/d12rg_riemann/spectral_cit_moving.py"", ""fniz"": false}"
+connector_scan,src/d12rg_riemann/spectral_dvj.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": true, ""file"": ""src/d12rg_riemann/spectral_dvj.py"", ""fniz"": false}"
+connector_scan,src/d12rg_riemann/spectral_dvj_torus.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": true, ""file"": ""src/d12rg_riemann/spectral_dvj_torus.py"", ""fniz"": false}"
+connector_scan,src/d12rg_riemann/spectral_dvj_transfer.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": true, ""file"": ""src/d12rg_riemann/spectral_dvj_transfer.py"", ""fniz"": false}"
+connector_scan,src/d12rg_riemann/spectral_endpoint_ladder.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": true, ""file"": ""src/d12rg_riemann/spectral_endpoint_ladder.py"", ""fniz"": false}"
+connector_scan,src/d12rg_riemann/spectral_fniz_symmetry_audit.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": false, ""file"": ""src/d12rg_riemann/spectral_fniz_symmetry_audit.py"", ""fniz"": true}"
+connector_scan,src/d12rg_riemann/spectral_maya_fniz.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": false, ""file"": ""src/d12rg_riemann/spectral_maya_fniz.py"", ""fniz"": true}"
+connector_scan,src/d12rg_riemann/spectral_maya_transport.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": false, ""file"": ""src/d12rg_riemann/spectral_maya_transport.py"", ""fniz"": true}"
+connector_scan,src/d12rg_riemann/spectral_maya_xi_modal.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": false, ""file"": ""src/d12rg_riemann/spectral_maya_xi_modal.py"", ""fniz"": true}"
+connector_scan,src/d12rg_riemann/spectral_xi_monotonicity.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": true, ""file"": ""src/d12rg_riemann/spectral_xi_monotonicity.py"", ""fniz"": false}"
+connector_scan,src/d12rg_riemann/spectral_xi_sharp_boundary.py,PARTIAL,"{""all_three"": false, ""d12_deck"": false, ""dvj"": true, ""file"": ""src/d12rg_riemann/spectral_xi_sharp_boundary.py"", ""fniz"": true}"

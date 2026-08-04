@@ -1,0 +1,237 @@
+{
+  "advaita_audit": {
+    "carrier_pair_equation_present": true,
+    "d12_named": true,
+    "deck_named": false,
+    "dvj_named": false,
+    "fniz_named": false,
+    "four_operations_named": true,
+    "integration_specific_derivation_present": false,
+    "operator_history_is_data": true,
+    "restoration_work_explicit": true
+  },
+  "candidate_audit": {
+    "after_lagrange_constraint": 144,
+    "after_primitive_derived_constraints": 144,
+    "initial_unconstrained_rule_count": 20736,
+    "lagrange_pruning_power_within_conditional_family": 0.0,
+    "primitive_derived_pruning_power": 0.9930555555555556,
+    "remaining_rule_count": 144,
+    "selected_rule_count": 0,
+    "source_anchored_rule_count": 0
+  },
+  "completion_checks": {
+    "classification_emitted": true,
+    "connector_scan_completed": true,
+    "d12_group_audited": true,
+    "dvj_probes_audited": true,
+    "primitive_derived_identities_audited": true,
+    "registration_verified": true,
+    "residual_family_reported_without_selection": true,
+    "signed_fniz_audited": true,
+    "source_provenance_verified": true
+  },
+  "connector_audit": {
+    "documentation_cooccurrence_candidates": [],
+    "executable_connector_candidates": [],
+    "explicit_executable_connector_found": false
+  },
+  "d12_audit": {
+    "all_orders_divide_12": true,
+    "deck_orbit_count": 12,
+    "deck_orbit_union": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "distinct_deck_translates": 12,
+    "generated_subgroup_orders": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      12
+    ],
+    "order": 12
+  },
+  "dvj_audit": [
+    {
+      "clock_closure_residual": "0.0",
+      "cycle_holonomy_residual": "0.0",
+      "forward_residual": "0.0",
+      "inverse_residual": "1.5648575071982807911142414607353934464569473926953253394646679490394901681908237e-82",
+      "nonzero": true,
+      "parameter": "0.5",
+      "reciprocal_determinant_residual": "5.4624736515106105002201385222330946061408162490125528932232219814575145212129607e-83",
+      "transfer": {
+        "imag": "0.14950282259944483089887383731404956254408588213792299512648000971908232373810495",
+        "real": "0.98876129881523929310927677464499052443572216861210680535978377498920663066648126"
+      }
+    },
+    {
+      "clock_closure_residual": "0.0",
+      "cycle_holonomy_residual": "0.0",
+      "forward_residual": "0.0",
+      "inverse_residual": "1.6472184286297692538044646955109404699546814659950793046996504726731475454640249e-82",
+      "nonzero": true,
+      "parameter": "1.0",
+      "reciprocal_determinant_residual": "2.409924663128518032747857858379967245429440750242942616397172331505648840740993e-82",
+      "transfer": {
+        "imag": "0.29595031692744592333748290231542368569330935860891413285626282823844958166468399",
+        "real": "0.95520333432758928732091801877419078674028386821483378991989894311745565972697861"
+      }
+    },
+    {
+      "clock_closure_residual": "0.0",
+      "cycle_holonomy_residual": "0.0",
+      "forward_residual": "0.0",
+      "inverse_residual": "2.3061058000816769553262505737153166579365540523931110265795106617424065636496349e-82",
+      "nonzero": true,
+      "parameter": "2.0",
+      "reciprocal_determinant_residual": "3.8741733001290358392080352380020261809614074675866250053982476214896237574848786e-82",
+      "transfer": {
+        "imag": "0.56751587198136522934942773644305083534539033039232092899990830013160254004047696",
+        "real": "0.82336245666731166072558143438443270532091888960202748610463110498248938943993948"
+      }
+    },
+    {
+      "clock_closure_residual": "0.0",
+      "cycle_holonomy_residual": "0.0",
+      "forward_residual": "3.2944368572595385076089293910218809399093629319901586093993009453462950909280499e-83",
+      "inverse_residual": "0.0",
+      "nonzero": true,
+      "parameter": "5.0",
+      "reciprocal_determinant_residual": "7.6843511671396806273580579897708195279609864860745990611261694861328089090157479e-84",
+      "transfer": {
+        "imag": "0.99991295634322048665281739766562492710066762648742679441418778083617817853762014",
+        "real": "0.013193928033790435399659766264435194159998378006976832013980773856147123603017032"
+      }
+    }
+  ],
+  "experiment": "Experiment 007 Phase 1",
+  "fniz_audit": {
+    "base_operations": [
+      "+",
+      "-",
+      "*",
+      "/"
+    ],
+    "division_as_multiplicative_reciprocal_all_pairs": true,
+    "operation_cell_count": 256,
+    "ordered_pair_count_per_identity": 64,
+    "signed_state_count": 8,
+    "signed_zero_distinct": true,
+    "subtraction_as_additive_reversal_all_pairs": true
+  },
+  "interpretation_boundary": {
+    "by_construction_routing_counted_as_evidence": false,
+    "class2_tested": false,
+    "o3_tested": false,
+    "phase2_authorized_by_this_run": false,
+    "riemann_hypothesis_tested": false
+  },
+  "o3_identification": false,
+  "primary_classification": "INCOMPLETE_SOURCE_DEFINITION",
+  "primary_object": "K^E_FNIZ-DVJ-D12",
+  "registration_manifest": {
+    "experiment": "Experiment 007 Phase 1",
+    "o3_identification": false,
+    "phase_separation": {
+      "phase_1": "source derivation audit",
+      "phase_2": "separate finite candidate search if required",
+      "phase_3": "separate held-out confirmation if required"
+    },
+    "primary_classifications": [
+      "UNIQUE_SOURCE_DERIVED_RULE",
+      "MULTIPLE_SOURCE_ADMISSIBLE_RULES",
+      "SOURCE_CONSTRAINTS_DO_NOT_NARROW",
+      "NO_ADMISSIBLE_RULE",
+      "INCOMPLETE_SOURCE_DEFINITION"
+    ],
+    "primary_object": "K^E_FNIZ-DVJ-D12",
+    "registered_parameters": {
+      "conditional_primitive_derived_rule_count": 144,
+      "dvj_probe_parameters": [
+        "0.5",
+        "1.0",
+        "2.0",
+        "5.0"
+      ],
+      "dvj_root_precision": 90,
+      "mpmath_precision": 80,
+      "mpmath_version": "1.3.0",
+      "numerical_tolerance": "1e-40",
+      "selection_permitted": false,
+      "unconstrained_rule_count": 20736
+    },
+    "registration_date": "2026-08-05",
+    "registration_sha256": {
+      "experiments/007_phase1_fniz_dvj_d12_source_audit/PREREGISTRATION.md": "c36331a7dd78080bfa20b5e07702037fcfae25e604ab6a2285116341604d85bd",
+      "experiments/007_phase1_fniz_dvj_d12_source_audit/README.md": "609f8ac18d24f98a2e6c9b3f0fcb616abd7aa1481511f1e7bd33d87a8f130fb3",
+      "experiments/007_phase1_fniz_dvj_d12_source_audit/TECHNICAL_SPECIFICATION.md": "6b7d31a4e30b2371d26d4eb2639341eb740bdd2773afc1850ac39a2fe3e5f9c8",
+      "experiments/007_phase1_fniz_dvj_d12_source_audit/requirements.txt": "a699f46ed76bd216f1081b6b2330e4fb45d7c8c5a5354b208694d6590a5a8645",
+      "experiments/007_phase1_fniz_dvj_d12_source_audit/run.py": "3f0df2d2fd1f5f998d2dc824b5ee203106bdfaa1fda076daf3f8a3e60c7f6b8c",
+      "experiments/007_phase1_fniz_dvj_d12_source_audit/test_run.py": "cf45e578572ac36e97c6897c471761ed50a4969b66caa1284161f911da38fb1e"
+    },
+    "release": {
+      "tag": "e007-phase1-preregistration-v1.0.0",
+      "zenodo_doi": null
+    },
+    "schema": "siel-experiment-007-phase1-registration-manifest-v1",
+    "source_authorities": {
+      "advaita": {
+        "branch": "papers",
+        "commit": "375d25e834208cf9a92154be9e51d72f09175a8f",
+        "path": "z12cft-cft/knowledge/paper7.5/Advaita Canonical Database Expanded Operator Form LaTeX Source.txt",
+        "repository": "https://gitlab.com/d12rg/d12rg_cft.git",
+        "sha256": "ebb0edfc0f4533a25eaf05adeba98aa0a5f9ded32f5a246acd636c6e51481630"
+      },
+      "riemann": {
+        "commit": "12759beb5c6acb41b83597dfb77b74cd576d5066",
+        "repository": "https://gitlab.com/d12rg/d12rg-riemann.git"
+      }
+    },
+    "status": "PREREGISTERED_NOT_EXECUTED",
+    "title": "FNIZ-DVJ-D12 Source-Derivation Audit"
+  },
+  "runtime": {
+    "dvj_root_precision": 90,
+    "mpmath_precision": 80,
+    "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+    "python": "3.14.2",
+    "tolerance": "1e-40"
+  },
+  "schema": "siel-experiment-007-phase1-source-audit-v1",
+  "source_provenance": {
+    "advaita_branch": "papers",
+    "advaita_commit": "375d25e834208cf9a92154be9e51d72f09175a8f",
+    "advaita_path": "z12cft-cft/knowledge/paper7.5/Advaita Canonical Database Expanded Operator Form LaTeX Source.txt",
+    "advaita_repository": "https://gitlab.com/d12rg/d12rg_cft.git",
+    "advaita_sha256": "ebb0edfc0f4533a25eaf05adeba98aa0a5f9ded32f5a246acd636c6e51481630",
+    "riemann_commit": "12759beb5c6acb41b83597dfb77b74cd576d5066",
+    "riemann_repository": "https://gitlab.com/d12rg/d12rg-riemann.git",
+    "riemann_source_hashes": {
+      "docs/gate4/k-pr84-signed-fniz-xi-endpoint-closure.md": "9b7f1ee676603077c5f75cd9ab4a82890e5b64ceb33f5228c7532d3668cf1662",
+      "docs/spectral/s-pr41-full-d12-twisted-cit-holonomy.md": "dfcef8937257146eb7456526c7ab6d0e32075ed600628627f574b4cccad1e6f1",
+      "docs/spectral/s-pr42-moving-projector-positive-kernel.md": "8b5a3191d13f5fa2a7fd53b8ff73ad2061dde31b7b2dfd8031dbdcf1b53aa4c7",
+      "src/d12rg_riemann/signed_fniz_xi.py": "be7868799c781c62eb8adec424e6752b78e07a84c4e25fa86e45060e067045c5",
+      "src/d12rg_riemann/spectral_cit_holonomy.py": "4c0114ba440c7b572f66cf27b3d69fe397a3ea8c54f60b7ef0c60305dc83b349",
+      "src/d12rg_riemann/spectral_cit_moving.py": "ff6dc3fa0fdef313ff65564f06933d10ae307fa7fa75fec5b8cf984e0551b97f",
+      "src/d12rg_riemann/spectral_dvj.py": "9dc5c1ede19b2f45a63c8a2cc04611a1187dfc01ff93826fd6622d3ba684f4c2",
+      "src/d12rg_riemann/spectral_dvj_transfer.py": "91562caf97a6800ad5e8a622d786772d28a3c5dc7e9e7bf96ae4d6a9922be2d4",
+      "src/d12rg_riemann/spectral_fniz_symmetry_audit.py": "be010b68ea8f620b7b6dd57aea1495a4d1a1583c5c7420317ff4b391be064e6b",
+      "src/d12rg_riemann/spectral_maya_fniz.py": "32a6be8e33c063649b0d5493c4fe46a6ffdfa680f39b67b7b906d808493faa0a"
+    }
+  },
+  "status": "AUDIT_COMPLETE"
+}
