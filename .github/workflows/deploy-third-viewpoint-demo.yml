@@ -1,0 +1,37 @@
+name: Deploy Third Viewpoint Demo
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "demos/third-viewpoint-emergence/**"
+      - ".github/workflows/deploy-third-viewpoint-demo.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: third-viewpoint-demo-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the public repository
+        uses: actions/checkout@v4
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload only the demo
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: demos/third-viewpoint-emergence
+      - name: Deploy the live demo
+        id: deployment
+        uses: actions/deploy-pages@v4

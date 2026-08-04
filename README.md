@@ -42,7 +42,7 @@ architecture of the first paired-viewpoint experiment.
 
 ## Live Demo
 
-- [Run The Third Viewpoint: Live Emergence Demo](https://siel-research.github.io/Subjectivity-Intersection-Mathematics/demos/third-viewpoint-emergence/)
+- [Run The Third Viewpoint: Live Emergence Demo](https://siel-research.github.io/Subjectivity-Intersection-Mathematics/)
 - [Read the demo documentation](demos/third-viewpoint-emergence/README.md)
 
 The demo trains two recurrent viewpoints from zero in the visitor's browser.
