@@ -1,0 +1,625 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=25mm,bottom=27mm,left=27mm,right=27mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Menlo}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,longtable,array,tabularx}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{setspace}
+\usepackage{csquotes}
+
+\definecolor{SIELblue}{HTML}{173A5E}
+\definecolor{SIELgray}{HTML}{5A6570}
+\definecolor{SIELlight}{HTML}{EDF2F6}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=SIELblue,
+  citecolor=SIELblue,
+  urlcolor=SIELblue,
+  pdftitle={Subjectivity-Intersection Mathematics: Relational Generation, Emergent C, and Self-Re-entry},
+  pdfauthor={Satoru Watanabe},
+  pdfsubject={Public working preprint},
+  pdfkeywords={subjectivity-intersection mathematics, relational generation, relational carrier, O3, multi-agent learning, causal intervention, self-re-entry}
+}
+
+\titleformat{\section}{\Large\sffamily\bfseries\color{SIELblue}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\sffamily\bfseries\color{SIELblue}}{\thesubsection}{0.7em}{}
+\titleformat{\subsubsection}{\normalsize\sffamily\bfseries\color{SIELgray}}{\thesubsubsection}{0.7em}{}
+\titlespacing*{\section}{0pt}{2.2ex plus .5ex}{1.1ex}
+\titlespacing*{\subsection}{0pt}{1.8ex plus .4ex}{0.8ex}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily Subjectivity-Intersection Mathematics}
+\fancyhead[R]{\small\sffamily Public Working Preprint v2.0 Draft}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\headheight}{14pt}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\setlength{\emergencystretch}{2em}
+\setlist{itemsep=0.25em,topsep=0.45em}
+\renewcommand{\arraystretch}{1.16}
+
+\newcommand{\ABclosure}{\(AB \rightarrow C \rightarrow AB\)}
+\newcommand{\statussupported}{\textsf{SUPPORTED}}
+\newcommand{\statusnotsupported}{\textsf{NOT SUPPORTED}}
+
+\begin{document}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\vspace*{18mm}
+{\sffamily\bfseries\color{SIELblue}\fontsize{24}{29}\selectfont
+\mbox{Subjectivity-Intersection}\\Mathematics\par}
+\vspace{6mm}
+{\sffamily\fontsize{18}{23}\selectfont
+Relational Generation, Emergent C,\\and Self-Re-entry\par}
+\vspace{7mm}
+{\sffamily\fontsize{15}{19}\selectfont
+A Staged Preregistered Computational\\Research Program\par}
+
+\vspace{18mm}
+{\large Satoru Watanabe\par}
+\vspace{2mm}
+{\normalsize Subjectivity Intersection Emergence Lab\par}
+{\normalsize Correspondence: \href{mailto:satoru@siel.global}{satoru@siel.global}\par}
+
+\vfill
+\noindent\colorbox{SIELlight}{%
+  \parbox{0.93\textwidth}{%
+  \vspace{2mm}
+  \textbf{Document status:} Public Working Preprint, Version 2.0 Draft\\
+  \textbf{Date:} 4 August 2026\\
+  \textbf{DOI (reserved):} \href{https://doi.org/10.5281/zenodo.21791244}{10.5281/zenodo.21791244}\\
+  \textbf{Previous citable version:} \href{https://doi.org/10.5281/zenodo.21781152}{doi:10.5281/zenodo.21781152}\\
+  \textbf{Repository:} \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics}{SIEL-Research/Subjectivity-Intersection-Mathematics}\\
+  This draft substantially revises the citable Version 1.0 statement by centering the confirmatory evidence through Experiment 006A, including spontaneous emergence, self-re-entry, and joint nonseparability. It remains a working preprint. The reserved DOI above becomes registered when this Zenodo version is published.
+  \vspace{2mm}
+  }}
+
+\vspace{10mm}
+{\small Copyright \textcopyright\ 2026 Satoru Watanabe. All rights reserved.\par}
+\end{titlepage}
+
+\begin{abstract}
+How can relation generation be defined as a mathematical object and tested without assuming a third state in advance? This paper develops \emph{Subjectivity-Intersection Mathematics} through a staged preregistered computational sequence: explicitly constructed operational sufficiency, spontaneous relational-carrier formation under ordinary reciprocal learning, causal self-re-entry, architecture-dependent identifiability, and joint nonseparability from two directed memories. The sequence tests extraction, deletion, exchange, temporal transport, reconstruction, and registered failure conditions.
+
+Its canonical structure, \ABclosure, denotes a self-consistent closure in which distinguished systems (A) and (B) generate a relational state (C), and (C) participates in their subsequent formation. A \emph{relational carrier} is defined operationally as an interaction-history-dependent, pair-specific component that is reducible to neither participant's isolated history, affects both receivers, and contributes causally to later relational states. The target is not subjectivity as an observable variable, but an intervention-accessible structure produced through the intersection of distinct standpoints.
+
+A staged series of preregistered computational experiments moved from explicitly constructed carriers to ordinary reciprocal learning without a dedicated carrier state, third agent, carrier label, pair identifier, or carrier-specific loss. Across four equal-capacity architectures, Experiment 005 placed the extracted component above the registered top-0.95 causal-ranking threshold in 84 of 96 runs; an independent control produced no corresponding component. Experiment 006 transported the component across all three signal-free transitions in all 96 runs, but remained \statusnotsupported\ because one architecture passed the matched individual-history gate in 17 of 24 seeds rather than the preregistered 18. Experiment 006R separated functional re-entry from external identifiability and tested both on new seeds. All 13 revised primary conditions passed, with all-three-transition transport in 190 of 192 architecture-seed units, and the separately preregistered architecture-boundary prediction was supported.
+
+Experiment 006A then tested whether the distributed result could be reduced to two separately competent directed memories. It extracted a single joint inclusion-exclusion term only after learning. All ten preregistered conditions passed across 48 new seeds and five exactly capacity-matched architectures. Four interacting architectures showed nonzero, bilateral, transported, and exchange-sensitive joint terms, whereas a fully task-competent disconnected dual relay had a maximum term norm of only $2.93\times10^{-17}$. The result supports one operationally nonseparable relational component distributed across (A) and (B), while not establishing ontological unity or a third subject.
+
+The results provide an executable operationalization of relational generation and self-re-entry. The measured carrier is not identified with ontological subjectivity; it is interpreted as a candidate \emph{operational projection} of relational properties associated with a third subjectivity, O3. The contribution is a framework in which relational generation can be defined, extracted, intervened upon, exchanged, reconstructed, and independently tested.
+\end{abstract}
+
+\noindent\textbf{Keywords:} subjectivity-intersection mathematics; relational generation; relational carrier; nonseparability; self-re-entry; O3; multi-agent learning; counterfactual intervention; distributed representation; preregistration
+
+\section*{Principal contributions}
+\addcontentsline{toc}{section}{Principal contributions}
+\begin{enumerate}
+  \item A relational carrier is defined by operational conditions rather than by a named register, third variable, or architectural location.
+  \item Relational contribution is separated counterfactually from the isolated histories of (A) and (B), then tested by selective erasure, cross-pair exchange, temporal transport, bilateral action, and exact one-step reconstruction.
+  \item A staged preregistered sequence distinguishes operational sufficiency, spontaneous emergence under ordinary reciprocal learning, causal self-re-entry, and implementation-dependent external identifiability.
+  \item The failure of Experiment 006 and the result-informed success of Experiment 006R identify a reproducible boundary between functional relational re-entry and clean separation from individual history.
+  \item Experiment 006A distinguishes a single nonseparable joint interaction contribution from two additive directed memories using an equal-capacity, task-competent disconnected control.
+  \item The framework connects formal definition, operational semantics, and executable information-processing systems while preserving a strict boundary between a computational carrier and ontological O3.
+\end{enumerate}
+
+\clearpage
+\tableofcontents
+\clearpage
+
+\section{Introduction}
+
+The development of modern science has repeatedly depended on the introduction of new mathematical objects. Motion became the object of mechanics, electromagnetic fields the object of field theory, uncertainty the object of probability theory, and information the object of information theory. In each case, mathematics did more than improve an existing description. It defined a domain of entities, operations, invariants, and falsifiable consequences that had not previously been organized as a single research object.
+
+Contemporary artificial intelligence, complex-systems science, and computational cognitive science increasingly study systems composed of multiple interacting participants. Learned communication, latent interaction graphs, relational reasoning, theory-of-mind models, causal representation learning, and interventions on internal activations all show that interaction-generated information can affect coordination, prediction, and internal representation. Yet the primary objects in these fields generally remain agents, messages, latent variables, representations, or structures that describe interaction. The relation generated through interaction, and subsequently participating in later interaction, is rarely isolated as the primary mathematical object with explicit criteria for identity, intervention, and falsification.
+
+Subjectivity-Intersection Mathematics addresses this gap. It does not attempt to reduce subjectivity to an observed variable. Its object is \emph{relational generation}: the process by which distinguished systems (A) and (B) generate a state that is reducible neither to (A) nor to (B) in isolation and that participates in their subsequent state formation.
+
+The canonical expression
+\begin{equation}
+  AB \rightarrow C \rightarrow AB
+  \label{eq:canonical}
+\end{equation}
+is not a simple temporal sequence or a one-way causal chain. The first arrow denotes the generation of a relational state from the intersection of (A) and (B). The second denotes the participation of that state in the later conditions under which (A) and (B) are formed. Equation~\eqref{eq:canonical} is therefore a discrete operational projection of a self-consistent closure.
+
+Introducing a symbol (C) is not enough. A third variable can always be installed by definition; an internal activation can always be found whose deletion changes behavior. Neither observation identifies relation generation. A scientific account requires a formal definition of the candidate, an operational semantics that specifies its identity, and interventions that distinguish it from individual memory, common content, ordinary communication, arbitrary high-impact directions, and architectural artifacts.
+
+This paper develops such an account through the relational carrier. The work proceeds from designed sufficiency to spontaneous formation. Early experiments test whether an explicitly constructed carrier can satisfy the registered operational criteria. Later experiments ask whether a comparable component forms during ordinary reciprocal learning without any named (C), O3 state, third agent, carrier target, or carrier-specific loss. The final experiments test whether the learned component causally re-enters subsequent relational states, whether this functional re-entry can be distinguished from external identifiability, and whether the distributed contribution is jointly nonseparable rather than the sum of two independent directed memories.
+
+The objective is not to propose a single neural architecture. It is to show that relation generation can be organized as a mathematical research object that is definable, extractable, intervention-ready, comparable across systems, reconstructable, and falsifiable.
+
+\section{Theoretical framework}
+
+\subsection{The basic problem}
+
+Scientific objectification commonly maps descriptions from multiple observers or measurement systems into a shared coordinate system, a third-person observational framework, or an observer-independent invariant. This operation is indispensable for comparison and reproducibility. It can nevertheless absorb relation-generated structure into individual observations, averages, consensus variables, common coordinates, or reconstructed objects.
+
+Let (A) and (B) be distinguished standpoint states with different histories and update processes. The central question is whether their interaction can generate a third relational state (C) that is not reducible to either isolated state and that subsequently contributes to both:
+\begin{equation}
+  (A_t,B_t) \longrightarrow C_t
+  \longrightarrow (A_{t+1},B_{t+1},C_{t+1}).
+  \label{eq:closure}
+\end{equation}
+
+This formulation preserves the distinction between participants. Intersection does not mean equality, averaging, or fusion. It refers to relation generation under preserved difference.
+
+\subsection{Distinguishing (A), (B), and (C)}
+
+Let the state of each participant depend on an individual history and a shared interaction history:
+\begin{align}
+ A_t &= F_A(H^A_t,H^{AB}_t),\\
+ B_t &= F_B(H^B_t,H^{AB}_t).
+\end{align}
+The relational candidate may be written schematically as
+\begin{equation}
+  C_t = G(H^A_t,H^B_t,H^{AB}_t),
+\end{equation}
+but this expression does not by itself establish a carrier. The operational requirement is that the relevant contribution cannot be recovered from $H^A_t$ alone, $H^B_t$ alone, their static sum, their common content, or a third-person redescription. In particular,
+\begin{equation}
+ C_t \not\equiv g_A(H^A_t), \qquad
+ C_t \not\equiv g_B(H^B_t), \qquad
+ C_t \not\equiv h(A_t+B_t)
+\end{equation}
+under the registered counterfactual decomposition.
+
+\subsection{Relational carrier}
+
+A relational carrier is an interaction-generated component that preserves difference, order, history, and pair specificity and contributes causally to subsequent state formation. It differs from several neighboring constructs.
+
+\begin{itemize}
+  \item A \emph{shared memory} may contain information available to both participants without having been generated by their differentiated interaction.
+  \item A \emph{message} can usually be attributed to a sender and received by another participant; a relational carrier is not defined as the property of either side alone.
+  \item A \emph{latent edge} describes whether or how two systems are related; a relational carrier retains interaction history and participates in the later generation of the relation.
+  \item A \emph{third variable} is an architectural designation. A carrier is defined by interventions and counterfactual contrasts, regardless of whether it is localized or distributed.
+\end{itemize}
+
+\subsection{Operational conditions}
+
+The experiments evaluate six core conditions.
+
+\begin{enumerate}
+  \item \textbf{Non-reduction to individual history.} The relational contribution must be distinguishable from contributions generated by the isolated history of (A) or (B).
+  \item \textbf{Pair specificity.} Replacing the contribution with one derived from another pair must not preserve the same function.
+  \item \textbf{Bilateral action.} Selective deletion must affect the subsequent responses of both (A) and (B), not merely one side.
+  \item \textbf{Retained history.} Earlier interaction differences must affect later states after the current inputs have been matched.
+  \item \textbf{Relational transport.} The present component must contribute through one or more unchanged recurrent updates to later relational states.
+  \item \textbf{Self-re-entry.} The part of the next relational state lost after deleting the present component must be reconstructable as the present component's contribution through the unchanged update rule.
+\end{enumerate}
+
+Let $X_t$ denote the complete current state, $R_t$ the extracted relational component, and $\mathcal I_{-R_t}$ the intervention that removes only that component. Under an unchanged update $F$,
+\begin{align}
+ X_{t+1} &= F(X_t),\\
+ X^{(-R)}_{t+1} &= F(\mathcal I_{-R_t}(X_t)),\\
+ \Delta X^{R}_{t+1} &= X_{t+1}-X^{(-R)}_{t+1}.
+ \label{eq:delta}
+\end{align}
+If \(\mathcal R\) is the frozen next-state relation extractor, then
+\begin{equation}
+ \Delta R^{R}_{t+1}
+ = \mathcal R(F(X_t))
+ - \mathcal R(F(\mathcal I_{-R_t}(X_t))).
+ \label{eq:reentry}
+\end{equation}
+Numerical reconstruction of Equation~\eqref{eq:reentry} from the unchanged update mechanism tests causal continuation from the current relational state into the next, rather than correlation with final behavior alone.
+
+\subsection{Functional re-entry and external identifiability}
+
+The framework distinguishes
+\begin{equation}
+  \text{functional relational re-entry}
+  \;\neq\;
+  \text{external identifiability}.
+  \label{eq:distinct}
+\end{equation}
+A distributed implementation may carry a stable relational contribution while mixing it strongly with individual-history representation. Functional re-entry is tested by deleting the candidate and measuring later relational and bilateral changes. External identifiability asks whether an analyst can cleanly separate that contribution from a receiver-norm-matched individual-history direction. The two questions require different decision rules.
+
+\subsection{Relation to third subjectivity (O3)}
+
+In Subjectivity-Intersection Ontology, O3 denotes a third subjectivity arising through the intersection of (A) and (B). It is not their common content, a third-person description of them, a shared register, or a third individual. The computational carrier measured here cannot be identified directly with ontological O3. It is a finite, intervention-accessible object represented by state vectors, differences, update contributions, and behavioral effects.
+
+The proposed connection is therefore a bridge hypothesis. A carrier exhibiting nonlocalization to either participant, pair specificity, bilateral action, retained history, and self-re-entry can be treated as an \emph{operational projection} of relational properties expected of O3. The projection provides a falsifiable connection between ontology and computation without reducing the ontological claim to a single observed state.
+
+\subsection{Mathematics and information processing}
+
+The experiments instantiate relation generation in information-processing systems, but the proposed mathematical objects are not the particular networks or algorithms. They are the distinctions between individual and relational state, the causal decomposition of individual and interaction histories, pair specificity, invariance under registered controls, temporal transport, self-re-entry, and implementation-dependent identifiability.
+
+Formal models specify what counts as relational state. Operational semantics specify how the identity and causal role of that state are tested. Executable systems provide media in which these definitions can be subjected to preregistration, intervention, replication, and failure. Subjectivity-Intersection Mathematics is proposed as the connection among these three layers.
+
+\section{Relation to neighboring research}
+
+\subsection{Relational inference and latent interaction models}
+
+Relation Networks, Graph Networks, and Neural Relational Inference model combinations, edges, latent interaction graphs, and relation types for prediction and inference. These approaches establish that relations can carry computationally important information. Their relational variables generally describe or predict object behavior, however, rather than being defined as history-bearing causal components separated counterfactually from individual histories and tested for later self-re-entry. The present framework shifts the unit of intervention from a descriptive edge to a contribution generated by interaction.
+
+\subsection{Emergent communication and multi-agent learning}
+
+Multi-agent systems can learn communication protocols, messages, role divisions, and coordination strategies without direct supervision of the communication code. The present experiments are adjacent to this work but ask a different question. The systems are not trained with a carrier state, carrier label, carrier target, third agent, pair identifier, or carrier-specific loss. The objective is not to characterize the learned code but to determine whether a pair- and history-specific component can be separated from ordinary reciprocal dynamics and shown to act on both participants and on its own later continuation.
+
+\subsection{Inter-agent causal influence}
+
+Research on causal influence among agents often intervenes on the action, policy, message, or observation of one agent and measures effects on another. Here the intervention target is neither participant's action. It is a component extracted from the counterfactual difference between isolated and interactive histories. A bilateral effect after relational deletion therefore concerns a relation-generated contribution, not merely influence from one agent to another.
+
+\subsection{Theory of mind and representations of others}
+
+Computational theory-of-mind models infer another agent's beliefs, goals, intentions, preferences, or behavioral tendencies. Such a representation is normally a representation held by (A) about (B), or by (B) about (A). A relational carrier is not defined as either participant's model of the other. It is indexed to a particular pair and interaction history, loses function under cross-pair substitution, and affects both receivers when removed.
+
+\subsection{Causal representation learning and mechanistic intervention}
+
+Causal representation learning seeks latent causal variables and structures that remain stable under intervention. The present use of counterfactual decomposition is related, but the carrier is not assumed to be a latent variable that existed before learning. It is an internal contribution formed during interaction learning. Similarly, ablation, activation patching, and causal tracing are established tools; deletion-induced behavioral change alone is not a novel result. The distinctive element is the registered definition of the intervention target and its comparison with matched random directions, individual-history directions, cross-pair donors, non-interacting systems, and equal-capacity architectures.
+
+\subsection{Distributed and shared representations}
+
+A function need not correspond to a single localized unit. The framework therefore does not define a carrier by shared location. Experiment 006R shows why: the distributed architecture retained stable relational re-entry while the relational and individual-history contributions were less externally separable than in architectures with stronger structural partitioning. Operational function and localization must not be conflated.
+
+\subsection{Claimed novelty}
+
+The individual ingredients above are not claimed as new. The proposed contribution is their integration around a different mathematical object: a pair- and interaction-history-specific contribution that is tested simultaneously for emergence without a dedicated carrier objective, counterfactual non-reduction to isolated histories, bilateral causal action, cross-pair loss of function, transport across multiple signal-free recurrent transitions, exact one-step reconstruction, and reproducibility across equal-capacity architectures. The novelty claim concerns this integrated object and test program, not communication, recurrence, intervention, or distributed representation in isolation.
+
+\section{Experimental sequence and methods}
+
+\subsection{Design logic}
+
+The program did not ask a single experiment to establish every claim. It separated six questions:
+\begin{enumerate}
+  \item Can an explicitly constructed third state satisfy the operational conditions for a Class~2 relational carrier and self-re-entry?
+  \item Does that state preserve the directed difference between (A) and (B), retained interaction history, and pair specificity?
+  \item Can a comparable component emerge during ordinary reciprocal learning without a dedicated carrier state?
+  \item Does an emergent component contribute causally to later relation states and to both receivers?
+  \item Can functional re-entry be distinguished from an analyst's ability to separate the component from individual history?
+  \item Is the distributed candidate one jointly nonseparable interaction term rather than the additive sum of two separately competent directed memories?
+\end{enumerate}
+
+Code, thresholds, seeds, controls, and decision rules were frozen before confirmatory execution. Confirmatory runs used pairs or seeds not used in development. Registered thresholds were not changed after execution, and failed seeds were not removed or replaced.
+
+\subsection{Common counterfactual construction}
+
+Let $X^{A,AB}_t$ and $X^{B,AB}_t$ be the states of $A$ and $B$ under interaction, and let $X^{A,A}_t$ and $X^{B,B}_t$ be matched counterfactual states reflecting isolated individual histories. Directed relational contributions are defined schematically by
+\begin{align}
+ R^{A\leftarrow B}_t &= X^{A,AB}_t-X^{A,A}_t,\\
+ R^{B\leftarrow A}_t &= X^{B,AB}_t-X^{B,B}_t.
+ \label{eq:directed}
+\end{align}
+These differences are not accepted as carriers merely because they are nonzero. They are evaluated against common-content and symmetric-aggregation controls, memoryless controls, unilateral return, cross-pair exchange, receiver-norm-matched random directions, matched individual-history directions, independent non-interacting systems, and multiple equal-capacity architectures.
+
+\subsection{Experiment 003R: operational sufficiency}
+
+Experiment 003R tested an explicitly constructed third state against registered Class~2 carrier and self-re-entry conditions. It was a separate correction of Experiment 003. The original execution was classified as invalid because its runner generated a new candidate from a donor-(B) input rather than exchanging a completed donor (C), and because it did not execute the complete registered Phase~B control inventory. No confirmatory inference was made from that execution.
+
+Experiment 003R used new pairs and seeds, inserted a completed donor (C) into unchanged recipient return paths, executed all 11 registered Phase~B controls, machine-checked identity between the registered and executed control inventories, exactly matched the pre-intervention states of (A) and (B), and applied no additional optimization to candidate or control constructions.
+
+Among 128 confirmatory pairs, 126 met the registered Phase~A Class~2, Phase~B Class~2, and Phase~B O3 criteria. Across eight Class~0 or Class~1 controls and 1,024 evaluations, no false Class~2 declaration occurred. A capacity- and condition-matched generic recurrent control also passed for 126 of 128 pairs. The result therefore supports operational sufficiency and transfer, not uniqueness or necessity of the proposed channel assignment.
+
+\subsection{Experiment 004: difference and retained history}
+
+Experiment 004 tested whether the carrier retained more than common content. The common component (A+B) was fixed while the orientation of the difference was reversed:
+\begin{equation}
+  A+B=\text{constant}, \qquad A-B \mapsto -(A-B).
+\end{equation}
+An output change under this intervention indicates preservation of directed difference rather than use of the sum alone. Candidate systems changed in every pair, whereas the symmetric sum-only recurrent control produced zero final-action difference.
+
+Retained history was tested by matching current inputs exactly while changing either an early or immediately prior encounter. Candidate systems retained both effects; memoryless controls did not. Transport was examined along the path carrier \(\rightarrow\) recurrent self-state \(\rightarrow\) action. Erasing the later self-state while preserving the formed carrier eliminated the final difference effect. Exchanging a completed carrier between different pairs within the same history family changed both return states. All four registered hypotheses passed in 128 of 128 pairs. A role-aware recurrent control also passed, indicating a broader architecture class rather than a unique product-form implementation.
+
+\subsection{Experiment 005: spontaneous formation under ordinary learning}
+
+Two recurrent receivers with independent persistent states were trained on synthetic discrete inputs. The task was delayed reciprocal recall: after the original signals disappeared, (A) had to recover information initially supplied to (B), and (B) had to recover information initially supplied to (A).
+
+The learning system received no dedicated carrier state, state named (C) or O3, third agent, pair identifier, carrier label, carrier target, or carrier-specific loss. Four equal-capacity interaction architectures were compared with an equal-capacity independent control: distributed, central shared, directional relay, and four-channel crossbar.
+
+Each interaction architecture used 24 confirmatory seeds. Directed components were extracted after training by the frozen counterfactual comparison in Equation~\eqref{eq:directed}. Their causal importance was ranked against deletion of 64 receiver-norm-matched random directions. A run was classified as top-0.95 when deleting the relational component produced an effect above at least the 95th percentile of the matched random controls.
+
+\subsection{Experiment 006: spontaneous self-re-entry}
+
+Experiment 006 tested whether the component found in Experiment 005 contributed not only to current behavior but also to later relation states through unchanged recurrence. Three consecutive signal-free transitions were frozen. At each transition the current directed component was selectively removed, one unchanged recurrent update was applied, and the missing next-state contribution was measured and reconstructed.
+
+The registered conjunction also tested action loss, action-response magnitude, bilateral effect, cross-pair exchange, transported fraction of the next relation state, directional alignment, comparison with matched individual history, the independent control, and reconstruction error. All 96 interaction architecture-seed units passed the random-direction transport criterion at all three transitions. The complete conjunction nevertheless failed because the distributed architecture passed the matched individual-history comparison in 17 of 24 seeds against a preregistered floor of 18.
+
+\subsection{Experiment 006R: re-entry and identifiability}
+
+Experiment 006R was explicitly registered as a result-informed revision. It did not change the decision or thresholds of Experiment 006. Instead, it separated the question of causal relational re-entry from the question of clean external separation from individual history.
+
+The revised primary conjunction contained 13 conditions: equal active capacity; task competence; per-architecture all-three-transition transport; pooled transport; action-loss rank; action-magnitude rank; transported fraction; transport alignment; cross-pair exchange loss; bilateral erasure response; independent-control accuracy; independent-control relation norm; and exact one-step reconstruction. A new allocation of 48 seeds per architecture excluded all Experiment 005 and 006 confirmatory seeds.
+
+External identifiability was registered separately as an architecture-boundary prediction. A seed passed when the relational contribution exceeded a receiver-norm-matched individual-history contribution in at least two of three transitions. The prediction required at least 40 of 48 passes in each structurally partitioned architecture, fewer than 40 in the distributed architecture, and a distributed count at least six below the minimum of the other three.
+
+\subsection{Experiment 006A: emergent nonseparable relational C}
+
+Experiment 006A addressed a different ambiguity. A bilateral distributed pattern could still be interpreted as two independent traces: (A)'s memory of (B) and (B)'s memory of (A). The experiment therefore defined one joint second-order interaction term over input-matched counterfactuals:
+\begin{equation}
+ C_t = H_t(ab)-H_t(a0)-H_t(0b)+H_t(00),
+ \label{eq:joint-c}
+\end{equation}
+where $H_t(ab)$ is the joint state when both inputs and interaction are present, $H_t(a0)$ and $H_t(0b)$ are the matched one-sided conditions, and $H_t(00)$ is the common zero-input baseline. Equation~\eqref{eq:joint-c} is evaluated after learning; no variable corresponding to (C) exists in the trained architecture or loss.
+
+The decisive control was a disconnected dual relay with two 12-dimensional blocks. It had exactly the same 486 active parameters, data, optimization budget, and reciprocal-recall objective as each interacting architecture. It could learn both directed recalls, but because its two traces were additive and disconnected, their joint inclusion-exclusion residue should be zero. The four interacting architectures and this control were evaluated on 48 preregistered seeds, 4,096 held-out episodes, and three signal-free transitions. Primary tests covered equal capacity, competence, relation norm, bilateral support, learning amplification, transport, bilateral output response, cross-pair exchange, and exact one-step reconstruction.
+
+\subsection{Decision logic}
+
+Each primary decision was a logical conjunction,
+\begin{equation}
+  H_1 \land H_2 \land \cdots \land H_n.
+\end{equation}
+Failure of any registered condition prevented a supported primary decision even when all other conditions passed. This rule is why Experiment 006 remains \statusnotsupported. Experiment 006R did not overwrite that result; it formulated and tested two new, separable claims on previously unused seeds. Experiment 006A was likewise a separately preregistered test of joint nonseparability, not a retrospective change to the extraction or decisions of Experiments 005--006R.
+
+\section{Results}
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Summary of the staged confirmatory sequence.}
+\label{tab:summary}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.15cm}>{\raggedright\arraybackslash}p{5.25cm}>{\raggedright\arraybackslash}p{4.9cm}>{\raggedright\arraybackslash}p{2.45cm}@{}}
+\toprule
+Study & Principal question & Main observation & Registered decision \\
+\midrule
+003R & Can an explicit carrier satisfy the operational Class~2 and O3 criteria? & 126/128 pairs; 0/1,024 false Class~2 null calls; generic control also 126/128 & Sufficiency supported; uniqueness not supported \\
+004 & Does the carrier preserve directed difference, history, transport, and pair specificity? & Four hypotheses passed in 128/128 pairs; role-aware control also passed & Complete conjunction supported \\
+005 & Can a carrier-like component form without a dedicated carrier objective? & 84/96 runs passed top-0.95; independent-control carrier norm 0 & Complete conjunction supported \\
+006 & Does the emergent component causally re-enter later states? & Transport 96/96; distributed separation 17/24 versus floor 18 & \statusnotsupported\ (13/14 checks) \\
+006R & Can re-entry and external identifiability be tested separately? & Transport 190/192; 13/13 primary and 3/3 boundary checks passed & Primary and boundary predictions supported \\
+006A & Is distributed (C) more than two additive directed memories? & 10/10 primary checks; interacting terms nonzero; competent disconnected control at numerical zero & \statussupported \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Explicit operational sufficiency}
+
+Experiment 003R reproduced the registered operational carrier and self-re-entry decisions in 126 of 128 pairs. Transfer passed in 63 of 64 pairs in each of two history families. All 11 Phase~B controls were executed and verified against the preregistration. No false Class~2 declaration occurred in 1,024 Class~0/Class~1 evaluations. Because a matched generic recurrent control achieved the same 126-of-128 rate, the result establishes a realizable and transferable construction but not a unique implementation of O3-like return.
+
+\subsection{Difference, history, and bilateral return}
+
+Experiment 004 supported difference preservation, retained difference history, carrier transport, and same-family pair specificity in all 128 pairs. Reversing only (A-B) while holding (A+B) fixed changed candidate outputs but not sum-only controls. Changes to earlier history persisted after current inputs were matched, but disappeared in memoryless controls. Cross-pair replacement changed both return states. The effect was reproduced by a broader role-aware recurrent control, locating the result at the level of an architecture class.
+
+\subsection{Emergent carrier-like solution class}
+
+All four interaction architectures in Experiment 005 met the registered competence criteria. The extracted directed component exceeded the top-0.95 threshold in 84 of 96 architecture-seed units. Counts were 23/24 for distributed, 22/24 for central shared, 18/24 for directional relay, and 21/24 for four-channel crossbar. Every architecture exceeded its preregistered minimum. Deleting the component affected both receivers, and intervention-response geometry corresponded across architectures. The independent control produced no relational component.
+
+\subsection{Experiment 006 failure and its information value}
+
+In Experiment 006, all 96 interaction runs transported the relational contribution above matched random directions at all three signal-free transitions. Exact reconstruction error was below $2.71\times10^{-16}$, well below the registered $10^{-12}$ ceiling. Median transported fractions were 0.7884, 0.9263, 0.9177, and 0.9234 for distributed, central shared, directional relay, and crossbar architectures respectively.
+
+The complete decision remained \statusnotsupported. The matched individual-history gate passed in 17/24 distributed seeds, one below the floor. Counts for the other architectures were 21/24, 23/24, and 23/24. No threshold was changed and no seed was rerun. The failure isolated a distinction that the original conjunction had concealed: relational re-entry may be stable even when the carrier is not uniformly dominant over an equal-norm individual-history direction.
+
+\subsection{Experiment 006R confirmation}
+
+Experiment 006R tested the separated claims on 48 new seeds per architecture. All 13 primary checks passed. All-three-transition transport occurred in 47/48 distributed, 48/48 central-shared, 48/48 directional-relay, and 47/48 crossbar units, giving 190/192 pooled units against a registered floor of 168. The independent control remained below the accuracy ceiling and had zero extracted relation-component norm.
+
+Median fractions of the next relation state attributable to the transported contribution were 0.7941, 0.9336, 0.9207, and 0.9419. Median transport alignments were 0.6487, 0.9039, 0.9209, and 0.9253. Cross-pair exchange increased loss above the registered floor in every architecture, and deleting the contribution changed both receivers.
+
+The separately registered identifiability counts were 29/48 distributed, 46/48 central shared, 47/48 directional relay, and 41/48 crossbar. All three boundary conditions passed. The result confirms stable self-re-entry across architectures while showing that the external separability of relational and individual-history contributions depends on implementation structure.
+
+\subsection{Experiment 006A nonseparability confirmation}
+
+Experiment 006A passed all ten preregistered primary conditions. All five architectures were task competent in 48 of 48 seeds, and the minimum held-out both-correct accuracy across all architecture-seed units was 0.9751. Median norms of the joint term in Equation~\eqref{eq:joint-c} were 0.1555, 0.1303, 0.0936, and 0.1019 for the distributed, central-shared, directional-relay, and four-channel-crossbar architectures. The competent disconnected dual relay had median norm $2.24\times10^{-17}$ and maximum norm $2.93\times10^{-17}$.
+
+Median bilateral support was 1.0 in every interacting architecture and 0 in the disconnected control. Median transported fractions across the three signal-free transitions were 0.5243, 0.5487, 0.4916, and 0.4863 in the interacting architectures, compared with 0.000024 in the disconnected control. Removal changed both receivers' output probabilities in architecture-level medians of 1.0000, 0.9984, 0.9960, and 0.9979 of held-out episodes. Cross-pair substitution produced positive median cross-entropy cost in all four interacting architectures. Maximum exact one-step reconstruction error was $5.69\times10^{-16}$.
+
+The 720 transition rows comprise 48 seeds, five architectures, and three transitions. No seed was replaced, no threshold was changed, and no NaN or Infinity occurred. Receiver-norm-matched random-direction rankings were reported as secondary results and were not uniformly high. Experiment 006A therefore supports joint nonseparability against the competent additive control; it does not claim that deletion of this joint term is always more damaging than every arbitrary equal-norm off-manifold direction.
+
+\section{Discussion}
+
+\subsection{A mathematical object defined by operations}
+
+The experiments do not define (C) by calling a state a third variable. They define a relational carrier through registered counterfactual and intervention operations. A state qualifies only insofar as it is generated through interaction, differs from isolated-history contributions, preserves pair specificity, affects both participants, is transported into later relation states, and survives the relevant controls. In this sense, the relation carrier is an operational equivalence class rather than a particular register or architectural location.
+
+\subsection{From relational description to relational generation}
+
+Existing models often treat relations as known edges, learned descriptors, shared variables, or latent structures. The present program treats generation itself as the object: how a relation arises from interaction and how the generated contribution participates in later state formation. The experiments show that such a contribution can be extracted, deleted, exchanged, temporally transported, and reconstructed. They therefore establish a concrete research program for relational generation rather than merely a vocabulary for describing relations.
+
+\subsection{The importance of Experiment 006}
+
+The failed conjunction in Experiment 006 is part of the central result. A positive transport effect in 96 of 96 runs did not license a positive primary decision because the preregistered conjunction also required uniform separation from individual history. Preserving the failure made it possible to identify two empirically distinct properties and register them separately. Experiment 006R then confirmed both spontaneous re-entry and the predicted architecture boundary on unused seeds. This sequence is stronger than a post hoc relabeling of the first result because the original decision remains unchanged and the revised claims were prospectively tested.
+
+\subsection{Nonlocalization and distributed realization}
+
+The relational contribution need not appear as a single shared memory. In distributed systems it can be mixed across the persistent states of (A) and (B). Its operational identity is then supplied by interventions and counterfactual contrasts rather than spatial localization. Experiment 006A strengthens this point: one joint term can be distributed over both participant states without being a third localized register. The boundary found in Experiment 006R suggests that models of relational generation should distinguish at least three levels: causal function, representational distribution, and external recoverability.
+
+\subsection{What operational unity means}
+
+Experiment 006A supports unity in a specific mathematical sense. The measured (C) is one nonseparable second-order interaction term: it remains only after subtracting both one-sided histories and restoring their common baseline. If the system contains only two disconnected directed memories, the four terms cancel even when both memories solve the task. The equal-capacity dual relay realized exactly this case: it was competent in every seed while its extracted (C) remained at numerical zero.
+
+The interacting architectures instead produced a joint term with support in both receiver states, partial continuation into the next joint term, bilateral output effects under deletion, and loss under cross-pair exchange. Those linked properties justify treating the distributed pieces as one operational carrier rather than merely naming two local memories together. They do not show that (C) is a spatially localized object, an indivisible substance, an experiencing subject, or an ontologically single being.
+
+\subsection{Relation to ontology}
+
+The carrier provides an operational bridge to Subjectivity-Intersection Ontology, not a proof of that ontology. The bridge rests on a structural correspondence: a component generated by the differentiated interaction of (A) and (B), localized in neither participant alone, indexed to their pair and history, acting on both, and re-entering later relational formation. These properties are compatible with an operational projection of O3, but the computation does not establish experience, consciousness, qualia, or ontological identity.
+
+The scientific value of the bridge is that it replaces an unrestricted analogy with explicit conditions and failure modes. A proposed external realization must independently define the participating systems, the interaction history, the extraction operator, the relevant interventions, and the bridge from the measured carrier to the domain-specific claim.
+
+\subsection{Why this is a mathematical research program}
+
+A mathematical object is not created merely by notation. It becomes a research object when its identity, transformations, invariants, conditions of existence, and conditions of failure can be formulated. The present program supplies a first operational object and a family of transformations: counterfactual decomposition, erasure, exchange, transport, reconstruction, and comparison across implementations. The next mathematical task is to abstract from the specific recurrent realizations toward general definitions, equivalence relations, conservation principles, and representation theorems.
+
+\section{Subjectivity-Intersection Mathematics as a research program}
+
+\subsection{Three connected layers}
+
+Subjectivity-Intersection Mathematics is organized around three layers.
+\begin{enumerate}
+  \item \textbf{Formal definition} specifies what qualifies as a relational state and how the canonical closure is represented.
+  \item \textbf{Operational semantics} specifies identity through counterfactual and intervention tests.
+  \item \textbf{Executable realization} supplies systems in which the formal and operational claims can be preregistered and falsified.
+\end{enumerate}
+No layer is sufficient alone. Introducing (C) without operational semantics assumes the target. Ablating an arbitrary activation without a formal relational definition measures importance but not relational generation. A domain-specific implementation without invariants remains an engineering result. The research program consists in connecting the layers.
+
+\subsection{Candidate invariant structure}
+
+Across the tested implementations, the following properties form a candidate invariant structure of relational generation:
+\begin{itemize}
+  \item non-reduction to isolated individual history;
+  \item joint nonseparability from two additive directed memories;
+  \item preservation of differentiated interaction history;
+  \item pair specificity;
+  \item bilateral action;
+  \item transport into later relational states;
+  \item self-re-entry through unchanged dynamics; and
+  \item implementation-dependent external identifiability.
+\end{itemize}
+These properties are not yet an axiomatic system. They are empirically constrained candidates from which necessary and sufficient conditions may be developed.
+
+\subsection{Open mathematical problems}
+
+Priority tasks include an axiomatic formulation, invariants and conservation laws, necessary and sufficient conditions for relational generation, general theorems for self-re-entry, equivalence of carrier realizations, extension to more than two participants, continuous-time formulations, and algebraic, geometric, and information-geometric representations. Applications to neural, physical, biological, or social systems should be treated as separate programs built on explicit bridge hypotheses, not as direct consequences of the present computation.
+
+\section{Limitations}
+
+\subsection{Scope of direct support}
+
+The experiments directly support a computational framework in which an interaction-generated component can be defined, extracted, intervened upon, exchanged, transported, reconstructed, and subjected to preregistered decisions. They support the registered operational object within the tested recurrent systems.
+
+\subsection{Ontological boundary}
+
+The experiments do not establish ontological O3, consciousness, experience, qualia, free will, or a physical realization of third subjectivity. The relation between the carrier and O3 remains a bridge hypothesis based on operationally specified structural properties.
+
+\subsection{Dependence on computational setting}
+
+The results were obtained in finite-state, discrete-time, learnable recurrent systems with synthetic inputs. Direct generalization to continuous-time, symbolic, non-learning, physical, or biological systems has not been demonstrated. Each new domain requires its own operational definitions and controls.
+
+\subsection{Non-uniqueness of implementation}
+
+Experiment 003R's matched recurrent control and Experiment 004's role-aware control both reproduced the registered properties. The supported object is therefore not a unique architecture. The results identify a broader realizability class and do not establish necessary implementation conditions.
+
+\subsection{Dependence on the extraction operator}
+
+The relational carrier is defined through a registered counterfactual decomposition and set of interventions. Other decompositions or extraction operators may yield different components. The contribution is one falsifiable and preregisterable operational definition, not a proof that it is the only valid definition.
+
+\subsection{Re-entry and identifiability}
+
+Experiment 006R confirms that functional re-entry and external identifiability can diverge. The present extractor is therefore not claimed to be optimal for every distributed implementation. A general theory must characterize when a functionally active carrier is recoverable from external observations and when it is identifiable only through interventions.
+
+\subsection{Boundary of the 006A inference}
+
+Experiment 006A distinguishes the registered joint term from a competent additive two-relay solution within the tested model class and task. Its secondary random-direction percentiles were not uniformly high, so the experiment does not establish that this term is the uniquely most causally important equal-norm direction. Experiments 005 and 006R retain the separately preregistered random-direction claims for the full directed carrier. Nor does operational nonseparability prove ontological unity; that connection remains a bridge hypothesis.
+
+\subsection{Status of the mathematics}
+
+This paper does not present a completed mathematical system. It establishes a research program with a first operational object, reproducible transformations, and empirical constraints. The next stage is not merely to add application domains but to formulate general axioms, invariants, equivalence relations, and representation results for relational generation.
+
+\section{Conclusion}
+
+This paper proposes Subjectivity-Intersection Mathematics as a mathematical research program whose object is relational generation. A relational carrier was defined as an interaction-generated, pair- and history-specific component that is not reducible under the registered decomposition to either participant's isolated history, affects both participants, and contributes through unchanged dynamics to later relational states.
+
+The staged experiments moved from explicitly constructed sufficiency to spontaneous formation under ordinary reciprocal learning, causal self-re-entry, and a direct test of joint nonseparability. Experiment 005 identified a carrier-like solution class across four equal-capacity interaction architectures without a dedicated carrier state or objective. Experiment 006 preserved a preregistered failure despite universal random-control transport. Experiment 006R then confirmed the separated primary re-entry claim in 190 of 192 new architecture-seed units and confirmed the predicted boundary between functional re-entry and external identifiability. Experiment 006A passed all ten preregistered checks and showed that the learned joint term was present in four interacting architectures but absent, to numerical precision, from an equally competent and exactly capacity-matched disconnected dual relay.
+
+The principal contribution is not a new neural architecture. It is a framework for treating relation generation as an object that can be formally defined, operationally identified, selectively intervened upon, exchanged between pairs, temporally transported, exactly reconstructed, and falsified. The resulting carrier is not identified with ontological subjectivity. It supplies a candidate operational projection through which the relational properties associated with O3 can be connected to testable mathematics without objectifying subjectivity itself.
+
+This version marks the beginning rather than the completion of the program. Its public purpose is to state the framework and the Experiment 003R--006A evidence boundary in a stable form from which a general theory of relational generation can be developed.
+
+\appendix
+\section{Reproducibility and public records}
+
+The complete public repository is available at
+\begin{center}
+{\small\url{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics}}
+\end{center}
+
+The complete experiment series is collected in the Zenodo community
+\begin{center}
+{\small\url{https://zenodo.org/communities/subjectivity-intersection-mathematics}}
+\end{center}
+
+The following records contain preregistrations, frozen implementations, result reports, manifests, and generated outputs. The confirmatory result is listed first in every row; the frozen preregistration is retained as the audit record.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.4cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{8.2cm}@{}}
+\toprule
+Study & GitHub experiment & Zenodo result and preregistration \\
+\midrule
+\endhead
+003R & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/003r_subjectivity_agent_class2_o3_corrected}{Corrected operational sufficiency experiment} & Result: \href{https://doi.org/10.5281/zenodo.21761140}{doi:10.5281/zenodo.21761140}; preregistration: \href{https://doi.org/10.5281/zenodo.21761030}{doi:10.5281/zenodo.21761030} \\
+004 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/004_difference_preserving_o3_discrimination}{Difference-preserving and retained-history audit} & Result: \href{https://doi.org/10.5281/zenodo.21762041}{doi:10.5281/zenodo.21762041}; preregistration: \href{https://doi.org/10.5281/zenodo.21761975}{doi:10.5281/zenodo.21761975} \\
+005 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/005_emergent_relational_carrier_solution_class}{Emergent carrier solution class} & Result: \href{https://doi.org/10.5281/zenodo.21763963}{doi:10.5281/zenodo.21763963}; preregistration: \href{https://doi.org/10.5281/zenodo.21763898}{doi:10.5281/zenodo.21763898} \\
+006 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/006_spontaneous_o3_reentry}{Spontaneous operational O3 re-entry} & Result: \href{https://doi.org/10.5281/zenodo.21764472}{doi:10.5281/zenodo.21764472}; preregistration: \href{https://doi.org/10.5281/zenodo.21764327}{doi:10.5281/zenodo.21764327} \\
+006R & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/006r_spontaneous_o3_reentry_revised}{Revised confirmation and architecture boundary} & Result: \href{https://doi.org/10.5281/zenodo.21764580}{doi:10.5281/zenodo.21764580}; preregistration: \href{https://doi.org/10.5281/zenodo.21764531}{doi:10.5281/zenodo.21764531} \\
+006A & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/006a_emergent_nonseparable_relational_c}{Emergent nonseparable relational C} & Result: \href{https://doi.org/10.5281/zenodo.21785748}{doi:10.5281/zenodo.21785748}; preregistration: \href{https://doi.org/10.5281/zenodo.21785602}{doi:10.5281/zenodo.21785602} \\
+\bottomrule
+\end{longtable}
+
+The invalid Experiment 003 execution and its audit are preserved separately:
+\begin{center}
+\small\href{https://doi.org/10.5281/zenodo.21760837}{doi:10.5281/zenodo.21760837}
+\end{center}
+The Experiment 003R post-release technical addendum is also preserved:
+\begin{center}
+\small\href{https://doi.org/10.5281/zenodo.21761925}{doi:10.5281/zenodo.21761925}
+\end{center}
+
+The preregistered decision for Experiment 006 remains \statusnotsupported. The record for Experiment 006R is a result-informed, separately preregistered revision using previously unused seeds. Readers should not combine the two decisions into a single retrospective success claim. Experiment 006A is a further separately preregistered experiment with a distinct joint inclusion-exclusion target and new confirmatory allocation.
+
+\section{Terminology}
+
+\begin{description}[style=nextline,leftmargin=1em,labelindent=0pt]
+\item[Relational generation] Formation through interaction of a contribution that participates in later interaction.
+\item[Relational carrier] An operationally identified, interaction-history-dependent, pair-specific component with bilateral and temporally transported causal effects.
+\item[Nonseparable relational C] The joint inclusion-exclusion contribution $H(ab)-H(a0)-H(0b)+H(00)$, which vanishes for additive disconnected directed traces but can be distributed across both participant states in interacting systems.
+\item[Self-re-entry] Causal contribution of the present relational component to the formation of the next relational component through an unchanged update rule.
+\item[External identifiability] The ability of an analyst to distinguish the relational contribution from a matched individual-history contribution.
+\item[Operational projection of O3] A testable relational structure exhibiting selected properties associated with third subjectivity, without an assertion of ontological identity.
+\item[Class~0 / Class~1 / Class~2] Carrier-absent, incomplete shared-history, and pair- and history-indexed carrier classes used in the preceding methodological benchmark sequence.
+\end{description}
+
+\addcontentsline{toc}{section}{Selected references}
+\renewcommand{\refname}{Selected references}
+\begin{thebibliography}{99}
+
+\bibitem{battaglia2018}
+Battaglia, P. W., Hamrick, J. B., Bapst, V., Sanchez-Gonzalez, A., Zambaldi, V., Malinowski, M., Tacchetti, A., Raposo, D., Santoro, A., Faulkner, R., et al. (2018). Relational inductive biases, deep learning, and graph networks. \emph{arXiv:1806.01261}.
+
+\bibitem{kipf2018}
+Kipf, T. N., Fetaya, E., Wang, K.-C., Welling, M., and Zemel, R. (2018). Neural relational inference for interacting systems. In \emph{Proceedings of the 35th International Conference on Machine Learning}, 2688--2697.
+
+\bibitem{lazaridou2018}
+Lazaridou, A., Hermann, K. M., Tuyls, K., and Clark, S. (2018). Emergence of linguistic communication from referential games with symbolic and pixel input. In \emph{Advances in Neural Information Processing Systems 31}.
+
+\bibitem{locatello2019}
+Locatello, F., Bauer, S., Lucic, M., Gelly, S., Schölkopf, B., and Bachem, O. (2019). Challenging common assumptions in the unsupervised learning of disentangled representations. In \emph{Proceedings of the 36th International Conference on Machine Learning}, 4114--4124.
+
+\bibitem{lowe2019}
+Lowe, R., Foerster, J., Boureau, Y.-L., Pineau, J., and Dauphin, Y. (2019). On the pitfalls of measuring emergent communication. In \emph{Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems}, 693--701.
+
+\bibitem{munafo2017}
+Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., and Ioannidis, J. P. A. (2017). A manifesto for reproducible science. \emph{Nature Human Behaviour}, 1, 0021.
+
+\bibitem{nosek2018}
+Nosek, B. A., Ebersole, C. R., DeHaven, A. C., and Mellor, D. T. (2018). The preregistration revolution. \emph{Proceedings of the National Academy of Sciences}, 115(11), 2600--2606.
+
+\bibitem{rabinowitz2018}
+Rabinowitz, N. C., Perbet, F., Song, H. F., Zhang, C., Eslami, S. M. A., and Botvinick, M. (2018). Machine theory of mind. In \emph{Proceedings of the 35th International Conference on Machine Learning}, 4218--4227.
+
+\bibitem{rumelhart1986}
+Rumelhart, D. E., Hinton, G. E., and Williams, R. J. (1986). Learning representations by back-propagating errors. \emph{Nature}, 323, 533--536.
+
+\bibitem{santoro2017}
+Santoro, A., Raposo, D., Barrett, D. G. T., Malinowski, M., Pascanu, R., Battaglia, P., and Lillicrap, T. (2017). A simple neural network module for relational reasoning. In \emph{Advances in Neural Information Processing Systems 30}.
+
+\bibitem{smolensky1988}
+Smolensky, P. (1988). On the proper treatment of connectionism. \emph{Behavioral and Brain Sciences}, 11(1), 1--23.
+
+\bibitem{sukhbaatar2016}
+Sukhbaatar, S., Szlam, A., and Fergus, R. (2016). Learning multiagent communication with backpropagation. In \emph{Advances in Neural Information Processing Systems 29}.
+
+\bibitem{watanabe2026}
+Watanabe, S. (2026). \emph{Subjectivity-Intersection Mathematics: A Mathematical Research Program for Viewpoints, Relational Generation, and Simultaneous Closure}. Research white paper. \url{https://www.researchgate.net/publication/410728192}
+
+\end{thebibliography}
+
+\vfill
+\begin{center}
+\small\sffamily
+Public Working Preprint v2.0 Draft --- 4 August 2026\\
+Future versions may refine the formalism, references, and general theory while preserving the versioned public record.
+\end{center}
+
+\end{document}
