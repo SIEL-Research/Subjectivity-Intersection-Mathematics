@@ -1,0 +1,311 @@
+{
+  "d12rg_operator_object": {
+    "ambient_generator_order": 12,
+    "basis_exponents": [
+      5,
+      1,
+      11,
+      7,
+      10,
+      2,
+      0
+    ],
+    "basis_matrix_count": 7,
+    "character_exponents": [
+      0,
+      1,
+      2,
+      5,
+      7,
+      10,
+      11
+    ],
+    "checks": {
+      "all_basis_products_in_seven_dimensional_span": true,
+      "basis_exponents_exact": true,
+      "basis_has_seven_elements": true,
+      "basis_rank_is_seven": true,
+      "character_exponents_exact": true,
+      "generator_has_exact_order_twelve": true,
+      "identity_is_final_basis_matrix": true,
+      "minimal_polynomial_annihilates_generator": true,
+      "minimal_polynomial_exact": true,
+      "printed_matrices_are_registered_powers": true,
+      "seven_printed_basis_matrices_set_closed": false
+    },
+    "classification": "SEVEN_DIMENSIONAL_UNITAL_OPERATOR_ALGEBRA",
+    "identity_exponent": 0,
+    "linear_span_closed_under_matrix_product": true,
+    "minimal_polynomial": [
+      -1,
+      2,
+      -1,
+      -1,
+      1,
+      1,
+      -2,
+      1
+    ],
+    "reciprocal_exponent_pairs": [
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "set_closed_under_matrix_product": false,
+    "vector_space_dimension": 7
+  },
+  "independence_boundary": {
+    "d12rg_loaded_only_after_sio_inventory_hash": true,
+    "sio_inventory_generated_before_d12rg_import": true,
+    "sio_inventory_sha256": "d08db2c7965bcaa445f20088586dc09c074ffd6d99e3c75edb54a7ed4da7b68e"
+  },
+  "next_phase_gate": "Register a constructed SIO operator basis and complete typed product law before comparison.",
+  "primary_classification": "D12_TARGET_DEFINED_SIO_EXTRACTION_UNDERDEFINED",
+  "provenance": {
+    "d12rg_source_hashes": {
+      "docs/gate4/k-pr80-paper53-cit-projectors.md": "f2d92561b915181d88e31300289b6af4a6cd6bdb437c4334d5db2d2e62505495",
+      "docs/spectral/s-pr40-paper53-cit-port-rigidity.md": "b83e25532628ca6a5651b1ed76990db9d0bb40704c9946af6c7a74f9a5c46f17",
+      "src/d12rg_riemann/paper53_cit_projectors.py": "598a6d8cb04247327718553bb4b487cd00b83b454a76816b8976d819940fa267",
+      "src/d12rg_riemann/spectral_cit_port.py": "9e2b76767295160d5bfdd3b14344eca162654ec9d7effd702c72a6fbe49c616c"
+    },
+    "riemann_commit": "12759beb5c6acb41b83597dfb77b74cd576d5066",
+    "riemann_remote": "https://gitlab.com/d12rg/d12rg-riemann.git",
+    "riemann_repository": "/Users/satoru/Documents/Codex/2026-08-04/d12rg-riemann-readonly",
+    "sio_source_hashes": {
+      "experiments/006_spontaneous_o3_reentry/PREREGISTRATION.md": "9af2aa91c57917507bb79b2a9887fa94ffa509936f96cf8e59f748c19085e212",
+      "experiments/006_spontaneous_o3_reentry/TECHNICAL_SPECIFICATION.md": "ffc5762656ca7e56ba49f2e45922b40fa70ae0efd24e986709d2fd90f3c3a9f9",
+      "experiments/006_spontaneous_o3_reentry/results/summary.json": "a7537c103a4a320647863df98de195ca4867e29bc10697bf16881406fb2e6333",
+      "experiments/006_spontaneous_o3_reentry/run.py": "87e673c09bc1dce5471cf90fa70c9425c5cc2bb669006e473e799415074f9375",
+      "experiments/006a_emergent_nonseparable_relational_c/PREREGISTRATION.md": "f84c5322d339e6e63b8c7ad0b6b0a8f97fde927928035f6de28181ff34efeaca",
+      "experiments/006a_emergent_nonseparable_relational_c/TECHNICAL_SPECIFICATION.md": "a36547df0c410aaee8ad75b9f5fc674dee487815811a2db9f74463569931d187",
+      "experiments/006a_emergent_nonseparable_relational_c/results/summary.json": "ad462bbd4afbea212ae62a9229ec6f1ce167f194a831bfc4480054dcd1f24b16",
+      "experiments/006a_emergent_nonseparable_relational_c/run.py": "8050b5465e5233f8d90f7bae0b7f106dd4232fc0666cef2a165d73516172cd5b",
+      "experiments/006r_spontaneous_o3_reentry_revised/PREREGISTRATION.md": "c40e4270e2d67c313641584b3fe2c4fcc47e10a51ced2049d2697cc2be5fc173",
+      "experiments/006r_spontaneous_o3_reentry_revised/TECHNICAL_SPECIFICATION.md": "a23907114833f72bb9474924b9e1ac3b198f18372c322678b3511dd3b1465c47",
+      "experiments/006r_spontaneous_o3_reentry_revised/results/summary.json": "1d94cd86afe6552e7fc65a6c96de185340ffcb85999c265f30bbcad209e3d51e",
+      "experiments/006r_spontaneous_o3_reentry_revised/run.py": "77e785b2f66070bfbe0d489890b399b313a0ff97bc0e8b0a24af0ac25b0d9de7"
+    }
+  },
+  "registration": {
+    "audit_type": "result-informed source-boundary verification",
+    "d12rg_source": {
+      "commit": "12759beb5c6acb41b83597dfb77b74cd576d5066",
+      "expected_ambient_generator_order": 12,
+      "expected_basis_exponents": [
+        5,
+        1,
+        11,
+        7,
+        10,
+        2,
+        0
+      ],
+      "expected_character_exponents": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "expected_vector_space_dimension": 7,
+      "repository": "https://gitlab.com/d12rg/d12rg-riemann.git"
+    },
+    "experiment": "Experiment 007A Phase 1",
+    "independence_protocol": {
+      "hash_before_load": true,
+      "phase2_classes_retained_symmetrically": [
+        "1,5",
+        "1,7"
+      ],
+      "post_result_primitive_selection_permitted": false,
+      "sio_inventory_before_d12rg_import": true
+    },
+    "primary_classifications": [
+      "READY_FOR_HASH_SEPARATED_INDEPENDENT_COMPARISON",
+      "D12_TARGET_DEFINED_SIO_EXTRACTION_UNDERDEFINED",
+      "D12RG_TARGET_UNDERDEFINED",
+      "PROVENANCE_FAILURE"
+    ],
+    "registration_date": "2026-08-06",
+    "registration_sha256": {
+      "experiments/007a_phase1_operator_algebra_definition_audit/FEEDBACK_RESOLUTION.md": "bb2a2423c4e325ac0cbc7ed04563c3ccec509fb0cf39cfe26e7870d61490cab0",
+      "experiments/007a_phase1_operator_algebra_definition_audit/PREREGISTRATION.md": "2949690fac1d9ee77b1155e7107753542709e301ce8b240ba3e599d987d7ccf0",
+      "experiments/007a_phase1_operator_algebra_definition_audit/README.md": "d8dec0e8e0c37e5fff3797eaa1119d720d1119bf1b0766b0f4d42fbad92d8564",
+      "experiments/007a_phase1_operator_algebra_definition_audit/TECHNICAL_SPECIFICATION.md": "cc9ff9a95c8d67afecf3d01793ce97add7751d00b7842b01d97237913f89dfb2",
+      "experiments/007a_phase1_operator_algebra_definition_audit/requirements.txt": "f5da17e0ca314df694f1b8ce1b407f156ba6f813de94f41c4fe167ff9a21caae",
+      "experiments/007a_phase1_operator_algebra_definition_audit/run.py": "8ad3721e2dde6e37a6b64e2f2c88c657672dbefc3071ba492cecc1e293edd561",
+      "experiments/007a_phase1_operator_algebra_definition_audit/test_run.py": "bf7165c0f095d3a4d0e0ae16eb4d753e5e53a37bdaa8656a71011b824dd06c59"
+    },
+    "release": {
+      "tag": "e007a-phase1-preregistration-v1.0.0",
+      "zenodo_doi": null
+    },
+    "schema": "siel-experiment-007a-phase1-registration-manifest-v1",
+    "status": "PREREGISTERED_NOT_EXECUTED",
+    "title": "Operator-Algebra Definition Audit Before Independent Seven-Dimensional Comparison"
+  },
+  "registration_verified": true,
+  "schema": "siel-experiment-007a-phase1-operator-object-audit-v1",
+  "sio_operator_object": {
+    "algebra_definition_checks": {
+      "canonical_operator_table_rule_declared": false,
+      "executable_operator_composition_declared": false,
+      "finite_primitive_operator_set_declared": false,
+      "identity_and_inverse_rules_declared": false,
+      "inadmissible_compositions_declared": false,
+      "operator_domains_and_codomains_declared": false
+    },
+    "classification": "SIO_OPERATOR_ALGEBRA_UNDERDEFINED",
+    "operational_checks": {
+      "bilateral_effect_present": true,
+      "cross_pair_exchange_present": true,
+      "nonseparable_component_present": true,
+      "recurrent_update_present": true,
+      "relation_component_extractor_present": true
+    },
+    "source_inventories": {
+      "experiments/006_spontaneous_o3_reentry/run.py": {
+        "assignments": [
+          "ARCHITECTURES",
+          "BATCH_SIZE",
+          "CONFIRMATORY_EVALUATION_SEEDS",
+          "CONFIRMATORY_SEEDS",
+          "DEVELOPMENT_SEEDS_EXCLUDED",
+          "E005_DIR",
+          "E009",
+          "E010",
+          "HERE",
+          "INTERACTING_ARCHITECTURES",
+          "LEARNING_RATE",
+          "MAXIMUM_INDEPENDENT_ACCURACY",
+          "MAXIMUM_INDEPENDENT_COMPONENT",
+          "MAXIMUM_RECONSTRUCTION_ERROR",
+          "MINIMUM_BILATERAL_MEDIAN",
+          "MINIMUM_COMPETENT_SEEDS",
+          "MINIMUM_EXCHANGE_LOSS_MEDIAN",
+          "MINIMUM_POOLED_TRANSPORT_SEED_PASSES",
+          "MINIMUM_SEED_PASSES_PER_ARCHITECTURE",
+          "MINIMUM_TRANSPORT_ALIGNMENT_MEDIAN",
+          "MINIMUM_TRANSPORT_FRACTION_MEDIAN",
+          "P014",
+          "RANDOM_DRAWS",
+          "REGISTRATION_CHECK_EVALUATION_SEEDS",
+          "REGISTRATION_CHECK_SEEDS",
+          "REPOSITORY_ROOT",
+          "SCHEMA",
+          "STEPS",
+          "TASK_COMPETENCE_THRESHOLD",
+          "TEST_EPISODES",
+          "TOP_PERCENTILE",
+          "TRANSITIONS",
+          "_CONTEXT"
+        ],
+        "functions": [
+          "advance",
+          "audit_transition",
+          "bilateral_fraction",
+          "continue_from_step",
+          "directed_component_from_states",
+          "logits_from_hidden",
+          "main",
+          "mean_absolute_probability_response",
+          "mean_cosine",
+          "next_component_after_ab_intervention",
+          "parse_args",
+          "receiver_match_source_to_component",
+          "receiver_matched_direction",
+          "relation_states_at",
+          "render_result",
+          "rms_norm",
+          "run_seed",
+          "sha256_file",
+          "summarize",
+          "verify_registration_manifest",
+          "write_csv"
+        ]
+      },
+      "experiments/006a_emergent_nonseparable_relational_c/run.py": {
+        "assignments": [
+          "ARCHITECTURES",
+          "CONFIRMATORY_EVALUATION_SEEDS",
+          "CONFIRMATORY_SEEDS",
+          "DEVELOPMENT_SEEDS_EXCLUDED",
+          "DUAL",
+          "E006_SOURCE",
+          "HERE",
+          "INTERACTING",
+          "REGISTRATION_CHECK_EVALUATION_SEEDS",
+          "REGISTRATION_CHECK_SEEDS",
+          "ROOT",
+          "SCHEMA",
+          "SUPPORT",
+          "TRANSITIONS",
+          "_CONTEXT"
+        ],
+        "functions": [
+          "audit_transition",
+          "bilateral",
+          "donor_indices",
+          "load_e006",
+          "main",
+          "model_hash",
+          "parse_args",
+          "percentile",
+          "probability_magnitude",
+          "random_matched",
+          "receiver_indices",
+          "render_result",
+          "rms",
+          "run_seed",
+          "sha256_file",
+          "summary_stats",
+          "synergy",
+          "train_dual",
+          "verify_manifest"
+        ]
+      },
+      "experiments/006r_spontaneous_o3_reentry_revised/run.py": {
+        "assignments": [
+          "CONFIRMATORY_EVALUATION_SEEDS",
+          "CONFIRMATORY_SEEDS",
+          "DEVELOPMENT_SEEDS_EXCLUDED",
+          "E006_SOURCE",
+          "HERE",
+          "MINIMUM_ACTION_SEEDS_PER_ARCHITECTURE",
+          "MINIMUM_COMPETENT_SEEDS",
+          "MINIMUM_POOLED_TRANSPORT_SEEDS",
+          "MINIMUM_TRANSPORT_SEEDS_PER_ARCHITECTURE",
+          "REGISTRATION_CHECK_EVALUATION_SEEDS",
+          "REGISTRATION_CHECK_SEEDS",
+          "REPOSITORY_ROOT",
+          "SCHEMA",
+          "SECONDARY_DISTRIBUTED_MAXIMUM",
+          "SECONDARY_MINIMUM_GAP",
+          "SECONDARY_PARTITIONED_MINIMUM"
+        ],
+        "functions": [
+          "load_e006",
+          "main",
+          "parse_args",
+          "primary_checks",
+          "render_result",
+          "secondary_boundary",
+          "sha256_file",
+          "verify_registration_manifest"
+        ]
+      }
+    }
+  },
+  "status": "COMPLETE"
+}
