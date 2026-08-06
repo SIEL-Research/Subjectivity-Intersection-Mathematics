@@ -1,0 +1,41 @@
+{
+  "schema": "siel-experiment-007a-phase1-registration-manifest-v1",
+  "experiment": "Experiment 007A Phase 1",
+  "title": "Operator-Algebra Definition Audit Before Independent Seven-Dimensional Comparison",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "registration_date": "2026-08-06",
+  "audit_type": "result-informed source-boundary verification",
+  "primary_classifications": [
+    "READY_FOR_HASH_SEPARATED_INDEPENDENT_COMPARISON",
+    "D12_TARGET_DEFINED_SIO_EXTRACTION_UNDERDEFINED",
+    "D12RG_TARGET_UNDERDEFINED",
+    "PROVENANCE_FAILURE"
+  ],
+  "d12rg_source": {
+    "repository": "https://gitlab.com/d12rg/d12rg-riemann.git",
+    "commit": "12759beb5c6acb41b83597dfb77b74cd576d5066",
+    "expected_basis_exponents": [5, 1, 11, 7, 10, 2, 0],
+    "expected_character_exponents": [0, 1, 2, 5, 7, 10, 11],
+    "expected_ambient_generator_order": 12,
+    "expected_vector_space_dimension": 7
+  },
+  "independence_protocol": {
+    "sio_inventory_before_d12rg_import": true,
+    "hash_before_load": true,
+    "post_result_primitive_selection_permitted": false,
+    "phase2_classes_retained_symmetrically": ["1,5", "1,7"]
+  },
+  "registration_sha256": {
+    "experiments/007a_phase1_operator_algebra_definition_audit/README.md": "d8dec0e8e0c37e5fff3797eaa1119d720d1119bf1b0766b0f4d42fbad92d8564",
+    "experiments/007a_phase1_operator_algebra_definition_audit/PREREGISTRATION.md": "2949690fac1d9ee77b1155e7107753542709e301ce8b240ba3e599d987d7ccf0",
+    "experiments/007a_phase1_operator_algebra_definition_audit/TECHNICAL_SPECIFICATION.md": "cc9ff9a95c8d67afecf3d01793ce97add7751d00b7842b01d97237913f89dfb2",
+    "experiments/007a_phase1_operator_algebra_definition_audit/FEEDBACK_RESOLUTION.md": "bb2a2423c4e325ac0cbc7ed04563c3ccec509fb0cf39cfe26e7870d61490cab0",
+    "experiments/007a_phase1_operator_algebra_definition_audit/requirements.txt": "f5da17e0ca314df694f1b8ce1b407f156ba6f813de94f41c4fe167ff9a21caae",
+    "experiments/007a_phase1_operator_algebra_definition_audit/run.py": "8ad3721e2dde6e37a6b64e2f2c88c657672dbefc3071ba492cecc1e293edd561",
+    "experiments/007a_phase1_operator_algebra_definition_audit/test_run.py": "bf7165c0f095d3a4d0e0ae16eb4d753e5e53a37bdaa8656a71011b824dd06c59"
+  },
+  "release": {
+    "tag": "e007a-phase1-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}
