@@ -1,0 +1,34 @@
+{
+  "schema": "siel-experiment-008c-registration-v1",
+  "experiment": "008c_lithium_2p_cross_state_transfer",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "design_disclosure": "Result-informed by E008B and CP-158. CP-158 reduced the known lithium 2S residual post hoc but failed known H/D portability. E008C is restricted to prospective within-lithium transfer to 2^2P_1/2.",
+  "target_values_present": false,
+  "primary_prediction": {
+    "target": "raw_lithium6_over_lithium7_2p1_2_hyperfine_interval_ratio",
+    "factorised_base": 0.28399324742025683,
+    "bilateral_mass_only": 0.28400802967617617,
+    "recursive_sector": 0.2840139905285925
+  },
+  "precision_gate": {
+    "acceptance_half_width_log": 0.000005247025823410469,
+    "maximum_measurement_sigma_log": 0.000001681013068429318
+  },
+  "source_sha256": {
+    "experiments/008c_lithium_2p_cross_state_transfer/DERIVATION_PROVENANCE.md": "03e5e3f0014fdf4a46d2c3a6691d8778c0dd8237942cbe485ead4f3f2b0c428c",
+    "experiments/008c_lithium_2p_cross_state_transfer/PREREGISTRATION.md": "c05773ac4573513b76a7acc62bd48957754389ed2c4374eaf00f5bbfc0d7b405",
+    "experiments/008c_lithium_2p_cross_state_transfer/README.md": "7609df3c99fdbc4961e9fad8cb30d0d473527a71b71f1b5f4c458c8fdd4ebc3f",
+    "experiments/008c_lithium_2p_cross_state_transfer/TECHNICAL_SPECIFICATION.md": "863f64f8f9c9d90ba84f38497b4f5ec7d95e1c817f62bd1b3292462e8def6eea",
+    "experiments/008c_lithium_2p_cross_state_transfer/auxiliary_sources.json": "ef8588321a18d74ba5d809e622c0b9aee1f002e40327036927babdfe4d7ea7f5",
+    "experiments/008c_lithium_2p_cross_state_transfer/benchmark_sources.json": "ca298261c8a3c8f95f5071a6acc35788008a8cd5f5b165c5924dbf9cdefc1db4",
+    "experiments/008c_lithium_2p_cross_state_transfer/cp158_frozen_bridge.json": "c1b5603914370af4ba0334f0bd8b490131084d4f55bccd05264d3a76f5767c13",
+    "experiments/008c_lithium_2p_cross_state_transfer/prediction_before_benchmark.json": "143a3ed8393e3917ff547439585aa8c7f9d9ef297dd39fcbce3378f9e7886cd4",
+    "experiments/008c_lithium_2p_cross_state_transfer/prediction_sha256.txt": "a7ca18aabbf33dfe5e7d38a3e3e52c3aa8fbdf44f6a5da35084df38f76f6c492",
+    "experiments/008c_lithium_2p_cross_state_transfer/run.py": "f8e6df0171cd3d34ad9db6e4d87492686ffed3ce61649b06344d4587211caf3d",
+    "experiments/008c_lithium_2p_cross_state_transfer/test_run.py": "8dd1a5952a5e62064f54957b5e46755b5184e988149e1d9fe8d7d6b7a32377f1"
+  },
+  "release": {
+    "tag": "e008c-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}

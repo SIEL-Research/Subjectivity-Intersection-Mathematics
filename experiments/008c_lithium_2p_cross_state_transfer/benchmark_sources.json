@@ -1,0 +1,28 @@
+{
+  "schema": "siel-e008c-benchmark-source-lock-v1",
+  "target_values_present": false,
+  "sources": [
+    {
+      "id": "doi:10.1139/p65-075",
+      "title": "Hyperfine Structure of the 2^2P_1/2 Level of Lithium-6 and Lithium-7",
+      "journal": "Canadian Journal of Physics",
+      "year": 1965,
+      "url": "https://doi.org/10.1139/p65-075",
+      "method": "optical-radio-frequency double resonance",
+      "records": [
+        {
+          "id": "lithium6_2p1_2_hfs_A",
+          "quantity": "reported magnetic dipole interaction constant A for neutral lithium-6 2^2P_1/2",
+          "unit": "Hz"
+        },
+        {
+          "id": "lithium7_2p1_2_hfs_A",
+          "quantity": "reported magnetic dipole interaction constant A for neutral lithium-7 2^2P_1/2",
+          "unit": "Hz"
+        }
+      ],
+      "extraction_rule": "After public registration, transcribe each reported magnetic interaction constant A and its explicitly reported uncertainty, preserve its sign and all source digits, and convert the source frequency unit to hertz exactly.",
+      "ambiguity_rule": "If the paper gives multiple final A determinations without selecting one, stop with PROVENANCE_FAILURE. Do not average, choose by agreement, or replace the registered source."
+    }
+  ]
+}

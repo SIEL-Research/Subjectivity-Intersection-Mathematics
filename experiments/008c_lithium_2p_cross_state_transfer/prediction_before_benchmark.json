@@ -1,0 +1,16 @@
+{
+  "schema": "siel-e008c-prediction-before-benchmark-v1",
+  "target_values_loaded": false,
+  "primary_target": "raw_lithium6_over_lithium7_2p1_2_hyperfine_interval_ratio",
+  "predictions": {
+    "factorised_base": 0.28399324742025683,
+    "bilateral_mass_only": 0.28400802967617617,
+    "recursive_sector": 0.2840139905285925
+  },
+  "nearest_model_log_separation": 0.000020988103293641875,
+  "acceptance_half_width_log": 0.000005247025823410469,
+  "nuclear_moment_model_sigma_log": 4.829349582920557e-7,
+  "maximum_measurement_sigma_log": 0.000001681013068429318,
+  "classification_order_independent": true,
+  "scope": "within-lithium state transfer; not atomic-universal"
+}

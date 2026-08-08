@@ -1,0 +1,16 @@
+{
+  "schema": "siel-e008c-cp158-bridge-v1",
+  "repository": "SIEL-Research/Subjectivity-Intersection-Creation-Principle",
+  "commit": "0931d9ca5669e2769cad455ca3fc59e00fa8c7e5",
+  "experiment": "CP-158_recursive_sector_reentry_generator",
+  "decision": "LITHIUM_POSTHOC_CANDIDATE_NOT_CROSS_SYSTEM_PORTABLE",
+  "formula": "z(M,d)=4M/(M+1)^2*(1+d^2); R(z)=exp(z)",
+  "scope": "within-lithium cross-electronic-state transfer only",
+  "atomic_universal_claim": false,
+  "known_hd_cross_system_portability_pass": false,
+  "lithium": {
+    "lithium6_sector_imbalance": 0.3333333333333333,
+    "lithium7_sector_imbalance": 0.25,
+    "relative_recursive_correction_ppm": 73.040850527617
+  }
+}
