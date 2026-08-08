@@ -1,0 +1,26 @@
+{
+  "schema": "siel-e008e-result-v1",
+  "experiment": "008e_potassium40_signed_rank_prediction",
+  "primary_decision": "OPEN_NOVEL_PREDICTION_NO_INDEPENDENT_BENCHMARK",
+  "registration": {
+    "doi": "10.5281/zenodo.21855190",
+    "tag": "e008e-preregistration-v1.0.0",
+    "commit": "0a28460fba8aaea8a3bf1b61163b17ada3c5f0c7",
+    "prediction_sha256": "84aef84d7abb9e692f9b5439f3980dfab76f7ca4cec022f769154141a8c1cc9f"
+  },
+  "registered_prediction": {
+    "target_id": "potassium40_4p1_2_complete_second_order_delta_A",
+    "central_khz": 0.008107082333170607,
+    "min_khz": 0.007968190838682242,
+    "max_khz": 0.008247506485579788
+  },
+  "benchmark_search": {
+    "search_audit": "results/search_audit.json",
+    "eligible_class_a_count": 0,
+    "eligible_class_b_count": 0,
+    "numerical_target_extracted": false
+  },
+  "benchmark": null,
+  "registered_evaluator_executed": false,
+  "interpretation": "The DOI-preregistered K-40 value remains an open independent numerical prediction. No eligible class A or class B benchmark was found, so the registered no-benchmark rule forbids substitution of another isotope, observable, same-source reconstruction, or a closest available value."
+}

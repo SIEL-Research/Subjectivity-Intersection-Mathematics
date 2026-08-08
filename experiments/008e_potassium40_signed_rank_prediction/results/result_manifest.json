@@ -1,0 +1,15 @@
+{
+  "schema": "siel-e008e-result-manifest-v1",
+  "created_utc": "2026-08-08T21:49:29Z",
+  "experiment": "008e_potassium40_signed_rank_prediction",
+  "primary_decision": "OPEN_NOVEL_PREDICTION_NO_INDEPENDENT_BENCHMARK",
+  "registration_doi": "10.5281/zenodo.21855190",
+  "registration_commit": "0a28460fba8aaea8a3bf1b61163b17ada3c5f0c7",
+  "prediction_sha256": "84aef84d7abb9e692f9b5439f3980dfab76f7ca4cec022f769154141a8c1cc9f",
+  "result_sha256": {
+    "experiments/008e_potassium40_signed_rank_prediction/RESULT.md": "e80bc7ad42c1b6997a5a5f3661a1201f260421a1e43db23944f57dfff5a2855a",
+    "experiments/008e_potassium40_signed_rank_prediction/results/report.md": "f1bf5c9f3074b3a94c17851602c7ffd6e261f953556c9156113e5ccd167ea19a",
+    "experiments/008e_potassium40_signed_rank_prediction/results/search_audit.json": "8d19fcf46e4bb2e0aa42b67ae9e634874187135282020ce6c1b495927986b7cd",
+    "experiments/008e_potassium40_signed_rank_prediction/results/summary.json": "a59899ef21bf74301db1462350ff7133e2bdda7e675a7ee552b628e09316022c"
+  }
+}

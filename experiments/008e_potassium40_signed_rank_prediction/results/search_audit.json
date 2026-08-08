@@ -1,0 +1,127 @@
+{
+  "schema": "siel-e008e-benchmark-search-audit-v1",
+  "experiment": "008e_potassium40_signed_rank_prediction",
+  "search_started_utc": "2026-08-08T21:43:00Z",
+  "search_completed_utc": "2026-08-08T21:49:29Z",
+  "registration": {
+    "doi": "10.5281/zenodo.21855190",
+    "github_release": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e008e-preregistration-v1.0.0",
+    "tag": "e008e-preregistration-v1.0.0",
+    "commit": "0a28460fba8aaea8a3bf1b61163b17ada3c5f0c7",
+    "prediction_sha256": "84aef84d7abb9e692f9b5439f3980dfab76f7ca4cec022f769154141a8c1cc9f"
+  },
+  "frozen_queries": [
+    "\"40K\" \"second-order\" hyperfine \"P1/2\"",
+    "\"potassium-40\" second-order hyperfine correction",
+    "\"40 K\" eta zeta hyperfine P states"
+  ],
+  "database_audit": [
+    {
+      "database": "Crossref",
+      "method": "public REST API, first 25 relevance-ranked records per frozen query",
+      "eligible_class_a_or_b_records": 0,
+      "notes": "Returned records concerned other atoms, radiative/QED corrections, Mossbauer effects, or unrelated uses of second order."
+    },
+    {
+      "database": "Google Scholar",
+      "method": "public search interface, frozen queries, first result page screened",
+      "eligible_class_a_or_b_records": 0,
+      "notes": "The first query returned about 79 broad matches. The only plausible potassium spectroscopy hit was Falke's 2007 thesis/PRA 74, 032503 chapter; inspection showed that its quoted second-order correction is the Doppler correction, not the registered second-order hyperfine target. The second query returned ultracold-gas and Mossbauer material; the third returned no records."
+    },
+    {
+      "database": "NASA ADS",
+      "method": "public ADS search interface with all three frozen queries",
+      "query_result_counts": [0, 0, 0],
+      "eligible_class_a_or_b_records": 0
+    },
+    {
+      "database": "arXiv",
+      "method": "public Atom API with all terms in each frozen query",
+      "query_result_counts": [0, 0, 0],
+      "eligible_class_a_or_b_records": 0
+    },
+    {
+      "database": "OpenAlex",
+      "method": "public works search used as the available Web of Science-equivalent citation index",
+      "query_result_counts": [0, 18, 0],
+      "eligible_class_a_or_b_records": 0,
+      "notes": "All 18 records from the second query concerned ultracold-gas, nuclear-mass, or radioactivity topics rather than the neutral-potassium 4P second-order hyperfine correction."
+    },
+    {
+      "database": "Semantic Scholar",
+      "method": "public API attempted as a secondary citation-index check",
+      "status": "HTTP_429_RATE_LIMITED",
+      "used_for_decision": false
+    }
+  ],
+  "candidate_audit": [
+    {
+      "id": "doi:10.1103/PhysRevA.74.032503",
+      "title": "Transition frequencies of the D lines of 39K, 40K, and 41K measured with a femtosecond laser frequency comb",
+      "publication_date": "2006",
+      "candidate_class": "A",
+      "eligible": false,
+      "exclusion": "Reports K-40 4P hyperfine constants, including A(P1/2) = -34.523(25) MHz, but does not extract the complete M1-M1 + M1-E2 correction. Its 25 kHz uncertainty cannot identify the registered approximately 8 Hz target. The explicitly applied second-order correction is a Doppler correction."
+    },
+    {
+      "id": "doi:10.1088/0022-3700/14/22/009",
+      "title": "High-resolution laser spectroscopy on the D1 and D2 lines of 39,40,41K using RF modulated laser light",
+      "publication_date": "1981",
+      "candidate_class": "A",
+      "eligible": false,
+      "exclusion": "Reports effective K-40 4P hyperfine constants, including A(P1/2) = -34.49(11) MHz, but no complete second-order correction. The uncertainty is about 110 kHz."
+    },
+    {
+      "id": "falke-2007-thesis",
+      "title": "High precision spectroscopy on beams of atoms and dimers",
+      "publication_date": "2007",
+      "candidate_class": "A",
+      "eligible": false,
+      "exclusion": "The potassium chapter reproduces the PRA 74, 032503 analysis. Full-text inspection shows that 'second order' refers to a -2.2(5) kHz Doppler correction; no complete second-order hyperfine correction is extracted."
+    },
+    {
+      "id": "leblanc-2006-k40-report",
+      "title": "The Hyperfine Structure of Potassium-40",
+      "publication_date": "2006",
+      "candidate_class": "A",
+      "eligible": false,
+      "exclusion": "Pedagogical compilation of first-order hyperfine constants and Zeeman structure; it reports no independent complete second-order correction."
+    },
+    {
+      "id": "doi:10.1103/PhysRevA.88.032505",
+      "title": "Hyperfine effects on potassium tune-out wavelengths and polarizabilities",
+      "publication_date": "2013",
+      "candidate_class": "B",
+      "eligible": false,
+      "exclusion": "Calculates tune-out wavelengths and hyperfine Stark shifts, not the registered complete delta A(P1/2) second-order correction."
+    },
+    {
+      "id": "doi:10.1103/PhysRevA.86.032509",
+      "title": "Revisiting Nuclear Quadrupole Moments in 39-41K Isotopes",
+      "publication_date": "2012",
+      "candidate_class": "B",
+      "eligible": false,
+      "exclusion": "Calculates B/Q and hyperfine constants to infer nuclear quadrupole moments; it does not provide the complete M1-M1 + M1-E2 delta A(P1/2) target."
+    },
+    {
+      "id": "doi:10.1063/5.0098061",
+      "title": "Survey of hyperfine structure measurements in alkali atoms",
+      "publication_date": "2022",
+      "candidate_class": "A",
+      "eligible": false,
+      "exclusion": "Review and compilation of measured hyperfine constants; no independent K-40 complete second-order correction is reported."
+    },
+    {
+      "id": "doi:10.1103/PhysRevA.78.032519",
+      "title": "Second-order effects on the hyperfine structure of P states of alkali-metal atoms",
+      "publication_date": "2008",
+      "candidate_class": "C",
+      "eligible": false,
+      "exclusion": "This is the registered construction source for the shared potassium electronic T1/T2 inputs, and its tabulated isotope set omits K-40. It has construction overlap and cannot be an independent benchmark."
+    }
+  ],
+  "eligible_benchmarks": [],
+  "numerical_target_extracted": false,
+  "registered_evaluator_executed": false,
+  "decision": "OPEN_NOVEL_PREDICTION_NO_INDEPENDENT_BENCHMARK"
+}
