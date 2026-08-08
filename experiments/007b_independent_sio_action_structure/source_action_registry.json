@@ -1,0 +1,200 @@
+{
+  "schema": "siel-experiment-007b-source-action-registry-v1",
+  "scope_rule": "Executed typed transformations of relational components or ordered A-B states in frozen Experiments 006, 006R, and 006A",
+  "excluded_semantic_families": [
+    "unexecuted temporal reversal",
+    "CDC6600 actions",
+    "D12RG actions",
+    "optimization and logging",
+    "random matched-direction controls"
+  ],
+  "operation_sites": [
+    {
+      "site_id": "e006_state_bundle_at_time",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "relation_states_at",
+      "required_fragments": ["states[step]", "trajectories.items()"],
+      "canonical_rule": "select_state_bundle_at_time",
+      "input_types": ["TRAJECTORIES", "STEP"],
+      "output_type": "STATE_BUNDLE",
+      "linearity": "discrete_routing",
+      "direction": "time_indexed"
+    },
+    {
+      "site_id": "e006_receiver_directed_extract",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "directed_component_from_states",
+      "required_fragments": ["P014.directed_component(architecture, states)"],
+      "canonical_rule": "extract_relation",
+      "input_types": ["ARCHITECTURE", "STATE_BUNDLE"],
+      "output_type": "RELATION_COMPONENT",
+      "linearity": "linear",
+      "direction": "ordered_receivers"
+    },
+    {
+      "site_id": "e006a_inclusion_exclusion_extract",
+      "source_path": "experiments/006a_emergent_nonseparable_relational_c/run.py",
+      "function": "synergy",
+      "required_fragments": ["states[\"ab\"] - states[\"a0\"] - states[\"0b\"] + states[\"00\"]"],
+      "canonical_rule": "extract_joint_synergy",
+      "input_types": ["STATE_BUNDLE"],
+      "output_type": "RELATION_COMPONENT",
+      "linearity": "linear",
+      "direction": "joint_inclusion_exclusion"
+    },
+    {
+      "site_id": "e006_erase_current_relation",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "audit_transition",
+      "required_fragments": ["current[\"ab\"] - component"],
+      "canonical_rule": "erase_relation",
+      "input_types": ["JOINT_STATE", "RELATION_COMPONENT"],
+      "output_type": "JOINT_STATE",
+      "linearity": "linear",
+      "direction": "current_pair"
+    },
+    {
+      "site_id": "e006a_erase_current_relation",
+      "source_path": "experiments/006a_emergent_nonseparable_relational_c/run.py",
+      "function": "audit_transition",
+      "required_fragments": ["current[\"ab\"] - component"],
+      "canonical_rule": "erase_relation",
+      "input_types": ["JOINT_STATE", "RELATION_COMPONENT"],
+      "output_type": "JOINT_STATE",
+      "linearity": "linear",
+      "direction": "current_pair"
+    },
+    {
+      "site_id": "e006_substitute_transported_relation",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "audit_transition",
+      "required_fragments": ["natural_next[\"ab\"] - transported + transported[donor]"],
+      "canonical_rule": "substitute_relation",
+      "input_types": ["JOINT_STATE", "RELATION_COMPONENT", "RELATION_COMPONENT"],
+      "output_type": "JOINT_STATE",
+      "linearity": "linear",
+      "direction": "cross_pair_donor"
+    },
+    {
+      "site_id": "e006a_substitute_current_relation",
+      "source_path": "experiments/006a_emergent_nonseparable_relational_c/run.py",
+      "function": "audit_transition",
+      "required_fragments": ["current[\"ab\"] - component + component[donor]"],
+      "canonical_rule": "substitute_relation",
+      "input_types": ["JOINT_STATE", "RELATION_COMPONENT", "RELATION_COMPONENT"],
+      "output_type": "JOINT_STATE",
+      "linearity": "linear",
+      "direction": "cross_pair_donor"
+    },
+    {
+      "site_id": "e006_recurrent_advance",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "advance",
+      "required_fragments": ["np.tanh", "hidden @ p[\"recurrent\"].T", "input_step @ p[\"inputs\"].T"],
+      "canonical_rule": "advance_recurrently",
+      "input_types": ["MODEL", "JOINT_STATE", "INPUT_STEP"],
+      "output_type": "JOINT_STATE",
+      "linearity": "nonlinear",
+      "direction": "forward_time"
+    },
+    {
+      "site_id": "e006_replace_joint_in_bundle",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "next_component_after_ab_intervention",
+      "required_fragments": ["states = dict(natural_next)", "states[\"ab\"] = intervened_ab_next", "directed_component_from_states(architecture, states)"],
+      "canonical_rule": "replace_joint_in_bundle",
+      "input_types": ["ARCHITECTURE", "STATE_BUNDLE", "JOINT_STATE"],
+      "output_type": "RELATION_COMPONENT",
+      "linearity": "linear",
+      "direction": "counterfactual_next"
+    },
+    {
+      "site_id": "e006_suffix_readout",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "continue_from_step",
+      "required_fragments": ["current = advance(model, current, x[:, position])", "logits_from_hidden(model, current)"],
+      "canonical_rule": "continue_to_bilateral_readout",
+      "input_types": ["MODEL", "JOINT_STATE", "INPUT_SEQUENCE", "STEP"],
+      "output_type": "BILATERAL_LOGITS",
+      "linearity": "nonlinear",
+      "direction": "forward_suffix"
+    },
+    {
+      "site_id": "e006_cross_pair_route",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "audit_transition",
+      "required_fragments": ["donor = E010.cross_pair_donor(episodes[\"pair\"])"],
+      "canonical_rule": "construct_cross_pair_route",
+      "input_types": ["PAIR_LABELS"],
+      "output_type": "PERMUTATION",
+      "linearity": "discrete_routing",
+      "direction": "different_pair"
+    },
+    {
+      "site_id": "e006a_cross_pair_route",
+      "source_path": "experiments/006a_emergent_nonseparable_relational_c/run.py",
+      "function": "donor_indices",
+      "required_fragments": ["pair[candidate] != pair", "donor[use] = candidate[use]"],
+      "canonical_rule": "construct_cross_pair_route",
+      "input_types": ["PAIR_LABELS"],
+      "output_type": "PERMUTATION",
+      "linearity": "discrete_routing",
+      "direction": "different_pair"
+    },
+    {
+      "site_id": "e006_apply_donor_route",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "audit_transition",
+      "required_fragments": ["transported[donor]"],
+      "canonical_rule": "permute_relation_by_route",
+      "input_types": ["RELATION_COMPONENT", "PERMUTATION"],
+      "output_type": "RELATION_COMPONENT",
+      "linearity": "linear",
+      "direction": "different_pair"
+    },
+    {
+      "site_id": "e006a_apply_donor_route",
+      "source_path": "experiments/006a_emergent_nonseparable_relational_c/run.py",
+      "function": "audit_transition",
+      "required_fragments": ["component[donor]"],
+      "canonical_rule": "permute_relation_by_route",
+      "input_types": ["RELATION_COMPONENT", "PERMUTATION"],
+      "output_type": "RELATION_COMPONENT",
+      "linearity": "linear",
+      "direction": "different_pair"
+    },
+    {
+      "site_id": "e006_transport_difference",
+      "source_path": "experiments/006_spontaneous_o3_reentry/run.py",
+      "function": "audit_transition",
+      "required_fragments": ["transported = next_component - next_without_relation"],
+      "canonical_rule": "difference_relational_contribution",
+      "input_types": ["RELATION_COMPONENT", "RELATION_COMPONENT"],
+      "output_type": "RELATION_COMPONENT",
+      "linearity": "linear",
+      "direction": "counterfactual_difference"
+    },
+    {
+      "site_id": "e006a_transport_difference",
+      "source_path": "experiments/006a_emergent_nonseparable_relational_c/run.py",
+      "function": "audit_transition",
+      "required_fragments": ["transported = next_c - synergy(intervened)"],
+      "canonical_rule": "difference_relational_contribution",
+      "input_types": ["RELATION_COMPONENT", "RELATION_COMPONENT"],
+      "output_type": "RELATION_COMPONENT",
+      "linearity": "linear",
+      "direction": "counterfactual_difference"
+    }
+  ],
+  "predeclared_addition": {
+    "label": "ordered_receiver_partition",
+    "canonical_rule": "partition_ordered_receivers",
+    "input_types": ["ARCHITECTURE"],
+    "output_type": "RECEIVER_PARTITION",
+    "linearity": "discrete_routing",
+    "direction": "ordered_receivers",
+    "source_path": "experiments/005_emergent_relational_carrier_solution_class/support/p014_architectures.py",
+    "function": "receiver_indices",
+    "required_fragments": ["return E010.receiver_indices(architecture)"]
+  }
+}
