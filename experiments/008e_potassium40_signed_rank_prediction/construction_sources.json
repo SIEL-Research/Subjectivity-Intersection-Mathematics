@@ -1,0 +1,100 @@
+{
+  "schema": "siel-e008e-construction-sources-v1",
+  "target_values_present": false,
+  "accessed": "2026-08-09",
+  "electronic_inputs": {
+    "T1_MHz_per_muN": {
+      "value": -12.6,
+      "display_rounding_half_width": 0.05
+    },
+    "T2_MHz_per_barn": {
+      "value": -103.0,
+      "display_rounding_half_width": 0.5
+    },
+    "fine_structure_interval_cm_inverse": {
+      "value": 57.600,
+      "display_rounding_half_width": 0.0005
+    }
+  },
+  "nuclear_inputs": {
+    "K-39": {
+      "nuclear_spin_I": 1.5,
+      "magnetic_moment_mu_N": {
+        "value": 0.391470,
+        "quoted_uncertainty": 0.000008
+      },
+      "quadrupole_moment_barn": {
+        "value": 0.0603,
+        "quoted_uncertainty": 0.0006
+      }
+    },
+    "K-40": {
+      "nuclear_spin_I": 4.0,
+      "magnetic_moment_mu_N": {
+        "value": -1.29797,
+        "quoted_uncertainty": 0.00003
+      },
+      "quadrupole_moment_barn": {
+        "value": -0.0750,
+        "quoted_uncertainty": 0.0008
+      }
+    },
+    "K-41": {
+      "nuclear_spin_I": 1.5,
+      "magnetic_moment_mu_N": {
+        "value": 0.214872,
+        "quoted_uncertainty": 0.000005
+      },
+      "quadrupole_moment_barn": {
+        "value": 0.0734,
+        "quoted_uncertainty": 0.0007
+      }
+    }
+  },
+  "physical_constants": {
+    "wavenumber_to_MHz": 29979.2458,
+    "derivation": "exact speed of light 299792458 m/s; 1 inverse centimetre equals 29979.2458 MHz"
+  },
+  "sources": [
+    {
+      "id": "doi:10.1103/PhysRevA.78.032519",
+      "role": "K electronic reduced matrix elements T1 and T2 and fine-structure interval only",
+      "used_table": "Table I",
+      "K40_second_order_values_used": false
+    },
+    {
+      "id": "doi:10.61092/iaea.yjpc-cns6",
+      "report": "INDC(NDS)-0794",
+      "role": "recommended K-39, K-40, and K-41 ground-state spin and magnetic dipole moments"
+    },
+    {
+      "id": "doi:10.1080/00268976.2018.1426131",
+      "role": "primary recommended K-39, K-40, and K-41 electric quadrupole moments",
+      "quoted_values_mb": {
+        "K-39": "60.3(6)",
+        "K-40": "-75.0(8)",
+        "K-41": "73.4(7)"
+      }
+    },
+    {
+      "id": "CP-162_signed_rank_connection_audit",
+      "role": "derivation history establishing separate rank-one and rank-two operator connection before composition",
+      "result_used_as_fit": false
+    }
+  ],
+  "source_discrepancy": {
+    "recorded": true,
+    "secondary_source": "INDC(NDS)-0833 page 23",
+    "secondary_printed_values_barn": {
+      "K-39": 0.603,
+      "K-40": -0.750,
+      "K-41": 0.734
+    },
+    "primary_source_values_barn": {
+      "K-39": 0.0603,
+      "K-40": -0.0750,
+      "K-41": 0.0734
+    },
+    "resolution": "Use the cited primary paper, which explicitly reports millibarns; do not silently adopt the tenfold secondary transcription."
+  }
+}

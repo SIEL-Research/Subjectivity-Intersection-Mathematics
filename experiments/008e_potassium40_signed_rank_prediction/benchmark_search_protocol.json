@@ -1,0 +1,39 @@
+{
+  "schema": "siel-e008e-benchmark-search-protocol-v1",
+  "target_values_present": false,
+  "search_forbidden_before_public_registration": true,
+  "primary_target": "independent complete second-order correction delta_A(P_1/2) for neutral K-40 4P",
+  "eligible_benchmark_classes": [
+    {
+      "class": "A",
+      "description": "direct experimental or empirical extraction of the complete K-40 correction",
+      "confirmatory": true
+    },
+    {
+      "class": "B",
+      "description": "independent electronic-structure calculation that does not use the Beloy-Derevianko T1/T2 values and yields the complete K-40 correction",
+      "confirmatory": true
+    },
+    {
+      "class": "C",
+      "description": "recalculation from the same Beloy-Derevianko electronic inputs",
+      "confirmatory": false
+    }
+  ],
+  "frozen_queries_after_registration": [
+    "\"40K\" \"second-order\" hyperfine \"P1/2\"",
+    "\"potassium-40\" second-order hyperfine correction",
+    "\"40 K\" eta zeta hyperfine P states"
+  ],
+  "databases": [
+    "Crossref",
+    "Google Scholar",
+    "NASA ADS",
+    "arXiv",
+    "Web of Science or an equivalent citation index if available"
+  ],
+  "selection_rule": "Use the first uniquely extractable class A benchmark; otherwise the first uniquely extractable class B benchmark ordered by publication date ascending. Record every candidate and exclusion before extracting a numerical target.",
+  "no_benchmark_rule": "If no class A or B source exists, publish OPEN_NOVEL_PREDICTION_NO_INDEPENDENT_BENCHMARK and do not substitute K-39, K-41, Rb, Be+, or a same-source reconstruction.",
+  "ambiguity_rule": "Conflicting eligible sources are all recorded and evaluated without selecting the closest value.",
+  "registered_measurement_schema": "siel-e008e-independent-k40-benchmark-v1"
+}

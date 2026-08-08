@@ -1,0 +1,192 @@
+{
+  "construction": {
+    "T1_MHz_per_muN": -12.6,
+    "T2_MHz_per_barn": -103.0,
+    "electronic_relation": "rank-one T1 and rank-two T2 are connected separately before second-order composition",
+    "fine_structure_interval_cm_inverse": 57.6
+  },
+  "experiment": "008e_potassium40_signed_rank_prediction",
+  "free_fitted_parameters": 0,
+  "generated_ratio_envelopes": {
+    "K-40_over_K-39": {
+      "delta_A_P1_2_khz": {
+        "max": 1.1537067694474223,
+        "min": 1.1138880527456192
+      },
+      "delta_A_P3_2_khz": {
+        "max": -1.4390838695819084,
+        "min": -2.1921111088919494
+      },
+      "delta_B_P3_2_khz": {
+        "max": 6.854840147820489,
+        "min": 6.699343051775164
+      }
+    },
+    "K-40_over_K-41": {
+      "delta_A_P1_2_khz": {
+        "max": 1.8791239168943885,
+        "min": 1.8105912062374117
+      },
+      "delta_A_P3_2_khz": {
+        "max": -0.5596077163778271,
+        "min": -0.6982396034476351
+      },
+      "delta_B_P3_2_khz": {
+        "max": 13.24145613844586,
+        "min": 12.866678458502724
+      }
+    }
+  },
+  "generated_ratios": {
+    "K-40_over_K-39": {
+      "delta_A_P1_2_khz": 1.13365063363239,
+      "delta_A_P3_2_khz": -1.7694814762950146,
+      "delta_B_P3_2_khz": 6.776772497499362
+    },
+    "K-40_over_K-41": {
+      "delta_A_P1_2_khz": 1.8445646656413626,
+      "delta_A_P3_2_khz": -0.6273082558198414,
+      "delta_B_P3_2_khz": 13.052729742805182
+    }
+  },
+  "input_uncertainty_envelopes": {
+    "K-39": {
+      "delta_A_P1_2_khz": {
+        "max": 0.007275151547849079,
+        "min": 0.007028808045766059
+      },
+      "delta_A_P3_2_khz": {
+        "max": -7.814729596825715e-05,
+        "min": -9.968627859422504e-05
+      },
+      "delta_B_P3_2_khz": {
+        "max": 0.007823400984896464,
+        "min": 0.00760113688443379
+      },
+      "eta_khz": {
+        "max": 0.09468149296038621,
+        "min": 0.09318123400436984
+      },
+      "zeta_khz": {
+        "max": 0.2087302920356184,
+        "min": 0.20102679329010772
+      }
+    },
+    "K-40": {
+      "delta_A_P1_2_khz": {
+        "max": 0.008247506485579788,
+        "min": 0.007968190838682242
+      },
+      "delta_A_P3_2_khz": {
+        "max": 0.00017131052973720802,
+        "min": 0.00014345442499376652
+      },
+      "delta_B_P3_2_khz": {
+        "max": 0.0527614614952382,
+        "min": 0.05176283463050868
+      },
+      "eta_khz": {
+        "max": 1.7564813463186342,
+        "min": 1.7286308180443284
+      },
+      "zeta_khz": {
+        "max": 1.0520471446879573,
+        "min": 1.011763486253016
+      }
+    },
+    "K-41": {
+      "delta_A_P1_2_khz": {
+        "max": 0.004473112075544173,
+        "min": 0.004317986021975636
+      },
+      "delta_A_P3_2_khz": {
+        "max": -0.000244645333049353,
+        "min": -0.000257142532602909
+      },
+      "delta_B_P3_2_khz": {
+        "max": 0.004067966587726286,
+        "min": 0.003940314275787516
+      },
+      "eta_khz": {
+        "max": 0.028525301242726245,
+        "min": 0.02807299037223158
+      },
+      "zeta_khz": {
+        "max": 0.1394019879688133,
+        "min": 0.1343674682648035
+      }
+    }
+  },
+  "isotope_predictions": {
+    "K-39": {
+      "coefficient_map": {
+        "A_P1_2_from_eta": 0.011111111111111112,
+        "A_P1_2_from_zeta": 0.0298142396999972,
+        "A_P3_2_from_eta": 0.005555555555555556,
+        "A_P3_2_from_zeta": -0.00298142396999972,
+        "B_P3_2_from_eta": 0.03333333333333333,
+        "B_P3_2_from_zeta": 0.0223606797749979
+      },
+      "nuclear_spin_I": 1.5,
+      "predicted_corrections": {
+        "delta_A_P1_2_khz": 0.007151305783858892,
+        "delta_A_P3_2_khz": -8.893159608027053e-05,
+        "delta_B_P3_2_khz": 0.007711725521540239
+      },
+      "second_order_constants": {
+        "eta_khz": 0.0939298473458428,
+        "zeta_khz": 0.2048565006120247
+      }
+    },
+    "K-40": {
+      "coefficient_map": {
+        "A_P1_2_from_eta": 0.000925925925925926,
+        "A_P1_2_from_zeta": 0.0062935723955431224,
+        "A_P3_2_from_eta": 0.000462962962962963,
+        "A_P3_2_from_zeta": -0.0006293572395543122,
+        "B_P3_2_from_eta": 0.02592592592592593,
+        "B_P3_2_from_zeta": 0.006865715340592497
+      },
+      "nuclear_spin_I": 4.0,
+      "predicted_corrections": {
+        "delta_A_P1_2_khz": 0.008107082333170607,
+        "delta_A_P3_2_khz": 0.00015736281192138904,
+        "delta_B_P3_2_khz": 0.05226060942263781
+      },
+      "second_order_constants": {
+        "eta_khz": 1.7425278814292096,
+        "zeta_khz": 1.0317877006873037
+      }
+    },
+    "K-41": {
+      "coefficient_map": {
+        "A_P1_2_from_eta": 0.011111111111111112,
+        "A_P1_2_from_zeta": 0.0298142396999972,
+        "A_P3_2_from_eta": 0.005555555555555556,
+        "A_P3_2_from_zeta": -0.00298142396999972,
+        "B_P3_2_from_eta": 0.03333333333333333,
+        "B_P3_2_from_zeta": 0.0223606797749979
+      },
+      "nuclear_spin_I": 1.5,
+      "predicted_corrections": {
+        "delta_A_P1_2_khz": 0.004395119609618968,
+        "delta_A_P3_2_khz": -0.00025085404258824636,
+        "delta_B_P3_2_khz": 0.0040038069011154144
+      },
+      "second_order_constants": {
+        "eta_khz": 0.028298687756047554,
+        "zeta_khz": 0.136870494995828
+      }
+    }
+  },
+  "known_K40_second_order_values_loaded": false,
+  "prediction_status": "NOVEL_NUMERICAL_PREDICTION_AWAITING_INDEPENDENT_BENCHMARK",
+  "primary_target": "K-40 neutral-potassium 4P second-order delta_A(P_1/2) in kHz",
+  "schema": "siel-e008e-prediction-before-benchmark-v1",
+  "secondary_targets": [
+    "K-40 delta_A(P_3/2) in kHz",
+    "K-40 delta_B(P_3/2) in kHz",
+    "K-40/K-39 and K-40/K-41 generated correction ratios"
+  ],
+  "target_values_loaded": false
+}

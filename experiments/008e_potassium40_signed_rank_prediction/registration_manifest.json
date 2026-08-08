@@ -1,0 +1,40 @@
+{
+  "schema": "siel-experiment-008e-registration-v1",
+  "experiment": "008e_potassium40_signed_rank_prediction",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "target_values_present": false,
+  "benchmark_search_performed": false,
+  "design_disclosure": "K-39 and K-41 corrections were known from E008D and CP-162. K-40 correction values were not searched or opened. E008E freezes an unused I=4 nuclear readout from the already fixed potassium electronic rank connection.",
+  "primary_prediction": {
+    "target": "K-40 neutral-potassium 4P complete second-order delta_A(P_1/2)",
+    "unit": "kHz",
+    "central": 0.008107082333170607,
+    "input_envelope_min": 0.007968190838682242,
+    "input_envelope_max": 0.008247506485579788
+  },
+  "secondary_predictions": {
+    "delta_A_P3_2_khz": 0.00015736281192138904,
+    "delta_B_P3_2_khz": 0.05226060942263781,
+    "K40_over_K39_delta_A_P1_2": 1.13365063363239,
+    "K40_over_K41_delta_A_P1_2": 1.8445646656413626
+  },
+  "prediction_sha256": "84aef84d7abb9e692f9b5439f3980dfab76f7ca4cec022f769154141a8c1cc9f",
+  "source_sha256": {
+    "experiments/008e_potassium40_signed_rank_prediction/CONTAMINATION_LEDGER.md": "0fa9254be550002e4b9ff9e9cda79bd01c1a3501053814735f041acda5756e6f",
+    "experiments/008e_potassium40_signed_rank_prediction/DERIVATION_PROVENANCE.md": "a54a6be895a92c5cdec64b885767db42fe3117e96c933ed076671911df38ae9f",
+    "experiments/008e_potassium40_signed_rank_prediction/PREREGISTRATION.md": "c8c943631628ab73536db0093e8cd049608979792a252bc589aa0a537fbeae32",
+    "experiments/008e_potassium40_signed_rank_prediction/README.md": "5eb44bb7cc149b545e16d01046efafeed96b6bcb31686f6d33e201b09b3fdfa1",
+    "experiments/008e_potassium40_signed_rank_prediction/TECHNICAL_SPECIFICATION.md": "3c17e6139baff2661d4a016b8b1235cc3d6fa88bb4b2b4a4c931a08bf6100c49",
+    "experiments/008e_potassium40_signed_rank_prediction/benchmark_search_protocol.json": "8a0ff295483bf8001d7d13a7e0abd25ca0c3984db63f66234145382ae3d7fef6",
+    "experiments/008e_potassium40_signed_rank_prediction/construction_sources.json": "c250fa1cf00eb8aa227fbd6f0eb6c900706afba3cf906bca0b79071d300e6d52",
+    "experiments/008e_potassium40_signed_rank_prediction/generate_prediction.py": "977ea11fb9c79fb4f465c1ed579b38bcfa18ed1f6154dc9dc4a602b5e13c53fd",
+    "experiments/008e_potassium40_signed_rank_prediction/prediction_before_benchmark.json": "84aef84d7abb9e692f9b5439f3980dfab76f7ca4cec022f769154141a8c1cc9f",
+    "experiments/008e_potassium40_signed_rank_prediction/prediction_sha256.txt": "0d3e65857bc7f70283cd252bb58b34eefc47d998de962b75f035168245e35ee5",
+    "experiments/008e_potassium40_signed_rank_prediction/run.py": "8154750f0120b56d42f4eb01bbe90829a431461d180f1e6a746a35960a2d42ca",
+    "experiments/008e_potassium40_signed_rank_prediction/test_run.py": "7a924736e4463326985bd267c4253159838a38f18730cf150db3923275afcabc"
+  },
+  "release": {
+    "tag": "e008e-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}
