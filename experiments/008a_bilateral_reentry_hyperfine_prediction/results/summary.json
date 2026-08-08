@@ -1,0 +1,45 @@
+{
+  "diagnostics": {
+    "acceptance_half_width": 0.00027172897009306913,
+    "decision": "STANDARD_CONTACT_SUPPORTED",
+    "full_theory_nuisance_log": 0.0005,
+    "lambda_hat": -0.15702100833231003,
+    "si_band_pass": false,
+    "si_log_error": 0.0012575845078807069,
+    "si_within_full_theory_nuisance": false,
+    "standard_band_pass": true,
+    "standard_log_error": 0.0001706686275084627,
+    "standard_within_full_theory_nuisance": true,
+    "three_sigma_log_margin": 7.747596493201642e-09
+  },
+  "experiment": "008a_bilateral_reentry_hyperfine_prediction",
+  "interpretation_boundary": "Primary result compares the registered lambda=1 postulate with the leading contact control. Full QED and nuclear corrections remain a mandatory non-overriding interpretive control.",
+  "measurement_file_sha256": "d777c763e22c9c4beac2a39343aa5ffe9cb0dfa64b1af0d636e0770f5c125887",
+  "measurement_records": [
+    {
+      "frequency_hz": 327384352.5222,
+      "id": "deuterium_1s_hfs",
+      "source_id": "doi:10.1016/j.adt.2010.05.001",
+      "uncertainty_hz": 0.0017
+    },
+    {
+      "frequency_hz": 1420405751.768,
+      "id": "hydrogen_1s_hfs",
+      "source_id": "doi:10.1016/j.adt.2010.05.001",
+      "uncertainty_hz": 0.001
+    }
+  ],
+  "observation": {
+    "ratio": 1.0009873422294937,
+    "sigma_log": 2.5825321644005474e-09
+  },
+  "primary_decision": "STANDARD_CONTACT_SUPPORTED",
+  "registered_postulate": "lambda=1",
+  "registered_predictions": {
+    "acceptance_half_width": 0.00027172897009306913,
+    "delta_b": -0.0010869158803723236,
+    "log_separation": 0.0010869158803722765,
+    "si_lambda_one_ratio": 0.9997293072637633,
+    "standard_contact_ratio": 1.0008165196710825
+  }
+}

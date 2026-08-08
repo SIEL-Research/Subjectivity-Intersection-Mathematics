@@ -1,0 +1,17 @@
+{
+  "schema": "siel-e008a-hfs-measurements-v1",
+  "records": [
+    {
+      "id": "hydrogen_1s_hfs",
+      "source_id": "doi:10.1016/j.adt.2010.05.001",
+      "frequency_hz": 1420405751.768,
+      "uncertainty_hz": 0.001
+    },
+    {
+      "id": "deuterium_1s_hfs",
+      "source_id": "doi:10.1016/j.adt.2010.05.001",
+      "frequency_hz": 327384352.5222,
+      "uncertainty_hz": 0.0017
+    }
+  ]
+}
