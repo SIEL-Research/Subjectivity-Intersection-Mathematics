@@ -1,0 +1,32 @@
+{
+  "schema": "siel-experiment-008d-registration-v1",
+  "experiment": "008d_pyscf_potassium_mixed_rank_prediction",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "design_disclosure": "Result-informed by CP-159 through CP-161 and the known lithium benchmark. The potassium benchmark values were absent during prediction generation and remain absent from this package.",
+  "target_values_present": false,
+  "primary_prediction": {
+    "target": "full_second_order_delta_A_p1_2_ratio_k39_over_k41",
+    "mixed_rank": 1.4239826742729131,
+    "m1_only_control": 3.319224048274411
+  },
+  "acceptance_half_width_log": 0.05,
+  "strong_half_width_log": 0.01,
+  "source_sha256": {
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/DERIVATION_PROVENANCE.md": "4bed81d7cc81329057668291ff36c99127dd749928f2cb8b255807683aec98ab",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/PREREGISTRATION.md": "f531c16a5de9d21eb5e989bcf15635a6f230a438e68ce6cafd4e6bf47a5120cb",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/README.md": "a121d5ac1c1c97dc00bfb4b7566aa71edf29a789c85239c8da23b6125fd7de15",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/TECHNICAL_SPECIFICATION.md": "ea39451096bb3c5835a77f607d0e34fe4369990a18b500501580fa129fb09781",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/benchmark_sources.json": "87091e10c1fe8d5e742146031e4520cdff70a42e6996ca444bddc6f17dbe6d70",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/construction_sources.json": "4db1002d2b93f303e2516961631c787ce5d187f087440e34e30a0229194a15c7",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/generate_prediction.py": "e0d66e0ddc22858fd7d66c9a46f8ec8467e0feb5f03ccabe562beed625015281",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/prediction_before_benchmark.json": "06058165c1c71331e7bfdbed59389f2f6e1b9efab10b06432232c63e0f0015f9",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/prediction_sha256.txt": "159f21db8b8291b54f4c26bcc8355c2fe915a60d10a63e23dd6f183a738f63e1",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/requirements-pyscf.txt": "096d8cfcecb134a9b654f33a7841015e858e3e500d5f0d0e05e61d7daece2bf4",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/run.py": "84e082168cf609edddd8acc3ec5e2f85be95143796319fe3c63ec05aa394c0b5",
+    "experiments/008d_pyscf_potassium_mixed_rank_prediction/test_run.py": "8e01cd8fd21273a20e7834261d292633d85de52a641b18cc9e33b451bad71482"
+  },
+  "release": {
+    "tag": "e008d-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}

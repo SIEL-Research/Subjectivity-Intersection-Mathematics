@@ -1,0 +1,27 @@
+{
+  "schema": "siel-e008d-benchmark-source-lock-v1",
+  "target_values_present": false,
+  "sources": [
+    {
+      "id": "doi:10.1103/PhysRevA.78.032519",
+      "title": "Second-order effects on the hyperfine structure of P states of alkali-metal atoms",
+      "journal": "Physical Review A",
+      "year": 2008,
+      "url": "https://doi.org/10.1103/PhysRevA.78.032519",
+      "records": [
+        {
+          "id": "potassium39_4p1_2_second_order_delta_A",
+          "quantity": "complete second-order correction to A(P_1/2) for neutral potassium-39",
+          "unit": "kHz"
+        },
+        {
+          "id": "potassium41_4p1_2_second_order_delta_A",
+          "quantity": "complete second-order correction to A(P_1/2) for neutral potassium-41",
+          "unit": "kHz"
+        }
+      ],
+      "extraction_rule": "After public registration, transcribe the two total second-order A(P_1/2) corrections, preserve sign and printed digits, and record half one unit of the last printed digit as the rounding half-width.",
+      "ambiguity_rule": "If the two registered totals cannot be extracted uniquely, stop with PROVENANCE_FAILURE; do not replace the source."
+    }
+  ]
+}

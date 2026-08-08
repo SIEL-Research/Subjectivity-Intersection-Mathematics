@@ -1,0 +1,3 @@
+numpy==2.0.2
+pyscf==2.14.0
+pyscf-properties==0.1.0

@@ -1,0 +1,30 @@
+{
+  "schema": "siel-e008d-construction-sources-v1",
+  "target_values_present": false,
+  "nuclear_inputs": {
+    "K-39": {
+      "nuclear_spin_I": 1.5,
+      "magnetic_moment_mu_N": 0.3914662,
+      "quadrupole_moment_barn": 0.0585
+    },
+    "K-41": {
+      "nuclear_spin_I": 1.5,
+      "magnetic_moment_mu_N": 0.2148701,
+      "quadrupole_moment_barn": 0.0711
+    }
+  },
+  "sources": [
+    {
+      "id": "doi:10.1016/j.adt.2005.04.001",
+      "role": "independent nuclear spin and magnetic-moment tabulation"
+    },
+    {
+      "id": "doi:10.1016/S0009-2614(98)00680-0",
+      "role": "independent molecular determination of potassium quadrupole moments"
+    },
+    {
+      "id": "doi:10.1103/PhysRevA.79.032510",
+      "role": "electronic operator normalization"
+    }
+  ]
+}

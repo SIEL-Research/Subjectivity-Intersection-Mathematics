@@ -1,0 +1,17 @@
+{
+  "schema": "siel-e008d-k-second-order-corrections-v1",
+  "records": [
+    {
+      "id": "potassium39_4p1_2_second_order_delta_A",
+      "source_id": "doi:10.1103/PhysRevA.78.032519",
+      "second_order_delta_A_khz": "<post-registration extraction>",
+      "rounding_half_width_khz": "<half unit of last printed digit>"
+    },
+    {
+      "id": "potassium41_4p1_2_second_order_delta_A",
+      "source_id": "doi:10.1103/PhysRevA.78.032519",
+      "second_order_delta_A_khz": "<post-registration extraction>",
+      "rounding_half_width_khz": "<half unit of last printed digit>"
+    }
+  ]
+}

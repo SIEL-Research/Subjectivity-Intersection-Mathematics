@@ -1,0 +1,193 @@
+{
+  "basis_calculations": [
+    {
+      "basis_label": "contracted-def2-TZVPP",
+      "basis_name": "def2-TZVPP",
+      "decontracted": false,
+      "electronic_coordinates": {
+        "contact_scalar": 0.4140708475307401,
+        "electric_quadrupole_scalar": -1.4408394599510181,
+        "orbital_scalar": -0.9226579116917497,
+        "spin_dipole_scalar": -1.157594955224552
+      },
+      "electronic_xy_scalars": {
+        "x_magnetic_scalar": 0.05238636765014626,
+        "y_electric_scalar": 0.8645036759706108
+      },
+      "excited_scf_converged": true,
+      "ground_scf_converged": true,
+      "isotope_kernels": {
+        "K-39": {
+          "X_without_common_energy_scale": 7.44581957294815e-06,
+          "Y_without_common_energy_scale": 3.3914841023456295e-05,
+          "full_kernel": 9.991274335530082e-11,
+          "m1_e2_kernel": 1.1223279426927811e-10,
+          "m1_m1_kernel": -1.2320050913977282e-11
+        },
+        "K-41": {
+          "X_without_common_energy_scale": 4.086902001300052e-06,
+          "Y_without_common_energy_scale": 4.1219576013123795e-05,
+          "full_kernel": 7.115954831851559e-11,
+          "m1_e2_kernel": 7.487127453367789e-11,
+          "m1_m1_kernel": -3.7117262151623044e-12
+        }
+      },
+      "m1_only_ratio_k39_over_k41": 3.3192240482744113,
+      "mixed_rank_ratio_k39_over_k41": 1.40406657597212,
+      "number_of_atomic_orbitals": 33,
+      "promoted_alpha_orbital": 9,
+      "selected_p_orbital": 12,
+      "spin_multiplicity": 2.0000256984542792,
+      "spin_square": 0.7500256986193818
+    },
+    {
+      "basis_label": "contracted-def2-QZVPP",
+      "basis_name": "def2-QZVPP",
+      "decontracted": false,
+      "electronic_coordinates": {
+        "contact_scalar": 0.16011160460033916,
+        "electric_quadrupole_scalar": -0.7599076878453803,
+        "orbital_scalar": -0.5001649601745091,
+        "spin_dipole_scalar": -0.606619749515906
+      },
+      "electronic_xy_scalars": {
+        "x_magnetic_scalar": 0.004306588259233954,
+        "y_electric_scalar": 0.4559446127072282
+      },
+      "excited_scf_converged": true,
+      "ground_scf_converged": true,
+      "isotope_kernels": {
+        "K-39": {
+          "X_without_common_energy_scale": 6.121073208850996e-07,
+          "Y_without_common_energy_scale": 1.7886897980052863e-05,
+          "full_kernel": 4.782828229055418e-12,
+          "m1_e2_kernel": 4.86608942289567e-12,
+          "m1_m1_kernel": -8.326119384025205e-14
+        },
+        "K-41": {
+          "X_without_common_energy_scale": 3.3597680016643436e-07,
+          "Y_without_common_energy_scale": 2.17394606219104e-05,
+          "full_kernel": 3.221117427541609e-12,
+          "m1_e2_kernel": 3.246201963152737e-12,
+          "m1_m1_kernel": -2.5084535611128034e-14
+        }
+      },
+      "m1_only_ratio_k39_over_k41": 3.319224048274412,
+      "mixed_rank_ratio_k39_over_k41": 1.4848351035453318,
+      "number_of_atomic_orbitals": 70,
+      "promoted_alpha_orbital": 9,
+      "selected_p_orbital": 10,
+      "spin_multiplicity": 2.0000087088393546,
+      "spin_square": 0.7500087088583154
+    },
+    {
+      "basis_label": "uncontracted-def2-TZVPP",
+      "basis_name": "def2-TZVPP",
+      "decontracted": true,
+      "electronic_coordinates": {
+        "contact_scalar": 0.3537643245025344,
+        "electric_quadrupole_scalar": -1.568196168769505,
+        "orbital_scalar": -0.9353154345448517,
+        "spin_dipole_scalar": -1.2664018250719256
+      },
+      "electronic_xy_scalars": {
+        "x_magnetic_scalar": 0.04271313206022924,
+        "y_electric_scalar": 0.9409177012617029
+      },
+      "excited_scf_converged": true,
+      "ground_scf_converged": true,
+      "isotope_kernels": {
+        "K-39": {
+          "X_without_common_energy_scale": 6.07093579841064e-06,
+          "Y_without_common_energy_scale": 3.691259521669336e-05,
+          "full_kernel": 9.14070511018014e-11,
+          "m1_e2_kernel": 9.959733142811781e-11,
+          "m1_m1_kernel": -8.190280326316407e-12
+        },
+        "K-41": {
+          "X_without_common_energy_scale": 3.332248306745446e-06,
+          "Y_without_common_energy_scale": 4.4863000340288846e-05,
+          "full_kernel": 6.397454112468619e-11,
+          "m1_e2_kernel": 6.644206974197683e-11,
+          "m1_m1_kernel": -2.4675286172906425e-12
+        }
+      },
+      "m1_only_ratio_k39_over_k41": 3.3192240482744113,
+      "mixed_rank_ratio_k39_over_k41": 1.4288035442669191,
+      "number_of_atomic_orbitals": 65,
+      "promoted_alpha_orbital": 9,
+      "selected_p_orbital": 11,
+      "spin_multiplicity": 2.000025133875151,
+      "spin_square": 0.7500251340330788
+    },
+    {
+      "basis_label": "uncontracted-def2-QZVPP",
+      "basis_name": "def2-QZVPP",
+      "decontracted": true,
+      "electronic_coordinates": {
+        "contact_scalar": 0.19096752131795441,
+        "electric_quadrupole_scalar": -0.8524174938667339,
+        "orbital_scalar": -0.4903366282690206,
+        "spin_dipole_scalar": -0.6680496361306204
+      },
+      "electronic_xy_scalars": {
+        "x_magnetic_scalar": 0.02474854467477053,
+        "y_electric_scalar": 0.5114504963200404
+      },
+      "excited_scf_converged": true,
+      "ground_scf_converged": true,
+      "isotope_kernels": {
+        "K-39": {
+          "X_without_common_energy_scale": 3.517579221602581e-06,
+          "Y_without_common_energy_scale": 2.006441702470177e-05,
+          "full_kernel": 2.861844205757108e-11,
+          "m1_e2_kernel": 3.136807840873779e-11,
+          "m1_m1_kernel": -2.749636351166715e-12
+        },
+        "K-41": {
+          "X_without_common_energy_scale": 1.9307480418581957e-06,
+          "Y_without_common_energy_scale": 2.4385983768483686e-05,
+          "full_kernel": 2.0097465070762662e-11,
+          "m1_e2_kernel": 2.0925862404349162e-11,
+          "m1_m1_kernel": -8.283973335865016e-13
+        }
+      },
+      "m1_only_ratio_k39_over_k41": 3.319224048274411,
+      "mixed_rank_ratio_k39_over_k41": 1.4239826742729131,
+      "number_of_atomic_orbitals": 119,
+      "promoted_alpha_orbital": 9,
+      "selected_p_orbital": 12,
+      "spin_multiplicity": 2.000009036558372,
+      "spin_square": 0.7500090365787866
+    }
+  ],
+  "electronic_system": "neutral potassium lowest 4P state",
+  "experiment": "008d_pyscf_potassium_mixed_rank_prediction",
+  "free_fitted_parameters": 0,
+  "isotope_inputs": {
+    "K-39": {
+      "magnetic_moment_mu_N": 0.3914662,
+      "nuclear_spin_I": 1.5,
+      "quadrupole_moment_barn": 0.0585
+    },
+    "K-41": {
+      "magnetic_moment_mu_N": 0.2148701,
+      "nuclear_spin_I": 1.5,
+      "quadrupole_moment_barn": 0.0711
+    }
+  },
+  "m1_only_control": 3.319224048274411,
+  "method": "maximum-overlap unrestricted Hartree-Fock",
+  "primary_basis": "uncontracted-def2-QZVPP",
+  "primary_prediction": 1.4239826742729131,
+  "primary_target": "full_second_order_delta_A_p1_2_ratio_k39_over_k41",
+  "schema": "siel-e008d-prediction-before-benchmark-v1",
+  "software": {
+    "pyscf_properties_source_commit": "4eee5a430fb47eca5962f36fdcaf75c2b87e7ede",
+    "pyscf_properties_version": "0.1.0",
+    "pyscf_version": "2.14.0"
+  },
+  "target_values_loaded": false,
+  "uncontracted_tz_qz_log_change": 0.003379765754382796,
+  "uncontracted_tz_qz_log_change_ppm": 3379.765754382796
+}
