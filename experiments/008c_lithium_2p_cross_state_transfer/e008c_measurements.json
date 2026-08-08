@@ -1,0 +1,17 @@
+{
+  "schema": "siel-e008c-li-2p-hfs-measurements-v1",
+  "records": [
+    {
+      "id": "lithium6_2p1_2_hfs_A",
+      "source_id": "doi:10.1139/p65-075",
+      "magnetic_dipole_constant_hz": 17480000,
+      "uncertainty_hz": 150000
+    },
+    {
+      "id": "lithium7_2p1_2_hfs_A",
+      "source_id": "doi:10.1139/p65-075",
+      "magnetic_dipole_constant_hz": 46170000,
+      "uncertainty_hz": 350000
+    }
+  ]
+}

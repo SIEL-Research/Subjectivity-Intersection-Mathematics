@@ -1,0 +1,51 @@
+{
+  "experiment": "008c_lithium_2p_cross_state_transfer",
+  "interpretation": "This is a within-lithium transfer test from 2S1/2 to 2P1/2. It does not test or restore atomic-universal CP-158 portability.",
+  "measurement_file_sha256": "76868b52b3c070eeb5d0c3bd46dd195dae7fb7c7ca69bccf81dde3a4222ccfde",
+  "measurement_records": [
+    {
+      "id": "lithium6_2p1_2_hfs_A",
+      "magnetic_dipole_constant_hz": 17480000,
+      "source_id": "doi:10.1139/p65-075",
+      "uncertainty_hz": 150000
+    },
+    {
+      "id": "lithium7_2p1_2_hfs_A",
+      "magnetic_dipole_constant_hz": 46170000,
+      "source_id": "doi:10.1139/p65-075",
+      "uncertainty_hz": 350000
+    }
+  ],
+  "observation": {
+    "interval_li6_hz": 26220000.0,
+    "interval_li7_hz": 92340000.0,
+    "magnetic_dipole_constant_li6_hz": 17480000.0,
+    "magnetic_dipole_constant_li7_hz": 46170000.0,
+    "measurement_sigma_log": 0.011450079336445042,
+    "ratio_li6_over_li7": 0.2839506172839506
+  },
+  "primary_decision": "INSUFFICIENT_PRECISION",
+  "primary_diagnostics": {
+    "decision": "INSUFFICIENT_PRECISION",
+    "maximum_measurement_sigma_log": 1.681013068429318e-06,
+    "measurement_sigma_log": 0.011450079336445042,
+    "models": {},
+    "passing_models": [],
+    "precision_gate_pass": false
+  },
+  "registered_predictions": {
+    "acceptance_half_width": 5.247025823410469e-06,
+    "bilateral_coordinate_li6": 0.00036483373647668097,
+    "bilateral_coordinate_li7": 0.00031278365659556494,
+    "bilateral_mass_only_ratio_li6_over_li7": 0.28400802967617617,
+    "factorised_base_ratio_li6_over_li7": 0.28399324742025683,
+    "mass_li6_in_electron_masses": 10961.89825498959,
+    "mass_li7_in_electron_masses": 12786.391884266013,
+    "maximum_measurement_sigma_log": 1.681013068429318e-06,
+    "moment_model_sigma_log": 4.829349582920557e-07,
+    "nearest_model_log_separation": 2.0988103293641875e-05,
+    "recursive_coordinate_li6": 0.00040537081830742334,
+    "recursive_coordinate_li7": 0.00033233263513278774,
+    "recursive_sector_ratio_li6_over_li7": 0.2840139905285925
+  }
+}
