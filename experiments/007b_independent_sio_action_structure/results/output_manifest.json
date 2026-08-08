@@ -1,0 +1,11 @@
+{
+  "files": {
+    "RESULT.md": "dd28153a7a8f317e7de47750a36bcc840567a987ab62b2d8d4c59ed1c4e63e4e",
+    "canonical_primitives.csv": "e1d20d10e70d7ba1ce20f343e2d31912b8e823ecf50bebc155665793bee9e6e9",
+    "robustness_variants.csv": "ca1ba71be2ff06e853da5475f34d00a510f02614bf483b1e4923abbf1bba6476",
+    "source_operation_sites.csv": "09e2b9dac0649e5cd3b71cf3becfe213d4687d490b29529a07330abc0ce8ee21",
+    "summary.json": "aa315138602003e27b026d6ca25be8a05aeafe60ff0d9e5b639fdbaa4106f4df",
+    "typed_composition_table.csv": "c66c831e07e76ce6aac4151cf962f970de328b6311eac559561dacd275a4780b"
+  },
+  "schema": "siel-experiment-007b-output-manifest-v1"
+}

@@ -1,0 +1,100 @@
+{
+  "canonical_primitive_count": 11,
+  "claim_boundary": "Operational SIO action structure only. No subjectivity, ontological O3, D12RG correspondence, DJS realization, or new abstract algebra is claimed.",
+  "common_linear_endomorphism_carrier": null,
+  "djs_hypergroup": {
+    "all_axioms_forced": false,
+    "candidate": "Dunkl-Jewett-Spector hypergroup",
+    "checks": {
+      "associative_point_mass_probability_convolution_source_defined": false,
+      "compact_support_conditions_source_defined": false,
+      "continuity_conditions_source_defined": false,
+      "global_identity_source_defined": false,
+      "global_involution_source_defined": false,
+      "single_base_space_K_source_defined": false
+    },
+    "classification": "REGISTERED_COMPARATOR_NOT_NULL_FLOOR",
+    "source_rule_count": 11,
+    "source_type_count": 12
+  },
+  "main_readout": "The frozen 006-series transformations define one deterministic typed nonlinear action structure. They do not define a finite common-carrier operator algebra, a canonical global generator, a global involution, or a DJS hypergroup.",
+  "mode": "confirmatory",
+  "operation_site_count": 16,
+  "primary_classification": "STABLE_NONLINEAR_OR_TYPED_ACTION_STRUCTURE",
+  "provenance_verification": {
+    "file_count": 30,
+    "observed_sha256": {
+      "experiments/005_emergent_relational_carrier_solution_class/support/__init__.py": "165d61315515af824fb90cea404b502e0dd6c0fe05155e2a43044d8dc041e9fb",
+      "experiments/005_emergent_relational_carrier_solution_class/support/analysis_utils.py": "baab342b22ee27d18474189ee4c8b0f61d244b1fcd525989649a5e2cd781d6be",
+      "experiments/005_emergent_relational_carrier_solution_class/support/e009_world.py": "09d09e7c99dfa820477665b2196a0263d4f3ad30442dd30895fb221c14abc150",
+      "experiments/005_emergent_relational_carrier_solution_class/support/e010_directed.py": "c354e88029cb11294118c27c95d811311e9bebc933afa8776e70d941119b9216",
+      "experiments/005_emergent_relational_carrier_solution_class/support/p014_architectures.py": "d364b4bb8b2db4341c82df2ee32ff6280479f1b348869a8eb4b3ac43723500ce",
+      "experiments/005_emergent_relational_carrier_solution_class/support/p015_reciprocal.py": "29c4796d8c4089659504980c7716a043757e8d92fac7131ac42fb9a332c100cf",
+      "experiments/006_spontaneous_o3_reentry/PREREGISTRATION.md": "9af2aa91c57917507bb79b2a9887fa94ffa509936f96cf8e59f748c19085e212",
+      "experiments/006_spontaneous_o3_reentry/TECHNICAL_SPECIFICATION.md": "ffc5762656ca7e56ba49f2e45922b40fa70ae0efd24e986709d2fd90f3c3a9f9",
+      "experiments/006_spontaneous_o3_reentry/registration_manifest.json": "d5c6ce7dd44124dc0cc532b7b3d2fd50abacc2b8887fbc5da31d3b461368239c",
+      "experiments/006_spontaneous_o3_reentry/results/summary.json": "a7537c103a4a320647863df98de195ca4867e29bc10697bf16881406fb2e6333",
+      "experiments/006_spontaneous_o3_reentry/run.py": "87e673c09bc1dce5471cf90fa70c9425c5cc2bb669006e473e799415074f9375",
+      "experiments/006a_emergent_nonseparable_relational_c/PREREGISTRATION.md": "f84c5322d339e6e63b8c7ad0b6b0a8f97fde927928035f6de28181ff34efeaca",
+      "experiments/006a_emergent_nonseparable_relational_c/TECHNICAL_SPECIFICATION.md": "a36547df0c410aaee8ad75b9f5fc674dee487815811a2db9f74463569931d187",
+      "experiments/006a_emergent_nonseparable_relational_c/registration_manifest.json": "95030b2dd6dfe36966c366c6ca2f7933f5ed4b21dbdc84b94d62058835e5f096",
+      "experiments/006a_emergent_nonseparable_relational_c/results/summary.json": "ad462bbd4afbea212ae62a9229ec6f1ce167f194a831bfc4480054dcd1f24b16",
+      "experiments/006a_emergent_nonseparable_relational_c/run.py": "8050b5465e5233f8d90f7bae0b7f106dd4232fc0666cef2a165d73516172cd5b",
+      "experiments/006a_emergent_nonseparable_relational_c/support/experiment_007_unity_pilot.py": "f3adcfd47ac69d3d4a7468ebf7fcbe92bc206b9d76022adbc8da2f2a0c36c75c",
+      "experiments/006r_spontaneous_o3_reentry_revised/PREREGISTRATION.md": "c40e4270e2d67c313641584b3fe2c4fcc47e10a51ced2049d2697cc2be5fc173",
+      "experiments/006r_spontaneous_o3_reentry_revised/TECHNICAL_SPECIFICATION.md": "a23907114833f72bb9474924b9e1ac3b198f18372c322678b3511dd3b1465c47",
+      "experiments/006r_spontaneous_o3_reentry_revised/registration_manifest.json": "0a38ad2e31479dbfe3739c57f9ffd13d7cbd0fe752b3b419b34a282f21f9069e",
+      "experiments/006r_spontaneous_o3_reentry_revised/results/summary.json": "1d94cd86afe6552e7fc65a6c96de185340ffcb85999c265f30bbcad209e3d51e",
+      "experiments/006r_spontaneous_o3_reentry_revised/run.py": "77e785b2f66070bfbe0d489890b399b313a0ff97bc0e8b0a24af0ac25b0d9de7",
+      "experiments/007b_independent_sio_action_structure/FEEDBACK_RESOLUTION.md": "6c23983ee92a2e66c8677d17dc59bc2bdc34696b8b529a9f6fd72465db305790",
+      "experiments/007b_independent_sio_action_structure/PREREGISTRATION.md": "e4b8928372132719e55a57a9a5cd7487fd9ae9575ab0d5e89b1ccb81b36f9b6f",
+      "experiments/007b_independent_sio_action_structure/README.md": "bb2582da984a19059b4f927b2d45a5c8baa15d7c8fdd2fbf1e6b23d2bcae2287",
+      "experiments/007b_independent_sio_action_structure/TECHNICAL_SPECIFICATION.md": "db5f0e25057eb2df17853af3ea623f92a13c94b01c62ecd5c8c4fdc64f993454",
+      "experiments/007b_independent_sio_action_structure/requirements.txt": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+      "experiments/007b_independent_sio_action_structure/run.py": "b88e80f04c910ffb5633f9fade72efc8e0c5ade88092ed3387514f97966fb663",
+      "experiments/007b_independent_sio_action_structure/source_action_registry.json": "a5d1476495419feb9944247a0d3fbef6274578276091da5e901f75b520ff99fa",
+      "experiments/007b_independent_sio_action_structure/test_run.py": "0c28eafe1470fee12b6a816563f408150a1cd0a44e680ba86a2a5d2d0a96f3ef"
+    },
+    "verified": true
+  },
+  "registered_checks": {
+    "all_source_sites_verified": true,
+    "base_mediation_route_present": true,
+    "canonicalization_unique": true,
+    "d12rg_not_loaded": true,
+    "djs_not_promoted_without_axioms": true,
+    "no_common_linear_endomorphism_carrier": true,
+    "no_source_defined_canonical_global_generator": true,
+    "no_source_defined_global_involution": true,
+    "robustness_class_unchanged": true,
+    "typed_composition_table_complete": true,
+    "witness_checks_pass": true
+  },
+  "robustness": {
+    "all_variant_classes_match_base": true,
+    "base_class": "STABLE_NONLINEAR_OR_TYPED_ACTION_STRUCTURE",
+    "mediation_route_critical_removals": [
+      "advance_recurrently",
+      "difference_relational_contribution",
+      "replace_joint_in_bundle"
+    ]
+  },
+  "schema": "siel-experiment-007b-independent-sio-action-structure-v1",
+  "status": "COMPLETE",
+  "witness_audit": {
+    "all_witness_checks_pass": true,
+    "cross_pair_route_valid": true,
+    "directed_extractor_linearity_error": 5.342948306008566e-16,
+    "donor_substitution_nontrivial": true,
+    "erasure_identity_error": 0.0,
+    "extractor_non_equivalence_witness": 4.758142533921078,
+    "recurrent_nonlinearity_gap": 0.04924583061212018,
+    "substitution_identity_error": 2.7755575615628914e-17,
+    "synergy_extractor_linearity_error": 8.881784197001252e-16,
+    "transported_component_finite": true,
+    "transported_component_shape": [
+      3,
+      24
+    ]
+  }
+}
