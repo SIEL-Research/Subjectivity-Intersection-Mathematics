@@ -1,0 +1,292 @@
+{
+  "constants": {
+    "R_infinity_c_hz": 3289841960250800.0,
+    "alpha": 0.0072973525643,
+    "electron_muon_mass_ratio": 0.0048363317,
+    "electron_positron_mass_ratio": 1.0,
+    "relative_error_limit_2_alpha_squared": 0.00010650270889539157
+  },
+  "decision": "SUPPORTED_ATOMIC_CLOSURE_TRANSFER",
+  "empirical": {
+    "pass": true,
+    "records": {
+      "muonium_1s2s": {
+        "control_improvement_factor": 512.841309338421,
+        "control_improvement_min": 100.0,
+        "infinite_mass_control_hz": 2467381470188100.0,
+        "measured_hz": 2455528941000000.0,
+        "pass": true,
+        "predicted_hz": 2455505829505328.5,
+        "relative_error": 9.412022919219994e-06,
+        "relative_error_limit": 0.00010650270889539157,
+        "source_id": "doi:10.1103/PhysRevLett.84.1136",
+        "uncertainty_hz": 9800000.0
+      },
+      "positronium_1s2s": {
+        "control_improvement_factor": 14771.388879178874,
+        "control_improvement_min": 100.0,
+        "infinite_mass_control_hz": 2467381470188100.0,
+        "measured_hz": 1233607210500000.0,
+        "pass": true,
+        "predicted_hz": 1233690735094050.0,
+        "relative_error": 6.770760849893719e-05,
+        "relative_error_limit": 0.00010650270889539157,
+        "source_id": "arxiv:2407.02443v1",
+        "uncertainty_hz": 49600000.0
+      }
+    }
+  },
+  "empirical_pass": true,
+  "experiment": "008_preregistered_atomic_closure_transfer",
+  "measurement_file_sha256": "53c8bcb2b5297eb1544baecf22d977d83b2696a2e593011c9d098d1561788012",
+  "schema": "siel-e008-result-v1",
+  "structural": {
+    "additive_coordinate": {
+      "max_control_strict_order": false,
+      "pass": true,
+      "regular_candidates": [
+        {
+          "family": "power_sum",
+          "max_error": 0.0,
+          "parameter": 0.3333333333333333
+        },
+        {
+          "family": "power_sum",
+          "max_error": 0.0,
+          "parameter": 0.5
+        },
+        {
+          "family": "power_sum",
+          "max_error": 8.881784197001252e-16,
+          "parameter": 0.6666666666666666
+        },
+        {
+          "family": "power_sum",
+          "max_error": 1.7763568394002505e-15,
+          "parameter": 1.5
+        },
+        {
+          "family": "power_sum",
+          "max_error": 3.552713678800501e-15,
+          "parameter": 2.0
+        },
+        {
+          "family": "power_sum",
+          "max_error": 7.105427357601002e-15,
+          "parameter": 3.0
+        },
+        {
+          "family": "power_sum",
+          "max_error": 2.842170943040401e-14,
+          "parameter": 4.0
+        },
+        {
+          "family": "deformed_sum",
+          "max_error": 5.551115123125783e-17,
+          "parameter": 0.25
+        },
+        {
+          "family": "deformed_sum",
+          "max_error": 0.0,
+          "parameter": 0.5
+        },
+        {
+          "family": "deformed_sum",
+          "max_error": 4.440892098500626e-16,
+          "parameter": 1.0
+        },
+        {
+          "family": "deformed_sum",
+          "max_error": 2.220446049250313e-16,
+          "parameter": 2.0
+        },
+        {
+          "family": "deformed_sum",
+          "max_error": 4.440892098500626e-16,
+          "parameter": 4.0
+        }
+      ]
+    },
+    "boundary_identity": {
+      "pass": true,
+      "registered_total_exponents": [
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "survivors": [
+        0.0
+      ]
+    },
+    "continuous_reentry": {
+      "candidates": {
+        "amplifying_linear": {
+          "composition": true,
+          "linear_norm_group": false,
+          "minimal": false
+        },
+        "complex_unitary": {
+          "composition": true,
+          "linear_norm_group": true,
+          "minimal": true
+        },
+        "dissipative_linear": {
+          "composition": true,
+          "linear_norm_group": false,
+          "minimal": false
+        },
+        "projectively_normalized_linear": {
+          "composition": false,
+          "linear_norm_group": false,
+          "minimal": true
+        },
+        "real_orthogonal": {
+          "composition": true,
+          "linear_norm_group": true,
+          "minimal": true
+        },
+        "shear_linear": {
+          "composition": true,
+          "linear_norm_group": false,
+          "minimal": false
+        },
+        "state_dependent_phase": {
+          "composition": false,
+          "linear_norm_group": false,
+          "minimal": true
+        }
+      },
+      "composition_compatible_survivors": [
+        "complex_unitary",
+        "real_orthogonal"
+      ],
+      "generator_identity": "G^dagger=-G; H=iG; H^dagger=H",
+      "minimal_survivors": [
+        "complex_unitary",
+        "projectively_normalized_linear",
+        "real_orthogonal",
+        "state_dependent_phase"
+      ],
+      "pass": true
+    },
+    "dimensional_stability": {
+      "conditions": {
+        "1": {
+          "asymptotic_separation": false,
+          "cutoff_free_discrete_scale": true,
+          "no_fall_to_center": true
+        },
+        "10": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": false,
+          "no_fall_to_center": false
+        },
+        "11": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": false,
+          "no_fall_to_center": false
+        },
+        "12": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": false,
+          "no_fall_to_center": false
+        },
+        "2": {
+          "asymptotic_separation": false,
+          "cutoff_free_discrete_scale": true,
+          "no_fall_to_center": true
+        },
+        "3": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": true,
+          "no_fall_to_center": true
+        },
+        "4": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": false,
+          "no_fall_to_center": false
+        },
+        "5": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": false,
+          "no_fall_to_center": false
+        },
+        "6": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": false,
+          "no_fall_to_center": false
+        },
+        "7": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": false,
+          "no_fall_to_center": false
+        },
+        "8": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": false,
+          "no_fall_to_center": false
+        },
+        "9": {
+          "asymptotic_separation": true,
+          "cutoff_free_discrete_scale": false,
+          "no_fall_to_center": false
+        }
+      },
+      "pass": true,
+      "registered_dimensions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "survivors": [
+        3
+      ]
+    },
+    "spatial_distribution": {
+      "pass": true,
+      "registered_radii": [
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0
+      ],
+      "relative_spreads": {
+        "log_modified_inverse_square": 0.42904175544417017,
+        "power_1.0": 0.9166666666666666,
+        "power_1.5": 0.7113248654051871,
+        "power_2.0": 0.0,
+        "power_2.5": 0.7113248654051872,
+        "power_3.0": 0.9166666666666666,
+        "short_range_modified_inverse_square": 0.3055555555555555,
+        "yukawa_inverse_square": 0.7471604041952534
+      },
+      "survivors": [
+        "power_2.0"
+      ]
+    }
+  },
+  "structural_pass": true
+}

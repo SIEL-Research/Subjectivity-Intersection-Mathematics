@@ -1,0 +1,17 @@
+{
+  "schema": "siel-e008-measurements-v1",
+  "records": [
+    {
+      "id": "muonium_1s2s",
+      "source_id": "doi:10.1103/PhysRevLett.84.1136",
+      "frequency_hz": 2455528941000000.0,
+      "uncertainty_hz": 9800000.0
+    },
+    {
+      "id": "positronium_1s2s",
+      "source_id": "arxiv:2407.02443v1",
+      "frequency_hz": 1233607210500000.0,
+      "uncertainty_hz": 49600000.0
+    }
+  ]
+}
