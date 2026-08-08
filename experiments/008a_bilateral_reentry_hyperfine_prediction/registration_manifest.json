@@ -1,0 +1,25 @@
+{
+  "schema": "siel-experiment-008a-registration-v1",
+  "experiment": "008a_bilateral_reentry_hyperfine_prediction",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "design_disclosure": "Result-informed by private CP-151 through CP-155 exploration; lambda=1 is registered as a new no-fit postulate, not a prior-CP theorem.",
+  "target_values_present": false,
+  "primary_prediction": {
+    "target": "channel_normalized_D_over_H_ground_state_hyperfine_ratio",
+    "si_lambda_one": 0.9997293072637635,
+    "standard_contact_control": 1.0008165196710828
+  },
+  "source_sha256": {
+    "experiments/008a_bilateral_reentry_hyperfine_prediction/DERIVATION_PROVENANCE.md": "292b5c7232f8b1a2c48d5f035c119627f839d01e760fc14ca5c9ba849cb6c41c",
+    "experiments/008a_bilateral_reentry_hyperfine_prediction/PREREGISTRATION.md": "3bf585077e6f72d0a574321d02c7fe430eabfd4c8e74f95bd666df575fcfe8f9",
+    "experiments/008a_bilateral_reentry_hyperfine_prediction/README.md": "d3a537f5a7f65b78a5d79f879d06ce330ed00fbc8c5623393096611d989040c3",
+    "experiments/008a_bilateral_reentry_hyperfine_prediction/TECHNICAL_SPECIFICATION.md": "de3d11053eb85012f92547ee1b38c688bc6223a3f314de8ed1b40babdaec3c4a",
+    "experiments/008a_bilateral_reentry_hyperfine_prediction/benchmark_sources.json": "be45f9326ec3b5fc4ced3cc11f13c778959973385cf91d02cac64b040995d78f",
+    "experiments/008a_bilateral_reentry_hyperfine_prediction/run.py": "fd5929650d8bb8b4c073827b424244cc86e05d17ccffbd84f100fa3419cd9a97",
+    "experiments/008a_bilateral_reentry_hyperfine_prediction/test_run.py": "c458e3143e410e7aaca8b04e311f77f63aae0efc9dcab0ddb1916f2593bf7d1f"
+  },
+  "release": {
+    "tag": "e008a-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}

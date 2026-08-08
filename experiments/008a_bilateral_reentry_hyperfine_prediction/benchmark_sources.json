@@ -1,0 +1,41 @@
+{
+  "schema": "siel-e008a-benchmark-source-lock-v1",
+  "target_records": [
+    {
+      "id": "hydrogen_1s_hfs",
+      "system": "atomic hydrogen",
+      "observable": "ground-state 1S hyperfine interval",
+      "source_id": "doi:10.1016/j.adt.2010.05.001",
+      "source_url": "https://doi.org/10.1016/j.adt.2010.05.001",
+      "extraction": "Use the recommended experimental ground-state 1S hyperfine interval and its quoted one-standard-deviation uncertainty. Convert to Hz if necessary. Do not use a theoretical replacement value."
+    },
+    {
+      "id": "deuterium_1s_hfs",
+      "system": "atomic deuterium",
+      "observable": "ground-state 1S hyperfine interval",
+      "source_id": "doi:10.1016/j.adt.2010.05.001",
+      "source_url": "https://doi.org/10.1016/j.adt.2010.05.001",
+      "extraction": "Use the recommended experimental ground-state 1S hyperfine interval and its quoted one-standard-deviation uncertainty. Convert to Hz if necessary. Do not use a theoretical replacement value."
+    }
+  ],
+  "auxiliary_sources": [
+    {
+      "quantity": "proton magnetic moment",
+      "source_id": "doi:10.1126/science.aan0207",
+      "source_url": "https://doi.org/10.1126/science.aan0207",
+      "role": "Frozen channel normalization; direct Penning-trap measurement distinct from the target intervals."
+    },
+    {
+      "quantity": "deuteron magnetic moment and shielding route",
+      "source_id": "nist-codata-2022",
+      "source_url": "https://physics.nist.gov/cuu/pdf/JPCRD2022CODATA.pdf",
+      "role": "Frozen channel normalization from HD molecular NMR ratios and theoretical shielding corrections; distinct measurement domain but theory-assisted."
+    },
+    {
+      "quantity": "full-theory nuisance context",
+      "source_id": "doi:10.1016/j.physletb.2005.05.015",
+      "source_url": "https://doi.org/10.1016/j.physletb.2005.05.015",
+      "role": "Interpretive control for QED and nuclear corrections; never used to fit lambda or alter the primary bands."
+    }
+  ]
+}
