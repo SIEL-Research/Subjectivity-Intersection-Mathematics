@@ -1,0 +1,23 @@
+{
+  "schema": "siel-e008-benchmark-source-lock-v1",
+  "records": [
+    {
+      "id": "muonium_1s2s",
+      "system": "muonium (mu+ e-)",
+      "observable": "1S-2S transition frequency",
+      "source_id": "doi:10.1103/PhysRevLett.84.1136",
+      "source_url": "https://doi.org/10.1103/PhysRevLett.84.1136",
+      "extraction": "Use the central measured frequency and its quoted one-standard-deviation total uncertainty; convert MHz to Hz by multiplying by 1e6. If statistical and systematic one-sigma uncertainties are separately quoted, combine them in quadrature.",
+      "development_exclusion": "Not used in the unpublished H-D development benchmark."
+    },
+    {
+      "id": "positronium_1s2s",
+      "system": "ortho-positronium (e+ e-)",
+      "observable": "1^3S_1-2^3S_1 transition frequency",
+      "source_id": "arxiv:2407.02443v1",
+      "source_url": "https://arxiv.org/abs/2407.02443v1",
+      "extraction": "Use the central measured frequency and quoted one-standard-deviation uncertainty in version 1 of the abstract; convert MHz to Hz by multiplying by 1e6.",
+      "development_exclusion": "Not used in the unpublished H-D development benchmark."
+    }
+  ]
+}

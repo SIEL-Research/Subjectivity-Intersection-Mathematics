@@ -1,0 +1,26 @@
+{
+  "schema": "siel-experiment-008-registration-v1",
+  "experiment": "008_preregistered_atomic_closure_transfer",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "design_disclosure": "Result-informed by prior unpublished exploratory computation; exploratory outputs excluded from E008 confirmatory evidence.",
+  "development_exclusions": [
+    "hydrogen-deuterium 1S-2S isotope shift",
+    "every private-development atomic benchmark"
+  ],
+  "empirical_holdouts": [
+    "muonium_1s2s",
+    "positronium_1s2s"
+  ],
+  "source_sha256": {
+    "experiments/008_preregistered_atomic_closure_transfer/PREREGISTRATION.md": "fd49538258fee2adba3d627acfe1830b3aa552ac6ac511a4020962f3f84658ea",
+    "experiments/008_preregistered_atomic_closure_transfer/README.md": "1de6f045404cbadc76b56985480dfcc9aedf6c342ad78295f43b05d3194b8a9b",
+    "experiments/008_preregistered_atomic_closure_transfer/TECHNICAL_SPECIFICATION.md": "07d2db2a4ca8570c8ac3205542f3979cbcc188e4b1e9cc8d9e60beea7a764597",
+    "experiments/008_preregistered_atomic_closure_transfer/benchmark_sources.json": "1a554f9be7053e75d6c03b3f415316c6bcf84e7fa4e2f1656bdbcdaa7cc13f0b",
+    "experiments/008_preregistered_atomic_closure_transfer/run.py": "769527952f8ba77e2610f56741bd7d3c24163c386a77fd45911cde716051d1be",
+    "experiments/008_preregistered_atomic_closure_transfer/test_run.py": "f21c2709edd6eeb677080f0aa13b658265759dd30b3fb8977a83c81564186c0e"
+  },
+  "release": {
+    "tag": "e008-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}
