@@ -1,0 +1,32 @@
+{
+  "schema": "siel-experiment-008b-registration-v1",
+  "experiment": "008b_pyscf_lithium_spin_representation_prediction",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "design_disclosure": "Result-informed by private CP-157 exploration; target hyperfine frequencies were absent during prediction generation and remain absent from this package.",
+  "target_values_present": false,
+  "primary_prediction": {
+    "target": "raw_lithium6_over_lithium7_ground_state_hyperfine_interval_ratio",
+    "full_factorised_generator": 0.28399324742025683,
+    "nuclear_g_only_control": 0.3786576632270091,
+    "representation_only_control": 0.75
+  },
+  "source_sha256": {
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/DERIVATION_PROVENANCE.md": "a963287564856c9c81bf95a87c0be8c4b913d2560f540a5508218ab6b4b9e691",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/PREREGISTRATION.md": "1008500ff07b61141fbc6ce3aa3154dfde6e8febdccbf015495ad91c545aee65",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/README.md": "4a1293aaba2347b435e876ce6823a5b888f9e431fffd2f9af0d13c9509a30954",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/TECHNICAL_SPECIFICATION.md": "2e763a79d66cb019a9f0d2430c7c4dd67611c4b79319b71f638a202a7a79a0d9",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/auxiliary_sources.json": "77458aec1475dd797b972b4df90cbf2d777130d825566bf9d9ac865dec8774f1",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/benchmark_sources.json": "7ae50cda86f9fe158bae229f63bc4cf53c8ca8d31e20cb98f9c6aeae1f4eebf4",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/cp157_frozen_bridge.json": "1ec99532b991b1f5a7373e49fdb10714cbdb21f70df1eb9646977a3cf77c1d3d",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/prediction_before_benchmark.json": "88324d43701371db74838de961225d62933b6615a3802910fcb1fd79861da784",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/prediction_sha256.txt": "7f9737307caeedb7ee8aced56e51689ccdb13edf2e0522293a8b30f377c03c52",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/reproduce_cp157.py": "524151c026aa48a09398866625bdf0ca8fa0e8a94b5dd7d155bfba7970dc20e3",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/requirements-pyscf.txt": "71b296f4925715c77ec083a11a9529ff0ac986df85ec015e72d87bd8a4f6eaa5",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/run.py": "6f302c387e542a1ff0cc1865e7a7723fb38227567b0b2d5184fa138ce855fefe",
+    "experiments/008b_pyscf_lithium_spin_representation_prediction/test_run.py": "6fa354bfe1d67d52f8b4529dadce0a11a576960ea4160de8029ffe4a60ea6e8d"
+  },
+  "release": {
+    "tag": "e008b-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "siel-e008b-cp157-bridge-v1",
+  "repository": "SIEL-Research/Subjectivity-Intersection-Creation-Principle",
+  "commit": "ec39a29ebaf9da00fe8047ab60e333929d02704e",
+  "experiment": "CP-157_general_spin_pyscf_factorization",
+  "decision": "GENERAL_SPIN_PYSCF_FACTORISATION_OBSERVED",
+  "target_hyperfine_frequencies_loaded": false,
+  "electronic": {
+    "method": "unrestricted Hartree-Fock",
+    "basis": "uncontracted cc-pCVQZ",
+    "pyscf_version": "2.14.0",
+    "pyscf_properties_version": "0.1.0",
+    "pyscf_properties_source_commit": "4eee5a430fb47eca5962f36fdcaf75c2b87e7ede",
+    "hfc_per_nuclear_g_mhz": 176.04278247339448,
+    "cvtz_cvqz_relative_change": 0.000717906156476737
+  },
+  "representations": {
+    "lithium6": {
+      "nuclear_spin": 1.0,
+      "electronic_J": 0.5,
+      "F_sectors": [0.5, 1.5],
+      "sector_ranks": [2, 4],
+      "interval_factor": 1.5
+    },
+    "lithium7": {
+      "nuclear_spin": 1.5,
+      "electronic_J": 0.5,
+      "F_sectors": [1.0, 2.0],
+      "sector_ranks": [3, 5],
+      "interval_factor": 2.0
+    }
+  }
+}

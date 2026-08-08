@@ -1,0 +1,30 @@
+{
+  "schema": "siel-e008b-benchmark-source-lock-v1",
+  "target_values_present": false,
+  "sources": [
+    {
+      "id": "doi:10.1103/PhysRevLett.111.243001",
+      "title": "Ground-State Hyperfine Splitting in 6,7Li Atoms and the Nuclear Structure",
+      "authors": [
+        "Mariusz Puchalski",
+        "Krzysztof Pachucki"
+      ],
+      "year": 2013,
+      "url": "https://doi.org/10.1103/PhysRevLett.111.243001",
+      "records": [
+        {
+          "id": "lithium6_2s_ground_hfs",
+          "quantity": "experimental zero-field ground-state 2S1/2 hyperfine interval of neutral lithium-6",
+          "unit": "Hz"
+        },
+        {
+          "id": "lithium7_2s_ground_hfs",
+          "quantity": "experimental zero-field ground-state 2S1/2 hyperfine interval of neutral lithium-7",
+          "unit": "Hz"
+        }
+      ],
+      "extraction_rule": "After public registration, transcribe the experimental central interval and its explicitly reported uncertainty for each isotope from the source's experiment-comparison material. Convert to hertz exactly, preserve all reported digits, and do not substitute a theoretical value.",
+      "ambiguity_rule": "If more than one experimental value is tabulated, use the value explicitly selected or recommended by the source authors; if none is selected, stop with PROVENANCE_FAILURE rather than choosing after viewing numerical agreement."
+    }
+  ]
+}

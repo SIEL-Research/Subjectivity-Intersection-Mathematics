@@ -1,0 +1,2 @@
+pyscf==2.14.0
+git+https://github.com/pyscf/properties@4eee5a430fb47eca5962f36fdcaf75c2b87e7ede

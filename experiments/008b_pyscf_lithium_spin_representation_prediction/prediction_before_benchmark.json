@@ -1,0 +1,16 @@
+{
+  "schema": "siel-e008b-prediction-before-benchmark-v1",
+  "target_values_loaded": false,
+  "primary_target": "raw_lithium6_over_lithium7_ground_state_hyperfine_interval_ratio",
+  "predictions": {
+    "full_factorised_generator": 0.28399324742025683,
+    "nuclear_g_only_control": 0.3786576632270091,
+    "representation_only_control": 0.75
+  },
+  "acceptance_half_width_log": 0.07192051811294523,
+  "secondary_absolute_predictions_mhz": {
+    "lithium6_clamped_uhf": 217.07253597376808,
+    "lithium7_clamped_uhf": 764.3580893053467
+  },
+  "classification_order_independent": true
+}

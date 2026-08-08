@@ -1,0 +1,24 @@
+{
+  "schema": "siel-e008b-auxiliary-sources-v1",
+  "sources": [
+    {
+      "id": "doi:10.1016/j.physletb.2023.138189",
+      "title": "Accurate determination of 6,7Li nuclear magnetic moments",
+      "authors": [
+        "Krzysztof Pachucki",
+        "Vojtech Patkos",
+        "Vladimir A. Yerokhin"
+      ],
+      "year": 2023,
+      "url": "https://doi.org/10.1016/j.physletb.2023.138189",
+      "arxiv": "https://arxiv.org/abs/2306.15514",
+      "frozen_values": {
+        "lithium6_magnetic_moment_muN": 0.82204463,
+        "lithium6_standard_uncertainty_muN": 0.00000037,
+        "lithium7_magnetic_moment_muN": 3.25641619,
+        "lithium7_standard_uncertainty_muN": 0.00000057
+      },
+      "independence_note": "Derived from measured atomic nuclear/electron g-factor ratios with shielding calculations; no zero-field target interval is used by E008B."
+    }
+  ]
+}
