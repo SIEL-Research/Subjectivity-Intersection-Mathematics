@@ -92,5 +92,6 @@ outputs, acceptance checks, and claim boundary.
    metabolic, and information-repair perspectives naturally generate a
    distributed third perspective whose self-reentry constitutes one living
    cell by remaking the conditions of continued closure. New disjoint E009
-   seeds, fourteen decision gates, and two separate preregistration/result DOI
-   releases are frozen before confirmatory execution.
+   seeds and fourteen decision gates were frozen before confirmatory execution.
+   All fourteen gates passed, supporting the constitutive realization on the
+   registered reduced dynamics. [Public result](009_constitutive_cell_o3_closure/RESULT.md).

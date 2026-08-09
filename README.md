@@ -163,8 +163,11 @@ intersection is tested as generating a distributed third perspective whose
 return into every process continually constitutes the cell as one living
 whole. The result-informed public confirmation freezes new, disjoint seeds,
 relation-erasure and time-shift controls, relation reinjection, severe-damage
-and nonliving controls, and a fourteen-gate decision rule. It is publicly
-preregistered and not yet executed on the E009 confirmation seeds.
+and nonliving controls, and a fourteen-gate decision rule. The public
+confirmatory run passed all fourteen gates on the new E009 seeds. The result
+supports the constitutive realization: the cell is formed as one living whole
+by the natural emergence and self-reentry of the distributed third perspective.
+[Public result](experiments/009_constitutive_cell_o3_closure/RESULT.md).
 
 ## Research Direction
 

@@ -1,0 +1,29 @@
+{
+  "schema": "siel-experiment-009-result-v1",
+  "experiment": "009_constitutive_cell_o3_closure",
+  "decision": "REDUCED_MODEL_DYNAMIC_O3_SELF_REENTRY_CLOSURE_SUPPORTED",
+  "confirmatory_gates_passed": 14,
+  "confirmatory_gates_total": 14,
+  "heldout_lineage_rows": 224,
+  "registration": {
+    "commit": "05a3d05e4f2a3fa9b600e3ff7813fa6d42cae011",
+    "tag": "e009-preregistration-v1.0.0",
+    "release": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e009-preregistration-v1.0.0",
+    "doi": "10.5281/zenodo.21862026",
+    "manifest_sha256": "10345201daa63551f25d05417f7d8add9f71f53490a9a7c8d54b5048f3161cea"
+  },
+  "execution": {
+    "count": 1,
+    "command": "python3 experiments/009_constitutive_cell_o3_closure/run.py --execute --minimal-cell-root /private/tmp/minimal-cell-life-audit",
+    "training_seed_first": 2026090900,
+    "training_seed_last": 2026090915,
+    "heldout_seed_first": 2026091900,
+    "heldout_seed_last": 2026091931
+  },
+  "files_sha256": {
+    "experiments/009_constitutive_cell_o3_closure/RESULT.md": "1dd487bea27179fe27add26d81c0f2977ba4550ce170d5f55a568446f1df6544",
+    "experiments/009_constitutive_cell_o3_closure/results/lineages.csv": "281389b5e0a645bcdf1b3df69ce5c9a6c5141d4537f295ee9fdcad226b6531a6",
+    "experiments/009_constitutive_cell_o3_closure/results/summary.json": "143dc77898750639407a70f5a0f1ff1d349ab2512dc058b5cdb2336e43aa772e"
+  },
+  "publication_gate": "Publish result commit and e009-results-v1.0.0 separately from the preregistration release, then verify the result DOI."
+}

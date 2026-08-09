@@ -1,0 +1,343 @@
+{
+  "confirmatory_gates": {
+    "G10_mode_is_distributed": true,
+    "G11_mode_reenters_every_component": true,
+    "G12_cross_gain_exceeds_relation_controls": true,
+    "G13_gauge_rescaling_invariant": true,
+    "G14_nonliving_control_fails_life_closure": true,
+    "G1_no_o3_state_installed": true,
+    "G2_no_optimization_objective": true,
+    "G3_native_moderate_damage_recovery": true,
+    "G4_native_reproduction_after_recovery": true,
+    "G5_joint_erasure_closure_loss": true,
+    "G6_time_shift_closure_loss": true,
+    "G7_relation_reinjection_rescue": true,
+    "G8_severe_damage_death_transition": true,
+    "G9_mode_has_all_module_loadings": true
+  },
+  "decision": "REDUCED_MODEL_DYNAMIC_O3_SELF_REENTRY_CLOSURE_SUPPORTED",
+  "experiment": "009_constitutive_cell_o3_closure",
+  "model": {
+    "description": "JCVI-syn3A-anchored reduced stochastic dynamics of boundary, nutrient, ATP, expression, repair, damage, and biomass.",
+    "o3_state_installed": false,
+    "optimization_objective_used": false,
+    "state_names": [
+      "boundary_integrity",
+      "nutrient_pool",
+      "atp_pool",
+      "expression_capacity",
+      "repair_capacity",
+      "damage_load",
+      "biomass"
+    ]
+  },
+  "parameters": {
+    "cross_lag_minutes": 1.0,
+    "damage_end_minutes": 43.0,
+    "damage_start_minutes": 40.0,
+    "death_atp": 0.03,
+    "death_boundary": 0.05,
+    "death_expression": 0.05,
+    "dt_minutes": 0.02,
+    "duration_minutes": 150.0,
+    "gauge_scales": [
+      7.0,
+      0.2,
+      3.0
+    ],
+    "heldout_test_seeds": [
+      2026091900,
+      2026091901,
+      2026091902,
+      2026091903,
+      2026091904,
+      2026091905,
+      2026091906,
+      2026091907,
+      2026091908,
+      2026091909,
+      2026091910,
+      2026091911,
+      2026091912,
+      2026091913,
+      2026091914,
+      2026091915,
+      2026091916,
+      2026091917,
+      2026091918,
+      2026091919,
+      2026091920,
+      2026091921,
+      2026091922,
+      2026091923,
+      2026091924,
+      2026091925,
+      2026091926,
+      2026091927,
+      2026091928,
+      2026091929,
+      2026091930,
+      2026091931
+    ],
+    "moderate_damage_amplitude": 0.6,
+    "reinjection_minutes": 50.0,
+    "severe_damage_amplitude": 1.2,
+    "shift_minutes": 10.0,
+    "train_seeds": [
+      2026090900,
+      2026090901,
+      2026090902,
+      2026090903,
+      2026090904,
+      2026090905,
+      2026090906,
+      2026090907,
+      2026090908,
+      2026090909,
+      2026090910,
+      2026090911,
+      2026090912,
+      2026090913,
+      2026090914,
+      2026090915
+    ]
+  },
+  "results": {
+    "conditions": {
+      "joint_erased": {
+        "alive_count": 0,
+        "alive_fraction": 0.0,
+        "count": 32,
+        "death_count": 32,
+        "median_divisions": 0.0,
+        "median_recovery_ratio": [
+          0.3451503994102653,
+          0.16844526922594433,
+          0.4888972704352123
+        ]
+      },
+      "native": {
+        "alive_count": 32,
+        "alive_fraction": 1.0,
+        "count": 32,
+        "death_count": 0,
+        "median_divisions": 1.0,
+        "median_recovery_ratio": [
+          0.9996971284033329,
+          0.9998173822363221,
+          0.9984751554087063
+        ]
+      },
+      "native_severe": {
+        "alive_count": 0,
+        "alive_fraction": 0.0,
+        "count": 32,
+        "death_count": 32,
+        "median_divisions": 0.0,
+        "median_recovery_ratio": [
+          0.13837965376576267,
+          0.10748288426567074,
+          0.13930264164238026
+        ]
+      },
+      "native_undamaged": {
+        "alive_count": 32,
+        "alive_fraction": 1.0,
+        "count": 32,
+        "death_count": 0,
+        "median_divisions": 1.0,
+        "median_recovery_ratio": [
+          0.9996991733216853,
+          0.9998221135552464,
+          0.9984793817730557
+        ]
+      },
+      "nonliving": {
+        "alive_count": 0,
+        "alive_fraction": 0.0,
+        "count": 32,
+        "death_count": 32,
+        "median_divisions": 0.0,
+        "median_recovery_ratio": [
+          0.18603538362380456,
+          0.25108239726269665,
+          0.2112783017840391
+        ]
+      },
+      "reinjected": {
+        "alive_count": 32,
+        "alive_fraction": 1.0,
+        "count": 32,
+        "death_count": 0,
+        "median_divisions": 0.0,
+        "median_recovery_ratio": [
+          0.9994095243562657,
+          0.9995946601873529,
+          0.9971265649146821
+        ]
+      },
+      "time_shifted": {
+        "alive_count": 0,
+        "alive_fraction": 0.0,
+        "count": 32,
+        "death_count": 32,
+        "median_divisions": 0.0,
+        "median_recovery_ratio": [
+          0.8909201242497786,
+          0.21219428862034406,
+          0.9071104454023011
+        ]
+      }
+    },
+    "emergent_cross_mode": {
+      "cross_eigenvalue": 0.49986682810359323,
+      "cross_matrix": [
+        [
+          0.0,
+          0.24060912453756966,
+          0.10953708775284526
+        ],
+        [
+          0.3108324479733929,
+          0.0,
+          0.06337486487856649
+        ],
+        [
+          0.6682792883655354,
+          0.6197530523423015,
+          0.0
+        ]
+      ],
+      "loadings_boundary_metabolism_information_repair": [
+        0.3505715496196913,
+        0.32915814267408733,
+        0.876786465285929
+      ],
+      "participation_ratio": 1.6185769694432455
+    },
+    "gauge_rescaled_prediction": {
+      "component_scores": [
+        {
+          "component": 0,
+          "cross_gain": 0.18592830169643804,
+          "full_r2": 0.22234719488954324,
+          "self_r2": 0.036418893193105206
+        },
+        {
+          "component": 1,
+          "cross_gain": 0.9589473110234779,
+          "full_r2": 0.9730173804952608,
+          "self_r2": 0.014070069471782909
+        },
+        {
+          "component": 2,
+          "cross_gain": 0.7642304506901361,
+          "full_r2": 0.8181435227438961,
+          "self_r2": 0.05391307205376006
+        }
+      ],
+      "mean_cross_gain": 0.6363686878033507,
+      "minimum_cross_gain": 0.18592830169643804
+    },
+    "joint_erased_prediction_control": {
+      "component_scores": [
+        {
+          "component": 0,
+          "cross_gain": 0.018647868801700884,
+          "full_r2": 0.19798622565310398,
+          "self_r2": 0.1793383568514031
+        },
+        {
+          "component": 1,
+          "cross_gain": 0.7071099050175119,
+          "full_r2": 0.9476749961248085,
+          "self_r2": 0.24056509110729662
+        },
+        {
+          "component": 2,
+          "cross_gain": 0.5394689688094895,
+          "full_r2": 0.6962262284704419,
+          "self_r2": 0.15675725966095244
+        }
+      ],
+      "mean_cross_gain": 0.42174224754290074,
+      "minimum_cross_gain": 0.018647868801700884
+    },
+    "maximum_gauge_cross_gain_difference": 2.220446049250313e-16,
+    "native_self_reentry_prediction": {
+      "component_scores": [
+        {
+          "component": 0,
+          "cross_gain": 0.18592830169643793,
+          "full_r2": 0.22234719488954313,
+          "self_r2": 0.036418893193105206
+        },
+        {
+          "component": 1,
+          "cross_gain": 0.9589473110234781,
+          "full_r2": 0.9730173804952608,
+          "self_r2": 0.014070069471782687
+        },
+        {
+          "component": 2,
+          "cross_gain": 0.764230450690136,
+          "full_r2": 0.818143522743896,
+          "self_r2": 0.05391307205376006
+        }
+      ],
+      "mean_cross_gain": 0.6363686878033507,
+      "minimum_cross_gain": 0.18592830169643793
+    },
+    "time_shifted_prediction_control": {
+      "component_scores": [
+        {
+          "component": 0,
+          "cross_gain": 0.03160361482980101,
+          "full_r2": 0.10811984969436206,
+          "self_r2": 0.07651623486456105
+        },
+        {
+          "component": 1,
+          "cross_gain": 0.08895075204510672,
+          "full_r2": 0.12661682252889317,
+          "self_r2": 0.03766607048378645
+        },
+        {
+          "component": 2,
+          "cross_gain": 0.26586311530215256,
+          "full_r2": 0.280164678327113,
+          "self_r2": 0.01430156302496044
+        }
+      ],
+      "mean_cross_gain": 0.12880582739235344,
+      "minimum_cross_gain": 0.03160361482980101
+    }
+  },
+  "scope": {
+    "constitutive_claim": "A cell is constituted as one living whole when differentiated boundary, metabolic, and information-repair perspectives generate a distributed third perspective whose self-reentry remakes the conditions of their continued intersection.",
+    "not_established": [
+      "the same O3 in a full CME-ODE whole-cell execution",
+      "empirical O3 in living JCVI-syn3A cells",
+      "the ontology by this computation alone"
+    ],
+    "supported_if_positive": "Operational realization of the constitutive claim through natural emergence of a distributed cross-module mode, lagged re-entry into every component, and damage-recovery/death closure in the frozen reduced JCVI-syn3A-anchored model."
+  },
+  "source": {
+    "anchors": {
+      "atp_scale_mm": 4.1622,
+      "cell_radius_m": 2e-07,
+      "central_atp_initial_mm": 3.6529,
+      "external_glucose_mm": 40.0,
+      "lipid_atp_initial_mm": 4.6715,
+      "membrane_gene_count": 93
+    },
+    "commit": "db048aca5fe85438e0129819bbf0314b037dd931",
+    "files_sha256": {
+      "CME_ODE/model_data/Central_AA_Zane_Balanced_direction_fixed_nounqATP.tsv": "3b86daa5d789be833e9fb8e9987cc603b03bc74510aaddc2f66db42322fcc413",
+      "CME_ODE/model_data/GlobalParameters_Zane-TB-DB.csv": "1745c8590b76489ab9d5f923eacb59151a11fccbaea76f4cfa81066a940ec783",
+      "CME_ODE/model_data/lipid_NoH2O_balanced_model.tsv": "b09eee8d8a8fbff4024e138eab2a7c827529abc8bbc8c7f4821bd95c00024fc3",
+      "CME_ODE/model_data/membrane_protein_metabolites.csv": "325f2e5313a49c3f3f52560f90464dfa057836f5280d911230a4b6a6915fb041"
+    },
+    "repository": "https://github.com/Luthey-Schulten-Lab/Minimal_Cell"
+  }
+}
