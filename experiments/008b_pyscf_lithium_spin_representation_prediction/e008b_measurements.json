@@ -1,0 +1,17 @@
+{
+  "schema": "siel-e008b-li-hfs-measurements-v1",
+  "records": [
+    {
+      "id": "lithium6_2s_ground_hfs",
+      "source_id": "doi:10.1103/PhysRevLett.111.243001",
+      "frequency_hz": 228205258.5,
+      "uncertainty_hz": 3.0
+    },
+    {
+      "id": "lithium7_2s_ground_hfs",
+      "source_id": "doi:10.1103/PhysRevLett.111.243001",
+      "frequency_hz": 803504086.6,
+      "uncertainty_hz": 1.0
+    }
+  ]
+}

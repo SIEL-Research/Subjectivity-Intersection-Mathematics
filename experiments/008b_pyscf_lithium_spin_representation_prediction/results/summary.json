@@ -1,0 +1,82 @@
+{
+  "absolute_diagnostics": {
+    "classification_overriding": false,
+    "electronic_scale_relative_basis_proxy": 0.000717906156476737,
+    "lithium6_2s_ground_hfs": {
+      "absolute_log_error": 0.05001391569961752,
+      "clamped_uhf_prediction_mhz": 217.07253597376808,
+      "observed_mhz": 228.2052585,
+      "signed_relative_error": 0.05128572565060585
+    },
+    "lithium7_2s_ground_hfs": {
+      "absolute_log_error": 0.04994588852469124,
+      "clamped_uhf_prediction_mhz": 764.3580893053467,
+      "observed_mhz": 803.5040866,
+      "signed_relative_error": 0.05121421208511001
+    }
+  },
+  "experiment": "008b_pyscf_lithium_spin_representation_prediction",
+  "interpretation": "The primary test asks whether the jointly generated nuclear-g and representation factors predict the raw lithium isotope interval ratio. The PySCF absolute intervals are mandatory secondary diagnostics.",
+  "measurement_file_sha256": "65b80eff5fbda9c11df5de97c6befda0ef65a823ad2666387f8400409d54e7bd",
+  "measurement_records": [
+    {
+      "frequency_hz": 228205258.5,
+      "id": "lithium6_2s_ground_hfs",
+      "source_id": "doi:10.1103/PhysRevLett.111.243001",
+      "uncertainty_hz": 3.0
+    },
+    {
+      "frequency_hz": 803504086.6,
+      "id": "lithium7_2s_ground_hfs",
+      "source_id": "doi:10.1103/PhysRevLett.111.243001",
+      "uncertainty_hz": 1.0
+    }
+  ],
+  "observation": {
+    "measurement_sigma_log": 1.3204839746317206e-08,
+    "ratio_li6_over_li7": 0.2840125673357092
+  },
+  "primary_decision": "FULL_FACTORISED_GENERATOR_SUPPORTED",
+  "primary_diagnostics": {
+    "acceptance_half_width": 0.07192051811294523,
+    "decision": "FULL_FACTORISED_GENERATOR_SUPPORTED",
+    "models": {
+      "full_factorised": {
+        "band_pass": true,
+        "central_log_error": 6.80271749263816e-05,
+        "combined_sigma_log": 4.831154538340453e-07,
+        "prediction": 0.28399324742025683,
+        "three_sigma_log_margin": 1.449346361502136e-06
+      },
+      "nuclear_g_only": {
+        "band_pass": false,
+        "central_log_error": 0.2876140452768545,
+        "combined_sigma_log": 4.831154538340453e-07,
+        "prediction": 0.3786576632270091,
+        "three_sigma_log_margin": 1.449346361502136e-06
+      },
+      "representation_only": {
+        "band_pass": false,
+        "central_log_error": 0.9710547181661302,
+        "combined_sigma_log": 1.3204839746317206e-08,
+        "prediction": 0.75,
+        "three_sigma_log_margin": 3.961451923895162e-08
+      }
+    },
+    "passing_models": [
+      "full_factorised"
+    ]
+  },
+  "registered_predictions": {
+    "acceptance_half_width": 0.07192051811294523,
+    "clamped_interval_li6_mhz": 217.07253597376808,
+    "clamped_interval_li7_mhz": 764.3580893053467,
+    "full_factorised_ratio_li6_over_li7": 0.28399324742025683,
+    "moment_model_sigma_log": 4.829349582920557e-07,
+    "nearest_primary_control_log_separation": 0.2876820724517809,
+    "nuclear_g_li6": 0.82204463,
+    "nuclear_g_li7": 2.1709441266666665,
+    "nuclear_g_only_ratio_li6_over_li7": 0.3786576632270091,
+    "representation_only_ratio_li6_over_li7": 0.75
+  }
+}
