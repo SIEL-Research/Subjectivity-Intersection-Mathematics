@@ -1,0 +1,30 @@
+{
+  "schema": "siel-experiment-009-registration-v1",
+  "experiment": "009_constitutive_cell_o3_closure",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "confirmatory_seed_execution_performed": false,
+  "result_informed_by": "LIFE-004_dynamic_o3_self_reentry_life_closure",
+  "source_commit": "db048aca5fe85438e0129819bbf0314b037dd931",
+  "source_sha256": {
+    "experiments/009_constitutive_cell_o3_closure/PREREGISTRATION.md": "81a834729c357902f154299a1ccbe7f5bfb9edb1bf509e481c36c8eb73e04a73",
+    "experiments/009_constitutive_cell_o3_closure/README.md": "35e267939120f386dec25e1a6d751be078a99bd5a436cc41005f9750d986b6b4",
+    "experiments/009_constitutive_cell_o3_closure/THEORY_BRIDGE.md": "1fc7b7d6440c78f26d6a1fb57824a56a0d5e81b40e937d95ebfea68c3f2e6297",
+    "experiments/009_constitutive_cell_o3_closure/core.py": "ae8186180bfce424cb2b18fc4014c1417d9ab4a225d216b521811cda3e120500",
+    "experiments/009_constitutive_cell_o3_closure/requirements-e009.txt": "e5f223cf307a68a2b0f25aba3e415f62caa06e2fdd7cf008f901af18dd6e31aa",
+    "experiments/009_constitutive_cell_o3_closure/run.py": "5b0a0da2c62cd6701125ef5370e348df767a2f34b0e65d69b37df338c99293bd",
+    "experiments/009_constitutive_cell_o3_closure/tests/test_e009.py": "d739581f8196adda3bba982014aedd1b5fe72d77b8dce4fbb76dd71a7b70c4c2"
+  },
+  "official_input_sha256": {
+    "CME_ODE/model_data/Central_AA_Zane_Balanced_direction_fixed_nounqATP.tsv": "3b86daa5d789be833e9fb8e9987cc603b03bc74510aaddc2f66db42322fcc413",
+    "CME_ODE/model_data/GlobalParameters_Zane-TB-DB.csv": "1745c8590b76489ab9d5f923eacb59151a11fccbaea76f4cfa81066a940ec783",
+    "CME_ODE/model_data/lipid_NoH2O_balanced_model.tsv": "b09eee8d8a8fbff4024e138eab2a7c827529abc8bbc8c7f4821bd95c00024fc3",
+    "CME_ODE/model_data/membrane_protein_metabolites.csv": "325f2e5313a49c3f3f52560f90464dfa057836f5280d911230a4b6a6915fb041"
+  },
+  "train_seeds": [2026090900, 2026090915],
+  "heldout_seeds": [2026091900, 2026091931],
+  "execution_gate": "Do not execute E009 confirmation seeds until the public preregistration commit, e009-preregistration-v1.0.0 GitHub Release, and preregistration DOI are verified.",
+  "publication_releases": [
+    "e009-preregistration-v1.0.0",
+    "e009-results-v1.0.0"
+  ]
+}

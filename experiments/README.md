@@ -86,3 +86,11 @@ outputs, acceptance checks, and claim boundary.
     prediction were both supported. The O3 transport criterion passed in 190
     of 192 interaction architecture-seed units.
     [Public result report](006r_spontaneous_o3_reentry_revised/PUBLIC_RESULT_REPORT.md).
+
+9. [Constitutive Cell O3 Closure](009_constitutive_cell_o3_closure/README.md) —
+   result-informed public confirmation of whether differentiated boundary,
+   metabolic, and information-repair perspectives naturally generate a
+   distributed third perspective whose self-reentry constitutes one living
+   cell by remaking the conditions of continued closure. New disjoint E009
+   seeds, fourteen decision gates, and two separate preregistration/result DOI
+   releases are frozen before confirmatory execution.

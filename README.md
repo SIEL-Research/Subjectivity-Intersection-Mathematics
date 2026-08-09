@@ -66,6 +66,7 @@ preserved.
 - [Experiment 005 — Emergent Relational-Carrier Solution Class](experiments/005_emergent_relational_carrier_solution_class/README.md)
 - [Experiment 006 — Spontaneous Operational O3 Re-entry](experiments/006_spontaneous_o3_reentry/README.md)
 - [Experiment 006R — Revised Confirmation of Spontaneous Operational O3 Re-entry](experiments/006r_spontaneous_o3_reentry_revised/README.md)
+- [Experiment 009 — Constitutive Cell O3 Closure](experiments/009_constitutive_cell_o3_closure/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
@@ -153,6 +154,17 @@ readout and cannot alter the primary decision. Both decisions were supported:
 the O3 transport criterion passed in 190 of 192 interaction architecture-seed
 units, while the individual-history comparison confirmed a distinct
 distributed-representation boundary. [Public result report](experiments/006r_spontaneous_o3_reentry_revised/PUBLIC_RESULT_REPORT.md).
+
+Experiment 009 transfers the naturally emergent O3 and self-reentry method to
+the constitution of a living cell. It reverses the object-first explanatory
+order: boundary, metabolism, and information-repair are not treated merely as
+functions possessed by an already constituted cell. Their differentiated
+intersection is tested as generating a distributed third perspective whose
+return into every process continually constitutes the cell as one living
+whole. The result-informed public confirmation freezes new, disjoint seeds,
+relation-erasure and time-shift controls, relation reinjection, severe-damage
+and nonliving controls, and a fourteen-gate decision rule. It is publicly
+preregistered and not yet executed on the E009 confirmation seeds.
 
 ## Research Direction
 
