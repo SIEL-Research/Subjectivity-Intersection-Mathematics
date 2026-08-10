@@ -1,0 +1,312 @@
+{
+  "complete_carrier_definition": "H_H4plus(R)-H_four_isolated_H_centres_in_matched_basis",
+  "decision": "COMPLETE_MOLECULAR_CARRIER_TRANSFER_SUPPORTED",
+  "experiment": "010_complete_molecular_carrier_transfer",
+  "profiles": {
+    "6-31g": {
+      "absolute_population_changes": [
+        0.03741779476453744,
+        0.037417794764533996,
+        0.03741779476453522,
+        0.03741779476453577
+      ],
+      "edge_deleted_centre_populations": [
+        0.712582205235468,
+        0.7125822052354656,
+        0.7874177947645303,
+        0.7874177947645353
+      ],
+      "edge_deleted_energy_at_full_minimum_hartree": -1.718342664944604,
+      "eigenbasis_complete_h1_carrier_norm": 2.7219336160056073,
+      "eigenbasis_naive_offdiagonal_h_norm": 2.221475329158637e-15,
+      "fraction_binding_removed": 1.0607512159981694,
+      "full_binding_depth_hartree": 0.26743565751524856,
+      "full_centre_populations": [
+        0.7500000000000054,
+        0.7499999999999996,
+        0.7499999999999951,
+        0.7499999999999996
+      ],
+      "full_energy_recomputed_hartree": -1.7621678895433028,
+      "gates": {
+        "complete_carrier_metrics_are_representation_invariant": true,
+        "complete_carrier_survives_hamiltonian_diagonalization": true,
+        "complete_deletion_is_flat": true,
+        "exact_five_sector_reconstruction": true,
+        "finite_interior_full_binding": true,
+        "one_electron_cross_deletion_removes_registered_fraction": true,
+        "residual_shapley_sum_is_exact": true,
+        "single_edge_deletion_changes_every_centre": true,
+        "single_edge_deletion_reorganizes_geometry": true
+      },
+      "geometry_displacement_angstrom": 0.6000000000000001,
+      "isolated_energy_range_hartree": 0.0,
+      "minima": {
+        "full": {
+          "a_angstrom": 1.6999999999999997,
+          "b_angstrom": 0.8999999999999999,
+          "basis": "6-31g",
+          "energy_hartree": -1.7621678895433028,
+          "mode": "full"
+        },
+        "one_electron_cross_deleted": {
+          "a_angstrom": 2.4999999999999996,
+          "b_angstrom": 2.4999999999999996,
+          "basis": "6-31g",
+          "energy_hartree": -1.478451887483678,
+          "mode": "one_electron_cross_deleted"
+        },
+        "without_edge_01": {
+          "a_angstrom": 2.3,
+          "b_angstrom": 0.8999999999999999,
+          "basis": "6-31g",
+          "energy_hartree": -1.7259452250414524,
+          "mode": "without_edge_01"
+        }
+      },
+      "reconstruction_errors": {
+        "core_abs": 0.0,
+        "eri_max_abs": 0.0,
+        "h1_max_abs": 1.1102230246251565e-16
+      },
+      "representation_maximum_error": 1.532107773982716e-13,
+      "residual_binding_depth_hartree": -0.016247041395321293,
+      "residual_shapley": {
+        "residual_binding_signal_hartree": -0.016247041395321293,
+        "shapley_hartree": {
+          "cross_eri": -0.32242409647018805,
+          "local_deformation": -0.018079985886734984,
+          "nuclear_repulsion": -0.6685183008610942,
+          "other_nucleus_local": 0.9927753418226959
+        },
+        "shapley_sum_error_hartree": 1.1102230246251565e-16
+      }
+    },
+    "cc-pvdz": {
+      "absolute_population_changes": [
+        0.06091426192567817,
+        0.060863560910150105,
+        0.06093981788412228,
+        0.060838004951704994
+      ],
+      "edge_deleted_centre_populations": [
+        0.6890839540001553,
+        0.6891382511837812,
+        0.8109411251638795,
+        0.8108366696521844
+      ],
+      "edge_deleted_energy_at_full_minimum_hartree": -1.708912184979876,
+      "eigenbasis_complete_h1_carrier_norm": 4.786723060977848,
+      "eigenbasis_naive_offdiagonal_h_norm": 5.122044173628455e-15,
+      "fraction_binding_removed": 1.0776711819670564,
+      "full_binding_depth_hartree": 0.3078949263302828,
+      "full_centre_populations": [
+        0.7499982159258335,
+        0.7500018120939314,
+        0.7500013072797572,
+        0.7499986647004794
+      ],
+      "full_energy_recomputed_hartree": -1.8058766800961163,
+      "gates": {
+        "complete_carrier_metrics_are_representation_invariant": true,
+        "complete_carrier_survives_hamiltonian_diagonalization": true,
+        "complete_deletion_is_flat": true,
+        "exact_five_sector_reconstruction": true,
+        "finite_interior_full_binding": true,
+        "one_electron_cross_deletion_removes_registered_fraction": true,
+        "residual_shapley_sum_is_exact": true,
+        "single_edge_deletion_changes_every_centre": true,
+        "single_edge_deletion_reorganizes_geometry": true
+      },
+      "geometry_displacement_angstrom": 0.9999999999999998,
+      "isolated_energy_range_hartree": 0.0,
+      "minima": {
+        "full": {
+          "a_angstrom": 1.4999999999999998,
+          "b_angstrom": 0.8999999999999999,
+          "basis": "cc-pvdz",
+          "energy_hartree": -1.8058766800961163,
+          "mode": "full"
+        },
+        "one_electron_cross_deleted": {
+          "a_angstrom": 2.4999999999999996,
+          "b_angstrom": 2.4999999999999996,
+          "basis": "cc-pvdz",
+          "energy_hartree": -1.473964781959075,
+          "mode": "one_electron_cross_deleted"
+        },
+        "without_edge_01": {
+          "a_angstrom": 2.4999999999999996,
+          "b_angstrom": 0.8999999999999999,
+          "basis": "cc-pvdz",
+          "energy_hartree": -1.7497840338658452,
+          "mode": "without_edge_01"
+        }
+      },
+      "reconstruction_errors": {
+        "core_abs": 0.0,
+        "eri_max_abs": 3.469446951953614e-18,
+        "h1_max_abs": 5.551115123125783e-17
+      },
+      "representation_maximum_error": 5.5349351768541055e-09,
+      "residual_binding_depth_hartree": -0.023914562849732812,
+      "residual_shapley": {
+        "residual_binding_signal_hartree": -0.023914562849732812,
+        "shapley_hartree": {
+          "cross_eri": -0.31950513656732354,
+          "local_deformation": -0.024312617188596914,
+          "nuclear_repulsion": -0.6685183008610942,
+          "other_nucleus_local": 0.9884214917672818
+        },
+        "shapley_sum_error_hartree": 1.2836953722228372e-16
+      }
+    },
+    "sto-3g": {
+      "absolute_population_changes": [
+        0.12907991976878563,
+        0.12907991976877342,
+        0.12907991976878153,
+        0.12907991976877797
+      ],
+      "edge_deleted_centre_populations": [
+        0.6209200802312144,
+        0.6209200802312237,
+        0.8790799197687811,
+        0.8790799197687811
+      ],
+      "edge_deleted_energy_at_full_minimum_hartree": -1.4406451619146514,
+      "eigenbasis_complete_h1_carrier_norm": 2.0747890627182093,
+      "eigenbasis_naive_offdiagonal_h_norm": 1.2705530382996787e-15,
+      "fraction_binding_removed": 1.0104115459191583,
+      "full_binding_depth_hartree": 0.3438220606705813,
+      "full_centre_populations": [
+        0.75,
+        0.7499999999999971,
+        0.7499999999999996,
+        0.7500000000000031
+      ],
+      "full_energy_recomputed_hartree": -1.7435782477181476,
+      "gates": {
+        "complete_carrier_metrics_are_representation_invariant": true,
+        "complete_carrier_survives_hamiltonian_diagonalization": true,
+        "complete_deletion_is_flat": true,
+        "exact_five_sector_reconstruction": true,
+        "finite_interior_full_binding": true,
+        "one_electron_cross_deletion_removes_registered_fraction": true,
+        "residual_shapley_sum_is_exact": true,
+        "single_edge_deletion_changes_every_centre": true,
+        "single_edge_deletion_reorganizes_geometry": true
+      },
+      "geometry_displacement_angstrom": 1.2206555615733699,
+      "isolated_energy_range_hartree": 0.0,
+      "minima": {
+        "full": {
+          "a_angstrom": 0.8999999999999999,
+          "b_angstrom": 1.5999999999999996,
+          "basis": "sto-3g",
+          "energy_hartree": -1.7435782477181476,
+          "mode": "full"
+        },
+        "one_electron_cross_deleted": {
+          "a_angstrom": 2.4999999999999996,
+          "b_angstrom": 2.4999999999999996,
+          "basis": "sto-3g",
+          "energy_hartree": -1.3961658846302292,
+          "mode": "one_electron_cross_deleted"
+        },
+        "without_edge_01": {
+          "a_angstrom": 1.8999999999999997,
+          "b_angstrom": 0.8999999999999999,
+          "basis": "sto-3g",
+          "energy_hartree": -1.7129851336193047,
+          "mode": "without_edge_01"
+        }
+      },
+      "reconstruction_errors": {
+        "core_abs": 0.0,
+        "eri_max_abs": 0.0,
+        "h1_max_abs": 2.220446049250313e-16
+      },
+      "representation_maximum_error": 7.993605777301127e-15,
+      "residual_binding_depth_hartree": -0.003579719172691398,
+      "residual_shapley": {
+        "residual_binding_signal_hartree": -0.003579719172691398,
+        "shapley_hartree": {
+          "cross_eri": -0.3307638394503066,
+          "local_deformation": -0.006847360459716049,
+          "nuclear_repulsion": -0.6685183008610942,
+          "other_nucleus_local": 1.0025497815984252
+        },
+        "shapley_sum_error_hartree": 1.48318857196017e-16
+      }
+    }
+  },
+  "registration_receipt": {
+    "commit": "56f6d20a77b65e70eed7ab7ada27f6198ad62332",
+    "doi": "10.5281/zenodo.21865563",
+    "release_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e010-preregistration-v1.0.0",
+    "schema": "siel-e010-registration-receipt-v1",
+    "tag": "e010-preregistration-v1.0.0"
+  },
+  "scope": {
+    "not_established": [
+      "a new physical interaction",
+      "numerical predictions unavailable to standard quantum chemistry",
+      "ontological O3 by computation alone",
+      "laboratory confirmation"
+    ],
+    "tested": "Prospective four-centre transfer of the complete molecular-carrier operation."
+  },
+  "target_registry": {
+    "basis_profiles": [
+      "sto-3g",
+      "6-31g",
+      "cc-pvdz"
+    ],
+    "dissociation_reference_angstrom": [
+      6.0,
+      6.0
+    ],
+    "random_rotation_seeds": [
+      1010,
+      2020,
+      3030
+    ],
+    "schema": "siel-e010-target-registry-v1",
+    "shape_grid_angstrom": {
+      "maximum": 2.5,
+      "minimum": 0.7,
+      "step": 0.1
+    },
+    "target": {
+      "atoms": [
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "charge": 1,
+      "deleted_edge": [
+        0,
+        1
+      ],
+      "electron_count": 3,
+      "geometry": "rectangle with width a and height b",
+      "name": "H4_plus_rectangle",
+      "spin": 1
+    },
+    "target_execution_performed": false,
+    "thresholds": {
+      "maximum_complete_deletion_energy_range_hartree": 1e-10,
+      "maximum_eigenbasis_naive_offdiagonal_norm": 1e-09,
+      "maximum_reconstruction_error": 1e-10,
+      "maximum_representation_metric_error": 1e-08,
+      "maximum_shapley_sum_error_hartree": 1e-10,
+      "minimum_absolute_population_change_each_centre": 0.0001,
+      "minimum_deleted_edge_geometry_displacement_angstrom": 0.2,
+      "minimum_eigenbasis_complete_h1_carrier_norm": 0.1,
+      "minimum_fraction_removed_by_one_electron_cross_deletion": 0.9,
+      "minimum_full_binding_depth_hartree": 0.005
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "siel-experiment-010-result-v1",
+  "experiment": "010_complete_molecular_carrier_transfer",
+  "decision": "COMPLETE_MOLECULAR_CARRIER_TRANSFER_SUPPORTED",
+  "gates_passed": 27,
+  "gates_total": 27,
+  "single_registered_execution_count": 1,
+  "registration": {
+    "commit": "56f6d20a77b65e70eed7ab7ada27f6198ad62332",
+    "tag": "e010-preregistration-v1.0.0",
+    "doi": "10.5281/zenodo.21865563"
+  },
+  "environment": {
+    "numpy": "2.0.2",
+    "pyscf": "2.14.0"
+  },
+  "runtime_warnings_disclosed": true,
+  "reruns_or_result_informed_repairs": 0,
+  "result_release_tag": "e010-results-v1.0.0",
+  "zenodo_doi": null,
+  "result_sha256": {
+    "EXECUTION_NOTE.md": "07b8817512313d01625148fc03dacb61b5fc30f0a29b3f8b9ae8d312048a978d",
+    "RESULT.md": "3e81e75903fb88496b32697a26aff8bf85dfb5f287db6f2cb06e570352ec2d14",
+    "registration_receipt.json": "ab91feaf56da24ed90246bc01d420c2150df1de0726da1c77569f8d6a5281e25",
+    "representation_audit.csv": "e7fb2d47ccf5435b72885bc3563d2389daf3c6b8a1106d1da49cbcc18b7efe56",
+    "residual_subsets.csv": "74d00ecc58557129f822932181d2766554ca8637c9c5f45fc064833420ab9b9d",
+    "shape_surfaces.csv": "066b99469de8f6025c29bfcc7b9812e955bfcb5b3f82249b4635c648cac3838a",
+    "summary.json": "912e38c8d2104f0f2e508bc3ae764ca43fcd672ed7eaf01cb8fdcb95bc713b93"
+  }
+}
