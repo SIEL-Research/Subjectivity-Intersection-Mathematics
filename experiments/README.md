@@ -104,3 +104,11 @@ outputs, acceptance checks, and claim boundary.
     reconstruction, representation covariance, and residual Shapley closure.
     Target execution is forbidden until the preregistration Release and DOI
     are public and verified.
+
+11. [Prospective Renormalized Cross-Scale Closure Prediction](011_renormalized_cross_scale_closure_prediction/README.md) —
+    held-out confirmation of whether one frozen effective mediator threshold
+    predicts distinct raw survival thresholds under three previously
+    unexecuted bridge representations. The registration freezes new exponents,
+    seeds, predictions, full curves, and seven decision gates. Target execution
+    is forbidden until the preregistration Release and DOI are public and
+    verified.

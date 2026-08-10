@@ -68,6 +68,7 @@ preserved.
 - [Experiment 006R — Revised Confirmation of Spontaneous Operational O3 Re-entry](experiments/006r_spontaneous_o3_reentry_revised/README.md)
 - [Experiment 009 — Constitutive Cell O3 Closure](experiments/009_constitutive_cell_o3_closure/README.md)
 - [Experiment 010 — Complete Molecular Carrier Transfer](experiments/010_complete_molecular_carrier_transfer/README.md)
+- [Experiment 011 — Prospective Renormalized Cross-Scale Closure Prediction](experiments/011_renormalized_cross_scale_closure_prediction/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
@@ -178,6 +179,18 @@ single-edge interventions, geometry and local-population consequences,
 representation covariance, residual attribution, and explicit mixed and
 negative decisions. The target must not run before the first public Release
 and DOI are verified. [Preregistration package](experiments/010_complete_molecular_carrier_transfer/PREREGISTRATION.md).
+
+Experiment 011 prospectively tests the integration result obtained after the
+atomic, molecular, and cellular experiments. Private INT-001 through INT-003
+exploration found that raw closure thresholds depend on bridge
+representation, while the transformed effective mediator threshold remained
+nearly invariant. E011 freezes that exploratory reference and predicts three
+previously unexecuted raw thresholds at held-out bridge exponents, with new
+seeds, complete survival curves, and seven decision gates. This is a
+confirmatory test inside the frozen reduced bridge, not an ab initio
+atom-to-cell calculation or empirical biological confirmation. The targets
+must not run before the first public Release and DOI are verified.
+[Preregistration package](experiments/011_renormalized_cross_scale_closure_prediction/PREREGISTRATION.md).
 
 ## Research Direction
 

@@ -1,0 +1,51 @@
+{
+  "schema": "siel-e011-target-registry-v1",
+  "status": "FROZEN_TARGETS_NOT_EXECUTED",
+  "explored_bridge_exponents": [0.5, 1.0, 2.0],
+  "frozen_mediator_reference": 0.506944,
+  "reference_origin": "median exploratory mediator threshold; numerically equal to the q=1 exploratory value",
+  "heldout_target_families": [
+    {
+      "name": "heldout_q_0_75",
+      "bridge_exponent": 0.75,
+      "ensemble_seed": 2026130100
+    },
+    {
+      "name": "heldout_q_1_25",
+      "bridge_exponent": 1.25,
+      "ensemble_seed": 2026130200
+    },
+    {
+      "name": "heldout_q_1_50",
+      "bridge_exponent": 1.5,
+      "ensemble_seed": 2026130300
+    }
+  ],
+  "lineages_per_coupling": 96,
+  "coupling_scan": {
+    "minimum": 0.4,
+    "maximum": 0.92,
+    "step": 0.002
+  },
+  "predictions": {
+    "heldout_q_0_75": {
+      "lambda_90": 0.6357797016112381,
+      "mediator_90": 0.506944
+    },
+    "heldout_q_1_25": {
+      "lambda_90": 0.7620509255820336,
+      "mediator_90": 0.506944
+    },
+    "heldout_q_1_50": {
+      "lambda_90": 0.7973579507418472,
+      "mediator_90": 0.506944
+    }
+  },
+  "decision_thresholds": {
+    "lambda_absolute_error_max": 0.01,
+    "mediator_absolute_error_max": 0.012,
+    "mediator_range_max": 0.02,
+    "raw_lambda_range_min": 0.1,
+    "transformed_curve_rmse_max": 0.05
+  }
+}

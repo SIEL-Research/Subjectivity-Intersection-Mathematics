@@ -1,0 +1,18 @@
+{
+  "schema": "siel-e011-exploration-provenance-v1",
+  "source_series": ["INT-001", "INT-002", "INT-003"],
+  "status": "DISCLOSED_RESULT_INFORMED_EXPLORATION",
+  "explored_bridge_exponents": [0.5, 1.0, 2.0],
+  "exploratory_lambda_90": [0.504, 0.712, 0.844],
+  "exploratory_mediator_90": [0.504, 0.506944, 0.5074225768959999],
+  "exploratory_mediator_range": 0.003422576895999896,
+  "exploratory_transformed_curve_pooled_rmse": 0.0077680460290566085,
+  "frozen_reference_rule": "median exploratory mediator_90",
+  "frozen_mediator_reference": 0.506944,
+  "heldout_bridge_exponents_not_executed_at_registration": [0.75, 1.25, 1.5],
+  "exploration_decisions": {
+    "renormalized_fractal_closure_in_reduced_model": "SUPPORTED_EXPLORATORILY",
+    "universal_0_72_constant": "NOT_SUPPORTED",
+    "GMR_or_pentagonal_identification": "NOT_SUPPORTED"
+  }
+}

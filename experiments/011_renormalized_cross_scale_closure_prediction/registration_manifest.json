@@ -1,0 +1,28 @@
+{
+  "schema": "siel-experiment-011-registration-v1",
+  "experiment": "011_renormalized_cross_scale_closure_prediction",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "target_execution_performed": false,
+  "result_informed_by": "INT-001_through_INT-003_private_integration_exploration",
+  "source_sha256": {
+    "experiments/011_renormalized_cross_scale_closure_prediction/PREREGISTRATION.md": "be6d21bf2984999642d7e00ddfe7d154784274b345ff01f1d7cd8a12785f7454",
+    "experiments/011_renormalized_cross_scale_closure_prediction/README.md": "054679f64282999fd7eafd853021b4a836e7aed176832696d0e8828fd46a436d",
+    "experiments/011_renormalized_cross_scale_closure_prediction/TECHNICAL_SPECIFICATION.md": "0df694507b6a33b1f910f201915a15b24a1b5d6e9952a232e2bbb54aef8a3f9a",
+    "experiments/011_renormalized_cross_scale_closure_prediction/THEORY_BRIDGE.md": "f8e014fb0c9fc58e8f29b580a6c7935d15b906c9df455774591e46301452050f",
+    "experiments/011_renormalized_cross_scale_closure_prediction/cell_core.py": "ae8186180bfce424cb2b18fc4014c1417d9ab4a225d216b521811cda3e120500",
+    "experiments/011_renormalized_cross_scale_closure_prediction/exploration_provenance.json": "01f6f3d0e58c03c10e557478c5e18e761597818d264128e81f32655b21c59533",
+    "experiments/011_renormalized_cross_scale_closure_prediction/requirements-e011.txt": "5e7cb66d2a3374454132a5ff73596f40061357a52fe40d3f100840077d8cc547",
+    "experiments/011_renormalized_cross_scale_closure_prediction/run.py": "7a4445d0282b6d64154f970e7bf1648fcbe447563073e997a73ec2b44b109d39",
+    "experiments/011_renormalized_cross_scale_closure_prediction/target_registry.json": "8845d4317ce2165a2e6fab54ef60b1f37f4b876f7e18cf3b4a60686671343022",
+    "experiments/011_renormalized_cross_scale_closure_prediction/tests/test_e011.py": "292f50cdd1e95fef9725276053465169b63c3b67f31a58ba4d0cc80bdc96c1e7"
+  },
+  "execution_gate": "Do not simulate any registered E011 target family until the public registration commit, e011-preregistration-v1.0.0 GitHub Release, and preregistration DOI are verified.",
+  "publication_releases": [
+    "e011-preregistration-v1.0.0",
+    "e011-results-v1.0.0"
+  ],
+  "release": {
+    "tag": "e011-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}
