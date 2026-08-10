@@ -1,0 +1,27 @@
+{
+  "schema": "siel-experiment-010-registration-v1",
+  "experiment": "010_complete_molecular_carrier_transfer",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "target_execution_performed": false,
+  "result_informed_by": "MOL-001_through_MOL-010_private_exploration",
+  "target": "H4_plus_rectangle_three_electron_four_centre",
+  "source_sha256": {
+    "experiments/010_complete_molecular_carrier_transfer/PREREGISTRATION.md": "4190ded0848389671fe70ce60351b6401f5cfa2c95afcd14b91cfc42e3e081d1",
+    "experiments/010_complete_molecular_carrier_transfer/README.md": "6d8d079b4c6547a2af5d6d335c5e5b78a241798e5daa2bde28c15cc078a5c7aa",
+    "experiments/010_complete_molecular_carrier_transfer/TECHNICAL_SPECIFICATION.md": "86f3b14908f35192ecf572c3e4fd31fc2ffa98afa60df57105ab5d1454d80d98",
+    "experiments/010_complete_molecular_carrier_transfer/THEORY_BRIDGE.md": "e91cde82651af9e470bc7fb347b7f4670210c56d3dd5e6e43d329fd67ad5b256",
+    "experiments/010_complete_molecular_carrier_transfer/requirements-e010.txt": "554d265372e281a7e431739085f9574e4a84412cc35521495f1b3fdf7f4044d4",
+    "experiments/010_complete_molecular_carrier_transfer/run.py": "b476b15cc02f75fa7ce6d988807338942be92caf0030cdee4145cee437161563",
+    "experiments/010_complete_molecular_carrier_transfer/target_registry.json": "b3518be4f0ff519de18973e432c9810366a5b355298c4445c2e6895c7bbb615a",
+    "experiments/010_complete_molecular_carrier_transfer/tests/test_e010.py": "8188a57fc2c7837bee7e5badef4442123cd1aa172734e51451ed1018f9eb544d"
+  },
+  "execution_gate": "Do not evaluate any registered H4+ target integral, energy, density, population, geometry surface, or decision until the public registration commit, e010-preregistration-v1.0.0 GitHub Release, and preregistration DOI are verified.",
+  "publication_releases": [
+    "e010-preregistration-v1.0.0",
+    "e010-results-v1.0.0"
+  ],
+  "release": {
+    "tag": "e010-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}

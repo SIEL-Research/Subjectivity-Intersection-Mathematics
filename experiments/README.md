@@ -95,3 +95,12 @@ outputs, acceptance checks, and claim boundary.
    seeds and fourteen decision gates were frozen before confirmatory execution.
    All fourteen gates passed, supporting the constitutive realization on the
    registered reduced dynamics. [Public result](009_constitutive_cell_o3_closure/RESULT.md).
+
+10. [Complete Molecular Carrier Transfer](010_complete_molecular_carrier_transfer/README.md) —
+    prospective transfer of the complete molecular-minus-isolated carrier to
+    an unexecuted four-centre `H4+` target across three basis families. The
+    frozen package tests complete deletion, one-electron-sector deletion,
+    single-edge geometry and all-centre population effects, exact sector
+    reconstruction, representation covariance, and residual Shapley closure.
+    Target execution is forbidden until the preregistration Release and DOI
+    are public and verified.

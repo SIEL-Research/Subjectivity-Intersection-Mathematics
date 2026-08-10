@@ -1,0 +1,33 @@
+{
+  "schema": "siel-e010-target-registry-v1",
+  "target_execution_performed": false,
+  "target": {
+    "name": "H4_plus_rectangle",
+    "atoms": ["H", "H", "H", "H"],
+    "charge": 1,
+    "spin": 1,
+    "electron_count": 3,
+    "geometry": "rectangle with width a and height b",
+    "deleted_edge": [0, 1]
+  },
+  "basis_profiles": ["sto-3g", "6-31g", "cc-pvdz"],
+  "shape_grid_angstrom": {
+    "minimum": 0.7,
+    "maximum": 2.5,
+    "step": 0.1
+  },
+  "dissociation_reference_angstrom": [6.0, 6.0],
+  "random_rotation_seeds": [1010, 2020, 3030],
+  "thresholds": {
+    "minimum_full_binding_depth_hartree": 0.005,
+    "minimum_fraction_removed_by_one_electron_cross_deletion": 0.9,
+    "minimum_deleted_edge_geometry_displacement_angstrom": 0.2,
+    "minimum_absolute_population_change_each_centre": 0.0001,
+    "maximum_complete_deletion_energy_range_hartree": 1e-10,
+    "maximum_reconstruction_error": 1e-10,
+    "maximum_representation_metric_error": 1e-8,
+    "maximum_eigenbasis_naive_offdiagonal_norm": 1e-9,
+    "minimum_eigenbasis_complete_h1_carrier_norm": 0.1,
+    "maximum_shapley_sum_error_hartree": 1e-10
+  }
+}

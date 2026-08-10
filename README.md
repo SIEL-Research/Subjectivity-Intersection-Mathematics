@@ -67,6 +67,7 @@ preserved.
 - [Experiment 006 — Spontaneous Operational O3 Re-entry](experiments/006_spontaneous_o3_reentry/README.md)
 - [Experiment 006R — Revised Confirmation of Spontaneous Operational O3 Re-entry](experiments/006r_spontaneous_o3_reentry_revised/README.md)
 - [Experiment 009 — Constitutive Cell O3 Closure](experiments/009_constitutive_cell_o3_closure/README.md)
+- [Experiment 010 — Complete Molecular Carrier Transfer](experiments/010_complete_molecular_carrier_transfer/README.md)
 
 Experiment 001 is an exact finite calibration benchmark. It tests whether the
 seven evidence gates can distinguish a path-ordered relational state from
@@ -168,6 +169,15 @@ confirmatory run passed all fourteen gates on the new E009 seeds. The result
 supports the constitutive realization: the cell is formed as one living whole
 by the natural emergence and self-reentry of the distributed third perspective.
 [Public result](experiments/009_constitutive_cell_o3_closure/RESULT.md).
+
+Experiment 010 prospectively transfers the complete molecular-carrier
+operation from private MOL-001 through MOL-010 exploration to an unexecuted
+four-centre, three-electron `H4+` target. The preregistration freezes three
+basis profiles, exact molecular-minus-isolated decomposition, complete and
+single-edge interventions, geometry and local-population consequences,
+representation covariance, residual attribution, and explicit mixed and
+negative decisions. The target must not run before the first public Release
+and DOI are verified. [Preregistration package](experiments/010_complete_molecular_carrier_transfer/PREREGISTRATION.md).
 
 ## Research Direction
 
