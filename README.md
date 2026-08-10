@@ -188,9 +188,12 @@ nearly invariant. E011 freezes that exploratory reference and predicts three
 previously unexecuted raw thresholds at held-out bridge exponents, with new
 seeds, complete survival curves, and seven decision gates. This is a
 confirmatory test inside the frozen reduced bridge, not an ab initio
-atom-to-cell calculation or empirical biological confirmation. The targets
-must not run before the first public Release and DOI are verified.
-[Preregistration package](experiments/011_renormalized_cross_scale_closure_prediction/PREREGISTRATION.md).
+atom-to-cell calculation or empirical biological confirmation. After the
+first public Release and DOI were verified, the single registered execution
+passed all seven gates. The three predicted raw `lambda_90` values were
+observed within `0.001780`, their raw range was `0.164`, and their transformed
+mediator range was `0.00335269054`; the transformed survival curves had pooled
+RMSE `0.00419619715`. [Registered result](experiments/011_renormalized_cross_scale_closure_prediction/results/RESULT.md).
 
 ## Research Direction
 

@@ -109,6 +109,8 @@ outputs, acceptance checks, and claim boundary.
     held-out confirmation of whether one frozen effective mediator threshold
     predicts distinct raw survival thresholds under three previously
     unexecuted bridge representations. The registration freezes new exponents,
-    seeds, predictions, full curves, and seven decision gates. Target execution
-    is forbidden until the preregistration Release and DOI are public and
-    verified.
+    seeds, predictions, full curves, and seven decision gates. After the
+    preregistration Release and DOI were verified, the single registered run
+    passed all seven gates: the raw threshold range was `0.164`, while the
+    transformed mediator range was `0.00335269054`.
+    [Registered result](011_renormalized_cross_scale_closure_prediction/results/RESULT.md).

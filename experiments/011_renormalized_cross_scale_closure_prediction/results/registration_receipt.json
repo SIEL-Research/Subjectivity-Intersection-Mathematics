@@ -1,0 +1,10 @@
+{
+  "schema": "siel-e011-registration-receipt-v1",
+  "commit": "d5e1a195458165d0a29d3d1ec0108a4c420106d5",
+  "tag": "e011-preregistration-v1.0.0",
+  "release_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e011-preregistration-v1.0.0",
+  "doi": "10.5281/zenodo.21874997",
+  "zenodo_record_url": "https://zenodo.org/records/21874997",
+  "github_release_id": 367990009,
+  "verification": "PUBLIC_GITHUB_RELEASE_AND_ZENODO_DOI_VERIFIED"
+}

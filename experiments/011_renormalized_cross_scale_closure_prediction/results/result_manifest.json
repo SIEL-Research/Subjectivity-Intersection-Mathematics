@@ -1,0 +1,27 @@
+{
+  "decision": "RENORMALIZED_CROSS_SCALE_CLOSURE_PREDICTION_SUPPORTED",
+  "experiment": "011_renormalized_cross_scale_closure_prediction",
+  "gates_passed": 7,
+  "gates_total": 7,
+  "registration": {
+    "commit": "d5e1a195458165d0a29d3d1ec0108a4c420106d5",
+    "doi": "10.5281/zenodo.21874997",
+    "github_release_id": 367990009,
+    "release_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e011-preregistration-v1.0.0",
+    "schema": "siel-e011-registration-receipt-v1",
+    "tag": "e011-preregistration-v1.0.0",
+    "verification": "PUBLIC_GITHUB_RELEASE_AND_ZENODO_DOI_VERIFIED",
+    "zenodo_record_url": "https://zenodo.org/records/21874997"
+  },
+  "result_release_tag": "e011-results-v1.0.0",
+  "result_sha256": {
+    "EXECUTION_NOTE.json": "168422ab6479411c606b38b309258c0cfc5439003730a37ec369ac8cc1eef103",
+    "RESULT.md": "30427e224b63a05355ffe23ec76022b8a37e0ffaa17762c12aa0f6f36a8e76ac",
+    "registration_receipt.json": "a9e4fce437bb0f20b68b668d3b3f9aa3b657b0fda74a200344a494eaca52ad19",
+    "summary.json": "d22b0715f0ea79dfd0772857d131c55cd54e5897c7578fdf389fef752b80052c",
+    "survival_curves.csv": "64e664a59ea24ed7119c18974cf4aeb7b1047d49a460d3c184516895b886e833"
+  },
+  "schema": "siel-experiment-011-result-v1",
+  "single_registered_execution_count": 1,
+  "zenodo_doi": null
+}

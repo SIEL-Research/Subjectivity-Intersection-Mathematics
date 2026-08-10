@@ -1,0 +1,33 @@
+{
+  "numpy": "2.4.4",
+  "python": "3.14.2",
+  "registration_commit": "d5e1a195458165d0a29d3d1ec0108a4c420106d5",
+  "registration_doi": "10.5281/zenodo.21874997",
+  "registration_tag": "e011-preregistration-v1.0.0",
+  "reruns_or_result_informed_repairs": 0,
+  "schema": "siel-e011-execution-note-v1",
+  "single_registered_execution_count": 1,
+  "target_families": [
+    {
+      "bridge_exponent": 0.75,
+      "damage_amplitude": 0.6,
+      "ensemble_seed": 2026130100,
+      "intervention_end": 50.0,
+      "name": "heldout_q_0_75"
+    },
+    {
+      "bridge_exponent": 1.25,
+      "damage_amplitude": 0.6,
+      "ensemble_seed": 2026130200,
+      "intervention_end": 50.0,
+      "name": "heldout_q_1_25"
+    },
+    {
+      "bridge_exponent": 1.5,
+      "damage_amplitude": 0.6,
+      "ensemble_seed": 2026130300,
+      "intervention_end": 50.0,
+      "name": "heldout_q_1_50"
+    }
+  ]
+}
