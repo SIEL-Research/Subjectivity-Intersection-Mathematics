@@ -7,7 +7,8 @@ working preprint series. The current draft is:
 > Closure across Atomic, Molecular, Cellular, and Cross-Domain Systems*, Public
 > Working Preprint v4.1 Draft, 11 August 2026.
 
-The Version 4.1 DOI will be assigned only at public release.
+Version 4.1 DOI:
+[10.5281/zenodo.21877695](https://doi.org/10.5281/zenodo.21877695)
 
 Previous public working version:
 [10.5281/zenodo.21796491](https://doi.org/10.5281/zenodo.21796491)
