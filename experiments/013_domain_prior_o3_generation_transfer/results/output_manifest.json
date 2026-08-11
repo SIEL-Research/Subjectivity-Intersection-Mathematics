@@ -1,0 +1,15 @@
+{
+  "schema": "siel-e013-output-manifest-v1",
+  "registered_execution_count": 1,
+  "reruns": 0,
+  "decision": "DOMAIN_PRIOR_O3_GENERATION_TRANSFER_NOT_SUPPORTED",
+  "sha256": {
+    "experiments/013_domain_prior_o3_generation_transfer/registration_receipt.json": "ebd93dd6d9f24fc16fd97106ae843d89a9b0cb57e47c54c606b4a5ffdfa8e72c",
+    "experiments/013_domain_prior_o3_generation_transfer/results/EXECUTION_NOTE.md": "b576ae4b826790c4966db8def5dd531f5d9fa9e40668939dd80f63a2b83bb312",
+    "experiments/013_domain_prior_o3_generation_transfer/results/INTERPRETATION.md": "9bae0f4cfac40bc7b28a1b5bf09be6bded0689015432cace7708424b99426231",
+    "experiments/013_domain_prior_o3_generation_transfer/results/RESULT.md": "6c5805af516e3ae5e7bb54f6cb7274b222730f9f50d8c51a93dac1860d2f921f",
+    "experiments/013_domain_prior_o3_generation_transfer/results/domain_scores.csv": "7114569736279e9d1f91969d655cb77fcc2f09da369cb6c0d08eb375c4cd9cea",
+    "experiments/013_domain_prior_o3_generation_transfer/results/molecular_energy_checkpoint.json": "7c0e9200e36c75ca1adecb7cc16b13a516a0e760ab6cfd6916b66463660b3218",
+    "experiments/013_domain_prior_o3_generation_transfer/results/summary.json": "8a68d5272c06c5a92f204443f1cadc6e8c4f2684c95489f25ca4bd6f30bfc011"
+  }
+}

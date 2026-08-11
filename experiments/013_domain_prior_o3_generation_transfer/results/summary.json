@@ -1,0 +1,505 @@
+{
+  "causal_partial_order_leave_one_domain_out": {
+    "atomic": {
+      "heldout_checks": {
+        "helium3_hydrogenic": true,
+        "tritium": true
+      },
+      "pass": true,
+      "training_domains": [
+        "molecular",
+        "cellular"
+      ],
+      "training_pass": true
+    },
+    "cellular": {
+      "heldout_checks": {
+        "cohort_1": true,
+        "cohort_2": true,
+        "cohort_3": true,
+        "cohort_4": true
+      },
+      "pass": true,
+      "training_domains": [
+        "atomic",
+        "molecular"
+      ],
+      "training_pass": true
+    },
+    "molecular": {
+      "heldout_checks": {
+        "cc-pvtz_fresh_line": true
+      },
+      "pass": true,
+      "training_domains": [
+        "atomic",
+        "cellular"
+      ],
+      "training_pass": true
+    }
+  },
+  "decision": "DOMAIN_PRIOR_O3_GENERATION_TRANSFER_NOT_SUPPORTED",
+  "domains": {
+    "atomic": {
+      "closure": {
+        "helium3_hydrogenic": {
+          "candidate_norm_preservation_error": 0.0,
+          "centered_overlap": 0.2461356746739796,
+          "mismatch_shift_cells": 43,
+          "mismatch_shift_distance": 8.3984375,
+          "reconstruction_error": 0.0
+        },
+        "tritium": {
+          "candidate_norm_preservation_error": 0.0,
+          "centered_overlap": 0.2461356746739796,
+          "mismatch_shift_cells": 43,
+          "mismatch_shift_distance": 8.3984375,
+          "reconstruction_error": 0.0
+        }
+      },
+      "engine": "atomic_domain_prior_soft_coulomb",
+      "targets": {
+        "helium3_hydrogenic": {
+          "nuclear_charge": 2.0,
+          "reduced_mass_electron_units": 0.9998180787938822,
+          "scores": {
+            "correct_return": 0.9987878384332554,
+            "intact": 0.999999975217622,
+            "mismatched_return": 0.022500945074793183,
+            "removed": 0.3908554414091956
+          }
+        },
+        "tritium": {
+          "nuclear_charge": 1.0,
+          "reduced_mass_electron_units": 0.9998181130826366,
+          "scores": {
+            "correct_return": 0.9674724911740576,
+            "intact": 0.9999916892960728,
+            "mismatched_return": 0.28232739617181674,
+            "removed": 0.4332163510142148
+          }
+        }
+      }
+    },
+    "cellular": {
+      "calibration": {
+        "centered_overlap": 0.22828260386229102,
+        "seed": 2026161000,
+        "selected_shift_minutes": 6.0,
+        "survival_not_used_for_selection": true
+      },
+      "closure": {
+        "candidate_operator_unchanged_under_time_transport": true,
+        "reconstruction_error": 5.551115123125783e-17
+      },
+      "cohorts": {
+        "cohort_1": {
+          "scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          },
+          "seed_range": [
+            2026162000,
+            2026162015
+          ]
+        },
+        "cohort_2": {
+          "scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          },
+          "seed_range": [
+            2026162100,
+            2026162115
+          ]
+        },
+        "cohort_3": {
+          "scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          },
+          "seed_range": [
+            2026162200,
+            2026162215
+          ]
+        },
+        "cohort_4": {
+          "scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          },
+          "seed_range": [
+            2026162300,
+            2026162315
+          ]
+        }
+      },
+      "engine": "cellular_generated_joint_residual"
+    },
+    "molecular": {
+      "closure": {
+        "candidate_norm_preservation_error": 0.0,
+        "centered_overlap": 0.013867333437136075,
+        "mismatch_shift_steps": 3,
+        "reconstruction_error": 0.0,
+        "reference_energy_range_hartree": 0.0
+      },
+      "details": {
+        "correct_return": {
+          "seed_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "whole_score": 1.0
+        },
+        "intact": {
+          "seed_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "whole_score": 1.0
+        },
+        "mismatched_return": {
+          "seed_scores": [
+            0.72,
+            0.92,
+            0.96,
+            1.0,
+            0.8,
+            0.88,
+            0.8,
+            0.6,
+            0.88,
+            0.64,
+            0.88,
+            0.88,
+            0.92,
+            0.64,
+            0.68,
+            0.92,
+            0.96,
+            1.0,
+            0.44,
+            1.0,
+            0.88,
+            0.64,
+            0.92,
+            0.88,
+            0.64,
+            0.68,
+            1.0,
+            0.88,
+            0.84,
+            0.52,
+            0.8,
+            0.6
+          ],
+          "whole_score": 0.80625
+        },
+        "removed": {
+          "seed_scores": [
+            0.92,
+            0.0,
+            0.44,
+            0.96,
+            0.56,
+            0.84,
+            1.0,
+            0.72,
+            1.0,
+            0.48,
+            1.0,
+            1.0,
+            1.0,
+            0.84,
+            0.96,
+            0.28,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.76,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.64,
+            1.0,
+            1.0,
+            0.32,
+            0.96,
+            1.0,
+            0.0
+          ],
+          "whole_score": 0.70875
+        }
+      },
+      "engine": "molecular_cc_pvtz_fci_generated_residual_line",
+      "native_minima_angstrom": [
+        1.6
+      ],
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.80625,
+        "removed": 0.70875
+      }
+    }
+  },
+  "gates": {
+    "atomic": {
+      "helium3_hydrogenic": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "tritium": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      }
+    },
+    "cellular": {
+      "cohort_1": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "cohort_2": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "cohort_3": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "cohort_4": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      }
+    },
+    "molecular": {
+      "cc-pvtz_fresh_line": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": false,
+        "removed_low": false,
+        "specific_return": false
+      }
+    }
+  },
+  "no_shared_scalar_entered_domain_dynamics": true,
+  "realization_pass": {
+    "atomic": {
+      "helium3_hydrogenic": true,
+      "tritium": true
+    },
+    "cellular": {
+      "cohort_1": true,
+      "cohort_2": true,
+      "cohort_3": true,
+      "cohort_4": true
+    },
+    "molecular": {
+      "cc-pvtz_fresh_line": false
+    }
+  },
+  "realization_scores": {
+    "atomic": {
+      "helium3_hydrogenic": {
+        "correct_return": 0.9987878384332554,
+        "intact": 0.999999975217622,
+        "mismatched_return": 0.022500945074793183,
+        "removed": 0.3908554414091956
+      },
+      "tritium": {
+        "correct_return": 0.9674724911740576,
+        "intact": 0.9999916892960728,
+        "mismatched_return": 0.28232739617181674,
+        "removed": 0.4332163510142148
+      }
+    },
+    "cellular": {
+      "cohort_1": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "cohort_2": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "cohort_3": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "cohort_4": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      }
+    },
+    "molecular": {
+      "cc-pvtz_fresh_line": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.80625,
+        "removed": 0.70875
+      }
+    }
+  },
+  "reference_candidate_rule_pass": true,
+  "registration_receipt": {
+    "commit": "312bd7180a96796f307aa2e150cac567b88a696d",
+    "doi": "10.5281/zenodo.21894665",
+    "release_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e013-preregistration-v1.0.0",
+    "schema": "siel-e013-registration-receipt-v1",
+    "tag": "e013-preregistration-v1.0.0"
+  },
+  "schema": "siel-e013-result-v1",
+  "scope": {
+    "not_established": [
+      "common physical O3 substance",
+      "microscopic atom-to-cell law",
+      "laboratory confirmation in natural systems"
+    ],
+    "supported_if_positive": "prospective cross-domain transfer of a domain-prior O3 generation-and-intervention grammar"
+  },
+  "threshold_free_separation": {
+    "margin": 0.16122249117405762,
+    "maximum_removed_or_mismatched": 0.80625,
+    "minimum_intact_or_correct": 0.9674724911740576,
+    "pass": true
+  },
+  "unrestricted_learned_pairwise_leave_one_domain_out_diagnostic": {
+    "atomic": {
+      "heldout_checks": {
+        "helium3_hydrogenic": true,
+        "tritium": true
+      },
+      "learned_relations": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "removed < correct_return",
+        "mismatched_return < correct_return"
+      ],
+      "pass": true
+    },
+    "cellular": {
+      "heldout_checks": {
+        "cohort_1": true,
+        "cohort_2": true,
+        "cohort_3": true,
+        "cohort_4": true
+      },
+      "learned_relations": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "removed < correct_return",
+        "mismatched_return < correct_return"
+      ],
+      "pass": true
+    },
+    "molecular": {
+      "heldout_checks": {
+        "cc-pvtz_fresh_line": true
+      },
+      "learned_relations": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "removed < correct_return",
+        "mismatched_return < correct_return"
+      ],
+      "pass": true
+    }
+  }
+}
