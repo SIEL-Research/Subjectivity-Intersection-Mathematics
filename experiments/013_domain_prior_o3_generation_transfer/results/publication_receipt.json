@@ -1,0 +1,10 @@
+{
+  "schema": "siel-e013-publication-receipt-v1",
+  "decision": "DOMAIN_PRIOR_O3_GENERATION_TRANSFER_NOT_SUPPORTED",
+  "registration_doi": "10.5281/zenodo.21894665",
+  "result_tag": "e013-results-v1.0.0",
+  "result_commit": "d2232a7205781d44c1ac5da51e94251bb09402d5",
+  "github_release_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e013-results-v1.0.0",
+  "result_doi": "10.5281/zenodo.21894771",
+  "zenodo_record_url": "https://zenodo.org/records/21894771"
+}
