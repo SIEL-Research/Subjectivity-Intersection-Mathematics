@@ -1,0 +1,22 @@
+{
+  "schema": "siel-experiment-007c-post-result-addendum-v1",
+  "experiment": "Experiment 007C",
+  "status": "PUBLIC_CORRECTION_ORIGINAL_RECORD_PRESERVED",
+  "date": "2026-08-12",
+  "corrected_comparison_designation": "SOURCE_CONSTRAINED_PREREGISTERED_POST_RESULT_STRUCTURAL_COMPARISON",
+  "original_primary_classification": "NO_REGISTERED_CORRESPONDENCE",
+  "original_record_modified": false,
+  "target_layer_correction": "Paper 5.3 seven-dimensional algebra is a downstream readout; the primitive scalar root-of-unity hypergroup was not tested.",
+  "original_releases": {
+    "preregistration_tag": "e007c-preregistration-v1.0.0",
+    "preregistration_commit": "e945311dc40213c93927e4fc75a847e4aad64a6c",
+    "result_tag": "e007c-results-v1.0.0",
+    "result_commit": "7489bf684aac8ac882dacccb93d191222799c5e9"
+  },
+  "addendum_sha256": {
+    "experiments/007c_prefrozen_d12rg_sim_comparison/POST_RESULT_INTERPRETATION_AND_PROVENANCE_ADDENDUM.md": "5014d371f54c9b1aabaa1edc73f4c2a53defebf32627fb5e7c6ea9e478ffb50d"
+  },
+  "release": {
+    "tag": "e007c-interpretation-addendum-v1.0.0"
+  }
+}
