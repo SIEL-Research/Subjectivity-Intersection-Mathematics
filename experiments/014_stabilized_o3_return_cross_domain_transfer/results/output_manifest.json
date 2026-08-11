@@ -1,0 +1,11 @@
+{
+  "schema": "siel-e014-output-manifest-v1",
+  "decision": "STABILIZED_O3_RETURN_CROSS_DOMAIN_TRANSFER_SUPPORTED",
+  "registration_doi": "10.5281/zenodo.21895645",
+  "files": {
+    "molecular_energy_checkpoint.json": "019451c93a21d9979abd9b20817125ecfd9e6187cdb1b631e91061a443065f05",
+    "primary_checkpoints.csv": "951dc227a7e79fbe0f6050143494307655bf1620bb7d78ef587e3a1fc6b348ae",
+    "RESULT.md": "e918e6a6729983ba0faa202e8afd2b2f8bfb32b76459652f9381bb69c05ff8e4",
+    "summary.json": "52732ebcd0678cd63d8c5f2ec89744c8e4a38e4a385b04b852bd8e70721a40a0"
+  }
+}

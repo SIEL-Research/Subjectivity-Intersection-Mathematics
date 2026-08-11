@@ -1,0 +1,775 @@
+{
+  "all_primary_gates_pass": true,
+  "compression_boundary": {
+    "common_object": "direction of stabilized causal specificity",
+    "common_substance_or_source_identity_inferred": false,
+    "shared_scalar_entered_domain_engines": false
+  },
+  "decision": "STABILIZED_O3_RETURN_CROSS_DOMAIN_TRANSFER_SUPPORTED",
+  "domain_primary_pass": {
+    "atomic": true,
+    "cellular": true,
+    "molecular": true
+  },
+  "domains": {
+    "atomic": {
+      "all_checkpoints_pass": true,
+      "checkpoints": [
+        {
+          "correct_minus_mismatch": 0.28548535130209696,
+          "correct_minus_removed": 0.2582720296001023,
+          "pass": true,
+          "return_steps": 200,
+          "scores": {
+            "correct_return": 0.5549255607879013,
+            "intact": 1.0,
+            "mismatched_return": 0.2694402094858044,
+            "removed": 0.296653531187799
+          }
+        },
+        {
+          "correct_minus_mismatch": 0.5012386847568913,
+          "correct_minus_removed": 0.4399422482587645,
+          "pass": true,
+          "return_steps": 400,
+          "scores": {
+            "correct_return": 0.7024897644021372,
+            "intact": 1.0,
+            "mismatched_return": 0.2012510796452459,
+            "removed": 0.2625475161433727
+          }
+        },
+        {
+          "correct_minus_mismatch": 0.7783622224446288,
+          "correct_minus_removed": 0.6537016662118605,
+          "pass": true,
+          "return_steps": 800,
+          "scores": {
+            "correct_return": 0.8769661276412032,
+            "intact": 1.0,
+            "mismatched_return": 0.09860390519657436,
+            "removed": 0.22326446142934264
+          }
+        }
+      ],
+      "closure": {
+        "carrier_difference_norm": 7.067410479369521,
+        "centered_overlap": 0.2603985622254196,
+        "mismatch_translation_distance": 8.0,
+        "reconstruction_error": 0.0
+      },
+      "engine": "helium4_hydrogenic_soft_coulomb",
+      "mass_ratio_source": "NIST 2022 CODATA alpha-particle-to-electron mass ratio",
+      "reduced_mass_electron_units": 0.9998629254365387
+    },
+    "cellular": {
+      "all_boundary_predictions_pass": true,
+      "all_stabilized_specificity_checkpoints_pass": true,
+      "engine": "frozen_e009_reduced_stochastic_cell",
+      "scenarios": [
+        {
+          "boundary_pass": true,
+          "cohorts": [
+            {
+              "alive_fraction": {
+                "correct_return": 1.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 1,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": true,
+              "seed_range": [
+                2026191001,
+                2026191032
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 1.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 2,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": true,
+              "seed_range": [
+                2026191101,
+                2026191132
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 1.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 3,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": true,
+              "seed_range": [
+                2026191201,
+                2026191232
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 1.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 4,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": true,
+              "seed_range": [
+                2026191301,
+                2026191332
+              ]
+            }
+          ],
+          "damage_amplitude": 0.675,
+          "reinjection_minutes": 45.0,
+          "specificity_pass": true,
+          "stabilized_specificity": [
+            {
+              "comparisons": {
+                "mismatched_return": {
+                  "bootstrap_lower_bound": 0.2924889695462786,
+                  "mean_margin": 0.29360818825448076,
+                  "pass": true
+                },
+                "removed": {
+                  "bootstrap_lower_bound": 0.8205349215665145,
+                  "mean_margin": 0.8208139559287609,
+                  "pass": true
+                }
+              },
+              "mean_similarity": {
+                "correct_return": 0.9663962834196885,
+                "mismatched_return": 0.6727880951652077,
+                "removed": 0.14558232749092753
+              },
+              "observation_minutes": 85.0,
+              "pass": true,
+              "post_reinjection_minutes": 40.0
+            },
+            {
+              "comparisons": {
+                "mismatched_return": {
+                  "bootstrap_lower_bound": 0.3083361410506687,
+                  "mean_margin": 0.30934395343793436,
+                  "pass": true
+                },
+                "removed": {
+                  "bootstrap_lower_bound": 0.8173144785336122,
+                  "mean_margin": 0.8175781763562223,
+                  "pass": true
+                }
+              },
+              "mean_similarity": {
+                "correct_return": 0.9616529783796135,
+                "mismatched_return": 0.652309024941679,
+                "removed": 0.14407480202339107
+              },
+              "observation_minutes": 105.0,
+              "pass": true,
+              "post_reinjection_minutes": 60.0
+            },
+            {
+              "comparisons": {
+                "mismatched_return": {
+                  "bootstrap_lower_bound": 0.31205469916825046,
+                  "mean_margin": 0.3131072300234951,
+                  "pass": true
+                },
+                "removed": {
+                  "bootstrap_lower_bound": 0.8299169918869753,
+                  "mean_margin": 0.8302030286447326,
+                  "pass": true
+                }
+              },
+              "mean_similarity": {
+                "correct_return": 0.9764556600039331,
+                "mismatched_return": 0.663348429980438,
+                "removed": 0.14625263135920044
+              },
+              "observation_minutes": 135.0,
+              "pass": true,
+              "post_reinjection_minutes": 90.0
+            },
+            {
+              "comparisons": {
+                "mismatched_return": {
+                  "bootstrap_lower_bound": 0.3007069575999461,
+                  "mean_margin": 0.30182856671047636,
+                  "pass": true
+                },
+                "removed": {
+                  "bootstrap_lower_bound": 0.8273517147171414,
+                  "mean_margin": 0.8276417447876856,
+                  "pass": true
+                }
+              },
+              "mean_similarity": {
+                "correct_return": 0.9740414473402405,
+                "mismatched_return": 0.672212880629764,
+                "removed": 0.14639970255255472
+              },
+              "observation_minutes": 150.0,
+              "pass": true,
+              "post_reinjection_minutes": 105.0
+            }
+          ]
+        },
+        {
+          "boundary_pass": true,
+          "cohorts": [
+            {
+              "alive_fraction": {
+                "correct_return": 0.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 1,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": false,
+              "seed_range": [
+                2026191001,
+                2026191032
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 0.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 2,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": false,
+              "seed_range": [
+                2026191101,
+                2026191132
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 0.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 3,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": false,
+              "seed_range": [
+                2026191201,
+                2026191232
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 0.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 4,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": false,
+              "seed_range": [
+                2026191301,
+                2026191332
+              ]
+            }
+          ],
+          "damage_amplitude": 0.675,
+          "reinjection_minutes": 50.0,
+          "specificity_pass": null,
+          "stabilized_specificity": []
+        },
+        {
+          "boundary_pass": true,
+          "cohorts": [
+            {
+              "alive_fraction": {
+                "correct_return": 1.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 1,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": true,
+              "seed_range": [
+                2026191001,
+                2026191032
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 1.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 2,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": true,
+              "seed_range": [
+                2026191101,
+                2026191132
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 1.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 3,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": true,
+              "seed_range": [
+                2026191201,
+                2026191232
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 1.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 4,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": true,
+              "seed_range": [
+                2026191301,
+                2026191332
+              ]
+            }
+          ],
+          "damage_amplitude": 0.825,
+          "reinjection_minutes": 45.0,
+          "specificity_pass": true,
+          "stabilized_specificity": [
+            {
+              "comparisons": {
+                "mismatched_return": {
+                  "bootstrap_lower_bound": 0.1781015126585628,
+                  "mean_margin": 0.1805682428068316,
+                  "pass": true
+                },
+                "removed": {
+                  "bootstrap_lower_bound": 0.7928355767696774,
+                  "mean_margin": 0.7951474267522842,
+                  "pass": true
+                }
+              },
+              "mean_similarity": {
+                "correct_return": 0.8564413583049038,
+                "mismatched_return": 0.6758731154980722,
+                "removed": 0.06129393155261946
+              },
+              "observation_minutes": 85.0,
+              "pass": true,
+              "post_reinjection_minutes": 40.0
+            },
+            {
+              "comparisons": {
+                "mismatched_return": {
+                  "bootstrap_lower_bound": 0.228206474922491,
+                  "mean_margin": 0.22934248704676852,
+                  "pass": true
+                },
+                "removed": {
+                  "bootstrap_lower_bound": 0.8276879520912309,
+                  "mean_margin": 0.8282713161074654,
+                  "pass": true
+                }
+              },
+              "mean_similarity": {
+                "correct_return": 0.889151101845127,
+                "mismatched_return": 0.6598086147983586,
+                "removed": 0.0608797857376616
+              },
+              "observation_minutes": 105.0,
+              "pass": true,
+              "post_reinjection_minutes": 60.0
+            },
+            {
+              "comparisons": {
+                "mismatched_return": {
+                  "bootstrap_lower_bound": 0.07079003126119673,
+                  "mean_margin": 0.07216356898566373,
+                  "pass": true
+                },
+                "removed": {
+                  "bootstrap_lower_bound": 0.6692609806422348,
+                  "mean_margin": 0.6700200722925973,
+                  "pass": true
+                }
+              },
+              "mean_similarity": {
+                "correct_return": 0.7314035099526902,
+                "mismatched_return": 0.6592399409670265,
+                "removed": 0.06138343766009281
+              },
+              "observation_minutes": 135.0,
+              "pass": true,
+              "post_reinjection_minutes": 90.0
+            },
+            {
+              "comparisons": {
+                "mismatched_return": {
+                  "bootstrap_lower_bound": 0.0377558918947798,
+                  "mean_margin": 0.03924862997875501,
+                  "pass": true
+                },
+                "removed": {
+                  "bootstrap_lower_bound": 0.6457722782586102,
+                  "mean_margin": 0.6465846643288635,
+                  "pass": true
+                }
+              },
+              "mean_similarity": {
+                "correct_return": 0.7080178461570314,
+                "mismatched_return": 0.6687692161782763,
+                "removed": 0.06143318182816779
+              },
+              "observation_minutes": 150.0,
+              "pass": true,
+              "post_reinjection_minutes": 105.0
+            }
+          ]
+        },
+        {
+          "boundary_pass": true,
+          "cohorts": [
+            {
+              "alive_fraction": {
+                "correct_return": 0.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 1,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": false,
+              "seed_range": [
+                2026191001,
+                2026191032
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 0.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 2,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": false,
+              "seed_range": [
+                2026191101,
+                2026191132
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 0.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 3,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": false,
+              "seed_range": [
+                2026191201,
+                2026191232
+              ]
+            },
+            {
+              "alive_fraction": {
+                "correct_return": 0.0,
+                "intact": 1.0,
+                "mismatched_return": 0.0,
+                "removed": 0.0
+              },
+              "cohort": 4,
+              "correct_boundary_pass": true,
+              "null_boundary_pass": true,
+              "pass": true,
+              "predicted_correct_return_success": false,
+              "seed_range": [
+                2026191301,
+                2026191332
+              ]
+            }
+          ],
+          "damage_amplitude": 0.825,
+          "reinjection_minutes": 50.0,
+          "specificity_pass": null,
+          "stabilized_specificity": []
+        }
+      ],
+      "stabilized_specificity_check_count": 8
+    },
+    "molecular": {
+      "a_values_angstrom": [
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0,
+        2.1,
+        2.2,
+        2.3,
+        2.4,
+        2.5
+      ],
+      "all_checkpoints_pass": true,
+      "all_grid_factors_pass": true,
+      "b_angstrom": 1.1,
+      "basis": "cc-pvtz",
+      "checkpoints": [
+        {
+          "base_return_steps": 100,
+          "correct_minus_mismatch": 0.8779246533730419,
+          "correct_minus_removed": 0.7307857329796784,
+          "grid_factor": 1,
+          "grid_points": 13,
+          "pass": true,
+          "scores": {
+            "correct_return": 0.9999999995738634,
+            "intact": 1.0,
+            "mismatched_return": 0.1220753462008215,
+            "removed": 0.269214266594185
+          }
+        },
+        {
+          "base_return_steps": 200,
+          "correct_minus_mismatch": 0.8874013086992427,
+          "correct_minus_removed": 0.732699708577179,
+          "grid_factor": 1,
+          "grid_points": 13,
+          "pass": true,
+          "scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.11259869130075728,
+            "removed": 0.26730029142282097
+          }
+        },
+        {
+          "base_return_steps": 400,
+          "correct_minus_mismatch": 0.8874957810357695,
+          "correct_minus_removed": 0.7327614935738701,
+          "grid_factor": 1,
+          "grid_points": 13,
+          "pass": true,
+          "scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.11250421896423046,
+            "removed": 0.2672385064261299
+          }
+        },
+        {
+          "base_return_steps": 100,
+          "correct_minus_mismatch": 0.8816370033572768,
+          "correct_minus_removed": 0.7141433493036976,
+          "grid_factor": 2,
+          "grid_points": 25,
+          "pass": true,
+          "scores": {
+            "correct_return": 0.9999999999998124,
+            "intact": 1.0,
+            "mismatched_return": 0.11836299664253558,
+            "removed": 0.28585665069611477
+          }
+        },
+        {
+          "base_return_steps": 200,
+          "correct_minus_mismatch": 0.8861317111237583,
+          "correct_minus_removed": 0.7162918310255575,
+          "grid_factor": 2,
+          "grid_points": 25,
+          "pass": true,
+          "scores": {
+            "correct_return": 0.9999999999999999,
+            "intact": 1.0,
+            "mismatched_return": 0.11386828887624156,
+            "removed": 0.2837081689744424
+          }
+        },
+        {
+          "base_return_steps": 400,
+          "correct_minus_mismatch": 0.8861459159921646,
+          "correct_minus_removed": 0.7163633639503632,
+          "grid_factor": 2,
+          "grid_points": 25,
+          "pass": true,
+          "scores": {
+            "correct_return": 0.9999999999999999,
+            "intact": 1.0,
+            "mismatched_return": 0.11385408400783525,
+            "removed": 0.28363663604963674
+          }
+        },
+        {
+          "base_return_steps": 100,
+          "correct_minus_mismatch": 0.8829973970987463,
+          "correct_minus_removed": 0.7207280400349703,
+          "grid_factor": 4,
+          "grid_points": 49,
+          "pass": true,
+          "scores": {
+            "correct_return": 0.9999999999999977,
+            "intact": 1.0,
+            "mismatched_return": 0.11700260290125142,
+            "removed": 0.2792719599650274
+          }
+        },
+        {
+          "base_return_steps": 200,
+          "correct_minus_mismatch": 0.8857058951998605,
+          "correct_minus_removed": 0.7228198660537486,
+          "grid_factor": 4,
+          "grid_points": 49,
+          "pass": true,
+          "scores": {
+            "correct_return": 0.9999999999999999,
+            "intact": 1.0,
+            "mismatched_return": 0.11429410480013935,
+            "removed": 0.2771801339462513
+          }
+        },
+        {
+          "base_return_steps": 400,
+          "correct_minus_mismatch": 0.8857108557700123,
+          "correct_minus_removed": 0.7228900509519631,
+          "grid_factor": 4,
+          "grid_points": 49,
+          "pass": true,
+          "scores": {
+            "correct_return": 0.9999999999999999,
+            "intact": 1.0,
+            "mismatched_return": 0.1142891442299876,
+            "removed": 0.27710994904803676
+          }
+        }
+      ],
+      "closure": {
+        "mismatch_carrier_difference_norm": 0.04173697487774898,
+        "reconstruction_error": 0.0
+      },
+      "engine": "cc_pvtz_h4plus_exact_transition_distribution",
+      "mismatch_selection": {
+        "centered_overlap": -0.09248340532409073,
+        "label": "nonperiodic_shift_+4",
+        "preoutcome_stationary_js_separation": 0.871076639145446
+      }
+    }
+  },
+  "leave_one_domain_out": {
+    "atomic": {
+      "heldout_all_primary_checkpoints_pass": true,
+      "pass": true,
+      "training_domains": [
+        "molecular",
+        "cellular"
+      ],
+      "training_supports_positive_direction": true
+    },
+    "cellular": {
+      "heldout_all_primary_checkpoints_pass": true,
+      "pass": true,
+      "training_domains": [
+        "atomic",
+        "molecular"
+      ],
+      "training_supports_positive_direction": true
+    },
+    "molecular": {
+      "heldout_all_primary_checkpoints_pass": true,
+      "pass": true,
+      "training_domains": [
+        "atomic",
+        "cellular"
+      ],
+      "training_supports_positive_direction": true
+    }
+  },
+  "registered_cross_domain_direction": "after domain-native stabilization, correct O3 return is closer to the registered domain state than continued removal or physically distinguishable mismatched return",
+  "registration_receipt": {
+    "commit": "7866c2308ab9fea5bbb88aa6bbdf158b6d2ece2f",
+    "doi": "10.5281/zenodo.21895645",
+    "release_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e014-preregistration-v1.0.0",
+    "schema": "siel-e014-registration-receipt-v1",
+    "tag": "e014-preregistration-v1.0.0"
+  },
+  "schema": "siel-e014-result-v1",
+  "scope": {
+    "not_established": [
+      "common microscopic atom-to-cell law",
+      "identical O3 substance across domains",
+      "living-cell laboratory confirmation",
+      "phenomenal subjectivity",
+      "universal instantaneous recovery-speed dominance"
+    ],
+    "supported_if_positive": "prospective transfer of stabilized correct-O3 return specificity across independent atomic, molecular, and cellular reduced realizations"
+  },
+  "structural_gates": {
+    "atomic_mismatch_distinct": true,
+    "atomic_reconstruction": true,
+    "molecular_mismatch_discriminable": true,
+    "molecular_mismatch_overlap": true,
+    "molecular_reconstruction": true,
+    "no_shared_scalar_in_domain_engines": true
+  }
+}

@@ -129,9 +129,10 @@ outputs, acceptance checks, and claim boundary.
     [Registered interpretation](013_domain_prior_o3_generation_transfer/results/INTERPRETATION.md).
 
 14. [Stabilized O3 Return Cross-Domain Transfer](014_stabilized_o3_return_cross_domain_transfer/README.md) —
-    preregistered fresh-target test of whether correct O3 return has a
+    registered fresh-target test of whether correct O3 return has a
     stabilized causal advantage over removal and physically distinguishable
     mismatch in independent atomic, molecular, and cellular reduced engines.
-    No shared scalar enters the three domain dynamics. Target execution is
-    forbidden until the preregistration Release and DOI are public and
-    verified.
+    No shared scalar entered the three domain dynamics. All registered
+    structural, domain, checkpoint, cellular-boundary, representation, and
+    leave-one-domain-out gates passed.
+    [Registered result](014_stabilized_o3_return_cross_domain_transfer/results/INTERPRETATION.md).
