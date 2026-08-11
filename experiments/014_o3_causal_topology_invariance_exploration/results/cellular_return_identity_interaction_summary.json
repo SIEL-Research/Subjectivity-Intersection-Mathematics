@@ -1,0 +1,385 @@
+{
+  "all_scenarios_correct_exceeds_mismatch": true,
+  "all_scenarios_correct_exceeds_removed": true,
+  "all_scenarios_final_specificity": true,
+  "design": {
+    "engine": "frozen E009 reduced stochastic cell dynamics",
+    "fingerprint": "paired five-component state fingerprint: three module observables, damage scaled by the E009 death scale, and biomass",
+    "interaction": "fraction of remaining similarity headroom closed between the first post-reinjection horizon and 150 minutes",
+    "scenarios": [
+      {
+        "damage_amplitude": 0.6,
+        "reinjection_minutes": 50.0
+      },
+      {
+        "damage_amplitude": 0.75,
+        "reinjection_minutes": 45.0
+      },
+      {
+        "damage_amplitude": 0.9,
+        "reinjection_minutes": 43.0
+      }
+    ],
+    "seeds": [
+      2026184001,
+      2026184002,
+      2026184003,
+      2026184004,
+      2026184005,
+      2026184006,
+      2026184007,
+      2026184008,
+      2026184009,
+      2026184010,
+      2026184011,
+      2026184012,
+      2026184013,
+      2026184014,
+      2026184015,
+      2026184016,
+      2026184017,
+      2026184018,
+      2026184019,
+      2026184020,
+      2026184021,
+      2026184022,
+      2026184023,
+      2026184024,
+      2026184025,
+      2026184026,
+      2026184027,
+      2026184028,
+      2026184029,
+      2026184030,
+      2026184031,
+      2026184032
+    ]
+  },
+  "interactions": [
+    {
+      "correct_exceeds_mismatch": true,
+      "correct_exceeds_removed": true,
+      "correct_final_specificity": true,
+      "damage_amplitude": 0.6,
+      "final_horizon": 150.0,
+      "headroom_normalized_recovery": {
+        "correct_return": 0.5875681250635924,
+        "mismatched_return": -1.8374809370877596,
+        "removed": -0.005204213987722921
+      },
+      "initial_horizon": 51.0,
+      "reinjection_minutes": 50.0
+    },
+    {
+      "correct_exceeds_mismatch": true,
+      "correct_exceeds_removed": true,
+      "correct_final_specificity": true,
+      "damage_amplitude": 0.75,
+      "final_horizon": 150.0,
+      "headroom_normalized_recovery": {
+        "correct_return": 0.9314152641230291,
+        "mismatched_return": 0.5089418390818568,
+        "removed": -0.17109512407752464
+      },
+      "initial_horizon": 46.0,
+      "reinjection_minutes": 45.0
+    },
+    {
+      "correct_exceeds_mismatch": true,
+      "correct_exceeds_removed": true,
+      "correct_final_specificity": true,
+      "damage_amplitude": 0.9,
+      "final_horizon": 150.0,
+      "headroom_normalized_recovery": {
+        "correct_return": 0.8947128424156238,
+        "mismatched_return": 0.1652434976411443,
+        "removed": -7.876843074726457
+      },
+      "initial_horizon": 44.0,
+      "reinjection_minutes": 43.0
+    }
+  ],
+  "rows": [
+    {
+      "causal_margin": -0.5770435371024631,
+      "damage_amplitude": 0.6,
+      "observation_minutes": 51.0,
+      "post_reinjection_minutes": 1.0,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.3077028175793299,
+        "intact": 1.0,
+        "mismatched_return": 0.8847463546817931,
+        "removed": 0.25411609518562855
+      }
+    },
+    {
+      "causal_margin": -0.4777915175422864,
+      "damage_amplitude": 0.6,
+      "observation_minutes": 53.0,
+      "post_reinjection_minutes": 3.0,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.45271973797160386,
+        "intact": 1.0,
+        "mismatched_return": 0.9305112555138902,
+        "removed": 0.2547487490992689
+      }
+    },
+    {
+      "causal_margin": -0.20280780903100248,
+      "damage_amplitude": 0.6,
+      "observation_minutes": 55.0,
+      "post_reinjection_minutes": 5.0,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.5953785270566732,
+        "intact": 1.0,
+        "mismatched_return": 0.7981863360876756,
+        "removed": 0.2542893791888876
+      }
+    },
+    {
+      "causal_margin": 0.07884051004138393,
+      "damage_amplitude": 0.6,
+      "observation_minutes": 60.0,
+      "post_reinjection_minutes": 10.0,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.6997595485849439,
+        "intact": 1.0,
+        "mismatched_return": 0.62091903854356,
+        "removed": 0.25162653732505613
+      }
+    },
+    {
+      "causal_margin": 0.0390407309151537,
+      "damage_amplitude": 0.6,
+      "observation_minutes": 70.0,
+      "post_reinjection_minutes": 20.0,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.7197584362518782,
+        "intact": 1.0,
+        "mismatched_return": 0.6807177053367245,
+        "removed": 0.24981882551643367
+      }
+    },
+    {
+      "causal_margin": 0.19935378135712278,
+      "damage_amplitude": 0.6,
+      "observation_minutes": 90.0,
+      "post_reinjection_minutes": 40.0,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.8667495557934899,
+        "intact": 1.0,
+        "mismatched_return": 0.6673957744363671,
+        "removed": 0.24745031386319405
+      }
+    },
+    {
+      "causal_margin": 0.04150459656133676,
+      "damage_amplitude": 0.6,
+      "observation_minutes": 150.0,
+      "post_reinjection_minutes": 100.0,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.7144745750410507,
+        "intact": 1.0,
+        "mismatched_return": 0.672969978479714,
+        "removed": 0.2502343557349762
+      }
+    },
+    {
+      "causal_margin": 0.06712339476633472,
+      "damage_amplitude": 0.75,
+      "observation_minutes": 46.0,
+      "post_reinjection_minutes": 1.0,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 0.3964150626858618,
+        "intact": 1.0,
+        "mismatched_return": 0.3292916679195271,
+        "removed": 0.22555621828576045
+      }
+    },
+    {
+      "causal_margin": -0.3306695721931574,
+      "damage_amplitude": 0.75,
+      "observation_minutes": 48.0,
+      "post_reinjection_minutes": 3.0,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 0.3755197473621048,
+        "intact": 1.0,
+        "mismatched_return": 0.7061893195552622,
+        "removed": 0.09470394975770448
+      }
+    },
+    {
+      "causal_margin": -0.25823775731231424,
+      "damage_amplitude": 0.75,
+      "observation_minutes": 50.0,
+      "post_reinjection_minutes": 5.0,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 0.5476881083358747,
+        "intact": 1.0,
+        "mismatched_return": 0.8059258656481889,
+        "removed": 0.08186223065770369
+      }
+    },
+    {
+      "causal_margin": 0.16795601612186684,
+      "damage_amplitude": 0.75,
+      "observation_minutes": 55.0,
+      "post_reinjection_minutes": 10.0,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 0.8444188007913102,
+        "intact": 1.0,
+        "mismatched_return": 0.6764627846694433,
+        "removed": 0.09530005893243652
+      }
+    },
+    {
+      "causal_margin": -0.029561027315078925,
+      "damage_amplitude": 0.75,
+      "observation_minutes": 65.0,
+      "post_reinjection_minutes": 20.0,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 0.8450660132136292,
+        "intact": 1.0,
+        "mismatched_return": 0.8746270405287081,
+        "removed": 0.09375272082452167
+      }
+    },
+    {
+      "causal_margin": 0.272279119501291,
+      "damage_amplitude": 0.75,
+      "observation_minutes": 85.0,
+      "post_reinjection_minutes": 40.0,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 0.946374059994922,
+        "intact": 1.0,
+        "mismatched_return": 0.674094940493631,
+        "removed": 0.09268408399278745
+      }
+    },
+    {
+      "causal_margin": 0.28796008655890415,
+      "damage_amplitude": 0.75,
+      "observation_minutes": 150.0,
+      "post_reinjection_minutes": 105.0,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 0.9586032864949918,
+        "intact": 1.0,
+        "mismatched_return": 0.6706431999360877,
+        "removed": 0.09305266336229524
+      }
+    },
+    {
+      "causal_margin": -0.09881160414442369,
+      "damage_amplitude": 0.9,
+      "observation_minutes": 44.0,
+      "post_reinjection_minutes": 1.0,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 0.7932632165691695,
+        "intact": 1.0,
+        "mismatched_return": 0.6013776961852435,
+        "removed": 0.8920748207135932
+      }
+    },
+    {
+      "causal_margin": 0.7440016377007611,
+      "damage_amplitude": 0.9,
+      "observation_minutes": 46.0,
+      "post_reinjection_minutes": 3.0,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 0.9532795814399027,
+        "intact": 1.0,
+        "mismatched_return": 0.19783775556948005,
+        "removed": 0.20927794373914152
+      }
+    },
+    {
+      "causal_margin": 0.5104221972731242,
+      "damage_amplitude": 0.9,
+      "observation_minutes": 48.0,
+      "post_reinjection_minutes": 5.0,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 0.8143883736759743,
+        "intact": 1.0,
+        "mismatched_return": 0.30396617640285,
+        "removed": 0.08490921004528221
+      }
+    },
+    {
+      "causal_margin": 0.07248808721391065,
+      "damage_amplitude": 0.9,
+      "observation_minutes": 53.0,
+      "post_reinjection_minutes": 10.0,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 0.8468389761476743,
+        "intact": 1.0,
+        "mismatched_return": 0.7743508889337637,
+        "removed": 0.042656974060137
+      }
+    },
+    {
+      "causal_margin": 0.057319677839235195,
+      "damage_amplitude": 0.9,
+      "observation_minutes": 63.0,
+      "post_reinjection_minutes": 20.0,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 0.8901789848460688,
+        "intact": 1.0,
+        "mismatched_return": 0.8328593070068336,
+        "removed": 0.043324494657321876
+      }
+    },
+    {
+      "causal_margin": 0.2858715457782176,
+      "damage_amplitude": 0.9,
+      "observation_minutes": 83.0,
+      "post_reinjection_minutes": 40.0,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 0.9674660828205047,
+        "intact": 1.0,
+        "mismatched_return": 0.6815945370422871,
+        "removed": 0.04199416140240222
+      }
+    },
+    {
+      "causal_margin": 0.31098583179906636,
+      "damage_amplitude": 0.9,
+      "observation_minutes": 150.0,
+      "post_reinjection_minutes": 107.0,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 0.9782332717044311,
+        "intact": 1.0,
+        "mismatched_return": 0.6672474399053647,
+        "removed": 0.04196511966284877
+      }
+    }
+  ],
+  "schema": "siel-e014-cellular-return-identity-interaction-exploration-v1",
+  "scope": {
+    "not_confirmatory": true,
+    "paired_state_fingerprint_selected_for_this_exploration": true,
+    "reduced_model_not_living_cell_confirmation": true,
+    "scenarios_selected_from_prior_reinjection_window": true
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION"
+}

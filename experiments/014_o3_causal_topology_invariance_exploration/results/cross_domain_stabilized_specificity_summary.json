@@ -1,0 +1,84 @@
+{
+  "all_lodo_pass": true,
+  "all_stabilized_checks_pass": true,
+  "candidate_cross_domain_invariant": "after a domain-native stabilization interval, correct O3 return remains closer to the registered domain state than removal or a physically distinguishable mismatch",
+  "cellular_pre_stabilization_control": {
+    "checks": 15,
+    "median_margin": 0.0390407309151537,
+    "minimum_margin": -0.5770435371024631,
+    "pass_fraction": 0.5333333333333333,
+    "passing_checks": 8
+  },
+  "compression_boundary": {
+    "common_substance_or_source_identity_inferred": false,
+    "cross_domain_object": "sign of stabilized correct-return specificity",
+    "domain_readouts_are_distinct": true,
+    "shared_scalar_enters_domain_engines": false
+  },
+  "leave_one_domain_out": {
+    "atomic": {
+      "heldout_all_checks_pass": true,
+      "pass": true,
+      "training_domains": [
+        "molecular",
+        "cellular"
+      ],
+      "training_supports_positive_stabilized_specificity": true
+    },
+    "cellular": {
+      "heldout_all_checks_pass": true,
+      "pass": true,
+      "training_domains": [
+        "atomic",
+        "molecular"
+      ],
+      "training_supports_positive_stabilized_specificity": true
+    },
+    "molecular": {
+      "heldout_all_checks_pass": true,
+      "pass": true,
+      "training_domains": [
+        "atomic",
+        "cellular"
+      ],
+      "training_supports_positive_stabilized_specificity": true
+    }
+  },
+  "schema": "siel-e014-cross-domain-stabilized-specificity-exploration-v1",
+  "scope": {
+    "current_targets_not_held_out": true,
+    "not_confirmatory": true,
+    "prospective_test_requires_new_targets_and_frozen_domain_stabilization_rules": true,
+    "stabilization_rules_selected_after_exploration": true
+  },
+  "stabilization_rules_used_in_exploration": {
+    "atomic": "all registered return horizons, minimum 100 dynamic steps",
+    "cellular": "at least 40 minutes after reinjection",
+    "molecular": "Hellinger endpoint after at least 25 base return steps; exact propagation with factor-squared grid time scaling"
+  },
+  "stabilized_checks": {
+    "atomic": {
+      "checks": 50,
+      "median_margin": 0.44499091661709655,
+      "minimum_margin": 0.1003206507578821,
+      "pass_fraction": 1.0,
+      "passing_checks": 50
+    },
+    "cellular": {
+      "checks": 6,
+      "median_margin": 0.2790753326397543,
+      "minimum_margin": 0.04150459656133676,
+      "pass_fraction": 1.0,
+      "passing_checks": 6
+    },
+    "molecular": {
+      "checks": 10440,
+      "median_margin": 0.7585996056265004,
+      "minimum_margin": 0.017458640477639342,
+      "pass_fraction": 1.0,
+      "passing_checks": 10440
+    }
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION",
+  "total_stabilized_checks": 10496
+}

@@ -1,0 +1,503 @@
+{
+  "design": {
+    "null": "independent within-profile permutation of rank-readout labels; trajectories and readout distributions fixed",
+    "null_replicates": 4096,
+    "profile_count": 58,
+    "removal_steps": 20,
+    "seeds": [
+      2026174001,
+      2026174002,
+      2026174003,
+      2026174004,
+      2026174005,
+      2026174006,
+      2026174007,
+      2026174008,
+      2026174009,
+      2026174010,
+      2026174011,
+      2026174012,
+      2026174013,
+      2026174014,
+      2026174015,
+      2026174016,
+      2026174017,
+      2026174018,
+      2026174019,
+      2026174020,
+      2026174021,
+      2026174022,
+      2026174023,
+      2026174024,
+      2026174025,
+      2026174026,
+      2026174027,
+      2026174028,
+      2026174029,
+      2026174030,
+      2026174031,
+      2026174032,
+      2026174033,
+      2026174034,
+      2026174035,
+      2026174036,
+      2026174037,
+      2026174038,
+      2026174039,
+      2026174040,
+      2026174041,
+      2026174042,
+      2026174043,
+      2026174044,
+      2026174045,
+      2026174046,
+      2026174047,
+      2026174048,
+      2026174049,
+      2026174050,
+      2026174051,
+      2026174052,
+      2026174053,
+      2026174054,
+      2026174055,
+      2026174056,
+      2026174057,
+      2026174058,
+      2026174059,
+      2026174060,
+      2026174061,
+      2026174062,
+      2026174063,
+      2026174064
+    ],
+    "statistic": "mean profile-level correct-return minus generated-mismatch native-energy-rank advantage",
+    "temperature": 0.002,
+    "total_steps": 100
+  },
+  "profiles": [
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.06706788535163427,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.31875,
+      "profile": "6-31g_b0.7"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.1093895984264179,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.273125,
+      "profile": "6-31g_b0.8"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.20668485557767086,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.27055555555555555,
+      "profile": "6-31g_b0.9"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.04776511117678022,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.3491319444444444,
+      "profile": "6-31g_b1.0"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.21467401335657704,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.309375,
+      "profile": "6-31g_b1.1"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.07386576153953604,
+      "mismatch_shift_steps": 2,
+      "native_rank_advantage": 0.15184027777777773,
+      "profile": "6-31g_b1.2"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": -0.12440915269848701,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.1924652777777779,
+      "profile": "6-31g_b1.3"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.10985311753101579,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.17649305555555528,
+      "profile": "6-31g_b1.4"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.22757653269508962,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.21184027777777775,
+      "profile": "6-31g_b1.5"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.025020871019018537,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.20513888888888893,
+      "profile": "6-31g_b1.6"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.06741004889414173,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.23201388888888885,
+      "profile": "6-31g_b1.7"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.08969211149150842,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.25260416666666663,
+      "profile": "6-31g_b1.8"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.09809963853911595,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26645833333333324,
+      "profile": "6-31g_b1.9"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.09643344943044692,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26854166666666657,
+      "profile": "6-31g_b2.0"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.08732640944995898,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.27249999999999996,
+      "profile": "6-31g_b2.1"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.07280223697055707,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2732291666666666,
+      "profile": "6-31g_b2.2"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.06408538143008224,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2688194444444445,
+      "profile": "6-31g_b2.3"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.059874061823695146,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2690625,
+      "profile": "6-31g_b2.4"
+    },
+    {
+      "basis": "6-31g",
+      "mismatch_overlap": 0.05831876596844727,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2674305555555556,
+      "profile": "6-31g_b2.5"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.06833326124174868,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.39927083333333335,
+      "profile": "cc-pvdz_b0.7"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.10369592892427598,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.34625000000000006,
+      "profile": "cc-pvdz_b0.8"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.20128268293577636,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.30784722222222227,
+      "profile": "cc-pvdz_b0.9"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.06275863153639964,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.3496180555555555,
+      "profile": "cc-pvdz_b1.0"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.0450193413695614,
+      "mismatch_shift_steps": 2,
+      "native_rank_advantage": 0.31000000000000005,
+      "profile": "cc-pvdz_b1.1"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.11417237970134284,
+      "mismatch_shift_steps": 2,
+      "native_rank_advantage": 0.12940972222222227,
+      "profile": "cc-pvdz_b1.2"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.008372121125157395,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.1392013888888889,
+      "profile": "cc-pvdz_b1.3"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.17502098378185524,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.19895833333333346,
+      "profile": "cc-pvdz_b1.4"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": -0.016543051467814835,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.22121527777777783,
+      "profile": "cc-pvdz_b1.5"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.04232619582267168,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26246527777777773,
+      "profile": "cc-pvdz_b1.6"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.07804261436989225,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2683333333333333,
+      "profile": "cc-pvdz_b1.7"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.09801546242945829,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26843749999999994,
+      "profile": "cc-pvdz_b1.8"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.10707019624394432,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26916666666666655,
+      "profile": "cc-pvdz_b1.9"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.10631765786822528,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.27392361111111113,
+      "profile": "cc-pvdz_b2.0"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.09695042379623849,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2784027777777778,
+      "profile": "cc-pvdz_b2.1"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.08270437296145268,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2647222222222222,
+      "profile": "cc-pvdz_b2.2"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.07272980941884848,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.27413194444444433,
+      "profile": "cc-pvdz_b2.3"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.06958719939551995,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.27732638888888883,
+      "profile": "cc-pvdz_b2.4"
+    },
+    {
+      "basis": "cc-pvdz",
+      "mismatch_overlap": 0.06559563241692212,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.28409722222222217,
+      "profile": "cc-pvdz_b2.5"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.055995423610305683,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.2930208333333333,
+      "profile": "sto-3g_b0.7"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.0864009711252212,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.2900694444444444,
+      "profile": "sto-3g_b0.8"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.1665013433632171,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.2882638888888889,
+      "profile": "sto-3g_b0.9"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.016934071711284845,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.3931249999999999,
+      "profile": "sto-3g_b1.0"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.18361663766093492,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.38902777777777775,
+      "profile": "sto-3g_b1.1"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": -0.06545794321670048,
+      "mismatch_shift_steps": 2,
+      "native_rank_advantage": 0.4052083333333334,
+      "profile": "sto-3g_b1.2"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": -0.0638513338901155,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.17065972222222234,
+      "profile": "sto-3g_b1.3"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.16233905615356614,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.19097222222222215,
+      "profile": "sto-3g_b1.4"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": -0.019513065098711257,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.24111111111111097,
+      "profile": "sto-3g_b1.5"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.04169675672685826,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2613541666666666,
+      "profile": "sto-3g_b1.6"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.07604624710480062,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26138888888888884,
+      "profile": "sto-3g_b1.7"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.09360516148366657,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26326388888888885,
+      "profile": "sto-3g_b1.8"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.09986348920565058,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2638541666666666,
+      "profile": "sto-3g_b1.9"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.09834782109552874,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26350694444444434,
+      "profile": "sto-3g_b2.0"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.0916118834150735,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26850694444444434,
+      "profile": "sto-3g_b2.1"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.08163727484426371,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.26913194444444427,
+      "profile": "sto-3g_b2.2"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.07579897057380475,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.27736111111111106,
+      "profile": "sto-3g_b2.3"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.07293444574219116,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.2782291666666667,
+      "profile": "sto-3g_b2.4"
+    },
+    {
+      "basis": "sto-3g",
+      "mismatch_overlap": 0.07175798600577599,
+      "mismatch_shift_steps": 4,
+      "native_rank_advantage": 0.27614583333333337,
+      "profile": "sto-3g_b2.5"
+    },
+    {
+      "basis": "cc-pvtz",
+      "mismatch_overlap": 0.013867333437136075,
+      "mismatch_shift_steps": 3,
+      "native_rank_advantage": 0.333125,
+      "profile": "cc-pvtz_b1.0"
+    }
+  ],
+  "result": {
+    "all_profile_advantages_positive": true,
+    "conservative_monte_carlo_p": 0.000244081034903588,
+    "exceedances": 0,
+    "median_profile_advantage": 0.2690972222222221,
+    "minimum_profile_advantage": 0.12940972222222227,
+    "null_mean": 0.0013176704640589464,
+    "null_standard_deviation": 0.03919587762575386,
+    "observed_global_mean_advantage": 0.26947377873563216,
+    "z_score": 6.841436511052372
+  },
+  "schema": "siel-e014-global-randomized-readout-null-exploration-v1",
+  "scope": {
+    "does_not_establish_projection_uniqueness": true,
+    "not_confirmatory": true,
+    "readout_selected_after_exploration": true
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION"
+}

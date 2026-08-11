@@ -1,0 +1,937 @@
+{
+  "by_removal": {
+    "100": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.9746733324389437,
+      "median_margin": 0.44595364152431116,
+      "minimum_margin": 0.11988686924578817,
+      "pass_fraction": 1.0
+    },
+    "200": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.9358273132853909,
+      "median_margin": 0.45235840275791417,
+      "minimum_margin": 0.13379722588819054,
+      "pass_fraction": 1.0
+    },
+    "400": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.8712209953796173,
+      "median_margin": 0.44737400055585647,
+      "minimum_margin": 0.13368570951259084,
+      "pass_fraction": 1.0
+    },
+    "50": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.9919582552257559,
+      "median_margin": 0.43508565063683746,
+      "minimum_margin": 0.1003206507578821,
+      "pass_fraction": 1.0
+    },
+    "800": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.7894014049363227,
+      "median_margin": 0.42633082830984664,
+      "minimum_margin": 0.11947361245786536,
+      "pass_fraction": 1.0
+    }
+  },
+  "by_return": {
+    "100": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.813545842685525,
+      "median_margin": 0.17189301081856528,
+      "minimum_margin": 0.1003206507578821,
+      "pass_fraction": 1.0
+    },
+    "1200": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.9910311200478628,
+      "median_margin": 0.6535571439546958,
+      "minimum_margin": 0.59155166723981,
+      "pass_fraction": 1.0
+    },
+    "200": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.8645012559233806,
+      "median_margin": 0.2847928328000512,
+      "minimum_margin": 0.21894415109866394,
+      "pass_fraction": 1.0
+    },
+    "400": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.9212937104847445,
+      "median_margin": 0.44499091661709655,
+      "minimum_margin": 0.3372592185154928,
+      "pass_fraction": 1.0
+    },
+    "800": {
+      "configurations": 10,
+      "mean_correct_similarity": 0.9727093721245179,
+      "median_margin": 0.5771164942004073,
+      "minimum_margin": 0.5153899033252355,
+      "pass_fraction": 1.0
+    }
+  },
+  "by_target": {
+    "helium3_hydrogenic": {
+      "configurations": 25,
+      "mean_correct_similarity": 0.9155973624175543,
+      "median_margin": 0.5173472263559807,
+      "minimum_margin": 0.20998879574894003,
+      "pass_fraction": 1.0
+    },
+    "tritium": {
+      "configurations": 25,
+      "mean_correct_similarity": 0.9096351580888578,
+      "median_margin": 0.3740830642755918,
+      "minimum_margin": 0.1003206507578821,
+      "pass_fraction": 1.0
+    }
+  },
+  "design": {
+    "mismatch": "nonperiodic physical translation of the soft-Coulomb centre by 8 bohr",
+    "removal_durations": [
+      50,
+      100,
+      200,
+      400,
+      800
+    ],
+    "return_durations": [
+      100,
+      200,
+      400,
+      800,
+      1200
+    ],
+    "targets": {
+      "helium3_hydrogenic": {
+        "charge": 2.0,
+        "mass_ratio": 5495.88527984
+      },
+      "tritium": {
+        "charge": 1.0,
+        "mass_ratio": 5496.92153551
+      }
+    },
+    "whole_fingerprint": "normalized Jensen-Shannon similarity of the full density to matched intact dynamics"
+  },
+  "overall": {
+    "configurations": 50,
+    "mean_correct_similarity": 0.9126162602532061,
+    "median_margin": 0.44499091661709655,
+    "minimum_margin": 0.1003206507578821,
+    "pass_fraction": 1.0
+  },
+  "rows": [
+    {
+      "causal_margin": 0.1003206507578821,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 50,
+      "return_steps": 100,
+      "return_to_removal_ratio": 2.0,
+      "scores": {
+        "correct_return": 0.9811150254199257,
+        "intact": 1.0,
+        "mismatched_return": 0.8787662142584947,
+        "removed": 0.8807943746620436
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.21894415109866394,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 50,
+      "return_steps": 200,
+      "return_to_removal_ratio": 4.0,
+      "scores": {
+        "correct_return": 0.9908519129205656,
+        "intact": 1.0,
+        "mismatched_return": 0.7646593526888043,
+        "removed": 0.7719077618219017
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.3675590471993294,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 50,
+      "return_steps": 400,
+      "return_to_removal_ratio": 8.0,
+      "scores": {
+        "correct_return": 0.9955660432274461,
+        "intact": 1.0,
+        "mismatched_return": 0.6054302651707614,
+        "removed": 0.6280069960281167
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.5153899033252355,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 50,
+      "return_steps": 800,
+      "return_to_removal_ratio": 16.0,
+      "scores": {
+        "correct_return": 0.9978663951479234,
+        "intact": 1.0,
+        "mismatched_return": 0.4298493092961355,
+        "removed": 0.4824764918226879
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.59155166723981,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 50,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 24.0,
+      "scores": {
+        "correct_return": 0.9993775053677882,
+        "intact": 1.0,
+        "mismatched_return": 0.3191118213971724,
+        "removed": 0.40782583812797824
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.11988686924578817,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 100,
+      "return_steps": 100,
+      "return_to_removal_ratio": 1.0,
+      "scores": {
+        "correct_return": 0.9426915295174161,
+        "intact": 1.0,
+        "mismatched_return": 0.8203107430902505,
+        "removed": 0.8228046602716279
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.24117993935501958,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 100,
+      "return_steps": 200,
+      "return_to_removal_ratio": 2.0,
+      "scores": {
+        "correct_return": 0.9691452093359147,
+        "intact": 1.0,
+        "mismatched_return": 0.7198682819767552,
+        "removed": 0.7279652699808952
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.380663600914246,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 100,
+      "return_steps": 400,
+      "return_to_removal_ratio": 4.0,
+      "scores": {
+        "correct_return": 0.983104864586675,
+        "intact": 1.0,
+        "mismatched_return": 0.5784439223170201,
+        "removed": 0.602441263672429
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.5218007423232962,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 100,
+      "return_steps": 800,
+      "return_to_removal_ratio": 8.0,
+      "scores": {
+        "correct_return": 0.9924867741403465,
+        "intact": 1.0,
+        "mismatched_return": 0.41666708166624944,
+        "removed": 0.47068603181705027
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.5967799833083359,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 100,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 12.0,
+      "scores": {
+        "correct_return": 0.9976658923514554,
+        "intact": 1.0,
+        "mismatched_return": 0.3096772698902517,
+        "removed": 0.4008859090431195
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.13379722588819054,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 200,
+      "return_steps": 100,
+      "return_to_removal_ratio": 0.5,
+      "scores": {
+        "correct_return": 0.8617624958690857,
+        "intact": 1.0,
+        "mismatched_return": 0.7243858735764306,
+        "removed": 0.7279652699808952
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.25779019708101913,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 200,
+      "return_steps": 200,
+      "return_to_removal_ratio": 1.0,
+      "scores": {
+        "correct_return": 0.9147447871320366,
+        "intact": 1.0,
+        "mismatched_return": 0.6468095001768241,
+        "removed": 0.6569545900510174
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.3873695791598476,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 200,
+      "return_steps": 400,
+      "return_to_removal_ratio": 2.0,
+      "scores": {
+        "correct_return": 0.9466908699767432,
+        "intact": 1.0,
+        "mismatched_return": 0.5331403152467227,
+        "removed": 0.5593212908168956
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.5271230742974587,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 200,
+      "return_steps": 800,
+      "return_to_removal_ratio": 4.0,
+      "scores": {
+        "correct_return": 0.9767299142287817,
+        "intact": 1.0,
+        "mismatched_return": 0.39057839358661295,
+        "removed": 0.449606839931323
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.6041591771304724,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 200,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 6.0,
+      "scores": {
+        "correct_return": 0.9922586843722095,
+        "intact": 1.0,
+        "mismatched_return": 0.2898648600668494,
+        "removed": 0.38809950724173714
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.13368570951259084,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 400,
+      "return_steps": 100,
+      "return_to_removal_ratio": 0.25,
+      "scores": {
+        "correct_return": 0.7361269731850199,
+        "intact": 1.0,
+        "mismatched_return": 0.5948048655786832,
+        "removed": 0.602441263672429
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.2554859244172065,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 400,
+      "return_steps": 200,
+      "return_to_removal_ratio": 0.5,
+      "scores": {
+        "correct_return": 0.8148072152341022,
+        "intact": 1.0,
+        "mismatched_return": 0.5411590666407824,
+        "removed": 0.5593212908168956
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.3740830642755918,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 400,
+      "return_steps": 400,
+      "return_to_removal_ratio": 1.0,
+      "scores": {
+        "correct_return": 0.8693312914152852,
+        "intact": 1.0,
+        "mismatched_return": 0.45094732787028335,
+        "removed": 0.4952482271396934
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.5258280226744337,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 400,
+      "return_steps": 800,
+      "return_to_removal_ratio": 2.0,
+      "scores": {
+        "correct_return": 0.9410049745451258,
+        "intact": 1.0,
+        "mismatched_return": 0.3209170787902378,
+        "removed": 0.41517695187069203
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.6126445267124825,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 400,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 3.0,
+      "scores": {
+        "correct_return": 0.9787694936023801,
+        "intact": 1.0,
+        "mismatched_return": 0.22845527949595645,
+        "removed": 0.3661249668898976
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.11947361245786536,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 800,
+      "return_steps": 100,
+      "return_to_removal_ratio": 0.125,
+      "scores": {
+        "correct_return": 0.5901596442749156,
+        "intact": 1.0,
+        "mismatched_return": 0.4596214854540023,
+        "removed": 0.47068603181705027
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.23142965872672472,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 800,
+      "return_steps": 200,
+      "return_to_removal_ratio": 0.25,
+      "scores": {
+        "correct_return": 0.6810364986580477,
+        "intact": 1.0,
+        "mismatched_return": 0.4232054181561896,
+        "removed": 0.449606839931323
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.3372592185154928,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 800,
+      "return_steps": 400,
+      "return_to_removal_ratio": 0.5,
+      "scores": {
+        "correct_return": 0.7524361703861848,
+        "intact": 1.0,
+        "mismatched_return": 0.3435694877150597,
+        "removed": 0.41517695187069203
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.5154024381042005,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 800,
+      "return_steps": 800,
+      "return_to_removal_ratio": 1.0,
+      "scores": {
+        "correct_return": 0.8815274049940981,
+        "intact": 1.0,
+        "mismatched_return": 0.20937950772416225,
+        "removed": 0.3661249668898976
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.6212656551183007,
+      "causal_pass": true,
+      "nuclear_charge": 1.0,
+      "reduced_mass": 0.9998181130826366,
+      "removal_steps": 800,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 1.5,
+      "scores": {
+        "correct_return": 0.9536213823319721,
+        "intact": 1.0,
+        "mismatched_return": 0.13971545233381188,
+        "removed": 0.33235572721367146
+      },
+      "target": "tritium"
+    },
+    {
+      "causal_margin": 0.22035782522232805,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 50,
+      "return_steps": 100,
+      "return_to_removal_ratio": 2.0,
+      "scores": {
+        "correct_return": 0.9757471916989637,
+        "intact": 1.0,
+        "mismatched_return": 0.7513958221273913,
+        "removed": 0.7553893664766357
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.35917114865867183,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 50,
+      "return_steps": 200,
+      "return_to_removal_ratio": 4.0,
+      "scores": {
+        "correct_return": 0.9869724503377717,
+        "intact": 1.0,
+        "mismatched_return": 0.6153893720727356,
+        "removed": 0.6278013016790999
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.5026122540743455,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 50,
+      "return_steps": 400,
+      "return_to_removal_ratio": 8.0,
+      "scores": {
+        "correct_return": 0.9936069538485972,
+        "intact": 1.0,
+        "mismatched_return": 0.45590592265503904,
+        "removed": 0.4909946997742517
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.6271099141033559,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 50,
+      "return_steps": 800,
+      "return_to_removal_ratio": 16.0,
+      "scores": {
+        "correct_return": 0.9985064567982758,
+        "intact": 1.0,
+        "mismatched_return": 0.2826199923142614,
+        "removed": 0.37139654269491984
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.6858486327910909,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 50,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 24.0,
+      "scores": {
+        "correct_return": 0.9999726174903005,
+        "intact": 1.0,
+        "mismatched_return": 0.17478509425672462,
+        "removed": 0.31412398469920966
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.2453520704726847,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 100,
+      "return_steps": 100,
+      "return_to_removal_ratio": 1.0,
+      "scores": {
+        "correct_return": 0.9290076720356549,
+        "intact": 1.0,
+        "mismatched_return": 0.6788029246095579,
+        "removed": 0.6836556015629702
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.3738014914368203,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 100,
+      "return_steps": 200,
+      "return_to_removal_ratio": 2.0,
+      "scores": {
+        "correct_return": 0.9570633248882446,
+        "intact": 1.0,
+        "mismatched_return": 0.5691878991434416,
+        "removed": 0.5832618334514243
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.5112436821343763,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 100,
+      "return_steps": 400,
+      "return_to_removal_ratio": 4.0,
+      "scores": {
+        "correct_return": 0.9801900683006189,
+        "intact": 1.0,
+        "mismatched_return": 0.43108109741805356,
+        "removed": 0.4689463861662426
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.6333170186654232,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 100,
+      "return_steps": 800,
+      "return_to_removal_ratio": 8.0,
+      "scores": {
+        "correct_return": 0.9955356473359045,
+        "intact": 1.0,
+        "mismatched_return": 0.2706273849529326,
+        "removed": 0.36221862867048127
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.6909575749794961,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 100,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 12.0,
+      "scores": {
+        "correct_return": 0.9998423418972053,
+        "intact": 1.0,
+        "mismatched_return": 0.1660311733078731,
+        "removed": 0.3088847669177093
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.2543160626524824,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 200,
+      "return_steps": 100,
+      "return_to_removal_ratio": 0.5,
+      "scores": {
+        "correct_return": 0.8375778961039068,
+        "intact": 1.0,
+        "mismatched_return": 0.5755769661763461,
+        "removed": 0.5832618334514243
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.37308614403325524,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 200,
+      "return_steps": 200,
+      "return_to_removal_ratio": 1.0,
+      "scores": {
+        "correct_return": 0.8897283344239112,
+        "intact": 1.0,
+        "mismatched_return": 0.49734310991210817,
+        "removed": 0.516642190390656
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.5173472263559807,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 200,
+      "return_steps": 400,
+      "return_to_removal_ratio": 2.0,
+      "scores": {
+        "correct_return": 0.9502252415747814,
+        "intact": 1.0,
+        "mismatched_return": 0.3851668600688861,
+        "removed": 0.43287801521880065
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.643514662030461,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 200,
+      "return_steps": 800,
+      "return_to_removal_ratio": 4.0,
+      "scores": {
+        "correct_return": 0.9894591563145766,
+        "intact": 1.0,
+        "mismatched_return": 0.24212574832132572,
+        "removed": 0.34594449428411556
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.699835637726982,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 200,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 6.0,
+      "scores": {
+        "correct_return": 0.9990957528578763,
+        "intact": 1.0,
+        "mismatched_return": 0.13312856860457434,
+        "removed": 0.29926011513089434
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.24011618816469604,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 400,
+      "return_steps": 100,
+      "return_to_removal_ratio": 0.25,
+      "scores": {
+        "correct_return": 0.7090625743309387,
+        "intact": 1.0,
+        "mismatched_return": 0.45193102537351604,
+        "removed": 0.4689463861662426
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.35004484828121085,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 400,
+      "return_steps": 200,
+      "return_to_removal_ratio": 0.5,
+      "scores": {
+        "correct_return": 0.7829228635000115,
+        "intact": 1.0,
+        "mismatched_return": 0.3923930021265203,
+        "removed": 0.43287801521880065
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.5206649368361211,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 400,
+      "return_steps": 400,
+      "return_to_removal_ratio": 1.0,
+      "scores": {
+        "correct_return": 0.902070816740507,
+        "intact": 1.0,
+        "mismatched_return": 0.28441677420543765,
+        "removed": 0.3814058799043859
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.6616745363082509,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 400,
+      "return_steps": 800,
+      "return_to_removal_ratio": 2.0,
+      "scores": {
+        "correct_return": 0.9813614709025257,
+        "intact": 1.0,
+        "mismatched_return": 0.11587727653927837,
+        "removed": 0.3196869345942748
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.7139627876207686,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 400,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 3.0,
+      "scores": {
+        "correct_return": 0.9967522803402766,
+        "intact": 1.0,
+        "mismatched_return": 0.018569553836008112,
+        "removed": 0.28278949271950804
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.20998879574894003,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 800,
+      "return_steps": 100,
+      "return_to_removal_ratio": 0.125,
+      "scores": {
+        "correct_return": 0.5722074244194213,
+        "intact": 1.0,
+        "mismatched_return": 0.3421565334307952,
+        "removed": 0.36221862867048127
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.31179546851908324,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 800,
+      "return_steps": 200,
+      "return_to_removal_ratio": 0.25,
+      "scores": {
+        "correct_return": 0.6577399628031988,
+        "intact": 1.0,
+        "mismatched_return": 0.29707327162639197,
+        "removed": 0.34594449428411556
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.5200278501963306,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 800,
+      "return_steps": 400,
+      "return_to_removal_ratio": 0.5,
+      "scores": {
+        "correct_return": 0.8397147847906054,
+        "intact": 1.0,
+        "mismatched_return": 0.19984012170492937,
+        "removed": 0.3196869345942748
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.6898260341181122,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 800,
+      "return_steps": 800,
+      "return_to_removal_ratio": 1.0,
+      "scores": {
+        "correct_return": 0.9726155268376202,
+        "intact": 1.0,
+        "mismatched_return": 0.04939568563748942,
+        "removed": 0.28278949271950804
+      },
+      "target": "helium3_hydrogenic"
+    },
+    {
+      "causal_margin": 0.7353600671858466,
+      "causal_pass": true,
+      "nuclear_charge": 2.0,
+      "reduced_mass": 0.9998180787938822,
+      "removal_steps": 800,
+      "return_steps": 1200,
+      "return_to_removal_ratio": 1.5,
+      "scores": {
+        "correct_return": 0.9929552498671628,
+        "intact": 1.0,
+        "mismatched_return": 0.006853193734912444,
+        "removed": 0.2575951826813162
+      },
+      "target": "helium3_hydrogenic"
+    }
+  ],
+  "schema": "siel-e014-atomic-reentry-phase-map-exploration-v1",
+  "scope": {
+    "density_fingerprint_selected_after_molecular_exploration": true,
+    "not_confirmatory": true,
+    "reduced_soft_coulomb_models_only": true,
+    "targets_previously_used_in_E013": true
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION"
+}

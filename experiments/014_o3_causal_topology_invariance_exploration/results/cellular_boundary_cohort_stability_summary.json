@@ -1,0 +1,487 @@
+{
+  "all_amplitude_cohort_cells_match_expected_pattern": true,
+  "design": {
+    "cohort_size": 32,
+    "cohort_starts": [
+      2026187001,
+      2026187033,
+      2026187065,
+      2026187097
+    ],
+    "executed_amplitudes": [
+      0.65,
+      0.7,
+      0.8,
+      0.85
+    ],
+    "expected_neighbour_pattern": "45-minute specificity pass and 50-minute specificity nonpass",
+    "reinjection_minutes": [
+      45.0,
+      50.0
+    ],
+    "reserved_unexecuted_amplitudes": [
+      0.675,
+      0.825
+    ]
+  },
+  "matching_cells": 32,
+  "rows": [
+    {
+      "cohort": 1,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.65,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187001,
+        2026187032
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 1,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.65,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187001,
+        2026187032
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 2,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.65,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187033,
+        2026187064
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 2,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.65,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187033,
+        2026187064
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 3,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.65,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187065,
+        2026187096
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 3,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.65,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187065,
+        2026187096
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 4,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.65,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187097,
+        2026187128
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 4,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.65,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187097,
+        2026187128
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 1,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.7,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187001,
+        2026187032
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 1,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.7,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187001,
+        2026187032
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 2,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.7,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187033,
+        2026187064
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 2,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.7,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187033,
+        2026187064
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 3,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.7,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187065,
+        2026187096
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 3,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.7,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187065,
+        2026187096
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 4,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.7,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187097,
+        2026187128
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 4,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.7,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187097,
+        2026187128
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 1,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.8,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187001,
+        2026187032
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 1,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.8,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187001,
+        2026187032
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 2,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.8,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187033,
+        2026187064
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 2,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.8,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187033,
+        2026187064
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 3,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.8,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187065,
+        2026187096
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 3,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.8,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187065,
+        2026187096
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 4,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.8,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187097,
+        2026187128
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 4,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.8,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187097,
+        2026187128
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 1,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.85,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187001,
+        2026187032
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 1,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.85,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187001,
+        2026187032
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 2,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.85,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187033,
+        2026187064
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 2,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.85,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187033,
+        2026187064
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 3,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.85,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187065,
+        2026187096
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 3,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.85,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187065,
+        2026187096
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "cohort": 4,
+      "correct_alive_fraction": 1.0,
+      "damage_amplitude": 0.85,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 45.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187097,
+        2026187128
+      ],
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "cohort": 4,
+      "correct_alive_fraction": 0.0,
+      "damage_amplitude": 0.85,
+      "mismatched_alive_fraction": 0.0,
+      "reinjection_minutes": 50.0,
+      "removed_alive_fraction": 0.0,
+      "seed_range": [
+        2026187097,
+        2026187128
+      ],
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    }
+  ],
+  "schema": "siel-e014-cellular-boundary-cohort-stability-exploration-v1",
+  "scope": {
+    "cohort_stress_selected_after_neighbour_map": true,
+    "not_confirmatory": true,
+    "reduced_model_not_living_cell_confirmation": true,
+    "reserved_amplitudes_not_executed": true
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION",
+  "total_cells": 32
+}

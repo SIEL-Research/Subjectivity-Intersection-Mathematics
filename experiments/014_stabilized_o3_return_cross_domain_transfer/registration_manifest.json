@@ -1,0 +1,20 @@
+{
+  "schema": "siel-experiment-014-registration-v1",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "target_execution_performed": false,
+  "experiment": "014_stabilized_o3_return_cross_domain_transfer",
+  "registration_tag": "e014-preregistration-v1.0.0",
+  "result_tag": "e014-results-v1.0.0",
+  "source_sha256": {
+    "experiments/009_constitutive_cell_o3_closure/core.py": "ae8186180bfce424cb2b18fc4014c1417d9ab4a225d216b521811cda3e120500",
+    "experiments/010_complete_molecular_carrier_transfer/run.py": "b476b15cc02f75fa7ce6d988807338942be92caf0030cdee4145cee437161563",
+    "experiments/014_stabilized_o3_return_cross_domain_transfer/PREREGISTRATION.md": "68c25d4f213ebfeb2de275d53e39f4c1d78264fde9543754970d058c1c6a61f3",
+    "experiments/014_stabilized_o3_return_cross_domain_transfer/README.md": "ba02d15a230965b726201442a03326e051a71eb639dd062e68042d984b22f66c",
+    "experiments/014_stabilized_o3_return_cross_domain_transfer/TARGET_PROVENANCE.md": "d9dbe55fa6b6e6ea4486b73048f82c96f8664db8935bdaf181be5bbb35fdaacf",
+    "experiments/014_stabilized_o3_return_cross_domain_transfer/TECHNICAL_SPECIFICATION.md": "8b6a4fd1b1e17659cadc88d34a60cf38063f89e39c90b897a02536998d9f9afd",
+    "experiments/014_stabilized_o3_return_cross_domain_transfer/requirements-e014.txt": "554d265372e281a7e431739085f9574e4a84412cc35521495f1b3fdf7f4044d4",
+    "experiments/014_stabilized_o3_return_cross_domain_transfer/run.py": "b4b0443d6148e386b276ff67fe851ce3a039ec07545e2310ced25c348b4de863",
+    "experiments/014_stabilized_o3_return_cross_domain_transfer/target_registry.json": "a082ad5ceb146ace2e12365da5b486eb5d6ef69587f429ee4aae02bcd87919ef",
+    "experiments/014_stabilized_o3_return_cross_domain_transfer/tests/test_e014.py": "014cb4a00cb193764b1f107582e2f7ac709d9e401dc2d7467da67e6619d997d1"
+  }
+}

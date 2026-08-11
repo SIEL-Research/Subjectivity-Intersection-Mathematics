@@ -114,3 +114,24 @@ outputs, acceptance checks, and claim boundary.
     passed all seven gates: the raw threshold range was `0.164`, while the
     transformed mediator range was `0.00335269054`.
     [Registered result](011_renormalized_cross_scale_closure_prediction/results/RESULT.md).
+
+12. [Cross-Domain O3 Intervention Transfer](012_cross_domain_o3_intervention_transfer/README.md) —
+    registered atom–molecule–cell intervention test with independent domain
+    readouts. The full conjunctive claim was not supported; the positive
+    threshold-free separation and every component outcome remain public.
+    [Registered result](012_cross_domain_o3_intervention_transfer/results/RESULT.md).
+
+13. [Domain-Prior O3 Generation Transfer](013_domain_prior_o3_generation_transfer/README.md) —
+    prospective test of a common residual-generation rule on fresh targets.
+    The cross-domain causal partial order passed, but the stronger common
+    absolute molecular low-score gates failed, so the registered decision is
+    `NOT_SUPPORTED`.
+    [Registered interpretation](013_domain_prior_o3_generation_transfer/results/INTERPRETATION.md).
+
+14. [Stabilized O3 Return Cross-Domain Transfer](014_stabilized_o3_return_cross_domain_transfer/README.md) —
+    preregistered fresh-target test of whether correct O3 return has a
+    stabilized causal advantage over removal and physically distinguishable
+    mismatch in independent atomic, molecular, and cellular reduced engines.
+    No shared scalar enters the three domain dynamics. Target execution is
+    forbidden until the preregistration Release and DOI are public and
+    verified.

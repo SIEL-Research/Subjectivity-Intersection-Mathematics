@@ -1,0 +1,555 @@
+{
+  "boundaries": [
+    {
+      "damage_amplitude": 0.625,
+      "earliest_failing_reinjection": 55.0,
+      "latest_passing_reinjection": 50.0,
+      "passing_reinjections": [
+        43.0,
+        45.0,
+        50.0
+      ]
+    },
+    {
+      "damage_amplitude": 0.65,
+      "earliest_failing_reinjection": 50.0,
+      "latest_passing_reinjection": 45.0,
+      "passing_reinjections": [
+        43.0,
+        45.0
+      ]
+    },
+    {
+      "damage_amplitude": 0.7,
+      "earliest_failing_reinjection": 50.0,
+      "latest_passing_reinjection": 45.0,
+      "passing_reinjections": [
+        43.0,
+        45.0
+      ]
+    },
+    {
+      "damage_amplitude": 0.8,
+      "earliest_failing_reinjection": 50.0,
+      "latest_passing_reinjection": 45.0,
+      "passing_reinjections": [
+        43.0,
+        45.0
+      ]
+    },
+    {
+      "damage_amplitude": 0.85,
+      "earliest_failing_reinjection": 50.0,
+      "latest_passing_reinjection": 45.0,
+      "passing_reinjections": [
+        43.0,
+        45.0
+      ]
+    },
+    {
+      "damage_amplitude": 0.875,
+      "earliest_failing_reinjection": 45.0,
+      "latest_passing_reinjection": 43.0,
+      "passing_reinjections": [
+        43.0
+      ]
+    }
+  ],
+  "design": {
+    "executed_amplitudes": [
+      0.625,
+      0.65,
+      0.7,
+      0.8,
+      0.85,
+      0.875
+    ],
+    "primary_readout": "unchanged E009 alive criterion",
+    "reinjection_minutes": [
+      43.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0
+    ],
+    "reserved_unexecuted_amplitudes": [
+      0.675,
+      0.825
+    ],
+    "seeds": [
+      2026186001,
+      2026186002,
+      2026186003,
+      2026186004,
+      2026186005,
+      2026186006,
+      2026186007,
+      2026186008,
+      2026186009,
+      2026186010,
+      2026186011,
+      2026186012,
+      2026186013,
+      2026186014,
+      2026186015,
+      2026186016,
+      2026186017,
+      2026186018,
+      2026186019,
+      2026186020,
+      2026186021,
+      2026186022,
+      2026186023,
+      2026186024,
+      2026186025,
+      2026186026,
+      2026186027,
+      2026186028,
+      2026186029,
+      2026186030,
+      2026186031,
+      2026186032,
+      2026186033,
+      2026186034,
+      2026186035,
+      2026186036,
+      2026186037,
+      2026186038,
+      2026186039,
+      2026186040,
+      2026186041,
+      2026186042,
+      2026186043,
+      2026186044,
+      2026186045,
+      2026186046,
+      2026186047,
+      2026186048,
+      2026186049,
+      2026186050,
+      2026186051,
+      2026186052,
+      2026186053,
+      2026186054,
+      2026186055,
+      2026186056,
+      2026186057,
+      2026186058,
+      2026186059,
+      2026186060,
+      2026186061,
+      2026186062,
+      2026186063,
+      2026186064
+    ]
+  },
+  "least_squares_boundary": {
+    "intercept": 57.166666666666664,
+    "slope": -15.555555555555573
+  },
+  "monotone_nonincreasing_latest_boundary": true,
+  "reserved_amplitude_predictions_without_execution": {
+    "0.675": 46.66666666666665,
+    "0.825": 44.333333333333314
+  },
+  "rows": [
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.625,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.625,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 44,
+      "damage_amplitude": 0.625,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.6875,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.6875,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.625,
+      "reinjection_minutes": 55.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.625,
+      "reinjection_minutes": 60.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.65,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.65,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.65,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.65,
+      "reinjection_minutes": 55.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.65,
+      "reinjection_minutes": 60.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.7,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.7,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.7,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.7,
+      "reinjection_minutes": 55.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.7,
+      "reinjection_minutes": 60.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.8,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.8,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.8,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.8,
+      "reinjection_minutes": 55.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.8,
+      "reinjection_minutes": 60.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.85,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.85,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.85,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.85,
+      "reinjection_minutes": 55.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.85,
+      "reinjection_minutes": 60.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 64,
+      "damage_amplitude": 0.875,
+      "reinjection_minutes": 43.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 1.0,
+      "specificity_pass": true
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.875,
+      "reinjection_minutes": 45.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.875,
+      "reinjection_minutes": 50.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.875,
+      "reinjection_minutes": 55.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    },
+    {
+      "correct_alive_count": 0,
+      "damage_amplitude": 0.875,
+      "reinjection_minutes": 60.0,
+      "scores": {
+        "correct_return": 0.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "specificity_margin": 0.0,
+      "specificity_pass": false
+    }
+  ],
+  "schema": "siel-e014-cellular-boundary-neighbour-stress-exploration-v1",
+  "scope": {
+    "new_seed_stress_selected_after_prior_boundary_map": true,
+    "not_confirmatory": true,
+    "reduced_model_not_living_cell_confirmation": true,
+    "reserved_amplitudes_not_executed": true
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION"
+}

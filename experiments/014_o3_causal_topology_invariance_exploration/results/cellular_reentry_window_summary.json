@@ -1,0 +1,3151 @@
+{
+  "alive_fraction": {
+    "configurations": 45,
+    "maximum_margin": 1.0,
+    "minimum_margin": 0.0,
+    "pass_fraction": 0.13333333333333333
+  },
+  "continuous_recovery_score": {
+    "configurations": 45,
+    "maximum_margin": 0.9979124912370712,
+    "minimum_margin": 0.0,
+    "pass_fraction": 0.3333333333333333
+  },
+  "design": {
+    "damage_amplitudes": [
+      0.45,
+      0.6,
+      0.75,
+      0.9,
+      1.05
+    ],
+    "engine": "frozen E009 reduced stochastic cell dynamics",
+    "primary_readout": "unchanged E009 alive criterion",
+    "reinjection_minutes": [
+      43.0,
+      45.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0,
+      110.0
+    ],
+    "secondary_readout": "continuous module-recovery and late-damage diagnostic selected for exploration",
+    "seeds": [
+      2026182001,
+      2026182002,
+      2026182003,
+      2026182004,
+      2026182005,
+      2026182006,
+      2026182007,
+      2026182008,
+      2026182009,
+      2026182010,
+      2026182011,
+      2026182012,
+      2026182013,
+      2026182014,
+      2026182015,
+      2026182016,
+      2026182017,
+      2026182018,
+      2026182019,
+      2026182020,
+      2026182021,
+      2026182022,
+      2026182023,
+      2026182024,
+      2026182025,
+      2026182026,
+      2026182027,
+      2026182028,
+      2026182029,
+      2026182030,
+      2026182031,
+      2026182032
+    ]
+  },
+  "rows": [
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979174382354749,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979205619217706
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979179841910271,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979211095452638
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.25748828300874516
+        },
+        "removed": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.895859032549063,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.895859032549063
+        }
+      },
+      "damage_amplitude": 0.45,
+      "joint_erasure_duration_minutes": 3.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": false
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 1.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.10205840568641189,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9979174382354749,
+            "intact": 0.9979179841910271,
+            "mismatched_return": 0.0,
+            "removed": 0.895859032549063
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 107.0,
+      "reinjection_minutes": 43.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979170709104863,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979201849556358
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979179841910271,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979211095452638
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.25748828300874516
+        },
+        "removed": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.895859032549063,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.895859032549063
+        }
+      },
+      "damage_amplitude": 0.45,
+      "joint_erasure_duration_minutes": 5.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": false
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 1.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.10205803836142335,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9979170709104863,
+            "intact": 0.9979179841910271,
+            "mismatched_return": 0.0,
+            "removed": 0.895859032549063
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 105.0,
+      "reinjection_minutes": 45.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979167805782144,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979198845952129
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979179841910271,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979211095452638
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.25748828300874516
+        },
+        "removed": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.895859032549063,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.895859032549063
+        }
+      },
+      "damage_amplitude": 0.45,
+      "joint_erasure_duration_minutes": 10.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": false
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 1.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.10205774802915146,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9979167805782144,
+            "intact": 0.9979179841910271,
+            "mismatched_return": 0.0,
+            "removed": 0.895859032549063
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 100.0,
+      "reinjection_minutes": 50.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979153180895022,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979183478135837
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979179841910271,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979211095452638
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.25748828300874516
+        },
+        "removed": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.895859032549063,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.895859032549063
+        }
+      },
+      "damage_amplitude": 0.45,
+      "joint_erasure_duration_minutes": 20.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": false
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 1.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.10205628554043922,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9979153180895022,
+            "intact": 0.9979179841910271,
+            "mismatched_return": 0.0,
+            "removed": 0.895859032549063
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 90.0,
+      "reinjection_minutes": 60.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979013079755954,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979042402799012
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979179841910271,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979211095452638
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.25748828300874516
+        },
+        "removed": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.895859032549063,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.895859032549063
+        }
+      },
+      "damage_amplitude": 0.45,
+      "joint_erasure_duration_minutes": 30.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": false
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 1.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.10204227542653244,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9979013079755954,
+            "intact": 0.9979179841910271,
+            "mismatched_return": 0.0,
+            "removed": 0.895859032549063
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 80.0,
+      "reinjection_minutes": 70.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9977796422583013,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9977801120140517
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979179841910271,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979211095452638
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.25748828300874516
+        },
+        "removed": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.895859032549063,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.895859032549063
+        }
+      },
+      "damage_amplitude": 0.45,
+      "joint_erasure_duration_minutes": 40.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": false
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 1.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.10192060970923833,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9977796422583013,
+            "intact": 0.9979179841910271,
+            "mismatched_return": 0.0,
+            "removed": 0.895859032549063
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 70.0,
+      "reinjection_minutes": 80.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9971222478283016,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9971222478283016
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979179841910271,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979211095452638
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.25748828300874516
+        },
+        "removed": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.895859032549063,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.895859032549063
+        }
+      },
+      "damage_amplitude": 0.45,
+      "joint_erasure_duration_minutes": 50.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": false
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 1.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.10126321527923865,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9971222478283016,
+            "intact": 0.9979179841910271,
+            "mismatched_return": 0.0,
+            "removed": 0.895859032549063
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 60.0,
+      "reinjection_minutes": 90.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9959967145288984,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9959972457981889
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979179841910271,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979211095452638
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.25748828300874516
+        },
+        "removed": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.895859032549063,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.895859032549063
+        }
+      },
+      "damage_amplitude": 0.45,
+      "joint_erasure_duration_minutes": 60.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": false
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 1.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.10013768197983541,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9959967145288984,
+            "intact": 0.9979179841910271,
+            "mismatched_return": 0.0,
+            "removed": 0.895859032549063
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 50.0,
+      "reinjection_minutes": 100.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9922217742549071,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9922217742549071
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979179841910271,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979211095452638
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.25748828300874516
+        },
+        "removed": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.895859032549063,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.895859032549063
+        }
+      },
+      "damage_amplitude": 0.45,
+      "joint_erasure_duration_minutes": 70.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": false
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 1.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.09636274170584413,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9922217742549071,
+            "intact": 0.9979179841910271,
+            "mismatched_return": 0.0,
+            "removed": 0.895859032549063
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 40.0,
+      "reinjection_minutes": 110.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979124912370712,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979153923188209
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979147851690223,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979177592517946
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.2205015566600615
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        }
+      },
+      "damage_amplitude": 0.6,
+      "joint_erasure_duration_minutes": 3.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 1.0,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.9979124912370712,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9979124912370712,
+            "intact": 0.9979147851690223,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 107.0,
+      "reinjection_minutes": 43.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979065685530976,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979093427503958
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979147851690223,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979177592517946
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.2205015566600615
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        }
+      },
+      "damage_amplitude": 0.6,
+      "joint_erasure_duration_minutes": 5.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 1.0,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.9979065685530976,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9979065685530976,
+            "intact": 0.9979147851690223,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 105.0,
+      "reinjection_minutes": 45.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9969382198856751,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9969382198856751
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979147851690223,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979177592517946
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.2205015566600615
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        }
+      },
+      "damage_amplitude": 0.6,
+      "joint_erasure_duration_minutes": 10.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 1.0,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.9969382198856751,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9969382198856751,
+            "intact": 0.9979147851690223,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 100.0,
+      "reinjection_minutes": 50.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979147851690223,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979177592517946
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.2205015566600615
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        }
+      },
+      "damage_amplitude": 0.6,
+      "joint_erasure_duration_minutes": 20.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9979147851690223,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 90.0,
+      "reinjection_minutes": 60.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979147851690223,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979177592517946
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.2205015566600615
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        }
+      },
+      "damage_amplitude": 0.6,
+      "joint_erasure_duration_minutes": 30.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9979147851690223,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 80.0,
+      "reinjection_minutes": 70.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979147851690223,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979177592517946
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.2205015566600615
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        }
+      },
+      "damage_amplitude": 0.6,
+      "joint_erasure_duration_minutes": 40.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9979147851690223,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 70.0,
+      "reinjection_minutes": 80.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979147851690223,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979177592517946
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.2205015566600615
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        }
+      },
+      "damage_amplitude": 0.6,
+      "joint_erasure_duration_minutes": 50.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9979147851690223,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 60.0,
+      "reinjection_minutes": 90.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979147851690223,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979177592517946
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.2205015566600615
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        }
+      },
+      "damage_amplitude": 0.6,
+      "joint_erasure_duration_minutes": 60.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9979147851690223,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 50.0,
+      "reinjection_minutes": 100.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9979147851690223,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979177592517946
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.2205015566600615
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.1683202404629563
+        }
+      },
+      "damage_amplitude": 0.6,
+      "joint_erasure_duration_minutes": 70.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9979147851690223,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 40.0,
+      "reinjection_minutes": 110.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978949378722548,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978975318450978
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.997906014928317,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979087832874172
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21297682381377572
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        }
+      },
+      "damage_amplitude": 0.75,
+      "joint_erasure_duration_minutes": 3.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 1.0,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.9978949378722548,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9978949378722548,
+            "intact": 0.997906014928317,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 107.0,
+      "reinjection_minutes": 43.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9977906475256132,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9977906517772164
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.997906014928317,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979087832874172
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21297682381377572
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        }
+      },
+      "damage_amplitude": 0.75,
+      "joint_erasure_duration_minutes": 5.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 1.0,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.9977906475256132,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9977906475256132,
+            "intact": 0.997906014928317,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 105.0,
+      "reinjection_minutes": 45.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.11186512465122175
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.997906014928317,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979087832874172
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21297682381377572
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        }
+      },
+      "damage_amplitude": 0.75,
+      "joint_erasure_duration_minutes": 10.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.997906014928317,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 100.0,
+      "reinjection_minutes": 50.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.997906014928317,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979087832874172
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21297682381377572
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        }
+      },
+      "damage_amplitude": 0.75,
+      "joint_erasure_duration_minutes": 20.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.997906014928317,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 90.0,
+      "reinjection_minutes": 60.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.997906014928317,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979087832874172
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21297682381377572
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        }
+      },
+      "damage_amplitude": 0.75,
+      "joint_erasure_duration_minutes": 30.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.997906014928317,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 80.0,
+      "reinjection_minutes": 70.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.997906014928317,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979087832874172
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21297682381377572
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        }
+      },
+      "damage_amplitude": 0.75,
+      "joint_erasure_duration_minutes": 40.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.997906014928317,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 70.0,
+      "reinjection_minutes": 80.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.997906014928317,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979087832874172
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21297682381377572
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        }
+      },
+      "damage_amplitude": 0.75,
+      "joint_erasure_duration_minutes": 50.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.997906014928317,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 60.0,
+      "reinjection_minutes": 90.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.997906014928317,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979087832874172
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21297682381377572
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        }
+      },
+      "damage_amplitude": 0.75,
+      "joint_erasure_duration_minutes": 60.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.997906014928317,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 50.0,
+      "reinjection_minutes": 100.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.997906014928317,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9979087832874172
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21297682381377572
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16972880352271708
+        }
+      },
+      "damage_amplitude": 0.75,
+      "joint_erasure_duration_minutes": 70.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.997906014928317,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 40.0,
+      "reinjection_minutes": 110.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9976816035628895,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9976816035628895
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978576097455523,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978590150758696
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21757084445432456
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        }
+      },
+      "damage_amplitude": 0.9,
+      "joint_erasure_duration_minutes": 3.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 1.0,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.9976816035628895,
+          "causal_pass": true,
+          "edges": {
+            "correct_gt_mismatch": true,
+            "correct_gt_removed": true,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.9976816035628895,
+            "intact": 0.9978576097455523,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 107.0,
+      "reinjection_minutes": 43.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.08077752892052435
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978576097455523,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978590150758696
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21757084445432456
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        }
+      },
+      "damage_amplitude": 0.9,
+      "joint_erasure_duration_minutes": 5.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9978576097455523,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 105.0,
+      "reinjection_minutes": 45.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.15315401001118828
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978576097455523,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978590150758696
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21757084445432456
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        }
+      },
+      "damage_amplitude": 0.9,
+      "joint_erasure_duration_minutes": 10.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9978576097455523,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 100.0,
+      "reinjection_minutes": 50.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978576097455523,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978590150758696
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21757084445432456
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        }
+      },
+      "damage_amplitude": 0.9,
+      "joint_erasure_duration_minutes": 20.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9978576097455523,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 90.0,
+      "reinjection_minutes": 60.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978576097455523,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978590150758696
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21757084445432456
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        }
+      },
+      "damage_amplitude": 0.9,
+      "joint_erasure_duration_minutes": 30.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9978576097455523,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 80.0,
+      "reinjection_minutes": 70.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978576097455523,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978590150758696
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21757084445432456
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        }
+      },
+      "damage_amplitude": 0.9,
+      "joint_erasure_duration_minutes": 40.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9978576097455523,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 70.0,
+      "reinjection_minutes": 80.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978576097455523,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978590150758696
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21757084445432456
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        }
+      },
+      "damage_amplitude": 0.9,
+      "joint_erasure_duration_minutes": 50.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9978576097455523,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 60.0,
+      "reinjection_minutes": 90.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978576097455523,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978590150758696
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21757084445432456
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        }
+      },
+      "damage_amplitude": 0.9,
+      "joint_erasure_duration_minutes": 60.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9978576097455523,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 50.0,
+      "reinjection_minutes": 100.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9978576097455523,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9978590150758696
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.21757084445432456
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17633727798976911
+        }
+      },
+      "damage_amplitude": 0.9,
+      "joint_erasure_duration_minutes": 70.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9978576097455523,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 40.0,
+      "reinjection_minutes": 110.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.08191656955005985
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9964439385620685,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9964439385620685
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.22419092257582945
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        }
+      },
+      "damage_amplitude": 1.05,
+      "joint_erasure_duration_minutes": 3.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9964439385620685,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 107.0,
+      "reinjection_minutes": 43.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.12903069745647774
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9964439385620685,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9964439385620685
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.22419092257582945
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        }
+      },
+      "damage_amplitude": 1.05,
+      "joint_erasure_duration_minutes": 5.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9964439385620685,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 105.0,
+      "reinjection_minutes": 45.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.17326883014465247
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9964439385620685,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9964439385620685
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.22419092257582945
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        }
+      },
+      "damage_amplitude": 1.05,
+      "joint_erasure_duration_minutes": 10.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9964439385620685,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 100.0,
+      "reinjection_minutes": 50.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9964439385620685,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9964439385620685
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.22419092257582945
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        }
+      },
+      "damage_amplitude": 1.05,
+      "joint_erasure_duration_minutes": 20.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9964439385620685,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 90.0,
+      "reinjection_minutes": 60.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9964439385620685,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9964439385620685
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.22419092257582945
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        }
+      },
+      "damage_amplitude": 1.05,
+      "joint_erasure_duration_minutes": 30.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9964439385620685,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 80.0,
+      "reinjection_minutes": 70.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9964439385620685,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9964439385620685
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.22419092257582945
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        }
+      },
+      "damage_amplitude": 1.05,
+      "joint_erasure_duration_minutes": 40.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9964439385620685,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 70.0,
+      "reinjection_minutes": 80.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9964439385620685,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9964439385620685
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.22419092257582945
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        }
+      },
+      "damage_amplitude": 1.05,
+      "joint_erasure_duration_minutes": 50.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9964439385620685,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 60.0,
+      "reinjection_minutes": 90.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9964439385620685,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9964439385620685
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.22419092257582945
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        }
+      },
+      "damage_amplitude": 1.05,
+      "joint_erasure_duration_minutes": 60.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9964439385620685,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 50.0,
+      "reinjection_minutes": 100.0
+    },
+    {
+      "conditions": {
+        "correct_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        },
+        "intact": {
+          "alive_fraction": 1.0,
+          "continuous_recovery_score": 0.9964439385620685,
+          "death_fraction": 0.0,
+          "mean_minimum_module_recovery": 0.9964439385620685
+        },
+        "mismatched_return": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.22419092257582945
+        },
+        "removed": {
+          "alive_fraction": 0.0,
+          "continuous_recovery_score": 0.0,
+          "death_fraction": 1.0,
+          "mean_minimum_module_recovery": 0.16520673654558493
+        }
+      },
+      "damage_amplitude": 1.05,
+      "joint_erasure_duration_minutes": 70.0,
+      "metrics": {
+        "alive_fraction": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "continuous_recovery_score": {
+          "causal_margin": 0.0,
+          "causal_pass": false,
+          "edges": {
+            "correct_gt_mismatch": false,
+            "correct_gt_removed": false,
+            "intact_gt_mismatch": true,
+            "intact_gt_removed": true
+          },
+          "values": {
+            "correct_return": 0.0,
+            "intact": 0.9964439385620685,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "post_reinjection_duration_minutes": 40.0,
+      "reinjection_minutes": 110.0
+    }
+  ],
+  "schema": "siel-e014-cellular-reentry-window-exploration-v1",
+  "scope": {
+    "continuous_score_not_previously_registered": true,
+    "not_confirmatory": true,
+    "reduced_model_not_living_cell_confirmation": true,
+    "seeds_and_phase_axes_selected_after_E009": true
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION",
+  "windows": [
+    {
+      "damage_amplitude": 0.45,
+      "earliest_nonpassing_reinjection_minutes": 43.0,
+      "latest_passing_reinjection_minutes": null,
+      "passing_reinjection_minutes": [],
+      "readout": "alive_fraction"
+    },
+    {
+      "damage_amplitude": 0.45,
+      "earliest_nonpassing_reinjection_minutes": null,
+      "latest_passing_reinjection_minutes": 110.0,
+      "passing_reinjection_minutes": [
+        43.0,
+        45.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0
+      ],
+      "readout": "continuous_recovery_score"
+    },
+    {
+      "damage_amplitude": 0.6,
+      "earliest_nonpassing_reinjection_minutes": 60.0,
+      "latest_passing_reinjection_minutes": 50.0,
+      "passing_reinjection_minutes": [
+        43.0,
+        45.0,
+        50.0
+      ],
+      "readout": "alive_fraction"
+    },
+    {
+      "damage_amplitude": 0.6,
+      "earliest_nonpassing_reinjection_minutes": 60.0,
+      "latest_passing_reinjection_minutes": 50.0,
+      "passing_reinjection_minutes": [
+        43.0,
+        45.0,
+        50.0
+      ],
+      "readout": "continuous_recovery_score"
+    },
+    {
+      "damage_amplitude": 0.75,
+      "earliest_nonpassing_reinjection_minutes": 50.0,
+      "latest_passing_reinjection_minutes": 45.0,
+      "passing_reinjection_minutes": [
+        43.0,
+        45.0
+      ],
+      "readout": "alive_fraction"
+    },
+    {
+      "damage_amplitude": 0.75,
+      "earliest_nonpassing_reinjection_minutes": 50.0,
+      "latest_passing_reinjection_minutes": 45.0,
+      "passing_reinjection_minutes": [
+        43.0,
+        45.0
+      ],
+      "readout": "continuous_recovery_score"
+    },
+    {
+      "damage_amplitude": 0.9,
+      "earliest_nonpassing_reinjection_minutes": 45.0,
+      "latest_passing_reinjection_minutes": 43.0,
+      "passing_reinjection_minutes": [
+        43.0
+      ],
+      "readout": "alive_fraction"
+    },
+    {
+      "damage_amplitude": 0.9,
+      "earliest_nonpassing_reinjection_minutes": 45.0,
+      "latest_passing_reinjection_minutes": 43.0,
+      "passing_reinjection_minutes": [
+        43.0
+      ],
+      "readout": "continuous_recovery_score"
+    },
+    {
+      "damage_amplitude": 1.05,
+      "earliest_nonpassing_reinjection_minutes": 43.0,
+      "latest_passing_reinjection_minutes": null,
+      "passing_reinjection_minutes": [],
+      "readout": "alive_fraction"
+    },
+    {
+      "damage_amplitude": 1.05,
+      "earliest_nonpassing_reinjection_minutes": 43.0,
+      "latest_passing_reinjection_minutes": null,
+      "passing_reinjection_minutes": [],
+      "readout": "continuous_recovery_score"
+    }
+  ]
+}
