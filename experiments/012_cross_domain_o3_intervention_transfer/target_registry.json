@@ -1,0 +1,37 @@
+{
+  "schema": "siel-e012-target-registry-v1",
+  "target_execution_performed": false,
+  "atomic": {
+    "grid_points": 1024,
+    "half_width": 100.0,
+    "softening": 0.8,
+    "local_window": 6.0,
+    "mismatched_shift": 8.0,
+    "ground_steps": 4000,
+    "dynamic_steps": 1600,
+    "removal_steps_before_return": 400,
+    "targets": {
+      "hydrogen": {"nuclear_electron_mass_ratio": 1836.152673426},
+      "deuterium": {"nuclear_electron_mass_ratio": 3670.482967655}
+    }
+  },
+  "molecular": {
+    "basis_profiles": ["sto-3g", "6-31g", "cc-pvdz"],
+    "trajectory_seeds": [2026125101, 2026125102, 2026125103, 2026125104],
+    "temperature_hartree": 0.002,
+    "total_steps": 100,
+    "removal_steps_before_return": 20,
+    "late_window_steps": 25,
+    "minimum_radius_angstrom": 0.35
+  },
+  "cellular": {
+    "cohort_starts": [2026140100, 2026140200, 2026140300, 2026140400],
+    "lineages_per_cohort": 16
+  },
+  "thresholds": {
+    "high_minimum": 0.8,
+    "low_maximum": 0.5,
+    "specific_return_advantage_minimum": 0.25,
+    "threshold_free_margin_minimum": 0.0
+  }
+}

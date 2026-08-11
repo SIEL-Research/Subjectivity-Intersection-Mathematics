@@ -1,0 +1,644 @@
+{
+  "compression_ladder": "domain source -> domain dynamics -> domain whole readout -> cross-domain causal signature",
+  "condition_label_permutation_null": {
+    "exact_fraction": 0.004629629629629629,
+    "independent_label_permutations": 13824,
+    "observed_squared_signature_loss": 0.19936383364316676,
+    "permutations_at_least_as_good": 64
+  },
+  "decision": "CROSS_DOMAIN_O3_INTERVENTION_SIGNATURE_FOUND_IN_LOCAL_EXPLORATION",
+  "domain_pass": {
+    "atomic": true,
+    "cellular": true,
+    "molecular": true
+  },
+  "domain_signature_gates": {
+    "atomic": {
+      "correct_return_high": true,
+      "intact_high": true,
+      "mismatched_return_low": true,
+      "removed_low": true,
+      "specific_return_advantage": true
+    },
+    "cellular": {
+      "correct_return_high": true,
+      "intact_high": true,
+      "mismatched_return_low": true,
+      "removed_low": true,
+      "specific_return_advantage": true
+    },
+    "molecular": {
+      "correct_return_high": true,
+      "intact_high": true,
+      "mismatched_return_low": true,
+      "removed_low": true,
+      "specific_return_advantage": true
+    }
+  },
+  "domains": {
+    "atomic": {
+      "engine": "open_soft_coulomb_two_body_quantum_relaxation",
+      "shared_mediator_input": false,
+      "targets": {
+        "muonium": {
+          "diagnostics": {
+            "correct_return": {
+              "ground_fidelity": 0.9439922989190225,
+              "local_probability": 0.9672965974236414,
+              "probability_centre": -8.8557633448616e-14
+            },
+            "intact": {
+              "ground_fidelity": 0.9999999997648417,
+              "local_probability": 0.999991417796265,
+              "probability_centre": -6.938893903907228e-15
+            },
+            "mismatched_return": {
+              "ground_fidelity": 0.08562354744951128,
+              "local_probability": 0.2655073486700476,
+              "probability_centre": 5.726343212566847
+            },
+            "removed": {
+              "ground_fidelity": 0.19470175969858744,
+              "local_probability": 0.4322930183436142,
+              "probability_centre": -1.6125989432680399e-12
+            }
+          },
+          "reduced_mass_electron_units": 0.9951869458342687,
+          "scores": {
+            "correct_return": 0.9672965974236414,
+            "intact": 0.999991417796265,
+            "mismatched_return": 0.2655073486700476,
+            "removed": 0.4322930183436142
+          }
+        },
+        "positronium": {
+          "diagnostics": {
+            "correct_return": {
+              "ground_fidelity": 0.9349352822854593,
+              "local_probability": 0.939508711440098,
+              "probability_centre": -3.1519701779170184e-09
+            },
+            "intact": {
+              "ground_fidelity": 0.999999999309541,
+              "local_probability": 0.9995460059368716,
+              "probability_centre": -9.8879238130678e-15
+            },
+            "mismatched_return": {
+              "ground_fidelity": 0.011541916490033258,
+              "local_probability": 0.1419033285880663,
+              "probability_centre": 6.065979904594767
+            },
+            "removed": {
+              "ground_fidelity": 0.19061382716494582,
+              "local_probability": 0.31369215851908344,
+              "probability_centre": -3.057639766379516e-08
+            }
+          },
+          "reduced_mass_electron_units": 0.5,
+          "scores": {
+            "correct_return": 0.939508711440098,
+            "intact": 0.9995460059368716,
+            "mismatched_return": 0.1419033285880663,
+            "removed": 0.31369215851908344
+          }
+        }
+      },
+      "whole_scores": {
+        "correct_return": 0.9534026544318697,
+        "intact": 0.9997687118665683,
+        "mismatched_return": 0.20370533862905696,
+        "removed": 0.37299258843134886
+      }
+    },
+    "cellular": {
+      "cohorts": {
+        "cohort_1": {
+          "condition_records": {
+            "correct_return": {
+              "alive_count": 16,
+              "alive_fraction": 1.0,
+              "cell_condition": "reinjected",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.9995306722817185,
+                0.999620420536658,
+                0.9961683880606926
+              ]
+            },
+            "intact": {
+              "alive_count": 16,
+              "alive_fraction": 1.0,
+              "cell_condition": "native",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.999844827619826,
+                0.9999428500920696,
+                0.9968962591790668
+              ]
+            },
+            "mismatched_return": {
+              "alive_count": 0,
+              "alive_fraction": 0.0,
+              "cell_condition": "time_shifted",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.8918617780735771,
+                0.21404959201340057,
+                0.9078303901202531
+              ]
+            },
+            "removed": {
+              "alive_count": 0,
+              "alive_fraction": 0.0,
+              "cell_condition": "joint_erased",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.3475688657420234,
+                0.16890323364098742,
+                0.49199366504332914
+              ]
+            }
+          },
+          "seed_range": [
+            2026120100,
+            2026120115
+          ],
+          "whole_scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "cohort_2": {
+          "condition_records": {
+            "correct_return": {
+              "alive_count": 16,
+              "alive_fraction": 1.0,
+              "cell_condition": "reinjected",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.999696618267488,
+                0.9996860905430319,
+                0.996700758318348
+              ]
+            },
+            "intact": {
+              "alive_count": 16,
+              "alive_fraction": 1.0,
+              "cell_condition": "native",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                1.0001351012496464,
+                1.0000050895386472,
+                0.9984046476208855
+              ]
+            },
+            "mismatched_return": {
+              "alive_count": 0,
+              "alive_fraction": 0.0,
+              "cell_condition": "time_shifted",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.8924637893566258,
+                0.22331758715617925,
+                0.9095280002627613
+              ]
+            },
+            "removed": {
+              "alive_count": 0,
+              "alive_fraction": 0.0,
+              "cell_condition": "joint_erased",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.34683694943084853,
+                0.1688601795763215,
+                0.4897982351987531
+              ]
+            }
+          },
+          "seed_range": [
+            2026120200,
+            2026120215
+          ],
+          "whole_scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "cohort_3": {
+          "condition_records": {
+            "correct_return": {
+              "alive_count": 16,
+              "alive_fraction": 1.0,
+              "cell_condition": "reinjected",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.9992639493208528,
+                0.9998798660326782,
+                0.9979877886993993
+              ]
+            },
+            "intact": {
+              "alive_count": 16,
+              "alive_fraction": 1.0,
+              "cell_condition": "native",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.9996165676696194,
+                1.0000945095127025,
+                0.9990467693225871
+              ]
+            },
+            "mismatched_return": {
+              "alive_count": 0,
+              "alive_fraction": 0.0,
+              "cell_condition": "time_shifted",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.8917346667896486,
+                0.21138677971477327,
+                0.9080399092634404
+              ]
+            },
+            "removed": {
+              "alive_count": 0,
+              "alive_fraction": 0.0,
+              "cell_condition": "joint_erased",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.34567216414701374,
+                0.16873779577536313,
+                0.4916443342716351
+              ]
+            }
+          },
+          "seed_range": [
+            2026120300,
+            2026120315
+          ],
+          "whole_scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        },
+        "cohort_4": {
+          "condition_records": {
+            "correct_return": {
+              "alive_count": 16,
+              "alive_fraction": 1.0,
+              "cell_condition": "reinjected",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.9994013306467961,
+                0.9995844809365866,
+                0.9975521748753183
+              ]
+            },
+            "intact": {
+              "alive_count": 16,
+              "alive_fraction": 1.0,
+              "cell_condition": "native",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.9997134289236409,
+                0.9998803708767879,
+                0.9982234991009504
+              ]
+            },
+            "mismatched_return": {
+              "alive_count": 0,
+              "alive_fraction": 0.0,
+              "cell_condition": "time_shifted",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.8918024862193763,
+                0.20934443480276482,
+                0.9080610679093837
+              ]
+            },
+            "removed": {
+              "alive_count": 0,
+              "alive_fraction": 0.0,
+              "cell_condition": "joint_erased",
+              "lineage_count": 16,
+              "median_recovery_ratio": [
+                0.34796002234583084,
+                0.169232622054742,
+                0.491853307272576
+              ]
+            }
+          },
+          "seed_range": [
+            2026120400,
+            2026120415
+          ],
+          "whole_scores": {
+            "correct_return": 1.0,
+            "intact": 1.0,
+            "mismatched_return": 0.0,
+            "removed": 0.0
+          }
+        }
+      },
+      "engine": "e009_reduced_stochastic_cell_dynamics_new_exploratory_seeds",
+      "shared_mediator_input": false,
+      "whole_scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      }
+    },
+    "molecular": {
+      "basis_records": {
+        "6-31g": {
+          "correct_return": {
+            "distance_to_full_minimum_set_angstrom": 0.0,
+            "final": [
+              1.7,
+              0.9
+            ],
+            "start": [
+              1.7,
+              0.9
+            ],
+            "trajectory_steps": 20,
+            "whole_score": 1.0
+          },
+          "intact": {
+            "distance_to_full_minimum_set_angstrom": 0.0,
+            "final": [
+              1.7,
+              0.9
+            ],
+            "start": [
+              1.7,
+              0.9
+            ],
+            "trajectory_steps": 0,
+            "whole_score": 1.0
+          },
+          "mismatched_return": {
+            "distance_to_full_minimum_set_angstrom": 0.5999999999999999,
+            "final": [
+              2.3,
+              0.9
+            ],
+            "start": [
+              1.7,
+              0.9
+            ],
+            "trajectory_steps": 20,
+            "whole_score": 0.018315638888734213
+          },
+          "removed": {
+            "distance_to_full_minimum_set_angstrom": 1.788854381999832,
+            "final": [
+              2.5,
+              2.5
+            ],
+            "start": [
+              1.7,
+              0.9
+            ],
+            "trajectory_steps": 16,
+            "whole_score": 3.6175823092832235e-16
+          }
+        },
+        "cc-pvdz": {
+          "correct_return": {
+            "distance_to_full_minimum_set_angstrom": 0.0,
+            "final": [
+              1.5,
+              0.9
+            ],
+            "start": [
+              1.5,
+              0.9
+            ],
+            "trajectory_steps": 20,
+            "whole_score": 1.0
+          },
+          "intact": {
+            "distance_to_full_minimum_set_angstrom": 0.0,
+            "final": [
+              1.5,
+              0.9
+            ],
+            "start": [
+              1.5,
+              0.9
+            ],
+            "trajectory_steps": 0,
+            "whole_score": 1.0
+          },
+          "mismatched_return": {
+            "distance_to_full_minimum_set_angstrom": 1.0,
+            "final": [
+              2.5,
+              0.9
+            ],
+            "start": [
+              1.5,
+              0.9
+            ],
+            "trajectory_steps": 20,
+            "whole_score": 1.4945338524781425e-05
+          },
+          "removed": {
+            "distance_to_full_minimum_set_angstrom": 1.886796226411321,
+            "final": [
+              2.5,
+              2.5
+            ],
+            "start": [
+              1.5,
+              0.9
+            ],
+            "trajectory_steps": 16,
+            "whole_score": 6.625833122710461e-18
+          }
+        },
+        "sto-3g": {
+          "correct_return": {
+            "distance_to_full_minimum_set_angstrom": 0.0,
+            "final": [
+              1.6,
+              0.9
+            ],
+            "start": [
+              1.6,
+              0.9
+            ],
+            "trajectory_steps": 20,
+            "whole_score": 1.0
+          },
+          "intact": {
+            "distance_to_full_minimum_set_angstrom": 0.0,
+            "final": [
+              1.6,
+              0.9
+            ],
+            "start": [
+              1.6,
+              0.9
+            ],
+            "trajectory_steps": 0,
+            "whole_score": 1.0
+          },
+          "mismatched_return": {
+            "distance_to_full_minimum_set_angstrom": 0.2999999999999998,
+            "final": [
+              1.9,
+              0.9
+            ],
+            "start": [
+              1.6,
+              0.9
+            ],
+            "trajectory_steps": 20,
+            "whole_score": 0.3678794411714427
+          },
+          "removed": {
+            "distance_to_full_minimum_set_angstrom": 1.835755975068582,
+            "final": [
+              2.5,
+              2.5
+            ],
+            "start": [
+              1.6,
+              0.9
+            ],
+            "trajectory_steps": 16,
+            "whole_score": 5.4712227911658514e-17
+          }
+        }
+      },
+      "engine": "discrete_relaxation_on_independent_e010_fci_surfaces",
+      "shared_mediator_input": false,
+      "whole_scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.12873667513290057,
+        "removed": 1.410320973208971e-16
+      }
+    }
+  },
+  "independent_realization_pass": {
+    "atomic": {
+      "muonium": true,
+      "positronium": true
+    },
+    "cellular": {
+      "cohort_1": true,
+      "cohort_2": true,
+      "cohort_3": true,
+      "cohort_4": true
+    },
+    "molecular": {
+      "6-31g": true,
+      "cc-pvdz": true,
+      "sto-3g": true
+    }
+  },
+  "independent_realization_signature_gates": {
+    "atomic": {
+      "muonium": {
+        "correct_return_high": true,
+        "intact_high": true,
+        "mismatched_return_low": true,
+        "removed_low": true,
+        "specific_return_advantage": true
+      },
+      "positronium": {
+        "correct_return_high": true,
+        "intact_high": true,
+        "mismatched_return_low": true,
+        "removed_low": true,
+        "specific_return_advantage": true
+      }
+    },
+    "cellular": {
+      "cohort_1": {
+        "correct_return_high": true,
+        "intact_high": true,
+        "mismatched_return_low": true,
+        "removed_low": true,
+        "specific_return_advantage": true
+      },
+      "cohort_2": {
+        "correct_return_high": true,
+        "intact_high": true,
+        "mismatched_return_low": true,
+        "removed_low": true,
+        "specific_return_advantage": true
+      },
+      "cohort_3": {
+        "correct_return_high": true,
+        "intact_high": true,
+        "mismatched_return_low": true,
+        "removed_low": true,
+        "specific_return_advantage": true
+      },
+      "cohort_4": {
+        "correct_return_high": true,
+        "intact_high": true,
+        "mismatched_return_low": true,
+        "removed_low": true,
+        "specific_return_advantage": true
+      }
+    },
+    "molecular": {
+      "6-31g": {
+        "correct_return_high": true,
+        "intact_high": true,
+        "mismatched_return_low": true,
+        "removed_low": true,
+        "specific_return_advantage": true
+      },
+      "cc-pvdz": {
+        "correct_return_high": true,
+        "intact_high": true,
+        "mismatched_return_low": true,
+        "removed_low": true,
+        "specific_return_advantage": true
+      },
+      "sto-3g": {
+        "correct_return_high": true,
+        "intact_high": true,
+        "mismatched_return_low": true,
+        "removed_low": true,
+        "specific_return_advantage": true
+      }
+    }
+  },
+  "leave_one_domain_out_signature_transfer": {
+    "atomic": true,
+    "cellular": true,
+    "molecular": true
+  },
+  "no_shared_scalar_entered_domain_dynamics": true,
+  "question": "Do independently executed atomic, molecular, and cellular models share the O3 intact-removal-mismatched-return-correct-return causal signature without a common scalar mediator in their dynamics?",
+  "schema": "siel-e012-local-exploration-v1",
+  "scope": {
+    "found_if_positive": "A common causal intervention topology executed independently in atomic, molecular, and cellular models.",
+    "not_established": [
+      "one microscopic atom-to-cell law",
+      "one common O3 substance or scalar coordinate",
+      "laboratory confirmation in natural molecules or living cells",
+      "confirmatory evidence, because thresholds followed component feasibility checks"
+    ]
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION",
+  "threshold_free_cross_domain_separation": {
+    "maximum_removed_or_mismatched_score": 0.4322930183436142,
+    "minimum_intact_or_correct_score": 0.939508711440098,
+    "pass": true,
+    "strict_separation_margin": 0.5072156930964837
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "siel-experiment-012-registration-v1",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "target_execution_performed": false,
+  "experiment": "012_cross_domain_o3_intervention_transfer",
+  "registration_tag": "e012-preregistration-v1.0.0",
+  "result_tag": "e012-results-v1.0.0",
+  "source_sha256": {
+    "experiments/009_constitutive_cell_o3_closure/core.py": "ae8186180bfce424cb2b18fc4014c1417d9ab4a225d216b521811cda3e120500",
+    "experiments/010_complete_molecular_carrier_transfer/results/shape_surfaces.csv": "066b99469de8f6025c29bfcc7b9812e955bfcb5b3f82249b4635c648cac3838a",
+    "experiments/012_cross_domain_o3_intervention_transfer/PREREGISTRATION.md": "827eb8bce3d56f01f8e5d957c267e568dc5510109be1c9e9386bd9b02a511a72",
+    "experiments/012_cross_domain_o3_intervention_transfer/README.md": "cba1fc66abf44acc01d9010edb5ed2861f42becf55661a71d198d3b38b142032",
+    "experiments/012_cross_domain_o3_intervention_transfer/TECHNICAL_SPECIFICATION.md": "a885a97e4bcb6d6d5cce2f893c6f8811d40bc4d0242ada887f738dcffc8243df",
+    "experiments/012_cross_domain_o3_intervention_transfer/run.py": "30bc8015babd3c66a1f665c41c39b8d6f8fcb4bade1691fc7bacf26cd897d898",
+    "experiments/012_cross_domain_o3_intervention_transfer/target_registry.json": "0419bd4fedc1ec9cb4f8fe617e8818f1ee8ee740868f7ad33243dfa361e13663",
+    "experiments/012_cross_domain_o3_intervention_transfer/tests/test_e012.py": "063aaa14d1ec2c716b1626f55a42bb1fe26cbcbf368048960a959dd9c96313cc"
+  }
+}

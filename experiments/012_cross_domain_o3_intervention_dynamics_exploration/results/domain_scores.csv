@@ -1,0 +1,13 @@
+domain,condition,whole_score
+atomic,intact,0.9997687118665683
+atomic,removed,0.37299258843134886
+atomic,mismatched_return,0.20370533862905696
+atomic,correct_return,0.9534026544318697
+molecular,intact,1.0
+molecular,removed,1.410320973208971e-16
+molecular,mismatched_return,0.12873667513290057
+molecular,correct_return,1.0
+cellular,intact,1.0
+cellular,removed,0.0
+cellular,mismatched_return,0.0
+cellular,correct_return,1.0
