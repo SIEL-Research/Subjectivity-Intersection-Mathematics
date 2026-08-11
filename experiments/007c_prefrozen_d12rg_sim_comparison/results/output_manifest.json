@@ -1,0 +1,20 @@
+{
+  "files": {
+    "RESULT.md": {
+      "sha256": "0bb6e161733c107de62390350cff26e39f475a8df7828ef0377105f3a9bc3c92"
+    },
+    "admissible_maps.csv": {
+      "sha256": "387ac530c132f06d77d4c5bcdea9f3358b494b833e383c54a4cde3c29d2efb3a"
+    },
+    "controls.csv": {
+      "sha256": "b7ae004f3d3343f85f27f8d4a8f76cb55be582b5a67b94f1f01e152914b1c8b8"
+    },
+    "signature_comparison.csv": {
+      "sha256": "783a46d8f0bdee8cbbedd5c56143e7979f2f752137102c20d540532a26169767"
+    },
+    "summary.json": {
+      "sha256": "4bf056a7b55d1573877577d9def7c50d9bcfcde59aaeb971224ab87d8d7489e5"
+    }
+  },
+  "schema": "siel-experiment-007c-prefrozen-d12rg-sim-comparison-v1-output-manifest"
+}

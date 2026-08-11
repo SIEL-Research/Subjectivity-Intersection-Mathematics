@@ -1,0 +1,174 @@
+{
+  "blind_discovery": false,
+  "claim_boundary": "This classification concerns only the two frozen operational objects and the registered maps. It does not decide broader relations between D12RG and Subjectivity-Intersection Mathematics.",
+  "comparison_designation": "PRE_FROZEN_TARGET_HASH_SEPARATED_COMPARISON",
+  "complete_algebra_isomorphism": {
+    "checks": {
+      "d12_dimension_seven": true,
+      "d12_identity": true,
+      "d12_order12_generator": true,
+      "d12_total_closed_product": true,
+      "dimension_compatible": false,
+      "sim_all_actions_linear": false,
+      "sim_common_linear_endomorphism_carrier": false,
+      "sim_global_generator": false,
+      "sim_global_involution": false,
+      "sim_total_product": false
+    },
+    "supported": false
+  },
+  "controls": [
+    {
+      "control": "COUNT_DIMENSION_ONLY",
+      "match": true,
+      "readout": "330 unmarked seven-subsets among 11 primitives"
+    },
+    {
+      "control": "GENERIC_INVOLUTION_ONLY",
+      "match": false,
+      "readout": "no source-defined SIM global involution"
+    },
+    {
+      "control": "COMMON_STATE_LABEL_PERMUTATION",
+      "match": true,
+      "readout": "classification is signature-based and unchanged by primitive-label permutations"
+    },
+    {
+      "control": "DROP_DIRECTION",
+      "match": false,
+      "readout": "no reverse unary typed pair remains after direction is dropped"
+    },
+    {
+      "control": "UNMARKED_ABSTRACT",
+      "match": true,
+      "readout": "unmarked count matching is possible but fails registered identities"
+    },
+    {
+      "control": "REMOVE_D12_MARKINGS_AND_READOUT",
+      "match": true,
+      "readout": "only combinatorial subset matching remains"
+    }
+  ],
+  "d12rg_target": {
+    "associative": true,
+    "basis_exponents": [
+      5,
+      1,
+      11,
+      7,
+      10,
+      2,
+      0
+    ],
+    "carrier_count": 1,
+    "character_exponents": [
+      0,
+      1,
+      2,
+      5,
+      7,
+      10,
+      11
+    ],
+    "commutative": true,
+    "dimension": 7,
+    "generator_order": 12,
+    "global_involution": true,
+    "invariant_character": true,
+    "name": "Paper 5.3 seven-dimensional 4+2+1 rational operator algebra",
+    "projector_ranks": [
+      4,
+      2,
+      1
+    ],
+    "readout_identities": [
+      "R_AFTER_N_EQUALS_ID",
+      "N_AFTER_R_EQUALS_PI_ADM"
+    ],
+    "scalar_domain": "Q",
+    "total_product": true,
+    "unital": true
+  },
+  "excluded_targets": [
+    "D12RG 3+3+1 decomposition",
+    "Paper 5.3 E7",
+    "Paper 5 X7",
+    "seven-plus-one extensions",
+    "post-007A seven-labelled targets"
+  ],
+  "generic_global_involution_or_invariant_trace": {
+    "sim_global_invariant_trace": false,
+    "sim_global_involution": false,
+    "supported": false
+  },
+  "main_readout": "The pre-frozen D12RG 4+2+1 object is a total unital rational operator algebra with a global order-12 generator, reciprocal involution, and marked two-way readout. The independently frozen SIM object is a heterogeneous typed nonlinear action structure. No map satisfies the registered exact correspondence levels.",
+  "marked_readout_correspondence": {
+    "checks": {
+      "mediation_readout_square_commutes": false,
+      "n_after_r_projection_verified": false,
+      "normalization_role_mapped": false,
+      "pi_adm_role_mapped": false,
+      "r_after_n_identity_verified": false,
+      "reconstruction_role_mapped": false
+    },
+    "eligible_role_candidates": {
+      "GENERATOR": [],
+      "INVOLUTION": [],
+      "N": [],
+      "PI_ADM": [],
+      "R": []
+    },
+    "supported": false
+  },
+  "mode": "confirmatory",
+  "post_result_target_selection": false,
+  "primary_classification": "NO_REGISTERED_CORRESPONDENCE",
+  "registration_verification": {
+    "contract_schema": "siel-experiment-007c-comparison-contract-v1",
+    "file_count": 9,
+    "observed_sha256": {
+      "experiments/007c_prefrozen_d12rg_sim_comparison/FEEDBACK_RESOLUTION.md": "6f040be9ed23dc211127f9838f893a7fce9b9e3ae52ebf42d6e6502b341b9127",
+      "experiments/007c_prefrozen_d12rg_sim_comparison/PREREGISTRATION.md": "fd20616126d064f13377a83d419e01415faf5f369a850dff7261c6e1b4a693a9",
+      "experiments/007c_prefrozen_d12rg_sim_comparison/PREREGISTRATION_EMAIL.md": "6301903d9dac1cad6e07f82561648a440cc12dd6f61de78356210ba45a7cb769",
+      "experiments/007c_prefrozen_d12rg_sim_comparison/README.md": "3c24d47a6b9476a37003512c306c73201759b0368f1ec52b16d835f0377553ef",
+      "experiments/007c_prefrozen_d12rg_sim_comparison/TECHNICAL_SPECIFICATION.md": "f0554b07710579e4d4bb565d610e4f3ffcbe372f7b5a65f25706f3af0de58cc1",
+      "experiments/007c_prefrozen_d12rg_sim_comparison/comparison_contract.json": "0438ccce17b1d5d13e16cf8106999df07510f73dab4fc7d92ee7f203d0e691aa",
+      "experiments/007c_prefrozen_d12rg_sim_comparison/requirements.txt": "74c1b9d7e6103576c1f8c7bf2bf255e088ee5ab2c8f5d7f70dc757c0ae596011",
+      "experiments/007c_prefrozen_d12rg_sim_comparison/run.py": "ff910dae60cba6c7bd1796dd31c44d2d58954e636ecfb21f0d56efd8ef2fefda",
+      "experiments/007c_prefrozen_d12rg_sim_comparison/test_run.py": "ba0f75bbd813f740bde5a94e86f969bed5a47b548419b008b54b64e76be519a5"
+    },
+    "verified": true
+  },
+  "schema": "siel-experiment-007c-prefrozen-d12rg-sim-comparison-v1",
+  "sim_object": {
+    "common_linear_endomorphism_carrier": null,
+    "operation_site_count": 16,
+    "primary_classification": "STABLE_NONLINEAR_OR_TYPED_ACTION_STRUCTURE",
+    "primitive_count": 11
+  },
+  "source_provenance": {
+    "d12rg_commit": "12759beb5c6acb41b83597dfb77b74cd576d5066",
+    "d12rg_remote_verified": true,
+    "d12rg_source_sha256": {
+      "docs/gate4/k-pr80-paper53-cit-projectors.md": "f2d92561b915181d88e31300289b6af4a6cd6bdb437c4334d5db2d2e62505495",
+      "docs/spectral/s-pr40-paper53-cit-port-rigidity.md": "b83e25532628ca6a5651b1ed76990db9d0bb40704c9946af6c7a74f9a5c46f17",
+      "src/d12rg_riemann/paper53_cit_projectors.py": "598a6d8cb04247327718553bb4b487cd00b83b454a76816b8976d819940fa267",
+      "src/d12rg_riemann/spectral_cit_port.py": "9e2b76767295160d5bfdd3b14344eca162654ec9d7effd702c72a6fbe49c616c"
+    },
+    "sim_source_sha256": {
+      "experiments/007a_phase1_operator_algebra_definition_audit/PREREGISTRATION.md": "2949690fac1d9ee77b1155e7107753542709e301ce8b240ba3e599d987d7ccf0",
+      "experiments/007a_phase1_operator_algebra_definition_audit/results/summary.json": "2d4093a18a71617dc33e4d44d57618775b39643cbc9fd5a25bb776aeb7878177",
+      "experiments/007b_independent_sio_action_structure/PREREGISTRATION.md": "e4b8928372132719e55a57a9a5cd7487fd9ae9575ab0d5e89b1ccb81b36f9b6f",
+      "experiments/007b_independent_sio_action_structure/results/canonical_primitives.csv": "e1d20d10e70d7ba1ce20f343e2d31912b8e823ecf50bebc155665793bee9e6e9",
+      "experiments/007b_independent_sio_action_structure/results/summary.json": "aa315138602003e27b026d6ca25be8a05aeafe60ff0d9e5b639fdbaa4106f4df",
+      "experiments/007b_independent_sio_action_structure/results/typed_composition_table.csv": "c66c831e07e76ce6aac4151cf962f970de328b6311eac559561dacd275a4780b",
+      "experiments/007b_independent_sio_action_structure/source_action_registry.json": "a5d1476495419feb9944247a0d3fbef6274578276091da5e901f75b520ff99fa"
+    },
+    "verified": true
+  },
+  "status": "COMPLETE",
+  "wall_hypergroup": {
+    "affects_primary_classification": false,
+    "role": "SECONDARY_POST_RESULT_COMPARATOR_ONLY"
+  }
+}

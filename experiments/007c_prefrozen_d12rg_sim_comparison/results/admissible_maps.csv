@@ -1,0 +1,6 @@
+d12rg_role,sim_primitive,eligible,reason
+GENERATOR,,False,no_primitive_passes_all_registered_signature_gates
+INVOLUTION,,False,no_primitive_passes_all_registered_signature_gates
+PI_ADM,,False,no_primitive_passes_all_registered_signature_gates
+N,,False,no_primitive_passes_all_registered_signature_gates
+R,,False,no_primitive_passes_all_registered_signature_gates

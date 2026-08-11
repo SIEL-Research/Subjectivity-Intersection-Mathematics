@@ -1,0 +1,9 @@
+feature,d12rg,sim,preserved
+native_object,total unital Q-algebra,STABLE_NONLINEAR_OR_TYPED_ACTION_STRUCTURE,False
+basis_or_primitive_count,7,11,False
+common_carrier,True,False,False
+all_actions_linear,True,False,False
+total_composition,True,False,False
+global_order12_generator,True,False,False
+global_involution,True,False,False
+marked_readout_pair,True,False,False

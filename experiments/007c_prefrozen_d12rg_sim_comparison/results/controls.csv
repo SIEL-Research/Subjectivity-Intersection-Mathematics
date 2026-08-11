@@ -1,0 +1,7 @@
+control,match,readout
+COUNT_DIMENSION_ONLY,True,330 unmarked seven-subsets among 11 primitives
+GENERIC_INVOLUTION_ONLY,False,no source-defined SIM global involution
+COMMON_STATE_LABEL_PERMUTATION,True,classification is signature-based and unchanged by primitive-label permutations
+DROP_DIRECTION,False,no reverse unary typed pair remains after direction is dropped
+UNMARKED_ABSTRACT,True,unmarked count matching is possible but fails registered identities
+REMOVE_D12_MARKINGS_AND_READOUT,True,only combinatorial subset matching remains
