@@ -1,0 +1,86 @@
+{
+  "schema": "siel-experiment-007c-comparison-contract-v1",
+  "d12rg_target": {
+    "name": "Paper 5.3 seven-dimensional 4+2+1 rational operator algebra",
+    "dimension": 7,
+    "scalar_domain": "Q",
+    "carrier_count": 1,
+    "basis_exponents": [5, 1, 11, 7, 10, 2, 0],
+    "character_exponents": [0, 1, 2, 5, 7, 10, 11],
+    "generator_order": 12,
+    "projector_ranks": [4, 2, 1],
+    "total_product": true,
+    "associative": true,
+    "commutative": true,
+    "unital": true,
+    "global_involution": true,
+    "invariant_character": true,
+    "readout_identities": ["R_AFTER_N_EQUALS_ID", "N_AFTER_R_EQUALS_PI_ADM"]
+  },
+  "excluded_targets": [
+    "D12RG 3+3+1 decomposition",
+    "Paper 5.3 E7",
+    "Paper 5 X7",
+    "seven-plus-one extensions",
+    "post-007A seven-labelled targets"
+  ],
+  "role_constraints": {
+    "GENERATOR": {
+      "arity": 1,
+      "same_input_output_type": true,
+      "linearity": "linear",
+      "parameter_free": true,
+      "exact_order": 12
+    },
+    "INVOLUTION": {
+      "arity": 1,
+      "same_input_output_type": true,
+      "linearity": "linear",
+      "parameter_free": true,
+      "exact_order": 2
+    },
+    "PI_ADM": {
+      "arity": 1,
+      "same_input_output_type": true,
+      "linearity": "linear",
+      "parameter_free": true,
+      "idempotent": true
+    },
+    "N": {
+      "arity": 1,
+      "linearity": "linear",
+      "parameter_free": true,
+      "direction": "normalization"
+    },
+    "R": {
+      "arity": 1,
+      "linearity": "linear",
+      "parameter_free": true,
+      "direction": "reconstruction"
+    }
+  },
+  "classification_rules": {
+    "COMPLETE_MARKED_READOUT_CORRESPONDENCE": [
+      "complete_algebra_isomorphism",
+      "complete_marked_readout_correspondence"
+    ],
+    "PARTIAL_REGISTERED_CORRESPONDENCE": [
+      "complete_marked_readout_correspondence"
+    ],
+    "GENERIC_INVOLUTION_OR_TRACE_ONLY_CORRESPONDENCE": [
+      "generic_global_involution_or_invariant_trace"
+    ],
+    "NO_REGISTERED_CORRESPONDENCE": [
+      "no_higher_rule_satisfied"
+    ]
+  },
+  "controls": [
+    "COUNT_DIMENSION_ONLY",
+    "GENERIC_INVOLUTION_ONLY",
+    "COMMON_STATE_LABEL_PERMUTATION",
+    "DROP_DIRECTION",
+    "UNMARKED_ABSTRACT",
+    "REMOVE_D12_MARKINGS_AND_READOUT"
+  ],
+  "wall_hypergroup_role": "SECONDARY_POST_RESULT_COMPARATOR_ONLY"
+}

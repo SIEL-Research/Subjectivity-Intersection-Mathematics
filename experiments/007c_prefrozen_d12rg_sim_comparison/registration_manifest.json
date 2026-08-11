@@ -1,0 +1,61 @@
+{
+  "schema": "siel-experiment-007c-registration-manifest-v1",
+  "experiment": "Experiment 007C",
+  "title": "Pre-frozen, Hash-separated Comparison of the D12RG Paper 5.3 4+2+1 Algebra and the Subjectivity-Intersection Mathematics Action Structure",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "registration_date": "2026-08-11",
+  "comparison_designation": "PRE_FROZEN_TARGET_HASH_SEPARATED_COMPARISON",
+  "blind_discovery": false,
+  "post_result_target_selection": false,
+  "primary_classifications": [
+    "COMPLETE_MARKED_READOUT_CORRESPONDENCE",
+    "PARTIAL_REGISTERED_CORRESPONDENCE",
+    "GENERIC_INVOLUTION_OR_TRACE_ONLY_CORRESPONDENCE",
+    "NO_REGISTERED_CORRESPONDENCE",
+    "PROVENANCE_FAILURE"
+  ],
+  "inputs": {
+    "e007a_summary": "experiments/007a_phase1_operator_algebra_definition_audit/results/summary.json",
+    "e007b_summary": "experiments/007b_independent_sio_action_structure/results/summary.json",
+    "e007b_primitives": "experiments/007b_independent_sio_action_structure/results/canonical_primitives.csv",
+    "e007b_composition": "experiments/007b_independent_sio_action_structure/results/typed_composition_table.csv"
+  },
+  "source_commits": {
+    "experiment_007a_result": "0325b6e2deb30c8d4aaf9d3364335db9708cfc06",
+    "experiment_007b_result": "9bef485fbad47ca86c4b8e04845ed3b367b4c24b"
+  },
+  "registration_sha256": {
+    "experiments/007c_prefrozen_d12rg_sim_comparison/README.md": "3c24d47a6b9476a37003512c306c73201759b0368f1ec52b16d835f0377553ef",
+    "experiments/007c_prefrozen_d12rg_sim_comparison/PREREGISTRATION.md": "fd20616126d064f13377a83d419e01415faf5f369a850dff7261c6e1b4a693a9",
+    "experiments/007c_prefrozen_d12rg_sim_comparison/TECHNICAL_SPECIFICATION.md": "f0554b07710579e4d4bb565d610e4f3ffcbe372f7b5a65f25706f3af0de58cc1",
+    "experiments/007c_prefrozen_d12rg_sim_comparison/FEEDBACK_RESOLUTION.md": "6f040be9ed23dc211127f9838f893a7fce9b9e3ae52ebf42d6e6502b341b9127",
+    "experiments/007c_prefrozen_d12rg_sim_comparison/PREREGISTRATION_EMAIL.md": "6301903d9dac1cad6e07f82561648a440cc12dd6f61de78356210ba45a7cb769",
+    "experiments/007c_prefrozen_d12rg_sim_comparison/comparison_contract.json": "0438ccce17b1d5d13e16cf8106999df07510f73dab4fc7d92ee7f203d0e691aa",
+    "experiments/007c_prefrozen_d12rg_sim_comparison/requirements.txt": "74c1b9d7e6103576c1f8c7bf2bf255e088ee5ab2c8f5d7f70dc757c0ae596011",
+    "experiments/007c_prefrozen_d12rg_sim_comparison/run.py": "ff910dae60cba6c7bd1796dd31c44d2d58954e636ecfb21f0d56efd8ef2fefda",
+    "experiments/007c_prefrozen_d12rg_sim_comparison/test_run.py": "ba0f75bbd813f740bde5a94e86f969bed5a47b548419b008b54b64e76be519a5"
+  },
+  "sim_source_sha256": {
+    "experiments/007a_phase1_operator_algebra_definition_audit/PREREGISTRATION.md": "2949690fac1d9ee77b1155e7107753542709e301ce8b240ba3e599d987d7ccf0",
+    "experiments/007a_phase1_operator_algebra_definition_audit/results/summary.json": "2d4093a18a71617dc33e4d44d57618775b39643cbc9fd5a25bb776aeb7878177",
+    "experiments/007b_independent_sio_action_structure/PREREGISTRATION.md": "e4b8928372132719e55a57a9a5cd7487fd9ae9575ab0d5e89b1ccb81b36f9b6f",
+    "experiments/007b_independent_sio_action_structure/source_action_registry.json": "a5d1476495419feb9944247a0d3fbef6274578276091da5e901f75b520ff99fa",
+    "experiments/007b_independent_sio_action_structure/results/canonical_primitives.csv": "e1d20d10e70d7ba1ce20f343e2d31912b8e823ecf50bebc155665793bee9e6e9",
+    "experiments/007b_independent_sio_action_structure/results/typed_composition_table.csv": "c66c831e07e76ce6aac4151cf962f970de328b6311eac559561dacd275a4780b",
+    "experiments/007b_independent_sio_action_structure/results/summary.json": "aa315138602003e27b026d6ca25be8a05aeafe60ff0d9e5b639fdbaa4106f4df"
+  },
+  "d12rg_source": {
+    "repository": "https://gitlab.com/d12rg/d12rg-riemann.git",
+    "commit": "12759beb5c6acb41b83597dfb77b74cd576d5066",
+    "source_sha256": {
+      "docs/gate4/k-pr80-paper53-cit-projectors.md": "f2d92561b915181d88e31300289b6af4a6cd6bdb437c4334d5db2d2e62505495",
+      "docs/spectral/s-pr40-paper53-cit-port-rigidity.md": "b83e25532628ca6a5651b1ed76990db9d0bb40704c9946af6c7a74f9a5c46f17",
+      "src/d12rg_riemann/paper53_cit_projectors.py": "598a6d8cb04247327718553bb4b487cd00b83b454a76816b8976d819940fa267",
+      "src/d12rg_riemann/spectral_cit_port.py": "9e2b76767295160d5bfdd3b14344eca162654ec9d7effd702c72a6fbe49c616c"
+    }
+  },
+  "release": {
+    "tag": "e007c-preregistration-v1.0.0",
+    "zenodo_doi": null
+  }
+}
