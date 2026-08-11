@@ -1,0 +1,215 @@
+{
+  "atomic_diversity_audit": {
+    "interpretation": "the public 2/2 count remains valid but samples a narrow mass interval; prior local muonium/positronium exploration passed over a wider interval and cannot be reused as a new confirmatory holdout",
+    "prior_local_exploration_reduced_mass_span": 0.4951869458342687,
+    "prior_local_exploration_targets": {
+      "muonium": {
+        "all_signature_gates_passed": true,
+        "reduced_mass_electron_units": 0.9951869458342687
+      },
+      "positronium": {
+        "all_signature_gates_passed": true,
+        "reduced_mass_electron_units": 0.5
+      }
+    },
+    "public_e012_reduced_mass_span": 0.000271951069834131,
+    "public_e012_registered_target_count": 2,
+    "public_e012_structural_diversity": "narrow"
+  },
+  "decisions": {
+    "generator_rule_diagnosis": "E012_INTERVENTIONS_NOT_UNIFIED_BY_COMPLETE_GENERATOR_RESIDUAL",
+    "molecular_sparse_diagnosis": "LOW_BASIS_RESOLUTION_HYPOTHESIS_FAVORED",
+    "ordinal_leave_one_out_diagnosis": "EXPLORATORY_CROSS_DOMAIN_ORDINAL_TOPOLOGY_PASSES"
+  },
+  "generator_rule_alignment": {
+    "aligned_domains": 2,
+    "all_align": false,
+    "total_domains": 3
+  },
+  "generator_rule_audit": {
+    "complete_removal_rule": "G_removed,D must equal G_additive_or_isolated,D",
+    "domains": {
+      "atomic": {
+        "complete_candidate_removal": true,
+        "e012_removed_generator": "T_mu",
+        "generated_candidate": "V_soft_Coulomb",
+        "native_generator": "T_mu + V_soft_Coulomb",
+        "reference_generator": "T_mu"
+      },
+      "cellular": {
+        "complete_candidate_removal": true,
+        "e012_removed_generator": "registered joint-erased dynamics",
+        "generated_candidate": "native joint generator - joint-erased generator",
+        "native_generator": "bilinear joint-gate dynamics",
+        "reference_generator": "registered inclusion-exclusion joint-erased dynamics"
+      },
+      "molecular": {
+        "complete_candidate_removal": false,
+        "e012_removed_generator": "H_molecule - C_one_electron_cross",
+        "generated_candidate": "H_molecule - H_isolated_centres",
+        "native_generator": "H_molecule",
+        "reason": "E012 removes one carrier sector, not the complete generated residual",
+        "reference_generator": "H_isolated_centres"
+      }
+    },
+    "fixed_rule": "C*_D = G_native,D - G_additive_or_isolated,D"
+  },
+  "molecular_sparse_convergence_interpretation": {
+    "cc_pvtz_to_cc_pvdz_edge_drive_ratio": 4.176899097324669,
+    "full_mismatch_rejection_remains_positive_at_cc_pvtz": true,
+    "interpretation": "higher basis sharply increases sparse mismatch separation; low-basis resolution is favored over a demonstrated persistent boundary"
+  },
+  "molecular_sparse_convergence_metrics": {
+    "6-31g": {
+      "edge_drive_toward_mismatch_basin_hartree": 0.007602560096848343,
+      "full_rejection_of_mismatch_basin_hartree": 0.005848899970892774,
+      "sampled_edge_minimum": [
+        2.3,
+        0.9
+      ],
+      "sampled_full_minimum": [
+        1.7,
+        0.9
+      ]
+    },
+    "cc-pvdz": {
+      "edge_drive_toward_mismatch_basin_hartree": 0.01573874679827547,
+      "full_rejection_of_mismatch_basin_hartree": 0.017059921927984334,
+      "sampled_edge_minimum": [
+        2.5,
+        0.9
+      ],
+      "sampled_full_minimum": [
+        1.5,
+        0.9
+      ]
+    },
+    "cc-pvtz": {
+      "edge_drive_toward_mismatch_basin_hartree": 0.06573915729473834,
+      "full_rejection_of_mismatch_basin_hartree": 0.015313684938094596,
+      "sampled_edge_minimum": [
+        2.5,
+        0.9
+      ],
+      "sampled_full_minimum": [
+        1.5,
+        0.9
+      ]
+    },
+    "sto-3g": {
+      "edge_drive_toward_mismatch_basin_hartree": 0.0023471929247409484,
+      "full_rejection_of_mismatch_basin_hartree": 0.010247728225970754,
+      "sampled_edge_minimum": [
+        2.0,
+        0.9
+      ],
+      "sampled_full_minimum": [
+        1.6,
+        0.9
+      ]
+    }
+  },
+  "ordinal_leave_one_domain_out": {
+    "all_pass": true,
+    "heldout_domains": {
+      "atomic": {
+        "checks": [
+          {
+            "heldout_direction": 1,
+            "pass": true,
+            "relation": "intact > removed"
+          },
+          {
+            "heldout_direction": 1,
+            "pass": true,
+            "relation": "intact > mismatched_return"
+          },
+          {
+            "heldout_direction": -1,
+            "pass": true,
+            "relation": "removed < correct_return"
+          },
+          {
+            "heldout_direction": -1,
+            "pass": true,
+            "relation": "mismatched_return < correct_return"
+          }
+        ],
+        "pass": true,
+        "relations_fixed_only_when_both_training_domains_agree": 4,
+        "training_domains": [
+          "cellular",
+          "molecular"
+        ]
+      },
+      "cellular": {
+        "checks": [
+          {
+            "heldout_direction": 1,
+            "pass": true,
+            "relation": "intact > removed"
+          },
+          {
+            "heldout_direction": 1,
+            "pass": true,
+            "relation": "intact > mismatched_return"
+          },
+          {
+            "heldout_direction": -1,
+            "pass": true,
+            "relation": "removed < correct_return"
+          },
+          {
+            "heldout_direction": -1,
+            "pass": true,
+            "relation": "mismatched_return < correct_return"
+          }
+        ],
+        "pass": true,
+        "relations_fixed_only_when_both_training_domains_agree": 4,
+        "training_domains": [
+          "atomic",
+          "molecular"
+        ]
+      },
+      "molecular": {
+        "checks": [
+          {
+            "heldout_direction": 1,
+            "pass": true,
+            "relation": "intact > removed"
+          },
+          {
+            "heldout_direction": 1,
+            "pass": true,
+            "relation": "intact > mismatched_return"
+          },
+          {
+            "heldout_direction": -1,
+            "pass": true,
+            "relation": "removed < correct_return"
+          },
+          {
+            "heldout_direction": -1,
+            "pass": true,
+            "relation": "mismatched_return < correct_return"
+          }
+        ],
+        "pass": true,
+        "relations_fixed_only_when_both_training_domains_agree": 4,
+        "training_domains": [
+          "atomic",
+          "cellular"
+        ]
+      }
+    },
+    "method": "learn only pairwise condition orderings on which both training domains agree"
+  },
+  "schema": "siel-e013-local-exploration-v1",
+  "scope": {
+    "does_not_change_e012": true,
+    "not_confirmatory": true,
+    "sparse_quantum_diagnostic_not_full_metropolis_reexecution": true
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION"
+}

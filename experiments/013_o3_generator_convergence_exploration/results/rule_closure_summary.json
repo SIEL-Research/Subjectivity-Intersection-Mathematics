@@ -1,0 +1,1129 @@
+{
+  "atomic": {
+    "candidate_norm_preservation_error": 0.0,
+    "quarter_span_shift_cells": 43,
+    "reconstruction_error": 0.0,
+    "selected_centered_overlap": 0.2461356746739796,
+    "targets": {
+      "hydrogen": {
+        "gates": {
+          "correct_high": true,
+          "intact_high": true,
+          "mismatched_low": true,
+          "removed_low": true,
+          "specific_return": true
+        },
+        "pass": true,
+        "scores": {
+          "correct_return": 0.9674587638589005,
+          "intact": 0.9999916683825758,
+          "mismatched_return": 0.2821956246209558,
+          "removed": 0.4331441847241306
+        },
+        "shift_sensitivity": {
+          "fraction_0.0625": {
+            "centered_overlap": 0.14211758446317863,
+            "low_gate": true,
+            "mismatched_return_score": 0.36484073495957847,
+            "outside_registered_equivalence": true,
+            "shift_cells": 64,
+            "shift_distance": 12.5,
+            "specific_return_gate": true
+          },
+          "fraction_0.1250": {
+            "centered_overlap": 0.009599986738539314,
+            "low_gate": true,
+            "mismatched_return_score": 0.4242384295567947,
+            "outside_registered_equivalence": true,
+            "shift_cells": 128,
+            "shift_distance": 25.0,
+            "specific_return_gate": true
+          },
+          "fraction_0.2500": {
+            "centered_overlap": -0.07340377984412921,
+            "low_gate": true,
+            "mismatched_return_score": 0.43209292700811286,
+            "outside_registered_equivalence": true,
+            "shift_cells": 256,
+            "shift_distance": 50.0,
+            "specific_return_gate": true
+          },
+          "fraction_0.3750": {
+            "centered_overlap": -0.10475771956448873,
+            "low_gate": true,
+            "mismatched_return_score": 0.43283873740922,
+            "outside_registered_equivalence": true,
+            "shift_cells": 384,
+            "shift_distance": 75.0,
+            "specific_return_gate": true
+          },
+          "minimal_outside_equivalence": {
+            "centered_overlap": 0.3476224637497956,
+            "low_gate": true,
+            "mismatched_return_score": 0.46711168614649845,
+            "outside_registered_equivalence": true,
+            "shift_cells": 31,
+            "shift_distance": 6.0546875,
+            "specific_return_gate": true
+          }
+        }
+      },
+      "muonium": {
+        "gates": {
+          "correct_high": true,
+          "intact_high": true,
+          "mismatched_low": true,
+          "removed_low": true,
+          "specific_return": true
+        },
+        "pass": true,
+        "scores": {
+          "correct_return": 0.9672965974236414,
+          "intact": 0.9999914177962647,
+          "mismatched_return": 0.28062214452818673,
+          "removed": 0.43229301834361455
+        },
+        "shift_sensitivity": {
+          "fraction_0.0625": {
+            "centered_overlap": 0.14211758446317863,
+            "low_gate": true,
+            "mismatched_return_score": 0.363883182955062,
+            "outside_registered_equivalence": true,
+            "shift_cells": 64,
+            "shift_distance": 12.5,
+            "specific_return_gate": true
+          },
+          "fraction_0.1250": {
+            "centered_overlap": 0.009599986738539314,
+            "low_gate": true,
+            "mismatched_return_score": 0.4233592197046108,
+            "outside_registered_equivalence": true,
+            "shift_cells": 128,
+            "shift_distance": 25.0,
+            "specific_return_gate": true
+          },
+          "fraction_0.2500": {
+            "centered_overlap": -0.07340377984412921,
+            "low_gate": true,
+            "mismatched_return_score": 0.4312387890704383,
+            "outside_registered_equivalence": true,
+            "shift_cells": 256,
+            "shift_distance": 50.0,
+            "specific_return_gate": true
+          },
+          "fraction_0.3750": {
+            "centered_overlap": -0.10475771956448873,
+            "low_gate": true,
+            "mismatched_return_score": 0.43198670557749064,
+            "outside_registered_equivalence": true,
+            "shift_cells": 384,
+            "shift_distance": 75.0,
+            "specific_return_gate": true
+          },
+          "minimal_outside_equivalence": {
+            "centered_overlap": 0.3476224637497956,
+            "low_gate": true,
+            "mismatched_return_score": 0.46722669923097254,
+            "outside_registered_equivalence": true,
+            "shift_cells": 31,
+            "shift_distance": 6.0546875,
+            "specific_return_gate": true
+          }
+        }
+      },
+      "positronium": {
+        "gates": {
+          "correct_high": true,
+          "intact_high": true,
+          "mismatched_low": true,
+          "removed_low": true,
+          "specific_return": true
+        },
+        "pass": true,
+        "scores": {
+          "correct_return": 0.9395087114400982,
+          "intact": 0.9995460059368719,
+          "mismatched_return": 0.10312167276986428,
+          "removed": 0.31369215851908344
+        },
+        "shift_sensitivity": {
+          "fraction_0.0625": {
+            "centered_overlap": 0.14211758446317863,
+            "low_gate": true,
+            "mismatched_return_score": 0.195475474265296,
+            "outside_registered_equivalence": true,
+            "shift_cells": 64,
+            "shift_distance": 12.5,
+            "specific_return_gate": true
+          },
+          "fraction_0.1250": {
+            "centered_overlap": 0.009599986738539314,
+            "low_gate": true,
+            "mismatched_return_score": 0.29958501508636476,
+            "outside_registered_equivalence": true,
+            "shift_cells": 128,
+            "shift_distance": 25.0,
+            "specific_return_gate": true
+          },
+          "fraction_0.2500": {
+            "centered_overlap": -0.07340377984412921,
+            "low_gate": true,
+            "mismatched_return_score": 0.3120785144476675,
+            "outside_registered_equivalence": true,
+            "shift_cells": 256,
+            "shift_distance": 50.0,
+            "specific_return_gate": true
+          },
+          "fraction_0.3750": {
+            "centered_overlap": -0.10475771956448873,
+            "low_gate": true,
+            "mismatched_return_score": 0.31322327376909653,
+            "outside_registered_equivalence": true,
+            "shift_cells": 384,
+            "shift_distance": 75.0,
+            "specific_return_gate": true
+          },
+          "minimal_outside_equivalence": {
+            "centered_overlap": 0.3476224637497956,
+            "low_gate": false,
+            "mismatched_return_score": 0.611007188696172,
+            "outside_registered_equivalence": true,
+            "shift_cells": 31,
+            "shift_distance": 6.0546875,
+            "specific_return_gate": true
+          }
+        }
+      }
+    }
+  },
+  "causal_partial_order_leave_one_domain_out": {
+    "atomic": {
+      "fixed_partial_order_edges": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "correct_return > removed",
+        "correct_return > mismatched_return"
+      ],
+      "pass": true,
+      "realization_checks": {
+        "hydrogen": true,
+        "muonium": true,
+        "positronium": true
+      },
+      "training_domains": [
+        "molecular",
+        "cellular"
+      ],
+      "training_pass": true
+    },
+    "cellular": {
+      "fixed_partial_order_edges": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "correct_return > removed",
+        "correct_return > mismatched_return"
+      ],
+      "pass": true,
+      "realization_checks": {
+        "cohort_1": true,
+        "cohort_2": true,
+        "cohort_3": true,
+        "cohort_4": true
+      },
+      "training_domains": [
+        "atomic",
+        "molecular"
+      ],
+      "training_pass": true
+    },
+    "molecular": {
+      "fixed_partial_order_edges": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "correct_return > removed",
+        "correct_return > mismatched_return"
+      ],
+      "pass": true,
+      "realization_checks": {
+        "6-31g": true,
+        "cc-pvdz": true,
+        "sto-3g": true
+      },
+      "training_domains": [
+        "atomic",
+        "cellular"
+      ],
+      "training_pass": true
+    }
+  },
+  "cellular": {
+    "candidate_operator_unchanged_under_time_transport": true,
+    "cohorts": {
+      "cohort_1": {
+        "gates": {
+          "correct_high": true,
+          "intact_high": true,
+          "mismatched_low": true,
+          "removed_low": true,
+          "specific_return": true
+        },
+        "pass": true,
+        "scores": {
+          "correct_return": 1.0,
+          "intact": 1.0,
+          "mismatched_return": 0.0,
+          "removed": 0.0
+        }
+      },
+      "cohort_2": {
+        "gates": {
+          "correct_high": true,
+          "intact_high": true,
+          "mismatched_low": true,
+          "removed_low": true,
+          "specific_return": true
+        },
+        "pass": true,
+        "scores": {
+          "correct_return": 1.0,
+          "intact": 1.0,
+          "mismatched_return": 0.0,
+          "removed": 0.0
+        }
+      },
+      "cohort_3": {
+        "gates": {
+          "correct_high": true,
+          "intact_high": true,
+          "mismatched_low": true,
+          "removed_low": true,
+          "specific_return": true
+        },
+        "pass": true,
+        "scores": {
+          "correct_return": 1.0,
+          "intact": 1.0,
+          "mismatched_return": 0.0,
+          "removed": 0.0
+        }
+      },
+      "cohort_4": {
+        "gates": {
+          "correct_high": true,
+          "intact_high": true,
+          "mismatched_low": true,
+          "removed_low": true,
+          "specific_return": true
+        },
+        "pass": true,
+        "scores": {
+          "correct_return": 1.0,
+          "intact": 1.0,
+          "mismatched_return": 0.0,
+          "removed": 0.0
+        }
+      }
+    },
+    "reference_plus_candidate_reconstruction_error": 5.551115123125783e-17,
+    "selected_centered_overlap": 0.22533571567518837,
+    "selected_time_shift_minutes": 6.0,
+    "shift_sensitivity": {
+      "10.0": {
+        "centered_overlap": 0.061401794394391834,
+        "low_gate": true,
+        "mismatched_return_score": 0.0
+      },
+      "15.0": {
+        "centered_overlap": -0.01514492576746982,
+        "low_gate": true,
+        "mismatched_return_score": 0.0
+      },
+      "20.0": {
+        "centered_overlap": 0.07289787668170296,
+        "low_gate": true,
+        "mismatched_return_score": 0.0
+      },
+      "5.0": {
+        "centered_overlap": 0.3049345364846791,
+        "low_gate": true,
+        "mismatched_return_score": 0.0
+      }
+    }
+  },
+  "decisions": {
+    "all_realizations_pass_absolute_signature": true,
+    "causal_partial_order_leave_one_domain_out": true,
+    "mismatch_shift_sensitivity": {
+      "atomic_all_tested_shifts_pass": true,
+      "cellular_all_tested_shifts_pass": true,
+      "molecular_all_tested_shifts_pass": true
+    },
+    "reference_and_mismatch_rules_operationally_closed": true,
+    "unrestricted_learned_pairwise_leave_one_domain_out": false
+  },
+  "molecular": {
+    "6-31g": {
+      "candidate_norm_preservation_error": 0.0,
+      "conditions": {
+        "correct_return": {
+          "seed_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.4,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "whole_score": 0.98125
+        },
+        "intact": {
+          "seed_scores": [
+            0.96,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.96,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "whole_score": 0.9975
+        },
+        "mismatched_return": {
+          "seed_scores": [
+            0.56,
+            0.0,
+            0.0,
+            0.0,
+            0.2,
+            0.0,
+            0.0,
+            0.0,
+            0.48,
+            0.0,
+            0.0,
+            0.04,
+            0.32,
+            0.0,
+            0.08,
+            0.24,
+            0.0,
+            0.36,
+            0.0,
+            0.0,
+            0.0,
+            0.2,
+            0.0,
+            0.0,
+            0.0,
+            0.08,
+            0.04,
+            0.28,
+            0.08,
+            0.0,
+            0.44,
+            0.0
+          ],
+          "whole_score": 0.10625
+        },
+        "removed": {
+          "seed_scores": [
+            0.08,
+            0.0,
+            0.16,
+            0.28,
+            0.0,
+            0.72,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.12,
+            0.0,
+            0.36,
+            0.96,
+            0.0,
+            0.0,
+            0.0,
+            0.28,
+            1.0,
+            0.8,
+            0.16,
+            0.12,
+            0.16,
+            0.0,
+            0.68,
+            0.36,
+            0.36,
+            0.0,
+            0.0,
+            0.04,
+            1.0,
+            0.0
+          ],
+          "whole_score": 0.2575
+        }
+      },
+      "gates": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "pass": true,
+      "quarter_span_shift_steps": 5,
+      "reconstruction_error": 0.0,
+      "scores": {
+        "correct_return": 0.98125,
+        "intact": 0.9975,
+        "mismatched_return": 0.10625,
+        "removed": 0.2575
+      },
+      "selected_centered_overlap": 0.10750976935610718,
+      "shift_sensitivity": {
+        "1": {
+          "centered_overlap": 0.8496671656951922,
+          "fraction_of_a_grid": 0.05263157894736842,
+          "low_gate": false,
+          "mismatched_return_score": 0.94,
+          "specific_return_gate": false
+        },
+        "2": {
+          "centered_overlap": 0.6542770558649728,
+          "fraction_of_a_grid": 0.10526315789473684,
+          "low_gate": false,
+          "mismatched_return_score": 0.9375,
+          "specific_return_gate": false
+        },
+        "3": {
+          "centered_overlap": 0.453036381393484,
+          "fraction_of_a_grid": 0.15789473684210525,
+          "low_gate": false,
+          "mismatched_return_score": 0.75125,
+          "specific_return_gate": false
+        },
+        "4": {
+          "centered_overlap": 0.2672123945591871,
+          "fraction_of_a_grid": 0.21052631578947367,
+          "low_gate": true,
+          "mismatched_return_score": 0.42125,
+          "specific_return_gate": true
+        },
+        "5": {
+          "centered_overlap": 0.10750976935610718,
+          "fraction_of_a_grid": 0.2631578947368421,
+          "low_gate": true,
+          "mismatched_return_score": 0.10625,
+          "specific_return_gate": true
+        },
+        "6": {
+          "centered_overlap": -0.021349426117585918,
+          "fraction_of_a_grid": 0.3157894736842105,
+          "low_gate": true,
+          "mismatched_return_score": 0.00125,
+          "specific_return_gate": true
+        },
+        "7": {
+          "centered_overlap": -0.11780780033600205,
+          "fraction_of_a_grid": 0.3684210526315789,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        },
+        "8": {
+          "centered_overlap": -0.18176787215246232,
+          "fraction_of_a_grid": 0.42105263157894735,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        },
+        "9": {
+          "centered_overlap": -0.21359819819741674,
+          "fraction_of_a_grid": 0.47368421052631576,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        }
+      }
+    },
+    "cc-pvdz": {
+      "candidate_norm_preservation_error": 0.0,
+      "conditions": {
+        "correct_return": {
+          "seed_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "whole_score": 1.0
+        },
+        "intact": {
+          "seed_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "whole_score": 1.0
+        },
+        "mismatched_return": {
+          "seed_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.04,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "whole_score": 0.00125
+        },
+        "removed": {
+          "seed_scores": [
+            0.0,
+            0.04,
+            0.36,
+            0.52,
+            0.0,
+            1.0,
+            0.6,
+            0.28,
+            0.0,
+            0.12,
+            0.4,
+            0.0,
+            0.36,
+            0.96,
+            0.16,
+            0.0,
+            0.0,
+            0.2,
+            1.0,
+            0.96,
+            0.16,
+            0.28,
+            0.32,
+            0.24,
+            0.84,
+            0.36,
+            0.4,
+            0.0,
+            0.0,
+            0.36,
+            0.48,
+            0.0
+          ],
+          "whole_score": 0.325
+        }
+      },
+      "gates": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "pass": true,
+      "quarter_span_shift_steps": 5,
+      "reconstruction_error": 0.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.00125,
+        "removed": 0.325
+      },
+      "selected_centered_overlap": 0.19069580490109198,
+      "shift_sensitivity": {
+        "1": {
+          "centered_overlap": 0.8742264338638227,
+          "fraction_of_a_grid": 0.05263157894736842,
+          "low_gate": false,
+          "mismatched_return_score": 0.90625,
+          "specific_return_gate": false
+        },
+        "2": {
+          "centered_overlap": 0.7011762333640068,
+          "fraction_of_a_grid": 0.10526315789473684,
+          "low_gate": false,
+          "mismatched_return_score": 0.85625,
+          "specific_return_gate": false
+        },
+        "3": {
+          "centered_overlap": 0.5168575579319383,
+          "fraction_of_a_grid": 0.15789473684210525,
+          "low_gate": false,
+          "mismatched_return_score": 0.7325,
+          "specific_return_gate": true
+        },
+        "4": {
+          "centered_overlap": 0.3428425717364869,
+          "fraction_of_a_grid": 0.21052631578947367,
+          "low_gate": true,
+          "mismatched_return_score": 0.23625000000000002,
+          "specific_return_gate": true
+        },
+        "5": {
+          "centered_overlap": 0.19069580490109198,
+          "fraction_of_a_grid": 0.2631578947368421,
+          "low_gate": true,
+          "mismatched_return_score": 0.00125,
+          "specific_return_gate": true
+        },
+        "6": {
+          "centered_overlap": 0.06597086760298719,
+          "fraction_of_a_grid": 0.3157894736842105,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        },
+        "7": {
+          "centered_overlap": -0.028574515144014902,
+          "fraction_of_a_grid": 0.3684210526315789,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        },
+        "8": {
+          "centered_overlap": -0.0917907988898851,
+          "fraction_of_a_grid": 0.42105263157894735,
+          "low_gate": true,
+          "mismatched_return_score": 0.00625,
+          "specific_return_gate": true
+        },
+        "9": {
+          "centered_overlap": -0.1234176915676479,
+          "fraction_of_a_grid": 0.47368421052631576,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        }
+      }
+    },
+    "sto-3g": {
+      "candidate_norm_preservation_error": 0.0,
+      "conditions": {
+        "correct_return": {
+          "seed_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "whole_score": 1.0
+        },
+        "intact": {
+          "seed_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "whole_score": 1.0
+        },
+        "mismatched_return": {
+          "seed_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "whole_score": 0.0
+        },
+        "removed": {
+          "seed_scores": [
+            0.04,
+            0.0,
+            0.16,
+            0.4,
+            0.0,
+            1.0,
+            0.6,
+            0.12,
+            0.0,
+            0.08,
+            0.28,
+            0.0,
+            0.36,
+            0.96,
+            0.0,
+            0.0,
+            0.0,
+            0.28,
+            1.0,
+            0.92,
+            0.16,
+            0.16,
+            0.28,
+            0.12,
+            0.68,
+            0.36,
+            0.36,
+            0.0,
+            0.0,
+            0.12,
+            0.88,
+            0.0
+          ],
+          "whole_score": 0.29125
+        }
+      },
+      "gates": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "pass": true,
+      "quarter_span_shift_steps": 5,
+      "reconstruction_error": 0.0,
+      "scores": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.29125
+      },
+      "selected_centered_overlap": 0.10603329182550893,
+      "shift_sensitivity": {
+        "1": {
+          "centered_overlap": 0.8446694681060736,
+          "fraction_of_a_grid": 0.05263157894736842,
+          "low_gate": false,
+          "mismatched_return_score": 0.9512499999999999,
+          "specific_return_gate": false
+        },
+        "2": {
+          "centered_overlap": 0.6503545125713123,
+          "fraction_of_a_grid": 0.10526315789473684,
+          "low_gate": false,
+          "mismatched_return_score": 0.85375,
+          "specific_return_gate": false
+        },
+        "3": {
+          "centered_overlap": 0.45107272570405876,
+          "fraction_of_a_grid": 0.15789473684210525,
+          "low_gate": false,
+          "mismatched_return_score": 0.65125,
+          "specific_return_gate": true
+        },
+        "4": {
+          "centered_overlap": 0.26610047633236195,
+          "fraction_of_a_grid": 0.21052631578947367,
+          "low_gate": true,
+          "mismatched_return_score": 0.1425,
+          "specific_return_gate": true
+        },
+        "5": {
+          "centered_overlap": 0.10603329182550893,
+          "fraction_of_a_grid": 0.2631578947368421,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        },
+        "6": {
+          "centered_overlap": -0.02379724774744123,
+          "fraction_of_a_grid": 0.3157894736842105,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        },
+        "7": {
+          "centered_overlap": -0.12124185430177498,
+          "fraction_of_a_grid": 0.3684210526315789,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        },
+        "8": {
+          "centered_overlap": -0.18589563368799916,
+          "fraction_of_a_grid": 0.42105263157894735,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        },
+        "9": {
+          "centered_overlap": -0.21806114253088343,
+          "fraction_of_a_grid": 0.47368421052631576,
+          "low_gate": true,
+          "mismatched_return_score": 0.0,
+          "specific_return_gate": true
+        }
+      }
+    }
+  },
+  "rules": {
+    "candidate": "C*_D = G_D - P_loc,D(G_D)",
+    "maximum_centered_mismatch_overlap": 0.25,
+    "mismatch": "minimal admissible isometry with centered candidate overlap at most 0.25",
+    "reference": "maximal local-preserving severing projection"
+  },
+  "schema": "siel-e013-domain-prior-rule-local-exploration-v1",
+  "scope": {
+    "does_not_change_e012": true,
+    "not_confirmatory": true
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION",
+  "unrestricted_learned_pairwise_leave_one_domain_out": {
+    "atomic": {
+      "learned_relations": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "removed < correct_return",
+        "mismatched_return < correct_return"
+      ],
+      "pass": true,
+      "realization_checks": {
+        "hydrogen": true,
+        "muonium": true,
+        "positronium": true
+      }
+    },
+    "cellular": {
+      "learned_relations": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "removed > mismatched_return",
+        "removed < correct_return",
+        "mismatched_return < correct_return"
+      ],
+      "pass": false,
+      "realization_checks": {
+        "cohort_1": false,
+        "cohort_2": false,
+        "cohort_3": false,
+        "cohort_4": false
+      }
+    },
+    "molecular": {
+      "learned_relations": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "removed < correct_return",
+        "mismatched_return < correct_return"
+      ],
+      "pass": true,
+      "realization_checks": {
+        "6-31g": true,
+        "cc-pvdz": true,
+        "sto-3g": true
+      }
+    }
+  }
+}

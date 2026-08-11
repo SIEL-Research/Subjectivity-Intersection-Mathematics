@@ -1,0 +1,45 @@
+{
+  "schema": "siel-e013-target-registry-v1",
+  "target_execution_performed": false,
+  "maximum_centered_mismatch_overlap": 0.25,
+  "reconstruction_tolerance": 1e-12,
+  "atomic": {
+    "grid_points": 1024,
+    "half_width": 100.0,
+    "softening": 0.8,
+    "local_window": 6.0,
+    "ground_steps": 4000,
+    "dynamic_steps": 1600,
+    "removal_steps_before_return": 400,
+    "targets": {
+      "tritium": {"nuclear_electron_mass_ratio": 5496.92153551, "nuclear_charge": 1.0},
+      "helium3_hydrogenic": {"nuclear_electron_mass_ratio": 5495.88527984, "nuclear_charge": 2.0}
+    }
+  },
+  "molecular": {
+    "basis": "cc-pvtz",
+    "b_angstrom": 1.0,
+    "a_minimum_angstrom": 1.3,
+    "a_maximum_angstrom": 2.5,
+    "a_step_angstrom": 0.1,
+    "trajectory_seeds": [2026160001, 2026160002, 2026160003, 2026160004, 2026160005, 2026160006, 2026160007, 2026160008, 2026160009, 2026160010, 2026160011, 2026160012, 2026160013, 2026160014, 2026160015, 2026160016, 2026160017, 2026160018, 2026160019, 2026160020, 2026160021, 2026160022, 2026160023, 2026160024, 2026160025, 2026160026, 2026160027, 2026160028, 2026160029, 2026160030, 2026160031, 2026160032],
+    "temperature_hartree": 0.002,
+    "total_steps": 100,
+    "removal_steps_before_return": 20,
+    "late_window_steps": 25,
+    "minimum_radius_angstrom": 0.35,
+    "minimum_energy_tolerance_hartree": 1e-10
+  },
+  "cellular": {
+    "calibration_seed": 2026161000,
+    "maximum_shift_minutes": 20,
+    "cohort_starts": [2026162000, 2026162100, 2026162200, 2026162300],
+    "lineages_per_cohort": 16
+  },
+  "thresholds": {
+    "high_minimum": 0.8,
+    "low_maximum": 0.5,
+    "specific_return_advantage_minimum": 0.25,
+    "threshold_free_margin_minimum": 0.0
+  }
+}

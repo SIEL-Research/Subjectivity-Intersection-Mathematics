@@ -1,0 +1,603 @@
+{
+  "decisions": {
+    "complete_signature_all_realizations": false,
+    "generator_rule": "ONE_GENERATOR_RESIDUAL_RULE_RECONSTRUCTS_ALL_THREE_DOMAINS",
+    "strict_ordinal_leave_one_out": true
+  },
+  "generator_reconstruction": {
+    "all_exact_to_1e_12": true,
+    "atomic": {
+      "candidate_nonzero": true,
+      "maximum_reconstruction_error": 0.0
+    },
+    "cellular": {
+      "candidate_l2_grid_norm": 24.335873725839342,
+      "maximum_reconstruction_error": 5.551115123125783e-17
+    },
+    "molecular": {
+      "complete_candidate": "full landscape minus flat isolated-centres landscape",
+      "maximum_reconstruction_error_by_basis": {
+        "6-31g": 0.0,
+        "cc-pvdz": 0.0,
+        "sto-3g": 0.0
+      }
+    },
+    "removal": "G_removed,D = G_native,D - C*_D = G_reference,D",
+    "rule": "C*_D = G_native,D - G_reference,D"
+  },
+  "realization_gates": {
+    "atomic": {
+      "deuterium": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "hydrogen": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      }
+    },
+    "cellular": {
+      "cohort_1": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "cohort_2": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "cohort_3": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "cohort_4": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      }
+    },
+    "molecular": {
+      "6-31g": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "cc-pvdz": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": true,
+        "removed_low": true,
+        "specific_return": true
+      },
+      "sto-3g": {
+        "correct_high": true,
+        "intact_high": true,
+        "mismatched_low": false,
+        "removed_low": true,
+        "specific_return": true
+      }
+    }
+  },
+  "realization_pass": {
+    "atomic": {
+      "deuterium": true,
+      "hydrogen": true
+    },
+    "cellular": {
+      "cohort_1": true,
+      "cohort_2": true,
+      "cohort_3": true,
+      "cohort_4": true
+    },
+    "molecular": {
+      "6-31g": true,
+      "cc-pvdz": true,
+      "sto-3g": false
+    }
+  },
+  "realization_scores": {
+    "atomic": {
+      "deuterium": {
+        "correct_return": 0.9674690647155559,
+        "intact": 0.9999916840802077,
+        "mismatched_return": 0.2677829692254179,
+        "removed": 0.4331983359786311
+      },
+      "hydrogen": {
+        "correct_return": 0.9674587638589005,
+        "intact": 0.9999916683825758,
+        "mismatched_return": 0.26764764076552505,
+        "removed": 0.4331441847241295
+      }
+    },
+    "cellular": {
+      "cohort_1": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "cohort_2": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "cohort_3": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      },
+      "cohort_4": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.0
+      }
+    },
+    "molecular": {
+      "6-31g": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.32,
+        "removed": 0.13
+      },
+      "cc-pvdz": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.0,
+        "removed": 0.12000000000000001
+      },
+      "sto-3g": {
+        "correct_return": 1.0,
+        "intact": 1.0,
+        "mismatched_return": 0.7,
+        "removed": 0.07
+      }
+    }
+  },
+  "schema": "siel-e013-unified-generator-local-exploration-v1",
+  "scope": {
+    "does_not_change_public_e012": true,
+    "molecular_mismatch_null_remains_domain_specific": true,
+    "not_confirmatory": true
+  },
+  "status": "LOCAL_RESULT_INFORMED_EXPLORATION",
+  "strict_ordinal_leave_one_domain_out": {
+    "atomic": {
+      "heldout_realizations": [
+        {
+          "pass": true,
+          "realization": "deuterium"
+        },
+        {
+          "pass": true,
+          "realization": "hydrogen"
+        }
+      ],
+      "learned_relations": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "removed < correct_return",
+        "mismatched_return < correct_return"
+      ],
+      "pass": true,
+      "training_domains": [
+        "cellular",
+        "molecular"
+      ]
+    },
+    "cellular": {
+      "heldout_realizations": [
+        {
+          "pass": true,
+          "realization": "cohort_1"
+        },
+        {
+          "pass": true,
+          "realization": "cohort_2"
+        },
+        {
+          "pass": true,
+          "realization": "cohort_3"
+        },
+        {
+          "pass": true,
+          "realization": "cohort_4"
+        }
+      ],
+      "learned_relations": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "removed < correct_return",
+        "mismatched_return < correct_return"
+      ],
+      "pass": true,
+      "training_domains": [
+        "atomic",
+        "molecular"
+      ]
+    },
+    "molecular": {
+      "heldout_realizations": [
+        {
+          "pass": true,
+          "realization": "sto-3g"
+        },
+        {
+          "pass": true,
+          "realization": "6-31g"
+        },
+        {
+          "pass": true,
+          "realization": "cc-pvdz"
+        }
+      ],
+      "learned_relations": [
+        "intact > removed",
+        "intact > mismatched_return",
+        "removed < correct_return",
+        "mismatched_return < correct_return"
+      ],
+      "pass": true,
+      "training_domains": [
+        "atomic",
+        "cellular"
+      ]
+    }
+  },
+  "unified_molecular_complete_residual_intervention": {
+    "6-31g": {
+      "correct_return": {
+        "final_points": [
+          [
+            1.6,
+            0.9
+          ],
+          [
+            1.5,
+            0.9
+          ],
+          [
+            1.6,
+            0.8
+          ],
+          [
+            1.7,
+            0.8
+          ]
+        ],
+        "seed_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "whole_score": 1.0
+      },
+      "generator_reconstruction_error": 0.0,
+      "intact": {
+        "final_points": [
+          [
+            1.8,
+            0.9
+          ],
+          [
+            1.7,
+            0.8
+          ],
+          [
+            1.7,
+            0.8
+          ],
+          [
+            1.7,
+            0.9
+          ]
+        ],
+        "seed_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "whole_score": 1.0
+      },
+      "mismatched_return": {
+        "final_points": [
+          [
+            2.3,
+            0.9
+          ],
+          [
+            2.0,
+            0.9
+          ],
+          [
+            2.0,
+            0.9
+          ],
+          [
+            1.8,
+            0.8
+          ]
+        ],
+        "seed_scores": [
+          0.0,
+          0.32,
+          0.08,
+          0.88
+        ],
+        "whole_score": 0.32
+      },
+      "removed": {
+        "final_points": [
+          [
+            2.4,
+            0.8
+          ],
+          [
+            1.1,
+            0.8
+          ],
+          [
+            2.0,
+            1.0
+          ],
+          [
+            1.1,
+            1.1
+          ]
+        ],
+        "seed_scores": [
+          0.2,
+          0.0,
+          0.28,
+          0.04
+        ],
+        "whole_score": 0.13
+      }
+    },
+    "cc-pvdz": {
+      "correct_return": {
+        "final_points": [
+          [
+            1.5,
+            0.9
+          ],
+          [
+            1.3,
+            0.9
+          ],
+          [
+            1.4,
+            0.9
+          ],
+          [
+            1.4,
+            0.9
+          ]
+        ],
+        "seed_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "whole_score": 1.0
+      },
+      "generator_reconstruction_error": 0.0,
+      "intact": {
+        "final_points": [
+          [
+            1.5,
+            0.9
+          ],
+          [
+            1.4,
+            0.8
+          ],
+          [
+            1.4,
+            0.9
+          ],
+          [
+            1.6,
+            0.8
+          ]
+        ],
+        "seed_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "whole_score": 1.0
+      },
+      "mismatched_return": {
+        "final_points": [
+          [
+            2.4,
+            0.9
+          ],
+          [
+            2.1,
+            0.9
+          ],
+          [
+            1.9,
+            0.9
+          ],
+          [
+            2.0,
+            0.9
+          ]
+        ],
+        "seed_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "whole_score": 0.0
+      },
+      "removed": {
+        "final_points": [
+          [
+            2.2,
+            0.9
+          ],
+          [
+            1.1,
+            0.8
+          ],
+          [
+            2.0,
+            1.0
+          ],
+          [
+            1.1,
+            1.0
+          ]
+        ],
+        "seed_scores": [
+          0.2,
+          0.08,
+          0.0,
+          0.2
+        ],
+        "whole_score": 0.12000000000000001
+      }
+    },
+    "sto-3g": {
+      "correct_return": {
+        "final_points": [
+          [
+            1.6,
+            0.9
+          ],
+          [
+            1.6,
+            0.9
+          ],
+          [
+            1.7,
+            0.8
+          ],
+          [
+            1.6,
+            0.9
+          ]
+        ],
+        "seed_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "whole_score": 1.0
+      },
+      "generator_reconstruction_error": 0.0,
+      "intact": {
+        "final_points": [
+          [
+            1.5,
+            0.9
+          ],
+          [
+            1.7,
+            0.9
+          ],
+          [
+            1.6,
+            0.9
+          ],
+          [
+            1.7,
+            0.9
+          ]
+        ],
+        "seed_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "whole_score": 1.0
+      },
+      "mismatched_return": {
+        "final_points": [
+          [
+            1.9,
+            0.9
+          ],
+          [
+            1.9,
+            0.9
+          ],
+          [
+            1.7,
+            0.9
+          ],
+          [
+            1.7,
+            0.9
+          ]
+        ],
+        "seed_scores": [
+          0.48,
+          0.72,
+          0.76,
+          0.84
+        ],
+        "whole_score": 0.7
+      },
+      "removed": {
+        "final_points": [
+          [
+            2.3,
+            0.9
+          ],
+          [
+            1.1,
+            0.8
+          ],
+          [
+            2.0,
+            1.0
+          ],
+          [
+            1.1,
+            1.0
+          ]
+        ],
+        "seed_scores": [
+          0.2,
+          0.0,
+          0.0,
+          0.08
+        ],
+        "whole_score": 0.07
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "siel-experiment-013-registration-v1",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "target_execution_performed": false,
+  "experiment": "013_domain_prior_o3_generation_transfer",
+  "registration_tag": "e013-preregistration-v1.0.0",
+  "result_tag": "e013-results-v1.0.0",
+  "source_sha256": {
+    "experiments/009_constitutive_cell_o3_closure/core.py": "ae8186180bfce424cb2b18fc4014c1417d9ab4a225d216b521811cda3e120500",
+    "experiments/010_complete_molecular_carrier_transfer/run.py": "b476b15cc02f75fa7ce6d988807338942be92caf0030cdee4145cee437161563",
+    "experiments/013_domain_prior_o3_generation_transfer/PREREGISTRATION.md": "d869b538bec70def2bf908f30ba0aab2767a85a04c0853bf55eaee4c90f71e0a",
+    "experiments/013_domain_prior_o3_generation_transfer/README.md": "66ad602bcc2e81bcf59088fdd753aac2c0622e0fe6a1498c27e21b1a60a6e466",
+    "experiments/013_domain_prior_o3_generation_transfer/TARGET_PROVENANCE.md": "171fded7a9645943b12668b83add0462b5f740f2f19709063b1fc33f65fecdf1",
+    "experiments/013_domain_prior_o3_generation_transfer/TECHNICAL_SPECIFICATION.md": "6b67c3492437db55b66886b0e45a2f132f733e9fb79d9a0b9da93958c0fb2e67",
+    "experiments/013_domain_prior_o3_generation_transfer/run.py": "5929819c6a6b7f1ad14380bf74aa93c3e5bd01e9367366058c9b189944265392",
+    "experiments/013_domain_prior_o3_generation_transfer/target_registry.json": "2acd94c1a1d5b96a2f39aa3faabe9c3217c60c9ee160478551abd4c5ab085609",
+    "experiments/013_domain_prior_o3_generation_transfer/tests/test_e013.py": "2f056f83098d9492980f1ccd3c0356297473bd2d1dab8213d99fe8d0f907d587"
+  }
+}
