@@ -7,7 +7,8 @@ working preprint series. The current draft is:
 > Closure and Stabilized O3 Return across Atomic, Molecular, and Cellular
 > Systems*, Public Working Preprint v4.2 Draft, 13 August 2026.
 
-The Version 4.2 DOI will be assigned at public release.
+Version 4.2 DOI:
+[10.5281/zenodo.21909933](https://doi.org/10.5281/zenodo.21909933)
 
 Preceding public version (v4.1) DOI:
 [10.5281/zenodo.21877695](https://doi.org/10.5281/zenodo.21877695)
