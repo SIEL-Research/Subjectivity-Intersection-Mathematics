@@ -30,17 +30,20 @@ cross-centre action, cross-centre electron repulsion, other-nucleus action in
 local atomic blocks, nuclear repulsion, and local deformation relative to the
 isolated-atom reference.
 
-## Registration state
+## Publication state
 
-`PREREGISTERED_NOT_EXECUTED`
+`COMPLETED_AND_PUBLISHED`
 
-This state becomes effective only after the registration commit, tag and
-GitHub Release `e010-preregistration-v1.0.0`, and its DOI are public and
-verified. Before that event only source-hash validation, syntax checks, and
-target-free unit tests are permitted.
+The preregistration was published as GitHub Release
+`e010-preregistration-v1.0.0` with DOI
+`10.5281/zenodo.21865563`. The single registered execution subsequently passed
+all 27 gates. Its result was published separately as GitHub Release
+`e010-results-v1.0.0` with DOI `10.5281/zenodo.21865750`.
 
-The runner requires a post-release registration receipt for scientific
-execution. The receipt is recorded with all result artifacts.
+Both registration and result-release receipts are preserved with the result
+artifacts. The commands below document the frozen validation and execution
+contract; they are not an invitation to treat a rerun as a second registered
+execution.
 
 ## Target-free validation
 

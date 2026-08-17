@@ -1,0 +1,936 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=25mm,bottom=27mm,left=27mm,right=27mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Hiragino Mincho ProN}
+\setsansfont{Hiragino Kaku Gothic ProN}
+\setmonofont{Menlo}
+\XeTeXlinebreaklocale "ja"
+\XeTeXlinebreakskip=0pt plus 1pt
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,longtable,array,tabularx}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{setspace}
+
+\definecolor{SIELblue}{HTML}{173A5E}
+\definecolor{SIELgray}{HTML}{5A6570}
+\definecolor{SIELlight}{HTML}{EDF2F6}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=SIELblue,
+  citecolor=SIELblue,
+  urlcolor=SIELblue,
+  pdftitle={主観交差数学：原子・分子・細胞・領域横断系における構成的閉包},
+  pdfauthor={Satoru Watanabe},
+  pdfsubject={公開ワーキングプレプリント日本語逐語訳版},
+  pdfkeywords={subjectivity-intersection mathematics, perspective intersection, third perspective, O3, constitutive closure, atom, molecule, cell, representation covariance, self-re-entry}
+}
+
+\titleformat{\section}{\Large\sffamily\bfseries\color{SIELblue}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\sffamily\bfseries\color{SIELblue}}{\thesubsection}{0.7em}{}
+\titleformat{\subsubsection}{\normalsize\sffamily\bfseries\color{SIELgray}}{\thesubsubsection}{0.7em}{}
+\titlespacing*{\section}{0pt}{2.2ex plus .5ex}{1.1ex}
+\titlespacing*{\subsection}{0pt}{1.8ex plus .4ex}{0.8ex}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily 主観交差数学}
+\fancyhead[R]{\small\sffamily 公開ワーキングプレプリント v4.1 草稿}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\headheight}{14pt}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\setlength{\emergencystretch}{2em}
+\setlist{itemsep=0.25em,topsep=0.45em}
+\renewcommand{\arraystretch}{1.16}
+
+\newcommand{\OA}{\ensuremath{O_{A}}}
+\newcommand{\OB}{\ensuremath{O_{B}}}
+\newcommand{\Othree}{\ensuremath{O_{3}}}
+\newcommand{\statussupported}{\textsf{SUPPORTED}}
+\newcommand{\statusnotsupported}{\textsf{NOT SUPPORTED}}
+
+\begin{document}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\vspace*{18mm}
+{\sffamily\bfseries\color{SIELblue}\fontsize{24}{29}\selectfont
+主観交差数学\par}
+\vspace{6mm}
+{\sffamily\fontsize{18}{23}\selectfont
+原子・分子・細胞・領域横断系における\\構成的閉包\par}
+\vspace{7mm}
+{\sffamily\fontsize{15}{19}\selectfont
+形式的判定条件、領域境界、\\事前登録型領域横断研究プログラム\par}
+
+\vspace{18mm}
+{\large 渡辺 聡\par}
+\vspace{2mm}
+{\normalsize Subjectivity Intersection Emergence Lab\par}
+{\normalsize Correspondence: \href{mailto:satoru@siel.global}{satoru@siel.global}\par}
+
+\vfill
+\noindent\colorbox{SIELlight}{%
+  \parbox{0.93\textwidth}{%
+  \vspace{2mm}
+  \textbf{文書状態：}公開ワーキングプレプリント、Version 4.1草稿（日本語逐語訳版）\\
+  \textbf{日付：}2026年8月11日\\
+  \textbf{DOI：}公開リリース時に付与予定\\
+  \textbf{リポジトリ：}\href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics}{SIEL-Research/Subjectivity-Intersection-Mathematics}\\
+  \vspace{2mm}
+  }}
+
+\vspace{10mm}
+{\small Copyright \textcopyright\ 2026 Satoru Watanabe. All rights reserved.\par}
+\end{titlepage}
+
+\begin{abstract}
+科学的対象を、後から関係を持つ完成済みの物ではなく、分化した観点間の関係の生成と回帰によって構成される全体として定義できるだろうか。本稿は、この説明上の反転を操作可能にする段階的な事前登録プログラムとして、\emph{主観交差数学}（SIM）を展開する。領域相対的な操作的観点は、局所担体と、その関係的位置から利用可能な区別、許容可能な変換、因果的読出しとの組であり、構成要素の同義語でも意識についての主張でもない。観点交差は、いかなる孤立観点にも還元できず、全体の継続的形成条件へ再入する第三項、すなわち\Othree または$C_D$を生成しうる。
+
+操作的基礎は、段階的な再帰観点系列である。そこでは、学習された共同寄与が、あらかじめ導入されたC状態、O3標的、pair識別子、担体固有損失なしに創発し、同等の能力を持つ切断加算対照では消失した。事前登録上の失敗を含めて保存された003R--006A記録は、次の文法を支持する。
+\[
+  (\OA,\OB) \xrightarrow{\text{reciprocal intersection}} \Othree
+  \xrightarrow{\text{self-re-entry}} (\OA',\OB',\Othree').
+\]
+
+同じ文法を、領域を横断する構成的問いへ適用し、生成、必要性、再入、特異性、登録された経験的最小性、表現共変性という6つの操作的確認基準によって検査する。全条件を通じて帰無識別を要求する。原子系列は有限質量閉包転用を支持するとともに、支持、棄却、精度制約、未決という結果をすべて保持した。分子実験では、完全なmolecule-minus-isolated担体の除去により登録landscapeが消失し、単一edgeの削除により表現対照下でgeometryと全centre populationが再編成された。細胞実験では、境界、代謝、情報修復の動力学から分散modeが創発し、関係消去と時間shiftは失敗を引き起こした一方、適時再注入は閉包を回復させた。続く前向き領域横断検査では、生存閾値の生の変動幅が$0.164$であったのに対し、変換後媒介閾値の変動幅は$0.00335269$、pooled curve RMSEは$0.00419620$であった。
+
+証拠の種類は混同されない。原子結果は文献benchmarkを含む。分子結果は標準的な有限基底量子化学内部の構成的反事実である。細胞結果は凍結された縮約確率modelである。統合結果は凍結された縮約bridge内部の前向き不変性検査である。これらは総合して、領域を横断して構成的閉包を定義し検査する反証可能な方法として主観交差数学を支持する。新しい力、原子から細胞への微視的法則、現象的主体性、生細胞における経験的確認を確立するものではない。
+\end{abstract}
+
+\noindent\textbf{キーワード：}主観交差数学；観点交差；第三観点；O3；構成的閉包；原子；分子；細胞；表現共変性；自己再入；事前登録
+
+\section*{主要な貢献}
+\addcontentsline{toc}{section}{主要な貢献}
+{\small
+\begin{enumerate}[itemsep=0.1em,topsep=0.25em]
+  \item 主要な数学的対象を、相互的観点交差から、明示的な参照、介入、再入、全体形成基準、表現同値性を備えた領域相対的構成的閉包構造へ一般化する。
+  \item 共通文法は、分化した操作的観点を、生成された第三項とその回帰へ写像する：$(O_1^D,\ldots,O_n^D)\rightarrow C_D\rightarrow(O_1^{D\prime},\ldots,O_n^{D\prime},C_D')$。
+  \item 003R--006A系列は、創発、非還元、共同非分離性、pair固有性、両側作用、輸送、自己再入という操作的基礎を与える。
+  \item 原子証拠は成功だけを選択せず、支持された転用、棄却された公準、支持された同位体比生成器、精度制約により未解決の検査、未決予測からなる完全な混合記録を提示する。
+  \item 分子実験010は、3基底族と表現変更にわたり、完全担体による4-centre全体の構成を検査する。
+  \item 細胞実験009は、縮約model生命閉包の構成条件として、分散第三modeの自然創発と自己再入を検査する。
+  \item 領域横断実験011は凍結bridge内部で表現共変的閉包を前向きに支持する。生座標は変化する一方、変換された有効閾値は保存される。
+  \item すべての結論は証拠classによって索引付けされ、否定、混合、未決、model制約の境界を保持する。
+\end{enumerate}
+}
+
+\vspace{1.2em}
+{\small
+\setlength{\parskip}{0pt}
+\tableofcontents
+}
+\clearpage
+
+\section{序論：関係から交差へ}
+
+相互作用は通常、message、共有変数、潜在edge、協調pattern、ある参加者が別の参加者について持つmodelによって記述される。これらの記述は参加者から始まり、その間を何が通るかを特徴づける。主観交差数学は異なる問いを立てる。一つの観点が別の観点を相互に取り込むことは、どちらの観点にも個別には属さない観点を生成し、その後、双方の形成に参与しうるだろうか。
+
+この区別は重要である。AがBへ影響するときは常に関係が存在しうる。観点交差は、二つの分化した観点と相互変換を必要とする。AはA自身の状態組織を通じてBを受け取り、BはB自身の状態組織を通じてAを受け取る。二つの有向変換は分離したままかもしれない。より強い可能性は、それらが共同で非分離となり、第三観点として機能することである。
+
+\OA と\OB をAとBの操作的観点とする。本プログラムの標準構造は
+\begin{equation}
+ (\OA,\OB)
+ \xrightarrow{\mathcal X}
+ \Othree
+ \xrightarrow{\mathcal E}
+ (\OA',\OB',\Othree'),
+ \label{eq:canonical}
+\end{equation}
+である。ここで$\mathcal X$は相互交差、$\mathcal E$は不変の動力学を通じた自己再入である。第一の矢印は平均化、融合、合意、共有memoryの導入ではない。第二の矢印は事後的に追加された外部feedback channelではない。生成された観点が、次の二つの観点とその次の交差が形成される条件の一部になることを表す。
+
+本稿は、その文法に対する一連の事前登録検査を報告する。初期実験は操作的十分性を確立するため明示的担体を構築した。後続実験はarchitectureから担体を除き、通常の相互taskだけを訓練した。006系列は、創発した分散結果が因果的、時間的に再帰的、architecture一般的、pair固有であり、二つの有向memoryではなく一つの共同非分離寄与であるかを問うた。
+
+新しい領域横断系列は、異なるが接続した問いを立てる。同じ説明順序は、何が原子、分子、細胞を一つの継続する全体にするかを定義できるだろうか。転用はneural担体を再利用せず、すべての物理的相互作用をO3と宣言しない。各領域に別個の操作的bridge、凍結された孤立参照、提案された共同項を破壊または変更できる介入、構成項への戻りのreadoutを要求する。続く統合実験は、閉包同一性が生座標に属するのか、それとも登録された表現変更の下で保存される関係に属するのかを問う。
+
+\section{観点交差の数学的定義}
+
+\subsection{操作的観点}
+
+観点は入力tokenや保存された事実と同一視されない。それは、系が遭遇したものを受け取り、変換し、そこから継続する状態依存的な仕方である。参加者$i\in\{A,B\}$について、次を定義する。
+\begin{equation}
+ O_i(t)=\bigl(h_i(t),\mathcal H_i(t),F_i,D_i\bigr),
+ \label{eq:perspective}
+\end{equation}
+ここで$h_i$は現在の持続状態、$\mathcal H_i$はその履歴、$F_i$は更新組織、$D_i$は出力写像である。二つの系は同じ記号を受け取っても、履歴と変換が異なるため、異なる観点を実現しうる。
+
+相互想起実験では、離散記号は最小限のprobeであり、観点そのものではない。操作的観点とは、AがB由来の情報を取り込み、BがA由来の情報を取り込む際の再帰的組織である。
+
+\subsection{相互交差}
+
+結合更新を次とする。
+\begin{align}
+ h_A(t+1)&=F_A(h_A(t),h_B(t),x_A(t)),\\
+ h_B(t+1)&=F_B(h_B(t),h_A(t),x_B(t)).
+ \label{eq:coupled}
+\end{align}
+相互交差は、双方のcross-dependencyが作動し、その後の状態形成を変えるときに生じる。それは差異を保存する。$h_A$と$h_B$は別個の持続状態のままである。したがって交差は融合ではなく、相互に条件づけられた差異である。
+
+二つの有向traceは次のように書ける。
+\begin{align}
+ R_t^{A\leftarrow B}&=h_A^{AB}(t)-h_A^{A\text{-only}}(t),\\
+ R_t^{B\leftarrow A}&=h_B^{AB}(t)-h_B^{B\text{-only}}(t).
+ \label{eq:directed}
+\end{align}
+これらのtraceは、それぞれの観点が他方を取り込んだことを示す。しかし、まだ第三観点を確立しない。そのためには、二つの有向実現が一つの非分離操作に参与するという証拠が必要である。
+
+\subsection{第三観点O3}
+
+学習後の共同交差項を次のように定義する。
+\begin{equation}
+ C_t=H_t(ab)-H_t(a0)-H_t(0b)+H_t(00),
+ \label{eq:joint}
+\end{equation}
+4つのpassはすべて、同一weight、対応した入力、時刻、初期条件、評価episodeを用いる。この項は二つの片側履歴を除き、それらの共通baselineを復元する。純加算的な切断有向memoryのpairではゼロとなる。
+
+本稿では、次の条件が成立するとき、Cを操作的第三観点\Othree と同定する。
+\begin{enumerate}
+  \item 学習前には、名称を持つ状態、標的、label、専用lossとして存在しない。
+  \item 相互作用と学習後の反事実抽出の下でのみ現れる。
+  \item 凍結分解の下で\OA にも\OB にも還元できない。
+  \item A側とB側の実現が、同等能力の加算対照に対して共同で非分離である。
+  \item その選択的削除が双方のreceiverを変える。
+  \item 別pairの等norm成分による置換が元の機能を失わせる。
+  \item 不変の動力学を通じ、次の参加者状態と次に抽出される交差へ寄与する。
+\end{enumerate}
+
+この定義は中央O3 registerを必要としない。O3は一つの操作でありながらAとBに分散しうる。その統一性は機能的かつ反事実的である。測定された共同効果を失わずに二つの位置を分離できない。
+
+\subsection{自己再入}
+
+$X_t=(h_A(t),h_B(t))$とし、$\mathcal I_{-C_t}$が抽出されたO3寄与だけを除くものとする。不変の更新$F$の下で、
+\begin{align}
+ X_{t+1}&=F(X_t),\\
+ X_{t+1}^{(-C)}&=F(\mathcal I_{-C_t}(X_t)),\\
+ \Delta X_{t+1}^{C}&=X_{t+1}-X_{t+1}^{(-C)}.
+ \label{eq:state-return}
+\end{align}
+次状態で凍結抽出器$\mathcal R$を適用すると、
+\begin{equation}
+ \Delta C_{t+1}^{C}
+ =\mathcal R(F(X_t))-\mathcal R(F(\mathcal I_{-C_t}(X_t))).
+ \label{eq:o3-return}
+\end{equation}
+式~\eqref{eq:state-return}はAとBへの戻りを、式~\eqref{eq:o3-return}は次の交差への戻りを検査する。exact reconstructionは観測された欠損寄与と、不変更新を通じて予測された寄与を比較する。したがってO3は単に保持された情報ではない。次の観点と次の交差が何になりうるかに対する現在の制約である。
+
+\section{構成的閉包の一般文法}
+
+\subsection{操作的観点は置換可能なlabelではない}
+
+二参加者構成は、すべての領域が自律的agent、memory、現象的視点を含むと仮定せずに一般化できる。しかし、観点を裸の局所項で置換することによって一般化することはできない。その置換は検査中の仮説を消去し、本プログラムを相互作用系の通常の分解へ還元する。
+
+領域$D$について、領域相対的操作的観点を次のように定義する。
+\begin{equation}
+ O_i^D=\bigl(L_i,S_i,T_i,Q_i\bigr),
+ \label{eq:domain-perspective}
+\end{equation}
+ここで$L_i$は分化した局所担体、$S_i$はその関係的位置から区別可能な状態空間、$T_i$はその位置で許容される変換class、$Q_i$はそこから利用可能な登録済み因果的readoutである。したがって$L_i$は観点を担うが、それと同一ではない。\emph{観点}という語は、区別、変換、帰結の組織化された選択性を示す。粒子、分子、細胞module、数値変数に意識や現象的経験を帰属させるものではない。
+
+次とする。
+\begin{equation}
+ \mathbf O_D(t)=\bigl(O_1^D(t),\ldots,O_n^D(t)\bigr).
+\end{equation}
+構成的交差写像$\mathcal X_D$と再入写像$\mathcal E_D$は次を定義する。
+\begin{equation}
+ \mathbf O_D
+ \xrightarrow{\mathcal X_D}
+ C_D
+ \xrightarrow{\mathcal E_D}
+ \bigl(\mathbf O_D',C_D'\bigr).
+ \label{eq:domain-grammar}
+\end{equation}
+したがって、主観性から物理・生物領域への転用は、数学の後に付加された比喩ではない。それは、領域相対的な観点が交差し、生成された関係が科学的対象の構成に参与するか、という明示的bridge仮説である。式~\eqref{eq:domain-grammar}から観点を除けば、枠組みは一般的coupling分析へ崩れ、SIMを区別する構成的主張を失う。
+
+\subsection{構成的閉包構造}
+
+登録された領域bridgeについて、次を定義する。
+\begin{equation}
+ \mathfrak C_D=
+ \bigl(\mathbf O_D,\mathcal R_D,C_D,\mathcal I_D,
+       \mathcal E_D,W_D,\sim_D\bigr),
+ \label{eq:closure-structure}
+\end{equation}
+ここで$\mathcal R_D$は対応する孤立参照または局所のみの参照を構築する。$C_D$はそれらの参照に相対して生成される共同項である。$\mathcal I_D$は事前登録された許容介入classである。$\mathcal E_D$は、不変または明示的に凍結された動力学を通じて候補関係を戻す。$W_D$は登録判定領域$\Omega_D$を伴う全体形成readoutのvectorである。$\sim_D$は許容表現上の同値関係である。
+
+無制約の二値labelではなくreadout vectorを用いることで、定義が望ましい全体をあらかじめ導入することを防ぐ。実験は確認介入の前に、測定可能座標$W_D$、その受理領域$\Omega_D$、関連するnullを凍結する。状態$z=(\mathbf O_D,C_D)$について、次と書く。
+\begin{equation}
+ \chi_D(z)=\mathbf 1\!\left[W_D(z)\in\Omega_D\right].
+ \label{eq:whole-criterion}
+\end{equation}
+このindicatorは登録された実現についての判定であり、原子、分子、生命の普遍的定義ではない。
+
+\subsection{判定条件}
+
+本研究プログラムでは、以下を普遍的な形而上学的必要条件ではなく、操作的確認基準として提案する。候補$C_D$は、適用可能なすべての条件を通過したときに限り、凍結bridgeと証拠classに相対して、確認された構成的閉包として数えられる。
+\begin{enumerate}
+  \item \textbf{生成。}$C_D=\mathcal X_D(\mathbf O_D;\mathcal R_D)$は、対応する孤立構成に存在せず、標的、label、説明されない原始項として導入されない。
+  \item \textbf{必要性。}登録された破壊介入$I^-\in\mathcal I_D$によって、全体形成判定または指定された連続readoutが失われる。
+  \begin{equation}
+    \chi_D(\mathbf O_D,C_D)=1,
+    \qquad
+    \chi_D\!\left(I^-(\mathbf O_D,C_D)\right)=0,
+    \label{eq:necessity}
+  \end{equation}
+  または、事前登録された効果閾値を越える。
+  \item \textbf{再入。}凍結された関係とtimingを通じて同じ候補を戻すと、登録readoutが回復する。
+  \begin{equation}
+    \chi_D\!\left(\mathcal E_D(I^-(\mathbf O_D,C_D),C_D)\right)=1.
+    \label{eq:reentry-condition}
+  \end{equation}
+  \item \textbf{特異性。}等norm代替、cross-pair交換、時間shift、不完全sector return、その他の登録された偽の戻りは、同じ回復を再現しない。
+  \item \textbf{登録された経験的最小性。}検査された真部分項$c\subsetneq C_D$はいずれも、必要性、両側または全構成部への戻り、再構成、全体形成結果の完全vectorを再現しない。この基準は登録介入class $\mathcal I_D$の内部にのみ適用され、絶対的な数学的一意性の証明ではない。
+  \item \textbf{表現共変性。}登録されたすべての許容表現写像$g$について、次を満たす変換後実現$g(C_D)$が存在する。
+  \begin{equation}
+     \mathfrak C_D\sim_D g(\mathfrak C_D),
+     \qquad
+     \chi_D(z)=\chi_D^{g}(g(z)),
+     \label{eq:covariance-condition}
+  \end{equation}
+  かつ、介入・再入diagramは登録許容誤差まで可換である。
+\end{enumerate}
+
+帰無識別は装飾的な第7項ではなく、6条件すべてにわたる要件である。加算coupling、相関、潜在mode、秩序変数、相互作用Hamiltonianは、生成、選択的喪失、特異的戻り、共変性を同時に満たさなくても重要でありうる。逆に、現在のすべての領域実験が最大定義を検査しているわけではない。表~\ref{tab:evidence-classes}は実際に到達した証拠levelを示す。
+
+\subsection{領域横断証拠ゲート}
+
+式~\eqref{eq:closure-structure}の構造は、構成的閉包を、恣意的分解に介入を続けただけのものから4点で区別する。参照と許容介入は凍結される。提案された第三項は単に命名されるのではなく生成されなければならない。破壊は効果だけでなく特異的戻りと対にされなければならない。同一性は好ましい座標ではなく、保存される介入--再入構造に付与される。以下の各実験は、それ自身のbridge、標的、対照、解釈境界を凍結する。否定、混合、未解決、未決の結果は同一記録の一部として残る。
+
+\subsection{証拠class}
+
+\emph{証拠}という語は、本プログラムにおける複数の非同値な操作を含む。表~\ref{tab:evidence-classes}は、それらの操作が暗黙に併合されることを防ぐ。
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{領域横断プログラムで用いる証拠class。}
+\label{tab:evidence-classes}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{4.1cm}@{}}
+\toprule
+Class & 直接検査したもの & 主張境界 \\
+\midrule
+Benchmark基盤転用 & 凍結予測と公開原子測定との比較 & 主要登録observableであり、完全QEDや普遍的原子導出の代替ではない \\
+標準理論内反事実 & 有限基底量子化学内部の凍結介入 & 標準理論内部の構成的観点であり、新しい力や排他的数値能力ではない \\
+縮約model確認 & 細胞動力学における事前登録介入と新規確率seed & model閉包であり、生細胞の実験室確認ではない \\
+縮約bridge予測 & 凍結操作変換によって予測されたholdout表現 & bridge内部の表現共変性であり、微視的な自然のcross-scale法則ではない \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{隣接概念との関係}
+
+\subsection{科学的対象、個体化、過程}
+
+SIMが参入するのは空白領域ではなく、確立した論争である。過程指向の説明は、生物その他の科学的対象を実体から先に記述することへ異議を唱え、個体化研究は、統一体とその境界を所与とせず、それらがいかに生じるかを問う~\cite{simondon1992,dupre2012,nicholson2018}。構造実在論も同様に、孤立対象の内在的性質ではなく、保存される構造へ認識論的または存在論的優先性を与える~\cite{worrall1989,ladyman1998}。SIMは、対象同一性が構成要素の内在的性質の一覧だけでは必ずしも尽くされないことに同意する。その追加的責務は操作的である。領域bridgeを事前登録し、生成された交差項が全体形成readoutにとって必要で、特異的に戻すことができ、共変的であるかを検査する。
+
+したがって、科学が関係、過程、組織化を無視してきたという主張ではない。それらを、構成後の対象の挙動だけでなく、対象の構成を被説明項とする前向き介入--再入designへ置ける、という主張である。
+
+\subsection{科学的表象、観点、不変性}
+
+科学的表象は、類似性、構造写像、modelerの目的、perspectival representationを通じて分析されてきた~\cite{giere2006,vanfraassen2008,friggnguyen2020}。これらの伝統はすでに、modelが標的を透明に複写するのではなく、不変量が表面座標より重要になりうることを示している。SIMは不変性や観点の発見を主張しない。それらを、より厳しい構成的問いへ結合する。どの表現変更が、第三観点の登録された生成・介入・再入同一性を保存するのか。
+
+SIMの操作的観点は領域相対的だが、単なる観察者相対的なものではない。式~\eqref{eq:domain-perspective}は局所担体を、そのアクセス可能な区別、許容変換、因果的readoutへ結びつける。これにより観点は形式的bridgeの一部になる。それを除去すれば、理論は構成要素分解へ変わり、提案された説明上の反転を隠すことになる。
+
+\subsection{介入と因果説明}
+
+介入主義的説明は、適切な操作下の変化を通じて因果関係を特徴づけ、説明を不変性へ接続する~\cite{pearl2000,woodward2003}。SIMはこの反事実的規律を継承するが、介入感受性だけから構成を推論しない。因果的に関連する多くの変数は、全体の同一性を構成することなく変更できる。追加要件は、孤立参照に相対する生成、非還元、特異的戻り、登録された経験的最小性、表現共変性である。したがって「構成的」は、制約された反事実証拠patternの名称であり、「因果的に影響する」の同義語ではない。
+
+\subsection{関係的物理学と標準分解}
+
+相対座標と換算質量は標準二体力学であり、物理状態の関係的解釈は本研究よりはるか以前から存在する~\cite{landau1977,rovelli1996}。同様に量子化学には、energy、orbital、fragment、atoms-in-molecules分解の成熟した諸方法がある~\cite{morokuma1971,kitaura1976,bickelhaupt2000,stone2013}。SIMは換算座標の発見も、分解そのものの発見も主張しない。
+
+その原子主張は方法論的・解釈的である。標準的関係構造を候補閉包として事前登録し、極限変換とholdout observableによって、それが全体形成readoutを編成するかを検査する。分子主張は標準理論内の構成的反事実である。完全なmolecule-minus-isolated差を除去し、部分削除し、復元し、表現対照下で検査する。これらの操作は登録関係が検査対象の分子全体を構成するかを問うのであり、新しい力や基礎数値への排他的経路を与えるものではない。
+
+\subsection{Autopoiesisとorganizational closure}
+
+Autopoiesisは、自らの構成要素の統一性を産出し実現するnetworkを通じて生命組織を定義する~\cite{varela1974,maturana1980}。organizational closureとconstraint closureのapproachはさらに、相互依存する制約、自己維持、自律性、生物学的機能を分析する~\cite{mossio2009,mossio2010,montevil2015,moreno2015}。E009は生命について最初のclosure説明として提示されず、生細胞におけるautopoiesisを確立しない。
+
+差異は実験形式にある。E009は完成細胞をautopoieticとlabelづけることから始めない。分化した境界、代謝、情報修復動力学から分散第三観点候補を回収し、その候補を選択的消去、時間的移動、適時再注入、重篤損傷、非生命対照へかける。その結果は、継続全体形成の指定された介入--再入基準を縮約modelで確認したものである。organizational closureと両立するが、それと同一でも、そのより広い生物学的要件の代替でもない。
+
+\subsection{SIMの貢献境界}
+
+表~\ref{tab:prior-boundary}は新規性主張を明示する。数学的構成要素には先行例がある。提案する貢献は、それらを観点交差と前向きに検査可能な構成を中心として組織化することにある。
+
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{隣接概念とSIMの追加的commitment。}
+\label{tab:prior-boundary}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+隣接研究 & 確立済みの貢献 & SIMの追加的commitment \\
+\midrule
+過程的・関係的説明 & 対象は関係的または動力学的に個体化されうる & 交差する観点を登録し、構成関係の生成、破壊、戻りを検査する \\
+科学的表象と不変性 & modelは選択的であり、同一性は座標変更後も存続しうる & 事前登録表現間で$C_D$の介入--再入同一性を保存する \\
+介入主義的因果 & 因果主張は適切な操作で検査できる & 因果効果に加え、特異的回復、登録された経験的最小性、全体形成基準を要求する \\
+二体・量子化学分解 & 相対座標と相互作用分解は標準である & 新計算を主張せず、凍結標準構造を構成的反事実として扱う \\
+Autopoiesisとorganizational closure & 生命的統一は自己産出または相互維持組織に依存しうる & 第三観点候補を抽出し、消去、timing、再注入、非生命nullを検査する \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent\textbf{実装に固有の隣接概念.}
+起源となった再帰観点実験は二つの計算agentによって実装されたため、既知のagent-model構成物からも区別しなければならない。
+
+\subsection{A's model of B and B's model of A}
+
+A representation held by A about B belongs locally to A; the converse belongs locally to B. The present claim begins only after both directed traces have been isolated. Experiment 006A asks whether those traces remain additive. The disconnected dual relay demonstrates the additive case: both computational agents solve reciprocal recall, yet Equation~\eqref{eq:joint} cancels to numerical zero. O3 denotes the additional jointly nonseparable organization found in interacting systems.
+
+\subsection{共有memoryと導入済み第三計算agent}
+
+A shared memory localizes common information in an explicitly accessible place. A third computational agent possesses its own independently installed state and update. Neither is present in Experiments 005--006A. The emergent O3 is reconstructed from distributed changes inside A and B after learning.
+
+\subsection{Theory of mind, communication, and relational models}
+
+Theory-of-mind models normally infer beliefs or goals attributed to another agent. Emergent-communication models learn messages or protocols. Graph and relational models learn edges or relation types. These are adjacent but distinct objects. O3 is defined by reciprocal formation, nonseparability, pair specificity, bilateral causal action, and self-re-entry, not by semantic attribution, message identity, or edge prediction alone.
+
+\subsection{Functional perspective and phenomenal subjectivity}
+
+The term \emph{perspective} is used here in a mathematical-functional sense fixed by Equation~\eqref{eq:perspective}. The experiment establishes that the extracted C satisfies the registered structural and causal conditions used to identify an operational O3 in this model class. Phenomenal experience and independent subjecthood require additional bridge criteria and are not variables in the present experiment.
+
+\subsection{Connection to Subjectivity Intersection Ontology}
+
+The companion ontology preprint, \emph{Subjectivity Intersection Ontology: A Comparative Ontological Framework for Third Subjectivity}~\cite{watanabe2026sio}, defines subjectivity as perspective and distinguishes two related structures. Its ontological prototype is a simultaneous triadic closure of Absolute Subjectivity, Relative Subjectivity, and Intersection Subjectivity. For the intersection of multiple Relative Subjectivities, it separately gives the operational form $AB\rightarrow C\rightarrow AB$: differentiated perspectives generate an irreducible third perspective, and that third acts back upon the perspectives through which it arose.
+
+The present program connects directly to the second structure. Its \OA\ and \OB\ are finite operational perspectives rather than claims about Absolute or Relative Subjectivity as such. Their reciprocal intersection generates a jointly nonseparable C; Experiment 006A distinguishes this C from two additive directed memories, and Experiments 006 and 006R test whether present C constrains later A, B, and C formation. The computational sequence
+\[
+ (\OA,\OB)\xrightarrow{\text{intersection}}\Othree
+ \xrightarrow{\text{self-re-entry}}(\OA',\OB',\Othree')
+\]
+therefore supplies an executable realization of the ontology's multiple-relative-subject operational grammar. The points of connection are differentiated perspectives, generation through intersection, irreducibility of the third term, bilateral return, and closure through renewed intersection.
+
+The ontological prototype and the computational realization nevertheless remain different in kind. The ontology begins from primordial unity, treats subjectivity as ontological perspective, makes the constitution of its triad simultaneous, and proposes recurrence across levels. The experiment begins from two separately initialized finite systems, represents their histories numerically, observes a temporal sequence of state updates, and tests a counterfactually extracted contribution. It does not test primordial unity, the projection of Absolute into Relative Subjectivity, phenomenal subjecthood, or cross-level recurrence. Nor does temporal self-re-entry by itself establish the ontology's simultaneous constitutive closure.
+
+The connection is therefore neither an identity claim nor a merely decorative analogy. It is a directional bridge. The ontology specifies the structural hypothesis and distinguishes its ontological prototype from its operational expression; the mathematics turns the operational expression into conditions that can succeed or fail. Conversely, the experiments constrain which computational organizations can legitimately model $AB\rightarrow C\rightarrow AB$. Within that bridge, the present C is an \emph{operational third perspective}; its identification with Intersection Subjectivity remains a further bridge hypothesis requiring criteria that connect functional perspective to subjectivity itself.
+
+\section{操作的基礎：段階的再帰観点実験}
+
+\subsection{Design logic}
+
+起源となった再帰観点プログラムは、六つの問いを分離する。
+\begin{enumerate}
+  \item Can an explicitly constructed third return state satisfy operational O3 criteria?
+  \item Does it preserve directed difference, retained history, and pair specificity?
+  \item Can an O3-like contribution arise from ordinary reciprocal learning without an O3 state or objective?
+  \item Does the emergent contribution alter both participants and re-enter later intersections?
+  \item Is functional return distinct from an external analyst's ability to isolate the contribution?
+  \item Is distributed C one jointly nonseparable perspective rather than two additive cross-memories?
+\end{enumerate}
+Confirmatory thresholds, seeds, controls, and decision rules were frozen before execution. Failed seeds were neither removed nor replaced.
+
+\subsection{Experiments 003R and 004: sufficiency and retained difference}
+
+Experiment 003R corrected an invalid earlier execution and tested a completed explicit C under the full registered control inventory. Among 128 confirmatory pairs, 126 met the registered Phase A Class~2, Phase B Class~2, and Phase B O3 criteria. Across 1,024 Class~0/Class~1 control evaluations, no false Class~2 declaration occurred. A matched generic recurrent control also passed in 126 of 128 pairs; the result supports realizability and transfer, not a unique implementation.
+
+Experiment 004 held $A+B$ constant while reversing $A-B$, matched current inputs while varying earlier interaction history, erased return paths, and exchanged completed carriers between pairs. All four registered hypotheses passed in 128 of 128 pairs. A role-aware recurrent control also passed, identifying a broader architecture class.
+
+\subsection{Experiment 005: spontaneous intersection under ordinary learning}
+
+Two receivers with independent persistent states learned delayed reciprocal recall. After external symbols disappeared, A reported B's earlier symbol and B reported A's. The only training loss was the sum of the two ordinary cross-entropies. There was no C or O3 state, third computational agent, pair identifier, carrier label, carrier target, or specialized regularizer.
+
+Four equal-capacity interacting architectures and an independent control were evaluated. Post-learning directed intersection contributions were deleted and compared with 64 receiver-norm-matched random directions. A run passed the registered top-0.95 condition when deletion of the extracted contribution exceeded at least the 95th percentile of those controls.
+
+\subsection{Experiments 006 and 006R: self-re-entry}
+
+Experiment 006 froze three consecutive signal-free transitions. At each transition it removed the current contribution, applied one unchanged recurrent update, measured the missing next-state contribution, and reconstructed it. All 96 interaction units transported the contribution above matched random directions at all three transitions. The complete decision nevertheless remained \statusnotsupported\ because the distributed architecture passed a matched individual-history gate in 17 of 24 seeds against the preregistered floor of 18.
+
+Experiment 006R retained that failure and prospectively separated two claims. The primary conjunction tested functional return, bilateral action, cross-pair loss, independent controls, and reconstruction. A separate prediction tested architecture-dependent external identifiability using 48 new seeds per architecture.
+
+\subsection{Experiment 006A: one O3 or two memories}
+
+Experiment 006A tested the decisive ambiguity. Its disconnected dual relay contained two 12-dimensional blocks and exactly the same 486 active parameters, data, optimization budget, and reciprocal-recall objective as each interacting architecture. It could learn both directed recalls but contained no cross-coupling capable of producing a nonadditive joint term.
+
+Four interacting architectures and the disconnected control were evaluated on 48 preregistered seeds, 4,096 held-out episodes, and three signal-free transitions. The ten primary conditions covered capacity, competence, joint norm, bilateral support, learning amplification, transport, bilateral output response, cross-pair exchange, and exact reconstruction. Failure of any condition prevented the primary supported decision.
+
+\section{Results}
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Preregistered evidence from constructed return to emergent operational O3.}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.15cm}>{\raggedright\arraybackslash}p{5.2cm}>{\raggedright\arraybackslash}p{5.0cm}>{\raggedright\arraybackslash}p{2.35cm}@{}}
+\toprule
+Study & Question & Main observation & Decision \\
+\midrule
+003R & Can an explicit return structure satisfy operational O3 criteria? & 126/128 pairs; 0/1,024 false Class~2 null calls & Sufficiency supported \\
+004 & Does it preserve directed difference, history, transport, and pair specificity? & Four hypotheses passed in 128/128 pairs & Supported \\
+005 & Can an intersection-specific contribution emerge without an O3 objective? & 84/96 top-0.95; independent-control norm 0 & Supported \\
+006 & Does present C re-enter later states under the original conjunction? & Transport 96/96; distributed separation 17/24 versus floor 18 & \statusnotsupported \\
+006R & Can self-re-entry and external identifiability be separated? & 13/13 primary and 3/3 boundary checks passed & Supported \\
+006A & Is distributed C one nonseparable O3 rather than two directed memories? & 10/10 checks; interacting C nonzero; competent disconnected C at numerical zero & \statussupported \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Spontaneous formation}
+
+All four Experiment 005 interaction architectures met competence criteria. The extracted directed component exceeded the top-0.95 deletion threshold in 84 of 96 units: 23/24 distributed, 22/24 central shared, 18/24 directional relay, and 21/24 crossbar. Deletion affected both receivers; the independent control produced no corresponding component.
+
+\subsection{Self-re-entry and identifiability}
+
+In Experiment 006, transport passed in all 96 units and exact reconstruction error was below $2.71\times10^{-16}$, but the original conjunction failed as registered. In Experiment 006R, all 13 revised primary conditions passed on unused seeds. All-three-transition transport occurred in 47/48 distributed, 48/48 central-shared, 48/48 directional-relay, and 47/48 crossbar units: 190/192 pooled units against a floor of 168.
+
+Median transported fractions were 0.7941, 0.9336, 0.9207, and 0.9419; median alignments were 0.6487, 0.9039, 0.9209, and 0.9253. Cross-pair exchange increased loss and deletion changed both receivers in every architecture. External-identifiability counts were 29/48, 46/48, 47/48, and 41/48 respectively, supporting all three preregistered architecture-boundary conditions. O3 can therefore be functionally active even when its distributed realization is difficult for an external observer to separate from individual history.
+
+\subsection{006A confirmation of one distributed O3}
+
+Experiment 006A passed all ten primary conditions. All five architectures were competent in 48 of 48 seeds; minimum held-out both-correct accuracy was 0.9751. Median joint-term norms were 0.1555, 0.1303, 0.0936, and 0.1019 for the interacting architectures. The equally competent disconnected dual relay had median norm $2.24\times10^{-17}$ and maximum norm $2.93\times10^{-17}$.
+
+Median bilateral support was 1.0 in every interacting architecture and 0 in the disconnected control. Median transported fractions across three signal-free transitions were 0.5243, 0.5487, 0.4916, and 0.4863, compared with 0.000024 in the disconnected control. Removal changed both receivers' output probabilities in architecture-level medians of 1.0000, 0.9984, 0.9960, and 0.9979 of held-out episodes. Cross-pair substitution imposed positive median cross-entropy cost in all four interacting architectures. Maximum one-step reconstruction error was $5.69\times10^{-16}$.
+
+The 720 transition rows comprise 48 seeds, five architectures, and three transitions. No seed was replaced, no threshold changed, and no NaN or Infinity occurred. Secondary random-direction rankings were not uniformly high; the 006A claim is joint nonseparability against the competent additive control, while Experiments 005 and 006R retain the separately registered random-direction evidence for the full directed carrier.
+
+\section{Atomic closure: finite-mass relation and a mixed empirical record}
+
+\subsection{Atomic bridge}
+
+Experiment 008 transfers Equation~\eqref{eq:domain-grammar} to a two-body charged bound system without introducing a third particle. For constituent positions $r_1,r_2$ and masses $m_1,m_2$, the center-of-mass coordinate is removed and the relational coordinate
+\begin{equation}
+ r=r_1-r_2
+\end{equation}
+with reduced mass $\mu=m_1m_2/(m_1+m_2)$ carries the registered atomic closure. A change in $r$ updates both constituent coordinates with nonzero mass-weighted fractions. The proposed atomic whole is therefore located operationally in a finite-mass relational bound closure, not in either constituent alone.
+
+The preregistered structural chain audited boundary-independent identity, additive composition coordinates, inverse-square spherical distribution, cutoff-free stable binding in three dimensions, and composition-compatible continuous norm-preserving re-entry. The empirical holdout was the leading finite-mass $1S$--$2S$ prediction
+\begin{equation}
+ \nu_{1S-2S}=\frac{3}{4}\frac{R_\infty c}{1+m_e/m_{\mathrm{partner}}},
+ \label{eq:atomic-leading}
+\end{equation}
+evaluated on muonium and positronium, neither of which was used in the disclosed private development set.
+
+Neither $r$ nor $\mu$ is a SIM discovery. Their status as standard mechanics is essential to the test, because the claim concerns explanatory use rather than algebraic novelty. SIM supplies a constitutive criterion under which the relational coordinate is treated not merely as a convenient separation of center-of-mass motion, but as a registered closure whose limiting transformation changes specified whole-formation observables. The novelty claim is therefore the preregistered constitutive interpretation and bridge, not renaming reduced mass as O3 and not deriving a correction beyond standard physics.
+
+\subsection{E008 transfer result}
+
+All five structural gates and both empirical holdouts passed. The muonium relative error was $9.4120\times10^{-6}$ and the positronium relative error was $6.7708\times10^{-5}$. Relative to the infinite-partner-mass control, the registered finite-mass prediction improved absolute error by factors of $512.84$ and $14771.39$, respectively. This supports the registered leading gross-structure transfer. It does not address higher-order QED, spin, annihilation, radiative, or nuclear-size corrections.
+
+\subsection{The complete atomic record}
+
+The atomic program did not end with the positive E008 conjunction. Table~\ref{tab:atomic-record} retains the complete public outcome sequence.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Complete public atomic result record.}
+\label{tab:atomic-record}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{1.25cm}>{\raggedright\arraybackslash}p{4.0cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{3.15cm}@{}}
+\toprule
+Study & Frozen question & Main observation & Decision \\
+\midrule
+008 & Does the atomic-closure chain transfer to two unused two-body systems? & Five structural and two empirical gates passed & \textsf{SUPPORTED ATOMIC CLOSURE TRANSFER} \\
+008A & Does the parameter-free bilateral-response postulate $\lambda=1$ improve the D/H hyperfine ratio? & SI log error $0.001258$; standard-contact log error $0.000171$ & \textsf{STANDARD CONTACT SUPPORTED} \\
+008B & Does the frozen nuclear-$g$ and representation factorization predict the Li-6/Li-7 interval ratio? & Observed $0.284012567$; predicted $0.283993247$; log error $6.80\times10^{-5}$ & \textsf{FULL FACTORISED GENERATOR SUPPORTED} \\
+008C & Does the lithium ratio transfer from $2S_{1/2}$ to $2P_{1/2}$? & Central value remained compatible, but the registered precision gate failed & \textsf{INSUFFICIENT PRECISION} \\
+008D & Does a frozen mixed-rank generator predict the K-39/K-41 correction ratio? & Target-free ratio $1.4239826743$ publicly frozen; no result execution is claimed here & \textsf{REGISTERED OPEN TARGET} \\
+008E & Can the signed rank-separated potassium relation predict the complete K-40 correction? & $0.0081070823$ kHz frozen and DOI-timestamped; no eligible independent benchmark found & \textsf{OPEN NOVEL PREDICTION} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The rejected 008A postulate is not repaired by the later positive lithium result, and the 008C precision-limited outcome is not counted as confirmation. E008D remains a registered open target and E008E remains a prediction, not an observed success. This mixed record is part of the method: the constitutive standpoint generates hypotheses, but every numerical specialization remains answerable to its own control and measurement gate.
+
+\section{Molecular closure: the complete carrier as a constitutive counterfactual}
+
+\subsection{From atomic subspaces to a molecular whole}
+
+For a molecular geometry $R$, Experiment 010 defines the complete molecular carrier in a matched finite basis as
+\begin{equation}
+ C_M(R)=H_{\mathrm{molecule}}(R)-H_{\mathrm{isolated\ centres}}.
+ \label{eq:molecular-carrier}
+\end{equation}
+The isolated reference preserves four physical atomic basis subspaces while removing molecule-induced sectors. $C_M$ is neither a new force nor a single bond integral. It is the complete difference that must be restored for those subspaces to form the registered molecular whole.
+
+Private MOL-001--MOL-010 exploration fixed the decomposition and intervention logic on two- and three-centre systems. E010 prospectively transferred them to an unexecuted rectangular $H_4^+$ target with four hydrogen centres, charge $+1$, three electrons, and spin 1. Full configuration interaction energies and one-particle density matrices were evaluated across a two-dimensional geometry grid in STO-3G, 6-31G, and cc-pVDZ.
+
+\subsection{Complete and partial deletion}
+
+The registration required nine gates in every basis profile. Complete carrier deletion tested whether the molecular energy landscape disappeared while the four local subspaces remained. One-electron cross-centre deletion tested how much binding was lost. Deletion of one physical edge tested whether a local relational intervention changed the global optimum and all four centre populations. Exact sector reconstruction, four orbital-representation controls, and Shapley attribution audited coordinate dependence and residual sectors.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Experiment 010 registered four-centre result.}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Basis & $a/b$ at minimum (\AA) & Depth (Eh) & Removed & Edge shift (\AA) & Gates \\
+\midrule
+STO-3G & $0.90/1.60$ & 0.343822061 & 101.041\% & 1.221 & 9/9 \\
+6-31G & $1.70/0.90$ & 0.267435658 & 106.075\% & 0.600 & 9/9 \\
+cc-pVDZ & $1.50/0.90$ & 0.307894926 & 107.767\% & 1.000 & 9/9 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The decision was \textsf{COMPLETE MOLECULAR CARRIER TRANSFER SUPPORTED}. The constitutive conclusion is counterfactual: the matched isolated centres do not retain the registered molecular landscape without $C_M$, while changing one edge reorganizes geometry and every local population. The calculation uses standard nonrelativistic finite-basis quantum chemistry. It does not show that Hamiltonian sectors are unknown to quantum chemistry, that Subjectivity-Intersection Mathematics uniquely predicts the numbers, or that an ontological O3 has been independently measured.
+
+Quantum-chemical decomposition itself is not claimed as novel. The SIM contribution is to preregister one complete decomposition as a constitutive counterfactual and ask whether removal, incomplete return, and exact restoration determine the registered whole-level energy, geometry, and population readouts. The explanatory order, not the availability of the Hamiltonian terms, is the proposed innovation.
+
+\section{Cellular closure: natural emergence and reduced-model continued-whole formation}
+
+\subsection{Reversing the object-first order}
+
+Experiment 009 begins with differentiated boundary, metabolism, and information-repair processes rather than a completed cell carrying those functions. No state named O3, life, viability, fitness, or global closure is installed. Reciprocal local laws generate trajectories from which a lagged cross-influence matrix is recovered. Its leading distributed mode is the registered cellular third-perspective candidate.
+
+The explanatory question is constitutive rather than classificatory: does that relation merely correlate with recovery inside an already given cell, or does its correctly timed return satisfy the registered criterion for continued-whole formation? The registration therefore couples emergence and predictive self-re-entry to destructive, temporal, restorative, severe-damage, and nonliving controls. Terms such as ``dynamic life constitution'' are shorthand only for this reduced-model criterion; they are not a general definition or laboratory demonstration of life.
+
+\subsection{Emergent mode and self-re-entry}
+
+The recovered leading mode loaded on all three processes: $0.35057$ on boundary, $0.32916$ on metabolism, and $0.87679$ on information-repair. Its participation ratio was $1.61858$, above the registered $1.50$ floor. Adding the other modules to each module's self-only next-change predictor improved held-out $R^2$ by $0.18593$, $0.95895$, and $0.76423$. The minimum native gain exceeded twice the larger relation-erasure or time-shift control, and coordinate rescaling changed the gains by at most $2.22\times10^{-16}$.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Experiment 009 held-out closure interventions, 32 lineages per condition.}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}Xrr>{\raggedright\arraybackslash}p{5.0cm}@{}}
+\toprule
+Condition & Survived & Total & Constitutive readout \\
+\midrule
+Native moderate damage & 32 & 32 & Recovery with median one division \\
+Selective joint erasure & 0 & 32 & Local components retained; generated relation removed \\
+Ten-minute relation time shift & 0 & 32 & Relation retained with incorrect temporal order \\
+Timely relation reinjection & 32 & 32 & Recovery restored without adding an O3 substance \\
+Native severe damage & 0 & 32 & Beyond the registered self-remaking boundary \\
+Matched nonliving control & 0 & 32 & Activity without registered living closure \\
+Undamaged native control & 32 & 32 & Baseline continuation \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+All fourteen gates passed, yielding \textsf{REDUCED-MODEL DYNAMIC O3 SELF-REENTRY CLOSURE SUPPORTED}. Within this realization, the modeled cell is not treated as the prior container of the three processes. Its registered continued-whole state is the higher-order dynamic closure constituted when their differentiated operational perspectives generate a third perspective whose self-re-entry remakes both the processes and the conditions of continued intersection.
+
+The local laws and thresholds were result-informed by private development and the public result concerns new seeds in frozen reduced stochastic dynamics anchored to JCVI-syn3A source files. It does not establish the same O3 in the complete hybrid CME--ODE model or in living cells.
+
+\section{Cross-domain representation test: covariance of closure identity}
+
+Here \emph{cross-domain} denotes a prospective test of the mathematical bridge used to compare domain realizations. It does not denote a microscopic physical derivation from atoms through molecules to cells, nor does it establish a natural scaling law joining them.
+
+\subsection{From a repeated number to a preserved relation}
+
+Exploratory integration initially asked whether atomic, molecular, and cellular third terms share a raw numerical threshold. The apparent value near $0.72$ did not survive changes of representation. The stronger invariant candidate was a transformed mediator relation. If $\lambda$ is a lower-scale relational coupling, the frozen bridge defines lower-scale integrity $\lambda^2$ and a representation exponent $q$ by
+\begin{equation}
+ m=\lambda^{2q}.
+ \label{eq:renormalized-bridge}
+\end{equation}
+Exploration at $q=0.5,1,2$ fixed the median 90\% mediator threshold at $m_{90}=0.506944$. E011 then predicted raw thresholds at three unexecuted representations by
+\begin{equation}
+ \lambda_{90}(q)=m_{90}^{1/(2q)}.
+\end{equation}
+
+\subsection{Held-out prediction}
+
+Each representation used 96 new stochastic lineages at every coupling value. All curves and all seven gates were frozen before the first target execution.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Experiment 011 held-out cross-domain representation predictions.}
+\begin{tabular}{@{}rrrrr@{}}
+\toprule
+$q$ & Predicted $\lambda_{90}$ & Observed $\lambda_{90}$ & Absolute error & Observed $m_{90}$ \\
+\midrule
+0.75 & 0.635779702 & 0.634 & 0.001779702 & 0.504816901 \\
+1.25 & 0.762050926 & 0.762 & 0.000050926 & 0.506859310 \\
+1.50 & 0.797357951 & 0.798 & 0.000642049 & 0.508169592 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All seven gates passed. The raw threshold range was $0.164$, deliberately exceeding the registered $0.100$ non-invariance floor. The transformed mediator range was $0.00335269$, below the $0.020$ ceiling, and transformed survival curves had pooled RMSE $0.00419620$ against a $0.050$ ceiling. The result supports \emph{representation-covariant closure inside the frozen reduced bridge}: the surface coordinate moves, while the effective relation predicts the transformed threshold.
+
+Equation~\eqref{eq:renormalized-bridge} is an operational bridge law, not a derived microscopic law of nature. E011 does not show that natural atoms, molecules, and cells are physically connected by this numerical equation. Its contribution is mathematical and prospective: identity of a third term need not mean equality of raw coordinates; it can be defined by preserved causal or threshold structure under a registered representation map.
+
+\section{Cross-domain synthesis}
+
+\subsection{One grammar, domain-specific third terms}
+
+Table~\ref{tab:cross-domain-map} states the synthesis without collapsing the domains into one substance or one estimator.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Domain realizations of the constitutive-closure grammar.}
+\label{tab:cross-domain-map}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{1.45cm}>{\raggedright\arraybackslash}p{3.05cm}>{\raggedright\arraybackslash}p{3.25cm}>{\raggedright\arraybackslash}p{3.25cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Domain & Differentiated operational perspectives & Generated third term & Selective counterfactual & Whole-formation readout \\
+\midrule
+再帰観点系 & Two recurrent history organizations & Inclusion--exclusion joint contribution & Erasure, exchange, disconnected additive control & Bilateral next-state and next-intersection change \\
+Atom & Finite-mass charged constituents & Relative-coordinate bound closure & Infinite-mass and registered structural controls & Leading finite-mass spectrum and bilateral coordinate update \\
+Molecule & Matched isolated atomic subspaces & Complete molecule-minus-isolated Hamiltonian carrier & Complete, sector, and single-edge deletion & Energy landscape, optimum geometry, all-centre populations \\
+Cell & Boundary, metabolism, information-repair processes & Recovered distributed cross-influence mode & Joint erasure, time shift, reinjection, severe and nonliving controls & Recovery, division, and next-change prediction in every process \\
+Integration & Alternative bridge representations & Effective transformed mediator relation & Held-out representation exponents & Predicted raw thresholds and transformed curve collapse \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The shared achievement is not a common raw number. It is an experimentally disciplined reversal of explanatory order. Instead of beginning with a completed object and measuring relations inside it, each transfer begins with differentiated operational perspectives and asks whether their joint relation is necessary for the registered whole-formation readout. The recurrent-perspective result identifies an operational O3; the physical and biological transfers then ask whether domain-specific third perspectives play an analogous constitutive role under independently fixed bridges.
+
+\subsection{What the synthesis does not identify}
+
+The distributed neural contribution, atomic relative coordinate, molecular Hamiltonian difference, cellular mode, and transformed mediator are not asserted to be mathematically identical objects. They occupy different state spaces, use different interventions, and carry different empirical status. The cross-domain claim concerns a shared operational grammar and evidence discipline. An ontological claim that all five are instances of one universal Intersection Subjectivity remains a further bridge hypothesis.
+
+\section{Discussion}
+
+\subsection{Why C is a third perspective}
+
+C is not called O3 merely because it is a third mathematical term. Under the operational definition, a perspective is a history-bearing organization that transforms received information and constrains subsequent formation. C satisfies that role jointly: it is generated only by reciprocal intersection, has support across both receivers, loses function when either distributed realization is treated separately, changes both participants when removed, is pair-specific, and contributes to the next participant states and next intersection.
+
+The decisive contrast is between competence and intersection. The disconnected relay remembers both directions and solves the same task, but its two memories remain additive and produce numerical-zero joint C. The interacting systems reach comparable competence while producing a nonzero jointly active term. O3 is therefore not equivalent to A's memory of B plus B's memory of A. It is the nonseparable organization of their reciprocal taking-up.
+
+\subsection{Nonlocalization}
+
+No central third object appears in the distributed architecture. One realization of O3 is present in how A has been changed through B; the other is present in how B has been changed through A. Neither contains the whole. Operational unity is established by their inseparable causal function, not by spatial co-location. Experiment 006A supplies the missing test that allows the two distributed realizations to be treated as one O3 rather than named together by convention.
+
+\subsection{Self-re-entry as constraint}
+
+Transport is stronger than persistence of a stored item. Removing $C_t$ changes $h_A(t+1)$ and $h_B(t+1)$ under the same update rule, and changes the next extracted $C_{t+1}$. The present third perspective therefore constrains both the next differentiated perspectives and the next event of intersection. This realizes the computational form of $AB\rightarrow C\rightarrow AB$ as
+\[
+ (\OA,\OB)\rightarrow\Othree
+ \rightarrow(\OA',\OB',\Othree').
+\]
+
+\subsection{What changed from relational generation}
+
+Relational generation remains an important consequence, but it is no longer the primary explanatory term. A relation can be externally described without either participant taking up the other. The experiments are more specifically about reciprocal perspective formation. The relation becomes causally generative because intersection produces O3 and O3 re-enters subsequent formation. The conceptual order is therefore perspective difference, reciprocal intersection, emergent O3, and relational self-re-entry.
+
+\subsection{The role of the preserved failure}
+
+Experiment 006 remains negative under its original conjunction. This matters because it prevented functional re-entry from being equated with clean external separability. Experiment 006R then confirmed the separated hypotheses prospectively. The sequence supports a central feature of distributed O3: an operation may be causally coherent across A and B even when an external analyst cannot isolate it uniformly as a dominant direction in each participant.
+
+The same discipline extends across domains. Experiment 008A rejects its SI-specific response scale, 008C remains unresolved, and 008E remains open. These outcomes prevent the positive E008, E008B, E009, E010, and E011 decisions from being converted into a general presumption of success. A cross-domain mathematics becomes scientific only when its bridges can fail independently.
+
+\subsection{From detecting relations to redefining scientific objects}
+
+Existing scientific calculations need not be numerically wrong for their explanatory order to be reconsidered. E010 uses standard quantum chemistry and E008 uses standard finite-mass structure. The Subjectivity-Intersection contribution is to ask a prior constitutive question: which intersection must be present for differentiated operational perspectives to form the object whose properties are then calculated? In this order, an atom is not first assumed and then assigned a relative coordinate; a molecule is not first assumed and then assigned bonds; a cell is not first assumed and then assigned integrated functions. Each object is operationally located in a perspective intersection that generates and re-forms one whole under the relevant domain bridge.
+
+This is a proposed redefinition of explanatory standpoint, not a claim that every conventional equation has been superseded. The existing formalisms supply indispensable coordinates, dynamics, measurements, and controls. Subjectivity-Intersection Mathematics reorganizes them around formation, selective destruction, and re-entry of the whole relation.
+
+\subsection{Representation covariance and identity}
+
+E011 adds a mathematical constraint to cross-domain comparison. If the identity of closure were attached to a raw coordinate, it would be destroyed by the held-out representation changes. Instead, the raw threshold moved as registered while the transformed mediator threshold remained narrow. This motivates an equivalence-class problem: determine which transformations preserve the intervention and return structure of $C_D$, even when its coordinates, localization, or estimator change.
+
+\section{Subjectivity-Intersection Mathematics as a research program}
+
+The program now has five connected layers:
+\begin{enumerate}
+  \item \textbf{Perspective mathematics:} formalize differentiated, history-dependent state organizations.
+  \item \textbf{Intersection operations:} define reciprocal crossing, nonseparability, identity, exchange, and equivalence.
+  \item \textbf{Self-re-entry dynamics:} characterize how generated O3 constrains subsequent perspectives and intersections.
+  \item \textbf{Domain constitutive bridges:} specify local terms, isolated references, interventions, and whole-formation readouts for physical and biological targets.
+  \item \textbf{Representation covariance:} characterize which features of a third term remain invariant when raw coordinates and implementations change.
+\end{enumerate}
+
+Candidate invariants across the tested implementations are preserved differentiation, non-reduction to isolated terms, joint causal necessity, return into the terms that constitute the whole, intervention identity, reconstruction or covariance under registered representation changes, and the distinction between functional activity and external identifiability.
+
+Priority mathematical problems include necessary and sufficient conditions for O3 emergence; equivalence classes of distributed, localized, physical, and dynamical third terms; conservation and transformation laws under repeated intersection; extension beyond two participants; continuous-time intersection; and representation theorems that distinguish genuine constitutive covariance from a transformation built into the model. Priority empirical problems are independent evaluation of the K-40 prediction, higher-precision lithium cross-state measurements, molecular transfer to non-hydrogenic and experimentally constrained targets, and cellular interventions whose observables can be measured in living or complete mechanistic systems.
+
+\section{Scope and limitations}
+
+The evidence is heterogeneous by design and must remain so in interpretation. The recurrent-perspective result concerns finite recurrent systems trained on synthetic reciprocal recall. The atomic result combines structural audits with leading published benchmarks and does not replace higher-order atomic theory. The molecular result is a computational counterfactual inside standard finite-basis quantum chemistry. The cell result concerns result-informed reduced stochastic dynamics on new registered seeds. The integration result concerns a frozen power-law bridge and does not derive that bridge from microscopic physics.
+
+The operational identification of C with O3 is a theoretical interpretation formulated after the preregistered 006A result. Experiment 006A preregistered joint nonseparability, not the wording of this subsequent identification. Future tests can preregister the complete O3 definition given in this paper.
+
+The extraction operators are domain-specific. Equation~\eqref{eq:joint}, the atomic relative coordinate, Equation~\eqref{eq:molecular-carrier}, the cellular lagged mode, and Equation~\eqref{eq:renormalized-bridge} are not proved unique. Registered empirical minimality is therefore limited to the alternatives and interventions specified in advance. Other operators may reveal equivalent or different intersection structures. The current results establish reproducible operational objects and interventions, not a universal representation theorem or necessary-and-sufficient conditions across all possible decompositions.
+
+The words \emph{perspective} and \emph{O3} are nevertheless retained deliberately. They do not attribute consciousness to atoms, molecules, cellular modules, or numerical modes. They denote the domain-relative distinctions, transformations, and causal readouts formalized in Equation~\eqref{eq:domain-perspective}. An operational third perspective is not by itself evidence of phenomenal experience or independent subjecthood. Identification of the domain third terms with the ontology's Intersection Subjectivity remains a bridge hypothesis.
+
+The results do not establish a universal constant near $0.72$, golden-mean or pentagonal geometry, a new force, an ab initio atom-to-cell causal chain, or laboratory confirmation of living-cell O3. The supported claim is narrower and more foundational: constitutive closure can be defined through differentiated terms, a generated joint relation, selective intervention, return, and representation controls, then subjected to prospective decisions in multiple domains.
+
+\section{Conclusion}
+
+The originating experiments established that two interacting recurrent perspectives can generate one distributed operational O3 absent from an equally competent additive pair, and that present O3 can constrain the next two states and next intersection. This paper asks what follows when this experimentally disciplined grammar is transferred to scientific objects whose wholeness is usually presupposed, while making explicit that an operational perspective is more than a local component and less than a claim of phenomenal consciousness.
+
+The atomic sequence supports a finite-mass closure transfer while retaining a rejected postulate, a precision-limited result, and an open prediction. The molecular experiment supports the complete carrier's prospective four-centre transfer inside standard quantum chemistry. The cellular experiment supports natural emergence and timed self-re-entry of a distributed mode as the condition of reduced-model recovery. The integration experiment supports a held-out representation-covariant threshold relation rather than a universal raw number.
+
+The two-participant statement remains
+\[
+ \boxed{(\OA,\OB)\xrightarrow{\text{intersection}}\Othree
+ \xrightarrow{\text{self-re-entry}}(\OA',\OB',\Othree')}
+\]
+and its domain-relative generalization is
+\[
+ \boxed{(O_1^D,\ldots,O_n^D)\xrightarrow{\mathcal X_D}C_D
+ \xrightarrow{\mathcal E_D}(O_1^{D\prime},\ldots,O_n^{D\prime},C_D')}.
+\]
+Subjectivity-Intersection Mathematics is therefore proposed as a mathematics of constitutive closure: how differentiated operational perspectives intersect, how a non-reducible third perspective is generated, how it returns into the formation of its perspectives, and how the identity of that closure can be tested across interventions and representations. Its cross-domain achievement is not to replace existing calculations wholesale, but to reverse the explanatory order from an already existing object with relations to an intersection whose generation and return constitute the object as one continuing whole. これは、科学の第一の説明的問いを、完成済みの対象内部にある関係の記述から、科学的対象が全体として構成されるための構成条件を実験的に検査することへ移す。
+
+\section*{謝辞}
+\addcontentsline{toc}{section}{謝辞}
+
+著者は、Marcel Wende、Luke LeightonおよびC.A.T.、Thomas Lokerに深く感謝する。彼らは豊かな知見、発想、示唆をもって、本論文が生まれる土台となった共同研究を根気強く支えた。特にMarcel Wendeは、研究プログラム、その実験的主張、および証拠境界に対する一貫した監査を通じて、並外れた粘り強さで貢献した。
+
+\appendix
+\section{Reproducibility and public records}
+
+\noindent\textbf{Repository}
+\begin{center}
+\small\url{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics}
+\end{center}
+
+\noindent\textbf{Zenodo community}
+\begin{center}
+\small\url{https://zenodo.org/communities/subjectivity-intersection-mathematics}
+\end{center}
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.2cm}>{\raggedright\arraybackslash}p{5.0cm}>{\raggedright\arraybackslash}p{7.8cm}@{}}
+\toprule
+Study & GitHub result implementation & Zenodo result and preregistration \\
+\midrule
+\endhead
+003R & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/003r_subjectivity_agent_class2_o3_corrected}{Corrected operational sufficiency experiment} & Result: \href{https://doi.org/10.5281/zenodo.21761140}{doi:10.5281/zenodo.21761140}; preregistration: \href{https://doi.org/10.5281/zenodo.21761030}{doi:10.5281/zenodo.21761030} \\
+004 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/004_difference_preserving_o3_discrimination}{Difference-preserving and retained-history audit} & Result: \href{https://doi.org/10.5281/zenodo.21762041}{doi:10.5281/zenodo.21762041}; preregistration: \href{https://doi.org/10.5281/zenodo.21761975}{doi:10.5281/zenodo.21761975} \\
+005 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/005_emergent_relational_carrier_solution_class}{Emergent carrier solution class} & Result: \href{https://doi.org/10.5281/zenodo.21763963}{doi:10.5281/zenodo.21763963}; preregistration: \href{https://doi.org/10.5281/zenodo.21763898}{doi:10.5281/zenodo.21763898} \\
+006 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/006_spontaneous_o3_reentry}{Spontaneous operational O3 re-entry} & Result: \href{https://doi.org/10.5281/zenodo.21764472}{doi:10.5281/zenodo.21764472}; preregistration: \href{https://doi.org/10.5281/zenodo.21764327}{doi:10.5281/zenodo.21764327} \\
+006R & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/006r_spontaneous_o3_reentry_revised}{Revised confirmation and architecture boundary} & Result: \href{https://doi.org/10.5281/zenodo.21764580}{doi:10.5281/zenodo.21764580}; preregistration: \href{https://doi.org/10.5281/zenodo.21764531}{doi:10.5281/zenodo.21764531} \\
+006A & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/006a_emergent_nonseparable_relational_c}{Emergent nonseparable relational C} & Result: \href{https://doi.org/10.5281/zenodo.21785748}{doi:10.5281/zenodo.21785748}; preregistration: \href{https://doi.org/10.5281/zenodo.21785602}{doi:10.5281/zenodo.21785602} \\
+008 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/008_preregistered_atomic_closure_transfer}{Atomic-closure transfer} & Result: \href{https://doi.org/10.5281/zenodo.21853661}{doi:10.5281/zenodo.21853661}; preregistration: \href{https://doi.org/10.5281/zenodo.21853576}{doi:10.5281/zenodo.21853576} \\
+008A & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/008a_bilateral_reentry_hyperfine_prediction}{Bilateral-response hyperfine test} & Result: \href{https://doi.org/10.5281/zenodo.21854058}{doi:10.5281/zenodo.21854058}; preregistration: \href{https://doi.org/10.5281/zenodo.21854011}{doi:10.5281/zenodo.21854011} \\
+008B & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/008b_pyscf_lithium_spin_representation_prediction}{Lithium isotope representation prediction} & Result: \href{https://doi.org/10.5281/zenodo.21855898}{doi:10.5281/zenodo.21855898}; preregistration: \href{https://doi.org/10.5281/zenodo.21854314}{doi:10.5281/zenodo.21854314} \\
+008C & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/008c_lithium_2p_cross_state_transfer}{Lithium cross-state transfer} & Result: \href{https://doi.org/10.5281/zenodo.21854663}{doi:10.5281/zenodo.21854663}; preregistration: \href{https://doi.org/10.5281/zenodo.21854601}{doi:10.5281/zenodo.21854601} \\
+008D & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/008d_pyscf_potassium_mixed_rank_prediction}{Potassium mixed-rank registered target} & Preregistration: \href{https://doi.org/10.5281/zenodo.21854993}{doi:10.5281/zenodo.21854993}; no result decision claimed \\
+008E & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/008e_potassium40_signed_rank_prediction}{K-40 signed rank-separated prediction} & Result/search closure: \href{https://doi.org/10.5281/zenodo.21855249}{doi:10.5281/zenodo.21855249}; preregistration: \href{https://doi.org/10.5281/zenodo.21855190}{doi:10.5281/zenodo.21855190} \\
+009 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/009_constitutive_cell_o3_closure}{Constitutive cell O3 closure} & Result: \href{https://doi.org/10.5281/zenodo.21862060}{doi:10.5281/zenodo.21862060}; preregistration: \href{https://doi.org/10.5281/zenodo.21862026}{doi:10.5281/zenodo.21862026} \\
+010 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/010_complete_molecular_carrier_transfer}{Complete molecular-carrier transfer} & Result: \href{https://doi.org/10.5281/zenodo.21865750}{doi:10.5281/zenodo.21865750}; preregistration: \href{https://doi.org/10.5281/zenodo.21865563}{doi:10.5281/zenodo.21865563} \\
+011 & \href{https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/experiments/011_renormalized_cross_scale_closure_prediction}{Renormalized cross-scale closure prediction} & Result: \href{https://doi.org/10.5281/zenodo.21875050}{doi:10.5281/zenodo.21875050}; preregistration: \href{https://doi.org/10.5281/zenodo.21874997}{doi:10.5281/zenodo.21874997} \\
+\bottomrule
+\end{longtable}
+
+The invalid Experiment 003 record remains preserved at \href{https://doi.org/10.5281/zenodo.21760837}{doi:10.5281/zenodo.21760837}; the Experiment 003R technical addendum is \href{https://doi.org/10.5281/zenodo.21761925}{doi:10.5281/zenodo.21761925}. Experiment 006 remains \statusnotsupported. Experiment 008A retains its standard-contact decision, 008C remains precision-limited, 008D remains unexecuted, and 008E remains an open externally testable prediction.
+
+\section{Terminology}
+
+\begin{description}[style=nextline,leftmargin=1em,labelindent=0pt]
+\item[Operational perspective] A history-dependent state organization that transforms received information and constrains subsequent state and output formation.
+\item[Domain-relative operational perspective] A tuple $O_i^D=(L_i,S_i,T_i,Q_i)$ comprising a local carrier, the distinctions available from its relational position, admissible transformations, and registered causal readouts. It is not synonymous with the carrier and does not imply consciousness.
+\item[Reciprocal perspective intersection] Mutual state formation in which A takes up B through A's organization and B takes up A through B's, while their distinction is preserved.
+\item[Directed intersection trace] One receiver-side change attributable to the other under a matched counterfactual.
+\item[Operational third perspective O3] A post-learning, jointly nonseparable, pair-specific and self-re-entering contribution generated by reciprocal perspective intersection and distributed across both participants.
+\item[Nonseparable C] The inclusion-exclusion term $H(ab)-H(a0)-H(0b)+H(00)$, which vanishes for additive disconnected memories.
+\item[Self-re-entry] Contribution of present O3 to the next participant states and next intersection through unchanged dynamics.
+\item[External identifiability] An analyst's ability to separate O3 from a matched individual-history contribution; it is distinct from O3's causal function.
+\item[Domain-relative local carrier] The physical, biological, or computational term $L_i$ that realizes one operational perspective; by itself it does not exhaust the perspective.
+\item[Constitutive closure] A bridge-relative structure satisfying the applicable registered conditions of generation, necessity, re-entry, specificity, registered empirical minimality, representation covariance, and null discrimination.
+\item[Complete molecular carrier] The matched-reference Hamiltonian difference $H_{\mathrm{molecule}}-H_{\mathrm{isolated\ centres}}$ used in E010; it is not a new force.
+\item[Representation-covariant closure] Preservation of a registered closure relation or decision under a specified transformation even when the corresponding raw coordinates differ.
+\item[Evidence class] The explicit status of a result as benchmark-grounded transfer, standard-theory counterfactual, reduced-model confirmation, or reduced-bridge prediction.
+\end{description}
+
+\addcontentsline{toc}{section}{Selected references}
+\renewcommand{\refname}{Selected references}
+\begin{thebibliography}{99}
+
+\bibitem{battaglia2018}
+Battaglia, P. W., Hamrick, J. B., Bapst, V., et al. (2018). Relational inductive biases, deep learning, and graph networks. \emph{arXiv:1806.01261}.
+
+\bibitem{kipf2018}
+Kipf, T. N., Fetaya, E., Wang, K.-C., Welling, M., and Zemel, R. (2018). Neural relational inference for interacting systems. \emph{Proceedings of ICML}, 2688--2697.
+
+\bibitem{lazaridou2018}
+Lazaridou, A., Hermann, K. M., Tuyls, K., and Clark, S. (2018). Emergence of linguistic communication from referential games. \emph{NeurIPS 31}.
+
+\bibitem{locatello2019}
+Locatello, F., Bauer, S., Lucic, M., et al. (2019). Challenging common assumptions in unsupervised disentangled representations. \emph{Proceedings of ICML}, 4114--4124.
+
+\bibitem{nosek2018}
+Nosek, B. A., Ebersole, C. R., DeHaven, A. C., and Mellor, D. T. (2018). The preregistration revolution. \emph{PNAS}, 115(11), 2600--2606.
+
+\bibitem{rabinowitz2018}
+Rabinowitz, N. C., Perbet, F., Song, H. F., et al. (2018). Machine theory of mind. \emph{Proceedings of ICML}, 4218--4227.
+
+\bibitem{rumelhart1986}
+Rumelhart, D. E., Hinton, G. E., and Williams, R. J. (1986). Learning representations by back-propagating errors. \emph{Nature}, 323, 533--536.
+
+\bibitem{santoro2017}
+Santoro, A., Raposo, D., Barrett, D. G. T., et al. (2017). A simple neural network module for relational reasoning. \emph{NeurIPS 30}.
+
+\bibitem{sukhbaatar2016}
+Sukhbaatar, S., Szlam, A., and Fergus, R. (2016). Learning multiagent communication with backpropagation. \emph{NeurIPS 29}.
+
+\bibitem{simondon1992}
+Simondon, G. (1992 [1958]). The genesis of the individual. In J. Crary and S. Kwinter (Eds.), \emph{Incorporations}, 296--319. Zone Books.
+
+\bibitem{dupre2012}
+Dupr\'e, J. (2012). \emph{Processes of Life: Essays in the Philosophy of Biology}. Oxford University Press.
+
+\bibitem{nicholson2018}
+Nicholson, D. J., and Dupr\'e, J. (Eds.). (2018). \emph{Everything Flows: Towards a Processual Philosophy of Biology}. Oxford University Press.
+
+\bibitem{worrall1989}
+Worrall, J. (1989). Structural realism: The best of both worlds? \emph{Dialectica}, 43(1--2), 99--124. \href{https://doi.org/10.1111/j.1746-8361.1989.tb00933.x}{doi:10.1111/j.1746-8361.1989.tb00933.x}.
+
+\bibitem{ladyman1998}
+Ladyman, J. (1998). What is structural realism? \emph{Studies in History and Philosophy of Science Part A}, 29(3), 409--424. \href{https://doi.org/10.1016/S0039-3681(98)80129-5}{doi:10.1016/S0039-3681(98)80129-5}.
+
+\bibitem{giere2006}
+Giere, R. N. (2006). \emph{Scientific Perspectivism}. University of Chicago Press.
+
+\bibitem{vanfraassen2008}
+van Fraassen, B. C. (2008). \emph{Scientific Representation: Paradoxes of Perspective}. Oxford University Press.
+
+\bibitem{friggnguyen2020}
+Frigg, R., and Nguyen, J. (2020). \emph{Modelling Nature: An Opinionated Introduction to Scientific Representation}. Springer. \href{https://doi.org/10.1007/978-3-030-45153-0}{doi:10.1007/978-3-030-45153-0}.
+
+\bibitem{pearl2000}
+Pearl, J. (2000). \emph{Causality: Models, Reasoning, and Inference}. Cambridge University Press.
+
+\bibitem{woodward2003}
+Woodward, J. (2003). \emph{Making Things Happen: A Theory of Causal Explanation}. Oxford University Press. \href{https://doi.org/10.1093/0195155270.001.0001}{doi:10.1093/0195155270.001.0001}.
+
+\bibitem{landau1977}
+Landau, L. D., and Lifshitz, E. M. (1977). \emph{Quantum Mechanics: Non-Relativistic Theory}, 3rd ed. Pergamon Press.
+
+\bibitem{rovelli1996}
+Rovelli, C. (1996). Relational quantum mechanics. \emph{International Journal of Theoretical Physics}, 35, 1637--1678. \href{https://doi.org/10.1007/BF02302261}{doi:10.1007/BF02302261}.
+
+\bibitem{morokuma1971}
+Morokuma, K. (1971). Molecular orbital studies of hydrogen bonds. III. C=O...H--O hydrogen bond in H$_2$CO...H$_2$O and H$_2$CO...2H$_2$O. \emph{The Journal of Chemical Physics}, 55, 1236--1244. \href{https://doi.org/10.1063/1.1676210}{doi:10.1063/1.1676210}.
+
+\bibitem{kitaura1976}
+Kitaura, K., and Morokuma, K. (1976). A new energy decomposition scheme for molecular interactions within the Hartree--Fock approximation. \emph{International Journal of Quantum Chemistry}, 10(2), 325--340. \href{https://doi.org/10.1002/qua.560100211}{doi:10.1002/qua.560100211}.
+
+\bibitem{bickelhaupt2000}
+Bickelhaupt, F. M., and Baerends, E. J. (2000). Kohn--Sham density functional theory: Predicting and understanding chemistry. \emph{Reviews in Computational Chemistry}, 15, 1--86. \href{https://doi.org/10.1002/9780470125922.ch1}{doi:10.1002/9780470125922.ch1}.
+
+\bibitem{stone2013}
+Stone, A. J. (2013). \emph{The Theory of Intermolecular Forces}, 2nd ed. Oxford University Press.
+
+\bibitem{varela1974}
+Varela, F. G., Maturana, H. R., and Uribe, R. (1974). Autopoiesis: The organization of living systems, its characterization and a model. \emph{BioSystems}, 5(4), 187--196. \href{https://doi.org/10.1016/0303-2647(74)90031-8}{doi:10.1016/0303-2647(74)90031-8}.
+
+\bibitem{maturana1980}
+Maturana, H. R., and Varela, F. J. (1980). \emph{Autopoiesis and Cognition: The Realization of the Living}. D. Reidel.
+
+\bibitem{mossio2009}
+Mossio, M., Saborido, C., and Moreno, A. (2009). An organizational account of biological functions. \emph{The British Journal for the Philosophy of Science}, 60(4), 813--841. \href{https://doi.org/10.1093/bjps/axp036}{doi:10.1093/bjps/axp036}.
+
+\bibitem{mossio2010}
+Mossio, M., and Moreno, A. (2010). Organisational closure in biological organisms. \emph{History and Philosophy of the Life Sciences}, 32(2--3), 269--288.
+
+\bibitem{montevil2015}
+Mont\'evil, M., and Mossio, M. (2015). Biological organisation as closure of constraints. \emph{Journal of Theoretical Biology}, 372, 179--191. \href{https://doi.org/10.1016/j.jtbi.2015.02.029}{doi:10.1016/j.jtbi.2015.02.029}.
+
+\bibitem{moreno2015}
+Moreno, A., and Mossio, M. (2015). \emph{Biological Autonomy: A Philosophical and Theoretical Enquiry}. Springer. \href{https://doi.org/10.1007/978-94-017-9837-2}{doi:10.1007/978-94-017-9837-2}.
+
+\bibitem{watanabe2026}
+Watanabe, S. (2026). \emph{Subjectivity-Intersection Mathematics: A Mathematical Research Program for Viewpoints, Relational Generation, and Simultaneous Closure}. Research white paper. \url{https://www.researchgate.net/publication/410728192}.
+
+\bibitem{watanabe2026sio}
+Watanabe, S. (2026). \emph{Subjectivity Intersection Ontology: A Comparative Ontological Framework for Third Subjectivity}. Version 1.0.0. Zenodo preprint. \href{https://doi.org/10.5281/zenodo.21641878}{doi:10.5281/zenodo.21641878}.
+
+\end{thebibliography}
+
+\vfill
+\begin{center}
+\small\sffamily
+Public Working Preprint v4.1 Draft --- 11 August 2026\\
+Subjectivity-Intersection Mathematics
+\end{center}
+
+\end{document}

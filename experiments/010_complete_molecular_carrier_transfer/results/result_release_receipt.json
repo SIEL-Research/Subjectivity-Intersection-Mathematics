@@ -1,0 +1,9 @@
+{
+  "schema": "siel-e010-result-release-receipt-v1",
+  "result_commit": "2bdc0a2cc96d27c00b1713f43ac7029c136ab10a",
+  "tag": "e010-results-v1.0.0",
+  "release_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e010-results-v1.0.0",
+  "doi": "10.5281/zenodo.21865750",
+  "zenodo_record_url": "https://zenodo.org/records/21865750",
+  "status": "published"
+}
