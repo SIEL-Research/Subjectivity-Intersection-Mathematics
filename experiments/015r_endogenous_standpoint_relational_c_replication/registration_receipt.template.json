@@ -1,0 +1,15 @@
+{
+  "schema": "siel-e015r-registration-receipt-v1",
+  "status": "PENDING",
+  "tag": "e015r-preregistration-v1.0.0",
+  "registration_commit": null,
+  "release_url": null,
+  "doi": null,
+  "zenodo_url": null,
+  "manifest_sha256": null,
+  "zenodo_record_public": false,
+  "remote_release_reopened": false,
+  "remote_doi_reopened": false,
+  "files_and_checksums_match": false,
+  "verified_at": null
+}

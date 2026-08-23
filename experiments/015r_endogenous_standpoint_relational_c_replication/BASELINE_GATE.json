@@ -1,0 +1,31 @@
+{
+  "schema": "siel-e015r-baseline-gate-v1",
+  "gate": "E015R source and exact-path baseline",
+  "date": "2026-08-24 JST",
+  "source_identity": "PASS",
+  "path_manifest": "PASS",
+  "split_manifest_status": "PASS",
+  "baseline_intermediate": "PASS",
+  "baseline_primary": "PASS",
+  "intervention_invariants": "PASS",
+  "scientific_baseline_authorized": true,
+  "confirmatory_execution_authorized": false,
+  "execution_block": "E-DOI-1 registration receipt absent until public DOI verification",
+  "e015": {
+    "registration_commit": "caf49c165f9c75f77089b2aef8545015ba4254ac",
+    "result_commit": "9fbd40e63b5ca0ee6821138daef858110c2ac743",
+    "runner_sha256": "8fe81abf44c8375c09a8014b078010d1131ada5c3f662a5426c5c81bc1371c2b",
+    "base_runner_sha256": "9c56bc3a6293e40345ed35aa1d97815228e405eda5106ae9d521a5d2684b43f1",
+    "raw_result_sha256": "5a47108a5b0294ba21628923807a0e648aebdc895e23b0fa4dd9c84a34bd6f16",
+    "decision_sha256": "ec5fa19bfd73d72d582d7bb1639f1035dcf4743803604ac163835de9bae49702",
+    "confirmatory_seeds": "96100..96147"
+  },
+  "e015r": {
+    "test_seeds": "98000..98007",
+    "confirmatory_seeds": "98100..98147",
+    "confirmatory_seed_count": 48,
+    "prior_seed_overlap": false,
+    "outcome_access_at_freeze": "NONE"
+  },
+  "first_divergent_artifact": null
+}

@@ -136,3 +136,11 @@ outputs, acceptance checks, and claim boundary.
     structural, domain, checkpoint, cellular-boundary, representation, and
     leave-one-domain-out gates passed.
     [Registered result](014_stabilized_o3_return_cross_domain_transfer/results/INTERPRETATION.md).
+
+15R. [Endogenous Standpoint Constitution and Relational-C Re-entry](015r_endogenous_standpoint_relational_c_replication/README.md) —
+     prospective public confirmatory test of history-derived self/other role
+     constitution, prediction-trained relational `C`, bilateral causal effect,
+     and one-step relational re-entry on 48 fresh outer seeds. Nine primary
+     gates and seven validity gates are jointly fixed. Confirmatory execution
+     is blocked until the preregistration Release and Zenodo DOI-1 are public
+     and checksum-verified.

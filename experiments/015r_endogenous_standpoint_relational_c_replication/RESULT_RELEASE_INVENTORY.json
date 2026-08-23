@@ -1,0 +1,30 @@
+{
+  "schema": "siel-e015r-result-release-inventory-v1",
+  "result_tag": "e015r-results-v1.0.0",
+  "requires_distinct_doi_from_preregistration": true,
+  "requires_doi1_citation": true,
+  "required_files": [
+    "PREREGISTRATION.md",
+    "TECHNICAL_SPECIFICATION.md",
+    "SOURCE_PROVENANCE.md",
+    "SEED_MANIFEST.json",
+    "BASELINE_GATE.json",
+    "FROZEN_MANIFEST.sha256",
+    "registration_manifest.json",
+    "registration_receipt.json",
+    "e015_x3_frozen_base.py",
+    "run.py",
+    "tests/test_e015r.py",
+    "results/e015r_raw_seed_results.partial.json",
+    "results/e015r_raw_seed_results.json",
+    "results/e015r_decision.json",
+    "results/E015R_RESULT_REPORT.md",
+    "results/execution_log.json",
+    "results/source_manifest.json",
+    "results/output_manifest.json",
+    "results/result_release_notes.md"
+  ],
+  "post_release_verification_file": "results/publication_receipt.json",
+  "outcome_policy": "Publish supported, negative, inconclusive, invalid, stopped, and technical-failure outcomes without suppression.",
+  "communication_embargo": "No external result communication until DOI-2 is public, reopened, and checksum-verified."
+}
