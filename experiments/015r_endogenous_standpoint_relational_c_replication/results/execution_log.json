@@ -1,0 +1,44 @@
+{
+  "base_runner_sha256": "9c56bc3a6293e40345ed35aa1d97815228e405eda5106ae9d521a5d2684b43f1",
+  "baseline_gate_sha256": "e55c2af177df057eba3ee9be4ca93ccdd19cf0ce0a1792b42e9f314244721720",
+  "deviations": [],
+  "doi1": {
+    "doi": "10.5281/zenodo.22072874",
+    "files_and_checksums_match": true,
+    "manifest_sha256": "835c32605bd5a98ad3481c459b2ea71cf1690f45b281792a3c6bb34dcaed5ce5",
+    "registration_commit": "54967c36a9d98c75169c6903dd4020eab532f1be",
+    "release_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e015r-preregistration-v1.0.0",
+    "remote_doi_reopened": true,
+    "remote_release_reopened": true,
+    "schema": "siel-e015r-registration-receipt-v1",
+    "status": "PASS",
+    "tag": "e015r-preregistration-v1.0.0",
+    "verified_at": "2026-08-23T22:20:23Z",
+    "zenodo_archive": {
+      "filename": "SIEL-Research/Subjectivity-Intersection-Mathematics-e015r-preregistration-v1.0.0.zip",
+      "md5": "8ebabebce7bba79c350cf4af1f1bd2da",
+      "sha256": "8cbf4c563beb9aea25989dad629a5221e0086246977f90378d09b8cb62acbf7d"
+    },
+    "zenodo_record_public": true,
+    "zenodo_url": "https://zenodo.org/records/22072874"
+  },
+  "experiment": "E015R",
+  "finished_unix": 1787523925.720721,
+  "git": {
+    "branch": "main",
+    "dirty_before_output": false,
+    "head": "1484937837ac9a5b9341a75e505a1843411fc950",
+    "remote": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics.git",
+    "root": "/Users/satoru/Documents/Codex/2026-08-09/7/e009_publication"
+  },
+  "manifest": "experiments/015r_endogenous_standpoint_relational_c_replication/FROZEN_MANIFEST.sha256",
+  "manifest_sha256": "835c32605bd5a98ad3481c459b2ea71cf1690f45b281792a3c6bb34dcaed5ce5",
+  "numpy": "2.4.4",
+  "phase": "confirmatory",
+  "pid": 55509,
+  "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "scientific_baseline_authorized": true,
+  "started_unix": 1787523858.511982,
+  "status": "COMPLETE"
+}

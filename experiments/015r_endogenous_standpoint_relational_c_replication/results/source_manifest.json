@@ -1,0 +1,23 @@
+{
+  "schema": "siel-e015r-result-source-manifest-v1",
+  "experiment": "E015R",
+  "phase": "confirmatory",
+  "repository": "SIEL-Research/Subjectivity-Intersection-Mathematics",
+  "execution_commit": "1484937837ac9a5b9341a75e505a1843411fc950",
+  "registration_commit": "54967c36a9d98c75169c6903dd4020eab532f1be",
+  "registration_tag": "e015r-preregistration-v1.0.0",
+  "registration_doi": "10.5281/zenodo.22072874",
+  "files": {
+    "../BASELINE_GATE.json": "e55c2af177df057eba3ee9be4ca93ccdd19cf0ce0a1792b42e9f314244721720",
+    "../FROZEN_MANIFEST.sha256": "835c32605bd5a98ad3481c459b2ea71cf1690f45b281792a3c6bb34dcaed5ce5",
+    "../PREREGISTRATION.md": "444199a14f753f618b2e08c43680f943a2569d4c7977ff1515283d74126937f4",
+    "../SEED_MANIFEST.json": "b86045bd43899690db723515084976c604ece5f737c0473148d4c3cdfc8117dd",
+    "../SOURCE_PROVENANCE.md": "74ba4397fc9c4a7478bd2d04b3f1d3e39618de4b838e3c8cbdd8e7c60a28e4b5",
+    "../TECHNICAL_SPECIFICATION.md": "45b4e1696ce8b44038e9a0ae0666c5024e74650d5e43e10e97d295a9cf709cca",
+    "../e015_x3_frozen_base.py": "9c56bc3a6293e40345ed35aa1d97815228e405eda5106ae9d521a5d2684b43f1",
+    "../registration_manifest.json": "bb4f890ebbf669508cf818bc6eb570de741b49841bf2608557c255b49f852b78",
+    "../registration_receipt.json": "09b15de0cf78407a89f1f6724ebf610920997b14f73262a6df816dfba13d224d",
+    "../run.py": "8126d9b0ecd22cabaa217934d4628784d795e9226d9914d2eaafcca9c6e3e78e",
+    "../tests/test_e015r.py": "91a02e8befc4614f083587a3a04bdd477ba0492774ea56b1c638267403cd8624"
+  }
+}

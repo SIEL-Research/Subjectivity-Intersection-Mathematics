@@ -1,0 +1,18 @@
+{
+  "schema": "siel-e015r-output-manifest-v1",
+  "experiment": "E015R",
+  "phase": "confirmatory",
+  "decision": "SIEL replicated result",
+  "registration_doi": "10.5281/zenodo.22072874",
+  "result_tag": "e015r-results-v1.0.0",
+  "result_doi_status": "AWAITING_PUBLIC_DOI2",
+  "files": {
+    "E015R_RESULT_REPORT.md": "db48efd04bb4b69b428c4b59cf82d3cda2c6e8d4eca9164aebcbdfe38f6cc021",
+    "e015r_decision.json": "e448d6ebc2db64dce315cfa4c2f3ec09ba488df8d7ab88c04e0d694334cb1a72",
+    "e015r_raw_seed_results.json": "8ef3f4fdec8bcf697325524fcbc6d441e2be29149e52c537fba3143168cde17f",
+    "e015r_raw_seed_results.partial.json": "8ef3f4fdec8bcf697325524fcbc6d441e2be29149e52c537fba3143168cde17f",
+    "execution_log.json": "13308a5d0c6be14d95a8a8f2b4e295b6d9fdd01dd213052e51771873b2c1a20f",
+    "result_release_notes.md": "8a66888e09bd953f5708ff5f4d31a5fb859c0ed1d58d0288225bf6c92f6c3be1",
+    "source_manifest.json": "5e6918290eda62cfbc34807e6a63adc1e89ed678de91d0f0dbb7531d14d37298"
+  }
+}
