@@ -1,0 +1,20 @@
+{
+  "schema": "siel-e015r-registration-receipt-v1",
+  "status": "PASS",
+  "tag": "e015r-preregistration-v1.0.0",
+  "registration_commit": "54967c36a9d98c75169c6903dd4020eab532f1be",
+  "release_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/releases/tag/e015r-preregistration-v1.0.0",
+  "doi": "10.5281/zenodo.22072874",
+  "zenodo_url": "https://zenodo.org/records/22072874",
+  "manifest_sha256": "835c32605bd5a98ad3481c459b2ea71cf1690f45b281792a3c6bb34dcaed5ce5",
+  "zenodo_record_public": true,
+  "remote_release_reopened": true,
+  "remote_doi_reopened": true,
+  "files_and_checksums_match": true,
+  "zenodo_archive": {
+    "filename": "SIEL-Research/Subjectivity-Intersection-Mathematics-e015r-preregistration-v1.0.0.zip",
+    "md5": "8ebabebce7bba79c350cf4af1f1bd2da",
+    "sha256": "8cbf4c563beb9aea25989dad629a5221e0086246977f90378d09b8cb62acbf7d"
+  },
+  "verified_at": "2026-08-23T22:20:23Z"
+}
