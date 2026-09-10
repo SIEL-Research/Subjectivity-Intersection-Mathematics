@@ -1,0 +1,46 @@
+{
+  "version": "v0.1",
+  "date": "2026-09-11",
+  "items": [
+    {
+      "item": "braid groups and Yang-Baxter coherence",
+      "classification": "STANDARD_KNOWLEDGE",
+      "citations": ["Artin 1947", "Yang 1967", "Lambe and Radford 1997"]
+    },
+    {
+      "item": "pointed-unitary-braid all-orders overlap, bilateral endpoint positivity, covariance, and shuffled tensor compatibility theorem",
+      "classification": "ADAPTED_WITH_CITATION",
+      "citations": ["Watanabe 2026, doi:10.5281/zenodo.22166167"],
+      "qualification": "This is the direct Braid theorem source used by the unification construction."
+    },
+    {
+      "item": "local covariance and Lorentzian initial-value machinery",
+      "classification": "ADAPTED_WITH_CITATION",
+      "citations": ["Brunetti, Fredenhagen and Verch 2003", "Choquet-Bruhat 2008"]
+    },
+    {
+      "item": "semiclassical local existence comparison",
+      "classification": "ADAPTED_WITH_CITATION",
+      "citations": ["Pinamonti and Siemssen 2021", "Meda 2026"]
+    },
+    {
+      "item": "fixed source realization, typed common-source composition, exact metric and detector certificates",
+      "classification": "ORIGINAL_WITH_TRACE",
+      "trace": ["UB300", "UB303", "UB317", "UB328", "UB333", "UB336", "UB337", "UB338", "UB339", "UB340", "UB341", "UB342"],
+      "qualification": "Project-specific derivations are traceable. v0.1 makes no first-in-literature or exhaustive novelty claim."
+    },
+    {
+      "item": "Subjectivity Intersection interpretation",
+      "classification": "INTERPRETATION_NOT_PROVED",
+      "trace": ["Watanabe 2026, Subjectivity-Intersection Ontology", "Watanabe 2026, Subjectivity-Intersection Mathematics v4.2"],
+      "qualification": "The preprint title identifies the research program; the theorem does not prove a subjectivity ontology."
+    },
+    {
+      "item": "OpenAI Codex contribution",
+      "classification": "DERIVATION_ASSIST_AND_DRAFTING",
+      "qualification": "Used for ideation, derivation assistance, exact-check scripting, audit organization, and drafting. Satoru Watanabe retains responsibility for verification, claims, citations, and release."
+    }
+  ],
+  "material_unresolved_provenance": [],
+  "broad_novelty_status": "NOT_CLAIMED_IN_v0.1"
+}

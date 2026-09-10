@@ -35,6 +35,15 @@ copies corresponding to the ResearchGate publication.
 - [Definitions, evidence gates, and experimental design](docs/FOUNDATIONS.md)
 - [Research memo: Subjectivity-Intersection Mathematics as a cross-domain connector](docs/RESEARCH_MEMO_CROSS_DOMAIN_CONNECTOR.md)
 
+## Braid–Quantum–Lorentz Unification Preprint
+
+- [Subjectivity Intersection Mathematics: A Common Pointed-Braid Source for Quantum History and Lorentzian Geometry — v0.1](docs/preprint/braid-quantum-lorentz-unification-v0.1/README.md)
+
+This working preprint gives a conditional, fixed-finite, local short-time
+composition theorem connecting a quantum history and Lorentzian geometry from
+one pointed-braid source. The public package includes the exact reviewed PDF,
+LaTeX source, provenance records, and verification material.
+
 This document records the current operational distinction between an
 instantaneous relation and a history-bearing relational carrier, defines the
 seven evidence gates for a `C_intersection` candidate, and specifies the

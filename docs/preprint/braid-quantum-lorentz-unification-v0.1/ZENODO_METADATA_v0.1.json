@@ -1,0 +1,49 @@
+{
+  "platform": "Zenodo",
+  "record": "new_record",
+  "resource_type": "publication-preprint",
+  "publication_date": "2026-09-11",
+  "version": "v0.1",
+  "title": "Subjectivity Intersection Mathematics: A Common Pointed-Braid Source for Quantum History and Lorentzian Geometry",
+  "creators": [
+    {
+      "name": "Watanabe, Satoru",
+      "affiliation": "Subjectivity Intersection Emergence Lab (SIEL)",
+      "orcid": "0009-0006-0668-7124"
+    }
+  ],
+  "description": "This working preprint constructs a single typed mathematical system in which a quantum history and an initial Lorentzian geometry are read from one fixed finite pointed-braid source and subsequently evolved in one coupled local system with relational backreaction. The construction combines exact finite algebraic certificates with explicit bridge assumptions. Its main theorem is conditional, fixed-finite, local to one regular patch, and valid on a nonzero short-time interval. It is not peer reviewed and does not establish an empirically validated theory of quantum gravity, absolute semiclassical gravity, or an ontological theory of subjectivity.",
+  "keywords": [
+    "Subjectivity Intersection Mathematics",
+    "braid group",
+    "Yang-Baxter equation",
+    "quantum geometry",
+    "Lorentzian geometry",
+    "backreaction",
+    "relational observable",
+    "symmetric hyperbolic system",
+    "finite source"
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22166167",
+      "relation": "references",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "10.5281/zenodo.21641878",
+      "relation": "references",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "10.5281/zenodo.21909933",
+      "relation": "references",
+      "resource_type": "publication"
+    }
+  ],
+  "communities": [],
+  "funding": [],
+  "notes": "No DOI is reserved in advance. This metadata is frozen for a later Zenodo deposit; the GitHub release itself is not a DOI."
+}

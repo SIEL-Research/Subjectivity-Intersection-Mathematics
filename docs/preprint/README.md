@@ -1,5 +1,16 @@
 # Subjectivity-Intersection Mathematics Preprint
 
+## Braid–Quantum–Lorentz Unification v0.1
+
+A separate working preprint develops a conditional composition of quantum
+history and Lorentzian geometry from one fixed finite pointed-braid source:
+
+- [Source, exact PDF, and verification package](braid-quantum-lorentz-unification-v0.1/README.md)
+
+Its theorem is fixed-finite, local to one regular patch, and valid on a
+nonzero short-time interval under explicit bridge assumptions. It is not an
+empirically validated theory of quantum gravity or an ontological proof.
+
 This directory contains the editable LaTeX source for the English public
 working preprint series. The current draft is:
 

@@ -1,0 +1,18 @@
+{
+  "version": "v0.1",
+  "generated_at": "2026-09-11T01:14:14+09:00",
+  "files": [
+    {
+      "role": "public_preprint_pdf",
+      "path": "Braid_Quantum_Lorentz_Unification_Preprint_v0.1.pdf",
+      "bytes": 176192,
+      "sha256": "41a93878cc063cd047148e4958d04234390c533f404ccb95ae9bd69679ea7edb",
+      "pages": 14
+    },
+    {
+      "role": "public_authoring_source",
+      "path": "BRAID_QUANTUM_LORENTZ_UNIFICATION_PREPRINT_v0.1.tex",
+      "sha256": "8c751e98df1a18d2116843fc345c6d28dcc56802a62fa306649d4ce75aea3c56"
+    }
+  ]
+}
