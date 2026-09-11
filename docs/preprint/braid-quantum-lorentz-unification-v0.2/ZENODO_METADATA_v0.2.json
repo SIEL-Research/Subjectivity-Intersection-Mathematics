@@ -1,6 +1,8 @@
 {
   "platform": "Zenodo",
-  "record": "new_version_of_10.5281/zenodo.22693965",
+  "record": "https://zenodo.org/records/22700853",
+  "record_id": 22700853,
+  "doi": "10.5281/zenodo.22700853",
   "concept_doi": "10.5281/zenodo.22693964",
   "resource_type": "publication-preprint",
   "publication_date": "2026-09-11",
@@ -28,29 +30,14 @@
   ],
   "access_right": "open",
   "license": "cc-by-4.0",
-  "related_identifiers": [
-    {
-      "identifier": "10.5281/zenodo.22693965",
-      "relation": "isNewVersionOf",
-      "resource_type": "publication"
-    },
-    {
-      "identifier": "10.5281/zenodo.22166167",
-      "relation": "references",
-      "resource_type": "publication"
-    },
-    {
-      "identifier": "10.5281/zenodo.21641878",
-      "relation": "references",
-      "resource_type": "publication"
-    },
-    {
-      "identifier": "10.5281/zenodo.21909933",
-      "relation": "references",
-      "resource_type": "publication"
-    }
+  "previous_version_doi": "10.5281/zenodo.22693965",
+  "related_identifiers": [],
+  "manuscript_references": [
+    "10.5281/zenodo.22166167",
+    "10.5281/zenodo.21641878",
+    "10.5281/zenodo.21909933"
   ],
   "communities": [],
   "funding": [],
-  "notes": "Draft metadata only. No Zenodo version, DOI, upload or publication has been created."
+  "notes": "Published as Zenodo preprint version v0.2 on 2026-09-11. The deposited PDF is 188195 bytes with MD5 32fe38aa630489891f3c5d32231c7079 and SHA-256 d82108d9942305a7074a41614cf756cfa30703033fd86c0eeb9be7a1cabee051."
 }

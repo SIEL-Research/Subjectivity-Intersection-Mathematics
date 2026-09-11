@@ -11,7 +11,8 @@ t=next(x for x in m["files"] if x["role"]=="public_authoring_source")
 pdf=HERE/p["path"]; tex=HERE/t["path"]
 assert m["version"]==z["version"]=="v0.2"
 assert m["result_boundary"]["new_content"]=="UB344-UB387"
-assert z["title"]==TITLE and z["record"]=="new_version_of_10.5281/zenodo.22693965"
+assert z["title"]==TITLE and z["record_id"]==22700853
+assert z["doi"]=="10.5281/zenodo.22700853" and z["concept_doi"]=="10.5281/zenodo.22693964"
 assert pdf.stat().st_size==p["bytes"] and sha(pdf)==p["sha256"] and sha(tex)==t["sha256"]
 info=subprocess.check_output(["pdfinfo",str(pdf)],text=True)
 assert f"Title:           {TITLE}" in info and "Pages:           16" in info and "Encrypted:       no" in info

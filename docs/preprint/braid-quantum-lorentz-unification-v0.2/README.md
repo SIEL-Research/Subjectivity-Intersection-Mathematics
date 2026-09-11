@@ -4,6 +4,9 @@ This directory preserves the public source, reviewed PDF, metadata, and verifica
 
 > Satoru Watanabe, *Subjectivity Intersection Mathematics: A Common Pointed-Braid Source for Quantum History and Lorentzian Geometry*, v0.2 (2026).
 
+- [Zenodo v0.2 DOI](https://doi.org/10.5281/zenodo.22700853)
+- [Git tag `preprint-braid-quantum-lorentz-unification-v0.2.0`](https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/preprint-braid-quantum-lorentz-unification-v0.2.0)
+
 Version 0.2 adds the UB344–UB387 result sequence to the v0.1 common-source composition: an identity-representation null, a complete finite PBM–BIX vector field, certified detector and clock bounds on a nonzero dimensionless interval, a restricted nonzero same-source neighborhood, and conditional reductions of PCMT profile, quaternion/SU(2)/Bianchi-IX, and screen-orientation choices.
 
 The result remains conditional and fixed-finite. It does not establish empirical quantum gravity, physical topology or handedness, Braid necessity, SIC/O3, subjectivity, or consciousness.
@@ -13,7 +16,7 @@ The result remains conditional and fixed-finite. It does not establish empirical
 - `BRAID_QUANTUM_LORENTZ_UNIFICATION_PREPRINT_v0.2.tex`: reviewed v0.2 authoring source.
 - `Braid_Quantum_Lorentz_Unification_Preprint_v0.2.pdf`: exact reviewed 16-page PDF.
 - `ARTIFACT_MANIFEST_v0.2.json`: file identities and version boundary.
-- `ZENODO_METADATA_v0.2.json`: proposed metadata for the Zenodo v0.2 update.
+- `ZENODO_METADATA_v0.2.json`: published Zenodo v0.2 metadata and deposit receipt.
 - `INTELLECTUAL_PROVENANCE_LEDGER_v0.2.json`: result and attribution trace.
 - `PUBLIC_VERIFICATION_NOTES.md`: public verification and claim boundary.
 - `verify_release.py`: local artifact verification.

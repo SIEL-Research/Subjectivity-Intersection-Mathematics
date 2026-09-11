@@ -6,6 +6,7 @@ A separate working preprint develops a conditional composition of quantum
 history and Lorentzian geometry from one fixed finite pointed-braid source:
 
 - [Current v0.2 source, exact PDF, and verification package](braid-quantum-lorentz-unification-v0.2/README.md)
+- [Zenodo v0.2 DOI](https://doi.org/10.5281/zenodo.22700853)
 - [Archived v0.1 package](braid-quantum-lorentz-unification-v0.1/README.md)
 
 Version 0.2 retains the conditional fixed-finite theorem and adds the UB344–UB387 finite PBM–BIX, interval, same-source patch, compact-structure, and orientation results. It is not an empirically validated theory of quantum gravity or an ontological proof.

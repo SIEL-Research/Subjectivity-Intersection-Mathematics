@@ -38,6 +38,7 @@ copies corresponding to the ResearchGate publication.
 ## Braid–Quantum–Lorentz Unification Preprint
 
 - [Subjectivity Intersection Mathematics: A Common Pointed-Braid Source for Quantum History and Lorentzian Geometry — v0.2](docs/preprint/braid-quantum-lorentz-unification-v0.2/README.md)
+- [Zenodo v0.2 DOI](https://doi.org/10.5281/zenodo.22700853)
 - [Archived v0.1 package](docs/preprint/braid-quantum-lorentz-unification-v0.1/README.md)
 
 This working preprint gives a conditional, fixed-finite, local short-time
