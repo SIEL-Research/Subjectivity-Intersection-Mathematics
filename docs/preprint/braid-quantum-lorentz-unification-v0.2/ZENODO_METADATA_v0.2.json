@@ -1,0 +1,56 @@
+{
+  "platform": "Zenodo",
+  "record": "new_version_of_10.5281/zenodo.22693965",
+  "concept_doi": "10.5281/zenodo.22693964",
+  "resource_type": "publication-preprint",
+  "publication_date": "2026-09-11",
+  "version": "v0.2",
+  "title": "Subjectivity Intersection Mathematics: A Common Pointed-Braid Source for Quantum History and Lorentzian Geometry",
+  "creators": [
+    {
+      "name": "Watanabe, Satoru",
+      "affiliation": "Subjectivity Intersection Emergence Lab (SIEL)",
+      "orcid": "0009-0006-0668-7124"
+    }
+  ],
+  "description": "Version 0.2 extends the fixed-finite pointed-braid quantum-geometry construction with an explicit complete PBM-BIX finite realization, certified nonzero detector and clock bounds on a finite interval, and a restricted nonzero same-source neighborhood with cometric re-identification. It also reduces spatial PCMT profile freedom inside the selected homogeneous sector and reconstructs an internal quaternion, SU(2)/Bianchi-IX and screen-orientation structure under explicit completion and chart assumptions. The results remain conditional and mathematical; they do not establish empirical quantum gravity, physical topology or handedness, Braid necessity, SIC/O3, subjectivity, or consciousness.",
+  "keywords": [
+    "Subjectivity Intersection Mathematics",
+    "pointed braid",
+    "Yang-Baxter equation",
+    "quantum geometry",
+    "Lorentzian geometry",
+    "PBM-BIX",
+    "backreaction",
+    "relational observable",
+    "finite source",
+    "interval arithmetic"
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22693965",
+      "relation": "isNewVersionOf",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "10.5281/zenodo.22166167",
+      "relation": "references",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "10.5281/zenodo.21641878",
+      "relation": "references",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "10.5281/zenodo.21909933",
+      "relation": "references",
+      "resource_type": "publication"
+    }
+  ],
+  "communities": [],
+  "funding": [],
+  "notes": "Draft metadata only. No Zenodo version, DOI, upload or publication has been created."
+}

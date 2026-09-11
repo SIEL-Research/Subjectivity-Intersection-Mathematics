@@ -1,0 +1,72 @@
+{
+  "version": "v0.2",
+  "date": "2026-09-11",
+  "previous_public_version": "10.5281/zenodo.22693965",
+  "new_result_range": "UB344-UB387",
+  "items": [
+    {
+      "item": "braid groups and Yang-Baxter coherence",
+      "classification": "STANDARD_KNOWLEDGE",
+      "citations": [
+        "Artin 1947",
+        "Yang 1967",
+        "Lambe and Radford 1997"
+      ]
+    },
+    {
+      "item": "pointed-unitary-braid all-orders theorem",
+      "classification": "ADAPTED_WITH_CITATION",
+      "citations": [
+        "Watanabe 2026, doi:10.5281/zenodo.22166167"
+      ],
+      "qualification": "Direct Braid theorem source; v0.2 does not extend its scope."
+    },
+    {
+      "item": "fixed-finite common-source composition through UB342",
+      "classification": "PREVIOUS_VERSION_RESULT",
+      "trace": [
+        "UB300",
+        "UB303",
+        "UB317",
+        "UB328",
+        "UB333",
+        "UB336-UB342"
+      ],
+      "qualification": "Publicly described in v0.1."
+    },
+    {
+      "item": "identity null, finite PBM-BIX realization, interval and source-neighborhood certificates",
+      "classification": "ORIGINAL_WITH_TRACE",
+      "trace": [
+        "UB344-UB384"
+      ],
+      "qualification": "Conditional finite model results; no empirical validation."
+    },
+    {
+      "item": "pointed-germ profile reduction and quaternion/SU(2)/Bianchi-IX/orientation reconstruction",
+      "classification": "ORIGINAL_WITH_TRACE",
+      "trace": [
+        "UB385",
+        "UB386",
+        "UB387"
+      ],
+      "qualification": "Conditional on the selected carrier, homogeneity, chart and completion assumptions; no Braid necessity or physical topology claim."
+    },
+    {
+      "item": "Subjectivity Intersection interpretation",
+      "classification": "INTERPRETATION_NOT_PROVED",
+      "citations": [
+        "doi:10.5281/zenodo.21641878",
+        "doi:10.5281/zenodo.21909933"
+      ],
+      "qualification": "No SIC/O3, subjectivity or consciousness theorem is claimed."
+    },
+    {
+      "item": "OpenAI Codex contribution",
+      "classification": "DERIVATION_ASSIST_AND_DRAFTING",
+      "qualification": "Used for ideation, derivation assistance, exact-check scripting, audit organization and drafting. Satoru Watanabe retains responsibility."
+    }
+  ],
+  "material_unresolved_provenance": [],
+  "broad_novelty_status": "NOT_CLAIMED_IN_v0.2"
+}

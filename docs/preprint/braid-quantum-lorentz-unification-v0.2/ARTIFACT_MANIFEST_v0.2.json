@@ -1,0 +1,28 @@
+{
+  "version": "v0.2",
+  "generated_at": "2026-09-11T04:00:00+09:00",
+  "previous_version": {
+    "version": "v0.1",
+    "doi": "10.5281/zenodo.22693965",
+    "publication_date": "2026-09-10"
+  },
+  "result_boundary": {
+    "boundary_record": "UB343",
+    "new_content": "UB344-UB387"
+  },
+  "files": [
+    {
+      "role": "public_preprint_pdf",
+      "path": "Braid_Quantum_Lorentz_Unification_Preprint_v0.2.pdf",
+      "bytes": 188195,
+      "sha256": "d82108d9942305a7074a41614cf756cfa30703033fd86c0eeb9be7a1cabee051",
+      "pages": 16
+    },
+    {
+      "role": "public_authoring_source",
+      "path": "BRAID_QUANTUM_LORENTZ_UNIFICATION_PREPRINT_v0.2.tex",
+      "bytes": 52777,
+      "sha256": "4e0125ba0424699f362af1440c57685bc2d4b01e8cc763106ffb31cdefb82824"
+    }
+  ]
+}
