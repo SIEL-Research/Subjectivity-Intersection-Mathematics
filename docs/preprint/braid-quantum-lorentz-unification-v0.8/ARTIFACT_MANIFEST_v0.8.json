@@ -1,0 +1,36 @@
+{
+  "schema": "siel.braid-unification-preprint-manifest.v1",
+  "version": "v0.8",
+  "date": "2026-09-15",
+  "series": "BRAID_QUANTUM_LORENTZ_UNIFICATION",
+  "zenodo_concept_doi": "10.5281/zenodo.22693964",
+  "previous_public_version": {
+    "version": "v0.5",
+    "doi": "10.5281/zenodo.22732287"
+  },
+  "source_boundaries": {
+    "main_stress_reduction_line": {"through": "UB622", "commit": "f756ba0862ba71dbf1d82292896136788cf0fa18"},
+    "observer_braid_line": {"through": "OCBFH-020-X1", "commit": "21a4aba5a07cb3d44957adae1562f42045882844"},
+    "causal_evolution_line": {"commit": "af50c40e830152cea2127ad89735054d52af8e08"},
+    "cutoff_history_line": {"commit": "35f87c347e7de0f7b5f3c25960a80a7d34e1d200"},
+    "bigt_line": {"commit": "6f4cc75a93b27f31723522960e8bdc19775f96f9"},
+    "rank10_cylindrical_limit": {"commit": "3d4517b8df935fa4b1644e12a629ef7a3df8976a"},
+    "type5_uhf_completion": {"commit": "7a9845ac1c1989e2b5ca9320d2987fe3f651c3a3"}
+  },
+  "pdf_pages": 35,
+  "pdf_format": "A4_UNENCRYPTED",
+  "release_state": "LOCAL_AUTHOR_RELEASE_REVIEW_CANDIDATE_NOT_PUBLISHED",
+  "files": [
+    {"name": "BRAID_QUANTUM_LORENTZ_UNIFICATION_PREPRINT_v0.8.tex", "bytes": 123198, "sha256": "5d4ccb7eafe2c1dae95442d329a1e4f7753b81593a52c321047601bb5d3bc4b3"},
+    {"name": "Braid_Quantum_Lorentz_Unification_Preprint_v0.8.pdf", "bytes": 292182, "sha256": "160f92d76bfbe5c7f97efb957f0e6c93b75cf592cb92d52501069e04c386e9c6"},
+    {"name": "CHANGELOG_v0.8.md", "bytes": 1241, "sha256": "56aa3ab4ce2fd7b339d0877ca9946545093a297474e8b88d02fe69b564e50927"},
+    {"name": "INTELLECTUAL_PROVENANCE_LEDGER_v0.8.json", "bytes": 4378, "sha256": "4e7c9a44ff152d7e4adc6ca0e3fe1de423e15fefbc23a1929e40a3f8b68a1702"},
+    {"name": "LICENSE.md", "bytes": 332, "sha256": "9b2e4fd9873f23124ff2e15626345f42e9f75ed1d51d4efa9e3d2bf620b0a77f"},
+    {"name": "MANUSCRIPT_CONTRACT_v0.8.json", "bytes": 2488, "sha256": "97c48463abed3bb28f399b6c279c98cfc3b55d737c595b3911cf5330dbfd5fb9"},
+    {"name": "PREPRINT_READINESS_AUDIT_v0.8.md", "bytes": 2750, "sha256": "82518dfd6bab5e33576fcbf06ec72255539195199dd0e8d7a9eafab779e6ea45"},
+    {"name": "README.md", "bytes": 1088, "sha256": "0835408aa23e2096345eeabfa378295240c6444c3d5d07b33da62e8a8bdfb48d"},
+    {"name": "ZENODO_METADATA_v0.8.json", "bytes": 2857, "sha256": "0e118f3c0cb337ed8889394a89c82957a5bad0642a1ad0112fb217f19ea239be"},
+    {"name": "ZENODO_RELEASE_APPROVAL_PACKET_JA_v0.8.md", "bytes": 3850, "sha256": "1c0031990a242537ca16b25bc2b1a53a2df2760f2590dfb632ccdccd9ca9d509"},
+    {"name": "verify_release.py", "bytes": 2951, "sha256": "09ca3a888e73019ff6e749f4ee183fa8954ac0c56536d32fc62f0fa9fdf08a77"}
+  ]
+}

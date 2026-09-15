@@ -1,0 +1,57 @@
+{
+  "platform": "Zenodo",
+  "record": null,
+  "doi": null,
+  "concept_doi": "10.5281/zenodo.22693964",
+  "resource_type": "publication-preprint",
+  "publication_date": "2026-09-15",
+  "version": "v0.8",
+  "language": "eng",
+  "title": "Subjectivity Intersection Mathematics: A Pointed-Braid Source for Quantum History, Lorentzian Geometry, and Reciprocal Backreaction",
+  "creators": [
+    {
+      "name": "Watanabe, Satoru",
+      "affiliation": "Subjectivity Intersection Emergence Lab (SIEL)",
+      "orcid": "0009-0006-0668-7124"
+    }
+  ],
+  "description": "Version 0.8 preserves the scope corrections of local v0.7 and adds two completed mathematical advances. The all-finite-stage matrix tower has a standard type-5-infinity UHF C-star completion with a unique trace, a compatible conditional expectation to the 25-by-25 base algebra, a bounded extension of the selected rank-ten metric readout, an explicit uncountable compact family of states, and finite-supported Braid automorphisms. This is an infinite-dimensional algebraic and state-space completion, not a derivation of continuous spacetime, physical time, or infinite-mode QFT. The post-UB610 stress line through UB622 constructs the finite-prefix Wightman Cauchy kernel, proves the actual matrix-SLE ultraviolet principal coefficient and exact complete SU(2) shell count, controls the finite-shell matrix remainder, and reduces the unresolved global reference contribution to one explicit subtract-first inequality. The complete smooth finite stress, fixed coupling, conserved ten-tensor history, cutoff-uniform field limit, general 3+1 evolution, Braid necessity, natural validation, SIC/O3, subjectivity, and consciousness remain open. This is a working theoretical preprint and has not been peer reviewed.",
+  "keywords": [
+    "Subjectivity Intersection Mathematics",
+    "pointed braid",
+    "Yang-Baxter equation",
+    "UHF algebra",
+    "quantum geometry",
+    "Lorentzian geometry",
+    "Hadamard state",
+    "semiclassical gravity",
+    "Bianchi IX",
+    "operator algebra"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22732287",
+      "relation": "isNewVersionOf",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.22166167",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "publication_status": "NOT_DEPOSITED_DRAFT_METADATA",
+  "file": {
+    "name": "Braid_Quantum_Lorentz_Unification_Preprint_v0.8.pdf",
+    "bytes": 292182,
+    "sha256": "160f92d76bfbe5c7f97efb957f0e6c93b75cf592cb92d52501069e04c386e9c6",
+    "pages": 35
+  }
+}

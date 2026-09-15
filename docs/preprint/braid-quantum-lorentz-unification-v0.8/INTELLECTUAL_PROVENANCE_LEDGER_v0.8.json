@@ -1,0 +1,92 @@
+{
+  "schema": "siel.jsm.intellectual-provenance-ledger.v1",
+  "version": "v0.8",
+  "date": "2026-09-15",
+  "outcome": "CLEAR_FOR_AUTHOR_REVIEW_NOT_EXTERNAL_RELEASE",
+  "entries": [
+    {
+      "item_id": "PV-01",
+      "item": "pointed-unitary braid source and all-orders coherence",
+      "provenance_class": "ADAPTED_WITH_CITATION",
+      "source": "Watanabe, All-Orders Intersection Consistency and Compositional Objectivity from Pointed Unitary Braids",
+      "identifier": "doi:10.5281/zenodo.22166167"
+    },
+    {
+      "item_id": "PV-02",
+      "item": "public predecessor",
+      "provenance_class": "PREVIOUS_PUBLIC_VERSION",
+      "source": "Braid quantum-Lorentz unification preprint v0.5",
+      "identifier": "doi:10.5281/zenodo.22732287"
+    },
+    {
+      "item_id": "PV-03",
+      "item": "main stress-reduction line through UB622",
+      "provenance_class": "ORIGINAL_WITH_VERSIONED_INTERNAL_RECORDS",
+      "commit": "f756ba0862ba71dbf1d82292896136788cf0fa18",
+      "claim_boundary": "finite-shell ultraviolet and matrix remainder control; global reference inequality, complete smooth stress and alpha=1 remain open"
+    },
+    {
+      "item_id": "PV-04",
+      "item": "nonterminal Braid-induced generative tower",
+      "provenance_class": "ORIGINAL_WITH_VERSIONED_INTERNAL_RECORDS",
+      "commit": "6f4cc75a93b27f31723522960e8bdc19775f96f9",
+      "claim_boundary": "algebraic nonterminality, not physical continuum or Braid necessity"
+    },
+    {
+      "item_id": "PV-05",
+      "item": "Observer-Braid filtered-observable continuation",
+      "provenance_class": "ORIGINAL_EXPLORATORY",
+      "commit": "21a4aba5a07cb3d44957adae1562f42045882844",
+      "claim_boundary": "prospective local exploration, not independent confirmation"
+    },
+    {
+      "item_id": "PV-06",
+      "item": "finite-Galerkin causal evolution and cutoff-history converter",
+      "provenance_class": "INTERNAL_THEORETICAL_BRANCHES",
+      "commits": [
+        "af50c40e830152cea2127ad89735054d52af8e08",
+        "35f87c347e7de0f7b5f3c25960a80a7d34e1d200"
+      ],
+      "claim_boundary": "conditional fixed-cutoff theorem and type-corrected converter; no infinite-mode theorem"
+    },
+    {
+      "item_id": "PV-07",
+      "item": "UB341 finite Riemann measurement map",
+      "provenance_class": "EXACT_PARTIAL_RECONSTRUCTION",
+      "source_path": "audits/UB341_RELATIONAL_GRAVITATIONAL_GRADIOMETER_GATE/verify.py",
+      "result": "42x20 rank 20; 20 selected channels; 22 redundant channels; inverse infinity norm 13/4",
+      "claim_boundary": "important component reconstruction, not full-paper replication"
+    },
+    {
+      "item_id": "PV-08",
+      "item": "response-quotient, multiparty-gluing, and promotion claim-boundary corrections",
+      "provenance_class": "INTERNAL_MANUSCRIPT_CORRECTION",
+      "claim_boundary": "finite typed quotient descent only; global path coherence, overlap-compatible multiparty dynamics, and canonical promotion are not established"
+    },
+    {
+      "item_id": "PV-09",
+      "item": "rank-ten cylindrical history and fixed-amplitude vanishing-mesh no-go",
+      "provenance_class": "ORIGINAL_WITH_VERSIONED_INTERNAL_RECORDS",
+      "commit": "3d4517b8df935fa4b1644e12a629ef7a3df8976a",
+      "claim_boundary": "selected readout descent and naive continuum no-go; no source-derived physical scale"
+    },
+    {
+      "item_id": "PV-10",
+      "item": "type-5-infinity UHF completion, unique trace, conditional expectation and state continuum",
+      "provenance_class": "ADAPTED_STANDARD_MATHEMATICS_WITH_INTERNAL_TYPED_APPLICATION",
+      "source": "Bratteli and Robinson, Operator Algebras and Quantum Statistical Mechanics 2",
+      "identifier": "doi:10.1007/978-3-662-03444-6",
+      "commit": "7a9845ac1c1989e2b5ca9320d2987fe3f651c3a3",
+      "claim_boundary": "standard UHF construction applied to the fixed source tower; not claimed as a new general operator-algebra theorem or physical continuum"
+    }
+  ],
+  "standard_prior_work_not_claimed_as_original": [
+    "braid groups and Yang-Baxter identities",
+    "Stone evolution",
+    "Lorentzian and Poincare representation theory",
+    "Hadamard microlocal structure and states of low energy",
+    "UHF C-star inductive limits, compatible traces and product states",
+    "Onsager variational principles",
+    "semiclassical Einstein-Klein-Gordon local evolution"
+  ]
+}

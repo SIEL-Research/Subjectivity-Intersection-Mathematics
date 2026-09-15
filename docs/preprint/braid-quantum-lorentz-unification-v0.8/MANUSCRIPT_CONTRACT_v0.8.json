@@ -1,0 +1,42 @@
+{
+  "schema": "siel.jsm.manuscript-contract.v1",
+  "manuscript_id": "BRAID-QG-UNIFICATION-v0.8-2026",
+  "title": "Subjectivity Intersection Mathematics: A Pointed-Braid Source for Quantum History, Lorentzian Geometry, and Reciprocal Backreaction",
+  "article_type": "working_preprint",
+  "domain": "mathematical_physics",
+  "version": "v0.8",
+  "date": "2026-09-15",
+  "previous_public_version": {
+    "version": "v0.5",
+    "doi": "10.5281/zenodo.22732287",
+    "concept_doi": "10.5281/zenodo.22693964",
+    "publication_date": "2026-09-13"
+  },
+  "previous_local_versions": [
+    {"version": "v0.6", "commit": "00b8db5a43fad4c791b5b2e8fbd096a2f1a172dc"},
+    {"version": "v0.7", "commit": "346b8a9a22d85e11487892eb3657853bd31e583b"}
+  ],
+  "source_boundaries": {
+    "main_stress_reduction_line": {"through": "UB622", "commit": "f756ba0862ba71dbf1d82292896136788cf0fa18"},
+    "observer_braid_line": {"through": "OCBFH-020-X1", "commit": "21a4aba5a07cb3d44957adae1562f42045882844"},
+    "causal_evolution_line": {"commit": "af50c40e830152cea2127ad89735054d52af8e08"},
+    "cutoff_history_line": {"commit": "35f87c347e7de0f7b5f3c25960a80a7d34e1d200"},
+    "bigt_line": {"commit": "6f4cc75a93b27f31723522960e8bdc19775f96f9"},
+    "rank10_cylindrical_limit": {"commit": "3d4517b8df935fa4b1644e12a629ef7a3df8976a"},
+    "type5_uhf_completion": {"commit": "7a9845ac1c1989e2b5ca9320d2987fe3f651c3a3"}
+  },
+  "central_claim": "One fixed pointed-braid source supports a coherent finite quantum history, a section-free finite Lorentz carrier, a nonterminal matrix tower with a standard type-5-infinity UHF completion and bounded rank-ten readout, and a conditional semiclassical backreaction architecture whose remaining fixed-coupling stress obstruction has been reduced to a global reference inequality and typed assembly.",
+  "evidence_status": "THEORETICAL_DERIVATION_WITH_EXECUTABLE_INTERNAL_CERTIFICATES_AND_OPEN_PHYSICAL_BRIDGES",
+  "claim_ceiling": [
+    "not completed quantum gravity",
+    "not empirical recovery of general relativity",
+    "not a derivation of physical continuum or physical time from finite braid data",
+    "not an infinite-mode quantum field theory",
+    "not a complete smooth finite stress tensor",
+    "not a fixed-coupling alpha=1 solution",
+    "not a proof of Braid necessity or uniqueness",
+    "not natural-data validation",
+    "not evidence for SIC/O3, subjectivity, or consciousness"
+  ],
+  "release_state": "LOCAL_AUTHOR_REVIEW_DRAFT_NOT_DEPOSITED"
+}
