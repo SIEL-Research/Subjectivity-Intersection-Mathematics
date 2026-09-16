@@ -1,0 +1,852 @@
+\documentclass[12pt,a4paper,twoside]{article}
+\usepackage[margin=29mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Palatino}
+\setsansfont{Avenir Next}
+\setmonofont{Menlo}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,longtable,array,tabularx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{lastpage}
+
+\definecolor{ink}{HTML}{192334}
+\definecolor{navy}{HTML}{193B67}
+\definecolor{blue}{HTML}{2463A7}
+\definecolor{pale}{HTML}{EEF4FA}
+\definecolor{warm}{HTML}{F8F4EC}
+\definecolor{red}{HTML}{9B2C2C}
+\hypersetup{colorlinks=true,linkcolor=navy,citecolor=blue,urlcolor=blue,pdfauthor={Satoru Watanabe},pdftitle={Subjectivity Intersection Mathematics - Working Preprint v0.81}}
+\color{ink}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.62em}
+\setlength{\emergencystretch}{3em}
+\setlist{nosep,leftmargin=1.6em}
+\titleformat{\section}{\Large\bfseries\color{navy}}{\thesection}{0.65em}{}
+\titleformat{\subsection}{\large\bfseries\color{navy}}{\thesubsection}{0.65em}{}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Qsqrt}{\mathbb{Q}(\sqrt{17})}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\status}[1]{\textsf{\textbf{#1}}}
+
+\begin{document}
+\pagestyle{plain}
+
+\begin{titlepage}
+\centering
+\vspace*{14mm}
+{\sffamily\small\bfseries\color{blue} SUBJECTIVITY INTERSECTION MATHEMATICS}\par
+\vspace{9mm}
+{\fontsize{25}{30}\selectfont\bfseries\color{navy}
+Subjectivity Intersection Mathematics:\par
+A Pointed-Braid Source for Quantum History, Lorentzian Geometry, and Reciprocal Backreaction\par}
+\vspace{7mm}
+{\Large Full integrated revision: finite source, quantum history, rank-four confinement,\par
+source-native dual completion, and a characteristic-zero metric-affine branch\par}
+\vspace{18mm}
+{\large Satoru Watanabe}\par
+{SIEL}\par
+\vfill
+\begin{tcolorbox}[colback=warm,colframe=navy,boxrule=0.8pt,arc=1mm,width=0.88\textwidth]
+\centering
+\textbf{Public working preprint v0.81 - 16 September 2026}\par
+\small Public working draft. This file is not peer reviewed, is not a journal submission, and does not claim a completed theory of quantum gravity.
+\end{tcolorbox}
+\vspace{11mm}
+{\small Evidence cutoff: committed records through 16 September 2026, 21:59 JST; repository revision \texttt{4b0e803b9}.}
+\end{titlepage}
+\setcounter{page}{1}
+
+\begin{abstract}
+We construct and audit a typed finite system in which quantum history, a section-free $1+3$ Lorentz carrier, a nonterminal matrix tower, a rank-ten metric readout, and reciprocal geometric response share one actual pointed-braid source. Version 0.81 is a full integrated revision: it restates the finite source and quantum-geometry construction only where those claims remain supported, and replaces the earlier open geometric completion with the post-v0.8 moving-carrier programme and its negative results.
+
+On the registered finite source, an unconstrained update expands the tested joint span from rank four to rank seven or eight, whereas the canonical trace-self-adjoint projector onto the moving carrier closes every tested update at rank four. The moving projector family has nonzero finite face curvature, while the corresponding fixed-carrier control is flat. A curvature-odd covector completes a rank-three seam to a source-native dual frame on all tested packets, and the construction lifts directly from the raw source to characteristic zero over $\mathbb{Q}(\sqrt{17})$ without fitting finite-field outcomes.
+
+The resulting B and returned-Q sectors do not obey naive inverse-transpose or Gram-adjoint dual transport. Instead they define two complementary lifts of a common three-dimensional quotient, with a binary curvature label controlling a rank-one relative dilation. Closing reverse edges by inverse transport gives an exact reciprocal graph connection and a generally nonflat relative face field. No nondegenerate symmetric metric is globally preserved by either transport: the unique invariant form has rank one. Nevertheless, a source-derived nondegenerate $1+3$ bilinear form exists locally, and its relative nonmetricity is rank zero in one branch and rank two in the other. The relative link admits a metric-compatible/disformation split after a positive real square root; the required radicands are reconstructed directly in characteristic zero and are positive on every tested real embedding.
+
+These are exact results for one finite registered source, not a derivation of physical spacetime, the Einstein equations, a continuum quantum field theory, or empirical gravity. The revision therefore advances a finite metric-affine gravity candidate while preserving the decisive NO-GO results and the remaining mark-independence, torsion, continuum, dynamics, and validation gates.
+\end{abstract}
+
+\section{Purpose and claim boundary}
+
+The central question is deliberately severe: can a single pointed-braid source carry enough internal structure to support quantum history, a finite Lorentzian readout, and a reciprocal geometric response without importing a background spacetime as primitive? Version 0.8 answered only a conditional finite-source form of this question. Version 0.81 asks what survives when the carrier is allowed to move, when its dual is required to be source-native, and when the finite-field constructions are lifted to characteristic zero.
+
+The paper uses the word \emph{gravity} only for a target interpretation. The proved or exhaustively checked content is narrower: finite linear-algebraic closure, finite curvature, reciprocal graph transport, a local $1+3$ bilinear form, and relative nonmetricity. A metric-affine pattern can be gravity-like without yet being a physical gravitational theory. In particular, this revision does not establish:
+\begin{itemize}
+  \item that the observed four-dimensional carrier is uniquely selected by braid theory;
+  \item that the graph connection is torsion-free, Levi-Civita, or uniquely source-mandated;
+  \item that its face field is the Riemann tensor or satisfies the Einstein equations;
+  \item that the nonterminal algebraic tower is a physical continuum or infinite-mode quantum field theory;
+  \item that the construction is source-independent, empirically validated, or externally replicated.
+\end{itemize}
+
+\begin{tcolorbox}[colback=pale,colframe=blue,title={Revision rule}]
+Every positive statement below is scoped to the registered finite source and its stated packet set. A computationally exact packet result is not promoted into a universal theorem, an ontological fact, or an empirical result.
+\end{tcolorbox}
+
+\section{Inherited architecture from v0.8}
+
+The source is a fixed finite pointed-braid object. Its registered representations and derived records supply a $125\times125$ source operator, a finite quantum-history construction, and a four-dimensional carrier embedded in the source algebra. The v0.8 architecture may be summarized as follows.
+
+\begin{enumerate}
+  \item \textbf{Pointed-braid provenance.} The source retains an ordered point and braid-derived structure rather than beginning with a free continuum manifold.
+  \item \textbf{Quantum-history sector.} Finite histories and correlation kernels are generated from the registered representation.
+  \item \textbf{Section-free Lorentz carrier.} A source-derived four-plane supports a $1+3$ signature without selecting a coordinate section as physical input.
+  \item \textbf{Nonterminal algebraic completion.} The finite source feeds a matrix tower $A_n=M_{5^n}(\mathbb{C})$ and a UHF-type algebraic completion. This is an algebraic infinity, not by itself a physical continuum.
+  \item \textbf{Rank-ten metric readout.} A ten-component symmetric readout is available on the fixed four-carrier.
+  \item \textbf{Conditional reciprocal response.} A fixed response rule couples the finite history and geometry sectors, subject to a fail-closed stress gate.
+\end{enumerate}
+
+Version 0.8 already stated that braid relations alone had not selected four spacetime directions: four directions entered the chosen carrier and its symmetric $4\times4$ readout. The new contribution is therefore not a proof that the universe must have four dimensions. It is a test of whether the registered four-carrier remains dynamically closed under a specified source update, and whether its moving geometry can be completed without arbitrary external dual data.
+
+\section{The fixed pointed-braid source}
+
+\subsection{One source state and its endpoint readouts}
+
+Let
+\begin{equation}
+\mathcal H_{\rm src}=\mathcal H_A\otimes\mathcal H_B,
+\qquad \mathcal H_A=\mathcal H_B=\mathbb C^{125}.
+\label{eq:sourcehilbert}
+\end{equation}
+The fixed finite source state used throughout the composition is
+\begin{equation}
+\Gamma_0=\frac{100I+D\otimes D}{1{,}562{,}500},
+\qquad \operatorname{Tr}D=0,
+\qquad \operatorname{Tr}(D^2)=216.
+\label{eq:sourcestate}
+\end{equation}
+It is normalized and has maximally mixed endpoint marginals,
+\begin{equation}
+\Gamma_A=\operatorname{Tr}_B\Gamma_0=\frac{I_{125}}{125},
+\qquad
+\Gamma_B=\operatorname{Tr}_A\Gamma_0=\frac{I_{125}}{125}.
+\label{eq:marginals}
+\end{equation}
+
+The source package is not only the density matrix in Eq.~\eqref{eq:sourcestate}. It also contains the original Hamiltonian $H$, a fixed endpoint split, the cup mark $M_0$, insertion data, polar data, and selected graded generators. These objects are transported together. None is reconstructed from a scalar summary of the state.
+
+The coupled construction has one joint state $\Sigma(t)$ on
+\begin{equation}
+\mathcal H_{\rm src}\otimes\mathcal H_F,
+\qquad \Sigma(0)=\Gamma_0\otimes\rho_F,
+\qquad \operatorname{Tr}\rho_F=1,
+\end{equation}
+and the time-dependent finite source state is the reduced readout
+\begin{equation}
+\Gamma(t)=\operatorname{Tr}_F\Sigma(t).
+\label{eq:reducedreadout}
+\end{equation}
+Thus $\Gamma$ is not a second dynamical copy. This one-state rule remains a core consistency condition of v0.81.
+
+\subsection{Endpoint-invisible correlation carrier}
+
+For a normalized bipartite state $\Gamma$, define
+\begin{equation}
+c_\Gamma=\Gamma-\Gamma_A\otimes\Gamma_B,
+\qquad
+\mathcal C_{\rm corr}=\ker\operatorname{Tr}_A\cap\ker\operatorname{Tr}_B
+\label{eq:corrkernel}
+\end{equation}
+inside the real vector space of trace-zero Hermitian joint variations. For the actual source,
+\begin{equation}
+c_0=\frac{D\otimes D}{1{,}562{,}500},
+\qquad
+\operatorname{Tr}(c_0^2)=\frac{216^2}{1{,}562{,}500^2}>0.
+\end{equation}
+
+The inclusion $\mathcal C_{\rm corr}\hookrightarrow\operatorname{Herm}_0(\mathcal H_A\otimes\mathcal H_B)$ is the categorical kernel of the pair of partial traces in the declared finite-dimensional real-linear category. Every normalized joint state has the unique decomposition in Eq.~\eqref{eq:corrkernel}. This universal property is ordinary finite bipartite mathematics, not a braid-specific theorem.
+
+Source specificity enters through the actual state, cup, Hamiltonian, graded operators, and their simultaneous transport. A matched control with unchanged endpoint marginals but a rotated right correlation factor changes the fixed cup response by the exact amount $62/48{,}828{,}125$. Therefore the joint response cannot factor through either endpoint marginal alone. This is an operational nonfactorization result. It is not an ontological identification of the correlation carrier with subjectivity or consciousness.
+
+\subsection{Typed braid descent}
+
+Let $\mathsf{Cross}$ be the free typed crossing groupoid generated by the permitted elementary crossings, and let $\mathsf{Braid}$ be its quotient by the Yang--Baxter, remote-commutation, inverse, and unit relations. A typed output functor includes the labelled source history, joint source-field evolution, energy ledger, relation mark, initial soldering, field variables, and local geometric problem.
+
+\begin{proposition}[Typed descent criterion]
+A typed output functor $F$ factors uniquely through $\mathsf{Braid}$ if and only if it maps both sides of every generating relation to the same typed output.
+\end{proposition}
+
+\begin{proof}
+This is the quotient universal property. Necessity follows because equivalent words have one image in the quotient. Sufficiency follows because equality on the generating relations makes $F$ constant on the generated congruence.
+\end{proof}
+
+The registered even source satisfies the required relations in the fixed finite scope. A non-Yang--Baxter unitary control fails: for the retained label $p=|000\rangle\langle000|$, the two relation words produce orthogonal projector images and
+\begin{equation}
+\Delta_p=\left\|\operatorname{Ad}_{W_L}(p)-\operatorname{Ad}_{W_R}(p)\right\|_{\rm HS}^2=2.
+\end{equation}
+The ordinary flip also satisfies Yang--Baxter. Descent therefore proves a coherence role for braid structure but does not prove uniqueness of the registered representation. Nor does pairwise descent imply global path independence for every later response map; that requires its own coherence test.
+
+\section{Initial Lorentzian carrier from the same source}
+
+\subsection{Four-plane and ten metric directions}
+
+The graded-greedy covariance-cone rule begins with the distinguished grade-one Hamiltonian generator and adjoins the least higher grade whose unordered pair sums remain distinct and whose required source pivots are nonzero and untruncated. Stopping at four directions gives
+\begin{equation}
+(1,2,4,8),
+\qquad
+V=\operatorname{span}_{\mathbb R}\{H,U_2,U_4,U_8\}.
+\label{eq:fourplane}
+\end{equation}
+The ten unordered pair sums are
+\begin{equation}
+2,3,5,9,4,6,10,8,12,16,
+\end{equation}
+and are all distinct. An exact triangular-minor certificate gives rank ten for the metric Jacobian. With source grade $m=3$ and the declared finite bound $J=83$, every selected pivot is untruncated because $m+16\leq J$.
+
+The historical stopping rule chose four directions because the target was a symmetric $4\times4$ tensor with ten components. The post-v0.8 confinement result below tests stability of that carrier, but it still does not derive the number four from bare braid relations. Version 0.81 therefore separates three claims:
+\begin{enumerate}
+  \item the registered source contains a certified four-plane;
+  \item the tested moving update escapes that plane without confinement;
+  \item the canonical carrier projector closes the tested update at rank four.
+\end{enumerate}
+Only the third item is new, and none of the three alone proves the dimension of physical spacetime.
+
+\subsection{Covariance cone and Lorentz signature}
+
+For selected source generators $G_a$ and a clock operator $O_0$, define the centered covariance tensor and clock response
+\begin{equation}
+K_{ab}=\operatorname{Tr}\Gamma\,\Delta Z_a\Delta Z_b,
+\qquad
+h_{ab}=\Re K(G_a,G_b),
+\qquad
+v_a=-2\Im K(G_a,O_0).
+\label{eq:covariance}
+\end{equation}
+At the registered base point,
+\begin{equation}
+v=(17/4,0,0,0).
+\end{equation}
+Normalize
+\begin{equation}
+\theta=\frac{v}{\sqrt{v^{\mathsf T}h^{-1}v}}
+\end{equation}
+and impose the clock reflection
+\begin{equation}
+g_0=h-2\theta\otimes\theta.
+\label{eq:clockreflection}
+\end{equation}
+The resulting form has signature $(-,+,+,+)$. The cone
+\begin{equation}
+K_{\rm cov}=\{x:\theta(x)\geq0,\;g_0(x,x)\leq0\}
+\end{equation}
+is closed, convex, pointed, and full dimensional; its $\theta=1$ section is a nondegenerate $h$-ellipsoid in $\ker\theta$. This is a source-internal Lorentz construction. Equality with a measured natural light cone is not established.
+
+The initial creation identity is
+\begin{equation}
+g_0=G(\Gamma_0)=G(\operatorname{Tr}_F\Sigma_0).
+\label{eq:creationidentity}
+\end{equation}
+It holds at the soldering datum. Requiring it at all times would collapse geometry into a passive algebraic readout and is not part of the current model.
+
+\section{One quantum-geometry evolution}
+
+\subsection{Clock and energy soldering}
+
+Three clock descriptions occur: the original $H$-evolution parameter $t$, the source covector $\theta$, and a material scalar $T$ in the local field system. Their physical identity is not implied by braid relations. The construction imposes the noncircular soldering condition along one timelike anchor $\gamma$,
+\begin{equation}
+T(\gamma(t))=t,
+\qquad u(T)=1,
+\qquad dT\parallel\theta\quad\text{initially}.
+\end{equation}
+The source energy is counted once,
+\begin{equation}
+e(\Sigma)=\frac12\operatorname{Tr}[\Sigma(H\otimes I_F)]
+=\frac12\operatorname{Tr}(\Gamma H).
+\end{equation}
+At zero coupling, the source algebra follows the original free history
+\begin{equation}
+\alpha_t^H(a)=e^{itH}ae^{-itH}.
+\end{equation}
+At nonzero coupling, the joint history is not identified with this free history on source words that do not commute with $H$.
+
+\subsection{Common interaction and relative stress}
+
+The retained local linear interaction is
+\begin{equation}
+S_{\rm int}=-\lambda\int \chi(T)H\otimes\phi\,dT\wedge N,
+\label{eq:interaction}
+\end{equation}
+where $N$ is the local current three-form and $\chi$ is fixed in advance. Only the abelian charge algebra $C^*(H)$ enters spacelike local densities; the full noncommutative source remains on one timelike defect. The interaction commutes with $H\otimes I_F$, preserving the single energy ledger.
+
+For an advance-fixed reference state with the same metric and prescription, define relative field stress
+\begin{equation}
+\Delta T_\phi[g;\Sigma,\Sigma_{\rm ref}]
+=T_\phi[g,\Sigma]-T_\phi[g,\Sigma_{\rm ref}].
+\end{equation}
+Common state-independent geometric counterterms cancel in this difference. The finite-model working law is
+\begin{equation}
+E_c[g]=G[g]+\Lambda g
+=\kappa(\Delta T_\phi+T_{\rm mat}+2\Pi).
+\label{eq:workinglaw}
+\end{equation}
+Equation~\eqref{eq:workinglaw} is a constitutive finite-model proposal. It is not a derived absolute semiclassical Einstein equation and is not used below to claim empirical gravity.
+
+\subsection{Relation polarization and reciprocal response}
+
+The cup-marked relation selects an energy-tangent direction $\Xi_C$. The geometry differential and spatial projection define
+\begin{equation}
+d_C=P_{\rm sp}DG\,\Xi_C.
+\end{equation}
+At the registered base point, one projected coordinate obeys the exact negative interval
+\begin{equation}
+-\frac{1127}{50{,}000{,}000{,}000}
+\leq D_q[\Xi_C]
+\leq-\frac{563}{25{,}000{,}000{,}000},
+\end{equation}
+so $d_C\neq0$. The finite constitutive response uses
+\begin{equation}
+m_{\rm sp}^{\rm RP}=P_{\rm sp}(w-DGX_H)-d_C,
+\qquad
+\frac{8K_D}{\rho u^P}\Pi+\Pi=-Km_{\rm sp}^{\rm RP}.
+\end{equation}
+The source row retains the intrinsic generator, and the relation mark is transported. On the regular patch, the finite feedback loop is
+\begin{equation}
+(M,\Gamma)\longrightarrow d_C\longrightarrow\Pi\longrightarrow g\longrightarrow\Gamma.
+\end{equation}
+The coefficient of $d_C$ is a constitutive choice, not something uniquely selected by braid theory.
+
+\subsection{Conditional local composition}
+
+The earlier local composition statement remains valid only under its explicit assumptions: source-internal carrier construction, initial creation identity, correlation-kernel relation object, one timelike-defect energy ledger, fixed interaction, regularity, constraints, clock soldering, and a complete conserved source for the geometric initial-value problem.
+
+\begin{proposition}[Scoped local composition]
+For $s>5/2$ and compatible smooth initial data on one regular generalized-harmonic patch, the declared finite system has a nonzero interval on which a unique local solution carries one joint state, one reduced source readout, the original energy ledger counted once, the endpoint-invisible correlation carrier, the source-generated initial Lorentz form, the local interaction, and relative geometric response. Simultaneous typed transport makes Yang--Baxter-equivalent source words define isomorphic finite local problems.
+\end{proposition}
+
+This is a conditional finite-source existence statement. The later moving-carrier results do not turn it into a theorem of continuum quantum gravity. In particular, a complete conserved ten-tensor for the post-v0.8 metric-affine branch is still absent.
+
+\section{Finite response, curvature readout, and algebraic completion}
+
+\subsection{Nonzero model-internal response}
+
+Compare two matched finite local solutions, one retaining the relation-polarized term and one removing only that term. With identical initial state, metric, first metric data, field, reference, material variables, $\Pi$, and gauge,
+\begin{equation}
+D_uP(\Pi_1-\Pi_0)|_0=\frac{\rho}{8}d_C,
+\qquad
+D_u\Delta(2\Pi)|_0=\frac{\rho}{4}d_C\neq0.
+\end{equation}
+For smooth data, the relative source histories separate on a sufficiently short punctured interval. Contracting the curvature difference against the transported screen direction gives a model-internal scalar response with initial slope $\kappa\rho/4$. This distinguishes the retained finite constitutive branches. It does not show that either branch is realized in nature.
+
+\subsection{Finite relational curvature readout}
+
+Seven registered probe frames provide a rational finite readout of the algebraic curvature components. The exact reconstruction map from the 20-dimensional algebraic Riemann space has rank 20; a greedy independent-row selection gives a complete finite channel set. The readout is a certificate of finite identifiability on the selected carrier, not a measurement protocol for physical spacetime.
+
+The error ledger separates source truncation, packet transport, shell closure, reference dependence, and field approximation. This separation is essential: a rank-complete readout does not compensate for an incomplete stress source or an unproved continuum map.
+
+\subsection{Nonterminal tower and type-$5^\infty$ completion}
+
+The fixed crossing defines a sequential matrix tower
+\begin{equation}
+A_n=M_{5^n}(\mathbb C),
+\qquad
+\iota_n(X)=X\otimes I_5.
+\label{eq:tower}
+\end{equation}
+The standard norm completion is the unital type-$5^\infty$ UHF algebra
+\begin{equation}
+A_\infty=\varinjlim_n M_{5^n}(\mathbb C).
+\end{equation}
+Compatible normalized traces induce the unique tracial state. Tail tracing extends to a norm-one conditional expectation $A_\infty\to M_{25}(\mathbb C)$, and the selected rank-ten metric map extends boundedly through it.
+
+This closes an infinite algebraic carrier and a mathematically exact state continuum. It does not create continuous physical time, continuous spacetime, an infinite-mode quantum field, or a continuum limit of the metric-affine connection. Those require stage-compatible observable maps and convergence estimates beyond Eq.~\eqref{eq:tower}.
+
+\subsection{Fixed-87 response and no-retuning rule}
+
+The finite response family is embedded into one fixed 87-coordinate PBM--BIX response system. The same coordinates, reference prescription, scale choices, and admissible packet rules must be used across the declared tests. Parameters may not be retuned after outcome access. This protects the finite claims against a moving-target interpretation, but the number 87 is a response-coordinate count, not the dimension of the underlying source and not a spacetime dimension.
+
+\section{Finite PBM--BIX realization and stress boundary}
+
+The registered PBM--BIX realization supplies a complete finite vector field and a nonzero local interval on a regular compact box. A same-source neighborhood exists under the stated inverse-cometric and pivot bounds. Orientation, compact completion, and the pointed germ are fixed before the relevant finite outcome tests.
+
+The observer--braid construction yields a canonical clock kernel and a section-free $1+3$ carrier. A continuous Braid--Casimir path and exact clock--kernel--Stone factorization organize the finite history and Lorentz response around one generator. These statements are scoped to the registered normalized homogeneous class; they do not classify arbitrary representations or prove physical Lorentz invariance at all scales.
+
+The stress programme reached an exact but incomplete boundary. All-finite-order local Hadamard cancellations and a nonzero small-coupling branch were obtained within the frozen finite scheme. Subsequent stress audits constructed the finite-prefix Wightman Cauchy kernel, proved the actual matrix-SLE ultraviolet principal coefficient and exact complete $SU(2)$ shell count, controlled the finite-shell remainder, and reduced the remaining global adiabatic-reference obstruction to one explicit inequality.
+
+The unresolved reference inequality is decisive. Without it, the programme has no complete conserved ten-tensor for the target continuum system, no unconditional causal metric evolution, and no fixed-coupling completion at $\alpha=1$. The post-v0.8 connection and metric-affine results below are therefore presented as finite exact geometry, not as a repair that silently closes the stress problem.
+
+\section{Registered moving-carrier setting}
+
+Let $V$ be the finite ambient source module. At each registered packet or node $m$, let
+\[
+C_m:\F^4\longrightarrow V
+\]
+be a full-rank carrier matrix with image $E_m=\im C_m$. The trace pairing on the represented source algebra supplies the canonical self-adjoint projector
+\begin{equation}
+P_m=C_m(C_m^{\mathsf T}C_m)^{-1}C_m^{\mathsf T}.
+\label{eq:projector}
+\end{equation}
+For an update operator $U_m$, the unconfined and confined updates of a carrier vector $x\in E_m$ are $U_mx$ and $P_mU_mx$, respectively.
+
+The packet suite contains the B4MC carrier, the BODC update, a returned-Q sector, an IBC control, and the oriented curvature face associated with the source bits $8$ and $16$. The binary label
+\begin{equation}
+\chi_{816}=\mathrm{bit}_8\oplus\mathrm{bit}_{16}
+\label{eq:chi}
+\end{equation}
+partitions the registered packets into two equal classes. The notation records a finite source label only; no physical interpretation is assumed.
+
+\section{Finite rank-four confinement}
+
+The first post-v0.8 question was whether the four-carrier is stable under the registered update.
+
+\begin{proposition}[Projector confinement]
+For every $x\in E_m$, $P_mU_mx\in E_m$. If $P_m$ is given by Eq.~\eqref{eq:projector}, it is the trace-self-adjoint idempotent onto $E_m$.
+\end{proposition}
+
+The proposition is elementary linear algebra. Its relevance comes from the registered contrast. Across 32 packets, the unconfined BODC update increased the joint span to rank seven or eight. Applying $P_m$ kept all 32 updated spans at rank four. Thus the source does not passively remain four-dimensional under the tested update; rank-four closure is implemented by an internal carrier projector.
+
+This permits a precise but limited statement:
+\begin{quote}
+The registered source contains a canonical finite mechanism that confines the tested update to its existing four-dimensional carrier.
+\end{quote}
+It does \emph{not} permit the stronger statements that gravity creates four spacetime dimensions, that four is uniquely selected, or that the carrier is physical spacetime.
+
+The moving projector family is nontrivial. Its oriented face commutators were nonzero on all 48 registered rank-two faces and all 16 rank-three triplets. The same construction on the fixed-carrier control was zero on all 48 faces. The curvature signal is therefore tied to motion of the carrier family rather than to the mere presence of a rank-four projector.
+
+\section{Curvature-derived dual completion}
+
+The moving carrier initially supplied only a rank-three seam in the dual description. A fourth covector was required, but adding an arbitrary coordinate functional would have broken source provenance. Let $F_{(8,16),m}$ denote the oriented finite curvature for the registered face and let $e_0$ denote the distinguished pointed functional. Define
+\begin{equation}
+h_{\chi,m}=e_0^{\mathsf T}\eta F_{(8,16),m}.
+\label{eq:hchi}
+\end{equation}
+Here $\eta$ is the inherited Lorentz carrier form used by the finite readout.
+
+On all 64 packets, $h_{\chi,m}$ was nonzero on the one-dimensional kernel left by the rank-three seam, raising the source-native dual rank to four. Orientation reversal changed its sign, and the fixed-curvature control made it vanish. The related face lifts were source-native on all 192 registered faces.
+
+Equation~\eqref{eq:hchi} is important because the missing dual direction is supplied by the curvature of the moving carrier itself. This is an internal completion result. It is not yet a physical time covector, and the later transport tests show that the resulting dual frame is not a passive covector frame under either of the two simplest transport laws.
+
+\section{Direct characteristic-zero lift}
+
+Finite-field exactness is valuable for exhaustive control, but it is insufficient for a Lorentzian or real-sign claim. A direct reconstruction was therefore performed from the raw registered source over $\Qsqrt$, without fitting or interpolating finite-field output.
+
+Across eight characteristic-zero source packets, the ambient source module had dimension 20, the internal image dimension was 16, and the complementary carrier dimension was uniquely four. The ordered-edge Gram data had zero $\sqrt{17}$ coefficient and was therefore rational. The curvature covector $h_\chi$ was nonzero on all eight packets and reduced exactly to the 64 finite-field rays used in the earlier dual-completion test.
+
+This direct lift closes a provenance gap: the characteristic-zero formulas precede reduction and reproduce the finite-field records. It does not close the physical-continuum gap. A number field is not spacetime, and exact reduction agreement is not empirical validation.
+
+\section{Transport NO-GOs and the two-lift structure}
+
+The simplest expectation was that an actual dual frame would transform by inverse transpose. It did not. The full-frame comparison matched on $0/192$ registered edges, and the ray comparison matched on $0/768$ rays. Replacing inverse transpose by reverse Gram-adjoint transport also matched on $0/192$ edges. These are structural NO-GO results, not numerical imperfections.
+
+A second attempted unification also failed. The returned-Q extension had rank eight, but its seam had zero intersection with the BODC seam on all 64 packets. Returned-Q alone read the seam at rank three and missed one direction exactly on the 32 packets for which the BODC seam had rank four. A fifth IBC increment added no new direction on any packet.
+
+The failure revealed a sharper organization. Equation~\eqref{eq:chi} exactly partitions all 64 packets:
+\begin{itemize}
+  \item if $\chi_{816}=0$, the BODC seam and returned-Q readout both have rank three and Q adds no direction;
+  \item if $\chi_{816}=1$, the BODC seam has rank four, Q has rank three, and their union recovers rank four by adding one complementary direction.
+\end{itemize}
+
+The B and Q kernels coincide on all 32 $\chi=0$ packets and differ on all 32 $\chi=1$ packets. The covector $h_\chi$ reads both kernel families nontrivially on all 64 packets. Hence B and Q can be viewed as two lifts of a common quotient
+\[
+H_m=\ker h_{\chi,m},\qquad \dim H_m=3,
+\]
+with lift difference $\delta_{\chi,m}=t_{Q,m}-t_{B,m}\in H_m$. The difference vanishes exactly for $\chi=0$ and is nonzero exactly for $\chi=1$.
+
+This is a connection-like splitting change, not yet a Christoffel symbol or a physical shift vector.
+
+\section{Reciprocal graph connection and relative field}
+
+Direct edge transport did not define an ordinary reversible geometric connection. Only $96/192$ edges obeyed the candidate shear gauge, only $16/192$ curvatures were zero, and none of the 96 candidate reverse edges satisfied reciprocity. A reciprocal graph connection was therefore defined by treating the registered positive orientation as primary and assigning the reverse edge its inverse.
+
+On all 96 positive edges, the B and Q transports were rank four, flag preserving, and reciprocal under this closure. Let $B_e$ and $\bar Q_e$ be the two transports from node $m$ to node $n$, and let $g_m$ denote the selected carrier frame. Define the relative link
+\begin{equation}
+R_e=g_n^{-1}\bar Q_e g_m B_e^{-1}.
+\label{eq:relative}
+\end{equation}
+On all 48 $\chi=0$ edges, $R_e=I$. On all 48 $\chi=1$ edges,
+\begin{equation}
+\rank(R_e-I)=1.
+\end{equation}
+The rank-one branch is a semisimple dilation rather than a unipotent shear. Its relative face field was nonidentity on $40/48$ registered faces and flat on $8/48$, so the relative link is not merely a pure gauge on the tested graph.
+
+The reciprocal completion is explicit and reproducible, but its uniqueness has not been proved. In particular, the choice of positive source orientation and inverse closure must not be mistaken for a derivation of time reversal, microscopic reversibility, or the Levi-Civita connection.
+
+\section{Metric NO-GO and metric-affine completion}
+
+\subsection{No globally preserved nondegenerate metric}
+
+The next test asked whether B, $\bar Q$, or both preserve a nondegenerate symmetric bilinear form. They do not. Across eight registered transport systems, no nondegenerate globally preserved symmetric metric was found for B, for $\bar Q$, or for the common system. The invariant symmetric form was unique up to scale and had rank one:
+\begin{equation}
+G_m=-h_{\chi,m}\otimes h_{\chi,m},
+\qquad \ker G_m=H_m.
+\label{eq:rankone}
+\end{equation}
+Thus the transport preserves a clock structure but not a spatial metric. This closes the direct finite Levi-Civita route for the tested transports.
+
+\subsection{A local nondegenerate $1+3$ form}
+
+Choose $t_m$ with $h_{\chi,m}(t_m)=1$ and define
+\begin{equation}
+P^H_m=I-t_m h_{\chi,m},\qquad
+\gamma_m=(P^H_m)^{\mathsf T}K_mP^H_m,
+\end{equation}
+where $K_m$ is the source-derived positive spatial kernel on $H_m$. Then
+\begin{equation}
+g_m=-h_{\chi,m}^{\mathsf T}h_{\chi,m}+\gamma_m
+\label{eq:localmetric}
+\end{equation}
+has rank four, while $\gamma_m$ has rank three, on all 64 packets. The construction is covariant under the registered frame changes and gives a finite $1+3$ bilinear form.
+
+Relative nonmetricity for Eq.~\eqref{eq:relative},
+\begin{equation}
+N_e=R_e^{\mathsf T}g_nR_e-g_m,
+\label{eq:nonmetricity}
+\end{equation}
+has rank zero on all 48 $\chi=0$ edges and rank two on all 48 $\chi=1$ edges. The nonzero branch is an exact rank-two oblique spatial strain, not the initially conjectured rank-one self-adjoint strain. The same pattern survived all 29 flag-generic controls, showing that it is not specific to one presentation of $h_\chi$.
+
+The natural finite interpretation is therefore metric-affine: the graph carries a local nondegenerate metric candidate and a connection with controlled nonmetricity, rather than a single globally preserved metric connection.
+
+\section{Relative polar decomposition and real branch selection}
+
+On the $\chi=1$ branch, the rank-two defect determines an active plane and an exact projector $\Pi_e$. The relative link can be decomposed as
+\begin{equation}
+R_e=O_eD_e,
+\label{eq:polar}
+\end{equation}
+where $O_e$ is metric-compatible and $D_e$ carries the disformation, whenever the required scalar square root exists. Over a representative finite field, the split existed without extension on $14/48$ edges; the remaining $34/48$ edges required a quadratic extension. Two algebraic square-root branches remained, so finite-field existence alone did not select a physical branch.
+
+A preregistered characteristic-zero replay reconstructed all required B4MC and returned-Q pairings, kernels, transports, relative links, metrics, and radicands directly from the raw source over $\Qsqrt$. It reproduced all $64/64$ kernel records and all $96/96$ radicand records. On 24 characteristic-zero edges, including 12 focal $\chi=1$ edges, all 24 real embedding evaluations of the radicand were positive; none was zero or negative. The radicands were in fact rational, with zero $\sqrt{17}$ coefficient, and lay approximately between $3.7246$ and $4.0116$.
+
+The positive real square root therefore selects a unique relative polar branch on the tested characteristic-zero system. An initial combined reconstruction/sign run was invalidated because baseline construction and sign evaluation occurred in the same process. The result reported here is the corrected two-stage replay with the source and formulas held fixed before sign access.
+
+This is the strongest new bridge in v0.81, but it remains a \emph{relative} metric-affine polar branch. It does not provide an absolute common metric core for B and $\bar Q$, a torsion-free connection, a Riemann tensor, an Einstein tensor, or a continuum limit.
+
+\section{Adversarial controls and remaining dependence}
+
+Several appealing interpretations failed under stronger controls.
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.27\textwidth}>{\raggedright\arraybackslash}p{0.46\textwidth}}
+\toprule
+Test & Outcome & Scientific consequence \\
+\midrule
+\endhead
+Naive dual transport & $0/192$ full-frame and $0/768$ ray matches & The source-native dual is not passive inverse-transpose transport. \\
+Gram-adjoint repair & $0/192$ matches & A simple metric adjoint does not repair the transport law. \\
+Single returned-Q carrier & Rank three; misses one direction on $32/64$ packets & B and Q are complementary sectors, not one redundant carrier. \\
+Common preserved metric & $0/8$ nondegenerate solutions & The tested connection is not Levi-Civita; only the rank-one clock form is invariant. \\
+Rank-one strain model & $0/48$ on the nontrivial branch & The nonmetricity is rank-two oblique strain. \\
+Marked polar/order controls & Basis covariance failed or order separated only $12/16$ in early controls & Several apparently canonical marked constructions were not stable. \\
+Four-chart projective atlas & Defined, nonidentity, and order-separating on $32/32$, but own and shifted marks also passed & Order information belongs to the atlas more generally, not uniquely to $h_\chi$. \\
+Generic completion controls & $25/40$ source-independent marks worked on all 32 targets & The present order readout is not source-specific. \\
+Mark-free holonomy image & Common generic order locus exists; values remain mark-dependent & A single canonical mark-free holonomy has not been obtained. \\
+\bottomrule
+\end{longtable}
+
+The next mark-free elimination calculation is presently on computational hold: the exact rational maps reach degree 72 with 2701 terms, and the image comparison has not been adjudicated. This is an open technical boundary, not evidence for or against physical gravity.
+
+\section{What v0.81 changes}
+
+Table~\ref{tab:versions} separates inherited, new, and still-open claims.
+
+\begin{table}[ht]
+\centering
+\caption{Versioned claim map.}
+\label{tab:versions}
+\small
+\begin{tabularx}{\textwidth}{>{\bfseries}p{0.16\textwidth}XX}
+\toprule
+Layer & v0.8 & v0.81 status \\
+\midrule
+Finite source & Fixed pointed-braid source and registered representation & Unchanged; exact provenance retained \\
+Four-carrier & Chosen source-derived $1+3$ carrier & Projector closes tested updates at rank four; does not select four universally \\
+Curvature & Local finite response/stress structure & Moving projector curvature separated from fixed-carrier control \\
+Dual geometry & External completion gap & Curvature-odd source-native covector completes all tested dual frames \\
+Characteristic zero & Partial bridge & Raw-source reconstruction over $\Qsqrt$ reproduces kernels, rays, and radicands \\
+Connection & Conditional reciprocal response & Exact reciprocal graph closure plus rank-one relative dilation \\
+Metric & Fixed carrier Lorentz readout & Global preservation fails; local $1+3$ metric plus rank-two nonmetricity survives \\
+Polar branch & Not available & Positive characteristic-zero radicand selects unique relative real branch \\
+Physical gravity & Open & Still open: no Einstein dynamics, continuum, empirical result, or uniqueness proof \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The most defensible novelty claim is not ``braids generate gravity.'' It is the following conjunction: a fixed pointed-braid source supports a finite moving rank-four carrier; the curvature of that carrier supplies its missing dual direction; complementary source sectors define a reciprocal relative connection; a preserved-metric route fails; and the surviving geometry is an exact finite metric-affine relative branch with a direct characteristic-zero positive-root selection. Each clause is weaker than physical quantum gravity, but the conjunction is unusual and experimentally auditable within the finite source.
+
+\section{Relation to prior mathematical directions}
+
+Braided and quantum-group geometry already provides noncommutative differential, metric, and curvature frameworks; the present work does not claim priority for the idea that braid-related algebra can support geometry. Metric-affine gauge theory likewise predates this construction and supplies the standard language of independent metric and connection, torsion, and nonmetricity. Dimensional reduction or localization mechanisms in high-energy theory also show that effective low-dimensional behavior need not mean that dimension was created from nothing.
+
+The specific proposal here differs in starting point and audit structure. It begins with one registered finite pointed-braid source, keeps a finite packet-level provenance chain, derives a moving carrier projector and curvature-odd dual completion, records failed transport and metric hypotheses, and only then identifies a metric-affine relative branch. Whether this source-specific conjunction survives source variation and continuum construction remains the decisive novelty test.
+
+\section{Falsification and completion programme}
+
+The following gates are noncompensating. Failure of a later gate must not be hidden by the exact finite results already obtained.
+
+\begin{enumerate}
+  \item \textbf{Source variation.} Repeat the full construction on independently chosen pointed-braid sources. The mechanism fails as a general proposal if rank-four closure, dual completion, or positive branch selection is a one-source accident.
+  \item \textbf{Mark independence.} Produce a canonical mark-free connection value or prove that the remaining mark is physical data. A generic order atlas is insufficient.
+  \item \textbf{Connection uniqueness.} Derive the inverse reverse-edge closure from source laws or classify all admissible reciprocal completions.
+  \item \textbf{Torsion and curvature.} Define a source-native discrete exterior calculus, torsion, and curvature tensor; test Bianchi-type identities before using Riemannian language.
+  \item \textbf{Dynamics.} Derive an action or evolution law whose stationary or effective equations yield the observed projector confinement and metric-affine response. Post hoc geometric description is not a field equation.
+  \item \textbf{Continuum bridge.} Give stage-compatible maps from the nonterminal matrix tower to observables and show a controlled limit. Algebraic infinity alone does not meet this gate.
+  \item \textbf{Physical discrimination.} Derive a prediction that differs from ordinary Lorentzian or metric-affine models and can be tested against a matched alternative.
+\end{enumerate}
+
+The proposed idea that gravity may be what confines an otherwise expanding structure to four dimensions can now be stated in a falsifiable finite form: \emph{the same source-derived response that produces the geometric connection should also enforce stable rank-four carrier closure, and weakening that response should release higher-rank modes}. The present projector experiment establishes the finite closure contrast, but not the physical identity between that projector and gravity. Establishing that identity requires a common dynamical law and a discriminating prediction.
+
+\section{Reproducibility and provenance}
+
+All post-v0.8 claims in this draft are tied to committed append-only records in the SIEL Research Agent repository. The evidence cutoff is revision \texttt{4b0e803b9}; later uncommitted or exploratory work is excluded. The principal lineage is listed below so that positive and negative results remain inseparable.
+
+\small
+\begin{longtable}{>{\ttfamily}p{0.17\textwidth}p{0.18\textwidth}p{0.55\textwidth}}
+\toprule
+Revision & Stage & Recorded result \\
+\midrule
+\endhead
+c096d1bd9 & A57S-X11 & Rank-four projector confinement and moving-projector curvature \\
+97caef757 & A57S-X13 & Curvature-odd dual completion \\
+269a832e4 & RPD-X21R1 & Direct $\Qsqrt$ lift and finite-field reduction replay \\
+7a2951d62 & A57S-X14 & Inverse-transpose transport NO-GO \\
+f88497bda & A57S-X15 & Gram-adjoint transport NO-GO \\
+fbeb25317 & A57S-X16 & Seam-unification NO-GO \\
+03e4b52c6 & A57S-X17 & Complementary B/Q rank partition by $\chi_{816}$ \\
+c5097f7d6 & A57S-X18 & Common quotient and two-lift structure \\
+676d401dc & A57S-X19 & Direct connection NO-GO \\
+a1f83f655 & A57S-X20 & Reciprocal closure and relative field \\
+37cc0b911 & A57S-X21 & Nondegenerate preserved-metric NO-GO \\
+9e785663c & A57S-X22 & Local $1+3$ metric and rank-two relative nonmetricity \\
+09bbbc8a4 & A57S-X23 & Relative polar/disformation split and extension boundary \\
+248580a6c & A57S-X24 & Preflight block before unauthorized real-sign access \\
+4b0e803b9 & A57S-X24R1 & Direct characteristic-zero reconstruction and positive-root branch \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+Exact source paths, machine-readable packet records, verification JSON, and control outputs remain part of the repository audit trail. This manuscript is a synthesis of those records; it is not a substitute for them.
+
+\section{Discussion}
+
+The finite programme has crossed a meaningful conceptual boundary. In v0.8, geometry was read from a fixed carrier and reciprocal backreaction remained conditional. In v0.81, the carrier is allowed to move, its unconfined update is shown to escape four dimensions, a canonical projector restores closure, and the curvature of the moving projector supplies the missing dual direction. The same source then yields two complementary transport sectors whose disagreement is geometrically organized rather than discarded. The failure of a common nondegenerate invariant metric forces the construction away from an easy Riemannian story and toward a metric-affine one.
+
+That negative turn is scientifically useful. Had a preserved Lorentz metric appeared automatically, the result would have looked more familiar but would have been less discriminating. Instead, the source preserves only a rank-one clock form, while the spatial metric must be reconstructed locally and acquires controlled nonmetricity under the relative connection. The positive real polar branch then shows that this finite metric-affine structure is not merely an artifact of modular arithmetic.
+
+The largest remaining risk is source-specific overfitting. Several order-sensitive readouts survived only because a generic marked atlas carried the relevant information; shifted and source-independent marks also passed. This prevents a claim that $h_\chi$ uniquely selects the connection. The second risk is interpretive overreach: finite rank closure is analogous to dimensional confinement, but it is not yet a mechanism that determines the macroscopic dimension of spacetime. The third risk is dynamical incompleteness: no action, conserved stress tensor for the new branch, or Einstein-like equation has been derived.
+
+Accordingly, the strongest current interpretation is: \emph{the pointed-braid source contains an exact finite prototype of a self-completing, rank-four, metric-affine relational geometry}. Whether this prototype becomes quantum gravity depends on gates that remain open and can fail.
+
+\section{Conclusion}
+
+Working preprint v0.81 integrates the post-v0.8 audit line into one claim-controlled result. The registered pointed-braid source supports finite rank-four confinement by a canonical moving projector, nonzero projector curvature, curvature-derived dual completion, a direct characteristic-zero lift, two complementary carrier lifts, an exact reciprocal relative connection, a local $1+3$ metric, controlled rank-two nonmetricity, and a positive real relative polar branch. It also yields decisive NO-GOs for naive dual transport, a unified returned-Q seam, a direct reversible connection, a common nondegenerate invariant metric, and a rank-one strain interpretation.
+
+The construction is therefore more than a metaphor but less than a physical theory of gravity. Its next decisive test is not rhetorical expansion. It is whether source variation, mark removal, connection uniqueness, discrete torsion/curvature identities, dynamics, and a controlled continuum bridge can all be achieved without weakening the present fail-closed standards.
+
+\appendix
+
+\section{Current assumption ledger}
+
+This appendix lists the assumptions actually used by the integrated v0.81 construction. Their presence is part of the result: removing an assumption is not licensed unless a replacement proof is supplied.
+
+\subsection{Finite source assumptions}
+
+\begin{description}[leftmargin=2.2em,style=nextline]
+\item[S1: fixed source identity.] The $125\times125$ endpoint spaces, state $\Gamma_0$, Hamiltonian, endpoint split, cup mark, insertion data, polar data, and graded generators are fixed before the outcome tests.
+\item[S2: typed transport.] Source objects are transported together. A scalar invariant or reduced density matrix is not substituted for the full typed packet.
+\item[S3: exact arithmetic.] Rank, kernel, intersection, and reduction claims use exact finite-field, rational, or number-field arithmetic. Floating-point values are used only for reported real embeddings after exact reconstruction.
+\item[S4: no retuning.] Packet definitions, carrier coordinates, response coordinates, source orientation, and control families are frozen before their corresponding outcome access.
+\end{description}
+
+\subsection{Lorentz-carrier assumptions}
+
+\begin{description}[leftmargin=2.2em,style=nextline]
+\item[L1: graded-greedy selection.] The registered four-plane uses grades $(1,2,4,8)$ and the untruncated finite bound $J=83$.
+\item[L2: clock reflection.] The initial Lorentz form is constructed from the positive covariance form and the normalized clock covector by Eq.~\eqref{eq:clockreflection}.
+\item[L3: initial rather than permanent identity.] Equation~\eqref{eq:creationidentity} is imposed at the initial soldering datum. Geometry is not required to equal a state readout for all time.
+\item[L4: carrier interpretation.] The four-plane is an algebraic carrier. Identification with physical spacetime remains an interpretation requiring an independent bridge.
+\end{description}
+
+\subsection{Local evolution assumptions}
+
+\begin{description}[leftmargin=2.2em,style=nextline]
+\item[E1: clock soldering.] The Hamiltonian parameter, material clock, and source clock are related only along the declared anchor and initial surface.
+\item[E2: one energy ledger.] The source Hamiltonian contribution is counted once through the joint state and its reduced readout.
+\item[E3: relative stress.] State-independent counterterms are removed by a fixed reference subtraction. The reference prescription cannot be changed after inspecting the result.
+\item[E4: conditional PDE closure.] Local metric evolution requires a complete conserved source, compatible constraints, a strict cone margin, and the declared regularity. The unresolved global reference inequality prevents an unconditional continuum conclusion.
+\end{description}
+
+\subsection{Moving-carrier assumptions}
+
+\begin{description}[leftmargin=2.2em,style=nextline]
+\item[M1: canonical projector.] Carrier confinement uses the trace-self-adjoint projector $P=C(C^{\mathsf T}C)^{-1}C^{\mathsf T}$ associated with the registered carrier matrix.
+\item[M2: oriented face.] The dual completion uses the registered $(8,16)$ oriented face and the distinguished pointed functional. Reversing orientation must reverse the candidate covector.
+\item[M3: positive orientation.] The reciprocal graph connection treats the registered positive source orientation as primary and defines its reverse by inversion. The uniqueness of this closure is open.
+\item[M4: local metric construction.] The nondegenerate $1+3$ form uses a normalized lift $t$ and a source-derived positive spatial kernel on $H=\ker h_\chi$.
+\item[M5: real branch.] Polar-branch selection uses the positive square root only after direct characteristic-zero reconstruction and a separated sign gate.
+\end{description}
+
+\section{Exact result ledger}
+
+\subsection{Positive finite results}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.24\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.45\textwidth}}
+\toprule
+Object & Exact scope & Current conclusion \\
+\midrule
+\endhead
+Source normalization & One registered $125\times125$ endpoint pair & $\Gamma_0$ normalized with maximally mixed endpoint marginals. \\
+Correlation carrier & One registered source state plus matched rotation control & Nonzero endpoint-invisible correlation and operational endpoint nonfactorization. \\
+Typed braid descent & Registered even source and generating relations & Complete typed finite output descends; non-Yang--Baxter control fails with squared HS gap 2. \\
+Metric Jacobian & Four selected grades and ten unordered pairs & Exact rank ten; all pivots untruncated at $J=83$. \\
+Initial Lorentz form & Registered covariance and clock response & Nondegenerate signature $(-,+,+,+)$ and a pointed full-dimensional cone. \\
+Algebraic tower & $A_n=M_{5^n}(\mathbb C)$ with standard embeddings & Type-$5^\infty$ UHF completion and compatible trace/expectation. \\
+Finite curvature readout & Seven registered probe frames & Exact rank-20 reconstruction on the algebraic Riemann space. \\
+Unconfined update & 32 moving-carrier packets & Joint span grows to rank seven or eight. \\
+Projector confinement & Same 32 packets & Confined update remains rank four in every packet. \\
+Projector curvature & 48 rank-two faces and 16 rank-three triplets & Nonzero on all moving cases; fixed-carrier control zero on all 48 faces. \\
+Dual completion & 64 packets and 192 face lifts & $h_\chi$ completes the seam to rank four; reverses sign with orientation; vanishes in fixed-curvature control. \\
+Characteristic-zero lift & Eight source packets and 64 reductions & Direct $\mathbb Q(\sqrt{17})$ construction; exact reduction replay; relevant Gram coefficients rational. \\
+Two-lift partition & 64 packets & $\chi_{816}$ exactly partitions coincident and distinct B/Q kernel branches. \\
+Reciprocal connection & 96 positive edges & Rank four, flag preserving, inverse-closed connection after the stated orientation convention. \\
+Relative link & 48 trivial and 48 nontrivial edges & Identity for $\chi=0$; rank-one semisimple dilation for $\chi=1$. \\
+Relative face field & 48 registered faces & Nonidentity on 40, flat on 8. \\
+Local metric & 64 packets & Rank-four $1+3$ form with rank-three spatial part. \\
+Relative nonmetricity & 96 registered edges & Rank zero on the trivial branch and rank two on the nontrivial branch. \\
+Polar radicand replay & 96 finite records, 24 characteristic-zero edges & Exact replay; all 24 real embedding signs positive; radicands rational in the tested system. \\
+\bottomrule
+\end{longtable}
+
+\subsection{Negative and blocking results}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.24\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.45\textwidth}}
+\toprule
+Tested claim & Result & Consequence \\
+\midrule
+\endhead
+Inverse-transpose dual transport & $0/192$ full-frame and $0/768$ ray matches & The actual dual is not a passive covector frame under this law. \\
+Reverse Gram-adjoint repair & $0/192$ matches & The simplest metric-adjoint repair fails. \\
+Returned-Q seam contains BODC seam & Zero intersection on all 64 packets & The sectors are not one nested carrier. \\
+Returned-Q alone completes the seam & Rank three; misses one direction on 32 packets & Q is complementary rather than sufficient. \\
+IBC fifth increment repairs rank & $0/64$ additions & The missing direction is not supplied by the proposed fifth increment. \\
+Direct reversible connection & Reverse reciprocity $0/96$ & A reciprocal connection requires the explicit inverse closure convention. \\
+Global preserved nondegenerate metric & $0/8$ for B, Q, and common systems & The direct Levi--Civita interpretation is closed for the tested transports. \\
+Rank-one self-adjoint strain & $0/48$ on the nontrivial branch & The surviving nonmetricity is rank-two oblique strain. \\
+Unique finite-field polar branch & Two square-root branches; $34/48$ require extension in the representative field & Finite-field existence alone does not select a physical branch. \\
+$h_\chi$-specific order atlas & Shifted and generic marks also pass & Present order information is atlas-generic, not uniquely source-marked. \\
+Canonical mark-free holonomy & Not obtained & Connection values remain mark dependent even where a common generic order locus exists. \\
+Complete conserved continuum stress & Blocked by one explicit global reference inequality & No unconditional metric evolution or completed physical gravity claim. \\
+\bottomrule
+\end{longtable}
+
+\section{Algebraic proof sketches for the new geometry}
+
+\subsection{Why confinement is exact}
+
+Let $C$ have full column rank four and let $P=C(C^{\mathsf T}C)^{-1}C^{\mathsf T}$. Direct multiplication gives $P^2=P$ and $P^{\mathsf T}=P$. Moreover, $PC=C$, so $P$ is the orthogonal projector onto $\operatorname{im}C$ for the declared trace pairing. Consequently $PUx\in\operatorname{im}C$ for every ambient update $U$ and every carrier vector $x$. The nontrivial scientific content is not this identity; it is the registered contrast that $Ux$ enlarges the joint span to seven or eight while $PUx$ remains rank four on every packet, together with the curved-versus-fixed projector control.
+
+This distinction prevents a circular dimension claim. The projector cannot show that four was inevitable, because its image was already rank four. It does show that the registered source contains an internal exact closure operator and that removing it exposes additional ambient directions.
+
+\subsection{Why curvature can complete the dual}
+
+Let the seam covectors span a rank-three subspace $S_m\subset E_m^*$ with one-dimensional annihilator $K_m\subset E_m$. A fourth covector completes the dual exactly when its restriction to $K_m$ is nonzero. The registered curvature-odd covector satisfies
+\begin{equation}
+h_{\chi,m}|_{K_m}\neq0
+\end{equation}
+on all 64 packets. Therefore $S_m+\langle h_{\chi,m}\rangle=E_m^*$. Orientation reversal flips $F_{(8,16)}$ and hence $h_\chi$, while fixed-carrier curvature makes the covector vanish. These controls distinguish curvature-derived completion from an arbitrary coordinate functional.
+
+The result supplies existence of a source-native dual completion. It does not prove that this dual is transported by inverse transpose; the direct transport audits refute that stronger statement.
+
+\subsection{Why the preserved form is degenerate}
+
+A symmetric bilinear form $G_m$ preserved along an edge $e:m\to n$ must satisfy
+\begin{equation}
+T_e^{\mathsf T}G_nT_e=G_m.
+\end{equation}
+Solving the resulting exact linear system over all registered edges leaves a one-dimensional solution space represented by
+\begin{equation}
+G_m=-h_{\chi,m}\otimes h_{\chi,m}.
+\end{equation}
+Its kernel is the three-dimensional spatial hyperplane $H_m$. Thus the connection transports a clock form but does not supply a nondegenerate spacetime metric by invariance alone.
+
+The local metric in Eq.~\eqref{eq:localmetric} adds a positive spatial form on $H_m$. It is nondegenerate because its negative clock line and positive spatial kernel intersect trivially. Its failure to be preserved is measured by Eq.~\eqref{eq:nonmetricity}; this is precisely why the surviving finite geometry is metric-affine rather than Levi--Civita.
+
+\subsection{Why the real positive branch matters}
+
+The finite-field polar factorization produces an algebraic square root but cannot order its two branches or assign a real sign. The characteristic-zero replay constructs the radicand from the raw source before reduction. On the tested edges the $\sqrt{17}$ coefficient cancels, leaving a positive rational number under every real embedding. The ordered real field then selects the positive square root uniquely.
+
+This is a branch-selection result, not a positivity theorem for arbitrary sources. It depends on the registered characteristic-zero reconstruction and must be repeated under source variation.
+
+\section{Scientific layer and claim ceiling}
+
+\small
+\begin{longtable}{>{\bfseries\raggedright\arraybackslash}p{0.20\textwidth}>{\raggedright\arraybackslash}p{0.32\textwidth}>{\raggedright\arraybackslash}p{0.38\textwidth}}
+\toprule
+Layer & Supported statement & Statement not supported \\
+\midrule
+\endhead
+Ontology & None is proved by the finite mathematics. & The source, carrier, or intersection is not identified with phenomenal consciousness. \\
+Mathematical layer & One fixed pointed-braid source supports the finite constructions and exact controls reported here. & No theorem covers arbitrary braids, arbitrary sources, or all representations. \\
+Operational model & Registered packets, ranks, kernels, transports, curvature faces, metrics, and radicands are machine-checkable. & These internal observables are not automatically physical measurement outcomes. \\
+Hypothesis & A common source-derived response may both confine the carrier and generate its metric-affine connection. & The identity of that response with gravity is not established. \\
+Prediction & Weakening the confining response should release higher-rank modes in a future common-dynamics test. & No current astrophysical, cosmological, or laboratory prediction is claimed. \\
+Method & Exact finite and characteristic-zero reconstruction with matched controls and fail-closed gates. & Exhaustive testing of one finite source is not population-level validation. \\
+Result & Exact packet-level positive, negative, and blocking outcomes in Appendices B and C. & No peer-reviewed, externally replicated, or natural-system result. \\
+Interpretation & The finite structure is a metric-affine quantum-geometry candidate. & It is not yet a completed theory of quantum gravity. \\
+Speculation & Four-dimensional confinement may be gravity-like if a common dynamics is derived. & The universe is not claimed to remain four-dimensional because of a proved braid-gravity law. \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\section{Reproducibility checklist}
+
+An independent internal replay should require all of the following before classifying a result.
+
+\begin{enumerate}
+  \item Verify the exact source hash, source state, endpoint split, Hamiltonian, mark, and graded generators.
+  \item Reproduce source normalization, endpoint marginals, and the nonzero correlation carrier.
+  \item Check the complete typed Yang--Baxter and remote-commutation relations and run the non-Yang--Baxter control.
+  \item Reconstruct the four-plane, ten distinct metric grades, rank-ten Jacobian certificate, clock response, Lorentz signature, and cone properties.
+  \item Rebuild the matrix tower and stage-compatible response without changing the fixed 87-coordinate embedding.
+  \item Retain raw per-packet B4MC, BODC, returned-Q, IBC, face-curvature, kernel, transport, metric, and radicand records.
+  \item Run the unconfined and projected carrier updates on the same 32 packets.
+  \item Run the moving-projector and fixed-carrier curvature controls before using the word curvature interpretively.
+  \item Reconstruct $h_\chi$, its seam-kernel evaluations, orientation reversal, and fixed-curvature zero control.
+  \item Perform characteristic-zero reconstruction from the raw source independently of the finite-field result and verify exact reductions.
+  \item Preserve the X14--X17 transport and seam NO-GOs; do not replace them with the later reciprocal closure.
+  \item Reconstruct the positive-orientation connection and explicitly label inverse reverse-edge assignment as a convention still requiring uniqueness analysis.
+  \item Solve the invariant symmetric-form system exactly and confirm that only the rank-one clock form survives.
+  \item Build the local $1+3$ metric, calculate relative nonmetricity, and repeat the 29 flag-generic controls.
+  \item Separate characteristic-zero baseline construction from real-sign evaluation; invalidate any run that accesses both in one uncontrolled process.
+  \item Run shifted-mark, generic-mark, and mark-free atlas controls before claiming source-specific holonomy.
+  \item Report the unresolved stress inequality, mark-free image comparison, connection uniqueness, torsion, continuum, and validation gates alongside every positive conclusion.
+\end{enumerate}
+
+Passing this checklist would reproduce the finite internal result. It would still not constitute empirical confirmation or independent peer review.
+
+\section*{Declarations}
+
+\textbf{Evidence status.} The post-v0.8 packet results are internal exact computational and algebraic results with exploratory scientific status. They have not been independently externally replicated or peer reviewed.
+
+\textbf{Data and code availability.} The public preprint PDF and authoring source accompany this version. The authoritative machine-readable research records remain in the private audit lineage identified in the reproducibility and provenance section; this release does not claim public availability of that complete internal record.
+
+\textbf{AI assistance.} AI systems assisted with formal checking, code execution, adversarial controls, evidence synthesis, and manuscript drafting under author direction. The author reviewed the released scope and remains responsible for the manuscript and its claim boundaries.
+
+\textbf{Competing interests.} None declared in this working draft.
+
+\begin{thebibliography}{99}
+\small
+\bibitem{Artin1947} E. Artin, ``Theory of braids,'' \emph{Annals of Mathematics} 48 (1947), 101--126.
+\bibitem{Birman1974} J. S. Birman, \emph{Braids, Links, and Mapping Class Groups}, Princeton University Press (1974).
+\bibitem{Majid1994} S. Majid, ``Introduction to braided geometry and $q$-Minkowski space,'' arXiv:hep-th/9410241 (1994).
+\bibitem{Majid1997} S. Majid, ``Quantum and braided group Riemannian geometry,'' arXiv:q-alg/9709025 (1997).
+\bibitem{Connes1994} A. Connes, \emph{Noncommutative Geometry}, Academic Press (1994).
+\bibitem{Hehl1995} F. W. Hehl, J. D. McCrea, E. W. Mielke, and Y. Ne'eman, ``Metric-affine gauge theory of gravity,'' \emph{Physics Reports} 258 (1995), 1--171, doi:10.1016/0370-1573(94)00111-F.
+\bibitem{Cartan1922} E. Cartan, ``Sur une generalisation de la notion de courbure de Riemann,'' \emph{Comptes Rendus} 174 (1922), 593--595.
+\bibitem{Weyl1918} H. Weyl, ``Gravitation und Elektrizitat,'' \emph{Sitzungsberichte der Koniglich Preussischen Akademie der Wissenschaften} (1918), 465--480.
+\bibitem{Regge1961} T. Regge, ``General relativity without coordinates,'' \emph{Nuovo Cimento} 19 (1961), 558--571.
+\bibitem{Ambjorn2005} J. Ambjorn, J. Jurkiewicz, and R. Loll, ``Reconstructing the universe,'' \emph{Physical Review D} 72 (2005), 064014.
+\bibitem{Carlip2017} S. Carlip, ``Dimension and dimensional reduction in quantum gravity,'' \emph{Classical and Quantum Gravity} 34 (2017), 193001, arXiv:1705.05417.
+\bibitem{Randall1999} L. Randall and R. Sundrum, ``An alternative to compactification,'' \emph{Physical Review Letters} 83 (1999), 4690--4693, arXiv:hep-th/9906064.
+\bibitem{Watanabe08} S. Watanabe, ``Subjectivity Intersection Mathematics: A Pointed-Braid Source for Quantum History, Lorentzian Geometry, and Reciprocal Backreaction,'' working preprint v0.8 (15 September 2026), SHA-256: \texttt{160f92d76bfbe5c7\allowbreak97efb957f0e6c93b\allowbreak75cf592cb92d5250\allowbreak1069e04c386e9c6}.
+\end{thebibliography}
+
+\end{document}

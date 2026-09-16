@@ -37,14 +37,19 @@ copies corresponding to the ResearchGate publication.
 
 ## Braid–Quantum–Lorentz Unification Preprint
 
-- [Subjectivity Intersection Mathematics: A Common Pointed-Braid Source for Quantum History and Lorentzian Geometry — v0.2](docs/preprint/braid-quantum-lorentz-unification-v0.2/README.md)
+- [Subjectivity Intersection Mathematics: A Pointed-Braid Source for Quantum History, Lorentzian Geometry, and Reciprocal Backreaction — public-repository working draft v0.81](docs/preprint/braid-quantum-lorentz-unification-v0.81/README.md)
+- [v0.8 author-release candidate](docs/preprint/braid-quantum-lorentz-unification-v0.8/README.md)
+- [Published v0.2 package](docs/preprint/braid-quantum-lorentz-unification-v0.2/README.md)
 - [Zenodo v0.2 DOI](https://doi.org/10.5281/zenodo.22700853)
 - [Archived v0.1 package](docs/preprint/braid-quantum-lorentz-unification-v0.1/README.md)
 
-This working preprint gives a conditional, fixed-finite, local short-time
-composition theorem connecting a quantum history and Lorentzian geometry from
-one pointed-braid source. The public package includes the exact reviewed PDF,
-LaTeX source, provenance records, and verification material.
+Version 0.81 is a full integrated working revision through the recorded
+post-v0.8 finite-source line. It includes the exact rank-four confinement,
+curvature-derived dual completion, reciprocal relative connection,
+metric-preservation NO-GO, local metric-affine construction, and direct
+characteristic-zero positive-root branch, together with the failed controls
+and unresolved completion gates. It is not peer reviewed or a completed or
+empirically validated theory of quantum gravity.
 
 This document records the current operational distinction between an
 instantaneous relation and a history-bearing relational carrier, defines the

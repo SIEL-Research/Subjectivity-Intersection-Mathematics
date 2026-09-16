@@ -1,0 +1,33 @@
+{
+  "schema": "siel.braid-unification-provenance.v1",
+  "version": "v0.81",
+  "date": "2026-09-16",
+  "author": "Satoru Watanabe",
+  "series": "BRAID_QUANTUM_LORENTZ_UNIFICATION",
+  "parent_version": "v0.8",
+  "parent_pdf_sha256": "160f92d76bfbe5c7f97efb957f0e6c93b75cf592cb92d52501069e04c386e9c6",
+  "evidence_cutoff": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "through_commit": "4b0e803b9",
+    "time": "2026-09-16T21:59:25+09:00"
+  },
+  "integrated_result_lineage": [
+    {"stage": "A57S-X11", "commit": "c096d1bd9", "result": "rank-four projector confinement and moving-projector curvature"},
+    {"stage": "A57S-X13", "commit": "97caef757", "result": "curvature-odd dual completion"},
+    {"stage": "RPD-X21R1", "commit": "269a832e4", "result": "direct characteristic-zero lift"},
+    {"stage": "A57S-X14", "commit": "7a2951d62", "result": "inverse-transpose transport NO-GO"},
+    {"stage": "A57S-X15", "commit": "f88497bda", "result": "Gram-adjoint transport NO-GO"},
+    {"stage": "A57S-X16", "commit": "fbeb25317", "result": "seam-unification NO-GO"},
+    {"stage": "A57S-X17", "commit": "03e4b52c6", "result": "complementary B/Q partition"},
+    {"stage": "A57S-X18", "commit": "c5097f7d6", "result": "common quotient and two-lift structure"},
+    {"stage": "A57S-X19", "commit": "676d401dc", "result": "direct connection NO-GO"},
+    {"stage": "A57S-X20", "commit": "a1f83f655", "result": "inverse-closed reciprocal connection and relative field"},
+    {"stage": "A57S-X21", "commit": "37cc0b911", "result": "nondegenerate preserved-metric NO-GO"},
+    {"stage": "A57S-X22", "commit": "9e785663c", "result": "local 1+3 metric and rank-two nonmetricity"},
+    {"stage": "A57S-X23", "commit": "09bbbc8a4", "result": "relative polar/disformation split"},
+    {"stage": "A57S-X24", "commit": "248580a6c", "result": "preflight block before real-sign access"},
+    {"stage": "A57S-X24R1", "commit": "4b0e803b9", "result": "direct characteristic-zero reconstruction and positive-root branch"}
+  ],
+  "primary_claim_boundary": "Exact finite registered-source geometry; not physical quantum gravity, Einstein dynamics, continuum QFT, empirical validation, subjectivity, or consciousness.",
+  "publication_state": "PUBLIC_REPOSITORY_WORKING_DRAFT_NOT_ZENODO_NOT_GITHUB_RELEASE"
+}

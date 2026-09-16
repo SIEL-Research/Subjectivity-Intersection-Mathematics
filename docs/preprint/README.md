@@ -1,15 +1,23 @@
 # Subjectivity-Intersection Mathematics Preprint
 
-## Braid–Quantum–Lorentz Unification v0.2
+## Braid–Quantum–Lorentz Unification v0.81 working draft
 
-A separate working preprint develops a conditional composition of quantum
-history and Lorentzian geometry from one fixed finite pointed-braid source:
+A separate working-preprint series develops quantum history and finite
+Lorentzian/metric-affine geometry from one fixed pointed-braid source:
 
-- [Current v0.2 source, exact PDF, and verification package](braid-quantum-lorentz-unification-v0.2/README.md)
+- [Current public-repository v0.81 source, PDF, and verification package](braid-quantum-lorentz-unification-v0.81/README.md)
+- [v0.8 author-release candidate](braid-quantum-lorentz-unification-v0.8/README.md)
+- [Published v0.2 package](braid-quantum-lorentz-unification-v0.2/README.md)
 - [Zenodo v0.2 DOI](https://doi.org/10.5281/zenodo.22700853)
 - [Archived v0.1 package](braid-quantum-lorentz-unification-v0.1/README.md)
 
-Version 0.2 retains the conditional fixed-finite theorem and adds the UB344–UB387 finite PBM–BIX, interval, same-source patch, compact-structure, and orientation results. It is not an empirically validated theory of quantum gravity or an ontological proof.
+Version 0.81 is an integrated current-state manuscript, not a supplement. It
+retains only the still-supported finite-source and conditional local results,
+adds the moving-carrier and characteristic-zero programme, and preserves the
+transport, metric, source-specificity, stress, and continuum NO-GO boundaries.
+This repository update does not create a Zenodo version or DOI. The manuscript
+is not an empirically validated theory of quantum gravity or an ontological
+proof.
 
 This directory contains the editable LaTeX source for the English public
 working preprint series. The current draft is:

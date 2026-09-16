@@ -1,0 +1,28 @@
+{
+  "schema": "siel.braid-unification-preprint-manifest.v1",
+  "version": "v0.81",
+  "date": "2026-09-16",
+  "series": "BRAID_QUANTUM_LORENTZ_UNIFICATION",
+  "parent_version": "v0.8",
+  "evidence_cutoff_commit": "4b0e803b9",
+  "pdf_pages": 29,
+  "pdf_format": "A4_UNENCRYPTED",
+  "release_state": "PUBLIC_REPOSITORY_WORKING_DRAFT_NOT_ZENODO_NOT_GITHUB_RELEASE",
+  "files": [
+    {
+      "name": "BRAID_QUANTUM_LORENTZ_UNIFICATION_PREPRINT_v0.81.tex",
+      "bytes": 68139,
+      "sha256": "8b835e7182df5a36d4bda88e5ee2d81d5e74aff2f304d29c8a92e9b14628fe29"
+    },
+    {
+      "name": "Braid_Quantum_Lorentz_Unification_Preprint_v0.81.pdf",
+      "bytes": 197151,
+      "sha256": "52af9729288e3e031cdce583ec38db33ba9ed7210265bf05483ad4c6c9358bf0"
+    },
+    {
+      "name": "LICENSE.md",
+      "bytes": 332,
+      "sha256": "9b2e4fd9873f23124ff2e15626345f42e9f75ed1d51d4efa9e3d2bf620b0a77f"
+    }
+  ]
+}
