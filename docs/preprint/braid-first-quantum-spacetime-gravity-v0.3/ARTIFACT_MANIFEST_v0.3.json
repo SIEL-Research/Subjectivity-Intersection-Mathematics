@@ -1,0 +1,30 @@
+{
+  "artifact": "Braid-First Quantum Spacetime Gravity Preprint",
+  "version": "0.3",
+  "date": "2026-09-18",
+  "status": "public working draft",
+  "files": {
+    "BRAID_FIRST_QUANTUM_SPACETIME_GRAVITY_v0.3.pdf": {
+      "sha256": "b5b088e6ad3e5fe96cfb9fe2ce2af17c65f7d170eb7c88dd7da475319abe91d2",
+      "pages": 22
+    },
+    "BRAID_FIRST_QUANTUM_SPACETIME_GRAVITY_v0.3.tex": {
+      "sha256": "ca9e6f2023923a74f80434c94eaa9dc905d59eac70a771eef15096d37681df2b"
+    },
+    "LICENSE.md": {
+      "sha256": "9b2e4fd9873f23124ff2e15626345f42e9f75ed1d51d4efa9e3d2bf620b0a77f"
+    }
+  },
+  "scientific_provenance": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "through_commit": "27dd70da0"
+  },
+  "publication_effect": {
+    "github_working_draft": true,
+    "github_release": false,
+    "zenodo_deposit": false,
+    "doi_created": false,
+    "journal_submission": false,
+    "peer_reviewed": false
+  }
+}

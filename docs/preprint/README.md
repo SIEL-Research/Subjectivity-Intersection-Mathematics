@@ -1,5 +1,20 @@
 # Subjectivity-Intersection Mathematics Preprint
 
+## Braid-First Quantum Spacetime Gravity v0.3 working draft
+
+A distinct current-state manuscript integrates the generated-objectivity,
+finite metric-affine action, conditional source-first local Einstein, and
+covariant-defect connector results:
+
+- [v0.3 source, PDF, provenance, and verification notes](braid-first-quantum-spacetime-gravity-v0.3/README.md)
+
+Version 0.3 explicitly defines Relative Subjectivity as non-personal and
+pre-biological in the proposed ontology. Its exact pointwise Einstein relation
+remains conditional on declared physical bridges; it does not claim a
+neighborhood Einstein solution or completed quantum gravity. This repository
+update does not create a Zenodo version, DOI, GitHub Release, or journal
+submission.
+
 ## Braid–Quantum–Lorentz Unification v0.81 working draft
 
 A separate working-preprint series develops quantum history and finite
