@@ -1,0 +1,44 @@
+{
+  "artifact": "Subjectivity-Intersection Braid Quantum Gravity",
+  "version": "0.4",
+  "date": "2026-09-19",
+  "status": "public working draft",
+  "files": {
+    "BRAID_FIRST_QUANTUM_SPACETIME_GRAVITY_v0.4.pdf": {
+      "sha256": "daaa0a4ec5f0676c37754993b2ae368b57fad54e119ae653929cee7cc2f710bf",
+      "pages": 22
+    },
+    "BRAID_FIRST_QUANTUM_SPACETIME_GRAVITY_v0.4.tex": {
+      "sha256": "4063cf639aa862cda1fe04c35e491c3cbdfb0d4a5a90629cba0e0cc4bb158f7f"
+    },
+    "ABSTRACT_JA.md": {
+      "sha256": "3ae95cd63d26933e2a49988d1b5425c139956ca2722c86c49fb14718b6f9d832"
+    },
+    "CHANGELOG_v0.4.md": {
+      "sha256": "dd8a04236c3d68960d415d97384c9f1c788aa46eb23a6225c6a4c9130a399a80"
+    },
+    "RELEASE_NOTES.md": {
+      "sha256": "828b4f280d2664158d6eefb0345ed3e3c01753a2807a330f7dc77904158bc004"
+    },
+    "LICENSE.md": {
+      "sha256": "9b2e4fd9873f23124ff2e15626345f42e9f75ed1d51d4efa9e3d2bf620b0a77f"
+    }
+  },
+  "scientific_provenance": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "through_commit": "e1e0ca4a4e22da8a4ede079a1785bb2056a213f6"
+  },
+  "predecessor": {
+    "version": "0.3",
+    "repository_commit": "9056b590f3add619927de1ee616247921b109ffc",
+    "preserved": true
+  },
+  "publication_effect": {
+    "github_working_draft": true,
+    "github_release": false,
+    "zenodo_deposit": false,
+    "doi_created": false,
+    "journal_submission": false,
+    "peer_reviewed": false
+  }
+}
