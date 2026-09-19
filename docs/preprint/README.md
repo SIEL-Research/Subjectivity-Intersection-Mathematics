@@ -1,18 +1,21 @@
 # Subjectivity-Intersection Mathematics Preprint
 
-## Subjectivity-Intersection Braid Quantum Gravity v0.4 working draft
+## Subjectivity-Intersection Braid Quantum Gravity v0.5 working draft
 
 A distinct current-state manuscript unifies generated objectivity, finite
 metric-affine gravity, and a conditional continuum Einstein equation as a
 bounded quantum-gravity candidate grounded in subjectivity intersection:
 
-- [Current v0.4 source, PDF, Japanese abstract, provenance, and verification notes](subjectivity-intersection-braid-quantum-gravity-v0.4/README.md)
+- [Current v0.5 source, PDF, Japanese abstract, claim map, provenance, and verification notes](subjectivity-intersection-braid-quantum-gravity-v0.5/README.md)
+- [Preserved v0.4 working draft](subjectivity-intersection-braid-quantum-gravity-v0.4/README.md)
 - [Preserved v0.3 working draft](braid-first-quantum-spacetime-gravity-v0.3/README.md)
 
-Version 0.4 retains the constructive refutation of objectivist primacy and
-adds an Euler--Lagrange derivation of `G_{mu nu}=(3/5)T_{mu nu}` on a continuous
-spacetime neighborhood under four explicit bridge laws, NL1--NL4. Those laws
-are not yet derived from the Braid source alone. The manuscript claims a
+Version 0.5 retains the constructive refutation of objectivist primacy, derives
+a target-free `1+3` mathematical carrier without assuming an ambient
+four-manifold, and reduces the previous four-law bridge packet to two residual
+principles, CGR and MMR. Under those principles it derives
+`G_{mu nu}=(3/5)T_{mu nu}` as a continuum Euler--Lagrange equation. CGR and MMR
+are not yet fully derived from the Braid source. The manuscript claims a
 quantum-gravity candidate, not a completed quantum-gravity theory. This
 repository update does not create a Zenodo version, DOI, GitHub Release, or
 journal submission.

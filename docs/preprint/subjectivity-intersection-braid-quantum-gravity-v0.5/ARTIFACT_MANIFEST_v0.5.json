@@ -1,0 +1,56 @@
+{
+  "artifact": "Subjectivity-Intersection Braid Quantum Gravity",
+  "version": "0.5",
+  "date": "2026-09-19",
+  "status": "public working draft",
+  "files": {
+    "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.5.pdf": {
+      "sha256": "cea470a891710be5200b17309cd7f7fa307975680561ff764962b116f40355b1",
+      "pages": 24
+    },
+    "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.5.tex": {
+      "sha256": "5f0b71c2adbf7095f11cac506d48f2b0db25ed0ce11ce15ed2aafe7af2f15cfe"
+    },
+    "ABSTRACT_JA.md": {
+      "sha256": "502363892df68f79b0f0ef2eb0b717d7b0c5269a325631e756b824a7a774c09d"
+    },
+    "CLAIM_DEPENDENCY_MATRIX_v0.5.md": {
+      "sha256": "169c2345b874de43b85e4ac17088dd1488c03184a81381be22dfa7ce40946959"
+    },
+    "CHANGELOG_v0.5.md": {
+      "sha256": "bdf3a750c42979059483ce69baccfc01cd5e9ad1e7b719922f378135161f75fb"
+    },
+    "RELEASE_NOTES.md": {
+      "sha256": "dd7dd1b4a5d36caf0697a814df7855d103f1f6e2053b08b5855fc8c799220360"
+    },
+    "PUBLIC_VERIFICATION_NOTES.md": {
+      "sha256": "ace511afd80a896060bb5e2549affd6baf827729f581e3f14fa572ec89f3c8f3"
+    },
+    "README.md": {
+      "sha256": "089da482fc45359069538887538dcd46c8d2a9d102a31b476a78c95c29af227a"
+    },
+    "LICENSE.md": {
+      "sha256": "9b2e4fd9873f23124ff2e15626345f42e9f75ed1d51d4efa9e3d2bf620b0a77f"
+    },
+    "verify_release.py": {
+      "sha256": "4317daaada8bd516c2de6aa508f3b99973fed9e0fd6a7c02c41613923be3a25e"
+    }
+  },
+  "scientific_provenance": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "through_commit": "75d2c2691db515e35ef8bdec82047b0c1d56306f"
+  },
+  "predecessor": {
+    "version": "0.4",
+    "repository_commit": "596d8cf6142c37f980b83acc9f25357b369da8db",
+    "preserved": true
+  },
+  "publication_effect": {
+    "github_working_draft": true,
+    "github_release": false,
+    "zenodo_deposit": false,
+    "doi_created": false,
+    "journal_submission": false,
+    "peer_reviewed": false
+  }
+}
