@@ -6,7 +6,7 @@ A distinct current-state manuscript unifies generated objectivity, finite
 metric-affine gravity, and a conditional continuum Einstein equation as a
 bounded quantum-gravity candidate grounded in subjectivity intersection:
 
-- [Current v0.4 source, PDF, Japanese abstract, provenance, and verification notes](braid-first-quantum-spacetime-gravity-v0.4/README.md)
+- [Current v0.4 source, PDF, Japanese abstract, provenance, and verification notes](subjectivity-intersection-braid-quantum-gravity-v0.4/README.md)
 - [Preserved v0.3 working draft](braid-first-quantum-spacetime-gravity-v0.3/README.md)
 
 Version 0.4 retains the constructive refutation of objectivist primacy and

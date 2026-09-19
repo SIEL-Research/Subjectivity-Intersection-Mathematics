@@ -30,8 +30,8 @@ completed theory of quantum gravity.
 
 ## Files
 
-- `BRAID_FIRST_QUANTUM_SPACETIME_GRAVITY_v0.4.tex`: manuscript source.
-- `BRAID_FIRST_QUANTUM_SPACETIME_GRAVITY_v0.4.pdf`: reviewed 22-page PDF.
+- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.4.tex`: manuscript source.
+- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.4.pdf`: reviewed 22-page PDF.
 - `ABSTRACT_JA.md`: Japanese abstract.
 - `CHANGELOG_v0.4.md`: material changes from v0.3.
 - `ARTIFACT_MANIFEST_v0.4.json`: exact artifact identities.

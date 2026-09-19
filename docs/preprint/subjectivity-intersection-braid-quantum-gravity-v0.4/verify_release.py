@@ -30,7 +30,7 @@ def main() -> None:
         expected = record["sha256"]
         if actual != expected:
             raise SystemExit(f"hash mismatch: {name}: {actual} != {expected}")
-    tex = (ROOT / "BRAID_FIRST_QUANTUM_SPACETIME_GRAVITY_v0.4.tex").read_text(
+    tex = (ROOT / "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.4.tex").read_text(
         encoding="utf-8"
     )
     required = (
