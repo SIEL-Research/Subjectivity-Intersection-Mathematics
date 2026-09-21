@@ -43,6 +43,18 @@ copies corresponding to the ResearchGate publication.
 - [Zenodo v0.2 DOI](https://doi.org/10.5281/zenodo.22700853)
 - [Archived v0.1 package](docs/preprint/braid-quantum-lorentz-unification-v0.1/README.md)
 
+## Subjectivity-Intersection Braid Quantum Gravity
+
+- [Current full v0.7 working preprint and concise research note](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
+- [Preserved v0.6.1 code-audited correction](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
+
+Version 0.7 preserves the complete v0.6.1 derivation and adds fixed-model MMR2
+selection, the non-manual relative factor `3/5`, and an exact normalized
+Lorentz event carrier. The source-to-continuum reverse arrow and SDPC remain
+explicit assumptions, so the Einstein equation is conditional and the work is
+a quantum-gravity candidate rather than a completed or empirically confirmed
+theory.
+
 Version 0.81 is a full integrated working revision through the recorded
 post-v0.8 finite-source line. It includes the exact rank-four confinement,
 curvature-derived dual completion, reciprocal relative connection,

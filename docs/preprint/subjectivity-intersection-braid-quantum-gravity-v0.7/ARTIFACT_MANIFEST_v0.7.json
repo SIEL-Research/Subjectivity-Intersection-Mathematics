@@ -1,0 +1,41 @@
+{
+  "version": "0.7",
+  "status": "PUBLIC_GITHUB_WORKING_PREPRINT",
+  "canonical_document": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7.pdf",
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7.pdf",
+      "role": "canonical_full_preprint",
+      "pages": 32,
+      "sha256": "71269eed1dc18bec5987547d4525428992ce995e18dbb5bf48d6115446a31463"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7.tex",
+      "role": "canonical_full_source",
+      "sha256": "06fa1b283a02759b405ebc4a97205d8a266b27b1ba32d0656ab9c97531ada2a2"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_CONCISE_v0.7.pdf",
+      "role": "concise_research_note",
+      "pages": 13,
+      "sha256": "374ea02e43412873cf5bd7d4e81ef47c20263e6a5d69ae5588a5103e25228502"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_CONCISE_v0.7.tex",
+      "role": "concise_research_note_source",
+      "sha256": "d405bc86c007d092e46d9871550f9c193089c890101d821336d9bb163fd44346"
+    }
+  ],
+  "source_research_snapshot": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "commit": "eb61e91a0",
+    "certificate_range": "BGCE234-BGCE260"
+  },
+  "boundaries": [
+    "No Zenodo deposit or DOI",
+    "No GitHub Release",
+    "No journal submission or peer review",
+    "Source-to-smooth convergence remains unproved",
+    "SDPC remains an explicit non-Braid-only assumption"
+  ]
+}

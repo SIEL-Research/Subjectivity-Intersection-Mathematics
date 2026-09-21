@@ -1,24 +1,28 @@
 # Subjectivity-Intersection Mathematics Preprint
 
-## Subjectivity-Intersection Braid Quantum Gravity v0.5 working draft
+## Subjectivity-Intersection Braid Quantum Gravity v0.7 working preprint
 
-A distinct current-state manuscript unifies generated objectivity, finite
-metric-affine gravity, and a conditional continuum Einstein equation as a
-bounded quantum-gravity candidate grounded in subjectivity intersection:
+A current-state manuscript unifies generated objectivity, finite metric-affine
+gravity, fixed-model matter routing, an exact Lorentz event carrier, and a
+conditional continuum Einstein equation as a bounded quantum-gravity candidate
+grounded in subjectivity intersection:
 
-- [Current v0.5 source, PDF, Japanese abstract, claim map, provenance, and verification notes](subjectivity-intersection-braid-quantum-gravity-v0.5/README.md)
+- [Current canonical full v0.7 and accompanying concise research note](subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
+- [Preserved v0.6.1 code-audited correction](subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
+- [Preserved v0.6 working preprint](subjectivity-intersection-braid-quantum-gravity-v0.6/README.md)
+- [Preserved v0.5 working draft](subjectivity-intersection-braid-quantum-gravity-v0.5/README.md)
 - [Preserved v0.4 working draft](subjectivity-intersection-braid-quantum-gravity-v0.4/README.md)
 - [Preserved v0.3 working draft](braid-first-quantum-spacetime-gravity-v0.3/README.md)
 
-Version 0.5 retains the constructive refutation of objectivist primacy, derives
-a target-free `1+3` mathematical carrier without assuming an ambient
-four-manifold, and reduces the previous four-law bridge packet to two residual
-principles, CGR and MMR. Under those principles it derives
-`G_{mu nu}=(3/5)T_{mu nu}` as a continuum Euler--Lagrange equation. CGR and MMR
-are not yet fully derived from the Braid source. The manuscript claims a
-quantum-gravity candidate, not a completed quantum-gravity theory. This
-repository update does not create a Zenodo version, DOI, GitHub Release, or
-journal submission.
+Version 0.7 preserves the full v0.6.1 derivational record, closes MMR2 inside
+the declared fixed event-conditioned partition class, derives the relative
+factor `3/5` without manual setting, and constructs an exact normalized Lorentz
+carrier from the actual Braid event moment and source-null grading. The actual
+source-to-smooth limit and SDPC remain open. Under those explicit assumptions,
+`G_{mu nu}=(3/5)T_{mu nu}` is a continuum Euler--Lagrange equation. The
+manuscript claims a quantum-gravity candidate, not a completed quantum-gravity
+theory. This repository update does not create a Zenodo version, DOI, GitHub
+Release, or journal submission.
 
 ## Braid–Quantum–Lorentz Unification v0.81 working draft
 
