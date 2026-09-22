@@ -45,15 +45,20 @@ copies corresponding to the ResearchGate publication.
 
 ## Subjectivity-Intersection Braid Quantum Gravity
 
-- [Current full v0.7 working preprint and concise research note](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
+- [Current full v0.8 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.8/README.md)
+- [Preserved full v0.7 working preprint and concise research note](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
 - [Preserved v0.6.1 code-audited correction](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
 
-Version 0.7 preserves the complete v0.6.1 derivation and adds fixed-model MMR2
-selection, the non-manual relative factor `3/5`, and an exact normalized
-Lorentz event carrier. The source-to-continuum reverse arrow and SDPC remain
-explicit assumptions, so the Einstein equation is conditional and the work is
-a quantum-gravity candidate rather than a completed or empirically confirmed
-theory.
+Version 0.8 preserves the finite-source construction and adds source-selected
+long-wavelength matter dynamics, continuous metric and nonmetricity tensors,
+positive local transport, a typed physical solder, Hilbert stress, the Ward
+identity, and a scoped Einstein/spin-2 limit. In the declared long-wavelength,
+local, second-order, formally self-adjoint, conservative class, the shared
+metric variation yields `G=(3/5)T` without manually inserting the relative
+factor. Full finite Lorentzian quantum backreaction, four-component discrete
+Ward balance, ultraviolet completion, physical-unit calibration, and empirical
+validation remain open; the work is a quantum-gravity candidate rather than a
+completed theory.
 
 Version 0.81 is a full integrated working revision through the recorded
 post-v0.8 finite-source line. It includes the exact rank-four confinement,

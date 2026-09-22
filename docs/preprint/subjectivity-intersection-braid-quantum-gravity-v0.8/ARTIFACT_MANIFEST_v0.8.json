@@ -1,0 +1,41 @@
+{
+  "schema": "siel-preprint-artifact-manifest-v1",
+  "title": "Subjectivity-Intersection Braid Quantum Gravity: A Constructive Refutation of Objectivist Primacy from Source-Derived Quantum Dynamics to the Einstein Limit",
+  "version": "0.8",
+  "date": "2026-09-23",
+  "status": "PUBLIC_GITHUB_WORKING_PREPRINT_ZENODO_PENDING",
+  "canonical_document": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.8.pdf",
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.8.pdf",
+      "role": "canonical_full_preprint",
+      "pages": 21,
+      "bytes": 288850,
+      "page_size": "A4",
+      "sha256": "e0aa9d5ce842066e64f81bf2a3dbe27fd29da1fb79a781e8d948afb49706b522"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.8.tex",
+      "role": "canonical_full_source",
+      "sha256": "f84a82e33947811b6c37ed411334ddfaf4a8a205633f2a1f264e7485a75d42ce"
+    }
+  ],
+  "source_research_snapshot": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "commit": "21ec10d58d9cd26ea95939bca5bde42757ca6cd8",
+    "certificate_range": "BGCE261-BGCE311"
+  },
+  "zenodo": {
+    "deposit_state": "PENDING",
+    "version": "v0.8",
+    "concept_doi": "10.5281/zenodo.22693964",
+    "predecessor_version_doi": "10.5281/zenodo.22732287"
+  },
+  "boundaries": [
+    "No peer review or journal acceptance",
+    "Not a completed or empirically validated quantum-gravity theory",
+    "Full finite Lorentzian quantum backreaction remains open",
+    "Four-component discrete total Ward balance remains open",
+    "Ultraviolet completion and physical-unit calibration remain open"
+  ]
+}
