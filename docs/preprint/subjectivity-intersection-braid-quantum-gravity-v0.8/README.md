@@ -2,8 +2,9 @@
 
 This directory contains the canonical full v0.8 working preprint and its public verification materials.
 
-- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.8.pdf` is the 21-page canonical manuscript.
+- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.8.pdf` is the 35-page canonical manuscript.
 - `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.8.tex` is its LaTeX source.
+- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex` preserves the still-operative v0.7 derivation detail used by v0.8 while omitting superseded bridge status and discarded routes.
 - `CHANGELOG_v0.8.md` records the change from v0.7.
 - `CLAIM_EVIDENCE_MATRIX_v0.8.md` separates exact results, scoped derivations, negative results, and open claims.
 - `ARTIFACT_MANIFEST_v0.8.json` records the immutable file identities used for the release.
@@ -17,6 +18,8 @@ In one fixed pointed-Braid source model, v0.8 constructs a source-derived four-d
 The relative factor `3/5` is inherited from the fixed source routing rather than inserted manually. The Einstein equation is derived only in the declared long-wavelength, local, second-order, formally self-adjoint, conservative class. The manuscript remains a mathematically explicit quantum-gravity candidate, not a completed or empirically validated theory. Full finite Lorentzian quantum backreaction, four-component discrete Ward balance, ultraviolet completion, a calibrated Newton constant, Standard Model embedding, and empirical gravity remain open.
 
 The title-level philosophical conclusion is likewise scoped: the construction refutes the universal necessity of objectivist primacy as a starting assumption. It does not refute mind-independent reality, establish consciousness, or show that nature realizes this model.
+
+The manuscript is English-only. A Japanese abstract that appeared in the first compressed assembly was removed before Zenodo publication. Still-operative v0.7 derivations were restored, while obsolete routes were intentionally omitted.
 
 ## Version relation
 

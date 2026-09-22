@@ -8,9 +8,6 @@
 \setsansfont{Arial}
 \setmonofont{Menlo}
 \setmathfont{STIX Two Math}
-\newfontfamily\japanesefont{Hiragino Mincho ProN}
-\XeTeXlinebreaklocale "ja"
-\XeTeXlinebreakskip=0pt plus 1pt
 \usepackage{microtype}
 \usepackage{booktabs,tabularx,longtable,array}
 \usepackage{enumitem}
@@ -50,7 +47,9 @@
 \newtheorem{remark}[theorem]{Remark}
 
 \newcommand{\cA}{\mathcal{A}}
+\newcommand{\cC}{\mathcal{C}}
 \newcommand{\cE}{\mathcal{E}}
+\newcommand{\cG}{\mathcal{G}}
 \newcommand{\cS}{\mathcal{S}}
 \newcommand{\Sym}{\operatorname{Sym}}
 \newcommand{\rank}{\operatorname{rank}}
@@ -60,6 +59,8 @@
 \newcommand{\OPT}{\mathsf{OP}}
 \newcommand{\MMR}{\mathsf{MMR}}
 \newcommand{\CGR}{\mathsf{CGR}}
+\newcommand{\CP}{\mathsf{CP}}
+\newcommand{\GOT}{\mathsf{GO}}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -111,22 +112,6 @@ The theorem is scoped. The finite-to-continuum residual is proved only as $O(h)$
 \end{abstract}
 
 \noindent\textbf{Keywords:} Subjectivity-Intersection Braid Quantum Gravity; quantum gravity candidate; pointed braid; generated objectivity; objectivist primacy; Lorentz signature; emergent spacetime; Einstein equation; metric-affine gravity; Ward identity.
-
-{\japanesefont
-\section*{\japanesefont 日本語要旨}
-
-本稿は、主観交差Braidを根底とする量子重力候補のフル版v0.8を提示する。ここで「主観」は意識ではなく、アクセス・輸送・表示の位置づけられた様態を意味する。異なる立場を消去せず、その交差から共有可能なLorentz時空carrierが生成される、という存在論的順序を有限source模型として実装する。
-
-v0.7までに、Braid event moment $Q_4$、source因果反転$J_{\rm ray}$、Lorentz carrier $K_{\rm evt}=J_{\rm ray}Q_4$、固定模型内のMMR2解除、十個の物質応答、および手動設定でない相対係数$3/5$が得られていた。v0.8では、このcarrierを作用、連続テンソル、stress/Ward、backreactionへ接続した。refinement clockはrate $2\pi/3$を固定し、source continuationはIR Lorentz principal tensorを選ぶ。八つのsource sector上の有限$GL(4)$輸送とnonmetricityは、Gibbs変形、event-cylinder chain rule、全24 chartのgluing、local $GL(4)$自然性を経て連続tensor fieldとなる。BKM水平条件は計量変化に対応する有限Markov rateを一意にし、その接続は45/45の二平面でflat、有限指数leafへ積分可能である。
-
-さらにsource-product型がmetric solderを一意化し、co-moving grading $J(Q,\tau)$が固定gradingで欠けた時間空間混合三方向を回復する。これにより、宣言した長波長・局所・二階・形式的自己共役・保存的クラス内で、有限Braid作用の変分からHilbert stressとon-shell Ward保存則が導かれ、同じmetricを変分するsource-native重力作用との結合から
-\[
-G_{\mu\nu}(g)=\frac35T_{\mu\nu}(g,\lambda)
-\]
-が得られる。flat二次極限は四次元massless spin-2のFierz--Pauli gauge classであり、物理helicityは二つである。
-
-ただし完成量子重力ではない。有限から連続への残差は現状$O(h)$、full finite Umegaki/Jeffreys作用は標準one-link reflection positivityを満たさない。source-native GKSL発展はright-tail環境によるStinespring表示とtotal $G1$保存を持つが、三つのspatial defectはenvironment-only charge rangeの外にある。したがってfull finite Lorentzian backreactionと四成分discrete Wardは未完である。客観的Lorentz構造を原始的に置くことがあらゆる構成で必要だという「客観主義的優先性」は構成的に反証されるが、自然界での実現、意識、経験的重力を証明したとは主張しない。
-}
 
 \section{What changed from v0.7}
 
@@ -855,6 +840,13 @@ The result is not promoted beyond its proof. The finite residual is only bounded
 
 The philosophical conclusion is constructive. Objective Lorentz structure, conserved stress, and a classical gravity limit need not be primitive in every exact model; they can be generated from nonidentical, marked, standpoint-bearing processes and their lawful intersection. Objectivity is retained as stable public invariance. What is rejected is its universal ontological priority. The physical conclusion is correspondingly measured: this is a serious and increasingly complete Braid quantum-gravity candidate, not yet a completed or empirically validated theory.
 
+\appendix
+\section*{Retained v0.7 derivation detail}
+
+The following appendices retain the still-operative finite-source, locality, metric-affine, action, tensor-carrier, regeneration, comparison, falsification, and objection analyses on which the v0.8 advance depends. Superseded v0.7 bridge status, the old conditional MMR2/SDPC route, and routes later reversed or replaced are not reproduced here. The v0.8 main text above is the sole current claim ledger.
+
+\input{SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex}
+
 \section*{Data, code, and provenance}
 
 The exact certificates and replay scripts are stored in the SIEL Research Agent repository,
@@ -918,6 +910,39 @@ S. Watanabe, \emph{Subjectivity-Intersection Mathematics: All-Orders Intersectio
 
 \bibitem{watanabe2026ontology}
 S. Watanabe, \emph{Subjectivity Intersection Ontology: A Comparative Ontological Framework for Third Subjectivity}, version 1.0.0, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.21641878}{doi:10.5281/zenodo.21641878}.
+
+\bibitem{bilsonthompson2005}
+S. O. Bilson-Thompson, ``A topological model of composite preons,'' arXiv:hep-ph/0503213 (2005). \href{https://doi.org/10.48550/arXiv.hep-ph/0503213}{doi:10.48550/arXiv.hep-ph/0503213}.
+
+\bibitem{etingof1998}
+P. Etingof, T. Schedler, and A. Soloviev, ``Set-theoretical solutions to the quantum Yang--Baxter equation,'' \emph{Duke Mathematical Journal} \textbf{100}(2), 169--209 (1999). \href{https://arxiv.org/abs/math/9801047}{arXiv:math/9801047}.
+
+\bibitem{feynmanvernon1963}
+R. P. Feynman and F. L. Vernon, Jr., ``The theory of a general quantum system interacting with a linear dissipative system,'' \emph{Annals of Physics} \textbf{24}, 118--173 (1963). \href{https://doi.org/10.1016/0003-4916(63)90068-X}{doi:10.1016/0003-4916(63)90068-X}.
+
+\bibitem{hawkins2003}
+E. Hawkins, F. Markopoulou, and H. Sahlmann, ``Evolution in quantum causal histories,'' \emph{Classical and Quantum Gravity} \textbf{20}, 3839--3854 (2003). \href{https://arxiv.org/abs/hep-th/0302111}{arXiv:hep-th/0302111}.
+
+\bibitem{hayden2004}
+P. Hayden, R. Jozsa, D. Petz, and A. Winter, ``Structure of states which satisfy strong subadditivity of quantum entropy with equality,'' \emph{Communications in Mathematical Physics} \textbf{246}, 359--374 (2004). \href{https://arxiv.org/abs/quant-ph/0304007}{arXiv:quant-ph/0304007}.
+
+\bibitem{jacobson1995}
+T. Jacobson, ``Thermodynamics of spacetime: The Einstein equation of state,'' \emph{Physical Review Letters} \textbf{75}, 1260--1263 (1995). \href{https://doi.org/10.1103/PhysRevLett.75.1260}{doi:10.1103/PhysRevLett.75.1260}.
+
+\bibitem{massimi2023}
+M. Massimi, ``Epistemic communities and their situated practices: Perspectival realism---a primer,'' \emph{Annals of the New York Academy of Sciences} \textbf{1523}, 5--10 (2023). \href{https://doi.org/10.1111/nyas.14981}{doi:10.1111/nyas.14981}.
+
+\bibitem{nagel1986}
+T. Nagel, \emph{The View from Nowhere}. Oxford University Press (1986).
+
+\bibitem{rideout1999}
+D. P. Rideout and R. D. Sorkin, ``Classical sequential growth dynamics for causal sets,'' \emph{Physical Review D} \textbf{61}, 024002 (1999). \href{https://doi.org/10.1103/PhysRevD.61.024002}{doi:10.1103/PhysRevD.61.024002}.
+
+\bibitem{wald1984}
+R. M. Wald, \emph{General Relativity}. University of Chicago Press (1984).
+
+\bibitem{watanabe2026sim}
+S. Watanabe, \emph{Subjectivity-Intersection Mathematics Public Working Preprint v4.2 Draft}, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.21909933}{doi:10.5281/zenodo.21909933}.
 
 \end{thebibliography}
 

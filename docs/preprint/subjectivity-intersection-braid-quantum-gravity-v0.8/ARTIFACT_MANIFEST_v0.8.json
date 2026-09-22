@@ -9,15 +9,20 @@
     {
       "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.8.pdf",
       "role": "canonical_full_preprint",
-      "pages": 21,
-      "bytes": 288850,
+      "pages": 35,
+      "bytes": 282060,
       "page_size": "A4",
-      "sha256": "e0aa9d5ce842066e64f81bf2a3dbe27fd29da1fb79a781e8d948afb49706b522"
+      "sha256": "a569848c097a5d90b80047048edb1d3b5b9dd77cd753c3b2344b7b61ad266129"
     },
     {
       "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.8.tex",
       "role": "canonical_full_source",
-      "sha256": "f84a82e33947811b6c37ed411334ddfaf4a8a205633f2a1f264e7485a75d42ce"
+      "sha256": "5e5ea89dd37db493a88e55994ef1ca8150886e500fd22aba1feaa0a32a043b49"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex",
+      "role": "retained_currently_operational_v0.7_derivation_detail",
+      "sha256": "a36e0e3c36732d0ea268bf4dd777792fae9a9c66c5c9f4b0d617c393f79c3d17"
     }
   ],
   "source_research_snapshot": {

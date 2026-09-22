@@ -4,10 +4,11 @@ Date: 2026-09-23
 
 ## Manuscript restoration
 
-- Expanded the manuscript from 13 to 21 A4 pages rather than replacing v0.7 with a compressed summary.
+- Corrected the first compressed v0.8 assembly and restored a 35-page A4 full version.
+- Retained the still-operative detailed derivations from the canonical v0.7 full manuscript as a version-labelled appendix while omitting superseded bridge status and discarded routes.
 - Preserved the title-level claim: “A Constructive Refutation of Objectivist Primacy.”
 - Preserved the exact distinction `subjectivity != consciousness`.
-- Added a full Japanese abstract aligned with the English abstract and claim ceiling.
+- Kept the manuscript English-only and removed the mistakenly embedded Japanese abstract.
 
 ## New positive results integrated
 
