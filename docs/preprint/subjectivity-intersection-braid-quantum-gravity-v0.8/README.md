@@ -27,6 +27,14 @@ v0.8 supersedes v0.7 as the current full manuscript but does not overwrite any e
 
 ## Release status
 
-`PUBLIC_GITHUB_WORKING_PREPRINT_ZENODO_PENDING`.
+`DEPOSITED_PUBLIC`.
 
-The exact PDF in this directory is authorized for deposit as Zenodo version v0.8 in the existing Braid quantum-gravity preprint series. The final DOI and verified remote checksum will be added after the public Zenodo record is issued.
+The exact PDF in this directory was published as Zenodo version v0.8 in the existing Braid quantum-gravity preprint series on 2026-09-23.
+
+- Version DOI: [`10.5281/zenodo.22735310`](https://doi.org/10.5281/zenodo.22735310)
+- Concept DOI: [`10.5281/zenodo.22693964`](https://doi.org/10.5281/zenodo.22693964)
+- Public record: <https://zenodo.org/records/22735310>
+- PDF MD5: `075a9013c7387557a3d5c24605e953eb`
+- PDF SHA-256: `a569848c097a5d90b80047048edb1d3b5b9dd77cd753c3b2344b7b61ad266129`
+
+Zenodo reports the record as an open-access `Preprint` under `CC-BY-4.0`. The remote filename, byte count, and MD5 exactly match this repository copy.

@@ -2,6 +2,8 @@
 
 Date: 2026-09-23
 
+Public release: [Zenodo DOI 10.5281/zenodo.22735310](https://doi.org/10.5281/zenodo.22735310). The published PDF is 282,060 bytes and has MD5 `075a9013c7387557a3d5c24605e953eb`, matching the repository artifact.
+
 ## Manuscript restoration
 
 - Corrected the first compressed v0.8 assembly and restored a 35-page A4 full version.
