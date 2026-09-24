@@ -1,0 +1,547 @@
+\section{A source-first pointed-braid setting}
+
+\subsection{Finite source, nonterminal law}
+
+Let $\cA_n=M_{5^n}(\mathbb C)$ denote the finite matrix algebra at stage $n$, with the refinement
+\begin{equation}\label{eq:refinement}
+ j_n:\cA_n\longrightarrow\cA_{n+1},\qquad j_n(X)=X\otimes I_5.
+\end{equation}
+Every stage is finite. The sequence has no terminal stage. This distinction is important: a nonterminal tower is not, by itself, a continuum, an infinite-mode quantum field, or physical spacetime. It supplies an exact setting in which one law can be tested at arbitrarily many finite stages.
+
+The source is pointed and braided: it carries a distinguished state and typed unitary braid transports satisfying the declared Yang--Baxter, insertion, and composition laws. The all-orders endpoint-consistency theorem and the positive bilateral response operators were established previously \cite{watanabe2026braid}. The present paper uses that source theorem but does not infer physical subjectivity from it.
+
+The computational realization contains eight signed source sectors. Each sector supplies the primitive source packet
+\begin{equation}\label{eq:sourcepacket}
+ Q_2=(R,H,F,P),
+\end{equation}
+where the symbols denote the registered relation and source fields, not independently fitted target geometry. Three selected signed-braid generators act as commuting involutions on the certified orbit. From one four-state source slice they generate the opposite slice. Exact checks recover all 12 declared source updates, signed relations, clock fields, and associated source covectors; the identity-map comparator fails in all 12 cases.
+
+\subsection{Source-native geometry before the present carrier}
+
+The relevant prior source chain is
+\begin{equation}\label{eq:sourcechain}
+ (R,H,F,P)
+ \longrightarrow \text{signed-braid source orbit}
+ \longrightarrow \text{affine split-frame geometry}
+ \longrightarrow \text{coframe and holonomy}.
+\end{equation}
+The end-to-end constructor uses no stored future geometry. It reconstructs the connection data, split-frame defect, current term, affine edge, future spatial edges, and future faces from the predicted source relation. In the certified fixed orbit it recovers 12/12 source-slice updates, 24/24 affine edges, 24/24 future spatial edges, and 6/6 future faces exactly. Removing either of two required source sectors breaks the corresponding controls.
+
+This result removes one important circularity: the geometry used below is not inserted as a target answer and then redescribed as braid-generated. It is the output of the registered finite source constructor. The constructor remains global on the fixed finite orbit rather than a strictly local Cauchy law. Version 0.5 separately removes the numerical ambient-dimension input at the carrier layer, as follows.
+
+\subsection{A target-free $1+3$ carrier and its affine completion}
+
+Let the source-derived observer quotient be $Q_{\mathrm{obs}}=V_4$, with intrinsic affine action
+\[
+ \operatorname{AGL}(2,2)\cong S_4.
+\]
+Start over the rational source layer and let $W_{\mathbb Q}=\mathbb Q^{V_4}$ be the space of observer readouts. Impose three explicit admissibility conditions: the readout contains the constant order unit, separates all four quotient states, and is invariant under the full intrinsic affine action. The $S_4$ permutation commutant is spanned by $I$ and the all-ones matrix $J$. Its equivariant idempotents have ranks $0,1,3,4$. Unitality excludes ranks $0$ and $3$, while point separation excludes rank $1$. Therefore the minimal admissible readout is the full carrier, without supplying a target dimension:
+\begin{equation}\label{eq:source13}
+ W_{\mathbb Q}=\mathbb Q\id\oplus W_0,
+ \qquad \dim(\mathbb Q\id,W_0)=(1,3).
+\end{equation}
+The three-space $W_0$ is the irreducible mean-zero representation. All 24 affine observer actions preserve this split.
+
+The finite Braid data do not by themselves contain the real numbers as a completed scalar field. We therefore state one completion principle explicitly.
+\begin{assumption}[Observer Uniform Cauchy Closure]\label{ass:rc}
+Observer readouts and the marked clock direction are closed under uniform Cauchy limits without adding independent observer directions.
+\end{assumption}
+Under Assumption~\ref{ass:rc}, scalar completion gives
+\begin{equation}\label{eq:affinecompletion}
+ W=\mathbb R^{V_4}=\mathbb R\id\oplus W_{0,\mathbb R},
+ \qquad \dim W=4,
+\end{equation}
+with the same $1+3$ split. Every finite-dimensional real vector space canonically determines an affine smooth carrier $\operatorname{Aff}(W)$: choosing an origin gives a global chart, changing that origin is only a translation, and
+\begin{equation}\label{eq:tangentW}
+ T_x\operatorname{Aff}(W)\cong W
+\end{equation}
+for every $x$. Thus neither the numeral four nor a separate ambient four-manifold is a primitive mathematical input. A declared cup/null composition additionally gives the dimensionless Lorentz form
+\begin{equation}\label{eq:cupmetric}
+ g_D=\frac{16}{75}\operatorname{diag}(-3,1,1,1),
+\end{equation}
+whose four evaluation rays are null. Physical rods, seconds, nonconstant curvature, and the identification of points of $\operatorname{Aff}(W)$ with physical events do not follow from this algebraic completion.
+
+The source path and the carrier have different roles. The path indexes inclusions and disjoint supports in the operator net; it is not renamed as three spatial axes. The three relative directions in Eq.~\eqref{eq:source13} are internal observer-readout directions. Later finite-event audits establish a distinct formal event identification inside the fixed mathematical model without claiming calibration to physical spacetime.
+
+\subsection{The source also closes a finite gravity equation}
+
+The source-native construction does not stop at a static geometry. On each certified edge $(m,d)$ it obeys the exact first-order coframe equation
+\begin{equation}\label{eq:finitegravity}
+ E_{m\oplus d}=C_{m,d}E_mR_d+K_{m,d}[C,j,F],
+\end{equation}
+with the second covariant face closure
+\begin{equation}\label{eq:curvatureclosure}
+ D_CK=F_CE.
+\end{equation}
+Here $C_{m,d}$ is the source-generated ECDR/BSFG connection, $R_d$ reverses the crossed generator orientation, $j$ is the IBC current, $F$ is the affine face curvature recomputed from $(C,j)$, and $K[C,j,F]$ is the coframe source that cannot be produced by invertible transport alone.
+
+On the fixed eight-source orbit, Eq.~\eqref{eq:finitegravity} recovers 24/24 future coframes, 24/24 nonzero source terms, and all future ranks exactly; Eq.~\eqref{eq:curvatureclosure} holds on 12/12 faces and is nonzero on 10/12. Transport without $K$ fails on all 12 rank-changing edges, while zeroing the curvature fails on all 40 nonzero-curvature columns. The source term is therefore not a removable decoration of a stored geometry.
+
+For the induced spatial Gram matrix $G_m=E_m^{\mathsf T}g_mE_m$, the same update yields the finite metric-affine equation
+\begin{equation}\label{eq:metricaffinegravity}
+ \boxed{
+ G_n=R_e^{\mathsf T}G_mR_e
+ +\mathcal N_{e,E}+\mathcal L_{e,K}+\mathcal Q_{e,K}}
+\end{equation}
+with
+\begin{align}
+ \mathcal N_{e,E}
+ &=R_e^{\mathsf T}E_m^{\mathsf T}
+   (C_e^{\mathsf T}g_nC_e-g_m)E_mR_e,\\
+ \mathcal L_{e,K}
+ &=(C_eE_mR_e)^{\mathsf T}g_nK_e
+   +K_e^{\mathsf T}g_n(C_eE_mR_e),\\
+ \mathcal Q_{e,K}&=K_e^{\mathsf T}g_nK_e.
+\end{align}
+All three terms are nonzero and separately necessary on 24/24 edges. Thus the connection's nonmetricity, the source-linear response, and the finite source-quadratic response cannot be collapsed into one another. This is a source-generated finite gravitational dynamics in the declared model. Its packet lifts by one fixed law to every finite braid stage, but only as a stage-compatible cylinder section: it does not yet generate new local spacetime cells.
+
+Equations~\eqref{eq:finitegravity}--\eqref{eq:metricaffinegravity} are not themselves the Einstein equation $G_{\mu\nu}=\kappa T_{\mu\nu}$. Calling them finite Braid gravity equations records their exact source--geometry dynamics while preserving that distinction. The next construction gives a direct but explicitly conditional local connection to the Einstein equation.
+
+\section{From finite updates to source-generated locality}
+
+\subsection{A finite source-graph local net}
+
+At stage $n$, let $G_n$ be the graph whose vertices are tensor factors and whose edges join adjacent noncommuting Braid generators. In every certified signed sector, distant generators commute exactly and adjacent triples obey the Yang--Baxter relation. For a vertex set $U$, define
+\begin{equation}\label{eq:localnet}
+ \mathfrak A_n(U)=\operatorname{End}\!\left((\mathbb C^5)^{\otimes U}\right)\otimes I_{U^c}.
+\end{equation}
+Then $U\subseteq V$ implies $\mathfrak A_n(U)\subseteq\mathfrak A_n(V)$, disjoint supports commute, and a depth-$t$ adjacent-Braid update expands support by at most graph distance $t$. The refinement $j_n$ is strict and unital. These are exact finite isotony, locality, and finite-propagation statements on a source-generated graph. They are not yet Haag--Kastler locality on a Lorentzian manifold, and graph distance is not identified with physical distance.
+
+The positive Braid generator candidate
+\begin{equation}\label{eq:braidgenerator}
+ L_n^B=\sum_i\bigl(I-\Ad R_i\bigr)
+\end{equation}
+has a refinement-boundary defect
+\begin{equation}\label{eq:boundarydefect}
+ \Delta_n(X)=L_{n+1}^Bj_n(X)-j_nL_n^B(X).
+\end{equation}
+Its normalized boundary reduction is nonzero in all eight sectors, has 41 nonzero matrix entries and squared Frobenius norm $108/5$, fills all six registered boundary-response channels, and returns to zero after the inverse crossing. Thus the stable carrier and the local generation event are distinct outputs of the same source lineage.
+
+\subsection{A finite Ward law before physical stress-energy}
+
+The boundary response, the existing IBC edge data, and the ordered-edge memory admit a six-component cell variable. If $d_n$ is the incidence matrix of the stage path, $D_n=d_n\otimes I_6$, and $H$ is the exact rank-six cell Gram matrix, define
+\begin{equation}\label{eq:wardaction}
+ \mathcal S_n(q)=\frac12(D_nq)^{\mathsf T}(I_{n-1}\otimes H)(D_nq),
+ \qquad
+ L_n=D_n^{\mathsf T}(I_{n-1}\otimes H)D_n.
+\end{equation}
+For every $n\ge2$,
+\begin{equation}\label{eq:wardkernel}
+ \rank L_n=6(n-1),\qquad
+ \ker L_n=\mathbf1_n\otimes\mathbb F^6,
+ \qquad
+ (\mathbf1_n^{\mathsf T}\otimes I_6)L_n=0.
+\end{equation}
+The last identity is an exact all-finite-stage constant-shift Ward law. For every graph interval, interior edge fluxes cancel and only the two cut-boundary fluxes remain. The incidence mechanism is not uniquely Braid-specific; the Braid-specific content lies in the rank-six cell packet and its actual-versus-flip response. Equation~\eqref{eq:wardkernel} is weaker than stress-energy conservation and does not constitute a spacetime Bianchi identity.
+
+\section{Continuous cells and the native metric-affine sector}
+
+\subsection{Stable-square gluing, metric faces, and curvature}
+
+The finite edge transports can be glued on stable squares with exact agreement on overlaps. On the source-native cubical cells, the generated Gram data admit continuous face representatives, and their compatible edge transports define a continuous connection with nonzero rank-four curvature on the certified face packet. A common projective timelike line and a $1\oplus3$ splitting can then be selected consistently on the regular sector. The induced spatial connection retains nonzero curvature.
+
+These statements produce continuous representatives on certified finite cells; they do not derive a global smooth manifold, an arbitrary-field connection, or a physical continuum limit. A separate refinement analysis also shows why this distinction matters: the current tensor-tower embedding preserves packets but does not subdivide geometric edges, while the exact affine edge refinement is endpoint-blind to the nonuniform off-shell defects needed to select an action by refinement alone.
+
+\subsection{Torsion and nonmetricity are not removable errors}
+
+The full source connection splits into a metric-compatible polar core and a metric-symmetric part. Both curvature components scale at the same leading area order on the presently covered regular faces. Neither the tested perturbative contortion correction nor the exact finite single-face torsion-free ansatz closes. The unmodified construction therefore does not converge to the Levi--Civita connection.
+
+This negative result selects a wider native geometry rather than eliminating gravity. Write the regular-face source coordinate as
+\begin{equation}\label{eq:polar}
+ \widehat K=I-A,\qquad A=UP.
+\end{equation}
+With $\epsilon=\operatorname{sign}\det U$, $R=\epsilon U$, $\rho=(\det P)^{1/3}$, and $S=\rho^{-1}P$, one has the unique reconstruction
+\begin{equation}\label{eq:hypermomentum}
+ A=\epsilon R\rho S,qquad \det S=1.
+\end{equation}
+The connected sectors have dimensions
+\begin{equation}\label{eq:315}
+ \underbrace{3}_{\text{rotation}}
+ +\underbrace{1}_{\text{dilation}}
+ +\underbrace{5}_{\text{unimodular shear}},
+\end{equation}
+together with the discrete parity $\epsilon$. All three continuous sectors are nontrivial in all 16 regular-face records, and their product reconstructs $A$ exactly. This is precisely the representation type expected for a post-Riemannian affine source. The names ``spin,'' ``dilation current,'' and ``shear hypermomentum'' are not physical identifications here; no matter current has yet been measured or derived.
+
+\subsection{Stratified junctions}
+
+Rank-changing paths do not destroy the entire tangential metric. At the four exceptional junction records, after removal of the declared endpoint double zero, the determinant is exactly a nonzero constant times $(t-r)^2$ over $\mathbb Q(\sqrt{17})$, with $0<r<1$ in both real embeddings. At $r$ the full Gram matrix has rank two and inertia $(0,2,1)$: two positive directions and one zero direction, with no negative direction. The metric is positive definite on both adjacent open intervals. The isolated event is therefore a codimension-one channel loss with a positive two-dimensional quotient, not a collapse of the tangential sector. Interpreting it as physical dimension creation would require an additional bridge and is not claimed.
+
+\section{A source-native finite first-order action}
+
+\subsection{Why a metric-only action is insufficient}
+
+The full Braid boundary load decomposes into zero clock response and nonzero rotation, dilation, and shear responses. A functional depending on the spatial coframe $E$ only through the Gram matrix $E^{\mathsf T}gE$ has variation in the six-dimensional image
+\begin{equation}\label{eq:metricimage}
+ \{gES:S^{\mathsf T}=S\}.
+\end{equation}
+The rotation response lies instead in the independent three-dimensional image
+\begin{equation}\label{eq:rotationimage}
+ \{gER:R^{\mathsf T}=-R\}.
+\end{equation}
+The two images intersect only at zero, while the certified full load has nonzero components in both. Therefore the source response cannot be generated by a metric-only action. Coframe and connection variables must remain independent at the finite level.
+
+\subsection{The full-trace action}
+
+For each oriented face $f$, let $\mathcal R_f$ denote the history-dressed linear curvature obtained from the two ordered boundary paths, let $E_f$ denote the corresponding source-generated base coframe, let $E_\top$ be the common-top coframe, and let $g_\top$ be the generated top metric. The source-native full-trace action is
+\begin{equation}\label{eq:fullaction}
+ \mathcal S_{\mathrm{B}}[E,C,g]
+ =\sum_{f\subset\partial\mathcal C}
+ \sigma_f\,\Tr\!\left(E_\top^{\mathsf T}g_\top\,\mathcal R_f[C]E_f\right),
+\end{equation}
+where $\sigma_f$ is the orientation fixed by the cell boundary. Equal column weights are forced, up to one overall scale, by covariance under the generating permutations of the three spatial columns. No face weight, sector weight, prefix-dependent scale, X51 residual, or Einstein tensor is used.
+
+On the certified packets, the action is nonzero for both prefixes. Its analytic coframe variation agrees with exact central differences in 192/192 components, and its analytic connection variation agrees in 384/384 components. The top coframe Euler response reproduces the independently frozen full boundary solder for both prefixes, including the rotation, dilation, and shear sectors. The connection Euler response is nonzero on all 12 active edges for each prefix. Thus one finite action produces both coframe and connection equations.
+
+The action is not a fitted scalarization of the affine translation block. Affine-origin invariance eliminates the translation scalar and selects the linear coframe-curvature pairing up to normalization. Earlier direct attempts to identify a face scalar, a Cartan three-cell scalar, or a full curvature solder with the prior X51 residual all failed by exact non-collinearity. Those no-go results are retained: Eq.~\eqref{eq:fullaction} is justified by its own source covariance and variation, not by reverse-engineering X51.
+
+\subsection{Exact local-frame Noether identity}
+
+Let $\mathcal E_E$, $\mathcal E_C$, and $\mathcal E_g$ denote the coframe, connection, and top-metric Euler responses of Eq.~\eqref{eq:fullaction}. Under a local infinitesimal frame change at a vertex, the incident coframes and connections transform together. Invariance of the action gives the matrix identity
+\begin{equation}\label{eq:noether}
+ \mathcal N_v(\mathcal E_E,\mathcal E_C,\mathcal E_g)=0
+\end{equation}
+at every vertex, where $\mathcal N_v$ is the signed sum of the coframe contribution, incident incoming and outgoing connection contributions, and, at the top vertex, the metric contribution. The identity holds exactly at all 14 non-top vertex tests and both top-vertex tests. With $g_\top$ fixed, the full $GL(4)$ identity fails as it should, while all 12 tested generators preserving $g_\top$ retain the Lorentz-type subidentity. Finite local-frame covariance also passes 16/16 tests.
+
+Equation~\eqref{eq:noether} removes the previous absence of an action-level conservation structure. It does not make the Euler responses vanish. A Noether identity relates field equations; it is not itself a solved field equation or a physical energy current.
+
+\subsection{A covariant-defect variational connector}
+
+The existing IBC, ECDR, BODC, and history-curvature library was tested as a possible independent balance action. A fixed opposite source cancels the action value, top-coframe response, and metric response at the evaluated point, but leaves eight base-coframe masks and 24 connection-edge responses. Recomputing the opposite term dynamically cancels everything only because it makes the total action identically zero. That is a tautological negative copy, not an independent physical source.
+
+The resulting no-go did not establish that the Braid source lacks a variational connector. On an oriented edge $e=(m,d)$ with high vertex $n=m\oplus d$, define the independently generated covariant coframe defect
+\begin{equation}\label{eq:defectconnector}
+ K_e=E_n-C_eE_mR_d.
+\end{equation}
+This is the same X36 defect reconstructed from the source on all 24 certified edges. Its coefficient-one quadratic action is
+\begin{equation}\label{eq:defectaction}
+ \mathcal S_{\mathrm D}[E,C,g]
+ =\frac12\sum_e\Tr\!\left(K_e^{\mathsf T}g_nK_e\right).
+\end{equation}
+It was frozen without reading the curvature-action Euler residual, X51, or any Einstein tensor.
+
+The connector is nontrivial and off shell. Its exact analytic derivatives agree with central differences in 832/832 tested entries across coframe, connection, and metric slots. The induced map has rank 12 on every full defect space and rank 8 on every traversed-column-zero source subspace; the actual cotangent image is nonzero on 24/24 edges. Finite local-frame covariance holds in 16/16 tests, the infinitesimal vertex Noether identities hold in 256/256 tests, and both off-shell perturbations change the action. Thus Eq.~\eqref{eq:defectaction} supplies the previously missing source-to-cotangent typing without fitting a negative copy.
+
+The current result is therefore
+\begin{equation}\label{eq:frontier}
+ \boxed{
+ \text{Braid source}\to\text{geometry}
+ \to\bigl(\mathcal S_{\mathrm B},\mathcal S_{\mathrm D}\bigr)
+ \to T^*_{(E,C,g)},
+ \qquad
+ \delta\!\left(\mathcal S_{\mathrm B}+\mathcal S_{\mathrm D}\right)=0
+ \ \text{untested}.}
+\end{equation}
+This retained finite-action calculation supplies the source-to-cotangent typing used by the later v0.8 analysis. Its historical coefficient-one stationarity question is no longer presented as the current completion route: the main text replaces that route with source-selected continuum action, typed solder, Hilbert stress, and Ward results in the declared infrared class. Exact full-finite stationarity remains a distinct ultraviolet question.
+
+\section{Why scalar invariants are not enough}
+
+\subsection{Soldered source holonomy}
+
+For each prefix $p\in\{A,B\}$, let
+\[
+ E_p\in\operatorname{Mat}_{4\times3}(\mathbb R),\qquad
+ \rank E_p=3,
+\]
+be the source-generated coframe, let $g_p\in\operatorname{Mat}_{4\times4}(\mathbb R)$ be the ambient symmetric form, and let $H_p\in GL_3$ be the internal face holonomy. Define the Gram matrix
+\begin{equation}\label{eq:gram}
+ M_p=E_p^{\mathsf T}g_pE_p,
+\end{equation}
+assumed invertible on the certified regular stratum.
+
+The source-only update has two independently meaningful descriptions. The internal path mismatch is $H_p$, while the ambient coframe curvature is the difference between the two source-generated paths to the same face. Exact certificates show, in every one of the eight face packets, that both paths reach the same target coframe while the internal holonomy is nonidentity, and that the internal action, ambient curvature action, and source curl agree. A zero-source control fails in all eight packets.
+
+This is not yet Riemann curvature or Einstein gravity. It is a finite source-only holonomy/curvature identity on a regular stratum. Its role here is to provide directional data that is both nontrivial and traceable to the braid source.
+
+\subsection{The scalar route and its exact obstruction}
+
+Conjugacy-invariant characteristic data of $H_A$ and $H_B$ provide three scalar channels per prefix. The product of their characteristic polynomials gives six nonleading coefficients that are invariant under exchange $A\leftrightarrow B$ and distinguish both one-sided collapses in the certified packets. This is a valid relational readout, but it discards direction.
+
+The loss is not merely aesthetic. For the declared signed-permutation frame group acting on $\Sym_3$, the fixed subspace is one-dimensional, spanned by the identity. Therefore any full-frame-equivariant linear map from six trivially transforming scalar channels into one anisotropic $\Sym_3$ block has rank at most one. The exact intertwiner calculation has constraint rank 30, a six-dimensional map space, and maximum anchor rank one. Moreover, the original modular residues have no unique real lift and carry no stage index.
+
+\begin{proposition}[Scalar-anchor no-go]\label{prop:nogo}
+Within the declared linear, signed-permutation-equivariant anchor class, six presentation-invariant scalar channels cannot determine a full-rank anisotropic symmetric three-tensor. A covariant directional carrier must be formed before the directional information is quotiented away.
+\end{proposition}
+
+The proposition is scoped. It does not forbid nonlinear maps, separately typed scalar observables, or enriched covariant carriers. It instead identifies the exact repair used next.
+
+\section{The generated tensor carrier on the source-derived $1+3$ type}
+
+\subsection{Construction}
+
+The formulas below were originally written in a declared $\mathbb R^4$ basis. In v0.5 their coordinate-free type is the source-derived carrier $W$ of Eq.~\eqref{eq:affinecompletion}: $E_p\in\operatorname{Hom}(\mathbb R^3,W)$, $g_p\in\Sym^2(W^*)$, and $T_C\in\Sym^2(W)$. A chosen constant-plus-character basis identifies these spaces with the displayed $4\times3$ and $4\times4$ matrices. Thus the component calculations are unchanged while the numeral four is no longer a primitive target input.
+
+Retain the holonomy defect until it has been soldered to the ambient coframe:
+\begin{equation}\label{eq:defect}
+ D_p=E_p(I-H_p).
+\end{equation}
+Define
+\begin{equation}\label{eq:Tp}
+ T_p=D_pM_p^{-1}E_p^{\mathsf T}
+     +E_pM_p^{-1}D_p^{\mathsf T}\in\Sym_4(\mathbb R),
+\end{equation}
+and define the joint or intersection carrier
+\begin{equation}\label{eq:Tjoint}
+ T_C=T_A+T_B.
+\end{equation}
+
+The construction performs the quotient in the correct order. The inverse Gram matrix removes internal-basis dependence, while the coframe preserves ambient direction. Symmetrization yields a rank-two ambient carrier. Only then are the two standpoint contributions joined.
+
+\subsection{Transformation laws}
+
+Let $G_p\in GL_3$ be independent internal changes of basis. Under
+\begin{equation}\label{eq:internalgauge}
+ E_p\mapsto E_pG_p,\qquad
+ H_p\mapsto G_p^{-1}H_pG_p,
+\end{equation}
+we have $D_p\mapsto D_pG_p$ and $M_p\mapsto G_p^{\mathsf T}M_pG_p$. Substitution in Eq.~\eqref{eq:Tp} gives
+\begin{equation}\label{eq:gaugeinvariance}
+ T_p\mapsto T_p.
+\end{equation}
+Thus the carrier does not depend on either prefix's internal presentation.
+
+Let $L\in GL_4$ be an ambient basis change, with
+\begin{equation}
+ E_p\mapsto LE_p,\qquad g_p\mapsto L^{-\mathsf T}g_pL^{-1}.
+\end{equation}
+Then $M_p$ is unchanged and
+\begin{equation}\label{eq:ambientcovariance}
+ T_C\mapsto LT_CL^{\mathsf T}.
+\end{equation}
+This is covariance, not componentwise invariance: the object is stable while its components change tensorially.
+
+Finally, exchanging $A$ and $B$ leaves Eq.~\eqref{eq:Tjoint} unchanged. Crucially, exchange invariance is not identification of the two inputs. The certified prefix carriers are distinct, and replacing the pair by $(A,A)$, $(B,B)$, or identity holonomy changes the result.
+
+\begin{proposition}[Structural carrier properties]\label{prop:structural}
+Whenever $M_A$ and $M_B$ are invertible, $T_C$ is symmetric, invariant under independent internal $GL_3$ presentation changes, invariant under prefix exchange, and covariant by ambient congruence.
+\end{proposition}
+
+\begin{proof}
+Symmetry follows directly from Eq.~\eqref{eq:Tp}. The internal transformation rules imply
+\[
+ D_pG_p(G_p^{-1}M_p^{-1}G_p^{-\mathsf T})G_p^{\mathsf T}E_p^{\mathsf T}
+ =D_pM_p^{-1}E_p^{\mathsf T},
+\]
+and similarly for the transpose term. Exchange invariance follows from commutativity of addition. Ambient covariance follows by substituting $LE_p$ and $LD_p$ into Eq.~\eqref{eq:Tp}.
+\end{proof}
+
+\subsection{Exact finite certificate}
+
+\begin{theorem}[Certified joint-carrier theorem]\label{thm:x60}
+For the registered actual source packets and their source-generated geometry:
+\begin{enumerate}
+\item $T_A$ and $T_B$ are nonzero symmetric rank-three carriers;
+\item $T_C$ is nonzero, symmetric, and rank three;
+\item all ten native components of $T_C\in\Sym_4$ are nonzero;
+\item $T_C$ is exactly invariant under independently selected internal $GL_3$ gauges and under $A/B$ exchange;
+\item the congruence law in Eq.~\eqref{eq:ambientcovariance} holds exactly;
+\item $T_C$ differs from $2T_A$, $2T_B$, and the identity-holonomy zero control;
+\item all irrational $\sqrt{17}$ parts cancel, so $T_A,T_B,T_C$ descend exactly to rational matrices.
+\end{enumerate}
+\end{theorem}
+
+The theorem is an exact fixed-finite result, not a fitted numerical approximation. Items 4--6 jointly matter for the interpretation. Presentation redundancy disappears, ambient direction remains, and neither source standpoint is dispensable.
+
+The ten components have the same mathematical type as an existing ten-component metric-response interface in the larger unification program. Equality to that response, physical normalization, units, insertion into the 87-component state, and laboratory implementation have not been proved. Accordingly, $T_C$ is called a \emph{carrier}, not an observed metric or stress tensor.
+
+\section{Regeneration at every finite stage}
+
+\subsection{Observation mates}
+
+Let $\phi:M_5(\mathbb C)\to\mathbb C$ be any state satisfying $\phi(I_5)=1$, and define
+\begin{equation}\label{eq:obsmate}
+ E_\phi=\mathrm{id}\otimes\phi.
+\end{equation}
+Then
+\begin{equation}\label{eq:mateidentity}
+ E_\phi\circ j_n=\mathrm{id}_{\cA_n}.
+\end{equation}
+No tracial assumption is required on the refined range. The normalized trace, a point state, and a nontracial full-support state therefore recover the same embedded source record.
+
+For an observer word $w$ represented by a unitary $U_w$, define the co-moving refinement and readback
+\begin{equation}\label{eq:wordmaps}
+ J_{w,n}=\Ad(U_w)\circ j_n,
+ \qquad
+ E_{w,\phi}=E_\phi\circ\Ad(U_w^{-1}).
+\end{equation}
+Then $E_{w,\phi}J_{w,n}=\mathrm{id}$.
+
+Let $\cC_n$ denote the deterministic composite that maps the source packet at stage $n$ through the source-orbit constructor, geometry, holonomy, and Eq.~\eqref{eq:Tjoint} to its ten-component carrier.
+
+\begin{theorem}[All-finite-stage carrier naturality]\label{thm:x61}
+For every finite stage $n$, every declared observer word $w$, and every unital spectator-factor state $\phi$,
+\begin{equation}\label{eq:naturality}
+ \cC_{n+1}\circ J_{w,n}=\cC_n
+\end{equation}
+after the co-moving readback of Eq.~\eqref{eq:wordmaps}. The same carrier law and the same coefficients are used at every stage; no stage-dependent refit is permitted or required.
+\end{theorem}
+
+\begin{proof}
+Equation~\eqref{eq:mateidentity} recovers each refined source component exactly. Conjugating the refinement and composing with the inverse conjugation preserves that identity. The source-orbit, geometry, holonomy, and carrier maps are deterministic functionals of the recovered source packet, hence their composition recovers the same carrier. The exact regression checks cover eight actual source sectors, four source components, and three distinct observation states: 96/96 depth-one readbacks and 96/96 boundary co-moving re-entries. Representative depth-one and depth-two checks pass 6/6 with the same ten-channel carrier hash.
+\end{proof}
+
+The theorem is stronger than preservation under a chosen normalized trace: the carrier is independent of which unital spectator state is used on the refined range. It is also weaker than a physical continuum theorem. No limit topology, infinite-mode Hilbert space, or continuum field is inferred from Eq.~\eqref{eq:naturality}.
+
+\section{What is created, and what is not}
+
+\subsection{Objectivity survives, but changes status}
+
+The result does not replace objectivity with private experience. The output is public in the relevant mathematical sense: internal presentation choices do not alter it, observer-word refinements admit exact co-moving recovery, and ambient changes act covariantly. What changes is the ontological order. The public structure is the result of a quotient-and-soldering operation, not the assumed stage on which that operation occurs.
+
+This distinguishes generated objectivity from a naive averaging of perspectives. The carrier is not the common scalar part left after every direction is removed. Proposition~\ref{prop:nogo} shows that this route is too poor to recover an anisotropic tensor. The construction must retain the directional defect of each standpoint, solder it to a common ambient type, and only then quotient the internal descriptions. Objectivity is achieved by a disciplined relation among standpoints, not by erasing them.
+
+\subsection{The role of \texorpdfstring{$A$, $B$, and $C$}{A, B, and C}}
+
+Formally, $A$ and $B$ are inequivalent source prefixes with distinct certified holonomies and carriers. Their exchange is a symmetry of the joint output, but they are not identified. $C$ is the joint carrier after internal presentation dependence has been removed. In the proposed ontology, this formal pattern is read as follows:
+\begin{itemize}
+\item $A$ is Absolute Subjectivity, associated with light;
+\item $B$ is Relative Subjectivity, an impersonal mode associated with time or a clock, not an individual, organism, mind, or conscious observer;
+\item $C$ is Intersection Subjectivity, associated with space and objective manifestation.
+\end{itemize}
+
+The formal theorem establishes the grammar ``distinct $A$ and $B$ generate a nontrivial invariant/covariant $C$.'' It does not establish those physical nouns. Within the ontology, however, $B$ is explicitly pre-personal and pre-biological: relative clocking and ordering are held to belong to the universe before humanity. This is the precise boundary between mathematical formulation and ontological interpretation.
+
+\subsection{Creation as regeneration rather than first manufacture}
+
+The all-stage law changes the meaning of creation. It is not a single event in which a permanent object is made once and then carried unchanged forever. At each finite stage, a refined source packet can be read back co-movingly and the same law regenerates the carrier. Thus the proposal is compatible with a world whose apparent persistence is repeated structural re-creation.
+
+This does not mean that every stage produces a newly measured nonzero excursion. The fixed-window boundary response is nonzero in all eight certified sectors, but a nonzero boundary excursion of $T_C$ itself has not yet been proved. The theorem establishes exact regeneration of the carrier law, not a complete physical dynamics of creation events.
+
+\section{Relation to nearby programs}
+
+{\small\setlength{\parskip}{0pt}
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.19\linewidth}>{\raggedright\arraybackslash}p{0.31\linewidth}>{\raggedright\arraybackslash}p{0.42\linewidth}}
+\toprule
+Program & Shared concern & Difference from the present claim \\
+\midrule
+\endfirsthead
+\toprule
+Program & Shared concern & Difference from the present claim \\
+\midrule
+\endhead
+Invariantism and structural realism & Objective content is associated with invariants or relational structure. & The present model asks whether the invariant must be primitive. Its invariant/covariant carrier is constructed only after distinct source standpoints contribute directional data. \\
+Relational quantum mechanics & Physical facts or states are relative to physical systems rather than globally absolute. & The present result is not an interpretation of the quantum state. It constructs a specific real $\Sym_4$ carrier and an all-stage regeneration law from a pointed-braid source. \\
+Quantum reference frames & Descriptions transform between physical frames without an external absolute frame. & QRF work supplies precise perspective transformations within quantum kinematics. Here the primary claim concerns the generation of a shared tensor carrier from source intersection, not merely switching among descriptions of a pre-specified system. \\
+QBism & The quantum state is not an objective property; interaction and agent-relative probabilities are central. & ``Subjectivity'' here is not belief, experience, or conscious agency. The output is an exact inter-presentation tensor, not a personal probability assignment. \\
+Perspectival realism & Reliable knowledge can arise across a plurality of situated perspectives. & Perspectival realism is principally an account of scientific representation and inquiry. The present paper proposes a formal generative ontology and a source-level physical research program. \\
+Braided particle models & Braid topology can encode particle-like structure and interactions \cite{bilsonthompson2005}. & The present use of braiding concerns coherence, source transport, holonomy, and generated objectivity; it does not identify Standard-Model particles with braid words. \\
+Set-theoretic Yang--Baxter models & Permutations of $X\times X$ can satisfy Yang--Baxter independently of this model \cite{etingof1998}. & The 25-event permutation is not claimed as a new class of Yang--Baxter solution; its fixed spectral-marker provenance and distinction from identity/flip are the checked features. No classification-level inequivalence is established. \\
+Quantum causal histories & Locally finite pre-spacetime causal relations can carry matrix algebras and completely positive evolution \cite{hawkins2003}. & The present source begins with a pointed-braid matrix-algebra tower and tests a particular spectral event action. It has not derived a physical causal continuum or shown an Einstein limit from finite evolution. \\
+Causal-set growth & Discrete causal order and covariance can support sequential growth dynamics \cite{rideout1999}. & The present address cylinders and braid crossings have different primitives; neither a causal-set embedding nor a physical growth law is proved. \\
+Thermodynamic Einstein route & The Einstein equation can follow from local horizon thermodynamic assumptions \cite{jacobson1995}. & The present route instead assumes a Palatini action and matter/Ward conditions on a selected smooth domain; the source-to-domain convergence is still open. \\
+Metric-affine gauge gravity & Coframe, independent connection, torsion, nonmetricity, hypermomentum, and Noether identities form a first-order gravitational framework \cite{hehl1995}. & The present work does not assume a continuum affine gauge theory as its microscopic source. It gives finite affine-source structures and actions, but the actual finite-source-to-smooth limit is not yet verified. \\
+Earlier Subjectivity Intersection work & Pointed braids provide all-orders intersection consistency and compositional objectivity \cite{watanabe2026braid}. & Version 0.8 retains the finite geometry and action chain and adds source-derived $3/5$, an exact Lorentz carrier, continuous tensor transport, stress/Ward, and the scoped Einstein/spin-2 limit. \\
+\bottomrule
+\end{longtable}
+}
+
+The novelty claim is therefore conjunctive. Neither relationality, perspective dependence, invariance, braid groups, nor process-like ontology is individually new. The contribution is the exact chain
+\begin{equation}\label{eq:novelchain}
+\begin{aligned}
+&\text{distinct braid standpoints}
+\longrightarrow\text{target-free $1+3$ carrier}
+\longrightarrow\text{source-only holonomy}\\
+&\longrightarrow\text{direction-preserving soldering}
+\longrightarrow\text{joint covariant carrier}\\
+&\longrightarrow\text{finite metric-affine dynamics}
+\longrightarrow\text{curvature and defect actions}\\
+&\longrightarrow\text{finite spectral events and a selected smooth-domain matter action}\\
+&\longrightarrow\text{source-selected infrared action, stress, and Ward identity}\\
+&\longrightarrow\text{scoped Einstein and massless spin-2 limit},
+\end{aligned}
+\end{equation}
+together with an explicit philosophical argument showing what this chain does and does not refute.
+
+\section{Operational content and falsification}
+
+\subsection{A reproducible mathematical readout}
+
+The current operationalization is a deterministic computational readout, not a laboratory apparatus. Given the registered source packet, it performs the following steps:
+\begin{enumerate}
+\item generate the opposite source slice using the frozen signed-braid action;
+\item reconstruct the affine geometry and the two source-prefix coframes;
+\item compute the source-only face holonomies;
+\item form $D_p$, $M_p$, $T_p$, and $T_C$ by Eqs.~\eqref{eq:gram}--\eqref{eq:Tjoint};
+\item output the ten independent entries of $T_C\in\Sym_4$;
+\item verify internal-gauge invariance, prefix-exchange invariance, ambient congruence, and the three collapse controls;
+\item refine by $j_n$, apply a selected unital spectator state, and verify Eq.~\eqref{eq:naturality} without fitting.
+\item construct the source graph, verify finite propagation and the boundary-event response, and evaluate the all-stage Ward kernel in Eq.~\eqref{eq:wardkernel};
+\item build the continuous certified face representatives, decompose the regular source by Eq.~\eqref{eq:hypermomentum}, and verify the exceptional positive quotient channels;
+\item verify the continuous metric/nonmetricity field, active positive transport, and the ten Lorentz-metric response directions used in the v0.8 main theorem;
+\item evaluate the finite action in Eq.~\eqref{eq:fullaction}, its coframe, connection, and metric variations, and the local-frame identity in Eq.~\eqref{eq:noether};
+\item verify the source-library balance no-go without replacing it by a fitted negative Euler residual;
+\item evaluate the independent defect action in Eq.~\eqref{eq:defectaction}, its 832 exact variation checks, connector ranks, covariance tests, and Noether identities.
+\item generate the one-site marker's exact spectral event projectors, replay the actual 25-event braid permutation and its refinement/readback controls, and distinguish this formal event law from an empirically calibrated physical event;
+\item evaluate the ten finite response directions and the fixed full-corner matter packet against its declared partition controls;
+\item replay the complete five-partition fixed-packet test, verify that only the full corner preserves the eleven-operator packet, and recover the normalized source cup $3/5$ without target fitting;
+\item reconstruct $Q_4$, $J_{\rm ray}$, and $K_{\rm evt}$ from the actual event transition, verify the exact $(3+,1-)$ signature and unique $S_4$-equivariant normalization, and replay the identity, flip, orientation, and closed-time-path controls.
+\end{enumerate}
+
+This is already a nontrivial readout because it returns directional tensor data that scalar invariants provably cannot supply in the declared linear equivariant class. It is not yet an empirical observable because no instrument model, units, noise model, or identification with measured geometry has been given.
+
+\subsection{Formal falsifiers}
+
+The present theorem package would fail if any of the following occurred under exact replay:
+\begin{itemize}
+\item the target geometry entered the source constructor before comparison;
+\item either internal $GL_3$ presentation changed $T_C$;
+\item $A/B$ exchange changed the joint carrier;
+\item a one-sided collapse reproduced the joint carrier;
+\item the ambient carrier failed the congruence law;
+\item the all-stage readback required a tracial spectator state or a stage-dependent coefficient;
+\item the source-graph support propagated faster than the certified graph bound;
+\item the $3+1+5$ source product failed to reconstruct the registered geometric source;
+\item the source-first metric two-jet failed any algebraic Riemann symmetry, Bianchi, contraction, Lorentz-signature, or exact Einstein check under its declared bridges;
+\item the analytic action variations failed their exact central-difference checks;
+\item the local-frame Noether identity failed with all required Euler slots included;
+\item the covariant-defect action accessed the curvature residual or an Einstein target, failed to change off shell, or lost its stated connector rank;
+\item the exact marker spectrum, 25-event braid transition, five-child cylinder identity, or co-moving readback failed on a signed sector;
+\item any original $F_A$ fell outside the declared event/energy readout span, or the full-$W$ integration failed on a tilted source state;
+\item the RML identity or its historical $3/5$ cup failed while the stated corner normalization and source ranks held;
+\item a non-full partition preserved the complete frozen event-conditioned packet, the selected normalized source cup failed to equal $3/5$, or either result required comparison with the Einstein target;
+\item the actual-event $Q_4$ lost rank or covariance, $K_{\rm evt}$ lost its exact Lorentz signature, or the declared naturality class admitted a second positive normalizer;
+\item any registered exact regression ceased to reproduce its frozen source record.
+\end{itemize}
+
+\subsection{Physical discriminators still required}
+
+To test the Creation Principle as a claim about nature, at least one bridge must produce an empirical discriminator. Four routes are open:
+\begin{enumerate}
+\item identify $T_C$ with, or derive a calibrated map to, an operational metric or stress response;
+\item test the frozen coefficient-one sum of the curvature and defect actions, then show that any resulting stationary equations possess a controlled continuum and low-energy sector;
+\item derive a boundary/re-entry signal that standard quantum-reference-frame or effective-field descriptions do not predict;
+\item show that a known physical structure is recovered with fewer independent primitive assumptions and with a novel constraint among measurable channels.
+\end{enumerate}
+
+At the v0.8 boundary, the decisive remaining formal target was a finite Lorentzian quantum parent whose interaction stress supplied the missing spatial components of the discrete total Ward balance while preserving the already derived infrared sector. The v0.81 main text closes that target in the aligned four-score, block-local, history-dressed class and states the narrower remaining boundaries.
+
+``Measuring what was previously unmeasurable'' would count as a genuine contribution if the new readout has an independently specified instrument, calibration, error model, and discriminating result. A renamed internal variable would not.
+
+\section{Objections and boundaries}
+
+\subsection{Where is quantum theory?}
+
+The source is quantum in a specific algebraic sense: it uses complex noncommutative matrix algebras, states, unitary pointed-braid transports, tensor refinement, and adjoint observer actions. Those ingredients are enough to make the classical-output result nontrivial, but they are current inputs. The paper does not derive complex amplitudes, the Born rule, Hilbert-space composition, unitary time evolution, or quantum-field locality from a bare topological braid group. Accordingly, ``a route to quantum structure'' names the wider Braid-first programme. The exact result of this paper begins at a quantum-algebraic Braid source and derives the declared classical carrier and finite gravity dynamics from it.
+
+\subsection{Where is spacetime, and does the ambient four-space smuggle objectivity back in?}
+
+Version 0.5 already removed the numerical and ambient-carrier forms of this objection at the mathematical layer. The finite source produces $Q_{\mathrm{obs}}=V_4$. Full affine-observer symmetry, an order unit, and point separation force the complete readout and hence the target-free split $1\oplus3$. Observer Uniform Cauchy Closure completes that carrier to $W=\mathbb R^{V_4}$ without adding a direction; $\operatorname{Aff}(W)$ is then its own smooth four-dimensional affine carrier. The source path is not renamed as physical three-space, and the four metric-response controls are not renamed as region coordinates.
+
+Version 0.6 added a checked finite event algebra and crossing/readback rule. The v0.6.1 code audit corrects the stronger conclusion drawn from it: BGCE138 constructs a smooth completion and compatible samples, but does not show that actual finite source fields converge to that completion. Post-v0.6.1 results retire the independent finite event-algebra correspondence inside the fixed model, but they do not prove the reverse source-to-smooth arrow. Thus formal CGR as a complete source-to-continuum statement remains open. Physical identification with measured events, dimensionful calibration, and continuum first variation for nature are additional requirements.
+
+\subsection{Is the carrier unique?}
+
+No global uniqueness theorem is claimed. Equations~\eqref{eq:defect}--\eqref{eq:Tjoint} are a natural, exact, source-native solution that obeys the declared symmetries and controls. Other nonlinear or higher-order carriers may exist. The counterexample to $\OPT$ needs existence, not uniqueness. A stronger physical theory would benefit from deriving the carrier from an action, universality principle, minimality theorem, or experimental constraint.
+
+\subsection{Is a finite model enough?}
+
+It is enough to refute a universal mathematical necessity claim if the model is admitted. It is not enough to establish a fundamental theory of our universe. The nonterminal tower prevents the result from being only one isolated finite face, while the source graph, spectral events, and continuous certified cells add mathematical notions of locality and curvature. Version 0.8 derives the infrared action, stress/Ward identity, and Einstein/spin-2 limit only in its declared universality class. Full finite Lorentzian quantum backreaction, ultraviolet completion, global extension, and empirical scale identification remain separate tasks.
+
+\subsection{Where is gravity?}
+
+The construction contains more than prerequisites for gravity. Equations~\eqref{eq:finitegravity} and \eqref{eq:curvatureclosure} give an exact source-native coframe update and covariant curvature closure, while Eq.~\eqref{eq:metricaffinegravity} gives the corresponding finite metric-affine update. Rank-changing geometry requires the source term, and every nonmetricity, source-linear, and source-quadratic contribution survives ablation. The same packet extends without refitting through all finite stages. The source graph supplies finite locality and a Ward law; continuous certified faces carry nonzero connection curvature; Eq.~\eqref{eq:fullaction} supplies an exact first-order curvature action with Eq.~\eqref{eq:noether} as its local-frame identity; and Eq.~\eqref{eq:defectaction} supplies an independent off-shell variational connector. In this exact fixed-orbit sense, an action-bearing finite Braid metric-affine gravity candidate has been constructed.
+
+The retained finite equations are the discrete geometric substrate. The v0.8 main theorem added a source-selected infrared action, continuous tensor transport, a unique typed solder, Hilbert stress, and on-shell Ward conservation, and then obtained $G_{\mu\nu}=(3/5)T_{\mu\nu}$ by common metric variation in the declared long-wavelength, local, second-order, formally self-adjoint, conservative class. Version 0.81 adds the scoped finite recorded parent, four-component history-dressed Ward law, and one finite backreaction cycle. Full ten-component nonlinear dynamics, gravitational constraints, physical units, ultraviolet completion, global extension, and empirical identification remain open. This is a Braid-based quantum-gravity candidate with exact finite results and a scoped Einstein derivation, not completed quantum gravity or source-only general relativity.
+
+\subsection{Is ``subjectivity'' only a relabeling?}
+
+It would be a relabeling if the formal roles made no difference. Here the roles are constrained: two prefixes must remain distinct; their internal presentation can be quotiented but their contributions cannot be collapsed; and their intersection produces a carrier with a verified transformation law. This is more than terminology. Nevertheless, calling these formal roles ``subjectivities'' is an interpretive move. The mathematics fixes the relational structure; ontology assigns its meaning.

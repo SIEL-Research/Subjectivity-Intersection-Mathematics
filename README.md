@@ -45,22 +45,22 @@ copies corresponding to the ResearchGate publication.
 
 ## Subjectivity-Intersection Braid Quantum Gravity
 
-- [Current full v0.82 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
+- [Current full v0.83 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
+- [Preserved full v0.82 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
 - [Preserved full v0.81 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
 - [Preserved public v0.8 preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.8/README.md)
 - [Preserved full v0.7 working preprint and concise research note](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
 - [Preserved v0.6.1 code-audited correction](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
 
-Version 0.82 retains the complete v0.81 finite parent, Ward, backreaction,
-Einstein, and spin-2 results. It adds a scoped derived anomaly-solution
-groupoid with three anomaly-free Standard-Model chiral character copies, the
-global `Z6` quotient, one independent complex weak Higgs doublet, and
-source-cubic Yukawa interaction types. The unchanged source remains
-non-Standard-Model-equivalent; masses, flavour mixing, vacuum dynamics,
-gravitational first-class constraints, ultraviolet completion, calibrated
-predictions, and empirical validation remain open. BGCE440 is an unexecuted
-external calibration preflight, not a measurement or prediction of Newton's
-constant.
+Version 0.83 retains the complete v0.82 gravity and scoped matter-sector
+results and adds the BGCE440 revisions 19--21 calibration. A real AWS
+Braket/Rigetti Ramsey execution passed independent E2 audit and conditionally
+fixes device-relative time, length, and energy scales. With external CODATA
+`G`, exact `c`, and frozen finite coupling `1`, it also fixes a scoped stress
+conversion. `G` is an input rather than a prediction, and public provider
+metadata does not yet establish the complete SI clock uncertainty budget.
+Gravitational first-class constraints, ultraviolet completion, physical
+mass/mixing values, and empirical quantum-gravity validation remain open.
 
 This document records the current operational distinction between an
 instantaneous relation and a history-bearing relational carrier, defines the

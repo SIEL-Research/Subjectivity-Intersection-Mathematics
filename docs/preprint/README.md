@@ -1,13 +1,14 @@
 # Subjectivity-Intersection Mathematics Preprint
 
-## Subjectivity-Intersection Braid Quantum Gravity v0.82 working preprint
+## Subjectivity-Intersection Braid Quantum Gravity v0.83 working preprint
 
 A current-state manuscript unifies generated objectivity, finite metric-affine
 gravity, fixed-model matter routing, an exact Lorentz event carrier, and a
 conditional continuum Einstein equation as a bounded quantum-gravity candidate
 grounded in subjectivity intersection:
 
-- [Current canonical full v0.82 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
+- [Current canonical full v0.83 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
+- [Preserved canonical full v0.82 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
 - [Preserved canonical full v0.81 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
 - [Preserved public v0.8 preprint](subjectivity-intersection-braid-quantum-gravity-v0.8/README.md)
 - [Preserved full v0.7 and accompanying concise research note](subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
@@ -17,16 +18,16 @@ grounded in subjectivity intersection:
 - [Preserved v0.4 working draft](subjectivity-intersection-braid-quantum-gravity-v0.4/README.md)
 - [Preserved v0.3 working draft](braid-first-quantum-spacetime-gravity-v0.3/README.md)
 
-Version 0.82 retains the full v0.81 manuscript and adds the BGCE377--440
-constraint, matter, and calibration results. In the explicitly derived
-anomaly-solution groupoid class, it obtains three anomaly-free Standard-Model
-chiral character copies, the global `Z6` quotient, one independent complex
-weak Higgs doublet, and source-cubic Yukawa interaction types. This is not an
-unchanged-source Standard Model, a mass/mixing derivation, or empirical
-confirmation. Gravitational first-class constraints and the physical
-finite-to-continuum coefficient identification remain open. This repository
-update does not create a Zenodo version, DOI, GitHub Release, or journal
-submission.
+Version 0.83 retains the full v0.82 manuscript and adds the executed BGCE440
+revisions 19--21 calibration. The real AWS Braket/Rigetti Ramsey result passed
+independent E2 audit and supplies a device-relative frequency anchor. External
+CODATA `G` then supplies a conditional stress conversion under the frozen
+finite coupling and source gap. This does not predict Newton's constant,
+measure gravity, establish a universal Braid clock, or empirically validate
+quantum gravity. Complete provider-clock SI traceability, gravitational
+first-class constraints, and the physical finite-to-continuum coefficient
+identification remain open. This repository update does not create a Zenodo
+version, DOI, GitHub Release, or journal submission.
 
 ## Braid–Quantum–Lorentz Unification v0.81 working draft
 

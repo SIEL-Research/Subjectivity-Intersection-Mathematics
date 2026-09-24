@@ -1,0 +1,54 @@
+{
+  "schema": "siel-preprint-artifact-manifest-v1",
+  "title": "Subjectivity-Intersection Braid Quantum Gravity: A Constructive Refutation of Objectivist Primacy from Source-Derived Quantum Dynamics to the Einstein Limit",
+  "version": "0.83",
+  "date": "2026-09-25",
+  "status": "PUBLIC_GITHUB_WORKING_PREPRINT__ZENODO_NOT_DEPOSITED",
+  "canonical_document": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.83.pdf",
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.83.pdf",
+      "role": "canonical_full_preprint",
+      "pages": 46,
+      "bytes": 331439,
+      "page_size": "A4",
+      "md5": "341b8742ef1638f989dba8fc585e23bb",
+      "sha256": "f940b0c05c0d1d80e103eb40954e53fc7658b4296b9fbf04a52002cbd593fb15"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.83.tex",
+      "role": "canonical_full_source",
+      "bytes": 108391,
+      "sha256": "86b66f6b38721ebd972a54851826ad989a5dfe198ce0b4ea91ee6e91d0f34348"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex",
+      "role": "retained_currently_operational_derivation_detail",
+      "bytes": 51084,
+      "sha256": "754dfd128d94edf759333748387d1eaddde843d499268abce775379e46f9cd0f"
+    }
+  ],
+  "source_research_snapshot": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "ledger_commit": "76dbddf5f222663c3f1023cf2aa0a3ae4624fe02",
+    "calibration_source_commit": "cf2c81d7ecf7e2a6494f24486b27a185dad54226",
+    "certificate_range": "BGCE377-BGCE442 and BGCE440 revisions 19-21",
+    "retained_prior_range": "BGCE138-BGCE376"
+  },
+  "zenodo": {
+    "deposit_state": "NOT_DEPOSITED",
+    "concept_doi": "10.5281/zenodo.22693964",
+    "predecessor_version_doi": "10.5281/zenodo.22735310",
+    "approval_required": true
+  },
+  "boundaries": [
+    "No peer review or journal acceptance",
+    "Not a completed or empirically validated quantum-gravity theory",
+    "Implemented-Braid Ramsey calibration is exploratory and device-relative",
+    "CODATA G is an external input rather than a Braid prediction",
+    "Public AWS metadata does not provide a complete provider-clock SI traceability chain",
+    "Unchanged source remains non-Standard-Model-equivalent",
+    "Direct finite coefficient 1 is not yet identified with continuum routing ratio 3/5",
+    "Gravitational first-class constraints, ultraviolet completion, and empirical validation remain open"
+  ]
+}
