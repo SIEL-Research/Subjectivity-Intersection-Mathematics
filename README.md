@@ -59,8 +59,12 @@ fixes device-relative time, length, and energy scales. With external CODATA
 `G`, exact `c`, and frozen finite coupling `1`, it also fixes a scoped stress
 conversion. `G` is an input rather than a prediction, and public provider
 metadata does not yet establish the complete SI clock uncertainty budget.
-Gravitational first-class constraints, ultraviolet completion, physical
-mass/mixing values, and empirical quantum-gravity validation remain open.
+BGCE444--449 additionally close a norm-one AF/quasi-local all-refinement
+channel and certify rank 35 for the actual UB612 quartic source response over
+its full saved interval box. This is not full physical UV completion: the full
+metric Frechet Hessian, nonpolynomial uniform control, composite stress,
+gravitational first-class constraints, physical mass/mixing values, and
+empirical quantum-gravity validation remain open.
 
 This document records the current operational distinction between an
 instantaneous relation and a history-bearing relational carrier, defines the

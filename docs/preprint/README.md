@@ -24,10 +24,13 @@ independent E2 audit and supplies a device-relative frequency anchor. External
 CODATA `G` then supplies a conditional stress conversion under the frozen
 finite coupling and source gap. This does not predict Newton's constant,
 measure gravity, establish a universal Braid clock, or empirically validate
-quantum gravity. Complete provider-clock SI traceability, gravitational
-first-class constraints, and the physical finite-to-continuum coefficient
-identification remain open. This repository update does not create a Zenodo
-version, DOI, GitHub Release, or journal submission.
+quantum gravity. BGCE444--449 also establish a norm-one AF/quasi-local
+all-refinement channel and an exact interval rank-35 certificate for the actual
+UB612 quartic response. Full physical UV completion, complete provider-clock SI
+traceability, gravitational first-class constraints, and the physical
+finite-to-continuum coefficient identification remain open. This repository
+update does not create a Zenodo version, DOI, GitHub Release, or journal
+submission.
 
 ## Braid–Quantum–Lorentz Unification v0.81 working draft
 

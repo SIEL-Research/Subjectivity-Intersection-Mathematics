@@ -9,17 +9,17 @@
     {
       "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.83.pdf",
       "role": "canonical_full_preprint",
-      "pages": 46,
-      "bytes": 331439,
+      "pages": 48,
+      "bytes": 342475,
       "page_size": "A4",
-      "md5": "341b8742ef1638f989dba8fc585e23bb",
-      "sha256": "f940b0c05c0d1d80e103eb40954e53fc7658b4296b9fbf04a52002cbd593fb15"
+      "md5": "f09f500fd5ca5241454add153e3160ed",
+      "sha256": "4e3f1cd8b19696e0d8e6a8614f6a6f90509a6bd11ee8665200041c225ca4c8fe"
     },
     {
       "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.83.tex",
       "role": "canonical_full_source",
-      "bytes": 108391,
-      "sha256": "86b66f6b38721ebd972a54851826ad989a5dfe198ce0b4ea91ee6e91d0f34348"
+      "bytes": 117467,
+      "sha256": "94550dac9c38b5398186d56796338a402196f486d4270f26c53cedd13cec5a70"
     },
     {
       "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex",
@@ -30,9 +30,9 @@
   ],
   "source_research_snapshot": {
     "repository": "SIEL-Research/SIEL-Research-Agent",
-    "ledger_commit": "76dbddf5f222663c3f1023cf2aa0a3ae4624fe02",
-    "calibration_source_commit": "cf2c81d7ecf7e2a6494f24486b27a185dad54226",
-    "certificate_range": "BGCE377-BGCE442 and BGCE440 revisions 19-21",
+    "ledger_commit": "d2a4d82f06215de33c4b6df4902f45599b59713d",
+    "calibration_and_uv_source_commit": "c79349e55b3c548a4be937546939e9f29cf5b91c",
+    "certificate_range": "BGCE377-BGCE449 and BGCE440 revisions 19-21",
     "retained_prior_range": "BGCE138-BGCE376"
   },
   "zenodo": {
@@ -47,6 +47,8 @@
     "Implemented-Braid Ramsey calibration is exploratory and device-relative",
     "CODATA G is an external input rather than a Braid prediction",
     "Public AWS metadata does not provide a complete provider-clock SI traceability chain",
+    "All-refinement channel and actual quartic response are closed only in their declared source-cylinder and UB612 scopes",
+    "Full metric Frechet Hessian, arbitrary nonpolynomial control, composite-stress renormalization, and physical UV completion remain open",
     "Unchanged source remains non-Standard-Model-equivalent",
     "Direct finite coefficient 1 is not yet identified with continuum routing ratio 3/5",
     "Gravitational first-class constraints, ultraviolet completion, and empirical validation remain open"

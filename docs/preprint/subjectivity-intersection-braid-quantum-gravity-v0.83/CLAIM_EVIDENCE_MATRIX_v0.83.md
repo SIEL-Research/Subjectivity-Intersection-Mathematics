@@ -26,7 +26,12 @@
 | Finite internal Lie anomaly | BGCE376 | Absent in scope | Exact Jacobi closure and passive refinement |
 | Finite gravitational constraint routes | BGCE377--392, BGCE441--442 | Route-specific NO-GO | Fixed finite source algebra has only inner derivations; no physical first-class algebra |
 | Refinement-limit unbounded-derivation route | BGCE443 | Open | No closable limit, constraint algebra, or anomaly freedom yet derived |
-| Algebraic `10 -> 35` UV candidate | Post-BGCE391 ledger gate | Exact representation identity only | No physical source map or all-scale theorem |
+| Rank-ten to quartic capacity | BGCE444 | Exact scoped theorem | Rank `35`, kernel dimension `20`; capacity alone is not physical generation |
+| AF/quasi-local all-refinement channel | BGCE445 | Closed scoped | Strongly continuous UCP limit with complete bound `1`; not composite-observable control |
+| Source-native fourth-jet rule | BGCE446 | Exact scoped theorem | `5^4=625` child grid; degree-at-most-four polynomial subspace only |
+| Actual UB612 same-carrier intertwiner | BGCE447 | Exact PASS | Fixed invertible map; no fitted `GL(4)` alignment |
+| Actual UB612 `35 x 55` quartic response | BGCE448--449 | Closed scoped | Rank `35` throughout saved interval box; exact bound `0.012750158721617564 < 1` |
+| Full physical UV completion | None | Open | Full Frechet Hessian, nonpolynomial uniform control, composite stress, sigma6/parallel operator, and smooth renormalization absent |
 | Derived anomaly-solution groupoid | BGCE393–439 | Final scoped pass | Explicit extension: `C((Z2)^3) crossed-product (Z2)^3 = M8(C)` |
 | Three chiral Standard-Model character copies | BGCE439 | Exact scoped derivation | Boolean degree-one response; physical-generation interpretation remains scoped |
 | Local/global anomaly cancellation | BGCE439 | Exact scoped derivation | All eight source sectors; global kernel `Z6` |
@@ -46,3 +51,5 @@
 - BGCE440 revision 20 deterministically verifies the CODATA-input conversion and forbids use of a Braid gravity response or fitted target coefficient.
 - BGCE440 revision 21 closes only the public-metadata traceability route and requires provider attestation for a complete SI clock uncertainty budget.
 - BGCE392, BGCE441, and BGCE442 exclude the tested fixed-finite constraint routes; BGCE443 remains an unexecuted refinement-limit route.
+- BGCE444--449 proof checkers were rerun at source revision `c79349e55`; all six returned their recorded PASS or scoped-PASS result.
+- The completion ledger classifies `BQG-G3-R02` as `CLOSED_SCOPED`; this is not a claim of full physical UV completion.

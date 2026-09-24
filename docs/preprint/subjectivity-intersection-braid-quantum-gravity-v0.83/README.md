@@ -2,7 +2,7 @@
 
 This directory contains the canonical full v0.83 working preprint and its public verification materials.
 
-- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.83.pdf` is the canonical 46-page manuscript.
+- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.83.pdf` is the canonical 48-page manuscript.
 - `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.83.tex` is its LaTeX source.
 - `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex` preserves the still-operative detailed derivation inherited through v0.82.
 - `CHANGELOG_v0.83.md` records the change from v0.82.
@@ -22,6 +22,8 @@ Using the external CODATA 2022 input `G = 6.67430(15)e-11 m^3 kg^-1 s^-2`, exact
 These are not a prediction of Newton's constant, a Braid gravity measurement, or empirical quantum gravity. The Ramsey result is an exploratory, device-relative implemented-Braid calibration. Public AWS metadata does not establish the provider clock's complete SI traceability or its systematic uncertainty; provider attestation remains required.
 
 The constraint boundary is also updated through BGCE442. The fixed finite source algebra has only inner derivations and no outer three-plane, so the next live route is the BGCE443 refinement-limit search for closable unbounded derivations. No gravitational first-class constraint algebra is claimed.
+
+The ultraviolet/all-scale package is updated through BGCE449. The compatible finite source-cylinder channels extend to a strongly continuous AF/quasi-local UCP semigroup with complete bound one at every refinement depth. The ten source-fixed metric directions generate 55 unordered second-response columns, and an exact rational interval certificate proves row rank 35 for the actual UB612 quartic tensor throughout its saved coefficient box. This closes the registered all-refinement channel and actual-quartic-response problem in scope. It does not establish a full metric Frechet Hessian, uniform nonpolynomial sampling, bounded composite stress, smooth-spacetime renormalizability, or full physical UV completion.
 
 ## Version relation
 

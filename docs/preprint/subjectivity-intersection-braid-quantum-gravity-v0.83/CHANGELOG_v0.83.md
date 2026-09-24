@@ -30,8 +30,18 @@ Date: 2026-09-25
 - Recorded that the fixed finite source algebra is 34-dimensional with a 9-dimensional centre, `dim Der = dim Inn = 25`, and `HH^1 = 0`; no outer three-plane exists in this class.
 - Opened BGCE443 as the next route: refinement-limit sequences of inner derivations converging to closable unbounded derivations.
 
+## Scoped ultraviolet and all-scale closure
+
+- Added BGCE444: the rank-ten source solder induces an exact rank-35 quartic response with a 20-dimensional kernel in every source sector.
+- Added BGCE445: the compatible finite CPTP channels extend to a strongly continuous AF/quasi-local UCP semigroup with complete bound one.
+- Added BGCE446: the source-native `5^4 = 625` child tensor rule reconstructs fourth jets exactly on the degree-at-most-four polynomial subspace.
+- Added BGCE447: the actual UB612 PBM metric and source cylinder use the same ordered four-carrier, related by a fixed invertible map rather than a fitted `GL(4)` alignment.
+- Added BGCE448: the actual UB612 quartic tensor has a constructed `35 x 55` source response with exact midpoint rank 35.
+- Added BGCE449: a source-fixed 35-column minor has exact interval regularity bound `0.012750158721617564 < 1`, proving rank 35 throughout the full saved coefficient box.
+- Classified the package `CLOSED_SCOPED`, while keeping the full metric Frechet Hessian, arbitrary nonpolynomial fields, composite-stress control, the complete sigma6/parallel operator, and physical smooth-spacetime UV completion open.
+
 ## Presentation and provenance
 
 - Retained the title-level claim “A Constructive Refutation of Objectivist Primacy.”
 - Kept the manuscript English-only; no Japanese abstract is embedded.
-- Extended the claim ledger and audit chronology through BGCE442 and BGCE440 revision 21.
+- Extended the claim ledger and audit chronology through BGCE449 and BGCE440 revision 21.
