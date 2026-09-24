@@ -1,0 +1,51 @@
+{
+  "schema": "siel-preprint-artifact-manifest-v1",
+  "title": "Subjectivity-Intersection Braid Quantum Gravity: A Constructive Refutation of Objectivist Primacy from Source-Derived Quantum Dynamics to the Einstein Limit",
+  "version": "0.81",
+  "date": "2026-09-24",
+  "status": "PUBLIC_GITHUB_WORKING_PREPRINT__ZENODO_NOT_DEPOSITED",
+  "canonical_document": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.81.pdf",
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.81.pdf",
+      "role": "canonical_full_preprint",
+      "pages": 41,
+      "bytes": 304464,
+      "page_size": "A4",
+      "md5": "a8f0a561f3fe7047bab413065086ea50",
+      "sha256": "fd202d64e4bcabae53870ba4956c80d75c0f99cda9aba1cc3ff8b4ec968dd50b"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.81.tex",
+      "role": "canonical_full_source",
+      "bytes": 87955,
+      "sha256": "3600aa2cb58c9a2025b2f6c8068a41316d2dd7b1babd16395d033d35969dca04"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex",
+      "role": "retained_currently_operational_derivation_detail",
+      "bytes": 51084,
+      "sha256": "754dfd128d94edf759333748387d1eaddde843d499268abce775379e46f9cd0f"
+    }
+  ],
+  "source_research_snapshot": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "commit": "a7d34d6aa1978ac069234b45023c8a59b37a3d1a",
+    "certificate_range": "BGCE312-BGCE376",
+    "retained_prior_range": "BGCE138-BGCE311"
+  },
+  "zenodo": {
+    "deposit_state": "NOT_DEPOSITED",
+    "concept_doi": "10.5281/zenodo.22693964",
+    "predecessor_version_doi": "10.5281/zenodo.22735310",
+    "approval_required": true
+  },
+  "boundaries": [
+    "No peer review or journal acceptance",
+    "Not a completed or empirically validated quantum-gravity theory",
+    "Finite parent is scoped to the aligned four-score block-local class",
+    "Direct finite coefficient 1 is not yet identified with continuum routing ratio 3/5",
+    "Repeated nonlinear closure and gravitational first-class constraints remain open",
+    "Ultraviolet completion, physical-unit calibration, realistic matter, and empirical validation remain open"
+  ]
+}

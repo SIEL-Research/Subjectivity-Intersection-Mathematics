@@ -45,28 +45,23 @@ copies corresponding to the ResearchGate publication.
 
 ## Subjectivity-Intersection Braid Quantum Gravity
 
-- [Current full v0.8 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.8/README.md)
+- [Current full v0.81 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
+- [Preserved public v0.8 preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.8/README.md)
 - [Preserved full v0.7 working preprint and concise research note](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
 - [Preserved v0.6.1 code-audited correction](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
 
-Version 0.8 preserves the finite-source construction and adds source-selected
-long-wavelength matter dynamics, continuous metric and nonmetricity tensors,
-positive local transport, a typed physical solder, Hilbert stress, the Ward
-identity, and a scoped Einstein/spin-2 limit. In the declared long-wavelength,
-local, second-order, formally self-adjoint, conservative class, the shared
-metric variation yields `G=(3/5)T` without manually inserting the relative
-factor. Full finite Lorentzian quantum backreaction, four-component discrete
-Ward balance, ultraviolet completion, physical-unit calibration, and empirical
-validation remain open; the work is a quantum-gravity candidate rather than a
-completed theory.
-
-Version 0.81 is a full integrated working revision through the recorded
-post-v0.8 finite-source line. It includes the exact rank-four confinement,
-curvature-derived dual completion, reciprocal relative connection,
-metric-preservation NO-GO, local metric-affine construction, and direct
-characteristic-zero positive-root branch, together with the failed controls
-and unresolved completion gates. It is not peer reviewed or a completed or
-empirically validated theory of quantum gravity.
+Version 0.81 retains the v0.8 continuous tensor, Hilbert stress, Ward,
+Einstein, and spin-2 results and adds a scoped finite source-cylinder
+completion. In the aligned four-score, block-local identity-feedback class,
+the source-fixed raw/Petz record contrast derives the four interaction-stress
+defects, a local recorded Lorentzian CTP parent, an exact history-dressed
+four-component Ward identity, and one parameter-free CPTP
+matter--geometry--matter cycle. The direct finite Fisher relative coefficient
+is `1`; its physical identification with the distinct full-corner routing
+ratio `3/5` used in the scoped continuum equation remains open. Full nonlinear
+finite gravity, gravitational first-class constraints, absolute calibration,
+Standard-Model matter, ultraviolet completion, and empirical validation remain
+open.
 
 This document records the current operational distinction between an
 instantaneous relation and a history-bearing relational carrier, defines the
