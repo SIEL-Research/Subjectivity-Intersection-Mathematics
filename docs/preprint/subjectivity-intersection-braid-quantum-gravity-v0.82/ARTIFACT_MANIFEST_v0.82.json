@@ -1,0 +1,53 @@
+{
+  "schema": "siel-preprint-artifact-manifest-v1",
+  "title": "Subjectivity-Intersection Braid Quantum Gravity: A Constructive Refutation of Objectivist Primacy from Source-Derived Quantum Dynamics to the Einstein Limit",
+  "version": "0.82",
+  "date": "2026-09-24",
+  "status": "PUBLIC_GITHUB_WORKING_PREPRINT__ZENODO_NOT_DEPOSITED",
+  "canonical_document": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.82.pdf",
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.82.pdf",
+      "role": "canonical_full_preprint",
+      "pages": 44,
+      "bytes": 320324,
+      "page_size": "A4",
+      "md5": "7e158a0d79ed7371c149e2273bcc8124",
+      "sha256": "96967cdb7bc29fc84e2b1aef12d07d0cbfccc139fdd1efb3e82b189e7045f795"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.82.tex",
+      "role": "canonical_full_source",
+      "bytes": 100733,
+      "sha256": "d40d5af835fa33fe99ee57001da085bd41e9a4c71b07b8687f1f5f5f56d2fa93"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex",
+      "role": "retained_currently_operational_derivation_detail",
+      "bytes": 51084,
+      "sha256": "754dfd128d94edf759333748387d1eaddde843d499268abce775379e46f9cd0f"
+    }
+  ],
+  "source_research_snapshot": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "commit": "de57f7e6074105dad362b9411ea4836fe17cbbf9",
+    "certificate_range": "BGCE377-BGCE440",
+    "retained_prior_range": "BGCE138-BGCE376"
+  },
+  "zenodo": {
+    "deposit_state": "NOT_DEPOSITED",
+    "concept_doi": "10.5281/zenodo.22693964",
+    "predecessor_version_doi": "10.5281/zenodo.22735310",
+    "approval_required": true
+  },
+  "boundaries": [
+    "No peer review or journal acceptance",
+    "Not a completed or empirically validated quantum-gravity theory",
+    "Unchanged source remains non-Standard-Model-equivalent",
+    "Derived groupoid closes representation and interaction types, not masses, mixing, or vacuum dynamics",
+    "Direct finite coefficient 1 is not yet identified with continuum routing ratio 3/5",
+    "Repeated nonlinear closure and gravitational first-class constraints remain open",
+    "Calibration preflight has no paid execution or scientific outcome; CODATA G is an input",
+    "Ultraviolet completion and empirical validation remain open"
+  ]
+}

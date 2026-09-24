@@ -1,13 +1,14 @@
 # Subjectivity-Intersection Mathematics Preprint
 
-## Subjectivity-Intersection Braid Quantum Gravity v0.81 working preprint
+## Subjectivity-Intersection Braid Quantum Gravity v0.82 working preprint
 
 A current-state manuscript unifies generated objectivity, finite metric-affine
 gravity, fixed-model matter routing, an exact Lorentz event carrier, and a
 conditional continuum Einstein equation as a bounded quantum-gravity candidate
 grounded in subjectivity intersection:
 
-- [Current canonical full v0.81 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
+- [Current canonical full v0.82 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
+- [Preserved canonical full v0.81 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
 - [Preserved public v0.8 preprint](subjectivity-intersection-braid-quantum-gravity-v0.8/README.md)
 - [Preserved full v0.7 and accompanying concise research note](subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
 - [Preserved v0.6.1 code-audited correction](subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
@@ -16,16 +17,16 @@ grounded in subjectivity intersection:
 - [Preserved v0.4 working draft](subjectivity-intersection-braid-quantum-gravity-v0.4/README.md)
 - [Preserved v0.3 working draft](braid-first-quantum-spacetime-gravity-v0.3/README.md)
 
-Version 0.81 retains the v0.8 source-to-continuum and scoped Einstein/spin-2
-results and adds a finite recorded Lorentzian parent, source-derived
-interaction stress, exact four-component finite Ward balance, and one finite
-matter--geometry--matter CPTP cycle inside the declared aligned four-score,
-block-local identity-feedback class. The direct finite Fisher coefficient is
-`1`, while the continuum equation retains the separately derived full-corner
-routing ratio `3/5`; their physical identification remains open. The manuscript
-claims a quantum-gravity candidate, not a completed or empirically validated
-theory. This repository update does not create a Zenodo version, DOI, GitHub
-Release, or journal submission.
+Version 0.82 retains the full v0.81 manuscript and adds the BGCE377--440
+constraint, matter, and calibration results. In the explicitly derived
+anomaly-solution groupoid class, it obtains three anomaly-free Standard-Model
+chiral character copies, the global `Z6` quotient, one independent complex
+weak Higgs doublet, and source-cubic Yukawa interaction types. This is not an
+unchanged-source Standard Model, a mass/mixing derivation, or empirical
+confirmation. Gravitational first-class constraints and the physical
+finite-to-continuum coefficient identification remain open. This repository
+update does not create a Zenodo version, DOI, GitHub Release, or journal
+submission.
 
 ## Braid–Quantum–Lorentz Unification v0.81 working draft
 

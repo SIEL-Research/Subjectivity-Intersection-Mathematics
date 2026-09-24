@@ -45,23 +45,22 @@ copies corresponding to the ResearchGate publication.
 
 ## Subjectivity-Intersection Braid Quantum Gravity
 
-- [Current full v0.81 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
+- [Current full v0.82 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
+- [Preserved full v0.81 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
 - [Preserved public v0.8 preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.8/README.md)
 - [Preserved full v0.7 working preprint and concise research note](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
 - [Preserved v0.6.1 code-audited correction](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
 
-Version 0.81 retains the v0.8 continuous tensor, Hilbert stress, Ward,
-Einstein, and spin-2 results and adds a scoped finite source-cylinder
-completion. In the aligned four-score, block-local identity-feedback class,
-the source-fixed raw/Petz record contrast derives the four interaction-stress
-defects, a local recorded Lorentzian CTP parent, an exact history-dressed
-four-component Ward identity, and one parameter-free CPTP
-matter--geometry--matter cycle. The direct finite Fisher relative coefficient
-is `1`; its physical identification with the distinct full-corner routing
-ratio `3/5` used in the scoped continuum equation remains open. Full nonlinear
-finite gravity, gravitational first-class constraints, absolute calibration,
-Standard-Model matter, ultraviolet completion, and empirical validation remain
-open.
+Version 0.82 retains the complete v0.81 finite parent, Ward, backreaction,
+Einstein, and spin-2 results. It adds a scoped derived anomaly-solution
+groupoid with three anomaly-free Standard-Model chiral character copies, the
+global `Z6` quotient, one independent complex weak Higgs doublet, and
+source-cubic Yukawa interaction types. The unchanged source remains
+non-Standard-Model-equivalent; masses, flavour mixing, vacuum dynamics,
+gravitational first-class constraints, ultraviolet completion, calibrated
+predictions, and empirical validation remain open. BGCE440 is an unexecuted
+external calibration preflight, not a measurement or prediction of Newton's
+constant.
 
 This document records the current operational distinction between an
 instantaneous relation and a history-bearing relational carrier, defines the
