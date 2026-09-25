@@ -46,6 +46,7 @@ copies corresponding to the ResearchGate publication.
 ## Subjectivity-Intersection Braid Quantum Gravity
 
 - [Current full v0.91 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.91/README.md)
+- [Zenodo v0.91 record and DOI](https://doi.org/10.5281/zenodo.22958600)
 - [Preserved full v0.9 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.9/README.md)
 - [Preserved full v0.83 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
 - [Preserved full v0.82 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)

@@ -10,7 +10,7 @@ This directory contains the canonical full v0.91 working preprint and its verifi
 - `INTELLECTUAL_PROVENANCE_DELTA_v0.91.md` separates source-specific additions from standard quantum-algorithmic machinery and records retained controls and NO-GO results.
 - `ARTIFACT_MANIFEST_v0.91.json` records final file identities.
 - `PUBLIC_VERIFICATION_NOTES.md` records build, evidence, and visual checks.
-- `ZENODO_METADATA_v0.91.json` is a proposed metadata packet only; no v0.91 Zenodo deposit is asserted.
+- `ZENODO_METADATA_v0.91.json` records the metadata used for the verified public Zenodo deposit.
 
 ## Main v0.91 advance
 
@@ -34,10 +34,10 @@ Version 0.91 does not establish:
 
 ## Version relation
 
-v0.91 supersedes v0.9 as the proposed current GitHub working manuscript without overwriting v0.9. The public v0.8 Zenodo record remains preserved at [DOI 10.5281/zenodo.22735310](https://doi.org/10.5281/zenodo.22735310). No v0.91 Zenodo deposit is asserted.
+v0.91 supersedes v0.9 as the current public working manuscript without overwriting v0.9. The verified public v0.91 Zenodo record is [DOI 10.5281/zenodo.22958600](https://doi.org/10.5281/zenodo.22958600). The public v0.8 Zenodo record remains preserved at [DOI 10.5281/zenodo.22735310](https://doi.org/10.5281/zenodo.22735310), and the all-versions concept DOI remains [10.5281/zenodo.22693964](https://doi.org/10.5281/zenodo.22693964).
 
 ## Release status
 
-`PUBLIC_GITHUB_WORKING_PREPRINT__ZENODO_DEPOSIT_IN_PROGRESS`.
+`PUBLIC_GITHUB_AND_ZENODO_WORKING_PREPRINT`.
 
-GitHub publication is not peer review, journal acceptance, independent replication, a completed Zenodo version, or empirical confirmation of quantum gravity.
+GitHub and Zenodo publication are not peer review, journal acceptance, independent replication, or empirical confirmation of quantum gravity.

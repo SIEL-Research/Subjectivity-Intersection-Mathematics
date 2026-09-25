@@ -66,8 +66,16 @@ warnings are non-fatal and do not remove manuscript content.
 
 ## Public boundary
 
-This package is the approved GitHub working-preprint release. The Zenodo
-version deposit is separately in progress and no v0.91 DOI is asserted until
-the public record and deposited-file identity have been verified. GitHub
-publication is not a GitHub Release, journal submission, peer review,
-independent replication, or empirical validation.
+This package is the approved GitHub and Zenodo working-preprint release.
+
+- Public Zenodo record: <https://zenodo.org/records/22958600>.
+- Version DOI: <https://doi.org/10.5281/zenodo.22958600>.
+- All-versions concept DOI: <https://doi.org/10.5281/zenodo.22693964>.
+- The deposited file is the 59-page v0.91 PDF and Zenodo reports MD5
+  `d98794e82d6338b2102eed18eeedd5bf`, matching this manifest.
+- The public record title, version `v0.91`, date, CC BY 4.0 license, filename,
+  page count, description, citation, DOI, and preserved v0.8 version entry were
+  visually verified on 2026-09-25.
+
+GitHub and Zenodo publication are not a GitHub Release, journal submission,
+peer review, independent replication, or empirical validation.

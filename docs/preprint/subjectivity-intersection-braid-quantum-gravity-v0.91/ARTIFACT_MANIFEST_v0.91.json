@@ -3,7 +3,7 @@
   "title": "Subjectivity-Intersection Braid Quantum Gravity: A Constructive Refutation of Objectivist Primacy from Source-Derived Quantum Dynamics to the Einstein Limit",
   "version": "0.91",
   "date": "2026-09-25",
-  "status": "PUBLIC_GITHUB_WORKING_PREPRINT__ZENODO_DEPOSIT_IN_PROGRESS",
+  "status": "PUBLIC_GITHUB_AND_ZENODO_WORKING_PREPRINT",
   "canonical_document": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.91.pdf",
   "artifacts": [
     {
@@ -47,10 +47,14 @@
     "retained_prior_range": "BGCE138-BGCE457"
   },
   "zenodo": {
-    "deposit_state": "NOT_DEPOSITED",
+    "deposit_state": "PUBLISHED_AND_VERIFIED",
+    "record_url": "https://zenodo.org/records/22958600",
+    "doi": "10.5281/zenodo.22958600",
     "concept_doi": "10.5281/zenodo.22693964",
     "predecessor_version_doi": "10.5281/zenodo.22735310",
-    "approval_required": false
+    "deposited_file_md5": "d98794e82d6338b2102eed18eeedd5bf",
+    "verified_pages": 59,
+    "verified_on": "2026-09-25"
   },
   "boundaries": [
     "No peer review, journal acceptance, independent replication, or empirical validation",
