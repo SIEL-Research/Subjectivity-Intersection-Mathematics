@@ -1,0 +1,70 @@
+{
+  "schema": "siel-preprint-artifact-manifest-v1",
+  "title": "Subjectivity-Intersection Braid Quantum Gravity: A Constructive Refutation of Objectivist Primacy from Source-Derived Quantum Dynamics to the Einstein Limit",
+  "version": "0.91",
+  "date": "2026-09-25",
+  "status": "PUBLIC_GITHUB_WORKING_PREPRINT__ZENODO_DEPOSIT_IN_PROGRESS",
+  "canonical_document": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.91.pdf",
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.91.pdf",
+      "role": "canonical_full_preprint",
+      "pages": 59,
+      "bytes": 393245,
+      "page_size": "A4",
+      "md5": "d98794e82d6338b2102eed18eeedd5bf",
+      "sha256": "d1c9367dadacc1d1f25f5a8582e16b7a0cce76bcdda5f1407da93e1744bee296"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.91.tex",
+      "role": "canonical_full_source",
+      "bytes": 155111,
+      "sha256": "e701cc5e3a2b4bf9a47ff187100a9a9643fb112c387259e6c27fe6b045af45c4"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex",
+      "role": "retained_currently_operational_derivation_detail",
+      "bytes": 51084,
+      "sha256": "754dfd128d94edf759333748387d1eaddde843d499268abce775379e46f9cd0f"
+    },
+    {
+      "path": "CLAIM_EVIDENCE_MATRIX_v0.91.md",
+      "role": "claim_evidence_boundary",
+      "bytes": 12172,
+      "sha256": "e13d92df04ea39a624e64eb6530d7a89ea0b16166399554718ebb745fef7bdd7"
+    },
+    {
+      "path": "INTELLECTUAL_PROVENANCE_DELTA_v0.91.md",
+      "role": "provenance_and_standard_method_boundary",
+      "bytes": 3222,
+      "sha256": "54a01631a4a8c767583fba8f76f0f2d13f1c4504426827e6b8185d704ccd3da6"
+    }
+  ],
+  "source_research_snapshot": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "completion_ledger_commit": "041fca39d39ff77b82024c45dbf4b1749d9b8f16",
+    "new_certificate_range": "BGCE458-BGCE491",
+    "retained_prior_range": "BGCE138-BGCE457"
+  },
+  "zenodo": {
+    "deposit_state": "NOT_DEPOSITED",
+    "concept_doi": "10.5281/zenodo.22693964",
+    "predecessor_version_doi": "10.5281/zenodo.22735310",
+    "approval_required": false
+  },
+  "boundaries": [
+    "No peer review, journal acceptance, independent replication, or empirical validation",
+    "The complex carrier is exact for the actual three-history source, but ordinary flip also yields a complex sector",
+    "The source-dagger probability theorem is scoped to the declared linear cup-cap gluing class; the general squared-norm mechanism is standard",
+    "The observable algebra is M18(C) direct-sum M18(C), with an exact Z2 superselection boundary",
+    "The typed source-word SELECT is an explicit extension and is not derived as a finite word in the old adjacent generators",
+    "The Lagrange black-box route requires approximately 10^23.14 to 10^44.43 calls, while the Chebyshev replacement closes exact deterministic actuation in 203 to 39,102 block-encoding queries",
+    "The success-address mark and typed finite-list controller are not derived from bare adjacent-Braid relations",
+    "No quantum computer has executed the finite engine",
+    "No frozen Braid-versus-GR phase, redshift, acceleration, or force residual has been derived for a gravity apparatus",
+    "CODATA G remains an external input rather than a Braid prediction",
+    "The direct finite coefficient 1 is not identified with the continuum routing ratio 3/5",
+    "The unchanged source remains non-Standard-Model-equivalent",
+    "General physical ultraviolet completion and a fresh competitor-divergent measurement remain open"
+  ]
+}

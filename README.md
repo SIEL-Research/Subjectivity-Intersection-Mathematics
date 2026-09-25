@@ -45,7 +45,8 @@ copies corresponding to the ResearchGate publication.
 
 ## Subjectivity-Intersection Braid Quantum Gravity
 
-- [Current full v0.9 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.9/README.md)
+- [Current full v0.91 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.91/README.md)
+- [Preserved full v0.9 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.9/README.md)
 - [Preserved full v0.83 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
 - [Preserved full v0.82 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
 - [Preserved full v0.81 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
@@ -53,7 +54,22 @@ copies corresponding to the ResearchGate publication.
 - [Preserved full v0.7 working preprint and concise research note](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
 - [Preserved v0.6.1 code-audited correction](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
 
-Version 0.9 retains the complete v0.83 manuscript and closes three central
+Version 0.91 retains the complete v0.9 manuscript and extends the same fixed
+source through BGCE491. The actual oriented three-history cycle generates a
+36-dimensional complex carrier; source reversal and cup/cap counting supply a
+scoped projective probability rule; source morphisms close an exact `Z2`
+superselection and `M18(C) direct-sum M18(C)` observable algebra. Canonically
+compressed controls define a six-order mixed-unitary engine, and a typed
+source-word extension gives exact LCU block encodings and exact finite
+actuation. The first Lagrange black-box route requires about `10^23.14` to
+`10^44.43` calls, but a source-compatible Chebyshev conversion reduces the
+exact deterministic circuit to 203--39,102 block-encoding queries and removes
+the explicit square-root-defect primitive. Ordinary flip also
+produces a complex sector, the typed selector and success-address mark are
+explicit extensions, and no quantum computer or gravity apparatus has tested
+the construction.
+
+Version 0.9 retained the complete v0.83 manuscript and closed three central
 internal gates in declared scopes. BGCE443 gives a Braid-specific rank-three
 closable unbounded local-derivation constraint algebra with exact finite-order
 Lie/Jacobi closure. BGCE456 gives an actual-metric anisotropic hierarchical UCP
