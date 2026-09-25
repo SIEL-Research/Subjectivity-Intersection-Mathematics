@@ -1,13 +1,14 @@
 # Subjectivity-Intersection Mathematics Preprint
 
-## Subjectivity-Intersection Braid Quantum Gravity v0.83 working preprint
+## Subjectivity-Intersection Braid Quantum Gravity v0.9 working preprint
 
 A current-state manuscript unifies generated objectivity, finite metric-affine
 gravity, fixed-model matter routing, an exact Lorentz event carrier, and a
 conditional continuum Einstein equation as a bounded quantum-gravity candidate
 grounded in subjectivity intersection:
 
-- [Current canonical full v0.83 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
+- [Current canonical full v0.9 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.9/README.md)
+- [Preserved canonical full v0.83 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
 - [Preserved canonical full v0.82 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
 - [Preserved canonical full v0.81 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
 - [Preserved public v0.8 preprint](subjectivity-intersection-braid-quantum-gravity-v0.8/README.md)
@@ -18,19 +19,16 @@ grounded in subjectivity intersection:
 - [Preserved v0.4 working draft](subjectivity-intersection-braid-quantum-gravity-v0.4/README.md)
 - [Preserved v0.3 working draft](braid-first-quantum-spacetime-gravity-v0.3/README.md)
 
-Version 0.83 retains the full v0.82 manuscript and adds the executed BGCE440
-revisions 19--21 calibration. The real AWS Braket/Rigetti Ramsey result passed
-independent E2 audit and supplies a device-relative frequency anchor. External
-CODATA `G` then supplies a conditional stress conversion under the frozen
-finite coupling and source gap. This does not predict Newton's constant,
-measure gravity, establish a universal Braid clock, or empirically validate
-quantum gravity. BGCE444--449 also establish a norm-one AF/quasi-local
-all-refinement channel and an exact interval rank-35 certificate for the actual
-UB612 quartic response. Full physical UV completion, complete provider-clock SI
-traceability, gravitational first-class constraints, and the physical
-finite-to-continuum coefficient identification remain open. This repository
-update does not create a Zenodo version, DOI, GitHub Release, or journal
-submission.
+Version 0.9 retains the full v0.83 manuscript and adds three scoped closure
+results. BGCE443 closes the source-generated local-derivation constraint
+algebra with exact finite-order Lie/Jacobi closure. BGCE456 constructs an
+actual-metric anisotropic hierarchical UCP heat and positive-wave carrier.
+BGCE457 closes every finite iteration of the operator-logistic identity-
+feedback backreaction loop while preserving CPTP evolution, the exact Ward
+telescope, and four response directions. ADM/hypersurface-deformation typing,
+uniqueness, an infinite-time bound, general smooth-spacetime UV completion,
+and empirical validation remain open. This repository update does not create a
+Zenodo version, DOI, GitHub Release, or journal submission.
 
 ## Braid–Quantum–Lorentz Unification v0.81 working draft
 

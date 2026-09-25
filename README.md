@@ -45,26 +45,26 @@ copies corresponding to the ResearchGate publication.
 
 ## Subjectivity-Intersection Braid Quantum Gravity
 
-- [Current full v0.83 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
+- [Current full v0.9 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.9/README.md)
+- [Preserved full v0.83 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
 - [Preserved full v0.82 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
 - [Preserved full v0.81 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
 - [Preserved public v0.8 preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.8/README.md)
 - [Preserved full v0.7 working preprint and concise research note](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
 - [Preserved v0.6.1 code-audited correction](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
 
-Version 0.83 retains the complete v0.82 gravity and scoped matter-sector
-results and adds the BGCE440 revisions 19--21 calibration. A real AWS
-Braket/Rigetti Ramsey execution passed independent E2 audit and conditionally
-fixes device-relative time, length, and energy scales. With external CODATA
-`G`, exact `c`, and frozen finite coupling `1`, it also fixes a scoped stress
-conversion. `G` is an input rather than a prediction, and public provider
-metadata does not yet establish the complete SI clock uncertainty budget.
-BGCE444--449 additionally close a norm-one AF/quasi-local all-refinement
-channel and certify rank 35 for the actual UB612 quartic source response over
-its full saved interval box. This is not full physical UV completion: the full
-metric Frechet Hessian, nonpolynomial uniform control, composite stress,
-gravitational first-class constraints, physical mass/mixing values, and
-empirical quantum-gravity validation remain open.
+Version 0.9 retains the complete v0.83 manuscript and closes three central
+internal gates in declared scopes. BGCE443 gives a Braid-specific rank-three
+closable unbounded local-derivation constraint algebra with exact finite-order
+Lie/Jacobi closure. BGCE456 gives an actual-metric anisotropic hierarchical UCP
+heat and positive-wave carrier with spatial spectral dimension three. BGCE457
+proves that every finite operator-logistic identity-feedback iteration remains
+CPTP, satisfies the exact nonautonomous Ward telescope, and retains four
+response directions in all eight sectors. These results do not establish ADM
+hypersurface-deformation typing, uniqueness among all dynamics, an infinite-
+time uniform bound, general smooth-spacetime UV completion, or empirical
+quantum-gravity validation. The decisive remaining programme gate is a fresh
+competitor-divergent measurement.
 
 This document records the current operational distinction between an
 instantaneous relation and a history-bearing relational carrier, defines the

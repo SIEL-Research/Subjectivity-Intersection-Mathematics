@@ -1,0 +1,59 @@
+{
+  "schema": "siel-preprint-artifact-manifest-v1",
+  "title": "Subjectivity-Intersection Braid Quantum Gravity: A Constructive Refutation of Objectivist Primacy from Source-Derived Quantum Dynamics to the Einstein Limit",
+  "version": "0.9",
+  "date": "2026-09-25",
+  "status": "PUBLIC_GITHUB_WORKING_PREPRINT__ZENODO_NOT_DEPOSITED",
+  "canonical_document": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.9.pdf",
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.9.pdf",
+      "role": "canonical_full_preprint",
+      "pages": 51,
+      "bytes": 355661,
+      "page_size": "A4",
+      "md5": "675ce227c70dd9a714ae3474964eb7dd",
+      "sha256": "f89e438041be1b6381a1141aea9ff1db8e96455ed4abb7b664f458436c9dcae8"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.9.tex",
+      "role": "canonical_full_source",
+      "bytes": 127419,
+      "sha256": "877c6d41d7c03a54653caba3d807f352b5913dd217ca37a5a7b239c39f96d1c4"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex",
+      "role": "retained_currently_operational_derivation_detail",
+      "bytes": 51084,
+      "sha256": "754dfd128d94edf759333748387d1eaddde843d499268abce775379e46f9cd0f"
+    }
+  ],
+  "source_research_snapshot": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "completion_ledger_commit": "abd5261df92d1639c4a16d6e2309b542d176fe14",
+    "constraint_closure_commit": "2096dfb4a500f6e1a62db80ca3baa8677bd253c1",
+    "anisotropic_ucp_commit": "98cb506081897e10783e6905337849862fefd1de",
+    "iterative_backreaction_commit": "93464726036b9c78151f92d2841c125cc3a26f8c",
+    "new_certificate_range": "BGCE443 and BGCE450-BGCE457",
+    "retained_prior_range": "BGCE138-BGCE442 and BGCE444-BGCE449"
+  },
+  "zenodo": {
+    "deposit_state": "NOT_DEPOSITED",
+    "concept_doi": "10.5281/zenodo.22693964",
+    "predecessor_version_doi": "10.5281/zenodo.22735310",
+    "approval_required": true
+  },
+  "boundaries": [
+    "No peer review, journal acceptance, independent replication, or empirical validation",
+    "BGCE443 closes a source-generated refinement-limit derivation algebra, not an ADM or hypersurface-deformation constraint algebra",
+    "BGCE457 proves preservation for every finite iteration in the declared feedback family, not uniqueness or a uniform infinite-time limit",
+    "BGCE456 supplies a positive actual-metric hierarchical UCP carrier, but its conductance law is not proved unique and no exact smooth principal-symbol theorem is claimed",
+    "Implemented-Braid Ramsey calibration remains exploratory and device-relative",
+    "CODATA G remains an external input rather than a Braid prediction",
+    "Public AWS metadata still does not provide a complete provider-clock SI traceability chain",
+    "Physical smooth-spacetime ultraviolet completion and arbitrary nonpolynomial control remain open",
+    "The direct finite coefficient 1 is not identified with the continuum routing ratio 3/5",
+    "The unchanged source remains non-Standard-Model-equivalent",
+    "A fresh competitor-divergent measurement remains the decisive programme gate"
+  ]
+}
