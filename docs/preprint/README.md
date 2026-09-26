@@ -1,13 +1,16 @@
 # Subjectivity-Intersection Mathematics Preprint
 
-## Subjectivity-Intersection Braid Quantum Gravity v0.9 working preprint
+## Subjectivity-Intersection Braid Quantum Gravity v0.93 working preprint
 
 A current-state manuscript unifies generated objectivity, finite metric-affine
 gravity, fixed-model matter routing, an exact Lorentz event carrier, and a
 conditional continuum Einstein equation as a bounded quantum-gravity candidate
 grounded in subjectivity intersection:
 
-- [Current canonical full v0.9 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.9/README.md)
+- [Current canonical full v0.93 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.93/README.md)
+- [Preserved canonical full v0.92 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.92/README.md)
+- [Preserved canonical full v0.91 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.91/README.md)
+- [Preserved canonical full v0.9 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.9/README.md)
 - [Preserved canonical full v0.83 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
 - [Preserved canonical full v0.82 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.82/README.md)
 - [Preserved canonical full v0.81 manuscript and release controls](subjectivity-intersection-braid-quantum-gravity-v0.81/README.md)
@@ -19,16 +22,16 @@ grounded in subjectivity intersection:
 - [Preserved v0.4 working draft](subjectivity-intersection-braid-quantum-gravity-v0.4/README.md)
 - [Preserved v0.3 working draft](braid-first-quantum-spacetime-gravity-v0.3/README.md)
 
-Version 0.9 retains the full v0.83 manuscript and adds three scoped closure
-results. BGCE443 closes the source-generated local-derivation constraint
-algebra with exact finite-order Lie/Jacobi closure. BGCE456 constructs an
-actual-metric anisotropic hierarchical UCP heat and positive-wave carrier.
-BGCE457 closes every finite iteration of the operator-logistic identity-
-feedback backreaction loop while preserving CPTP evolution, the exact Ward
-telescope, and four response directions. ADM/hypersurface-deformation typing,
-uniqueness, an infinite-time bound, general smooth-spacetime UV completion,
-and empirical validation remain open. This repository update does not create a
-Zenodo version, DOI, GitHub Release, or journal submission.
+Version 0.93 retains the complete 65-page v0.92 manuscript and adds BGCE570--571.
+Within a declared derived joint clock--Nambu completion, the positive pair rate,
+dimensionless neutrino coefficient, one device-relative Majorana coefficient,
+and six neutral modes are fixed without target-data fitting. Source-order CKM,
+PMNS, and physical `3x6` active--neutral mixing matrices are then output. The
+six observed-name dictionaries remain an unresolved finite orbit, and measured
+CKM/PMNS agreement is not claimed. ADM/hypersurface-deformation typing, full
+SI traceability, general physical UV completion, and empirical validation
+remain open. This repository update does not create a Zenodo version, DOI,
+GitHub Release, or journal submission.
 
 ## Braid–Quantum–Lorentz Unification v0.81 working draft
 
