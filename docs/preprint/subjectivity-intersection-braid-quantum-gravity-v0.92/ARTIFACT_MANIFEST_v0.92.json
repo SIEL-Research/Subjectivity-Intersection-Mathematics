@@ -1,0 +1,67 @@
+{
+  "schema": "siel-preprint-artifact-manifest-v1",
+  "title": "Subjectivity-Intersection Braid Quantum Gravity: A Constructive Refutation of Objectivist Primacy from Source-Derived Quantum Dynamics to the Einstein Limit",
+  "version": "0.92",
+  "date": "2026-09-26",
+  "status": "LOCAL_RELEASE_CANDIDATE_AWAITING_EXACT_PUBLICATION_APPROVAL",
+  "canonical_document": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.92.pdf",
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.92.pdf",
+      "role": "canonical_full_preprint",
+      "pages": 65,
+      "bytes": 417979,
+      "page_size": "A4",
+      "md5": "c1ce3998784b4583b7ff9a270aa7d5a4",
+      "sha256": "378a9107c3a93829dd922f56ac6708216b55fc8f6b02f485a3a861e950652ea8"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.92.tex",
+      "role": "canonical_full_source",
+      "bytes": 175348,
+      "sha256": "348dc1d7bd025c6427b1f2e7c970fa805a9e1c444ae3f9f873ddda3d3d1476ef"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.7_RETAINED_DERIVATION.tex",
+      "role": "retained_currently_operational_derivation_detail",
+      "bytes": 51084,
+      "sha256": "754dfd128d94edf759333748387d1eaddde843d499268abce775379e46f9cd0f"
+    },
+    {
+      "path": "CLAIM_EVIDENCE_MATRIX_v0.92.md",
+      "role": "claim_evidence_boundary",
+      "bytes": 14453,
+      "sha256": "e8adcdcbd80ff6c377f4ebcedaac60273097afa6b4945e0ca488a5133d76cb6f"
+    },
+    {
+      "path": "INTELLECTUAL_PROVENANCE_DELTA_v0.92.md",
+      "role": "provenance_and_standard_method_boundary",
+      "bytes": 3387,
+      "sha256": "8eb81cb16fbb82920fe797daca0f9016e4bae6f7f6b42c992220fac22a2f6e67"
+    }
+  ],
+  "source_research_snapshot": {
+    "repository": "SIEL-Research/SIEL-Research-Agent",
+    "completion_ledger_commit": "50aca5a404fbed180a2d76f8a4c6176b9949db91",
+    "new_certificate_range": "BGCE492-BGCE569 plus DPA-SCOUT-BQGEULER-004",
+    "retained_prior_range": "BGCE138-BGCE491"
+  },
+  "zenodo": {
+    "deposit_state": "NOT_YET_CREATED",
+    "record_url": null,
+    "doi": null,
+    "concept_doi": "10.5281/zenodo.22693964",
+    "predecessor_version_doi": "10.5281/zenodo.22958600"
+  },
+  "boundaries": [
+    "No peer review, journal acceptance, independent replication, or empirical validation",
+    "The real-QPU result is exploratory and does not establish quantum advantage, Braid necessity, gravity, or quantum gravity",
+    "The full 203-39,102-query Chebyshev actuator has not been executed",
+    "All-real-time strong convergence is proved for the hierarchical two-slot wave carrier, not the physical ADM/Fierz-Pauli quotient",
+    "Matter spectra are source/device-relative and are not observed fermion masses",
+    "The neutrino carrier and y_nu=+1 are conditional on a declared unital Frobenius-positive completion",
+    "The present clock and normalized Majorana pair do not determine a dimensionful Majorana action scale",
+    "CODATA G remains an external input rather than a Braid prediction",
+    "General physical ultraviolet completion and a fresh competitor-divergent gravity measurement remain open"
+  ]
+}
