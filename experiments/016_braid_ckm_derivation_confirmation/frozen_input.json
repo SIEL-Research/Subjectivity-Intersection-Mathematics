@@ -1,0 +1,67 @@
+{
+  "schema": "siel.e016.braid-ckm-derivation-confirmation.input.v1",
+  "experiment_id": "E016",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "source_commit": "72eadd9ba517cc68918fe760948a362ae48bd5b7",
+  "source_provenance": {
+    "clock": "audits/SRA_DPA_BQGFM011_G1_THREE_BRANCH_ENCODED_CLOCK_FRAME_AND_COMMON_LABEL_GATE_20260926/DPA_SCOUT_001/RAW_OUTPUT.json",
+    "matter": "audits/SRA_DPA_BQG_FLAVOUR_B0_ORIENTED_BIMODULE_ONE_COCYCLE_YUKAWA_TRANSPORT_GATE_20260926/DPA_SCOUT_001/RAW_OUTPUT.json",
+    "final_law": "audits/SRA_DPA_BQGFLAV040_SOURCE_COEFFICIENT_WORD_LENGTH_JOINT_POINTER_TO_GAUGE_INVARIANT_WEAK_CURRENT_MEASUREMENT_PROTOCOL_GATE_20260927/DPA_SCOUT_001/RESULT.json"
+  },
+  "clock_words": ["r1", "r2", "r121"],
+  "word_to_axis": {"r1": "e2", "r2": "e1", "r121": "e3"},
+  "clock_weights": [7, 4, 4],
+  "matter_weights_in_word_order": [4, 10, 10],
+  "matter_base": [
+    [
+      {"re": "56171/18225000", "im": "44347/9112500"},
+      {"re": "10679/18225000", "im": "17863/9112500"},
+      {"re": "-2927/2025000", "im": "-139/67500"}
+    ],
+    [
+      {"re": "3203/18225000", "im": "17863/9112500"},
+      {"re": "9739/3645000", "im": "36871/9112500"},
+      {"re": "-33031/18225000", "im": "-22109/9112500"}
+    ],
+    [
+      {"re": "-23351/6075000", "im": "-139/67500"},
+      {"re": "-13853/3645000", "im": "-22109/9112500"},
+      {"re": "84929/18225000", "im": "36871/9112500"}
+    ]
+  ],
+  "frozen_final_law": {
+    "hellinger_cross_state": [
+      0.29494547062671245,
+      0.3525272646866438,
+      0.3525272646866438
+    ],
+    "pair_star_coefficients": {
+      "e3_e2": 0.10397631999174979,
+      "e3_e1": 0.12427547234744701,
+      "e2_e1": 0.0
+    }
+  },
+  "frozen_expected_ckm_modulus": [
+    [0.9739619651193309, 0.22668694841323442, 0.0033343545082465554],
+    [0.2265269159906125, 0.9731130260322166, 0.04167247170740552],
+    [0.00914586423871862, 0.040792964902273784, 0.9991257614443785]
+  ],
+  "post_derivation_measurement_table": {
+    "central": [
+      [0.97435, 0.22501, 0.003732],
+      [0.22487, 0.97349, 0.04183],
+      [0.00858, 0.04111, 0.999118]
+    ],
+    "one_sigma": [
+      [0.00016, 0.00068, 0.00009],
+      [0.00068, 0.00016, 0.00079],
+      [0.00019, 0.00077, 0.000034]
+    ],
+    "source": "PDG 2024 CKM review central values as frozen in the original derivation lineage"
+  },
+  "tolerances": {
+    "exact_reproduction": 1e-11,
+    "maximum_element_pull_sigma": 5.0,
+    "minimum_control_distance": 1e-6
+  }
+}

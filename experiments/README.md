@@ -144,3 +144,8 @@ outputs, acceptance checks, and claim boundary.
      gates and seven validity gates are jointly fixed. Confirmatory execution
      is blocked until the preregistration Release and Zenodo DOI-1 are public
      and checksum-verified.
+
+16. [Pointed-Braid CKM Derivation Confirmation](016_braid_ckm_derivation_confirmation/PREREGISTRATION.md) —
+    registered direct reproducibility test of whether the fixed pointed-Braid
+    source construction reproduces its declared CKM modulus matrix before the
+    frozen measurement table is consulted. Status: preregistered, not executed.

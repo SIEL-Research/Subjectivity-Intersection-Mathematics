@@ -1,0 +1,22 @@
+{
+  "title": "E016 Pointed-Braid CKM Derivation Confirmation — Preregistration",
+  "upload_type": "dataset",
+  "description": "Frozen preregistration and executable code for a direct reproducibility confirmation that the declared pointed-Braid source construction reproduces its CKM modulus matrix. Not yet executed.",
+  "creators": [
+    {
+      "name": "Watanabe, Satoru",
+      "orcid": "0009-0002-1473-1861"
+    }
+  ],
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.0.0-preregistration",
+  "keywords": [
+    "Braid",
+    "CKM matrix",
+    "flavour mixing",
+    "preregistration",
+    "reproducibility"
+  ],
+  "notes": "PREREGISTERED — NOT EXECUTED. This is a reproducibility confirmation of a known derivation, not a blind discovery experiment."
+}
