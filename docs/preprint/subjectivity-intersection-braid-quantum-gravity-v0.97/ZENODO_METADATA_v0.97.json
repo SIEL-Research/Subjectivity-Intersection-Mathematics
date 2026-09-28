@@ -1,0 +1,56 @@
+{
+  "title": "Subjectivity-Intersection Braid Quantum Gravity: From a Finite Quantum Source to Lorentz Spacetime, Einstein Dynamics, and Matter Structure",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-09-29",
+  "deposit_state": "approved_pending_creation",
+  "record_url": null,
+  "doi": null,
+  "concept_doi": "10.5281/zenodo.22693964",
+  "version": "v0.97",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Watanabe, Satoru",
+      "affiliation": "Subjectivity Intersection Emergence Lab (SIEL)",
+      "orcid": "0009-0006-0668-7124"
+    }
+  ],
+  "description": "We present Subjectivity-Intersection Braid Quantum Gravity as a mathematical quantum-gravity candidate that generates quantum structure, Lorentz spacetime, gravitational dynamics, and matter representations from a finite pointed-Braid source typed as subjectivity intersection. Version 0.97 preserves the verified v0.96 theorem chain, including the four-direction Lorentz carrier, continuous metric and nonmetricity, exact finite four-component Ward balance, iterated CPTP backreaction, the scoped Einstein infrared equation G=(3/5)T, ADM/HDA-BFV constraint structure, continuum-dynamic convergence, finite quantum reconstruction and control, derived matter representations, and the registered E016 CKM derivation confirmation. It adds a source-derived internal neutral M3(C) operational sector with scalar commutant, source-ordered unitary propagation with unequal phase gaps and a nonzero CP-odd invariant, a refinement-invariant finite screen, and a source-normalized fixed-boundary Misner-Sharp spectrum. The clock-screen modular generator has rank-four response, while the minimal parity/reflection plaquette is exactly trivial in all eight sectors, preserving an explicit no-go boundary on absolute SI calibration. Empirical PMNS agreement, absolute neutrino masses, a source-derived Newton constant, global strong-curvature completion, independent CKM replication, and experimental confirmation of quantum gravity are not claimed.",
+  "keywords": [
+    "Subjectivity-Intersection Braid Quantum Gravity",
+    "quantum gravity candidate",
+    "pointed braid",
+    "generated objectivity",
+    "objectivist primacy",
+    "Lorentzian geometry",
+    "emergent spacetime",
+    "Einstein equation",
+    "Ward identity",
+    "quantum foundations",
+    "finite backreaction",
+    "quantum control",
+    "CKM",
+    "neutrino sector",
+    "black-hole screen",
+    "absolute calibration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22958600",
+      "relation": "isNewVersionOf",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "files": [
+    {
+      "name": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.97_EN.pdf",
+      "bytes": 494818,
+      "md5": "5283597f4ee0911d6d05ac057933b055",
+      "sha256": "53281166e6efc0b58be41f35191459078eeedf8c5e6d337b84151caaf904ac3d"
+    }
+  ],
+  "repository_url": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics"
+}

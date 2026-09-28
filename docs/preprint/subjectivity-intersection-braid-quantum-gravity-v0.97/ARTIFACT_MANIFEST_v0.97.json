@@ -1,0 +1,81 @@
+{
+  "schema": "siel.preprint.artifact-manifest.v1",
+  "title": "Subjectivity-Intersection Braid Quantum Gravity",
+  "languages": ["en"],
+  "version": "0.97",
+  "date": "2026-09-29",
+  "status": "PUBLISHED_GITHUB__ZENODO_DEPOSIT_PENDING",
+  "source_repository": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics",
+  "sim_base_revision": "bb10148e4e6e5c9662b36be0822b5c9df43b91c7",
+  "sra_evidence_revision": "58026d1254ae8b6b8a0db71d218683c57e9a9d76",
+  "claim_scope": {
+    "included": [
+      "complete v0.96 English mathematical theorem chain",
+      "finite internal neutral M3(C) operational carrier and weak-current typing",
+      "source-ordered neutral Floquet propagation and finite causal-face boundary",
+      "refinement-invariant finite screen and source-normalized compact-object spectrum",
+      "clock-screen relative modular rank-four response",
+      "BQGCAL-016 exact parity-reflection plaquette and absolute-scale no-go",
+      "registered E016 CKM derivation confirmation"
+    ],
+    "excluded_from_manuscript_claims": [
+      "empirical PMNS agreement",
+      "absolute neutrino masses",
+      "source-only SI calibration or derived Newton constant",
+      "global strong-curvature or singularity completion",
+      "independent CKM replication",
+      "experimental confirmation of quantum gravity"
+    ],
+    "e016_claim_ceiling": "Registered reproducibility confirmation of a known derivation; not a blind prospective prediction",
+    "neutral_claim_ceiling": "Source-derived formal operational sector inside the declared matter class; no empirical PMNS or absolute-mass claim",
+    "calibration_claim_ceiling": "Source-normalized compact-object spectrum and exact route exclusions; full SI anchor rank remains two"
+  },
+  "registered_records": {
+    "preregistration_doi": "10.5281/zenodo.23006547",
+    "result_doi": "10.5281/zenodo.23006637",
+    "decision": "PASS"
+  },
+  "preprint_release": {
+    "github_status": "APPROVED_FOR_PUBLICATION",
+    "zenodo_status": "APPROVED_FOR_NEW_VERSION_DEPOSIT",
+    "concept_doi": "10.5281/zenodo.22693964",
+    "record_doi": null,
+    "record_url": null
+  },
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.97_EN.tex",
+      "bytes": 67840,
+      "sha256": "5702df59ab0dace1ece5a277dfe9e9b53188001e93a36961c0b56c68289ac1d2"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.97_EN.pdf",
+      "bytes": 494818,
+      "pages": 19,
+      "sha256": "53281166e6efc0b58be41f35191459078eeedf8c5e6d337b84151caaf904ac3d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1743,
+      "sha256": "e954247e753c14c4bd423e9019aa23b62fba5b0dbeeb1573828651a8eab6afa3"
+    },
+    {
+      "path": "CHANGELOG_v0.97.md",
+      "bytes": 1510,
+      "sha256": "38bde45565033c36e748734eff5b087831d505e84c354a9ff02bfc44c7919e82"
+    },
+    {
+      "path": "ZENODO_METADATA_v0.97.json",
+      "bytes": 3094,
+      "sha256": "084d6cf83ab15f16c6583cd5a2342f47fb2b9eba3146e3719992cb9ba4c0b935"
+    }
+  ],
+  "verification": {
+    "latex_engines": ["desktop built-in compiler", "pdfLaTeX"],
+    "compile_pass": true,
+    "undefined_references": 0,
+    "overfull_boxes": 0,
+    "visual_pages_checked": 19,
+    "legacy_unverified_numeric_outputs_promoted": 0
+  }
+}

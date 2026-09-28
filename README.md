@@ -45,7 +45,11 @@ copies corresponding to the ResearchGate publication.
 
 ## Subjectivity-Intersection Braid Quantum Gravity
 
-- [Current full v0.91 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.91/README.md)
+- [Current English v0.97 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.97/README.md)
+- [Preserved Japanese and English v0.96 working preprints](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.96/README.md)
+- [Preserved full v0.93 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.93/README.md)
+- [Preserved full v0.92 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.92/README.md)
+- [Preserved full v0.91 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.91/README.md)
 - [Zenodo v0.91 record and DOI](https://doi.org/10.5281/zenodo.22958600)
 - [Preserved full v0.9 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.9/README.md)
 - [Preserved full v0.83 working preprint](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.83/README.md)
@@ -55,20 +59,15 @@ copies corresponding to the ResearchGate publication.
 - [Preserved full v0.7 working preprint and concise research note](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.7/README.md)
 - [Preserved v0.6.1 code-audited correction](docs/preprint/subjectivity-intersection-braid-quantum-gravity-v0.6.1/README.md)
 
-Version 0.91 retains the complete v0.9 manuscript and extends the same fixed
-source through BGCE491. The actual oriented three-history cycle generates a
-36-dimensional complex carrier; source reversal and cup/cap counting supply a
-scoped projective probability rule; source morphisms close an exact `Z2`
-superselection and `M18(C) direct-sum M18(C)` observable algebra. Canonically
-compressed controls define a six-order mixed-unitary engine, and a typed
-source-word extension gives exact LCU block encodings and exact finite
-actuation. The first Lagrange black-box route requires about `10^23.14` to
-`10^44.43` calls, but a source-compatible Chebyshev conversion reduces the
-exact deterministic circuit to 203--39,102 block-encoding queries and removes
-the explicit square-root-defect primitive. Ordinary flip also
-produces a complex sector, the typed selector and success-address mark are
-explicit extensions, and no quantum computer or gravity apparatus has tested
-the construction.
+Version 0.97 preserves the verified v0.96 theorem chain and adds the finite
+internal neutral `M3(C)` operational sector, source-ordered unitary neutral
+propagation, a refinement-invariant finite screen, a source-normalized
+fixed-boundary Misner--Sharp spectrum, and the exact absolute-calibration
+boundary. The clock--screen modular response has rank four, while the minimal
+parity/reflection plaquette is exactly trivial in all eight source sectors.
+Empirical PMNS agreement, absolute neutrino masses, source-only SI calibration,
+independent CKM replication, and experimental validation of quantum gravity
+remain open.
 
 Version 0.9 retained the complete v0.83 manuscript and closed three central
 internal gates in declared scopes. BGCE443 gives a Braid-specific rank-three
