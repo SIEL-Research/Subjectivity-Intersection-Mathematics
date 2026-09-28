@@ -148,4 +148,5 @@ outputs, acceptance checks, and claim boundary.
 16. [Pointed-Braid CKM Derivation Confirmation](016_braid_ckm_derivation_confirmation/PREREGISTRATION.md) —
     registered direct reproducibility test of whether the fixed pointed-Braid
     source construction reproduces its declared CKM modulus matrix before the
-    frozen measurement table is consulted. Status: preregistered, not executed.
+    frozen measurement table is consulted. All ten registered tests passed.
+    [Executed result](016_braid_ckm_derivation_confirmation/RESULT.md).

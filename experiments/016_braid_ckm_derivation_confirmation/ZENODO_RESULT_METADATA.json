@@ -1,0 +1,29 @@
+{
+  "title": "E016 Pointed-Braid CKM Derivation Confirmation — Result",
+  "upload_type": "dataset",
+  "description": "Executed result of the preregistered pointed-Braid CKM derivation confirmation. All ten frozen tests passed; the CKM matrix was reproduced exactly, all nine elements remained within five quoted standard deviations, and all three structure-breaking controls changed the output.",
+  "creators": [
+    {
+      "name": "Watanabe, Satoru",
+      "orcid": "0009-0002-1473-1861"
+    }
+  ],
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.0.0-result",
+  "keywords": [
+    "Braid",
+    "CKM matrix",
+    "flavour mixing",
+    "confirmation",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23006547",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "PASS. Result DOI-2 for the distinct preregistration DOI-1 10.5281/zenodo.23006547."
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "siel.e016.braid-ckm-derivation-confirmation.result.v1",
+  "experiment_id": "E016",
+  "status": "PASS",
+  "derived_ckm_modulus": [
+    [
+      0.9739619651193309,
+      0.22668694841323442,
+      0.0033343545082465554
+    ],
+    [
+      0.2265269159906125,
+      0.9731130260322166,
+      0.04167247170740552
+    ],
+    [
+      0.00914586423871862,
+      0.040792964902273784,
+      0.9991257614443785
+    ]
+  ],
+  "hellinger_cross_state": [
+    0.29494547062671245,
+    0.3525272646866438,
+    0.3525272646866438
+  ],
+  "pair_star_coefficients": {
+    "e3_e2": 0.10397631999174979,
+    "e3_e1": 0.12427547234744701,
+    "e2_e1": 0.0
+  },
+  "unitarity_residual": 8.514964801164752e-16,
+  "frozen_output_max_abs_residual": 0.0,
+  "measurement_comparison": {
+    "frobenius_distance": 0.002540456248697957,
+    "maximum_element_pull_sigma": 4.41828324170494,
+    "all_nine_within_five_sigma": true
+  },
+  "controls": {
+    "uniform_clock_distance": 0.06431185326470787,
+    "broken_pointing_distance": 0.15001250606157654,
+    "pair_star_removed_distance": 0.3280220949999376
+  },
+  "tests": {
+    "source_words_and_pointing_fixed": true,
+    "source_weights_fixed": true,
+    "final_cross_state_reproduced": true,
+    "final_pair_star_reproduced": true,
+    "frozen_ckm_reproduced": true,
+    "unitary": true,
+    "all_nine_within_five_sigma": true,
+    "uniform_clock_changes_output": true,
+    "broken_pointing_changes_output": true,
+    "removed_pair_star_changes_output": true
+  }
+}
