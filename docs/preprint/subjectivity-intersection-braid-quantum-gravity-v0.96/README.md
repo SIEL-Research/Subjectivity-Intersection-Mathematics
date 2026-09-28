@@ -1,6 +1,6 @@
 # Subjectivity-Intersection Braid Quantum Gravity v0.96
 
-Japanese full preprint dated 2026-09-28.
+Japanese and English full preprints dated 2026-09-28.
 
 This version limits its empirical claims to results with completed verification. It retains the established mathematical derivation chain from the finite pointed-Braid source through quantum structure, Lorentz geometry, Ward balance, backreaction, the scoped Einstein limit, constraints, refinement, and finite quantum control. It also incorporates the registered E016 CKM derivation confirmation.
 
@@ -8,8 +8,10 @@ Unverified PMNS, neutral-mass, and active-neutral mixing numbers are intentional
 
 ## Files
 
-- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.96_JA.tex` — source
-- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.96_JA.pdf` — compiled manuscript
+- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.96_JA.tex` — Japanese source
+- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.96_JA.pdf` — Japanese manuscript
+- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.96_EN.tex` — English source
+- `SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.96_EN.pdf` — English manuscript
 - `ARTIFACT_MANIFEST_v0.96.json` — checksums and scope metadata
 
 ## Registered CKM records

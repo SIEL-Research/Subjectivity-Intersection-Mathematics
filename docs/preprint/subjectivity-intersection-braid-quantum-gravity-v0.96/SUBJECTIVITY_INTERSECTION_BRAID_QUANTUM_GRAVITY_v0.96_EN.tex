@@ -1,0 +1,899 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=22mm,headheight=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype}
+\microtypesetup{nopatch=footnote}
+\usepackage{booktabs,tabularx,longtable,array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\definecolor{navy}{HTML}{17365D}
+\definecolor{blue}{HTML}{2F5597}
+\definecolor{lightblue}{HTML}{EAF1F8}
+\definecolor{warm}{HTML}{F6EEE7}
+\definecolor{deepred}{HTML}{8B1E2D}
+\definecolor{graytext}{HTML}{4A4A4A}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=navy,
+  citecolor=deepred,
+  urlcolor=blue,
+  pdfauthor={Satoru Watanabe},
+  pdftitle={Subjectivity-Intersection Braid Quantum Gravity - From a Finite Quantum Source to Lorentz Spacetime, Einstein Dynamics, and Matter Structure},
+  pdfsubject={A constructive theory generating quantum structure, Lorentz spacetime, Einstein dynamics, and matter structure from a finite pointed-Braid source},
+  pdfkeywords={subjectivity intersection, braid quantum gravity, Einstein equation, Ward identity, quantum foundations, finite backreaction, quantum control, CKM}
+}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{law}[theorem]{Source Law}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{scope}[theorem]{Scope Condition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\id}{\mathbf 1}
+\newcommand{\cA}{\mathcal A}
+\newcommand{\cE}{\mathcal E}
+\newcommand{\cO}{\mathcal O}
+\newcommand{\cS}{\mathcal S}
+\newcommand{\OPT}{\mathsf{OP}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{graytext}Subjectivity-Intersection Braid Quantum Gravity}
+\fancyhead[R]{\small\color{graytext}English edition v0.96}
+\fancyfoot[C]{\thepage}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{1.5em}
+\raggedbottom
+\setlist{nosep,leftmargin=1.55em}
+\renewcommand{\arraystretch}{1.14}
+
+\title{\vspace{-1.2cm}\textbf{Subjectivity-Intersection Braid Quantum Gravity}\\[0.35em]
+\Large From a Finite Quantum Source to Lorentz Spacetime, Einstein Dynamics, and Matter Structure\\[0.15em]
+\large A Constructive Refutation of Objectivist Primacy}
+\author{Satoru Watanabe\\\small Subjectivity Intersection Emergence Lab (SIEL)}
+\date{Working preprint v0.96 --- 28 September 2026}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\fcolorbox{navy}{lightblue}{\parbox{0.93\linewidth}{\small
+\textbf{Central result.} From one standpoint-bearing finite pointed-Braid source, the construction obtains quantum states and channels, a four-direction Lorentz carrier, a continuous metric, a four-component Ward law, iterated backreaction, a scoped Einstein infrared limit, an ADM/HDA--BFV constraint structure, finite quantum control, and matter representations as one generative chain. Public spacetime and physical law are outputs of source composition typed as subjectivity intersection rather than primitive inputs.}}
+\end{center}
+
+\begin{abstract}
+We present Subjectivity-Intersection Braid Quantum Gravity as a mathematical quantum-gravity candidate that continuously generates quantum structure, spacetime geometry, gravitational dynamics, and matter representations from a finite Braid source typed as subjectivity intersection. The construction starts from nonidentical, standpoint-bearing pointed-Braid processes, not from a primitive public spacetime. A fixed source produces a four-direction event carrier, a Lorentz-signature metric, a rank-ten response, and the source-routing ratio $3/5$. Smooth chart gluing, positive information-geometric transport, and a source-typed solder yield a continuous metric/nonmetricity tensor. In a declared local, second-order, formally self-adjoint, conservative long-wavelength class, the common metric variation gives Hilbert stress, an on-shell Ward identity, and
+\[
+G_{\mu\nu}=\frac35T_{\mu\nu},
+\]
+whose flat quadratic sector is massless Fierz--Pauli theory with two physical helicities.
+
+At finite scale, a source-native CPTP collision dilation, raw/Petz record contrast, and local recorded closed-time-path construction give an exact four-component total Ward telescope. A full-rank record Fisher action closes one matter--geometry--matter cycle; its operator-logistic continuation preserves CPTP evolution, the Ward law, the four response directions, and the scoped constraint representation at every finite iteration. Compatible refinement yields an AF/quasi-local UCP semigroup, rank-35 quartic response, anisotropic positive heat and wave evolution, and all-real-time energy-norm strong convergence on the declared two-polarization hierarchical carrier. In the local regular smooth class, the normalized ten-component generalized-harmonic metric--Euler update converges strongly on every common smooth interval. The stationary refinement limit of the source Palatini tower defines a perfect history-groupoid action with an exact four-direction Noether kernel, the metric-dependent hypersurface-deformation Lie algebroid, a local nilpotent BFV differential, and two physical configuration modes.
+
+The same finite source reconstructs a 36-dimensional complex carrier, source-dagger squared-norm probability, the observable algebra $M_{18}(\mathbb C)\oplus M_{18}(\mathbb C)$, and an exact finite quantum-control engine. A derived anomaly-solution groupoid supplies three anomaly-free Standard-Model character copies, global $\mathbb Z_6$, one weak Higgs doublet, and charged Yukawa interaction types. A preregistered rerun of the fixed calculation from the pointed-Braid source to a CKM modulus matrix passed all ten frozen tests and reproduced its frozen output with zero residual. All nine elements fell within the registered $5\sigma$ criterion of the frozen PDG 2024 table, while three clock-, pointing-, and pair-star-breaking controls changed the output. This is a registered reproducibility confirmation of a known derivation, not a new blind prediction. The construction connects quantum structure, geometry, conservation, gravity, and matter representations as outputs of one source architecture. It thereby refutes objectivist primacy as a universal necessity thesis without denying mind-independent reality.
+\end{abstract}
+
+\noindent\textbf{Keywords:} Subjectivity-Intersection Braid Quantum Gravity; pointed braid; generated objectivity; Lorentz carrier; Einstein equation; Ward identity; quantum foundations; finite backreaction; quantum control; CKM.
+
+\section{Introduction}
+
+Quantum gravity requires more than placing quantum variables on a prescribed
+spacetime or quantizing a classical metric. A complete constructive account
+must explain how a finite quantum source supplies the event directions,
+causal signature, geometric response, conservation law, and continuum
+dynamics that are otherwise inserted as separate ingredients. It must also
+distinguish exact source-level results from infrared closure assumptions and
+from empirical identification. The central question of this paper is whether
+one fixed, finite, noncommutative source can support such a chain without
+beginning from an already completed public spacetime.
+
+The proposed source is a pointed unitary Braid system with typed nonidentity,
+cap/cup closure, retained provenance, a marked clock sector, and a right-tail
+register. The word \emph{subjectivity} refers here to this formal standpoint
+typing, not to human consciousness. The physical proposal is that a public
+carrier can be generated by lawful intersections among nonidentical typed
+processes. A generic braid relation alone is not asserted to force gravity:
+the pointing, source typing, event selection, and provenance-preserving
+composition are essential parts of the construction and are tested separately
+where the present theorem chain permits.
+
+The main contributions are as follows.
+\begin{enumerate}[label=(\roman*)]
+  \item The fixed source yields four independent event directions, a
+  $1+3$ Lorentz-signature carrier, a rank-ten metric response, and the relative
+  routing factor $3/5$ without fitting that factor to the Einstein equation.
+  \item Smooth event-cylinder gluing, positive information-geometric
+  transport, and a source-typed solder define a continuous metric/nonmetricity
+  field. In the declared infrared variational class, the common metric
+  variation gives Hilbert stress, the on-shell Ward identity, and
+  $G_{\mu\nu}=(3/5)T_{\mu\nu}$.
+  \item A finite CPTP collision parent supplies interaction transfer, a
+  four-component total Ward telescope, and an iterated matter--geometry--matter
+  update preserving positivity and the declared finite constraints.
+  \item A perfect action on the refined history groupoid gives the local
+  regular ADM hypersurface-deformation algebroid, nilpotent BFV
+  differential, and two physical configuration modes; independently, a
+  normalized ten-component generalized-harmonic metric--Euler update converges
+  strongly on every common smooth interval.
+  \item The same source architecture supports a finite complex quantum
+  carrier, squared-norm probability, an exact mixed-unitary control engine,
+  and an anomaly-free matter representation. The fixed calculation from the
+  source to a CKM modulus matrix passed a preregistered reproducibility
+  confirmation.
+\end{enumerate}
+
+These statements have deliberately different scopes. The continuum Einstein
+equation is an infrared result in a declared local conservative class. The
+ADM/HDA theorem concerns the source-perfect stationary-refinement action in a
+local regular noncaustic history sector, not an unchanged ultralocal raw cell.
+The metric--Euler theorem is valid on a common smooth interval and does not
+prove global continuation through caustics, singularities, or strong
+curvature. The E016 CKM result is a registered reproducibility confirmation,
+while independent replication and a prospective test remain open.
+Neutral-sector, leptonic-mixing, and absolute fermion-mass identifications are
+not empirical claims of this paper. The paper therefore presents a
+mathematically explicit quantum-gravity candidate with one registered
+particle-sector connection, not an experimentally confirmed theory.
+
+The remainder of the paper fixes the logical and source contracts, derives the
+finite carrier and continuum geometry, states the finite Ward and
+backreaction laws, gives the constraint/refinement and continuum-dynamic
+closures, and then records the quantum-control and matter extensions. The
+final sections separate the constructive philosophical consequence from the
+physical evidence boundary and identify the shortest remaining tests.
+
+\section{Basic concepts and generative principle}
+
+\begin{definition}[Subjectivity intersection]
+A \emph{standpoint} is a typed mode of access, transport, or presentation. An \emph{intersection} is a lawful composition that preserves provenance while producing a shareable output. Subjectivity does not mean consciousness in this paper.
+\end{definition}
+
+\begin{definition}[Objectivist Primacy Thesis]
+$\OPT$ is the universal necessity claim that every stable, public, transformation-respecting physical carrier must be primitive, or equivalent to a primitive perspective-neutral carrier.
+\end{definition}
+
+The proof architecture is
+\begin{equation}
+\begin{aligned}
+&\text{pointed nonidentical Braid source}\\
+&\quad\Longrightarrow\text{event carrier and quantum channel}\\
+&\quad\Longrightarrow\text{Lorentz metric and continuous tensor}\\
+&\quad\Longrightarrow\text{finite Ward/backreaction and an infrared Einstein limit}\\
+&\quad\Longrightarrow\text{finite quantum and matter structures}.
+\end{aligned}
+\label{eq:architecture}
+\end{equation}
+
+The arrows in Eq.~\eqref{eq:architecture} are theorem arrows only under the scope stated at each stage. They are not claims that every abstract braid produces gravity or that the model has already been identified with nature.
+
+\section{Fixed source laws}
+
+\begin{law}[Unitary Braid transport]
+The adjacent source transports $R_{12}$ and $R_{23}$ are unitary and obey
+\begin{equation}
+R_{12}R_{23}R_{12}=R_{23}R_{12}R_{23},
+\qquad R_{ij}^{\dagger}R_{ij}=I.
+\label{eq:ybe}
+\end{equation}
+\end{law}
+
+\begin{law}[Pointing and public-event selection]
+The source includes a distinguished point, cap/cup structure, nonidentical typed roles, retained path provenance, one marked clock direction, and a right-tail register. The public event carrier is the image of the source-selected event effect; it is not the whole ambient label space.
+\end{law}
+
+\begin{law}[Source typing]
+The uniform direction $G_1$, the three standard directions $H_1,H_2,H_3$, the clock line, the matter corner, and the environment tail are read from fixed source roles. They are not fitted after inspecting a target Einstein or Standard-Model equation.
+\end{law}
+
+\begin{scope}[Declared extensions]
+The later matter-representation and quantum-control results use explicit extensions rather than the unchanged raw source: the anomaly-solution matter groupoid and the typed source-word quantum controller. Their conclusions apply inside those declared classes only.
+\end{scope}
+
+\section{Operational four-direction and Lorentz carrier}
+
+\begin{theorem}[Four-direction event moment]
+For the fixed marked source, the source-canonical event moment is
+\begin{equation}
+Q_4=\frac{12}{25}P_0+\frac{52}{25}P_1,
+\label{eq:q4}
+\end{equation}
+where $P_0$ is the uniform one-dimensional projector and $P_1$ is the standard three-dimensional projector. Therefore
+\begin{equation}
+\rank Q_4=4,
+\qquad
+\mathbb R^4\cong\operatorname{im}P_0\oplus\operatorname{im}P_1
+\cong \mathbf 1\oplus\mathbf 3.
+\end{equation}
+\end{theorem}
+
+\textit{Derivation.} The normalized four-probability carrier splits exactly into its uniform component and the zero-sum standard component. The marked event average acts by the two rational eigenvalues in Eq.~\eqref{eq:q4}; both are nonzero, so the rank is $1+3=4$. No ambient four-dimensional spacetime is used in this rank calculation.
+
+\begin{theorem}[Source-derived Lorentz signature]
+The marked clock determines the causal reflection
+\begin{equation}
+J_{\rm ray}=-P_0+P_1.
+\end{equation}
+The event metric
+\begin{equation}
+K_{\rm evt}=J_{\rm ray}Q_4
+=-\frac{12}{25}P_0+\frac{52}{25}P_1
+\label{eq:kevt}
+\end{equation}
+has signature $(3+,1-)$.
+\end{theorem}
+
+\textit{Derivation.} The uniform line is the unique marked clock line and changes sign under $J_{\rm ray}$; the standard three-plane does not. Since $Q_4$ is positive on both summands, Eq.~\eqref{eq:kevt} has one negative and three positive eigenvalues.
+
+\begin{theorem}[Full matter corner and routing ratio]
+In the complete declared five-partition retraction class, the fixed event-conditioned source selects one full matter corner. Normalized source-cup routing gives the relative matter/gravity weight
+\begin{equation}
+\kappa_B=\frac35.
+\label{eq:threefifths}
+\end{equation}
+The value is an output of the fixed routing count, not a manually inserted gravitational coupling.
+\end{theorem}
+
+\begin{scope}
+The four-dimensional and $3/5$ results are exact for the fixed marked source and declared partition class. They do not prove that every pointed braid produces four dimensions or the same ratio. Equation~\eqref{eq:threefifths} is a relative normalization, not the SI value of Newton's constant.
+\end{scope}
+
+\section{Continuous metric, transport, and solder}
+
+Let $a,b$ label the 24 source charts and let $L_{ba}\in GL(4)$ be the exact source transition matrix.
+
+\begin{theorem}[Tensor gluing]
+The finite source metrics glue to a smooth metric field with
+\begin{equation}
+g_b=L_{ba}^{-\mathsf T}g_aL_{ba}^{-1},
+\qquad
+\dot g_b=L_{ba}^{-\mathsf T}\dot g_aL_{ba}^{-1}.
+\label{eq:metricglue}
+\end{equation}
+The associated nonmetricity transforms tensorially under passive local $GL(4)$ changes.
+\end{theorem}
+
+\textit{Derivation.} Braid-derived Gibbs tangents extend the finite event data over a smooth source cylinder. Exact chart cocycles make Eq.~\eqref{eq:metricglue} path-independent on overlaps. The same cocycle acts on the metric tangent and connection defect, so the nonmetricity is globally defined.
+
+\begin{theorem}[Positive horizontal lift]
+For every infinitesimal metric variation in the ten-dimensional symmetric sector, event-path Fisher/Bogoliubov--Kubo--Mori horizontality selects a finite positive Markov-rate lift. Its curvature vanishes on all 45 metric two-planes, hence it integrates locally to an exponential leaf.
+\end{theorem}
+
+\begin{theorem}[Unique typed physical solder]
+Within the source-product typing class, the map from ten source responses to $\Sym^2(T^*M)$ is unique. The co-moving causal reflection
+\begin{equation}
+J(Q,\tau)=I-2\frac{(Q\tau)\tau^{\mathsf T}}{\tau^{\mathsf T}Q\tau}
+\end{equation}
+and
+\begin{equation}
+K(Q,\tau)=Q-2\frac{(Q\tau)(Q\tau)^{\mathsf T}}{\tau^{\mathsf T}Q\tau}
+\label{eq:comoving}
+\end{equation}
+restore all ten Lorentz-metric variations without an independent clock coupling.
+\end{theorem}
+
+\textit{Derivation.} The source product fixes how scalar, clock, and standard components may enter the symmetric square. Competing solders violate at least one typed product relation. Differentiating Eq.~\eqref{eq:comoving} gives a rank-ten map on the symmetric source tangent, closing the previously missing clock-dependent variations.
+
+\section{Long-wavelength action, stress, and Einstein limit}
+
+\begin{scope}[Infrared action class]
+This section assumes the declared long-wavelength class: local, second order, formally self-adjoint, conservative, low curvature, and zero hypermomentum. The gravitational and matter variations use the same metric of Section 5.
+\end{scope}
+
+\begin{theorem}[Hilbert variation and Ward identity]
+The finite source action variation converges in the declared class to
+\begin{equation}
+\delta S_m
+=\frac12\int_M\sqrt{|g|}\,T^{\mu\nu}\delta g_{\mu\nu}\,d^4x.
+\label{eq:hilbert}
+\end{equation}
+Diffeomorphism variation gives the off-shell Noether identity and, on the matter equations of motion,
+\begin{equation}
+\nabla_\mu T^{\mu}{}_{\nu}=0.
+\label{eq:ward}
+\end{equation}
+\end{theorem}
+
+\begin{theorem}[Scoped Einstein equation]
+The common gravity--matter variation is
+\begin{equation}
+\delta S_{\rm tot}
+=\frac12\int_M\sqrt{|g|}
+\left(G^{\mu\nu}-\frac35T^{\mu\nu}\right)
+\delta g_{\mu\nu}\,d^4x.
+\label{eq:totalvariation}
+\end{equation}
+Stationarity for arbitrary compactly supported $\delta g_{\mu\nu}$ yields
+\begin{equation}
+G_{\mu\nu}(g)=\frac35T_{\mu\nu}(g,\lambda).
+\label{eq:einstein}
+\end{equation}
+\end{theorem}
+
+\textit{Derivation.} The source-native first-order gravity variation fixes the Einstein tensor in the declared universality class. The full-corner cup routing fixes the relative coefficient in Eq.~\eqref{eq:threefifths}. No target Einstein equation or fitted mixed coefficient is used to select the matter variation.
+
+\begin{corollary}[Massless spin two]
+Around $g_{\mu\nu}=\eta_{\mu\nu}+h_{\mu\nu}$, the quadratic gravity action is the massless Fierz--Pauli gauge class. After the linear constraints and gauge quotient, two physical helicities remain in four dimensions \cite{fierzpauli1939}.
+\end{corollary}
+
+\section{Finite Lorentz quantum parent and total Ward law}
+
+Let the source-selected collision isometry be $V:\mathcal H_S\to\mathcal H_S\otimes\mathcal H_E$. The reduced Heisenberg channel is
+\begin{equation}
+\Phi(X)=V^\dagger(X\otimes I)V
+=\sum_a K_a^\dagger X K_a,
+\qquad \sum_aK_a^\dagger K_a=I.
+\label{eq:cptp}
+\end{equation}
+
+\begin{theorem}[Source-native CPTP parent]
+The fixed collision family admits a source-native Stinespring dilation and a reduced CPTP/unital evolution. The local recorded closed-time-path parent has retarded support, positive noise, exact address/time refinement, and the correct $3+1$ causal typing \cite{stinespring1955,gorini1976,lindblad1976,feynmanvernon1963}.
+\end{theorem}
+
+For each of the four source directions, define
+\begin{equation}
+D_\alpha=S_\alpha-\Phi(S_\alpha),
+\qquad \alpha=0,1,2,3.
+\label{eq:defect}
+\end{equation}
+
+\begin{theorem}[Interaction stress from record contrast]
+The source-fixed raw/Petz forward--reverse record contrast has conditional effect tangents $+D_\alpha/2$ and $-D_\alpha/2$. Its gauge-invariant Choi marginal difference is exactly $D_\alpha$. Therefore the interaction-stress compression is derived from the collision record rather than chosen to cancel a known defect.
+\end{theorem}
+
+\begin{theorem}[Four-component finite Ward telescope]
+For every finite history length $n$ and all four components,
+\begin{equation}
+\sum_{k=0}^{n-1}\Phi^k(D_\alpha)
+=S_\alpha-\Phi^n(S_\alpha).
+\label{eq:wardtelescope}
+\end{equation}
+This identity holds in all eight source sectors.
+\end{theorem}
+
+\textit{Derivation.} Substitute Eq.~\eqref{eq:defect} into the left-hand side of Eq.~\eqref{eq:wardtelescope}; adjacent terms cancel. The content is not the algebraic telescope alone but the source derivation of the same $D_\alpha$ as the physical record contrast and interaction transfer.
+
+\section{Finite matter--geometry--matter backreaction}
+
+\begin{theorem}[One-cycle Fisher feedback]
+The recorded source family has a full-rank Fisher response on the four metric directions. The stationary record action defines a coefficient-free update
+\begin{equation}
+\text{matter record}\longrightarrow
+\text{metric register}\longrightarrow
+\text{next CPTP matter collision}
+\end{equation}
+without MMR, CGR, an Einstein target, a manually inserted $3/5$, or a fitted response coefficient.
+\end{theorem}
+
+\begin{theorem}[All finite adaptive iterations]
+Let $\rho_n$ be the finite record state and let $A_n$ be the source-derived response operator at step $n$. The operator-logistic update
+\begin{equation}
+\rho_{n+1}
+=\frac{\exp(\log\rho_n+A_n)}{\Tr\exp(\log\rho_n+A_n)}
+\label{eq:logistic}
+\end{equation}
+is positive and normalized. For every finite $N$, the adaptive composition through step $N$ remains CPTP, obeys the nonautonomous four-component Ward telescope, preserves four independent global response directions, and retains the scoped constraint representation.
+\end{theorem}
+
+\begin{proposition}[The coefficients $1$ and $3/5$]
+The direct finite Fisher gain is exactly $1$ because it compares score and Hessian in the same record normalization. The coefficient $3/5$ is the outer full-corner matter/gravity routing weight. They have different domains and are not rival estimates of one constant.
+\end{proposition}
+
+\section{Constraint algebra and refinement}
+
+\begin{theorem}[Source-generated local derivations]
+Three signed-sector local generators survive refinement as independent closable unbounded derivations $\delta_i$. Their all-sector Gram rank is three. The generated finite-order derivation algebra closes under commutators,
+\begin{equation}
+[\delta_i,\delta_j]\in\operatorname{Lie}\langle\delta_1,\delta_2,\delta_3\rangle,
+\end{equation}
+obeys the Jacobi identity exactly, and has no central anomaly in the declared derivation representation.
+\end{theorem}
+
+\begin{theorem}[Source-perfect ADM/HDA and BFV closure]
+Let $S_m$ be the source Palatini slab action at finite depth $m$. On a local regular noncaustic branch, define the stationary refinement limit
+\begin{equation}
+S_n^{\rm perf}(z_-,z_+)
+=\lim_{m\to\infty}
+\operatorname*{stat}_{R_{m,n}z_m^{\partial}=(z_-,z_+)}S_m[z_m].
+\label{eq:perfectaction}
+\end{equation}
+in the perfect-action sense used in discrete gravity \cite{bahrdittrich2009}.
+Exact stationary composition and nested source refinement give
+\begin{equation}
+S_{02}^{\rm perf}
+=\operatorname*{stat}_{z_1}
+\left(S_{01}^{\rm perf}+S_{12}^{\rm perf}\right),
+\qquad
+J_{n+1,n}^{*}S_{n+1}^{\rm perf}=S_n^{\rm perf}.
+\label{eq:perfectcomposition}
+\end{equation}
+The four source-selected primitive history deformations, one clock and three spatial, act by refactorization arrows and obey the exact off-shell Noether identity
+\begin{equation}
+R_n^\dagger\cE(S_n^{\rm perf})=0.
+\label{eq:perfectnoether}
+\end{equation}
+On the rank-four regular neighborhood, their kernel is exactly four-dimensional. The associated Lie algebroid obeys the metric-dependent hypersurface-deformation brackets
+\begin{align}
+\{D[N],D[M]\}&=D[[N,M]],\notag\\
+\{D[N],H[M]\}&=H[\mathcal L_NM],\notag\\
+\{H[N],H[M]\}
+&=D\!\left[\gamma^{ij}(N\partial_jM-M\partial_jN)\right].
+\label{eq:hda}
+\end{align}
+Its local BFV differential satisfies $s_n^2=0$. On the 12-dimensional Lorentz/torsion-reduced phase carrier, four regular first-class constraints leave
+\begin{equation}
+12-2\times4=4
+\end{equation}
+physical phase dimensions, hence two physical configuration modes.
+\end{theorem}
+
+\textit{Derivation.} Composite histories are groupoid arrows, not additional independent constraints. Associativity supplies the higher coherence needed by the BFV differential, while Eq.~\eqref{eq:perfectcomposition} transports the four primitive generators exactly through refinement. This avoids the over-gauging produced by promoting the full matrix span of composite moves to independent constraints. The HDA and BFV terminology follows the standard canonical-gravity and constrained-system frameworks \cite{hkt1976,henneauxteitelboim1992}; the source-perfect realization is the source-specific claim.
+
+\begin{scope}
+The local-derivation theorem is a finite precursor. The ADM/HDA conclusion follows only after the source-perfect stationary refinement of Eq.~\eqref{eq:perfectaction}, on a common smooth interval with a unique gauge-fixed noncaustic stationary branch, nondegenerate transverse Hessian, sufficient Sobolev regularity, and a nonzero rank-four source minor. It does not assert an ultralocal exact HDA for the unchanged raw finite-cell action, global passage through caustics or singularities, a full coupled quantum-matter BFV complex, or empirical validity.
+\end{scope}
+
+\section{Ultraviolet, all-scale, and continuum-dynamic theorems}
+
+\begin{theorem}[Quartic response capacity]
+For a four-dimensional carrier,
+\begin{equation}
+\Sym^2(\Sym^2V_4^*)
+\cong\Sym^4V_4^*\oplus\mathbb S_{(2,2)}V_4^*,
+\qquad 55=35+20.
+\label{eq:quarticdecomp}
+\end{equation}
+The actual source-fixed $35\times55$ quartic response has row rank $35$ throughout its saved independent coefficient box.
+\end{theorem}
+
+\begin{theorem}[Quasi-local UCP limit]
+The compatible finite source-cylinder channels extend uniquely to a strongly continuous UCP semigroup on the AF/quasi-local inductive-limit algebra with complete bound one.
+\end{theorem}
+
+\begin{theorem}[Anisotropic positive heat and wave law]
+The actual inverse spatial metric determines positive directional conductances $c_{xy}>0$. The generator
+\begin{equation}
+(Lf)(x)=\sum_yc_{xy}\bigl(f(y)-f(x)\bigr)
+\label{eq:conductance}
+\end{equation}
+is Markov, refinement-compatible, anisotropic, and positive in the associated quadratic form. The same operator generates UCP heat and positive wave evolution and has spatial spectral dimension three in the declared hierarchy.
+\end{theorem}
+
+\begin{theorem}[All-real-time strong wave convergence]
+Let $J_m$ embed the finite mean-zero carrier, $Q_m$ be the energy projection, and $W_m(t)$ and $W(t)$ be the finite and limiting two-polarization wave groups. Exact refinement intertwining gives
+\begin{equation}
+\sup_{t\in\mathbb R}
+\left\|W(t)x-J_mW_m(t)Q_mx\right\|_{\cE}
+=\left\|(I-Q_m)x\right\|_{\cE}
+\longrightarrow0.
+\label{eq:strongwave}
+\end{equation}
+\end{theorem}
+
+\begin{theorem}[Normalized ten-component metric--Euler convergence]
+For all ten symmetric metric components, let
+\begin{align}
+D_\tau^2 g_{AB,h}^n-L_h(g_h^n)g_{AB,h}^n
+&=N^{\rm src}_{AB,h},\notag\\
+L_h(g)u(x)
+&=\frac1{25h^2}
+\sum_{\delta\in C_5^3\setminus\{0\}}
+c_\delta(g)\,[u(x+h\delta)-u(x)].
+\label{eq:tensor-euler}
+\end{align}
+The source moment identity
+\begin{equation}
+\frac12\frac1{25}\sum_\delta c_\delta\,\delta_i\delta_j=A_{ij}
+\end{equation}
+makes the principal spatial tensor exactly the inverse spatial metric. Reverse-edge pairing and the central source-clock difference cancel the odd Taylor orders. In the declared smooth class,
+\begin{align}
+\|E_hI_hU-I_hE(U)\|_{H^{s-1}}
+&\le C_T(h^2+\tau_h^2),\notag\\
+\|B_hE_hI_hU\|_{H^{s-2}}
+&\le C_T\left(h+\frac{\tau_h^2}{h}\right).
+\label{eq:euler-residuals}
+\end{align}
+For $\tau_h=O(h)$, positivity and the existing energy estimate therefore give
+\begin{equation}
+\sup_{0\le t\le T}
+\|J_hU_h(t)-U(t)\|_{H^{s-1}}
+\le C_T\left(\eta_h+h+\frac{\tau_h^2}{h}\right)
+\longrightarrow0
+\label{eq:euler-convergence}
+\end{equation}
+on every common smooth interval.
+\end{theorem}
+
+\begin{scope}
+Equation~\eqref{eq:strongwave} remains an exact supporting theorem for the hierarchical two-slot carrier; it is not itself an ADM identification theorem. Equations~\eqref{eq:tensor-euler}--\eqref{eq:euler-convergence} close local regular long-wavelength ten-component generalized-harmonic metric--Euler convergence with smooth Ward-compatible stress. They do not prove global or strong-curvature continuation, a full coupled matter principal system, a full finite Lorentzian quantum parent, SI calibration, or empirical gravity. The scoped ADM/HDA identification is supplied separately by the source-perfect history theorem in Section~9.
+\end{scope}
+
+\section{Finite quantum structure from the Braid source}
+
+On the actual three-history carrier, let $C=R_1R_2$. Define
+\begin{equation}
+P=\frac{2I-C-C^{-1}}3,
+\qquad
+J=\frac{C-C^{-1}}{\sqrt3}.
+\label{eq:complexstructure}
+\end{equation}
+
+\begin{theorem}[Complex carrier]
+The oriented source cycle satisfies $C^3=I$. The operator $P$ is a rank-72 real projector and
+\begin{equation}
+J^2=-P.
+\end{equation}
+Hence $J^2=-I$ on $\operatorname{im}P$, which is a 36-dimensional complex carrier.
+\end{theorem}
+
+\begin{theorem}[Source-dagger probability]
+Source reversal supplies the dagger. Equality counting and cup/cap gluing force the projective probability law
+\begin{equation}
+p_i(\psi)=\frac{\|P_i\psi\|^2}{\sum_j\|P_j\psi\|^2}
+\label{eq:born}
+\end{equation}
+inside the declared finite linear source-dagger class.
+\end{theorem}
+
+\begin{theorem}[Observable algebra]
+Endpoint exchange and the retained Brauer crossing/cap family expose an exact $\mathbb Z_2$ superselection charge. The generated dagger algebra is
+\begin{equation}
+\cO\cong M_{18}(\mathbb C)\oplus M_{18}(\mathbb C).
+\label{eq:observablealgebra}
+\end{equation}
+\end{theorem}
+
+\begin{scope}
+The dagger-compact mechanism and squared-norm rule are standard mathematical structures. The source-specific result is their fixed realization, rank, grading, and algebra on the retained Braid carrier. Ordinary flip shares part of the complex-sector mechanism, so Braid necessity is not claimed from this theorem alone.
+\end{scope}
+
+\section{Finite quantum engine and exact actuation}
+
+\begin{theorem}[Source-selected stochastic engine]
+Four noncommuting compressed controls generate a six-order mixed-unitary channel
+\begin{equation}
+\mathcal E(\rho)=\frac16\sum_{a=1}^{6}U_a\rho U_a^\dagger,
+\end{equation}
+which is CPTP and unital and has Kraus rank six in the declared carrier.
+\end{theorem}
+
+\begin{theorem}[Low-normalization Chebyshev actuator]
+Let $A=H/\alpha$ with $\|A\|\le1$. The source-word LCU unitary, source dagger, signal qubit, and success-address reflection generate a walk $W$ satisfying
+\begin{equation}
+E^\dagger W^kE=T_k(A).
+\label{eq:cheb}
+\end{equation}
+For each of the 32 sector/control cases, the finite-spectrum interpolant
+\begin{equation}
+P_H(x)=\sum_{k=0}^{m-1}c_kT_k(x),
+\qquad
+P_H(\lambda_j/\alpha)=e^{-i\pi\lambda_j/3}
+\end{equation}
+gives an exact deterministic actuator using 203--39,102 $H$-block-encoding queries \cite{childswiebe2012,lowchuang2017,gilyen2019}.
+\end{theorem}
+
+\begin{corollary}[Exact source-generator compiler]
+Coordinate compression and a source-arrow $\mathbb Z_4$ phase frame give an exact 34-CNOT representative of the finite source generator and a 61-CZ realization on the retained native gate vocabulary. This is a compilation theorem; it is not quantum advantage or gravity evidence.
+\end{corollary}
+
+\section{Derived Standard-Model representation sector}
+
+\begin{scope}
+This section uses the explicitly derived anomaly-solution groupoid. It is not an unchanged-source equivalence theorem for the Standard Model.
+\end{scope}
+
+\begin{theorem}[Anomaly-solution groupoid]
+The transformation groupoid has object algebra
+\begin{equation}
+C((\mathbb Z_2)^3)\rtimes(\mathbb Z_2)^3\cong M_8(\mathbb C)
+\label{eq:m8}
+\end{equation}
+and Boolean degree multiplicities $(1,3,3,1)$.
+\end{theorem}
+
+\begin{theorem}[Chiral matter and Higgs content]
+The degree-one shell gives three identical copies of the left-Weyl Standard-Model character. All local gauge anomalies vanish, Witten parity is even, and the global kernel is $\mathbb Z_6$. A gauge-equivariant anti-linear real structure leaves one independent complex weak doublet. The source cubic permits up-, down-, and charged-lepton Yukawa interaction cycles.
+\end{theorem}
+
+\section{Matter representation and variational Yukawa structure}
+
+\begin{theorem}[Source-selected generation operator]
+The pointed right-difference KMS response selects a full-rank nonnormal generation operator $Y$ with three distinct singular values. The source-central KMS metric supplies the same generation operator across the up, down, and charged-lepton sectors together with source-fixed relative species normalizations.
+\end{theorem}
+
+\begin{theorem}[Variational Yukawa operator]
+For the pointed affine source path, the exact variation $W(1)-W(0)$ equals $Y$. The forward/reverse CTP trilinears carry $Y$ and $Y^{\mathsf T}$, and the mixed Higgs variation produces the same positive $Y^{\mathsf T}Y$ entering the finite determinant. Thus the relative Yukawa operator is an action variation, not an independently fitted matrix.
+\end{theorem}
+
+\begin{theorem}[Nonzero finite Higgs stationary point]
+The source sign line and matter parity select the ordinary exterior/Fock trace. For $A(H)=|H|^2M^*M\ge0$,
+\begin{equation}
+S_{\rm eff}(H)=S_H(H)-\log\det(I+A(H)).
+\label{eq:higgsaction}
+\end{equation}
+Within the retained variational selector, the radial potential is strictly convex and has a unique positive stationary point. This is an existence-and-uniqueness theorem for a finite-source coordinate, not a numerical identification with the measured electroweak vacuum expectation value.
+\end{theorem}
+
+\begin{scope}
+This section establishes the source-internal matter representation, Yukawa variation, and finite Higgs stationary point. Observed fermion masses, the absolute electroweak scale, observed generation labels, and RG flow are not empirical claims of this paper.
+\end{scope}
+
+\section{Registered confirmation of a pointed-Braid CKM derivation}
+
+\begin{scope}
+This section reports the calculation frozen in the E016 preregistration and result release. It is a registered reproducibility confirmation of a known derivation, not a blind new prediction. Measured values enter only in the post-derivation comparison \cite{e016prereg,e016result,pdg2024ckm}.
+\end{scope}
+
+Let the nonidentity Braid-word order be $(r_1,r_2,r_{121})$ and the pointed axis map be $(r_1,r_2,r_{121})\mapsto(e_2,e_1,e_3)$. The clock and matter-incidence weights are fixed as
+\begin{equation}
+c=(7,4,4),
+\qquad m=(4,10,10).
+\label{eq:ckmweights}
+\end{equation}
+The normalized Hellinger cross-state is
+\begin{equation}
+q_i=\frac{\sqrt{c_i m_i}}{\sum_j\sqrt{c_jm_j}}
+=(0.2949454706,\ 0.3525272647,\ 0.3525272647).
+\label{eq:ckmq}
+\end{equation}
+For the source-fixed matter matrix $M$ and axis projectors $P_3,P_2,P_1$, define
+\begin{equation}
+B(M)=q_3q_1(P_3MP_2+P_2MP_3)
+      +q_3q_2(P_3MP_1+P_1MP_3).
+\label{eq:pairstar}
+\end{equation}
+Let $U_+$ and $U_-$ be the ascending-eigenvalue orthonormal frames of $(M+B)(M+B)^\dagger$ and $(M-B)(M-B)^\dagger$, respectively. The registered readout is
+\begin{equation}
+V_{\rm CKM}=U_+^\dagger U_-.
+\label{eq:ckmreadout}
+\end{equation}
+
+\begin{theorem}[E016 registered reproducibility confirmation]
+DOI-1 froze Eqs.~\eqref{eq:ckmweights}--\eqref{eq:ckmreadout}, the expected output, tolerances, and three controls before the registered command was executed once. All ten tests passed, yielding
+\begin{equation}
+|V_{\rm CKM}|=
+\begin{pmatrix}
+0.9739619651&0.2266869484&0.0033343545\\
+0.2265269160&0.9731130260&0.0416724717\\
+0.0091458642&0.0407929649&0.9991257614
+\end{pmatrix}.
+\label{eq:ckmconfirmed}
+\end{equation}
+The maximum absolute residual against the frozen output was $0$, and the unitarity residual was $8.51\times10^{-16}$. Against the frozen PDG 2024 CKM modulus table, the Frobenius distance was $0.00254046$, the maximum element pull was $4.4183\sigma$, and all nine elements satisfied the registered $5\sigma$ criterion \cite{pdg2024ckm}.
+\end{theorem}
+
+\begin{theorem}[Structure-breaking controls]
+The Frobenius distances from the primary output were $0.0643119$ for a uniform non-Braid clock, $0.150013$ for broken pointing, and $0.328022$ with the pair-star response removed. Each exceeded the registered threshold $10^{-6}$. The fixed pipeline is therefore not invariant under any of these three tested disruptions of its clock, pointing, and pair-star structure.
+\end{theorem}
+
+\begin{scope}
+The E016 PASS confirms the computational sufficiency of the fixed pointed-Braid pipeline to reproduce its declared CKM matrix, its unitarity, agreement with the frozen measurement table under the registered criterion, and discrimination from the three tested controls. It does not establish independent replication, a prospective prediction for future data, derivation of the full Standard Model, or empirical validation of quantum gravity as a whole. Physical identification of the neutral sector and leptonic mixing remains open, and this paper makes no claim based on their unverified numerical values.
+\end{scope}
+
+\section{Calibration law and absolute-scale boundary}
+
+\begin{theorem}[Source-only calibration NO-GO]
+Independent rescalings of the internal clock and stress units preserve the dimensionless collision record and finite coefficient $1$. Therefore the source alone does not identify seconds, metres, joules, or Newton's constant.
+\end{theorem}
+
+\begin{corollary}[Two-anchor conditional calibration]
+One independent frequency anchor and one independent stress or gravity anchor determine a locally unique scale map in the declared two-scale class. With the retained frequency anchor $f_{\rm cal}=4.484999494698898\times10^9\,\mathrm{Hz}$ and source gap $4$,
+\begin{align}
+\tau_*=1.419442238778493\times10^{-10}\,\mathrm{s},
+\qquad
+\ell_*=0.04255380777524273\,\mathrm{m},
+\notag\\[-0.15em]
+E_*=7.429480314095178\times10^{-25}\,\mathrm{J}.
+\end{align}
+Supplying CODATA $G$ as the second external input conditionally fixes the stress unit. This is not a Braid prediction of $G$ \cite{codata2022,bipmSI}.
+\end{corollary}
+
+\section{Constructive refutation of objectivist primacy}
+
+\begin{theorem}[Countermodel to universal objectivist primacy]
+The fixed construction contains no completed public Lorentz carrier at its first stage. That carrier is generated only after pointing, typed intersection, event selection, chart gluing, and source transport. Nevertheless the resulting carrier is stable, public, and transformation-respecting and supports conserved stress and a scoped Einstein limit. Therefore $\OPT$ is false as a universal necessity thesis.
+\end{theorem}
+
+\textit{Proof.} A universal necessity claim is refuted by one exact countermodel. Sections 3--7 construct the antecedent source without a primitive public spacetime and derive the public Lorentz carrier and its dynamics. Hence primitive perspective-neutral objectivity is not necessary in every exact model. The proof does not deny objective reality and does not show that nature realizes this model.
+
+\section{Discussion}
+
+\subsection{What the theorem chain establishes}
+
+The result is stronger than the observation that braid groups are flexible
+enough to encode familiar physics. The retained claim is that one declared
+source architecture supplies a linked sequence: finite noncommutative
+transport, a four-direction Lorentz carrier, continuous metric response,
+finite stress transfer and Ward balance, an infrared Einstein equation,
+constraint/refinement closure, and a finite quantum reconstruction. Each link
+is typed and its input is named. This sharply limits the freedom to introduce
+an unrelated structure only after a desired endpoint is known.
+
+The pointed and standpoint-bearing structure matters precisely at this typing
+level. Yang--Baxter transport and unitarity are not by themselves unique to
+this programme. The additional pointing, nonidentity, cap/cup closure, retained
+right-tail information, marked clock, and source-selected spatial directions
+determine which quotients and observables are physically read. Accordingly,
+the paper does not claim that every braid is a quantum-gravity theory. It
+claims that the fixed pointed source provides an explicit constructive model
+whose public geometry is generated rather than primitive. The ordinary-flip
+and matched-control boundaries retained in the source record remain important
+for deciding which later outputs are genuinely Braid-specific.
+
+\subsection{Finite and continuum closures}
+
+The finite coefficient $1$ and continuum routing coefficient $3/5$ are not two
+values assigned to one untyped coupling. The former normalizes a finite
+collision/Fisher response; the latter is the outer source-routing multiplicity
+that maps the normalized microscopic response into the continuum geometric
+and matter sectors. Their relation is therefore a typed composition law, not
+a discontinuous renormalization from $1$ to $3/5$. Neither number supplies an
+absolute SI value of Newton's constant; that conversion still requires the
+external calibration described below.
+
+Two recent scoped closures materially strengthen the dynamical interpretation.
+First, the normalized ten-component generalized-harmonic update is no longer
+only a kinematic tensor approximation: it converges strongly to the declared
+metric--Euler trajectory on every common smooth interval. Second, the
+source-perfect history-groupoid action realizes the metric-dependent
+hypersurface-deformation algebroid and nilpotent BFV differential without
+postulating a Riesz projector as the primary physical-selection mechanism.
+These results do not imply that the unchanged raw finite cell already carries
+an exact ultralocal ADM algebra, nor do they establish a global solution beyond
+the regular noncaustic regime.
+
+At finite scale, complete positivity and trace preservation give a legitimate
+open-quantum parent, while the recorded interaction transfer closes the total
+four-component Ward telescope in the stated class. Iterated backreaction is
+therefore controlled for every finite iteration of the operator-logistic
+identity-feedback map. Uniqueness of this map, an unrestricted infinite-step
+limit, and a fully coupled matter--gravity BFV principal system are separate
+questions and are not consequences of the finite theorem.
+
+\subsection{Empirical connection and falsifiability}
+
+E016 provides a preregistered reproducibility confirmation of the fixed calculation from the pointed-Braid source to a CKM modulus matrix. Exact reproduction of the frozen output, unitarity, agreement of all nine elements with the frozen PDG 2024 table under the registered $5\sigma$ criterion, and sensitivity to three structure-breaking controls held simultaneously. The result moves the source-derived matter readout into quantitative comparison with measurement. Because the route was selected after historical inspection of CKM data, however, it is not a prospective prediction. Independent implementation, a frozen test against future data, and stronger matched controls are required for Braid-specific empirical support.
+
+In the gravity sector, the strongest current results remain mathematical: the finite parent theory, Ward balance, constraints, refinement, and the Einstein infrared limit. Gravity-specific empirical support requires a predeclared prediction that diverges from ordinary quantum theory plus general relativity, generic open-quantum models, and other emergent-spacetime models. Physical identification of the neutral sector and leptonic mixing remains incomplete; unverified numerical values from those routes are not used in the conclusions of this paper.
+
+The philosophical consequence follows directly from the physical construction. A stable, public, transformation-respecting carrier can be constructed without being supplied as a primitive perspective-neutral object. Objectivity may therefore arise not by excluding subjectivity, but through reproducible invariant structure generated at the intersection of distinct standpoints. This is the constructive refutation of objectivist primacy advanced here.
+
+\subsection{Scope and next tests}
+
+The theorems apply to the fixed source and explicitly declared completion classes. Continuum results concern a local regular domain, and absolute SI calibration requires external anchors. The CKM result is a registered reproducibility confirmation; independent replication and prospective testing remain open. Neutral-sector, leptonic-mixing, and absolute fermion-mass values are not empirical claims of this manuscript. The next theoretical tasks are continuation into strong-curvature regimes and a fully coupled matter--gravity principal system. The next empirical tasks are a competitor-divergent measurement and independent reproduction.
+
+\section{Integrated results}
+
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.28\linewidth} >{\raggedright\arraybackslash}p{0.29\linewidth} >{\raggedright\arraybackslash}p{0.34\linewidth}}
+\toprule
+Generative stage & Derived structure & Connection to the next stage \\
+\midrule
+Pointed-Braid source & Quantum transport, pointing, history, clock, event selection & Selects four physically read event directions from inside the source \\
+Four-direction event carrier & $\mathbf1\oplus\mathbf3$ decomposition, Lorentz signature, rank-ten response & Feeds the continuous metric and matter/geometry routing \\
+Source cylinder & Chart gluing, positive transport, typed solder & Defines the continuous metric/nonmetricity tensor \\
+Common metric variation & Hilbert stress, on-shell Ward identity, $G=(3/5)T$ & Connects geometry and matter through one variational principle \\
+Finite collision parent & CPTP evolution, interaction stress, four-component Ward telescope & Iterates matter--geometry--matter backreaction \\
+\bottomrule
+\end{tabularx}
+
+\newpage
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.28\linewidth} >{\raggedright\arraybackslash}p{0.29\linewidth} >{\raggedright\arraybackslash}p{0.34\linewidth}}
+\toprule
+Generative stage & Derived structure & Connection to the next stage \\
+\midrule
+Refinement tower & UCP semigroup, rank-35 response, metric--Euler strong convergence & Connects finite updates to continuous spacetime dynamics \\
+Perfect history action & ADM/HDA Lie algebroid, BFV differential, two physical modes & Closes the gravitational constraint sector \\
+Source-dagger reconstruction & 36-dimensional complex carrier, Born-type probability, observable algebra & Connects to standard quantum form and finite control \\
+Typed controller & Exact mixed-unitary actuator & Turns source words into executable quantum operations \\
+Matter representation & Anomaly-free character, Higgs/Yukawa variational structure & Types a finite-source matter readout \\
+Registered CKM readout & Exact frozen-matrix reproduction, unitarity, PDG comparison, three controls & Connects the matter sector to a quantitative reproducibility confirmation \\
+\bottomrule
+\end{tabularx}
+
+The central content is not any isolated equation but the generative order linking the source to structures that can be observed. Finite collision quantum mechanics, continuous metric dynamics, ADM/BFV constraints, quantum control, and matter representations inherit common pointing and source typing. The construction is therefore tested not only by the existence of each output, but by whether this inherited relation survives controls that remove the relevant Braid structure.
+
+\section{Conclusion}
+
+This paper has constructed the following generative chain from one fixed pointed-Braid source: quantum structure, a four-direction Lorentz carrier, a continuous metric, CPTP evolution, four-component Ward balance, iterated backreaction, an Einstein infrared limit with source-routing factor $3/5$, ADM/HDA--BFV closure, metric--Euler strong convergence, finite quantum control, and matter representations. These are not isolated formal analogies; they inherit common pointing, typing, and provenance and form one mathematical quantum-gravity candidate.
+
+The strongest consequence is that public spacetime and objective law need not be placed at the beginning of the explanation. The intersection of distinct standpoints can generate reproducible quantum probabilities, Lorentz geometry, conservation laws, and gravitational dynamics. Objectivity may therefore be understood as a stable structure arising from a relational source rather than as an absolute premise prior to subjectivity.
+
+For the CKM readout, the preregistered rerun passed, reproduced the frozen output, agreed with the frozen measurement table under the registered criterion, and responded to three structure-breaking controls. This gives the matter sector its first registered empirical connection, while remaining a reproducibility confirmation of a known derivation rather than a prospective prediction.
+
+The decisive next tasks are independent reproduction of the CKM confirmation, prospective testing of the frozen pipeline against future data, and a predeclared gravity-specific residual tested against matched controls and measurement. In parallel, the theory must be extended into strong-curvature regimes and a fully coupled matter--gravity principal system. These steps would further convert mathematical coherence into support for a physical theory.
+
+\section{Data, provenance, and assistance}
+
+The source, derivation notes, verification code, numerical outputs, and audit records corresponding to this paper are preserved in the versioned research package of the Subjectivity-Intersection Mathematics repository. The E016 preregistration is published as DOI-1 and its executed result as a distinct DOI-2; together they preserve the frozen input, runner, and machine-readable result \cite{e016prereg,e016result}. Release tags, archives, checksums, and claim-to-source mappings are recorded in the artifact manifest. Standard Braid, information-geometric, GKSL/Stinespring, Fierz--Pauli, HDA/BFV, LCU, and QSP machinery is not claimed as original. The proposal is the generative architecture that reads these structures from one pointed, standpoint-bearing source.
+
+OpenAI Codex was used under the author's direction for mathematical ideation, exact-check scripting, audit organization, and drafting. The author retains responsibility for definitions, interpretation, verification, citations, and any decision to release or submit the work.
+
+\begin{thebibliography}{99}
+\raggedright
+\footnotesize
+
+\bibitem{artin1947}
+E. Artin, ``Theory of braids,'' \emph{Annals of Mathematics} \textbf{48}(1), 101--126 (1947). \href{https://doi.org/10.2307/1969218}{doi:10.2307/1969218}.
+
+\bibitem{amari2016}
+S.-i. Amari, \emph{Information Geometry and Its Applications}. Springer (2016). \href{https://doi.org/10.1007/978-4-431-55978-8}{doi:10.1007/978-4-431-55978-8}.
+
+\bibitem{fierzpauli1939}
+M. Fierz and W. Pauli, ``On relativistic wave equations for particles of arbitrary spin in an electromagnetic field,'' \emph{Proceedings of the Royal Society A} \textbf{173}, 211--232 (1939). \href{https://doi.org/10.1098/rspa.1939.0140}{doi:10.1098/rspa.1939.0140}.
+
+\bibitem{hkt1976}
+S. A. Hojman, K. Kucha\v{r}, and C. Teitelboim, ``Geometrodynamics regained,'' \emph{Annals of Physics} \textbf{96}, 88--135 (1976). \href{https://doi.org/10.1016/0003-4916(76)90112-3}{doi:10.1016/0003-4916(76)90112-3}.
+
+\bibitem{bahrdittrich2009}
+B. Bahr and B. Dittrich, ``Improved and perfect actions in discrete gravity,'' \emph{Physical Review D} \textbf{80}, 124030 (2009). \href{https://doi.org/10.1103/PhysRevD.80.124030}{doi:10.1103/PhysRevD.80.124030}.
+
+\bibitem{henneauxteitelboim1992}
+M. Henneaux and C. Teitelboim, \emph{Quantization of Gauge Systems}. Princeton University Press (1992), ISBN 978-0-691-03769-1.
+
+\bibitem{hehl1995}
+F. W. Hehl, J. D. McCrea, E. W. Mielke, and Y. Ne'eman, ``Metric-affine gauge theory of gravity,'' \emph{Physics Reports} \textbf{258}, 1--171 (1995). \href{https://doi.org/10.1016/0370-1573(94)00111-F}{doi:10.1016/0370-1573(94)00111-F}.
+
+\bibitem{gorini1976}
+V. Gorini, A. Kossakowski, and E. C. G. Sudarshan, ``Completely positive dynamical semigroups of $N$-level systems,'' \emph{Journal of Mathematical Physics} \textbf{17}, 821--825 (1976). \href{https://doi.org/10.1063/1.522979}{doi:10.1063/1.522979}.
+
+\bibitem{lindblad1976}
+G. Lindblad, ``On the generators of quantum dynamical semigroups,'' \emph{Communications in Mathematical Physics} \textbf{48}, 119--130 (1976). \href{https://doi.org/10.1007/BF01608499}{doi:10.1007/BF01608499}.
+
+\bibitem{stinespring1955}
+W. F. Stinespring, ``Positive functions on $C^*$-algebras,'' \emph{Proceedings of the American Mathematical Society} \textbf{6}, 211--216 (1955). \href{https://doi.org/10.2307/2032342}{doi:10.2307/2032342}.
+
+\bibitem{umegaki1962}
+H. Umegaki, ``Conditional expectation in an operator algebra, IV,'' \emph{Kodai Mathematical Seminar Reports} \textbf{14}, 59--85 (1962). \href{https://doi.org/10.2996/kmj/1138844604}{doi:10.2996/kmj/1138844604}.
+
+\bibitem{feynmanvernon1963}
+R. P. Feynman and F. L. Vernon, Jr., ``The theory of a general quantum system interacting with a linear dissipative system,'' \emph{Annals of Physics} \textbf{24}, 118--173 (1963). \href{https://doi.org/10.1016/0003-4916(63)90068-X}{doi:10.1016/0003-4916(63)90068-X}.
+
+\bibitem{childswiebe2012}
+A. M. Childs and N. Wiebe, ``Hamiltonian simulation using linear combinations of unitary operations,'' \emph{Quantum Information \& Computation} \textbf{12}, 901--924 (2012). \href{https://arxiv.org/abs/1202.5822}{arXiv:1202.5822}.
+
+\bibitem{lowchuang2017}
+G. H. Low and I. Chuang, ``Optimal Hamiltonian simulation by quantum signal processing,'' \emph{Physical Review Letters} \textbf{118}, 010501 (2017). \href{https://doi.org/10.1103/PhysRevLett.118.010501}{doi:10.1103/PhysRevLett.118.010501}.
+
+\bibitem{gilyen2019}
+A. Gily\'en, Y. Su, G. H. Low, and N. Wiebe, ``Quantum singular value transformation and beyond,'' in \emph{Proceedings of STOC 2019}, 193--204 (2019). \href{https://doi.org/10.1145/3313276.3316366}{doi:10.1145/3313276.3316366}.
+
+\bibitem{codata2022}
+NIST, \emph{2022 CODATA Recommended Values of the Fundamental Physical Constants}, 2022 release. \href{https://www.physics.nist.gov/cuu/pdf/wall_2022.pdf}{NIST CODATA wall chart}.
+
+\bibitem{bipmSI}
+BIPM, ``SI defining constants.'' \href{https://www.bipm.org/en/measurement-units}{bipm.org/en/measurement-units}.
+
+\bibitem{pdg2024ckm}
+S. Navas et al. (Particle Data Group), ``Review of Particle Physics,'' \emph{Physical Review D} \textbf{110}, 030001 (2024), CKM Quark-Mixing Matrix review. \href{https://doi.org/10.1103/PhysRevD.110.030001}{doi:10.1103/PhysRevD.110.030001}.
+
+\bibitem{e016prereg}
+S. Watanabe, \emph{E016 --- Pointed-Braid CKM Derivation Confirmation: Preregistration}, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.23006547}{doi:10.5281/zenodo.23006547}.
+
+\bibitem{e016result}
+S. Watanabe, \emph{E016 --- Pointed-Braid CKM Derivation Confirmation: Result Release}, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.23006637}{doi:10.5281/zenodo.23006637}.
+
+\bibitem{watanabe2026braid}
+S. Watanabe, \emph{Subjectivity-Intersection Mathematics: All-Orders Intersection Consistency and Compositional Objectivity from Pointed Unitary Braids}, version 1.0, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.22166167}{doi:10.5281/zenodo.22166167}.
+
+\bibitem{watanabe2026ontology}
+S. Watanabe, \emph{Subjectivity Intersection Ontology: A Comparative Ontological Framework for Third Subjectivity}, version 1.0.0, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.21641878}{doi:10.5281/zenodo.21641878}.
+
+\end{thebibliography}
+
+\end{document}
