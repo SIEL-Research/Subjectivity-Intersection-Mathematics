@@ -1,0 +1,833 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=22mm,headheight=15pt]{geometry}
+\usepackage{fontspec}
+% 画面でも印刷でも文字の芯が痩せないよう、和文本文は角ゴシックW3、
+% 見出しと強調はW6に固定する。欧文も同一ファミリーにそろえ、混植時の
+% 字面の揺れを抑える。
+\setmainfont{Hiragino Sans W3}[
+  BoldFont={Hiragino Sans W6},
+  ItalicFont={Hiragino Sans W3},
+  BoldItalicFont={Hiragino Sans W6},
+  ItalicFeatures={FakeSlant=0.12},
+  BoldItalicFeatures={FakeSlant=0.12}
+]
+\setsansfont{Hiragino Sans W6}[
+  BoldFont={Hiragino Sans W7}
+]
+\setmonofont{Menlo}
+\XeTeXlinebreaklocale "ja"
+\XeTeXlinebreakskip=0pt plus 1pt
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,tabularx,longtable,array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\definecolor{navy}{HTML}{17365D}
+\definecolor{blue}{HTML}{2F5597}
+\definecolor{lightblue}{HTML}{EAF1F8}
+\definecolor{warm}{HTML}{F6EEE7}
+\definecolor{deepred}{HTML}{8B1E2D}
+\definecolor{graytext}{HTML}{4A4A4A}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=navy,
+  citecolor=deepred,
+  urlcolor=blue,
+  pdfauthor={Satoru Watanabe},
+  pdftitle={主観交差Braid量子重力 - 有限量子源からLorentz時空・Einstein力学・物質構造へ},
+  pdfsubject={有限pointed-Braid sourceから量子構造・Lorentz時空・Einstein力学・物質構造を生成する構成理論},
+  pdfkeywords={subjectivity intersection, braid quantum gravity, core theorems, Einstein equation, Ward identity, quantum foundations, CKM}
+}
+
+\newtheorem{theorem}{定理}[section]
+\newtheorem{law}[theorem]{Source法則}
+\newtheorem{proposition}[theorem]{命題}
+\newtheorem{corollary}[theorem]{系}
+\newtheorem{lemma}[theorem]{補題}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{定義}
+\newtheorem{scope}[theorem]{適用範囲条件}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{注記}
+
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\id}{\mathbf 1}
+\newcommand{\cA}{\mathcal A}
+\newcommand{\cE}{\mathcal E}
+\newcommand{\cO}{\mathcal O}
+\newcommand{\cS}{\mathcal S}
+\newcommand{\OPT}{\mathsf{OP}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{graytext}主観交差Braid量子重力}
+\fancyhead[R]{\small\color{graytext}日本語版 v0.96}
+\fancyfoot[C]{\thepage}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.62em}
+\setlength{\emergencystretch}{1.5em}
+\linespread{1.075}
+\raggedbottom
+\setlist{nosep,leftmargin=1.55em}
+\renewcommand{\arraystretch}{1.14}
+\renewcommand{\abstractname}{要旨}
+\renewcommand{\refname}{参考文献}
+
+\title{\vspace{-1.2cm}\textbf{主観交差Braid量子重力}\\[0.35em]
+\Large 有限量子源からLorentz時空・Einstein力学・物質構造へ\\[0.15em]
+\large 客観主義的優先性への構成的反証}
+\author{渡辺 聡\\\small Subjectivity Intersection Emergence Lab (SIEL)}
+\date{ワーキングプレプリント v0.96 --- 2026年9月28日}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\fcolorbox{navy}{lightblue}{\parbox{0.93\linewidth}{\small
+\textbf{中心結果。} 一つのstandpoint-bearingな有限pointed-Braid sourceから、量子状態と量子チャネル、4方向Lorentz carrier、連続metric、4成分Ward則、反復backreaction、Einstein赤外極限、ADM/HDA--BFV constraint構造、さらに有限量子制御と物質表現を、一つの生成連鎖として構成する。公共的な時空と物理法則は出発点ではなく、主観交差として型付けられたsourceの合成から得られる。}}
+\end{center}
+
+\begin{abstract}
+本稿は、主観交差として型付けられた有限Braid sourceから、量子構造、時空幾何、重力力学、物質表現を連続的に生成する数理的量子重力候補を提示する。構成は、完成した公共時空を前提とせず、互いに同一ではないstandpointを担うpointed-Braid過程から出発する。固定sourceは、4方向event carrier、Lorentz符号metric、rank 10応答、source routing比$3/5$を生成する。chartの滑らかな接合、正の情報幾何学的transport、source-typed solderにより、連続的なmetric/nonmetricity tensorが得られる。局所・二階・形式的自己共役・保存的な長波長クラスでは、共通metricに関する変分からHilbert stress、on-shell Ward恒等式、および
+\[
+G_{\mu\nu}=\frac35T_{\mu\nu},
+\]
+が得られ、その平坦二次sectorは、二つの物理helicityをもつmassless Fierz--Pauli理論である。
+
+有限scaleでは、source-native CPTP collision dilation、raw/Petz record contrast、局所recorded closed-time-path構成から、exactな4成分total Ward telescopeが得られる。full-rank record Fisher作用はmatter--geometry--matterの1 cycleを閉じ、そのoperator-logistic continuationは、あらゆる有限回の反復でCPTP発展、Ward法則、4応答方向、限定されたconstraint表現を保存する。compatible refinementから、AF/quasi-local UCP semigroup、rank 35 quartic response、異方的な正のheat/wave発展、宣言された2偏極hierarchical carrier上での全実時間energy-norm強収束が得られる。局所正則smoothクラスでは、正規化10成分generalized-harmonic metric--Euler updateが、共通smooth intervalのすべてで強収束する。source Palatini towerのstationary refinement limitは、exactな4方向Noether kernel、metric依存hypersurface-deformation Lie algebroid、局所nilpotent BFV differential、二つの物理configuration modeを備えるperfect history-groupoid作用を定義する。
+
+同じ有限sourceは、36次元複素carrier、source-dagger二乗norm確率、observable algebra $M_{18}(\mathbb C)\oplus M_{18}(\mathbb C)$、exactな有限量子制御engineを再構成する。導出されたanomaly-solution groupoidは、anomaly-freeなStandard-Model characterの3 copy、global $\mathbb Z_6$、一つのweak Higgs doublet、charged Yukawa interaction typeを与える。さらに、固定pointed-Braid sourceからCKM modulus matrixを得る計算列を事前登録後に再実行した確認実験はPASSし、frozen outputを残差0で再現した。得られた9要素は凍結したPDG 2024表のすべてで$5\sigma$以内に入り、clock、pointing、pair-starを壊す三つのcontrolはいずれも出力を変えた。この結果は既知導出の登録再現確認であり、新規のblind predictionではない。以上により、量子・幾何・保存則・重力・物質表現を同じsource architectureの出力として結ぶ。これは、公共的で変換を尊重する物理carrierが必ず原初的でなければならない、という客観主義的優先性の普遍命題に対する構成的反証である。
+\end{abstract}
+
+\noindent\textbf{キーワード：} 主観交差Braid量子重力；pointed braid；生成される客観性；Lorentz carrier；Einstein方程式；Ward恒等式；量子基礎；有限backreaction；量子制御；CKM。
+
+\section{序論}
+
+量子重力に必要なのは、所与の時空上に量子変数を置くこと、または古典metricを量子化することだけではない。完全な構成的説明には、有限量子sourceが、通常は別々の要素として挿入されるevent方向、因果符号、幾何応答、保存則、連続体力学をどのように供給するかの説明が必要である。また、exactなsource-levelの結果を、赤外閉包仮定および経験的同定から区別しなければならない。本稿の中心問題は、あらかじめ完成した公共時空から出発せずに、一つの固定された有限非可換sourceがこの連鎖を支えられるか、である。
+
+提案するsourceは、typed nonidentity、cap/cup閉包、保持されたprovenance、marked clock sector、right-tail registerをもつpointed unitary Braid systemである。ここで\emph{主観性}とは、観測・輸送・表示の起点を区別する形式的なstandpoint typingを指す。核心は、互いに同一ではない過程のintersectionが、共有可能なevent carrierとその力学を生成する点にある。pointing、source typing、event selection、provenance-preserving compositionは補助的な装飾ではなく、どの自由度を物理的な読み出しとして採用するかを決める生成機構である。
+
+本稿の主要な成果は次の五点である。
+\begin{enumerate}[label=(\roman*)]
+  \item 固定sourceから、4本の独立event方向、$1+3$ Lorentz符号carrier、rank 10 metric response、相対routing factor $3/5$が得られる。この係数をEinstein方程式へfitしていない。
+  \item smoothなevent-cylinder gluing、正のinformation-geometric transport、source-typed solderが、連続metric/nonmetricity fieldを定義する。宣言された赤外変分クラスでは、共通metricの変分からHilbert stress、on-shell Ward恒等式、および
+  $G_{\mu\nu}=(3/5)T_{\mu\nu}$.
+  が得られる。
+  \item 有限CPTP collision parentは、interaction transfer、4成分total Ward telescope、正値性と宣言された有限constraintを保存する反復matter--geometry--matter updateを与える。
+  \item 細分化されたhistory groupoid上のperfect actionは、局所正則なADM変形代数、nilpotent BFV differential、二つの物理configuration modeを与える。これとは独立に、正規化10成分generalized-harmonic metric--Euler updateは、すべての共通smooth interval上で強収束する。
+  \item 同じsource architectureは、有限複素quantum carrier、二乗norm確率、exact mixed-unitary control engine、anomaly-freeなmatter representationを支える。固定sourceからCKM modulus matrixを得る計算列は、事前登録した再現確認でPASSした。
+\end{enumerate}
+
+以下では、まず主観交差とpointed-Braid sourceの生成原理を定義する。次に、4方向carrier、Lorentz metric、連続時空tensor、有限Ward則、backreaction、Einstein極限を順に導出する。その後、constraint/refinement、連続体力学、量子構造、量子制御、物質表現を同じsource architectureの中で接続し、最後に理論の物理的意味と反証可能性を論じる。数学的に必要な仮定は、それぞれの結果に対応する節で明示する。
+
+\section{基本概念と生成原理}
+
+\begin{definition}[主観交差]
+\emph{standpoint}とは、access・transport・presentationのtyped modeである。\emph{intersection}とは、provenanceを保存しながら共有可能なoutputを生成する法則的合成である。本稿で主観性は意識を意味しない。
+\end{definition}
+
+\begin{definition}[客観主義的優先性命題]
+$\OPT$とは、安定で公共的かつ変換を尊重するあらゆる物理carrierは、原初的であるか、原初的なperspective-neutral carrierと同値でなければならない、という普遍的必要性命題である。
+\end{definition}
+
+証明architectureは
+\begin{equation}
+\begin{aligned}
+&\text{pointed nonidentical Braid source}\\
+&\quad\Longrightarrow\text{event carrierとquantum channel}\\
+&\quad\Longrightarrow\text{Lorentz metricとcontinuous tensor}\\
+&\quad\Longrightarrow\text{finite Ward/backreactionと赤外Einstein limit}\\
+&\quad\Longrightarrow\text{finite quantum/matter structure}.
+\end{aligned}
+\label{eq:architecture}
+\end{equation}
+
+式~\eqref{eq:architecture}の矢印は、各段階で明示された適用範囲内でのみ定理上の矢印である。あらゆる抽象braidが重力を生成するという主張でも、この模型がすでに自然界と同定されたという主張でもない。
+
+\section{固定source法則}
+
+\begin{law}[Unitary Braid transport]
+隣接source transport $R_{12}$と$R_{23}$はunitaryであり、
+\begin{equation}
+R_{12}R_{23}R_{12}=R_{23}R_{12}R_{23},
+\qquad R_{ij}^{\dagger}R_{ij}=I.
+\label{eq:ybe}
+\end{equation}
+\end{law}
+
+\begin{law}[Pointingとpublic-event selection]
+sourceは、distinguished point、cap/cup構造、互いに同一でないtyped role、保持されたpath provenance、一つのmarked clock方向、right-tail registerを含む。public event carrierはsource-selected event effectのimageであり、ambient label space全体ではない。
+\end{law}
+
+\begin{law}[Source typing]
+uniform方向$G_1$、三つのstandard方向$H_1,H_2,H_3$、clock line、matter corner、environment tailは、固定source roleから読み出される。targetとなるEinstein方程式またはStandard-Model方程式を見た後にfitされるものではない。
+\end{law}
+
+\begin{scope}[宣言済みextension]
+後段のmatter representationと量子制御の結果は、変更なしのraw sourceではなく、明示的なextension、すなわちanomaly-solution matter groupoidとtyped source-word quantum controllerを使用する。それらの結論は、宣言された各クラス内でのみ成立する。
+\end{scope}
+
+\section{操作的4方向とLorentz carrier}
+
+\begin{theorem}[4方向event moment]
+固定marked sourceに対して、source-canonical event momentは
+\begin{equation}
+Q_4=\frac{12}{25}P_0+\frac{52}{25}P_1,
+\label{eq:q4}
+\end{equation}
+である。ここで$P_0$はuniform 1次元projector、$P_1$はstandard 3次元projectorである。したがって
+\begin{equation}
+\rank Q_4=4,
+\qquad
+\mathbb R^4\cong\operatorname{im}P_0\oplus\operatorname{im}P_1
+\cong \mathbf 1\oplus\mathbf 3.
+\end{equation}
+\end{theorem}
+
+\textit{導出。} 正規化された4確率carrierは、uniform成分とzero-sum standard成分へexactに分解される。marked event averageは式~\eqref{eq:q4}の二つの有理eigenvalueで作用し、いずれも非零なのでrankは$1+3=4$である。このrank計算にambient 4次元時空は用いない。
+
+\begin{theorem}[Source由来Lorentz符号]
+marked clockはcausal reflection
+\begin{equation}
+J_{\rm ray}=-P_0+P_1.
+\end{equation}
+を決定する。event metric
+\begin{equation}
+K_{\rm evt}=J_{\rm ray}Q_4
+=-\frac{12}{25}P_0+\frac{52}{25}P_1
+\label{eq:kevt}
+\end{equation}
+は符号$(3+,1-)$をもつ。
+\end{theorem}
+
+\textit{導出。} uniform lineは一意なmarked clock lineであり、$J_{\rm ray}$の下で符号を変えるが、standard 3-planeは変えない。$Q_4$は両summand上で正であるから、式~\eqref{eq:kevt}は一つの負eigenvalueと三つの正eigenvalueをもつ。
+
+\begin{theorem}[Full matter cornerとrouting比]
+宣言されたcomplete five-partition retraction classでは、固定event-conditioned sourceが一つのfull matter cornerを選ぶ。正規化source-cup routingは相対的matter/gravity weight
+\begin{equation}
+\kappa_B=\frac35.
+\label{eq:threefifths}
+\end{equation}
+を与える。この値は固定routing countのoutputであり、手動挿入されたgravitational couplingではない。
+\end{theorem}
+
+\begin{scope}
+4次元性と$3/5$の結果は、固定marked sourceと宣言されたpartition classに対してexactである。すべてのpointed braidが4次元または同じ比を生成することは証明しない。式~\eqref{eq:threefifths}は相対正規化であり、SI単位でのNewton定数ではない。
+\end{scope}
+
+\section{連続metric・transport・solder}
+
+$a,b$を24個のsource chartのlabelとし、$L_{ba}\in GL(4)$をexact source transition matrixとする。
+
+\begin{theorem}[Tensor gluing]
+有限source metricは、
+\begin{equation}
+g_b=L_{ba}^{-\mathsf T}g_aL_{ba}^{-1},
+\qquad
+\dot g_b=L_{ba}^{-\mathsf T}\dot g_aL_{ba}^{-1}.
+\label{eq:metricglue}
+\end{equation}
+によりsmooth metric fieldへglueする。対応するnonmetricityは、passive local $GL(4)$ changeの下でtensorとして変換する。
+\end{theorem}
+
+\textit{導出。} Braid由来Gibbs tangentが有限event dataをsmooth source cylinder上へ拡張する。exact chart cocycleにより、式~\eqref{eq:metricglue}はoverlap上でpath-independentになる。同じcocycleがmetric tangentとconnection defectへ作用するので、nonmetricityはglobalに定義される。
+
+\begin{theorem}[正のhorizontal lift]
+10次元symmetric sector内のあらゆるinfinitesimal metric variationに対し、event-path Fisher/Bogoliubov--Kubo--Mori horizontalityは有限で正のMarkov-rate liftを選ぶ。そのcurvatureは45個すべてのmetric 2-plane上で消えるため、局所的にexponential leafへ積分される。
+\end{theorem}
+
+\begin{theorem}[一意なtyped physical solder]
+source-product typing class内で、10個のsource responseから$\Sym^2(T^*M)$へのmapは一意である。co-moving causal reflection
+\begin{equation}
+J(Q,\tau)=I-2\frac{(Q\tau)\tau^{\mathsf T}}{\tau^{\mathsf T}Q\tau}
+\end{equation}
+および
+\begin{equation}
+K(Q,\tau)=Q-2\frac{(Q\tau)(Q\tau)^{\mathsf T}}{\tau^{\mathsf T}Q\tau}
+\label{eq:comoving}
+\end{equation}
+は、独立なclock couplingなしに10個すべてのLorentz-metric variationを回復する。
+\end{theorem}
+
+\textit{導出。} source productは、scalar・clock・standard成分がsymmetric squareへどのように入れるかを固定する。競合するsolderは少なくとも一つのtyped product relationに違反する。式~\eqref{eq:comoving}を微分するとsymmetric source tangent上のrank 10 mapが得られ、以前欠けていたclock-dependent variationを閉じる。
+
+\section{長波長作用・stress・Einstein極限}
+
+\begin{scope}[赤外作用クラス]
+本節では、宣言された長波長クラス、すなわち局所・二階・形式的自己共役・保存的・低曲率・zero hypermomentumを仮定する。重力変分とmatter変分は第5節の同じmetricを用いる。
+\end{scope}
+
+\begin{theorem}[Hilbert変分とWard恒等式]
+有限source action variationは、宣言されたクラス内で
+\begin{equation}
+\delta S_m
+=\frac12\int_M\sqrt{|g|}\,T^{\mu\nu}\delta g_{\mu\nu}\,d^4x.
+\label{eq:hilbert}
+\end{equation}
+へ収束する。diffeomorphism variationはoff-shell Noether identityを与え、matter equation of motion上では
+\begin{equation}
+\nabla_\mu T^{\mu}{}_{\nu}=0.
+\label{eq:ward}
+\end{equation}
+\end{theorem}
+
+\begin{theorem}[適用範囲付きEinstein方程式]
+共通gravity--matter variationは
+\begin{equation}
+\delta S_{\rm tot}
+=\frac12\int_M\sqrt{|g|}
+\left(G^{\mu\nu}-\frac35T^{\mu\nu}\right)
+\delta g_{\mu\nu}\,d^4x.
+\label{eq:totalvariation}
+\end{equation}
+である。任意のcompactly supported $\delta g_{\mu\nu}$に対するstationarityから
+\begin{equation}
+G_{\mu\nu}(g)=\frac35T_{\mu\nu}(g,\lambda).
+\label{eq:einstein}
+\end{equation}
+\end{theorem}
+
+\textit{導出。} source-native first-order gravity variationが、宣言されたuniversality class内でEinstein tensorを固定する。full-corner cup routingが式~\eqref{eq:threefifths}の相対係数を固定する。matter variationの選択に、target Einstein方程式またはfitされたmixed coefficientを用いない。
+
+\begin{corollary}[Massless spin 2]
+$g_{\mu\nu}=\eta_{\mu\nu}+h_{\mu\nu}$の周りで、二次gravity actionはmassless Fierz--Pauli gauge classである。linear constraintとgauge quotientの後、4次元に二つのphysical helicityが残る\cite{fierzpauli1939}。
+\end{corollary}
+
+\section{有限Lorentz量子親理論とtotal Ward則}
+
+source-selected collision isometryを$V:\mathcal H_S\to\mathcal H_S\otimes\mathcal H_E$とする。reduced Heisenberg channelは
+\begin{equation}
+\Phi(X)=V^\dagger(X\otimes I)V
+=\sum_a K_a^\dagger X K_a,
+\qquad \sum_aK_a^\dagger K_a=I.
+\label{eq:cptp}
+\end{equation}
+
+\begin{theorem}[Source-native CPTP親理論]
+固定collision familyはsource-native Stinespring dilationとreduced CPTP/unital evolutionをもつ。局所recorded closed-time-path parentは、retarded support、positive noise、exact address/time refinement、正しい$3+1$ causal typingをもつ\cite{stinespring1955,gorini1976,lindblad1976,feynmanvernon1963}。
+\end{theorem}
+
+4本のsource方向のそれぞれに対し、
+\begin{equation}
+D_\alpha=S_\alpha-\Phi(S_\alpha),
+\qquad \alpha=0,1,2,3.
+\label{eq:defect}
+\end{equation}
+
+\begin{theorem}[Record contrastからのinteraction stress]
+source-fixed raw/Petz forward--reverse record contrastは、conditional effect tangent $+D_\alpha/2$と$-D_\alpha/2$をもつ。そのgauge-invariant Choi marginal differenceはexactに$D_\alpha$である。したがってinteraction-stress compressionは、既知defectを打ち消すように選ばれるのではなく、collision recordから導出される。
+\end{theorem}
+
+\begin{theorem}[4成分有限Ward telescope]
+あらゆる有限history長$n$と4成分すべてについて、
+\begin{equation}
+\sum_{k=0}^{n-1}\Phi^k(D_\alpha)
+=S_\alpha-\Phi^n(S_\alpha).
+\label{eq:wardtelescope}
+\end{equation}
+この恒等式は8個すべてのsource sectorで成立する。
+\end{theorem}
+
+\textit{導出。} 式~\eqref{eq:defect}を式~\eqref{eq:wardtelescope}の左辺へ代入すると、隣接項が相殺する。内容はalgebraic telescopeだけではなく、同じ$D_\alpha$がphysical record contrastおよびinteraction transferとしてsourceから導出される点にある。
+
+\section{有限matter--geometry--matter backreaction}
+
+\begin{theorem}[1 cycle Fisher feedback]
+recorded source familyは4本のmetric方向上でfull-rank Fisher responseをもつ。stationary record actionは、係数freeなupdate
+\begin{equation}
+\text{matter record}\longrightarrow
+\text{metric register}\longrightarrow
+\text{次のCPTP matter collision}
+\end{equation}
+を定義する。MMR、CGR、Einstein target、手動挿入された$3/5$、fitされたresponse coefficientを用いない。
+\end{theorem}
+
+\begin{theorem}[すべての有限adaptive iteration]
+$\rho_n$を有限record state、$A_n$をstep $n$におけるsource-derived response operatorとする。operator-logistic update
+\begin{equation}
+\rho_{n+1}
+=\frac{\exp(\log\rho_n+A_n)}{\Tr\exp(\log\rho_n+A_n)}
+\label{eq:logistic}
+\end{equation}
+は正で正規化される。あらゆる有限$N$について、step $N$までのadaptive compositionはCPTPを保ち、nonautonomous 4成分Ward telescopeに従い、4本の独立global response方向を保存し、適用範囲付きconstraint representationを保持する。
+\end{theorem}
+
+\begin{proposition}[係数$1$と$3/5$]
+direct finite Fisher gainは、同じrecord normalizationにおいてscoreとHessianを比較するためexactに$1$である。係数$3/5$は外側のfull-corner matter/gravity routing weightである。両者は異なるdomainをもち、同一constantに対する競合estimateではない。
+\end{proposition}
+
+\section{Constraint algebraとrefinement}
+
+\begin{theorem}[Source-generated local derivation]
+三つのsigned-sector local generatorは、独立なclosable unbounded derivation $\delta_i$としてrefinement後も存続する。それらのall-sector Gram rankは3である。生成されたfinite-order derivation algebraはcommutatorの下で閉じ、
+\begin{equation}
+[\delta_i,\delta_j]\in\operatorname{Lie}\langle\delta_1,\delta_2,\delta_3\rangle,
+\end{equation}
+Jacobi恒等式をexactに満たし、宣言されたderivation representation内でcentral anomalyをもたない。
+\end{theorem}
+
+\begin{theorem}[Source-perfect ADM/HDAおよびBFV閉包]
+$S_m$を有限depth $m$におけるsource Palatini slab actionとする。局所正則noncaustic branch上で、stationary refinement limitを
+\begin{equation}
+S_n^{\rm perf}(z_-,z_+)
+=\lim_{m\to\infty}
+\operatorname*{stat}_{R_{m,n}z_m^{\partial}=(z_-,z_+)}S_m[z_m].
+\label{eq:perfectaction}
+\end{equation}
+と定義する。これはdiscrete gravityで用いられるperfect-actionの意味である\cite{bahrdittrich2009}。exact stationary compositionとnested source refinementは
+\begin{equation}
+S_{02}^{\rm perf}
+=\operatorname*{stat}_{z_1}
+\left(S_{01}^{\rm perf}+S_{12}^{\rm perf}\right),
+\qquad
+J_{n+1,n}^{*}S_{n+1}^{\rm perf}=S_n^{\rm perf}.
+\label{eq:perfectcomposition}
+\end{equation}
+を与える。source-selected primitive history deformationの4本、すなわち一つのclockと三つのspatial deformationはrefactorization arrowとして作用し、exact off-shell Noether恒等式
+\begin{equation}
+R_n^\dagger\cE(S_n^{\rm perf})=0.
+\label{eq:perfectnoether}
+\end{equation}
+を満たす。rank 4 regular neighborhood上で、そのkernelはexactに4次元である。対応するLie algebroidはmetric-dependent hypersurface-deformation bracket
+\begin{align}
+\{D[N],D[M]\}&=D[[N,M]],\notag\\
+\{D[N],H[M]\}&=H[\mathcal L_NM],\notag\\
+\{H[N],H[M]\}
+&=D\!\left[\gamma^{ij}(N\partial_jM-M\partial_jN)\right].
+\label{eq:hda}
+\end{align}
+を満たす。そのlocal BFV differentialは$s_n^2=0$を満たす。12次元Lorentz/torsion-reduced phase carrier上で、4本のregular first-class constraintを課すと
+\begin{equation}
+12-2\times4=4
+\end{equation}
+のphysical phase dimensionが残り、したがってphysical configuration modeは二つである。
+\end{theorem}
+
+\textit{導出。} composite historyはgroupoid arrowであり、追加の独立constraintではない。associativityはBFV differentialに必要なhigher coherenceを与え、式~\eqref{eq:perfectcomposition}は4本のprimitive generatorをrefinementを通じてexactにtransportする。これにより、composite moveのfull matrix spanを独立constraintへ昇格させることで生じるover-gaugingを避ける。HDAとBFVの用語は標準canonical-gravityおよびconstrained-system frameworkに従う\cite{hkt1976,henneauxteitelboim1992}。source-perfect realizationがsource固有の主張である。
+
+\begin{scope}
+局所微分定理は有限段階の前駆結果である。ADM/HDAの結論は、式~\eqref{eq:perfectaction}にsource-perfectな定常細分化を施し、一意にgauge固定された非caustic定常枝、非退化な横Hessian、十分なSobolev正則性、非零rank 4 source minorを備える共通smooth interval上でのみ成立する。変更なしのraw finite-cell actionに対するultralocal exact HDA、causticまたはsingularityを通るglobal passage、完全coupled quantum-matter BFV complex、経験的妥当性を主張しない。
+\end{scope}
+
+\section{Ultraviolet・全scale・連続体力学定理}
+
+\begin{theorem}[Quartic response capacity]
+4次元carrierに対し、
+\begin{equation}
+\Sym^2(\Sym^2V_4^*)
+\cong\Sym^4V_4^*\oplus\mathbb S_{(2,2)}V_4^*,
+\qquad 55=35+20.
+\label{eq:quarticdecomp}
+\end{equation}
+actual source-fixed $35\times55$ quartic responseは、保存されたindependent coefficient box全体でrow rank $35$をもつ。
+\end{theorem}
+
+\begin{theorem}[Quasi-local UCP極限]
+compatible finite source-cylinder channelは、complete bound 1をもつAF/quasi-local inductive-limit algebra上のstrongly continuous UCP semigroupへ一意に拡張される。
+\end{theorem}
+
+\begin{theorem}[異方的な正のheat/wave法則]
+actual inverse spatial metricは、正のdirectional conductance $c_{xy}>0$を決定する。generator
+\begin{equation}
+(Lf)(x)=\sum_yc_{xy}\bigl(f(y)-f(x)\bigr)
+\label{eq:conductance}
+\end{equation}
+はMarkov、refinement-compatible、anisotropicであり、対応するquadratic formにおいて正である。同じoperatorがUCP heatとpositive wave evolutionを生成し、宣言されたhierarchy内でspatial spectral dimension 3をもつ。
+\end{theorem}
+
+\begin{theorem}[全実時間strong wave収束]
+$J_m$をfinite mean-zero carrierのembedding、$Q_m$をenergy projection、$W_m(t)$と$W(t)$を有限および極限2偏極wave groupとする。exact refinement intertwiningから
+\begin{equation}
+\sup_{t\in\mathbb R}
+\left\|W(t)x-J_mW_m(t)Q_mx\right\|_{\cE}
+=\left\|(I-Q_m)x\right\|_{\cE}
+\longrightarrow0.
+\label{eq:strongwave}
+\end{equation}
+\end{theorem}
+
+\begin{theorem}[正規化10成分metric--Euler収束]
+10個すべてのsymmetric metric componentについて、
+\begin{align}
+D_\tau^2 g_{AB,h}^n-L_h(g_h^n)g_{AB,h}^n
+&=N^{\rm src}_{AB,h},\notag\\
+L_h(g)u(x)
+&=\frac1{25h^2}
+\sum_{\delta\in C_5^3\setminus\{0\}}
+c_\delta(g)\,[u(x+h\delta)-u(x)].
+\label{eq:tensor-euler}
+\end{align}
+とする。source moment恒等式
+\begin{equation}
+\frac12\frac1{25}\sum_\delta c_\delta\,\delta_i\delta_j=A_{ij}
+\end{equation}
+によりprincipal spatial tensorはexactにinverse spatial metricになる。reverse-edge pairingとcentral source-clock differenceがodd Taylor orderを相殺する。宣言されたsmooth classでは、
+\begin{align}
+\|E_hI_hU-I_hE(U)\|_{H^{s-1}}
+&\le C_T(h^2+\tau_h^2),\notag\\
+\|B_hE_hI_hU\|_{H^{s-2}}
+&\le C_T\left(h+\frac{\tau_h^2}{h}\right).
+\label{eq:euler-residuals}
+\end{align}
+$\tau_h=O(h)$ならば、正値性と既存energy estimateから
+\begin{equation}
+\sup_{0\le t\le T}
+\|J_hU_h(t)-U(t)\|_{H^{s-1}}
+\le C_T\left(\eta_h+h+\frac{\tau_h^2}{h}\right)
+\longrightarrow0
+\label{eq:euler-convergence}
+\end{equation}
+がすべての共通smooth interval上で得られる。
+\end{theorem}
+
+\begin{scope}
+式~\eqref{eq:strongwave}はhierarchical two-slot carrierを支えるexact定理であり続けるが、それ自体はADM同定定理ではない。式~\eqref{eq:tensor-euler}--\eqref{eq:euler-convergence}は、smooth Ward-compatible stressを伴う局所正則・長波長・10成分generalized-harmonic metric--Euler収束を閉じる。globalまたはstrong-curvature continuation、完全coupled matter principal system、完全finite Lorentzian quantum parent、SI calibration、経験的重力を証明しない。適用範囲付きADM/HDA同定は、第9節のsource-perfect history定理が別途与える。
+\end{scope}
+
+\section{Braid sourceからの有限量子構造}
+
+actual three-history carrier上で$C=R_1R_2$とし、
+\begin{equation}
+P=\frac{2I-C-C^{-1}}3,
+\qquad
+J=\frac{C-C^{-1}}{\sqrt3}.
+\label{eq:complexstructure}
+\end{equation}
+
+\begin{theorem}[複素carrier]
+oriented source cycleは$C^3=I$を満たす。operator $P$はrank 72 real projectorであり、
+\begin{equation}
+J^2=-P.
+\end{equation}
+したがって$\operatorname{im}P$上で$J^2=-I$であり、これは36次元complex carrierである。
+\end{theorem}
+
+\begin{theorem}[Source-dagger確率]
+source reversalがdaggerを与える。equality countingとcup/cap gluingはprojective probability law
+\begin{equation}
+p_i(\psi)=\frac{\|P_i\psi\|^2}{\sum_j\|P_j\psi\|^2}
+\label{eq:born}
+\end{equation}
+を、宣言されたfinite linear source-dagger class内で強制する。
+\end{theorem}
+
+\begin{theorem}[Observable algebra]
+endpoint exchangeと保持されたBrauer crossing/cap familyは、exact $\mathbb Z_2$ superselection chargeを露出する。生成されるdagger algebraは
+\begin{equation}
+\cO\cong M_{18}(\mathbb C)\oplus M_{18}(\mathbb C).
+\label{eq:observablealgebra}
+\end{equation}
+\end{theorem}
+
+\begin{scope}
+dagger-compact mechanismとsquared-norm ruleは標準的数学構造である。source固有の結果は、保持されたBraid carrier上での固定realization、rank、grading、algebraである。ordinary flipもcomplex-sector mechanismの一部を共有するため、この定理だけからBraidの必要性を主張しない。
+\end{scope}
+
+\section{有限量子engineとexact actuation}
+
+\begin{theorem}[Source-selected stochastic engine]
+四つの非可換compressed controlは、6-order mixed-unitary channel
+\begin{equation}
+\mathcal E(\rho)=\frac16\sum_{a=1}^{6}U_a\rho U_a^\dagger,
+\end{equation}
+を生成する。これはCPTPかつunitalであり、宣言されたcarrier内でKraus rank 6をもつ。
+\end{theorem}
+
+\begin{theorem}[Low-normalization Chebyshev actuator]
+$\|A\|\le1$を満たす$A=H/\alpha$とする。source-word LCU unitary、source dagger、signal qubit、success-address reflectionは、
+\begin{equation}
+E^\dagger W^kE=T_k(A).
+\label{eq:cheb}
+\end{equation}
+を満たすwalk $W$を生成する。32個のsector/control caseのそれぞれについて、finite-spectrum interpolant
+\begin{equation}
+P_H(x)=\sum_{k=0}^{m-1}c_kT_k(x),
+\qquad
+P_H(\lambda_j/\alpha)=e^{-i\pi\lambda_j/3}
+\end{equation}
+は、203--39,102回の$H$-block-encoding queryを用いるexact deterministic actuatorを与える\cite{childswiebe2012,lowchuang2017,gilyen2019}。
+\end{theorem}
+
+\begin{corollary}[Exact source-generator compiler]
+coordinate compressionとsource-arrow $\mathbb Z_4$ phase frameは、有限source generatorのexact 34-CNOT representativeと、保持されたnative gate vocabulary上の61-CZ realizationを与える。これはcompile定理であり、quantum advantageまたはgravity evidenceではない。
+\end{corollary}
+
+\section{導出されたStandard-Model表現sector}
+
+\begin{scope}
+本節は、明示的に導出されたanomaly-solution groupoidを用いる。Standard Modelに対するunchanged-source equivalence定理ではない。
+\end{scope}
+
+\begin{theorem}[Anomaly-solution groupoid]
+transformation groupoidはobject algebra
+\begin{equation}
+C((\mathbb Z_2)^3)\rtimes(\mathbb Z_2)^3\cong M_8(\mathbb C)
+\label{eq:m8}
+\end{equation}
+とBoolean degree multiplicity $(1,3,3,1)$をもつ。
+\end{theorem}
+
+\begin{theorem}[Chiral matterとHiggs content]
+degree-one shellはleft-Weyl Standard-Model characterの同一な3 copyを与える。すべてのlocal gauge anomalyは消え、Witten parityはeven、global kernelは$\mathbb Z_6$である。gauge-equivariant anti-linear real structureは、一つの独立complex weak doubletを残す。source cubicはup・down・charged-lepton Yukawa interaction cycleを許す。
+\end{theorem}
+
+\section{Matter表現と変分Yukawa構造}
+
+\begin{theorem}[Source-selected generation operator]
+pointed right-difference KMS responseは、full-rankでnonnormalなgeneration operator $Y$を選ぶ。その三つのsingular valueは相異なる。source-central KMS metricは、up、down、charged-lepton sectorに共通する同じ生成演算子と、sourceで固定されたrelative species normalizationを与える。
+\end{theorem}
+
+\begin{theorem}[Variational Yukawa operator]
+pointed affine source pathに対して、exact variation $W(1)-W(0)$は$Y$に等しい。forward/reverse CTP trilinearは$Y$と$Y^{\mathsf T}$を担い、mixed Higgs variationはfinite determinantに入る同じ正の$Y^{\mathsf T}Y$を生成する。したがってrelative Yukawa operatorはaction variationであり、独立にfitされたmatrixではない。
+\end{theorem}
+
+\begin{theorem}[非零有限Higgs stationary point]
+source sign lineとmatter parityはordinary exterior/Fock traceを選ぶ。$A(H)=|H|^2M^*M\ge0$に対し、
+\begin{equation}
+S_{\rm eff}(H)=S_H(H)-\log\det(I+A(H)).
+\label{eq:higgsaction}
+\end{equation}
+保持されたvariational selector内でradial potentialはstrictly convexであり、一意な正のstationary pointをもつ。この主張はfinite-source coordinateに関する存在・一意性定理であり、測定されたelectroweak vacuum expectation valueの数値同定ではない。
+\end{theorem}
+
+\begin{scope}
+本節が確立するのは、matter representation、Yukawa variation、有限Higgs stationary pointのsource内構造である。観測fermion mass、absolute electroweak scale、observed generation label、RG flowの同定は本稿の経験的主張に含めない。
+\end{scope}
+
+\section{登録確認されたpointed-Braid CKM導出}
+
+\begin{scope}
+本節はE016の事前登録と結果releaseに固定された計算列を報告する。これは既知導出の登録再現確認であり、blindな新規予測ではない。測定値はmatrix導出後の比較にのみ用いられた\cite{e016prereg,e016result,pdg2024ckm}。
+\end{scope}
+
+nonidentity Braid-word orderを$(r_1,r_2,r_{121})$、pointed axis mapを
+$(r_1,r_2,r_{121})\mapsto(e_2,e_1,e_3)$とする。clock weightとmatter incidence weightはそれぞれ
+\begin{equation}
+c=(7,4,4),
+\qquad m=(4,10,10)
+\label{eq:ckmweights}
+\end{equation}
+に固定される。正規化Hellinger cross-stateは
+\begin{equation}
+q_i=\frac{\sqrt{c_i m_i}}{\sum_j\sqrt{c_jm_j}}
+=(0.2949454706,\ 0.3525272647,\ 0.3525272647).
+\label{eq:ckmq}
+\end{equation}
+source-fixed matter matrixを$M$、三つのaxis projectorを$P_3,P_2,P_1$とし、
+\begin{equation}
+B(M)=q_3q_1(P_3MP_2+P_2MP_3)
+      +q_3q_2(P_3MP_1+P_1MP_3)
+\label{eq:pairstar}
+\end{equation}
+とする。$U_+$と$U_-$を、それぞれ$(M+B)(M+B)^\dagger$と$(M-B)(M-B)^\dagger$の固有値昇順orthonormal frameとすると、登録されたreadoutは
+\begin{equation}
+V_{\rm CKM}=U_+^\dagger U_-.
+\label{eq:ckmreadout}
+\end{equation}
+
+\begin{theorem}[E016登録再現確認]
+DOI-1で式~\eqref{eq:ckmweights}--\eqref{eq:ckmreadout}、期待output、tolerance、三つのcontrolを凍結し、その後に同一commandを一度実行した。全10 testはPASSし、
+\begin{equation}
+|V_{\rm CKM}|=
+\begin{pmatrix}
+0.9739619651&0.2266869484&0.0033343545\\
+0.2265269160&0.9731130260&0.0416724717\\
+0.0091458642&0.0407929649&0.9991257614
+\end{pmatrix}
+\label{eq:ckmconfirmed}
+\end{equation}
+を得た。frozen outputに対する最大絶対残差は$0$、unitarity residualは$8.51\times10^{-16}$であった。凍結したPDG 2024 CKM modulus表とのFrobenius距離は$0.00254046$、最大element pullは$4.4183\sigma$であり、9要素すべてが登録基準$5\sigma$以内に入った\cite{pdg2024ckm}。
+\end{theorem}
+
+\begin{theorem}[構造破壊control]
+primary outputからのFrobenius距離は、uniform non-Braid clockで$0.0643119$、broken pointingで$0.150013$、pair-star除去で$0.328022$であった。いずれも登録閾値$10^{-6}$を超えた。したがって、この固定pipelineのoutputは、少なくとも検査したclock、pointing、pair-star構造の各破壊に対して不変ではない。
+\end{theorem}
+
+\begin{scope}
+E016のPASSが確認するのは、固定pointed-Braid pipelineが宣言されたCKM matrixを再現する計算的十分性、そのunitarity、凍結測定表との登録基準内の整合、および三controlへの識別性である。これは独立研究者による再現、将来dataへのprospective prediction、全Standard Modelの導出、または量子重力全体の経験的検証を意味しない。neutral-sectorおよびleptonic mixingの物理的同定はopenであり、本稿はそれらの未検証数値を主張しない。
+\end{scope}
+
+\section{Calibration法則とabsolute-scale境界}
+
+\begin{theorem}[Source-only calibration NO-GO]
+internal clock unitとstress unitの独立rescalingは、無次元collision recordと有限係数$1$を保存する。したがってsourceだけでは、秒・metre・joule・Newton定数を同定できない。
+\end{theorem}
+
+\begin{corollary}[2 anchor条件付きcalibration]
+一つの独立frequency anchorと一つの独立stressまたはgravity anchorは、宣言されたtwo-scale class内で局所的に一意なscale mapを決定する。保持されたfrequency anchor $f_{\rm cal}=4.484999494698898\times10^9\,\mathrm{Hz}$とsource gap $4$を用いると、
+\begin{align}
+\tau_*=1.419442238778493\times10^{-10}\,\mathrm{s},
+\qquad
+\ell_*=0.04255380777524273\,\mathrm{m},
+\notag\\[-0.15em]
+E_*=7.429480314095178\times10^{-25}\,\mathrm{J}.
+\end{align}
+CODATA $G$を第2の外部inputとして与えると、stress unitが条件付きで固定される。これはBraidによる$G$の予測ではない\cite{codata2022,bipmSI}。
+\end{corollary}
+
+\section{客観主義的優先性への構成的反証}
+
+\begin{theorem}[普遍的客観主義的優先性に対するcountermodel]
+固定構成は、その第1段階に完成したpublic Lorentz carrierを含まない。そのcarrierはpointing、typed intersection、event selection、chart gluing、source transportの後にのみ生成される。それにもかかわらず、得られるcarrierは安定・公共的・変換を尊重し、保存stressと適用範囲付きEinstein極限を支える。したがって$\OPT$は普遍的必要性命題として偽である。
+\end{theorem}
+
+\textit{証明。} 普遍的必要性命題は、一つのexact countermodelによって反証される。第3--7節は、原初的public spacetimeなしにantecedent sourceを構成し、public Lorentz carrierとその力学を導出する。ゆえに、原初的perspective-neutral objectivityは、すべてのexact modelで必要ではない。この証明は客観的実在を否定せず、自然界がこの模型を実現することも示さない。
+
+\section{考察}
+
+\subsection{一つのsourceから何が生成されるか}
+
+本構成の意義は、braid群が既知の物理を表現できるという一般論にはない。一つのsource architectureが、有限非可換輸送、4方向Lorentz carrier、連続metric応答、有限stress transferとWard balance、Einstein赤外極限、constraint/refinement、量子再構成を順序立てて生み出す点にある。各段階の入力と出力は型によって結ばれ、後段の方程式に合わせて無関係な構造を継ぎ足す自由度を制限する。量子・時空・重力・物質は、別々に選ばれた模型の寄せ集めではなく、同じsourceの異なる読み出しとして現れる。
+
+pointedかつstandpoint-bearingな構造が効くのは、この型の選択においてである。Yang--Baxter輸送とunitarityは合成の整合性を与え、pointingとnonidentityは視点の起点を区別する。cap/cup closureは交差過程を閉じ、right-tail informationは履歴を保持し、marked clockとsource-selected spatial directionはLorentz読み出しを決める。この組合せにより、公共幾何は最初から置かれるのではなく、source内部の関係から生成される。
+
+\subsection{有限閉包と連続体閉包}
+
+有限係数$1$と連続体routing係数$3/5$は、一つのuntyped couplingへ割り当てられた二つの値ではない。前者は有限collision/Fisher responseを正規化し、後者は正規化されたmicroscopic responseをcontinuum geometric/matter sectorへ写す外側のsource-routing multiplicityである。したがって両者の関係はtyped composition lawであり、$1$から$3/5$への不連続renormalizationではない。いずれもNewton定数のabsolute SI valueを与えず、その変換には後述のexternal calibrationがなお必要である。
+
+力学的接続は二つの定理によって強化される。第1に、正規化10成分generalized-harmonic updateは、共通のsmooth interval上でmetric--Euler trajectoryへ強収束する。第2に、source-perfect history-groupoid actionは、metricに依存するADM変形代数とnilpotent BFV differentialを実現する。これにより、連続時空の運動方程式と正準constraint構造が、独立した比喩ではなく、同じ細分化architectureの二つの側面として接続される。
+
+有限scaleでは、complete positivityとtrace preservationがopen-quantum parentを与え、記録されたinteraction transferが4成分Ward telescopeを閉じる。operator-logistic identity-feedback mapを反復しても、各有限段階で量子状態の正値性、確率保存、Ward balance、4方向応答が保たれる。したがって物質から幾何へ、幾何から物質へ戻るbackreactionは、単発の対応ではなく反復可能な発展則になる。
+
+\subsection{経験的接続と反証可能性}
+
+E016は、固定されたpointed-Braid sourceからCKM modulus matrixを得る計算列について、事前登録した再現確認を与えた。凍結outputのexact reproduction、unitarity、PDG 2024表に対する9要素すべての$5\sigma$基準内一致、三つの構造破壊controlへの非不変性が同時に成立した。この結果は、source由来の物質readoutが測定表と定量比較できる段階へ進んだことを示す。一方、導出経路は過去のCKM dataを参照した探索履歴の後に選ばれているため、これはprospective predictionではない。独立実装による再現、将来更新dataへの固定済みtest、より強いmatched controlが、Braid固有の経験的支持へ進むために必要である。
+
+重力sectorについては、現在の強い結果は数学的な有限親理論、Ward balance、constraint、refinement、Einstein赤外極限である。自然界の重力に固有な経験的支持には、通常の量子論と一般相対論、genericなopen-quantum模型、他の創発時空模型から分岐する事前固定predictionが別途必要である。neutral-sectorおよびleptonic mixingについては物理的observableの同定が未完であり、未検証の数値を本稿の結論には用いない。
+
+哲学的帰結も、物理的構成から直接読み取れる。安定し、公共的で、変換を尊重するcarrierが、原初的なperspective-neutral objectとして与えられなくても構成できる。すなわち客観性は、主観性の排除によって成立するのではなく、異なるstandpointの交差が再現可能な不変構造を生むことによって成立し得る。これが本稿における客観主義的優先性への構成的反証である。
+
+\subsection{適用範囲と次の検証}
+
+定理は固定sourceと明示したcompletion classに対して成立する。連続体結果は局所正則領域を対象とし、absolute SI calibrationには外部anchorを要する。CKM結果は登録された再現確認であり、独立再現とprospective testは未完である。neutral-sector、leptonic mixing、absolute fermion massは本稿の経験的主張に含めない。次の理論課題はstrong-curvature領域への継続とfully coupled matter--gravity principal system、次の経験的課題はcompetitor-divergent measurementと独立再現である。ここに範囲条件をまとめ、個々の結果節では数学的に必要な条件だけを記す。
+
+\section{主要結果の統合}
+
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.28\linewidth} >{\raggedright\arraybackslash}p{0.29\linewidth} >{\raggedright\arraybackslash}p{0.34\linewidth}}
+\toprule
+生成段階 & 得られる構造 & 次段階への接続 \\
+\midrule
+Pointed-Braid source & 量子transport、pointing、履歴、clock、event selection & 物理的に読み出す4方向をsource内部で選ぶ \\
+4方向event carrier & $\mathbf1\oplus\mathbf3$分解、Lorentz符号、rank 10応答 & 連続metricと物質/幾何routingへ送る \\
+Source cylinder & chart gluing、正のtransport、typed solder & 連続metric/nonmetricity tensorを定義する \\
+共通metric変分 & Hilbert stress、on-shell Ward恒等式、$G=(3/5)T$ & 幾何と物質を同じ変分原理で結ぶ \\
+有限collision parent & CPTP発展、interaction stress、4成分Ward telescope & matter--geometry--matter backreactionを反復する \\
+\bottomrule
+\end{tabularx}
+
+\newpage
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.28\linewidth} >{\raggedright\arraybackslash}p{0.29\linewidth} >{\raggedright\arraybackslash}p{0.34\linewidth}}
+\toprule
+生成段階 & 得られる構造 & 次段階への接続 \\
+\midrule
+Refinement tower & UCP semigroup、rank 35応答、metric--Euler強収束 & 有限更新を連続時空の力学へ接続する \\
+Perfect history action & ADM/HDA Lie algebroid、BFV differential、2物理mode & 重力のconstraint sectorを閉じる \\
+Source-dagger再構成 & 36次元複素carrier、Born型確率、observable algebra & 標準量子形式と有限制御へ接続する \\
+Typed controller & exact mixed-unitary actuator & source-wordを実行可能な量子操作へ移す \\
+Matter representation & anomaly-free character、Higgs/Yukawa変分構造 & 有限sourceから物質readoutを型付けする \\
+登録CKM readout & frozen matrixのexact再現、unitarity、PDG比較、3 controls & 物質sectorを定量的な再現確認へ接続する \\
+\bottomrule
+\end{tabularx}
+
+この表が示すように、理論の中心は個別の方程式ではなく、sourceから観測可能な構造までを結ぶ生成順序にある。特に、有限collisionの量子力学、連続時空のmetric力学、ADM/BFV constraint、量子制御、物質表現が、共通するpointingとsource typingを受け継ぐ。したがって本構成の検証は、各出力の存在だけでなく、この継承関係がmatched non-Braid controlでは再現されないことを問う。
+
+\section{結論}
+
+本稿は、一つの固定pointed-Braid sourceから次の生成連鎖を構成した。量子構造、4方向Lorentz carrier、連続metric、CPTP発展、4成分Ward balance、反復backreaction、source-routing factor $3/5$を伴うEinstein赤外極限、ADM/HDA--BFV closure、metric--Euler強収束、有限量子制御、物質表現である。これらは、互いに独立な形式的類似ではなく、同じpointing、typing、provenanceを継承する一つの数学的量子重力候補を形づくる。
+
+この構成の最も強い帰結は、公共的な時空と客観的法則を説明の出発点に置かなくてもよいことである。異なるstandpointのintersectionが、再現可能な量子確率、Lorentz幾何、保存則、重力力学を生成できる。したがって客観性は、主観性より先に置かれる絶対的前提ではなく、関係的sourceから生じる安定構造として理解できる。
+
+CKM readoutについては、事前登録された同一計算の確認実験がPASSし、凍結測定表との定量的整合と三つの構造破壊controlへの識別性が確認された。これは、本構成の物質sectorに初めて登録された経験的接続を与えるが、既知導出の再現確認であってprospective predictionではない。
+
+今後の決定的な課題は、独立実装でCKM確認を再現し、固定済みpipelineを将来dataに対してprospectiveに検査するとともに、gravity-specific residualをmatched controlと実測dataに対して事前宣言された形で検査することである。同時に、strong-curvature領域とfully coupled matter--gravity principal systemへの理論拡張を進める。この二つが、構成の数学的一貫性を物理理論としての支持へさらに変える。
+
+\section{データ・コード・研究支援}
+
+本稿に対応するsource、導出ノート、検証コード、数値出力、監査記録は、Subjectivity-Intersection Mathematics repositoryのversioned research packageに保存する。E016の事前登録はDOI-1、実行結果は独立したDOI-2として公開され、frozen input、runner、machine-readable resultを含む\cite{e016prereg,e016result}。各公開版のtag、archive、checksum、claim-to-source対応はartifact manifestから参照できる。これにより、本文の数理的主張と、再現性のためのprovenance記録を同時に追跡できる。
+
+標準的なBraid、information geometry、GKSL/Stinespring、Fierz--Pauli、HDA/BFV、LCU、QSPの数学機構そのものを本研究の独創として扱わない。本研究の提案は、それらをpointedかつstandpoint-bearingな同一sourceから連結して読み出す生成architectureにある。
+
+OpenAI Codexは、著者の指示の下で、数学的ideation、exact-check scripting、audit organization、draftingに使用された。definition、interpretation、verification、citation、および本研究をreleaseまたはsubmitするあらゆる決定の責任は著者が負う。
+
+\begin{thebibliography}{99}
+\raggedright
+\footnotesize
+\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+
+\bibitem{artin1947}
+E. Artin, ``Theory of braids,'' \emph{Annals of Mathematics} \textbf{48}(1), 101--126 (1947). \href{https://doi.org/10.2307/1969218}{doi:10.2307/1969218}.
+
+\bibitem{amari2016}
+S.-i. Amari, \emph{Information Geometry and Its Applications}. Springer (2016). \href{https://doi.org/10.1007/978-4-431-55978-8}{doi:10.1007/978-4-431-55978-8}.
+
+\bibitem{fierzpauli1939}
+M. Fierz and W. Pauli, ``On relativistic wave equations for particles of arbitrary spin in an electromagnetic field,'' \emph{Proceedings of the Royal Society A} \textbf{173}, 211--232 (1939). \href{https://doi.org/10.1098/rspa.1939.0140}{doi:10.1098/rspa.1939.0140}.
+
+\bibitem{hkt1976}
+S. A. Hojman, K. Kucha\v{r}, and C. Teitelboim, ``Geometrodynamics regained,'' \emph{Annals of Physics} \textbf{96}, 88--135 (1976). \href{https://doi.org/10.1016/0003-4916(76)90112-3}{doi:10.1016/0003-4916(76)90112-3}.
+
+\bibitem{bahrdittrich2009}
+B. Bahr and B. Dittrich, ``Improved and perfect actions in discrete gravity,'' \emph{Physical Review D} \textbf{80}, 124030 (2009). \href{https://doi.org/10.1103/PhysRevD.80.124030}{doi:10.1103/PhysRevD.80.124030}.
+
+\bibitem{henneauxteitelboim1992}
+M. Henneaux and C. Teitelboim, \emph{Quantization of Gauge Systems}. Princeton University Press (1992), ISBN 978-0-691-03769-1.
+
+\bibitem{hehl1995}
+F. W. Hehl, J. D. McCrea, E. W. Mielke, and Y. Ne'eman, ``Metric-affine gauge theory of gravity,'' \emph{Physics Reports} \textbf{258}, 1--171 (1995). \href{https://doi.org/10.1016/0370-1573(94)00111-F}{doi:10.1016/0370-1573(94)00111-F}.
+
+\bibitem{gorini1976}
+V. Gorini, A. Kossakowski, and E. C. G. Sudarshan, ``Completely positive dynamical semigroups of $N$-level systems,'' \emph{Journal of Mathematical Physics} \textbf{17}, 821--825 (1976). \href{https://doi.org/10.1063/1.522979}{doi:10.1063/1.522979}.
+
+\bibitem{lindblad1976}
+G. Lindblad, ``On the generators of quantum dynamical semigroups,'' \emph{Communications in Mathematical Physics} \textbf{48}, 119--130 (1976). \href{https://doi.org/10.1007/BF01608499}{doi:10.1007/BF01608499}.
+
+\bibitem{stinespring1955}
+W. F. Stinespring, ``Positive functions on $C^*$-algebras,'' \emph{Proceedings of the American Mathematical Society} \textbf{6}, 211--216 (1955). \href{https://doi.org/10.2307/2032342}{doi:10.2307/2032342}.
+
+\bibitem{umegaki1962}
+H. Umegaki, ``Conditional expectation in an operator algebra, IV,'' \emph{Kodai Mathematical Seminar Reports} \textbf{14}, 59--85 (1962). \href{https://doi.org/10.2996/kmj/1138844604}{doi:10.2996/kmj/1138844604}.
+
+\bibitem{feynmanvernon1963}
+R. P. Feynman and F. L. Vernon, Jr., ``The theory of a general quantum system interacting with a linear dissipative system,'' \emph{Annals of Physics} \textbf{24}, 118--173 (1963). \href{https://doi.org/10.1016/0003-4916(63)90068-X}{doi:10.1016/0003-4916(63)90068-X}.
+
+\bibitem{childswiebe2012}
+A. M. Childs and N. Wiebe, ``Hamiltonian simulation using linear combinations of unitary operations,'' \emph{Quantum Information \& Computation} \textbf{12}, 901--924 (2012). \href{https://arxiv.org/abs/1202.5822}{arXiv:1202.5822}.
+
+\bibitem{lowchuang2017}
+G. H. Low and I. Chuang, ``Optimal Hamiltonian simulation by quantum signal processing,'' \emph{Physical Review Letters} \textbf{118}, 010501 (2017). \href{https://doi.org/10.1103/PhysRevLett.118.010501}{doi:10.1103/PhysRevLett.118.010501}.
+
+\bibitem{gilyen2019}
+A. Gily\'en, Y. Su, G. H. Low, and N. Wiebe, ``Quantum singular value transformation and beyond,'' in \emph{Proceedings of STOC 2019}, 193--204 (2019). \href{https://doi.org/10.1145/3313276.3316366}{doi:10.1145/3313276.3316366}.
+
+\bibitem{codata2022}
+NIST, \emph{2022 CODATA Recommended Values of the Fundamental Physical Constants}, 2022 release. \href{https://www.physics.nist.gov/cuu/pdf/wall_2022.pdf}{NIST CODATA wall chart}.
+
+\bibitem{bipmSI}
+BIPM, ``SI defining constants.'' \href{https://www.bipm.org/en/measurement-units}{bipm.org/en/measurement-units}.
+
+\bibitem{pdg2024ckm}
+S. Navas et al. (Particle Data Group), ``Review of Particle Physics,'' \emph{Physical Review D} \textbf{110}, 030001 (2024), CKM Quark-Mixing Matrix review. \href{https://doi.org/10.1103/PhysRevD.110.030001}{doi:10.1103/PhysRevD.110.030001}.
+
+\bibitem{e016prereg}
+S. Watanabe, \emph{E016 --- Pointed-Braid CKM Derivation Confirmation: Preregistration}, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.23006547}{doi:10.5281/zenodo.23006547}.
+
+\bibitem{e016result}
+S. Watanabe, \emph{E016 --- Pointed-Braid CKM Derivation Confirmation: Result Release}, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.23006637}{doi:10.5281/zenodo.23006637}.
+
+\bibitem{watanabe2026braid}
+S. Watanabe, \emph{Subjectivity-Intersection Mathematics: All-Orders Intersection Consistency and Compositional Objectivity from Pointed Unitary Braids}, version 1.0, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.22166167}{doi:10.5281/zenodo.22166167}.
+
+\bibitem{watanabe2026ontology}
+S. Watanabe, \emph{Subjectivity Intersection Ontology: A Comparative Ontological Framework for Third Subjectivity}, version 1.0.0, Zenodo (2026). \href{https://doi.org/10.5281/zenodo.21641878}{doi:10.5281/zenodo.21641878}.
+
+\end{thebibliography}
+
+\end{document}

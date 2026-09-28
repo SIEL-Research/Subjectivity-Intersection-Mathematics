@@ -1,0 +1,54 @@
+{
+  "schema": "siel.preprint.artifact-manifest.v1",
+  "title": "Subjectivity-Intersection Braid Quantum Gravity",
+  "language": "ja",
+  "version": "0.96",
+  "date": "2026-09-28",
+  "status": "LOCAL_DRAFT_NOT_RELEASED",
+  "source_repository": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics",
+  "base_revision": "79d6dd3d37a3e46b64dd1d0a134de6cace5bd3b6",
+  "claim_scope": {
+    "included": [
+      "verified mathematical derivations and scoped theorems",
+      "finite quantum structure and control engine",
+      "registered E016 CKM derivation confirmation"
+    ],
+    "excluded_from_manuscript_claims": [
+      "unverified PMNS numerical output",
+      "unverified neutral-mass numerical output",
+      "unverified active-neutral mixing numerical output"
+    ],
+    "e016_claim_ceiling": "Registered reproducibility confirmation of a known derivation; not a blind prospective prediction"
+  },
+  "registered_records": {
+    "preregistration_doi": "10.5281/zenodo.23006547",
+    "result_doi": "10.5281/zenodo.23006637",
+    "decision": "PASS"
+  },
+  "artifacts": [
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.96_JA.tex",
+      "bytes": 56774,
+      "sha256": "fa79fb5871e080306f159661495be824f0e503a02cb80f603235415184acf870"
+    },
+    {
+      "path": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v0.96_JA.pdf",
+      "bytes": 280886,
+      "pages": 17,
+      "sha256": "85ec8fd5721cf07a7efb4bd6848095a59d79fef4d241925e4d66e1f67619e258"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1188,
+      "sha256": "78d43cb2bb4aadd7e17f2460480e44cf2dd4979faabb721790fe324fc7185b36"
+    }
+  ],
+  "verification": {
+    "latex_engine": "XeLaTeX",
+    "compile_pass": true,
+    "undefined_references": 0,
+    "overfull_boxes": 0,
+    "visual_pages_checked": 17,
+    "legacy_unverified_numeric_outputs_found": 0
+  }
+}
