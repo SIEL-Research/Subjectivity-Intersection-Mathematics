@@ -4,7 +4,7 @@
   "languages": ["en"],
   "version": "0.97",
   "date": "2026-09-29",
-  "status": "PUBLISHED_GITHUB__ZENODO_DEPOSIT_PENDING",
+  "status": "PUBLISHED_GITHUB_AND_ZENODO",
   "source_repository": "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics",
   "sim_base_revision": "bb10148e4e6e5c9662b36be0822b5c9df43b91c7",
   "sra_evidence_revision": "58026d1254ae8b6b8a0db71d218683c57e9a9d76",
@@ -36,11 +36,11 @@
     "decision": "PASS"
   },
   "preprint_release": {
-    "github_status": "APPROVED_FOR_PUBLICATION",
-    "zenodo_status": "APPROVED_FOR_NEW_VERSION_DEPOSIT",
+    "github_status": "PUBLISHED",
+    "zenodo_status": "PUBLISHED",
     "concept_doi": "10.5281/zenodo.22693964",
-    "record_doi": null,
-    "record_url": null
+    "record_doi": "10.5281/zenodo.22975266",
+    "record_url": "https://zenodo.org/records/22975266"
   },
   "artifacts": [
     {
@@ -56,8 +56,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1743,
-      "sha256": "e954247e753c14c4bd423e9019aa23b62fba5b0dbeeb1573828651a8eab6afa3"
+      "bytes": 1831,
+      "sha256": "591aaf27c616330f023815b650775837b87050bbe8d72f45a0ab5e5365578473"
     },
     {
       "path": "CHANGELOG_v0.97.md",
@@ -66,8 +66,8 @@
     },
     {
       "path": "ZENODO_METADATA_v0.97.json",
-      "bytes": 3094,
-      "sha256": "084d6cf83ab15f16c6583cd5a2342f47fb2b9eba3146e3719992cb9ba4c0b935"
+      "bytes": 3132,
+      "sha256": "e216dc05be43f6c61edb1d418d7d8e9a22db48e73203d724207cb7fed3bc5753"
     }
   ],
   "verification": {

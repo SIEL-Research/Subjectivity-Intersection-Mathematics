@@ -27,7 +27,10 @@ The paper does not claim empirical PMNS agreement, absolute neutrino masses, a s
 
 ## Release status
 
-`PUBLISHED_GITHUB__ZENODO_DEPOSIT_PENDING`.
+`PUBLISHED_GITHUB_AND_ZENODO`.
+
+- Zenodo record: https://zenodo.org/records/22975266
+- DOI: https://doi.org/10.5281/zenodo.22975266
 
 GitHub and Zenodo publication are not peer review, journal acceptance,
 independent replication, or empirical confirmation of quantum gravity.
